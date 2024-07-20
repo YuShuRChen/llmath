@@ -1,0 +1,49 @@
+To solve the problem of adding two octal (base 8) numbers, we need to convert them to decimal (base 10) numbers, perform the addition in decimal, and then convert the result back to octal.
+
+First, let's convert the octal numbers 5135_{8} and 41110_{8} to decimal (base 10):
+
+1. **Convert 5135_{8} to decimal:**
+\[ 5135_{8} = 5 \times 8^3 + 1 \times 8^2 + 3 \times 8^1 + 5 \times 8^0 \]
+
+Calculate each term:
+\[ 5 \times 8^3 = 5 \times 512 = 2560 \]
+\[ 1 \times 8^2 = 1 \times 64 = 64 \]
+\[ 3 \times 8^1 = 3 \times 8 = 24 \]
+\[ 5 \times 8^0 = 5 \]
+
+Sum these values:
+\[ 2560 + 64 + 24 + 5 = 2653 \]
+
+So, \( 5135_{8} = 2653_{10} \).
+
+2. **Convert 41110_{8} to decimal:**
+\[ 41110_{8} = 4 \times 8^4 + 1 \times 8^3 + 1 \times 8^2 + 1 \times 8^1 + 0 \times 8^0 \]
+
+Calculate each term:
+\[ 4 \times 8^4 = 4 \times 4096 = 16384 \]
+\[ 1 \times 8^3 = 1 \times 512 = 512 \]
+\[ 1 \times 8^2 = 1 \times 64 = 64 \]
+\[ 1 \times 8^1 = 1 \times 8 = 8 \]
+\[ 0 \times 8^0 = 0 \]
+
+Sum these values:
+\[ 16384 + 512 + 64 + 8 + 0 = 16968 \]
+
+So, \( 41110_{8} = 16968_{10} \).
+
+Next, add the decimal values:
+\[ 2653_{10} + 16968_{10} = 19621_{10} \]
+
+Now, convert the decimal result back to octal:
+1. **Convert 19621_{10} to octal:**
+   - Divide 19621 by 8: \( 19621 \div 8 = 2452 \) remainder \( 5 \)
+   - Divide 2452 by 8: \( 2452 \div 8 = 306 \) remainder \( 4 \)
+   - Divide 306 by 8: \( 306 \div 8 = 38 \) remainder \( 2 \)
+   - Divide 38 by 8: \( 38 \div 8 = 4 \) remainder \( 6 \)
+   - Divide 4 by 8: \( 4 \div 8 = 0 \) remainder \( 4 \)
+
+Reading the remainders from bottom to top, we get the octal representation:
+\[ 19621_{10} = 46245_{8} \]
+
+**Summarized Solution:**
+\[ 5135_{8} + 41110_{8} = 2653_{10} + 16968_{10} = 19621_{10} = 46245_{8} \]

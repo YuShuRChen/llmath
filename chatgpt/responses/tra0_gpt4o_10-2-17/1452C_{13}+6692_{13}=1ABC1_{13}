@@ -1,0 +1,27 @@
+To solve the equation \(1452C_{13} + 6692_{13}\), we first need to convert both numbers from base 13 to base 10. After that, we can add them in base 10. Finally, we might convert back to base 13 if required.
+
+### Step 1: Convert \(1452C_{13}\) to base 10
+1. Identify the place values in base 13 (from right to left): \(13^0, 13^1, 13^2, 13^3, 13^4\)
+2. Convert each digit in \(1452C_{13}\) to its base 10 equivalent:
+   - \(C_{13} = 12_{10}\) (where C represents 12 in base 13)
+   - \(1_{13}, 4_{13}, 5_{13}, 2_{13}\) remain the same as \(1_{10}, 4_{10}, 5_{10}, 2_{10}\) respectively.
+
+Therefore,
+\[ 1452C_{13} = 1 \cdot 13^4 + 4 \cdot 13^3 + 5 \cdot 13^2 + 2 \cdot 13^1 + 12 \cdot 13^0 \]
+\[ = 1 \cdot 28561 + 4 \cdot 2197 + 5 \cdot 169 + 2 \cdot 13 + 12 \cdot 1 \]
+\[ = 28561 + 8788 + 845 + 26 + 12 \]
+\[ = 38232 \]
+
+### Step 2: Convert \(6692_{13}\) to base 10
+1. Convert each digit in \(6692_{13}\) to its base 10 equivalent (they remain the same since they are valid base 10 digits).
+
+\[ 6692_{13} = 6 \cdot 13^3 + 6 \cdot 13^2 + 9 \cdot 13^1 + 2 \cdot 13^0 \]
+\[ = 6 \cdot 2197 + 6 \cdot 169 + 9 \cdot 13 + 2 \cdot 1 \]
+\[ = 13182 + 1014 + 117 + 2 \]
+\[ = 14315 \]
+
+### Step 3: Add the numbers in base 10
+\[ 38232 + 14315 = 52547 \]
+
+### Summary
+\[ 1452C_{13} + 6692_{13} = 38232_{10} + 14315_{10} = 52547_{10} \]

@@ -1,0 +1,70 @@
+To solve the problem of adding two numbers given in base 3, we'll follow these steps:
+
+1. Convert each base 3 number to base 10.
+2. Perform the addition in base 10.
+3. Convert the result back to base 3.
+
+**Step 1: Convert each base 3 number to base 10.**
+
+Let's convert \(1221110000_{3}\) to base 10:
+- The number \(1221110000_{3}\) can be expanded as follows:
+- \(1 \cdot 3^9 + 2 \cdot 3^8 + 2 \cdot 3^7 + 1 \cdot 3^6 + 1 \cdot 3^5 + 1 \cdot 3^4 + 0 \cdot 3^3 + 0 \cdot 3^2 + 0 \cdot 3^1 + 0 \cdot 3^0\)
+
+Calculating each term:
+- \(1 \cdot 3^9 = 1 \cdot 19683 = 19683\)
+- \(2 \cdot 3^8 = 2 \cdot 6561 = 13122\)
+- \(2 \cdot 3^7 = 2 \cdot 2187 = 4374\)
+- \(1 \cdot 3^6 = 1 \cdot 729 = 729\)
+- \(1 \cdot 3^5 = 1 \cdot 243 = 243\)
+- \(1 \cdot 3^4 = 1 \cdot 81 = 81\)
+
+Adding these values together:
+\[19683 + 13122 + 4374 + 729 + 243 + 81 = 38193_{10}\]
+
+Now let's convert \(201122012_{3}\) to base 10:
+- The number \(201122012_{3}\) can be expanded as follows:
+- \(2 \cdot 3^8 + 0 \cdot 3^7 + 1 \cdot 3^6 + 1 \cdot 3^5 + 2 \cdot 3^4 + 2 \cdot 3^3 + 0 \cdot 3^2 + 1 \cdot 3^1 + 2 \cdot 3^0\)
+
+Calculating each term:
+- \(2 \cdot 3^8 = 2 \cdot 6561 = 13122\)
+- \(0 \cdot 3^7 = 0 \cdot 2187 = 0\)
+- \(1 \cdot 3^6 = 1 \cdot 729 = 729\)
+- \(1 \cdot 3^5 = 1 \cdot 243 = 243\)
+- \(2 \cdot 3^4 = 2 \cdot 81 = 162\)
+- \(2 \cdot 3^3 = 2 \cdot 27 = 54\)
+- \(0 \cdot 3^2 = 0 \cdot 9 = 0\)
+- \(1 \cdot 3^1 = 1 \cdot 3 = 3\)
+- \(2 \cdot 3^0 = 2 \cdot 1 = 2\)
+
+Adding these values together:
+\[13122 + 0 + 729 + 243 + 162 + 54 + 0 + 3 + 2 = 14315_{10}\]
+
+**Step 2: Perform the addition in base 10.**
+
+Add the two converted base 10 numbers:
+\[ 38193_{10} + 14315_{10} = 52508_{10} \]
+
+**Step 3: Convert the result back to base 3.**
+
+To convert \(52508_{10}\) to base 3, we need to find the coefficients for powers of 3.
+
+By division method:
+- \(52508 \div 3 = 17502, \, \text{remainder } 2\)
+- \(17502 \div 3 = 5834, \, \text{remainder } 0\)
+- \(5834 \div 3 = 1944, \, \text{remainder } 2\)
+- \(1944 \div 3 = 648, \, \text{remainder } 0\)
+- \(648 \div 3 = 216, \, \text{remainder } 0\)
+- \(216 \div 3 = 72, \, \text{remainder } 0\)
+- \(72 \div 3 = 24, \, \text{remainder } 0\)
+- \(24 \div 3 = 8, \, \text{remainder } 0\)
+- \(8 \div 3 = 2, \, \text{remainder } 2\)
+- \(2 \div 3 = 0, \, \text{remainder } 2\)
+
+Reading the remainders from bottom to top gives us:
+\[ 52508_{10} = 2200000222_{3} \]
+
+**Summary:**
+\[ 1221110000_{3} + 201122012_{3} = 38193_{10} + 14315_{10} = 52508_{10} = 2200000222_{3} \]
+
+Therefore,
+\[ 1221110000_{3} + 201122012_{3} = 2200000222_{3} \]

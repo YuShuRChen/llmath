@@ -1,0 +1,11 @@
+Converting both numbers to decimal:
+101001011101_{2} = 27181_{10}
+100001001001000_{2} = 34936_{10}
+
+Adding both decimal values:
+27181_{10} + 34936_{10} = 62117_{10}
+
+Converting the result back to binary:
+62117_{10} = 1111000010101001_{2}
+
+Therefore, 101001011101_{2} + 100001001001000_{2} = 1111000010101001_{2}

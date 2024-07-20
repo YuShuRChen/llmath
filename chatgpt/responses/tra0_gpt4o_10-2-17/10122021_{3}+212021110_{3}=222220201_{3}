@@ -1,0 +1,136 @@
+First, let's convert the given ternary (base 3) numbers to decimal (base 10).
+
+For \(10122021_3\):
+
+\[
+1 \cdot 3^7 + 0 \cdot 3^6 + 1 \cdot 3^5 + 2 \cdot 3^4 + 2 \cdot 3^3 + 0 \cdot 3^2 + 2 \cdot 3^1 + 1 \cdot 3^0
+\]
+
+Calculating each term individually:
+
+\[
+1 \cdot 2187 = 2187
+\]
+\[
+0 \cdot 729 = 0
+\]
+\[
+1 \cdot 243 = 243
+\]
+\[
+2 \cdot 81 = 162
+\]
+\[
+2 \cdot 27 = 54
+\]
+\[
+0 \cdot 9 = 0
+\]
+\[
+2 \cdot 3 = 6
+\]
+\[
+1 \cdot 1 = 1
+\]
+
+Adding these together:
+
+\[
+2187 + 243 + 162 + 54 + 6 + 1 = 2653
+\]
+
+So, \(10122021_3 = 2653_{10}\).
+
+Next, let's convert \(212021110_3\):
+
+\[
+2 \cdot 3^8 + 1 \cdot 3^7 + 2 \cdot 3^6 + 0 \cdot 3^5 + 2 \cdot 3^4 + 1 \cdot 3^3 + 1 \cdot 3^2 + 1 \cdot 3^1 + 0 \cdot 3^0
+\]
+
+Calculating each term individually:
+
+\[
+2 \cdot 6561 = 13122
+\]
+\[
+1 \cdot 2187 = 2187
+\]
+\[
+2 \cdot 729 = 1458
+\]
+\[
+0 \cdot 243 = 0
+\]
+\[
+2 \cdot 81 = 162
+\]
+\[
+1 \cdot 27 = 27
+\]
+\[
+1 \cdot 9 = 9
+\]
+\[
+1 \cdot 3 = 3
+\]
+\[
+0 \cdot 1 = 0
+\]
+
+Adding these together:
+
+\[
+13122 + 2187 + 1458 + 0 + 162 + 27 + 9 + 3 + 0 = 16868
+\]
+
+So, \(212021110_3 = 16868_{10}\).
+
+Now, adding the decimal results:
+
+\[
+2653 + 16868 = 19521
+\]
+
+Finally, let's convert \(19521_{10}\) back to base 3.
+
+Dividing by 3 repeatedly:
+
+\[
+19521 \div 3 = 6507 \quad \text{remainder} \: 0
+\]
+\[
+6507 \div 3 = 2169 \quad \text{remainder} \: 0
+\]
+\[
+2169 \div 3 = 723 \quad \text{remainder} \: 0
+\]
+\[
+723 \div 3 = 241 \quad \text{remainder} \: 0
+\]
+\[
+241 \div 3 = 80 \quad \text{remainder} \: 1
+\]
+\[
+80 \div 3 = 26 \quad \text{remainder} \: 2
+\]
+\[
+26 \div 3 = 8 \quad \text{remainder} \: 2
+\]
+\[
+8 \div 3 = 2 \quad \text{remainder} \: 2
+\]
+\[
+2 \div 3 = 0 \quad \text{remainder} \: 2
+\]
+
+Reading the remainders from bottom to top, we obtain:
+
+\[
+19521_{10} = 222200000_3
+\]
+
+Summarizing, the original equation and intermediate steps are as follows:
+
+\[
+10122021_3 + 212021110_3 = 2653_{10} + 16868_{10} = 19521_{10} = 222200000_3
+\]

@@ -1,0 +1,22 @@
+To add the numbers 140240_{7} and 111644_{7}, we first line them up:
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c}
+ & & 1 & 4 & 0 & 2 & 4_{7} \\
++ & & 1 & 1 & 1 & 6 & 4_{7} \\
+\hline
+\end{array}
+\]
+
+Then, we proceed with the addition:
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c}
+ & & 1 & 4 & 0 & 2 & 4_{7} \\
++ & & 1 & 1 & 1 & 6 & 4_{7} \\
+\hline
+ & 2 & 6 & 1 & 3 & 1_{7} \\
+\end{array}
+\]
+
+Therefore, \(140240_{7} + 111644_{7} = 26131_{7}\).

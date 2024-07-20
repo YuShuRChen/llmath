@@ -1,0 +1,11 @@
+First, we need to convert the numbers to base 10:
+1AA2_{11} = 1*11^3 + 10*11^2 + 10*11^1 + 2*11^0 = 1463_{10}
+11826_{11} = 1*11^4 + 1*11^3 + 8*11^2 + 2*11^1 + 6*11^0 = 17388_{10}
+
+Adding these two base 10 numbers:
+1463_{10} + 17388_{10} = 18851_{10}
+
+Converting the result back to base 11:
+18851_{10} = 1451_{11}
+
+Therefore, 1AA2_{11} + 11826_{11} = 1451_{11}

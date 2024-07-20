@@ -1,0 +1,62 @@
+To solve \( 5715_{15} + 2AA8_{15} \), we need to convert both numbers from base 15 to base 10, perform the addition, and then convert the result back to base 15.
+
+First, we convert \( 5715_{15} \) to base 10.
+
+\[ 5715_{15} = 5 \cdot 15^3 + 7 \cdot 15^2 + 1 \cdot 15^1 + 5 \cdot 15^0 \]
+
+Calculating each term individually:
+
+\[ 5 \cdot 15^3 = 5 \cdot 3375 = 16875 \]
+\[ 7 \cdot 15^2 = 7 \cdot 225 = 1575 \]
+\[ 1 \cdot 15^1 = 1 \cdot 15 = 15 \]
+\[ 5 \cdot 15^0 = 5 \]
+
+Adding these together:
+
+\[ 16875 + 1575 + 15 + 5 = 18470 \]
+
+So, \( 5715_{15} = 18470_{10} \).
+
+Next, we convert \( 2AA8_{15} \) to base 10.
+
+\[ 2AA8_{15} = 2 \cdot 15^3 + 10 \cdot 15^2 + 10 \cdot 15^1 + 8 \cdot 15^0 \]
+
+Calculating each term individually:
+
+\[ 2 \cdot 15^3 = 2 \cdot 3375 = 6750 \]
+\[ 10 \cdot 15^2 = 10 \cdot 225 = 2250 \]
+\[ 10 \cdot 15^1 = 10 \cdot 15 = 150 \]
+\[ 8 \cdot 15^0 = 8 \]
+
+Adding these together:
+
+\[ 6750 + 2250 + 150 + 8 = 9158 \]
+
+So, \( 2AA8_{15} = 9158_{10} \).
+
+Now, we add the two base 10 numbers together:
+
+\[ 18470 + 9158 = 27628 \]
+
+Finally, we need to convert \( 27628_{10} \) back to base 15.
+
+To convert from base 10 to base 15, we repeatedly divide by 15 and keep track of the remainders.
+
+\[ 27628 \div 15 = 1841 \text{ remainder } 13 \]
+\[ 1841 \div 15 = 122 \text{ remainder } 11 \]
+\[ 122 \div 15 = 8 \text{ remainder } 2 \]
+\[ 8 \div 15 = 0 \text{ remainder } 8 \]
+
+So the remainders, read from bottom to top, are \( 821B_{15} \).
+
+Therefore, the answer is:
+
+\[ 5715_{15} + 2AA8_{15} = 821B_{15} \]
+
+Summary:
+\[ 5715_{15} \rightarrow 18470_{10}, \]
+\[ 2AA8_{15} \rightarrow 9158_{10}, \]
+\[ 18470_{10} + 9158_{10} = 27628_{10} \rightarrow 821B_{15} \]
+
+Thus:
+\[ 5715_{15} + 2AA8_{15} = 27628_{10} = 821B_{15} \]

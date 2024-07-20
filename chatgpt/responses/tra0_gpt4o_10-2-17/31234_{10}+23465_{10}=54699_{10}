@@ -1,0 +1,32 @@
+Let's first compute the sum of the two given decimal numbers.
+
+\[
+31234_{10} + 23465_{10}
+\]
+
+Start by aligning the numbers by their units place and perform the addition.
+
+\[
+\begin{array}{r}
+31234 \\
++ 23465 \\
+\hline
+\end{array}
+\]
+
+We add column by column from right to left:
+
+- Units place: \(4 + 5 = 9\)
+- Tens place: \(3 + 6 = 9\)
+- Hundreds place: \(2 + 4 = 6\)
+- Thousands place: \(1 + 3 = 4\)
+- Ten thousands place: \(3 + 2 = 5\)
+
+Thus, the sum is:
+
+\[
+54699_{10}
+\]
+
+Summarizing the steps: 
+\[ 31234_{10} + 23465_{10} = 54699_{10} \]

@@ -1,0 +1,80 @@
+To compute \(37562_9 + 41724_9\), start by converting each base-9 number to base-10.
+
+First, convert \(37562_9\):
+\[
+37562_9 = 3 \cdot 9^4 + 7 \cdot 9^3 + 5 \cdot 9^2 + 6 \cdot 9^1 + 2 \cdot 9^0
+\]
+\[
+= 3 \cdot 6561 + 7 \cdot 729 + 5 \cdot 81 + 6 \cdot 9 + 2 \cdot 1
+\]
+\[
+= 19683 + 5103 + 405 + 54 + 2
+\]
+\[
+= 25247_{10}
+\]
+
+Next, convert \(41724_9\):
+\[
+41724_9 = 4 \cdot 9^4 + 1 \cdot 9^3 + 7 \cdot 9^2 + 2 \cdot 9^1 + 4 \cdot 9^0
+\]
+\[
+= 4 \cdot 6561 + 1 \cdot 729 + 7 \cdot 81 + 2 \cdot 9 + 4 \cdot 1
+\]
+\[
+= 26244 + 729 + 567 + 18 + 4
+\]
+\[
+= 27562_{10}
+\]
+
+Now, add the base-10 equivalents:
+\[
+25247_{10} + 27562_{10} = 52809_{10}
+\]
+
+Finally, convert \(52809_{10}\) back to base-9:
+Find the largest power of 9 that fits into 52809.
+
+\[
+52809 \div 6561 \approx 8 \quad (\text{so the coefficient for } 9^4 \text{ is } 8)
+\]
+\[
+52809 - 8 \cdot 6561 = 52809 - 52488 = 321
+\]
+
+Continue to the next power:
+\[
+321 \div 729 \approx 0 \quad (\text{so the coefficient for } 9^3 \text{ is } 0)
+\]
+
+Then:
+\[
+321 \div 81 \approx 3 \quad (\text{so the coefficient for } 9^2 \text{ is } 3)
+\]
+\[
+321 - 3 \cdot 81 = 321 - 243 = 78
+\]
+
+Continuing to the next power:
+\[
+78 \div 9 = 8 \quad (\text{so the coefficient for } 9^1 \text{ is } 8)
+\]
+\[
+78 - 8 \cdot 9 = 78 - 72 = 6
+\]
+
+Finally:
+\[
+6 \div 1 = 6 \quad (\text{so the coefficient for } 9^0 \text{ is } 6)
+\]
+
+Thus:
+\[
+52809_{10} = 80386_{9}
+\]
+
+Summarized:
+\[
+37562_9 + 41724_9 = 37562_{9} \rightarrow 25247_{10} + 41724_{9} \rightarrow 27562_{10} = 52809_{10} \rightarrow 80386_{9}
+\]

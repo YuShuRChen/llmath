@@ -1,0 +1,101 @@
+To solve the equation \(20141_{6} + 210320_{6}\), we first convert both numbers from base 6 to base 10.
+
+Starting with \(20141_{6}\):
+
+\[ 
+20141_{6} = 2 \cdot 6^4 + 0 \cdot 6^3 + 1 \cdot 6^2 + 4 \cdot 6^1 + 1 \cdot 6^0 
+\]
+
+Calculating each term:
+
+\[ 
+2 \cdot 6^4 = 2 \cdot 1296 = 2592 
+\]
+\[ 
+0 \cdot 6^3 = 0 
+\]
+\[ 
+1 \cdot 6^2 = 1 \cdot 36 = 36 
+\]
+\[ 
+4 \cdot 6^1 = 4 \cdot 6 = 24 
+\]
+\[ 
+1 \cdot 6^0 = 1 
+\]
+
+Adding these together:
+
+\[ 
+2592 + 0 + 36 + 24 + 1 = 2653 
+\]
+
+Next, for \(210320_{6}\):
+
+\[ 
+210320_{6} = 2 \cdot 6^5 + 1 \cdot 6^4 + 0 \cdot 6^3 + 3 \cdot 6^2 + 2 \cdot 6^1 + 0 \cdot 6^0 
+\]
+
+Calculating each term:
+
+\[ 
+2 \cdot 6^5 = 2 \cdot 7776 = 15552 
+\]
+\[ 
+1 \cdot 6^4 = 1 \cdot 1296 = 1296 
+\]
+\[ 
+0 \cdot 6^3 = 0 
+\]
+\[ 
+3 \cdot 6^2 = 3 \cdot 36 = 108 
+\]
+\[ 
+2 \cdot 6^1 = 2 \cdot 6 = 12 
+\]
+\[ 
+0 \cdot 6^0 = 0 
+\]
+
+Adding these together:
+
+\[ 
+15552 + 1296 + 0 + 108 + 12 + 0 = 16968 
+\]
+
+Adding the two base 10 results together:
+
+\[ 
+2653 + 16968 = 19621 
+\]
+
+Finally, we convert \(19621_{10}\) back to base 6. To do this, we determine the coefficients for powers of 6 starting from the highest power:
+
+1. \(6^6 = 46656\) (too large)
+2. \(6^5 = 7776\) (too large)
+3. \(6^4 = 1296\):
+   - \(19621 \div 1296 = 15\) remainder \(19621 - 15 \cdot 1296 = 761\)
+
+4. \(6^3 = 216\):
+   - \(761 \div 216 = 3\) remainder \(761 - 3 \cdot 216 = 113\)
+
+5. \(6^2 = 36\):
+   - \(113 \div 36 = 3\) remainder \(113 - 3 \cdot 36 = 5\)
+
+6. \(6^1 = 6\):
+   - \(5 \div 6 = 0\) remainder \(5\)
+
+7. \(6^0 = 1\):
+   - The remainder is \(5\)
+
+Therefore, \(19621_{10}\) converts to \(153305_{6}\).
+
+Summarized in one line:
+\[
+20141_{6} + 210320_{6} = 20141_{6} = 2653_{10}, 210320_{6} = 16968_{10}, 2653_{10} + 16968_{10} = 19621_{10} = 153305_{6}
+\]
+
+So the final result is:
+\[
+20141_{6} + 210320_{6} = 153305_{6}
+\]

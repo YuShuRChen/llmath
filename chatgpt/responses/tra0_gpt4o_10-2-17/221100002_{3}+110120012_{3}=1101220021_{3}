@@ -1,0 +1,78 @@
+To add the numbers in base 3, follow these steps:
+
+1. Align the numbers by the least significant digit:
+
+```
+221100002_{3}
++110120012_{3}
+```
+
+2. Add the digits in each column from right to left, carrying over as needed (since we’re in base 3).
+
+Let's add starting from the rightmost digit:
+
+- **Rightmost column:**
+  \[
+  2 + 2 = 4
+  \]
+  Since 4 in base 3 is \(4_{10} = 1*3^1 + 1*3^0 = 11_3\), we write 1 and carry over 1.
+
+- **Next column:**
+  \[
+  0 + 1 + 1 \text{ (carry)} = 2
+  \]
+  No carry.
+
+- **Next column:**
+  \[
+  0 + 0 = 0
+  \]
+  No carry.
+
+- **Next column:**
+  \[
+  0 + 2 = 2
+  \]
+  No carry.
+
+- **Next column:**
+  \[
+  0 + 1 = 1
+  \]
+  No carry.
+
+- **Next column:**
+  \[
+  1 + 0 = 1
+  \]
+  No carry.
+
+- **Next column:**
+  \[
+  1 + 1 = 2
+  \]
+  No carry.
+
+- **Next column:**
+  \[
+  2 + 1 = 3
+  \]
+  \(3_{10} = 10_3\), so we write down 0 and carry over 1.
+
+- **Leftmost column:**
+  \[
+  2 + \text{(carry)} 1 = 3
+  \]
+  \(3_{10} = 10_3\), so we write down 0 and carry over 1.
+
+  Since there are no more digits to add, we simply bring down the carry-over to the final result.
+
+The final sum is 
+```
+1001001101_{3}
+```
+
+Summarized in one line:
+\[
+221100002_{3} + 110120012_{3} = 1001001101_{3}
+\]

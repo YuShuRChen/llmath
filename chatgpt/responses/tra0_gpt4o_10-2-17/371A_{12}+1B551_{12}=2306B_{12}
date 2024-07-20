@@ -1,0 +1,100 @@
+First, we will convert the given numbers from base-12 to base-10.
+
+### Converting 371A_{12} to base-10:
+
+Let's denote the base-12 number "371A" as "3 * 12^3 + 7 * 12^2 + 1 * 12^1 + 10 * 12^0", since 'A' represents 10 in base-12.
+
+\[
+3 * 12^3 = 3 * 1728 = 5184
+\]
+\[
+7 * 12^2 = 7 * 144 = 1008
+\]
+\[
+1 * 12^1 = 1 * 12 = 12
+\]
+\[
+10 * 12^0 = 10 * 1 = 10
+\]
+
+Now add these values together:
+
+\[
+5184 + 1008 + 12 + 10 = 6214
+\]
+
+So, \( 371A_{12} = 6214_{10} \).
+
+### Converting 1B551_{12} to base-10:
+
+Let's denote the base-12 number "1B551" as "1 * 12^4 + 11 * 12^3 + 5 * 12^2 + 5 * 12^1 + 1 * 12^0", since 'B' represents 11 in base-12.
+
+\[
+1 * 12^4 = 1 * 20736 = 20736
+\]
+\[
+11 * 12^3 = 11 * 1728 = 19008
+\]
+\[
+5 * 12^2 = 5 * 144 = 720
+\]
+\[
+5 * 12^1 = 5 * 12 = 60
+\]
+\[
+1 * 12^0 = 1 * 1 = 1
+\]
+
+Now add these values together:
+
+\[
+20736 + 19008 + 720 + 60 + 1 = 40525
+\]
+
+So, \( 1B551_{12} = 40525_{10} \).
+
+### Adding the two base-10 numbers:
+
+\[
+6214 + 40525 = 46739
+\]
+
+### Converting the result back to base-12:
+
+To convert 46739 from base-10 to base-12, we divide the number by the highest powers of 12 and find the remainders:
+
+\[
+46739 \div 12^4 = 46739 \div 20736 \approx 2 \quad \text{(with a remainder)}
+\]
+
+Calculate the remainder:
+\[
+46739 - 2 * 20736 = 5267
+\]
+
+\[
+5267 \div 12^3 = 5267 \div 1728 \approx 3 \quad \text{(with a remainder)}
+\]
+
+Calculate the remainder:
+\[
+5267 - 3 * 1728 = 81
+\]
+
+\[
+81 \div 12^2 = 81 \div 144 \approx 0 \quad \text{(no remainder since the result is less than 1)}
+\]
+
+\[
+81 \div 12^1 = 81 \div 12 = 6 \quad \text{(with a remainder of 9)}
+\]
+
+So we write down the coefficients calculated in each step, forming the base-12 number:
+\(2_12 36_12 09_12\)
+
+So, the base-10 number \(46739_{10}\) translates to \(23069_{12}\)
+
+Hence, 
+\(371A_{12} + 1B551_{12} = 23069_{12}\)
+
+Answer in summarized form: \(371A_{12} + 1B551_{12} = 6214_{10} + 40525_{10} = 46739_{10} = 23069_{12}\)

@@ -1,0 +1,56 @@
+To perform the addition of two octal numbers \(63651_8\) and \(46645_8\), let's first convert them into decimal (base 10) to make the calculation easier. After addition, we can convert the result back to octal.
+
+**Step 1: Convert \(63651_8\) to decimal (base 10)**
+
+\[63651_8 = 6 \cdot 8^4 + 3 \cdot 8^3 + 6 \cdot 8^2 + 5 \cdot 8^1 + 1 \cdot 8^0\]
+
+Calculate each term:
+
+\[6 \cdot 8^4 = 6 \cdot 4096 = 24576\]
+\[3 \cdot 8^3 = 3 \cdot 512 = 1536\]
+\[6 \cdot 8^2 = 6 \cdot 64 = 384\]
+\[5 \cdot 8^1 = 5 \cdot 8 = 40\]
+\[1 \cdot 8^0 = 1 \cdot 1 = 1\]
+
+Add them together:
+
+\[24576 + 1536 + 384 + 40 + 1 = 26537\]
+
+**Step 2: Convert \(46645_8\) to decimal (base 10)**
+
+\[46645_8 = 4 \cdot 8^4 + 6 \cdot 8^3 + 6 \cdot 8^2 + 4 \cdot 8^1 + 5 \cdot 8^0\]
+
+Calculate each term:
+
+\[4 \cdot 8^4 = 4 \cdot 4096 = 16384\]
+\[6 \cdot 8^3 = 6 \cdot 512 = 3072\]
+\[6 \cdot 8^2 = 6 \cdot 64 = 384\]
+\[4 \cdot 8^1 = 4 \cdot 8 = 32\]
+\[5 \cdot 8^0 = 5 \cdot 1 = 5\]
+
+Add them together:
+
+\[16384 + 3072 + 384 + 32 + 5 = 19877\]
+
+**Step 3: Add the decimal equivalents**
+
+\[26537 + 19877 = 46414\]
+
+**Step 4: Convert \(46414_{10}\) back to octal (base 8)**
+
+To convert from decimal to octal, repeatedly divide the number by 8 and record the remainders:
+
+46414 ÷ 8 = 5801 remainder 6
+5801 ÷ 8 = 725 remainder 1
+725 ÷ 8 = 90 remainder 5
+90 ÷ 8 = 11 remainder 2
+11 ÷ 8 = 1 remainder 3
+1 ÷ 8 = 0 remainder 1
+
+Reading the remainders from bottom to top, \(46414_{10}\) in octal is \(132516_{8}\).
+
+**Summary:**
+
+\[63651_8 + 46645_8 = 26537_{10} + 19877_{10} = 46414_{10} = 132516_{8}\]
+
+\(\boxed{63651_8 + 46645_8 = 132516_8}\)

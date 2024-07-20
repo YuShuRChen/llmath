@@ -1,0 +1,62 @@
+First, we need to convert the numbers from base 13 to base 10.
+
+For 112A8_{13}:
+\[
+1 \cdot 13^4 + 1 \cdot 13^3 + 2 \cdot 13^2 + A \cdot 13^1 + 8 \cdot 13^0
+\]
+Where \(A\) represents 10 in base 13.
+\[
+1 \cdot 28561 + 1 \cdot 2197 + 2 \cdot 169 + 10 \cdot 13 + 8
+\]
+\[
+28561 + 2197 + 338 + 130 + 8 = 31134_{10}
+\]
+
+For A8B0_{13}:
+\[
+A \cdot 13^3 + 8 \cdot 13^2 + B \cdot 13^1 + 0 \cdot 13^0
+\]
+Where \(A\) is 10 and \(B\) is 11 in base 13.
+\[
+10 \cdot 2197 + 8 \cdot 169 + 11 \cdot 13 + 0
+\]
+\[
+21970 + 1352 + 143 + 0 = 23465_{10}
+\]
+
+Next, we add the two base 10 numbers:
+\[
+31134 + 23465 = 54699_{10}
+\]
+
+To convert 54699 back to base 13:
+\[
+54699 \div 13 = 4207 \quad \text{remainder } 8
+\]
+\[
+4207 \div 13 = 323 \quad \text{remainder } 6
+\]
+\[
+323 \div 13 = 24 \quad \text{remainder } 11 \quad (B \text{ in base } 13)
+\]
+\[
+24 \div 13 = 1 \quad \text{remainder } 11 \quad (B \text{ in base } 13)
+\]
+\[
+1 \div 13 = 0 \quad \text{remainder } 1
+\]
+
+Thus, writing out the number from the remainders:
+\[
+54699_{10} = 1BB68_{13}
+\]
+
+The answer is: 
+\[
+112A8_{13} + A8B0_{13} = 1BB68_{13}
+\]
+
+Summarized as:
+\[
+112A8_{13} + A8B0_{13} = 31134_{10} + 23465_{10} = 54699_{10} = 1BB68_{13}
+\]

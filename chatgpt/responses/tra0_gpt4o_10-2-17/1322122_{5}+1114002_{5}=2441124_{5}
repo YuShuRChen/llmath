@@ -1,0 +1,125 @@
+To solve the given equation \(1322122_5 + 1114002_5\), we first need to convert each base-5 number to base-10, perform the addition in base-10, and then convert the result back to base-5.
+
+### Step 1: Convert \(1322122_5\) to base-10
+
+The positional values for base-5 are \(5^0, 5^1, 5^2, 5^3, 5^4, 5^5, \ldots\):
+
+\[
+1322122_5 = 1 \cdot 5^6 + 3 \cdot 5^5 + 2 \cdot 5^4 + 2 \cdot 5^3 + 1 \cdot 5^2 + 2 \cdot 5^1 + 2 \cdot 5^0
+\]
+
+Calculating each term:
+
+\[
+1 \cdot 5^6 = 1 \cdot 15625 = 15625
+\]
+\[
+3 \cdot 5^5 = 3 \cdot 3125 = 9375
+\]
+\[
+2 \cdot 5^4 = 2 \cdot 625 = 1250
+\]
+\[
+2 \cdot 5^3 = 2 \cdot 125 = 250
+\]
+\[
+1 \cdot 5^2 = 1 \cdot 25 = 25
+\]
+\[
+2 \cdot 5^1 = 2 \cdot 5 = 10
+\]
+\[
+2 \cdot 5^0 = 2 \cdot 1 = 2
+\]
+
+Adding these together:
+
+\[
+15625 + 9375 + 1250 + 250 + 25 + 10 + 2 = 26537
+\]
+
+\[
+1322122_5 = 26537_{10}
+\]
+
+### Step 2: Convert \(1114002_5\) to base-10
+
+\[
+1114002_5 = 1 \cdot 5^6 + 1 \cdot 5^5 + 1 \cdot 5^4 + 4 \cdot 5^3 + 0 \cdot 5^2 + 0 \cdot 5^1 + 2 \cdot 5^0
+\]
+
+Calculating each term:
+
+\[
+1 \cdot 5^6 = 1 \cdot 15625 = 15625
+\]
+\[
+1 \cdot 5^5 = 1 \cdot 3125 = 3125
+\]
+\[
+1 \cdot 5^4 = 1 \cdot 625 = 625
+\]
+\[
+4 \cdot 5^3 = 4 \cdot 125 = 500
+\]
+\[
+0 \cdot 5^2 = 0 \cdot 25 = 0
+\]
+\[
+0 \cdot 5^1 = 0 \cdot 5 = 0
+\]
+\[
+2 \cdot 5^0 = 2 \cdot 1 = 2
+\]
+
+Adding these together:
+
+\[
+15625 + 3125 + 625 + 500 + 0 + 0 + 2 = 19877
+\]
+
+\[
+1114002_5 = 19877_{10}
+\]
+
+### Step 3: Perform base-10 addition
+
+Now we add the two base-10 results:
+
+\[
+26537 + 19877 = 46414
+\]
+
+### Step 4: Convert \(46414_{10}\) to base-5
+
+We repeatedly divide by 5 and record the remainders:
+
+\[
+46414 \div 5 = 9282 \text{ R } 4
+\]
+\[
+9282 \div 5 = 1856 \text{ R } 2
+\]
+\[
+1856 \div 5 = 371 \text{ R } 1
+\]
+\[
+371 \div 5 = 74 \text{ R } 1
+\]
+\[
+74 \div 5 = 14 \text{ R } 4
+\]
+\[
+14 \div 5 = 2 \text{ R } 4
+\]
+\[
+2 \div 5 = 0 \text{ R } 2
+\]
+
+Reading the remainders from bottom up, we get \(2441244_5\).
+
+### Summary
+
+\(
+1322122_{5} + 1114002_{5} = 26537_{10} + 19877_{10} = 46414_{10} = 2441244_{5}
+\)

@@ -1,0 +1,22 @@
+To find the sum of \( 211112001_{3} + 1202212200_{3} \), we first must align the two numbers properly and add them together:
+
+\[
+\begin{array}{r}
+\phantom{0}211112001_{3} \\
++1202212200_{3} \\
+\hline
+\end{array}
+\]
+
+Adding the numbers column by column:
+
+\[
+\begin{array}{r}
+\phantom{0}211112001_{3} \\
++1202212200_{3} \\
+\hline
+\phantom{0}3311001201_{3}
+\end{array}
+\]
+
+Therefore, \(211112001_{3} + 1202212200_{3} = 3311001201_{3}\).

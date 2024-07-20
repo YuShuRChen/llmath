@@ -1,0 +1,12 @@
+To add these two numbers together, we can rewrite the equation vertically and add the numbers column by column:
+
+\[
+\begin{array}{r}
+ 6\ 5\ 6\ 0\ 2_{7} \\
++ \ 2\ 0\ 3\ 5\ 2_{7} \\
+\hline
+1\ 0\ 2\ 2\ 5\ 4_{7}
+\end{array}
+\]
+
+Therefore, \(65602_{7}+203520_{7}=102254_{7}\).

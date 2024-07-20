@@ -1,0 +1,100 @@
+To add the numbers \(322505_6\) and \(232005_6\), we first convert them from base-6 to base-10, perform the addition, and convert the result back to base-6.
+
+### Step 1: Convert \(322505_6\) to base-10.
+\[
+322505_6 = 3 \cdot 6^5 + 2 \cdot 6^4 + 2 \cdot 6^3 + 5 \cdot 6^2 + 0 \cdot 6^1 + 5 \cdot 6^0
+\]
+
+Calculating each term:
+\[
+3 \cdot 6^5 = 3 \cdot 7776 = 23328
+\]
+\[
+2 \cdot 6^4 = 2 \cdot 1296 = 2592
+\]
+\[
+2 \cdot 6^3 = 2 \cdot 216 = 432
+\]
+\[
+5 \cdot 6^2 = 5 \cdot 36 = 180
+\]
+\[
+0 \cdot 6^1 = 0
+\]
+\[
+5 \cdot 6^0 = 5
+\]
+
+Summing these:
+\[
+23328 + 2592 + 432 + 180 + 0 + 5 = 26537
+\]
+
+### Step 2: Convert \(232005_6\) to base-10.
+\[
+232005_6 = 2 \cdot 6^5 + 3 \cdot 6^4 + 2 \cdot 6^3 + 0 \cdot 6^2 + 0 \cdot 6^1 + 5 \cdot 6^0
+\]
+
+Calculating each term:
+\[
+2 \cdot 6^5 = 2 \cdot 7776 = 15552
+\]
+\[
+3 \cdot 6^4 = 3 \cdot 1296 = 3888
+\]
+\[
+2 \cdot 6^3 = 2 \cdot 216 = 432
+\]
+\[
+0 \cdot 6^2 = 0
+\]
+\[
+0 \cdot 6^1 = 0
+\]
+\[
+5 \cdot 6^0 = 5
+\]
+
+Summing these:
+\[
+15552 + 3888 + 432 + 0 + 0 + 5 = 19877
+\]
+
+### Step 3: Add the two base-10 numbers.
+\[
+26537 + 19877 = 46414
+\]
+
+### Step 4: Convert \(46414_{10}\) back to base-6.
+We repeatedly divide by 6 and keep track of the remainders:
+\[
+46414 \div 6 = 7735 \text{ remainder } 4
+\]
+\[
+7735 \div 6 = 1289 \text{ remainder } 1
+\]
+\[
+1289 \div 6 = 214 \text{ remainder } 5
+\]
+\[
+214 \div 6 = 35 \text{ remainder } 4
+\]
+\[
+35 \div 6 = 5 \text{ remainder } 5
+\]
+\[
+5 \div 6 = 0 \text{ remainder } 5
+\]
+
+Reading the remainders from bottom to top, we get:
+\[
+46414_{10} = 555415_{6}
+\]
+
+### Summary:
+\[
+322505_{6} + 232005_{6} = 322505_6 \rightarrow 26537_{10} + 232005_6 \rightarrow 19877_{10} = 46414_{10} \rightarrow 555415_{6}
+\]
+\[
+322505_{6} + 232005_{6} = 555415_{6}
+\]

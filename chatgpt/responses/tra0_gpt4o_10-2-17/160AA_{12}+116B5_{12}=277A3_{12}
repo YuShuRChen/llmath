@@ -1,0 +1,104 @@
+Let's first convert the numbers from base-12 to base-10.
+For \( 160AA_{12} \):
+
+\[
+1 \cdot 12^4 + 6 \cdot 12^3 + 0 \cdot 12^2 + A \cdot 12^1 + A \cdot 12^0
+\]
+
+(A in base 12 is equivalent to 10 in base 10)
+\[
+1 \cdot 20736 + 6 \cdot 1728 + 0 \cdot 144 + 10 \cdot 12 + 10 \cdot 1
+\]
+\[
+= 20736 + 10368 + 0 + 120 + 10
+\]
+\[
+= 31234_{10}
+\]
+
+For \( 116B5_{12} \):
+
+\[
+1 \cdot 12^4 + 1 \cdot 12^3 + 6 \cdot 12^2 + B \cdot 12^1 + 5 \cdot 12^0
+\]
+
+(B in base 12 is equivalent to 11 in base 10)
+\[
+1 \cdot 20736 + 1 \cdot 1728 + 6 \cdot 144 + 11 \cdot 12 + 5 \cdot 1
+\]
+\[
+= 20736 + 1728 + 864 + 132 + 5
+\]
+\[
+= 23465_{10}
+\]
+
+Now, we'll add the base-10 equivalents:
+
+\[
+31234_{10} + 23465_{10} = 54699_{10}
+\]
+
+Next, we need to convert \( 54699_{10} \) back to base-12:
+
+First, find the largest power of 12 less than \( 54699 \):
+
+\[
+12^4 = 20736, \quad 12^5 = 248832 \quad (\text{too large})
+\]
+The largest power is \( 12^4 \).
+
+Now, divide \( 54699 \) by \( 20736 \):
+
+\[
+54699 \div 20736 \approx 2.637 \,\, (\text{so, 2 as the coefficient})
+\]
+Now, calculate the remainder:
+
+\[
+54699 - 2 \cdot 20736 = 13227
+\]
+
+Next, use \( 12^3 = 1728 \):
+
+\[
+13227 \div 1728 \approx 7.653 \,\, (\text{so, 7 as the coefficient})
+\]
+Calculate the remainder:
+
+\[
+13227 - 7 \cdot 1728 = 387
+\]
+
+Next, use \( 12^2 = 144 \):
+
+\[
+387 \div 144 \approx 2.687 \,\, (\text{so, 2 as the coefficient})
+\]
+Calculate the remainder:
+
+\[
+387 - 2 \cdot 144 = 99
+\]
+
+Next, use \( 12^1 = 12 \):
+
+\[
+99 \div 12 \approx 8.25 \,\, (\text{so, 8 as the coefficient})
+\]
+Calculate the remainder:
+
+\[
+99 - 8 \cdot 12 = 3
+\]
+
+Finally, use \( 12^0 = 1 \):
+
+Coefficient is \( 3 \).
+
+Thus, \( 54699_{10} \) is \( 27823_{12} \).
+
+Hence, the final result is:
+\[
+160AA_{12} + 116B5_{12} = 27823_{12}
+\]

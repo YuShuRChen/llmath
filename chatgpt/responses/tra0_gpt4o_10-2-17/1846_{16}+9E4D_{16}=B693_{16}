@@ -1,0 +1,48 @@
+To compute the sum of the two hexadecimal numbers \(1846_{16} + 9E4D_{16}\), we will:
+
+1. Convert each number to its decimal equivalent.
+2. Perform the addition in decimal.
+3. Convert the result back to hexadecimal.
+
+### Step 1: Convert \(1846_{16}\) to decimal
+\(1846_{16} = 1 \cdot 16^3 + 8 \cdot 16^2 + 4 \cdot 16^1 + 6 \cdot 16^0\)
+
+Calculate each term:
+\[1 \cdot 16^3 = 1 \cdot 4096 = 4096\]
+\[8 \cdot 16^2 = 8 \cdot 256 = 2048\]
+\[4 \cdot 16^1 = 4 \cdot 16 = 64\]
+\[6 \cdot 16^0 = 6 \cdot 1 = 6\]
+
+Sum them:
+\[4096 + 2048 + 64 + 6 = 6214_{10}\]
+
+### Step 2: Convert \(9E4D_{16}\) to decimal
+\[9E4D_{16} = 9 \cdot 16^3 + 14 \cdot 16^2 + 4 \cdot 16^1 + 13 \cdot 16^0\]
+
+Calculate each term:
+\[9 \cdot 16^3 = 9 \cdot 4096 = 36864\]
+\[14 \cdot 16^2 = 14 \cdot 256 = 3584\]
+\[4 \cdot 16^1 = 4 \cdot 16 = 64\]
+\[13 \cdot 16^0 = 13 \cdot 1 = 13\]
+
+Sum them:
+\[36864 + 3584 + 64 + 13 = 40525_{10}\]
+
+### Step 3: Add the decimal equivalents
+\[6214_{10} + 40525_{10} = 46739_{10}\]
+
+### Step 4: Convert the result back to hexadecimal
+To convert \(46739_{10}\) to hexadecimal:
+
+- Divide the number by 16 and keep track of the remainders.
+- \(46739 \div 16 = 2921\) remainder \(3\)
+- \(2921 \div 16 = 182\) remainder \(9\)
+- \(182 \div 16 = 11\) remainder \(6\)
+- \(11 \div 16 = 0\) remainder \(11\) (which is \(B_{16}\))
+
+Reading the remainders from bottom to top, \(46739_{10} = B6A3_{16}\).
+
+So the original equation \(1846_{16} + 9E4D_{16}\) equals \(B6A3_{16}\).
+
+**Summary**:
+\[ 1846_{16} + 9E4D_{16} = 6214_{10} + 40525_{10} = 46739_{10} = B6A3_{16} \]

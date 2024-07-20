@@ -1,0 +1,72 @@
+To compute the sum of the two numbers in base 4, \(20023202_{4}\) and \(13301211_{4}\), we first convert them to base 10, perform the addition, and then convert the result back to base 4.
+
+#### Step-by-Step Solution:
+
+**1. Converting \(20023202_{4}\) to base 10:**
+
+\[ 20023202_{4} = 2 \cdot 4^7 + 0 \cdot 4^6 + 0 \cdot 4^5 + 2 \cdot 4^4 + 3 \cdot 4^3 + 2 \cdot 4^2 + 0 \cdot 4^1 + 2 \cdot 4^0 \]
+
+Calculate each term:
+
+\[ 2 \cdot 4^7 = 2 \cdot 16384 = 32768 \]
+\[ 0 \cdot 4^6 = 0 \cdot 4096 = 0 \]
+\[ 0 \cdot 4^5 = 0 \cdot 1024 = 0 \]
+\[ 2 \cdot 4^4 = 2 \cdot 256 = 512 \]
+\[ 3 \cdot 4^3 = 3 \cdot 64 = 192 \]
+\[ 2 \cdot 4^2 = 2 \cdot 16 = 32 \]
+\[ 0 \cdot 4^1 = 0 \cdot 4 = 0 \]
+\[ 2 \cdot 4^0 = 2 \cdot 1 = 2 \]
+
+Adding them together:
+
+\[ 32768 + 0 + 0 + 512 + 192 + 32 + 0 + 2 = 33496 \]
+
+So, \(20023202_{4} = 33496_{10}\).
+
+**2. Converting \(13301211_{4}\) to base 10:**
+
+\[ 13301211_{4} = 1 \cdot 4^7 + 3 \cdot 4^6 + 3 \cdot 4^5 + 0 \cdot 4^4 + 1 \cdot 4^3 + 2 \cdot 4^2 + 1 \cdot 4^1 + 1 \cdot 4^0 \]
+
+Calculate each term:
+
+\[ 1 \cdot 4^7 = 1 \cdot 16384 = 16384 \]
+\[ 3 \cdot 4^6 = 3 \cdot 4096 = 12288 \]
+\[ 3 \cdot 4^5 = 3 \cdot 1024 = 3072 \]
+\[ 0 \cdot 4^4 = 0 \cdot 256 = 0 \]
+\[ 1 \cdot 4^3 = 1 \cdot 64 = 64 \]
+\[ 2 \cdot 4^2 = 2 \cdot 16 = 32 \]
+\[ 1 \cdot 4^1 = 1 \cdot 4 = 4 \]
+\[ 1 \cdot 4^0 = 1 \cdot 1 = 1 \]
+
+Adding them together:
+
+\[ 16384 + 12288 + 3072 + 0 + 64 + 32 + 4 + 1 = 31845 \]
+
+So, \(13301211_{4} = 31845_{10}\).
+
+**3. Adding the two base 10 numbers:**
+
+\[ 33496 + 31845 = 65341 \]
+
+**4. Converting \(65341_{10}\) back to base 4:**
+
+We repeatedly divide the number by 4 and record the remainder:
+
+\[ 65341 \div 4 = 16335 \text{ remainder } 1 \]
+\[ 16335 \div 4 = 4083 \text{ remainder } 3 \]
+\[ 4083 \div 4 = 1020 \text{ remainder } 3 \]
+\[ 1020 \div 4 = 255 \text{ remainder } 0 \]
+\[ 255 \div 4 = 63 \text{ remainder } 3 \]
+\[ 63 \div 4 = 15 \text{ remainder } 3 \]
+\[ 15 \div 4 = 3 \text{ remainder } 3 \]
+\[ 3 \div 4 = 0 \text{ remainder } 3 \]
+
+Reading the remainders from bottom to top, we get \(33330331_{4}\).
+
+Thus,
+
+\[ 20023202_{4} + 13301211_{4} = 33330331_{4} \]
+
+Summarizing the response:
+
+\[ 20023202_{4} + 13301211_{4} = 33496_{10} + 31845_{10} = 65341_{10} = 33330331_{4} \]

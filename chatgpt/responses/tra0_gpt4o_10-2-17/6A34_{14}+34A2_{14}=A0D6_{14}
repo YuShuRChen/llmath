@@ -1,0 +1,84 @@
+To solve this problem, we will first convert the given numbers from base 14 to decimal (base 10), then perform the addition in decimal, and finally convert the result back to base 14.
+
+### Step 1: Convert **6A34_{14}** to decimal
+- The digits in **6A34_{14}** are 6, A, 3, and 4.
+- A in hexadecimal (which is similar to base 14 up to digit A) corresponds to the decimal value 10.
+- Using positional values, the decimal value of 6A34_{14} is:
+  \[
+  6 \times 14^3 + A \times 14^2 + 3 \times 14^1 + 4 \times 14^0
+  \]
+  \[
+  6 \times 2744 + 10 \times 196 + 3 \times 14 + 4 \times 1
+  \]
+  Now, performing the calculations:
+  \[
+  6 \times 2744 = 16464
+  \]
+  \[
+  10 \times 196 = 1960
+  \]
+  \[
+  3 \times 14 = 42
+  \]
+  \[
+  4 \times 1 = 4
+  \]
+  Summing these results:
+  \[
+  16464 + 1960 + 42 + 4 = 18470
+  \]
+
+### Step 2: Convert **34A2_{14}** to decimal
+- The digits in **34A2_{14}** are 3, 4, A, and 2.
+- Using positional values, the decimal value of 34A2_{14} is:
+  \[
+  3 \times 14^3 + 4 \times 14^2 + A \times 14^1 + 2 \times 14^0
+  \]
+  \[
+  3 \times 2744 + 4 \times 196 + 10 \times 14 + 2 \times 1
+  \]
+  Now, performing the calculations:
+  \[
+  3 \times 2744 = 8232
+  \]
+  \[
+  4 \times 196 = 784
+  \]
+  \[
+  10 \times 14 = 140
+  \]
+  \[
+  2 \times 1 = 2
+  \]
+  Summing these results:
+  \[
+  8232 + 784 + 140 + 2 = 9158
+  \]
+
+### Step 3: Add the decimal values
+- Adding the two decimal values obtained:
+  \[
+  18470 + 9158 = 27628
+  \]
+
+### Step 4: Convert the decimal result back to base 14
+- To convert 27628 to base 14:
+  - Divide by 14 and keep track of remainders:
+    \[
+    27628 \div 14 = 1973 \ \text{remainder} \ 10 \ (A)
+    \]
+    \[
+    1973 \div 14 = 140 \ \text{remainder} \ 13 \ (D)
+    \]
+    \[
+    140 \div 14 = 10 \ \text{remainder} \ 0
+    \]
+    \[
+    10 \div 14 = 0 \ \text{remainder} \ 10 \ (A)
+    \]
+  - Reading the remainders from last to first, the base 14 representation is **A0DA_{14}**.
+
+Summarizing:
+\[
+6A34_{14} + 34A2_{14} = 6A34_{14} \to 18470_{10} + 34A2_{14} \to 9158_{10} = 27628_{10} \to A0DA_{14}
+\]

@@ -1,0 +1,57 @@
+To compute \(1201012_4 + 21321031_4\), we first need to convert these base-4 numbers to base-10.
+
+### Conversion of \(1201012_4\) to base-10:
+
+\[1201012_4\]
+
+Each digit is multiplied by \(4\) raised to the power of its position, starting from 0 on the right:
+
+\[1 \cdot 4^6 + 2 \cdot 4^5 + 0 \cdot 4^4 + 1 \cdot 4^3 + 0 \cdot 4^2 + 1 \cdot 4^1 + 2 \cdot 4^0\]
+
+\[= 1 \cdot 4096 + 2 \cdot 1024 + 0 \cdot 256 + 1 \cdot 64 + 0 \cdot 16 + 1 \cdot 4 + 2 \cdot 1\]
+
+\[= 4096 + 2048 + 0 + 64 + 0 + 4 + 2\]
+
+\[= 6214_{10}\]
+
+### Conversion of \(21321031_4\) to base-10:
+
+\[21321031_4\]
+
+Each digit is multiplied by \(4\) raised to the power of its position, starting from 0 on the right:
+
+\[2 \cdot 4^7 + 1 \cdot 4^6 + 3 \cdot 4^5 + 2 \cdot 4^4 + 1 \cdot 4^3 + 0 \cdot 4^2 + 3 \cdot 4^1 + 1 \cdot 4^0\]
+
+\[= 2 \cdot 16384 + 1 \cdot 4096 + 3 \cdot 1024 + 2 \cdot 256 + 1 \cdot 64 + 0 \cdot 16 + 3 \cdot 4 + 1 \cdot 1\]
+
+\[= 32768 + 4096 + 3072 + 512 + 64 + 0 + 12 + 1\]
+
+\[= 40401_{10}\]
+
+### Adding the two base-10 numbers:
+
+\[6214 + 40401 = 46615_{10}\]
+
+### Converting the result back to base-4:
+
+To convert \(46615_{10}\) back to base-4, we divide by increasing powers of 4 and take the remainders:
+
+\[
+\begin{array}{r|l}
+46615 \div 4 = 11653 \quad \text{remainder} \; 3 \\
+11653 \div 4 = 2913 \quad \text{remainder} \; 1 \\
+2913 \div 4 = 728 \quad \text{remainder} \; 1 \\
+728 \div 4 = 182 \quad \text{remainder} \; 0 \\
+182 \div 4 = 45 \quad \text{remainder} \; 2 \\
+45 \div 4 = 11 \quad \text{remainder} \; 1 \\
+11 \div 4 = 2 \quad \text{remainder} \; 3 \\
+2 \div 4 = 0 \quad \text{remainder} \; 2 \\
+\end{array}
+\]
+
+Reading the remainders from bottom to top, the number \(46615_{10}\) in base-4 is:
+
+\[23012113_4\]
+
+### Summary:
+\(1201012_4 + 21321031_4 = 6214_{10} + 40401_{10} = 46615_{10} = 23012113_4\)

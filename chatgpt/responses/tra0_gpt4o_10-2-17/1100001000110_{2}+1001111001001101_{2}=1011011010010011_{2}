@@ -1,0 +1,62 @@
+To solve the binary addition of \(1100001000110_2\) and \(1001111001001101_2\), we first need to align both numbers by their least significant bits (rightmost digits).
+
+Aligning the two binary numbers:
+```
+   00001100001000110
++  1001111001001101 
+-------------------
+```
+
+We then perform binary addition from right to left, remembering that:
+- \(0 + 0 = 0\)
+- \(1 + 0 = 1\)
+- \(0 + 1 = 1\)
+- \(1 + 1 = 10\) (which means write down 0 and carry over 1)
+- \(1 + 1 + 1 = 11\) (which means write down 1 and carry over 1)
+
+Following these rules, let's add the numbers:
+
+```
+   00001100001000110
++  0001001111001001101 
+-------------------
+  001011111110110011
+  (result written from lower order to higher order bits)
+```
+
+That's the binary result. You can double-check it by converting both binary numbers to decimal, adding them, and converting back to binary.
+
+Let's verify by converting both binary numbers to decimal:
+
+1. \(1100001000110_2 \):
+\[
+1 \cdot 2^{12} + 1 \cdot 2^{10} + 1 \cdot 2^5 + 1 \cdot 2^2 = 4096 + 1024 + 32 + 4 = 5156
+\]
+
+2. \(1001111001001101_2 \):
+\[
+1 \cdot 2^{15} + 1 \cdot 2^{14} + 1 \cdot 2^{13} + 1 \cdot 2^{10} + 1 \cdot 2^9 + 1 \cdot 2^4 + 1 \cdot 2^2 + 1 = 32768 + 16384 + 8192 + 1024 + 512 + 16 + 4 + 1 = 58801
+\]
+
+Add the decimal equivalents:
+
+\[
+5156 + 58801 = 63957
+\]
+
+Finally, convert \(63957\) back to binary:
+
+\[
+63957_{10} = 1111100111000101_2
+\]
+
+So, adding the two binary numbers \(1100001000110_2\) and \(1001111001001101_2\) results in:
+
+\[
+1100001000110_2 + 1001111001001101_2 = 1111100111000101_2
+\]
+
+**Summary**:
+\[
+1100001000110_2 + 1001111001001101_2 = 1111100111000101_2
+\]

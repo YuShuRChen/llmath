@@ -1,0 +1,12 @@
+To add the two numbers in base 6, we can perform the following calculations:
+
+\[
+\begin{array}{}
+& & & & 3 & 1 & 2 & 5 & _6 \\
++ & & & & 3 & 3 & 1 & 3 & 4 & _6 \\
+\hline
+& & & & 4 & 0 & 4 & 1 & 3 & _6 \\
+\end{array}
+\]
+
+Therefore, \( 312515_{6} + 331334_{6} = 40413_{6} \).

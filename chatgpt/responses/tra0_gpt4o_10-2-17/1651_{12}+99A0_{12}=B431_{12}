@@ -1,0 +1,30 @@
+First, we need to convert both numbers from base 12 to base 10.
+
+Convert 1651_{12} to base 10:
+\[ 1 * 12^3 + 6 * 12^2 + 5 * 12^1 + 1 * 12^0 \]
+\[ = 1 * 1728 + 6 * 144 + 5 * 12 + 1 * 1 \]
+\[ = 1728 + 864 + 60 + 1 \]
+\[ = 2653_{10} \]
+
+Convert 99A0_{12} to base 10:
+\[ 9 * 12^3 + 9 * 12^2 + 10 * 12^1 + 0 * 12^0 \]
+\[ = 9 * 1728 + 9 * 144 + 10 * 12 + 0 \]
+\[ = 15552 + 1296 + 120 + 0 \]
+\[ = 16968_{10} \]
+
+Now, sum the two base 10 numbers:
+\[ 2653_{10} + 16968_{10} = 19621_{10} \]
+
+Next, we will convert the result back to base 12.
+
+To convert 19621_{10} to base 12:
+\[ 19621 \div 12 = 1635 \text{ remainder } 1 \]
+\[ 1635 \div 12 = 136 \text{ remainder } 3 \]
+\[ 136 \div 12 = 11 \text{ remainder } 4 \]
+\[ 11 \div 12 = 0 \text{ remainder } 11 \]
+
+So, the base 12 representation is:
+\[ B431_{12} \]
+
+Putting the solution together in the required format:
+\[ 1651_{12} + 99A0_{12} = 1*12^3 + 6*12^2 + 5*12 + 1 + 9*12^3 + 9*12^2 + A*12 + 0 = 2653_{10} + 16968_{10} = 19621_{10} = B431_{12} \]

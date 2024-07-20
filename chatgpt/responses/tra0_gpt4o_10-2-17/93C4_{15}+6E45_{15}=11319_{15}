@@ -1,0 +1,67 @@
+To solve the equation \(93C4_{15} + 6E45_{15}\), we first need to convert both base-15 numbers to base-10, perform the addition, and then convert back to base-15 if asked.
+
+### Convert \(93C4_{15}\) to base-10:
+The base-15 number \(93C4_{15}\) can be expanded as follows:
+\[ 9 \cdot 15^3 + 3 \cdot 15^2 + C \cdot 15^1 + 4 \cdot 15^0 \]
+
+First, note that \(C\) in base-15 represents 12 in base-10.
+
+So the calculation is:
+\[ 9 \cdot 15^3 = 9 \cdot 3375 = 30375 \]
+\[ 3 \cdot 15^2 = 3 \cdot 225 = 675 \]
+\[ 12 \cdot 15^1 = 12 \cdot 15 = 180 \]
+\[ 4 \cdot 15^0 = 4 \cdot 1 = 4 \]
+
+Adding these together:
+\[ 30375 + 675 + 180 + 4 = 31234 \]
+
+Thus, \(93C4_{15} = 31234_{10}\).
+
+### Convert \(6E45_{15}\) to base-10:
+The base-15 number \(6E45_{15}\) can be expanded as follows:
+\[ 6 \cdot 15^3 + E \cdot 15^2 + 4 \cdot 15^1 + 5 \cdot 15^0 \]
+
+First, note that \(E\) in base-15 represents 14 in base-10.
+
+So the calculation is:
+\[ 6 \cdot 15^3 = 6 \cdot 3375 = 20250 \]
+\[ 14 \cdot 15^2 = 14 \cdot 225 = 3150 \]
+\[ 4 \cdot 15^1 = 4 \cdot 15 = 60 \]
+\[ 5 \cdot 15^0 = 5 \cdot 1 = 5 \]
+
+Adding these together:
+\[ 20250 + 3150 + 60 + 5 = 23465 \]
+
+Thus, \(6E45_{15} = 23465_{10}\).
+
+### Add base-10 equivalents:
+\[ 31234 + 23465 = 54799 \]
+
+Thus, \(93C4_{15} + 6E45_{15} = 54799_{10}\).
+
+### Convert 54799_{10} back to base-15 (if needed):
+To convert \(54799_{10}\) to base-15, we divide by successive powers of 15 and capture the remainders.
+
+1. \( 54799 \div 15 = 3653 \text{ R } 14 \)
+2. \( 3653 \div 15 = 243 \text{ R } 8 \)
+3. \( 243 \div 15 = 16 \text{ R } 3 \)
+4. \( 16 \div 15 = 1 \text{ R } 1 \)
+5. \( 1 \div 15 = 0 \text{ R } 1 \)
+
+So, in base-15:
+\[ 54799_{10} = 1 1 3 8 E_{15} \]
+
+Thus, \( 54799_{10} = 1138E_{15} \)
+
+Therefore, the final result can also be represented in base-15.
+
+\[ 93C4_{15} + 6E45_{15} = 1138E_{15} \]
+
+### Summary:
+\[ 93C4_{15} = 31234_{10} \]
+\[ 6E45_{15} = 23465_{10} \]
+\[ 31234_{10} + 23465_{10} = 54799_{10} \]
+\[ 54799_{10} = 1138E_{15} \]
+
+Therefore:
+\[ 93C4_{15} + 6E45_{15} = 1138E_{15} \]

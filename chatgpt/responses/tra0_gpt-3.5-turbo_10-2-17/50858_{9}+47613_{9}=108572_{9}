@@ -1,0 +1,11 @@
+To add two numbers in base 9, we need to carry over when the sum exceeds 9.
+
+Carrying over:
+1. Add digits in the ones place: $8+3=11$, write down 1 and carry over 1.
+2. Add digits in the nines place: $5+1+6=12$, write down 3 and carry over 1.
+3. Add digits in the eighty-ones place: $0+1+7=8$.
+4. Add digits in the seven-hundred-twenty-nines place: $5$.
+
+Therefore, $50858_{9}+47613_{9} = 111385_{9}$. 
+
+$50858_{9}+47613_{9}=111385_{9}$

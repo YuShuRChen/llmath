@@ -1,0 +1,60 @@
+To solve the addition \(9C00_{15} + 2A87_{15}\), we'll first convert both numbers from base-15 to base-10, perform the addition in base-10, and then convert the result back to base-15.
+
+### Step 1: Convert \(9C00_{15}\) to decimal (base-10)
+The digits in \(9C00_{15}\) correspond to:
+- 9 in base-15 is 9 in base-10.
+- C in base-15 is 12 in base-10.
+- 0 in base-15 is 0 in base-10.
+
+So, we have:
+\[ 9C00_{15} = 9 \times 15^3 + 12 \times 15^2 + 0 \times 15^1 + 0 \times 15^0 \]
+
+Calculating each term:
+\[ 9 \times 15^3 = 9 \times 3375 = 30375 \]
+\[ 12 \times 15^2 = 12 \times 225 = 2700 \]
+\[ 0 \times 15^1 = 0 \]
+\[ 0 \times 15^0 = 0 \]
+
+Summing them up:
+\[ 30375 + 2700 + 0 + 0 = 33075 \]
+
+So, \(9C00_{15} = 33075_{10}\).
+
+### Step 2: Convert \(2A87_{15}\) to decimal (base-10)
+The digits in \(2A87_{15}\) correspond to:
+- 2 in base-15 is 2 in base-10.
+- A in base-15 is 10 in base-10.
+- 8 and 7 are already in base-10.
+
+So, we have:
+\[ 2A87_{15} = 2 \times 15^3 + 10 \times 15^2 + 8 \times 15^1 + 7 \times 15^0 \]
+
+Calculating each term:
+\[ 2 \times 15^3 = 2 \times 3375 = 6750 \]
+\[ 10 \times 15^2 = 10 \times 225 = 2250 \]
+\[ 8 \times 15^1 = 8 \times 15 = 120 \]
+\[ 7 \times 15^0 = 7 \]
+
+Summing them up:
+\[ 6750 + 2250 + 120 + 7 = 9127 \]
+
+So, \(2A87_{15} = 9127_{10}\).
+
+### Step 3: Add the two decimal numbers
+\[ 33075 + 9127 = 42202 \]
+
+### Step 4: Convert the result back to base-15
+We'll convert \(42202_{10}\) to base-15 by repeatedly dividing by 15 and recording the remainders.
+
+\[ 42202 \div 15 = 2813 \, \text{remainder} \, 7 \]
+\[ 2813 \div 15 = 187 \, \text{remainder} \, 8 \]
+\[ 187 \div 15 = 12 \, \text{remainder} \, 7 \]
+\[ 12 \div 15 = 0 \, \text{remainder} \, 12 \]
+
+The remainders, read in reverse order, give us the base-15 number:
+\[ 42202_{10} = C787_{15} \]
+
+**Summary:**
+\[ 9C00_{15} + 2A87_{15} = 33075_{10} + 9127_{10} = 42202_{10} = C787_{15} \]
+
+Therefore, \(9C00_{15} + 2A87_{15} = C787_{15}\).

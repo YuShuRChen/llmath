@@ -1,0 +1,27 @@
+First, convert the hexadecimal numbers to decimal.
+
+For A5D_{16}:
+A5D_{16} = (10 * 16^2) + (5 * 16^1) + (13 * 16^0)
+          = (10 * 256) + (5 * 16) + (13)
+          = 2560 + 80 + 13
+          = 2653_{10}
+
+For 4248_{16}:
+4248_{16} = (4 * 16^3) + (2 * 16^2) + (4 * 16^1) + (8 * 16^0)
+           = (4 * 4096) + (2 * 256) + (4 * 16) + (8)
+           = 16384 + 512 + 64 + 8
+           = 16968_{10}
+
+Next, add the two decimal numbers:
+
+2653_{10} + 16968_{10} = 19621_{10}
+
+To convert 19621_{10} back to hexadecimal:
+- Divide by 16: 19621 ÷ 16 = 1226 remainder 5
+- Divide 1226 by 16: 1226 ÷ 16 = 76 remainder 10 (A_{16})
+- Divide 76 by 16: 76 ÷ 16 = 4 remainder 12 (C_{16})
+- Divide 4 by 16: 4 ÷ 16 = 0 remainder 4
+
+Therefore, 19621_{10} in hexadecimal is 4C5A_{16}.
+
+In summary: A5D_{16} + 4248_{16} = A5D_{16} (2653_{10}) + 4248_{16} (16968_{10}) = 19621_{10} = 4C5A_{16}.

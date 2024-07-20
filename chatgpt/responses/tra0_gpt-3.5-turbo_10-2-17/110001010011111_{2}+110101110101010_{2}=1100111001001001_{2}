@@ -1,0 +1,11 @@
+Converting the two binary numbers to decimal:
+First number: \(110001010011111_{2} = 8159_{10}\)
+Second number: \(110101110101010_{2} = 55338_{10}\)
+
+Adding the two decimal numbers:
+\(8159_{10} + 55338_{10} = 63497_{10}\)
+
+Converting the final decimal sum back to binary:
+63497_{10} = 1111100001011001_{2}
+
+\[ 110001010011111_{2} + 110101110101010_{2} = 1111100001011001_{2} \]

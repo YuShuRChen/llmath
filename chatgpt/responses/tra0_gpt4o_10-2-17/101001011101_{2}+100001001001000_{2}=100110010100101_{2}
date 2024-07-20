@@ -1,0 +1,72 @@
+To solve the binary addition of 101001011101_{2} and 100001001001000_{2}, we first convert both numbers to decimal (base 10).
+
+**Step 1: Convert the first binary number to decimal.**
+
+101001011101_{2}:
+- Starting from the rightmost digit (least significant bit), we have:
+  - \(1 \times 2^0\) = 1
+  - \(0 \times 2^1\) = 0
+  - \(1 \times 2^2\) = 4
+  - \(1 \times 2^3\) = 8
+  - \(1 \times 2^4\) = 16
+  - \(0 \times 2^5\) = 0
+  - \(1 \times 2^6\) = 64
+  - \(0 \times 2^7\) = 0
+  - \(1 \times 2^8\) = 256
+  - \(0 \times 2^9\) = 0
+  - \(1 \times 2^{10}\) = 1024
+- Adding these values together: 1 + 0 + 4 + 8 + 16 + 0 + 64 + 0 + 256 + 0 + 1024 = 1373.
+
+Therefore, 101001011101_{2} = 1373_{10}.
+
+**Step 2: Convert the second binary number to decimal.**
+
+100001001001000_{2}:
+- Starting from the rightmost digit, we have:
+  - \(0 \times 2^0\) = 0
+  - \(0 \times 2^1\) = 0
+  - \(0 \times 2^2\) = 0
+  - \(1 \times 2^3\) = 8
+  - \(0 \times 2^4\) = 0
+  - \(0 \times 2^5\) = 0
+  - \(1 \times 2^6\) = 64
+  - \(0 \times 2^7\) = 0
+  - \(0 \times 2^8\) = 0
+  - \(1 \times 2^9\) = 512
+  - \(0 \times 2^{10}\) = 0
+  - \(0 \times 2^{11}\) = 0
+  - \(0 \times 2^{12}\) = 0
+  - \(1 \times 2^{13}\) = 8192
+- Adding these values together: 0 + 0 + 0 + 8 + 0 + 0 + 64 + 0 + 0 + 512 + 0 + 0 + 0 + 8192 = 8776.
+
+Therefore, 100001001001000_{2} = 8776_{10}.
+
+**Step 3: Add the decimal values.**
+
+1373_{10} + 8776_{10} = 10149_{10}.
+
+**Step 4: Convert the result back to binary.**
+
+To convert 10149_{10} back to binary:
+- Divide 10149 by 2 and record the remainder:
+  - 10149 ÷ 2 = 5074, remainder 1
+  - 5074 ÷ 2 = 2537, remainder 0
+  - 2537 ÷ 2 = 1268, remainder 1
+  - 1268 ÷ 2 = 634, remainder 0
+  - 634 ÷ 2 = 317, remainder 0
+  - 317 ÷ 2 = 158, remainder 1
+  - 158 ÷ 2 = 79, remainder 0
+  - 79 ÷ 2 = 39, remainder 1
+  - 39 ÷ 2 = 19, remainder 1
+  - 19 ÷ 2 = 9, remainder 1
+  - 9 ÷ 2 = 4, remainder 1
+  - 4 ÷ 2 = 2, remainder 0
+  - 2 ÷ 2 = 1, remainder 0
+  - 1 ÷ 2 = 0, remainder 1
+
+Writing the remainders in reverse order: 10011110001101_{2}.
+
+So, the binary addition result is:
+
+101001011101_{2} + 100001001001000_{2} = 10011110001101_{2}, which corresponds to:
+101001011101_{2} + 100001001001000_{2} = 10011110001101_{2}, respectively as 1373_{10} + 8776_{10} = 10149_{10}.

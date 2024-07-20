@@ -1,0 +1,12 @@
+Since the base for both numbers is 15, we can directly add them using base 15 arithmetic.
+
+$$
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c}
+& & & 9 & D & D & _{15} \\
+& & & 9 & 6 & 8 & 0 & _{15} \\
+\cline{1-6}
+& & 1 & 9 & 8 & B & D & _{15} \\
+\end{array}
+$$
+
+Therefore, $9DDB_{15} + 9680_{15} = 198BD_{15}$.

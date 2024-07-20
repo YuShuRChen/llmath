@@ -1,0 +1,12 @@
+To compute \( 24055_{7} + 226102_{7} \), we can add the numbers in base 7:
+
+\[
+\begin{array}{r}
+\phantom{0}2 \\
+24\phantom{0}55_{7} \\
++\underline{22\phantom{0}6102_{7}} \\
+0\underline{1}30\phantom{0}41_{7} \\
+\end{array}
+\]
+
+Therefore, \( 24055_{7} + 226102_{7} = 13041_{7} \).

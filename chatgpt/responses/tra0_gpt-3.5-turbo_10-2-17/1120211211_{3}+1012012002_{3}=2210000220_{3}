@@ -1,0 +1,12 @@
+First, let's align the numbers properly and perform the addition:
+
+\[
+\begin{array}{r}
+ 1 1 2 0 2 1 1 1_{3} \\
++ 1 0 1 2 0 1 2 0 0 2_{3} \\
+\hline
+2 1 0 0 2 2 0 1 1 0 3_{3} \\
+\end{array}
+\]
+
+Therefore, \(1120211211_{3} + 1012012002_{3} = 21002201103_{3}\)

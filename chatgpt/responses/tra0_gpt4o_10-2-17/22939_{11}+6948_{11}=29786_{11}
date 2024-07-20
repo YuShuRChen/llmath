@@ -1,0 +1,64 @@
+To solve the equation \(22939_{11} + 6948_{11}\), we first convert the numbers from base 11 to base 10.
+
+### Conversion of \(22939_{11}\) to base 10:
+\[22939_{11} = 2 \cdot 11^4 + 2 \cdot 11^3 + 9 \cdot 11^2 + 3 \cdot 11^1 + 9 \cdot 11^0\]
+
+Calculating each term:
+\[2 \cdot 11^4 = 2 \cdot 14641 = 29282\]
+\[2 \cdot 11^3 = 2 \cdot 1331 = 2662\]
+\[9 \cdot 11^2 = 9 \cdot 121 = 1089\]
+\[3 \cdot 11^1 = 3 \cdot 11 = 33\]
+\[9 \cdot 11^0 = 9 \cdot 1 = 9\]
+
+Adding these together:
+\[29282 + 2662 + 1089 + 33 + 9 = 33075\]
+
+So, \(22939_{11} = 33075_{10}\).
+
+### Conversion of \(6948_{11}\) to base 10:
+\[6948_{11} = 6 \cdot 11^3 + 9 \cdot 11^2 + 4 \cdot 11^1 + 8 \cdot 11^0\]
+
+Calculating each term:
+\[6 \cdot 11^3 = 6 \cdot 1331 = 7986\]
+\[9 \cdot 11^2 = 9 \cdot 121 = 1089\]
+\[4 \cdot 11^1 = 4 \cdot 11 = 44\]
+\[8 \cdot 11^0 = 8 \cdot 1 = 8\]
+
+Adding these together:
+\[7986 + 1089 + 44 + 8 = 9127\]
+
+So, \(6948_{11} = 9127_{10}\).
+
+### Adding the base 10 numbers:
+\[33075 + 9127 = 42102\]
+
+### Converting \(42102_{10}\) back to base 11:
+We divide 42102 by 11 and keep track of the remainders:
+
+1. \(42102 \div 11 = 3827\) remainder \(5\)
+2. \(3827 \div 11 = 347\) remainder \(0\)
+3. \(347 \div 11 = 31\) remainder \(6\)
+4. \(31 \div 11 = 2\) remainder \(9\)
+5. \(2 \div 11 = 0\) remainder \(2\)
+
+Reading the remainders from bottom to top, we get the base 11 representation:
+\[42102_{10} = 29605_{11}\]
+
+### Summary:
+The original equation in base 11 is \(22939_{11} + 6948_{11}\). 
+
+First, converting both numbers to base 10:
+\[22939_{11} = 33075_{10}\]
+\[6948_{11} = 9127_{10}\]
+
+Adding in base 10:
+\[33075 + 9127 = 42102_{10}\]
+
+Finally, converting the sum back to base 11:
+\[42102_{10} = 29605_{11}\]
+
+The final result is:
+\[22939_{11} + 6948_{11} = 29605_{11}\]
+
+Summary line:
+\[22939_{11} + 6948_{11} = 29605_{11}\]

@@ -1,0 +1,98 @@
+To solve this equation, we need to convert each number from base 12 to base 10, perform the addition in base 10, and then convert the resulting sum back to base 12.
+
+First, let's convert \(17482_{12}\) to base 10:
+
+\[1 \cdot 12^4 + 7 \cdot 12^3 + 4 \cdot 12^2 + 8 \cdot 12^1 + 2 \cdot 12^0\]
+
+Calculating each term:
+
+\[
+1 \cdot 12^4 = 1 \cdot 20736 = 20736 \\
+7 \cdot 12^3 = 7 \cdot 1728 = 12096 \\
+4 \cdot 12^2 = 4 \cdot 144 = 576 \\
+8 \cdot 12^1 = 8 \cdot 12 = 96 \\
+2 \cdot 12^0 = 2 \cdot 1 = 2 \\
+\]
+
+Adding them together:
+
+\[20736 + 12096 + 576 + 96 + 2 = 33506\]
+
+So, \(17482_{12} = 33506_{10}\).
+
+Next, let's convert \(16519_{12}\) to base 10:
+
+\[1 \cdot 12^4 + 6 \cdot 12^3 + 5 \cdot 12^2 + 1 \cdot 12^1 + 9 \cdot 12^0\]
+
+Calculating each term:
+
+\[
+1 \cdot 12^4 = 1 \cdot 20736 = 20736 \\
+6 \cdot 12^3 = 6 \cdot 1728 = 10368 \\
+5 \cdot 12^2 = 5 \cdot 144 = 720 \\
+1 \cdot 12^1 = 1 \cdot 12 = 12 \\
+9 \cdot 12^0 = 9 \cdot 1 = 9 \\
+\]
+
+Adding them together:
+
+\[20736 + 10368 + 720 + 12 + 9 = 31845\]
+
+So, \(16519_{12} = 31845_{10}\).
+
+Now, add the base 10 numbers:
+
+\[33506_{10} + 31845_{10} = 65351_{10}\]
+
+Lastly, convert \(65351_{10}\) back to base 12. Divide by the largest power of 12:
+
+\[
+65351 \div 12^4 = 65351 \div 20736 \approx 3  \quad \text{(coefficient for } 12^4)
+\]
+
+Remaining:
+\[65351 - 3 \cdot 20736 = 65351 - 62208 = 3143\]
+
+Next:
+\[
+3143 \div 12^3 = 3143 \div 1728 \approx 1 \quad \text{(coefficient for } 12^3)
+\]
+
+Remaining:
+\[3143 - 1 \cdot 1728 = 3143 - 1728 = 1415\]
+
+Next:
+\[
+1415 \div 12^2 = 1415 \div 144 \approx 9 \quad \text{(coefficient for } 12^2)
+\]
+
+Remaining:
+\[1415 - 9 \cdot 144 = 1415 - 1296 = 119\]
+
+Next:
+\[
+119 \div 12^1 = 119 \div 12 \approx 9 \quad \text{(coefficient for } 12^1)
+\]
+
+Remaining:
+\[119 - 9 \cdot 12 = 119 - 108 = 11 \quad (coefficient for } 12^0)
+\]
+
+So, \(65351_{10} = 319A11_{12}\).
+
+In Base 12, A represents the digit 11.
+
+Therefore, the final answer is:
+
+\[
+17482_{12} + 16519_{12} = 319A11_{12}
+\]
+
+Summarized computation:
+\[
+17482_{12} \to 33506_{10}, \quad 16519_{12} \to 31845_{10}, \quad 33506_{10} + 31845_{10} = 65351_{10}, \quad 65351_{10} \to 319A11_{12}
+\]
+
+\[
+17482_{12} + 16519_{12} = 319A11_{12}
+\]

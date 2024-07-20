@@ -1,0 +1,96 @@
+First, let's convert the octal numbers to decimal to make the addition easier.
+
+**Converting \(40041_8\) to decimal:**
+\[ 
+40041_8 = 4 \times 8^4 + 0 \times 8^3 + 0 \times 8^2 + 4 \times 8^1 + 1 \times 8^0 
+\]
+\[
+4 \times 8^4 = 4 \times 4096 = 16384
+\]
+\[
+0 \times 8^3 = 0
+\]
+\[
+0 \times 8^2 = 0
+\]
+\[
+4 \times 8^1 = 4 \times 8 = 32
+\]
+\[
+1 \times 8^0 = 1 \times 1 = 1
+\]
+\[
+40041_8 = 16384 + 0 + 0 + 32 + 1 = 16417_{10}
+\]
+
+**Converting \(104126_8\) to decimal:**
+\[ 
+104126_8 = 1 \times 8^5 + 0 \times 8^4 + 4 \times 8^3 + 1 \times 8^2 + 2 \times 8^1 + 6 \times 8^0 
+\]
+\[
+1 \times 8^5 = 1 \times 32768 = 32768
+\]
+\[
+0 \times 8^4 = 0
+\]
+\[
+4 \times 8^3 = 4 \times 512 = 2048
+\]
+\[
+1 \times 8^2 = 1 \times 64 = 64
+\]
+\[
+2 \times 8^1 = 2 \times 8 = 16
+\]
+\[
+6 \times 8^0 = 6 \times 1 = 6
+\]
+\[
+104126_8 = 32768 + 0 + 2048 + 64 + 16 + 6 = 34902_{10}
+\]
+
+Next, add the two decimal numbers:
+\[
+16417 + 34902 = 51319_{10}
+\]
+
+Finally, we need to convert the sum back to octal:
+\[
+51319_{10} \to ?
+\]
+
+**Converting \(51319_{10}\) to octal:**
+1. Divide 51319 by 8, the remainder is part of the new base number.
+\[
+51319 \div 8 = 6414, \text{remainder} = 7
+\]
+2. Divide 6414 by 8, keep the remainder.
+\[
+6414 \div 8 = 801, \text{remainder} = 6
+\]
+3. Divide 801 by 8, keep the remainder.
+\[
+801 \div 8 = 100, \text{remainder} = 1
+\]
+4. Divide 100 by 8, keep the remainder.
+\[
+100 \div 8 = 12, \text{remainder} = 4
+\]
+5. Divide 12 by 8, keep the remainder.
+\[
+12 \div 8 = 1, \text{remainder} = 4
+\]
+6. Finally, 1 divided by 8 equals 0, with remainder 1.
+\[
+1 \div 8 = 0, \text{remainder} = 1
+\]
+
+Reading the remainders from bottom to top, we get \(144167_8\).
+
+So, the final result is:
+\[
+40041_8 + 104126_8 = 144167_8
+\]
+
+To summarize:
+\[ 40041_8 + 104126_8 = 16417_{10} + 34902_{10} = 51319_{10} = 144167_8 \]

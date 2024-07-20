@@ -1,0 +1,11 @@
+First, we need to convert the numbers to base 10:
+473A_{11} = 4*11^3 + 7*11^2 + 3*11^1 + 10*11^0 = 5320_{10}
+284A1_{11} = 2*11^3 + 8*11^2 + 4*11^1 + 1*11^0 = 3452_{10}
+
+Adding the base 10 equivalents:
+5320_{10} + 3452_{10} = 8772_{10}
+
+Converting the result back to base 11:
+8772_{10} = 6A36_{11}
+
+Therefore, 473A_{11} + 284A1_{11} = 6A36_{11}.

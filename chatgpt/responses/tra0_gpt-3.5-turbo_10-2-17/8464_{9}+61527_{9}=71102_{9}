@@ -1,0 +1,18 @@
+First, we need to perform addition in base 9.
+
+Starting with the rightmost column:
+$4_{9} + 7_{9} = 11_{9}$
+Write down the 1 and carry over the 1.
+
+Move to the next column:
+$6_{9} + 2_{9} + 1_{\text{carried over}} = 9_{9}$
+Write down the 0 and carry over the 1.
+
+Move to the next column:
+$8_{9} + 5_{9} + 1_{\text{carried over}} = 14_{9}$
+Write down the 5 and carry over the 1.
+
+Lastly, the leftmost column:
+$1_{\text{carried over}} + 1_{\text{leftover}} = 2_{9}$
+
+Therefore, $8464_{9} + 61527_{9} = 50211_{9}$.

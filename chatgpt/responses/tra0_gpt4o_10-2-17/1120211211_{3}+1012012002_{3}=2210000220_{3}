@@ -1,0 +1,72 @@
+To solve \(1120211211_{3} + 1012012002_{3}\), follow these steps:
+
+1. **Convert each number from base-3 to base-10:**
+
+To convert \(1120211211_{3}\) to base-10:
+\[
+1120211211_{3} = 1 \cdot 3^9 + 1 \cdot 3^8 + 2 \cdot 3^7 + 0 \cdot 3^6 + 2 \cdot 3^5 + 1 \cdot 3^4 + 1 \cdot 3^3 + 2 \cdot 3^2 + 1 \cdot 3^1 + 1 \cdot 3^0
+\]
+Break it down step-by-step:
+\[
+1 \cdot 19683 + 1 \cdot 6561 + 2 \cdot 2187 + 0 \cdot 729 + 2 \cdot 243 + 1 \cdot 81 + 1 \cdot 27 + 2 \cdot 9 + 1 \cdot 3 + 1 \cdot 1
+\]
+Compute each term:
+\[
+19683 + 6561 + 4374 + 0 + 486 + 81 + 27 + 18 + 3 + 1 = 31234
+\]
+Thus,
+\[
+1120211211_{3} = 31234_{10}
+\]
+
+To convert \(1012012002_{3}\) to base-10:
+\[
+1012012002_{3} = 1 \cdot 3^9 + 0 \cdot 3^8 + 1 \cdot 3^7 + 2 \cdot 3^6 + 0 \cdot 3^5 + 1 \cdot 3^4 + 2 \cdot 3^3 + 0 \cdot 3^2 + 0 \cdot 3^1 + 2 \cdot 3^0
+\]
+Break it down:
+\[
+1 \cdot 19683 + 0 \cdot 6561 + 1 \cdot 2187 + 2 \cdot 729 + 0 \cdot 243 + 1 \cdot 81 + 2 \cdot 27 + 0 \cdot 9 + 0 \cdot 3 + 2 \cdot 1
+\]
+Compute each term:
+\[
+19683 + 0 + 2187 + 1458 + 0 + 81 + 54 + 0 + 0 + 2 = 23465
+\]
+Thus,
+\[
+1012012002_{3} = 23465_{10}
+\]
+
+2. **Add the two base-10 numbers:**
+\[
+31234_{10} + 23465_{10} = 54699_{10}
+\]
+
+3. **Convert the sum back to base-3:**
+
+To convert \(54699_{10}\) back to base-3:
+Divide by 3, record remainders, and read from bottom to top:
+\[
+54699 \div 3 = 18233 \quad \text{remainder} \ 0 \\
+18233 \div 3 = 6077 \quad \text{remainder} \ 2 \\
+6077 \div 3 = 2025 \quad \text{remainder} \ 2 \\
+2025 \div 3 = 675 \quad \text{remainder} \ 0 \\
+675 \div 3 = 225 \quad \text{remainder} \ 0 \\
+225 \div 3 = 75 \quad \text{remainder} \ 0 \\
+75 \div 3 = 25 \quad \text{remainder} \ 0 \\
+25 \div 3 = 8 \quad \text{remainder} \ 1 \\
+8 \div 3 = 2 \quad \text{remainder} \ 2 \\
+2 \div 3 = 0 \quad \text{remainder} \ 2
+\]
+
+Reading the remainders from the bottom to top:
+\[
+54699_{10} = 2200110220_{3}
+\]
+
+Thus,
+\(1120211211_{3} + 1012012002_{3} = 2200110220_{3}\)
+
+Summary:
+\[
+1120211211_{3} + 1012012002_{3} \rightarrow 31234_{10} + 23465_{10} = 54699_{10} = 2200110220_{3}
+\]

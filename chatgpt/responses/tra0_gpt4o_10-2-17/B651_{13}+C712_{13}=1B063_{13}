@@ -1,0 +1,106 @@
+First, we need to convert the given base-13 numbers to base-10 numbers.
+
+Starting with \( B651_{13} \):
+- B in base-13 is 11 in base-10.
+- 6 in base-13 is 6 in base-10.
+- 5 in base-13 is 5 in base-10.
+- 1 in base-13 is 1 in base-10.
+
+The value of \( B651_{13} \) can be converted to base-10 as follows:
+\[
+B651_{13} = 11 \cdot 13^3 + 6 \cdot 13^2 + 5 \cdot 13^1 + 1 \cdot 13^0
+\]
+\[
+= 11 \cdot 2197 + 6 \cdot 169 + 5 \cdot 13 + 1 \cdot 1
+\]
+\[
+= 11 \cdot 2197 = 24167
+\]
+\[
+= 6 \cdot 169 = 1014
+\]
+\[
+= 5 \cdot 13 = 65
+\]
+\[
+= 1 \cdot 1 = 1
+\]
+\[
+B651_{13} = 24167 + 1014 + 65 + 1 = 25247_{10}
+\]
+
+Next, convert \( C712_{13} \):
+- C in base-13 is 12 in base-10.
+- 7 in base-13 is 7 in base-10.
+- 1 in base-13 is 1 in base-10.
+- 2 in base-13 is 2 in base-10.
+
+The value of \( C712_{13} \) can be converted to base-10 as follows:
+\[
+C712_{13} = 12 \cdot 13^3 + 7 \cdot 13^2 + 1 \cdot 13^1 + 2 \cdot 13^0
+\]
+\[
+= 12 \cdot 2197 + 7 \cdot 169 + 1 \cdot 13 + 2 \cdot 1
+\]
+\[
+= 12 \cdot 2197 = 26364
+\]
+\[
+= 7 \cdot 169 = 1183
+\]
+\[
+= 1 \cdot 13 = 13
+\]
+\[
+= 2 \cdot 1 = 2
+\]
+\[
+C712_{13} = 26364 + 1183 + 13 + 2 = 27562_{10}
+\]
+
+Now add the two base-10 equivalents:
+\[
+25247 + 27562 = 52809_{10}
+\]
+
+Finally, convert \( 52809_{10} \) back to base-13. To do this, we need to divide by successive powers of 13 and keep track of the remainders.
+
+First, find the highest power of 13 that fits into 52809:
+\[
+13^4 = 28561 \quad (fits into 52809)
+\]
+\[
+13^5 = 371293 \quad (too large)
+\]
+
+Now perform the division:
+\[
+52809 \div 28561 = 1 \quad \text{remainder } 24248
+\]
+
+Next:
+\[
+24248 \div 2197 = 11 \quad \text{remainder } 61  \quad \text{(B in base-13)}
+\]
+
+Next:
+\[
+61 \div 169 = 0 \quad \text{remainder } 61
+\]
+
+Next:
+\[
+61 \div 13 = 4 \quad \text{remainder } 9
+\]
+
+Next:
+\[
+9 \div 1 = 9 \quad \text{remainder } 9
+\]
+
+So, \( 52809_{10} = 1B049_{13} \).
+
+Summarizing:
+\[
+B651_{13} + C712_{13} = 25247_{10} + 27562_{10} = 52809_{10} = 1B049_{13}
+\]

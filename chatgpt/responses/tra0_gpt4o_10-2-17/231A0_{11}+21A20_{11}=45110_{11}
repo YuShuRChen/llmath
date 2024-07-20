@@ -1,0 +1,24 @@
+To solve this addition problem in base 11, we need to convert the base 11 numbers to base 10, perform the addition, and then, if necessary, convert the result back to base 11.
+
+First, let's convert \(231A0_{11}\) to base 10. The base 11 number \(231A0_{11}\) is calculated as follows:
+\[ 231A0_{11} = 2 \cdot 11^4 + 3 \cdot 11^3 + 1 \cdot 11^2 + 10 \cdot 11^1 + 0 \cdot 11^0 \]
+\[ = 2 \cdot 14641 + 3 \cdot 1331 + 1 \cdot 121 + 10 \cdot 11 + 0 \cdot 1 \]
+\[ = 29282 + 3993 + 121 + 110 + 0 \]
+\[ = 33496_{10} \]
+
+Next, convert \(21A20_{11}\) to base 10. The base 11 number \(21A20_{11}\) is calculated as follows:
+\[ 21A20_{11} = 2 \cdot 11^4 + 1 \cdot 11^3 + 10 \cdot 11^2 + 2 \cdot 11^1 + 0 \cdot 11^0 \]
+\[ = 2 \cdot 14641 + 1 \cdot 1331 + 10 \cdot 121 + 2 \cdot 11 + 0 \cdot 1 \]
+\[ = 29282 + 1331 + 1210 + 22 + 0 \]
+\[ = 31845_{10} \]
+
+Now add the two base 10 results together:
+\[ 33496 + 31845 = 65341_{10} \]
+
+Finally, convert the sum \(65341_{10}\) back to base 11:
+\[ 65341_{10} = 3 \cdot 11^4 + 6 \cdot 11^3 + 10 \cdot 11^2 + 10 \cdot 11^1 + 0 \cdot 11^0 \]
+Thus, \(65341_{10} = 36AA0_{11}\).
+
+In summary:
+\[ 231A0_{11} ( = 33496_{10}) + 21A20_{11} ( = 31845_{10}) = 65341_{10} = 36AA0_{11} \]
+\[ 231A0_{11} + 21A20_{11} = 36AA0_{11} \]

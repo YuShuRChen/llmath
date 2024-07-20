@@ -1,0 +1,77 @@
+To solve the sum \(211112001_{3} + 1202212200_{3}\), we'll first convert each of these base-3 numbers to base-10, perform the addition in base-10, and then convert the result back to base-3.
+
+#### Convert \(211112001_{3}\) to base-10:
+
+\[211112001_3 = 2 \cdot 3^8 + 1 \cdot 3^7 + 1 \cdot 3^6 + 1 \cdot 3^5 + 1 \cdot 3^4 + 2 \cdot 3^3 + 0 \cdot 3^2 + 0 \cdot 3^1 + 1 \cdot 3^0\]
+
+Calculations:
+
+\[2 \cdot 6561 = 13122\]
+\[1 \cdot 2187 = 2187\]
+\[1 \cdot 729 = 729\]
+\[1 \cdot 243 = 243\]
+\[1 \cdot 81 = 81\]
+\[2 \cdot 27 = 54\]
+\[0 \cdot 9 = 0\]
+\[0 \cdot 3 = 0\]
+\[1 \cdot 1 = 1\]
+
+Sum of these values:
+
+\[13122 + 2187 + 729 + 243 + 81 + 54 + 0 + 0 + 1 = 16317\]
+
+Thus,
+
+\[211112001_3 = 16317_{10}\]
+
+#### Convert \(1202212200_{3}\) to base-10:
+
+\[1202212200_3 = 1 \cdot 3^9 + 2 \cdot 3^8 + 0 \cdot 3^7 + 2 \cdot 3^6 + 2 \cdot 3^5 + 1 \cdot 3^4 + 2 \cdot 3^3 + 2 \cdot 3^2 + 0 \cdot 3^1 + 0 \cdot 3^0\]
+
+Calculations:
+
+\[1 \cdot 19683 = 19683\]
+\[2 \cdot 6561 = 13122\]
+\[0 \cdot 2187 = 0\]
+\[2 \cdot 729 = 1458\]
+\[2 \cdot 243 = 486\]
+\[1 \cdot 81 = 81\]
+\[2 \cdot 27 = 54\]
+\[2 \cdot 9 = 18\]
+\[0 \cdot 3 = 0\]
+\[0 \cdot 1 = 0\]
+
+Sum of these values:
+
+\[19683 + 13122 + 0 + 1458 + 486 + 81 + 54 + 18 + 0 + 0 = 34802\]
+
+Thus,
+
+\[1202212200_3 = 34802_{10}\]
+
+#### Perform the addition in base-10:
+
+\[16317_{10} + 34802_{10} = 51119_{10}\]
+
+#### Convert \(51119_{10}\) back to base-3:
+
+To convert from base-10 to base-3, we repeatedly divide by 3 and record the remainders.
+
+\[51119 \div 3 = 17039\] remainder \(2\)
+\[17039 \div 3 = 5679\] remainder \(2\)
+\[5679 \div 3 = 1893\] remainder \(0\)
+\[1893 \div 3 = 631\] remainder \(0\)
+\[631 \div 3 = 210\] remainder \(1\)
+\[210 \div 3 = 70\] remainder \(0\)
+\[70 \div 3 = 23\] remainder \(1\)
+\[23 \div 3 = 7\] remainder \(2\)
+\[7 \div 3 = 2\] remainder \(1\)
+\[2 \div 3 = 0\] remainder \(2\)
+
+Reading the remainders from bottom to top gives us:
+
+\(51119_{10} = 2101010222_{3}\)
+
+So, the original problem \(211112001_{3} + 1202212200_{3} = 2101010222_{3}\).
+
+\[211112001_{3} + 1202212200_{3} = 211112001_{3} (16317_{10}) + 1202212200_{3} (34802_{10}) = 51119_{10} = 2101010222_{3}\]

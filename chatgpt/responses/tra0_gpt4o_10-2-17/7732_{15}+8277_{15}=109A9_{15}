@@ -1,0 +1,63 @@
+To solve the problem \(7732_{15} + 8277_{15}\), we need to convert the base-15 numbers to base-10, perform the addition in base-10, and if desired, convert the result back to base-15. First, perform the conversions to base-10:
+
+1. **Convert \(7732_{15}\) to base-10:**
+
+\[ 7732_{15} = 7 \cdot 15^3 + 7 \cdot 15^2 + 3 \cdot 15^1 + 2 \cdot 15^0 \]
+
+\[ = 7 \cdot 3375 + 7 \cdot 225 + 3 \cdot 15 + 2 \]
+
+\[ = 23625 + 1575 + 45 + 2 \]
+
+\[ = 25247_{10} \]
+
+2. **Convert \(8277_{15}\) to base-10:**
+
+\[ 8277_{15} = 8 \cdot 15^3 + 2 \cdot 15^2 + 7 \cdot 15^1 + 7 \cdot 15^0 \]
+
+\[ = 8 \cdot 3375 + 2 \cdot 225 + 7 \cdot 15 + 7 \]
+
+\[ = 27000 + 450 + 105 + 7 \]
+
+\[ = 27562_{10} \]
+
+3. **Add the base-10 equivalents:**
+
+\[ 25247_{10} + 27562_{10} = 52809_{10} \]
+
+So the sum of \(7732_{15}\) and \(8277_{15}\) in base-10 is \(52809_{10}\).
+
+4. **Convert \(52809_{10}\) back to base-15 (if needed):**
+
+- Start from the highest power of 15 that is less than 52809.
+- \(15^4 = 50625\)
+- \(52809 \div 50625 = 1\) remainder \(2194\)
+- Write down 1 as the coefficient for \(15^4\)
+
+\[ 52809 - 50625 = 2184 \]
+
+- Next term,
+- \(2184 \div 225 = 9\) remainder 159
+
+\[ 2184 - 2025 = 159 \]
+- Write down 9 as the coefficient for \(15^2\)
+
+- Next term,
+\[ 159 \div 15 = 10\] remainder 9
+
+- Write down 10 (represented as 'A' in base-15) as the coefficient for \(15^1\)
+
+\[ 15 \cdot 10 = 150 \]
+
+\[ 159 - 150 = 9 \]
+
+We get \(9\) as the coefficient for \(15^0\)
+
+So, \(52809_{10} = 190A9_{15}\).
+
+The final result:
+
+\[ 7732_{15} + 8277_{15} = 190A9_{15} \]
+
+On one line with all bases indicated:
+
+\[ 7732_{15} + 8277_{15} \rightarrow 25247_{10} + 27562_{10} = 52809_{10} \rightarrow 190A9_{15} \]

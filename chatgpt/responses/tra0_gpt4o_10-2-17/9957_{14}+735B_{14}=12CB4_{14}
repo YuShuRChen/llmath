@@ -1,0 +1,75 @@
+To solve the problem, we'll follow these steps:
+1. Convert \(9957_{14}\) from base 14 to base 10.
+2. Convert \(735B_{14}\) from base 14 to base 10.
+3. Add the two base 10 numbers.
+4. Convert the result back to base 14.
+
+### Step 1: Convert \(9957_{14}\) to base 10
+
+\[9957_{14} = 9 \cdot 14^3 + 9 \cdot 14^2 + 5 \cdot 14^1 + 7 \cdot 14^0\]
+
+Calculating the powers:
+\[14^3 = 2744\]
+\[14^2 = 196\]
+\[14^1 = 14\]
+\[14^0 = 1\]
+
+Now multiply and add:
+\[9957_{14} = 9 \cdot 2744 + 9 \cdot 196 + 5 \cdot 14 + 7 \cdot 1\]
+\[= 24696 + 1764 + 70 + 7\]
+\[= 26537_{10}\]
+
+### Step 2: Convert \(735B_{14}\) to base 10
+
+First, note B in base 14 equals 11 in base 10.
+
+\[735B_{14} = 7 \cdot 14^3 + 3 \cdot 14^2 + 5 \cdot 14^1 + 11 \cdot 14^0\]
+
+Calculating the powers:
+\[14^3 = 2744\]
+\[14^2 = 196\]
+\[14^1 = 14\]
+\[14^0 = 1\]
+
+Now multiply and add:
+\[735B_{14} = 7 \cdot 2744 + 3 \cdot 196 + 5 \cdot 14 + 11 \cdot 1\]
+\[= 19208 + 588 + 70 + 11\]
+\[= 19877_{10}\]
+
+### Step 3: Add the two base 10 numbers
+
+\[26537_{10} + 19877_{10} = 46414_{10}\]
+
+### Step 4: Convert \(46414_{10}\) back to base 14
+
+We need to repeatedly divide 46414 by 14 and record the remainders.
+
+\[
+46414 \div 14 = 3315 \quad \text{remainder } 4
+\]
+\[
+3315 \div 14 = 236 \quad \text{remainder } 11 \quad (\text{ which is } B_{14})
+\]
+\[
+236 \div 14 = 16 \quad \text{remainder } 12 \quad (\text{ which is } C_{14})
+\]
+\[
+16 \div 14 = 1 \quad \text{remainder } 2
+\]
+\[
+1 \div 14 = 0 \quad \text{remainder } 1
+\]
+
+Reading the remainders from bottom to top, we get:
+
+\[46414_{10} = 12CB4_{14}\]
+
+### Final Result
+
+\[
+9957_{14} + 735B_{14} = 26537_{10} + 19877_{10} = 46414_{10} = 12CB4_{14}
+\]
+
+To summarize in one line in text form:
+
+\[9957_{14} + 735B_{14} = 26537_{10} + 19877_{10} = 46414_{10} = 12CB4_{14}\]

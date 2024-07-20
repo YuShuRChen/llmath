@@ -1,0 +1,99 @@
+To solve the equation \( 2AA0_{13} + 155A4_{13} \), we'll start by converting both numbers from base 13 to base 10, perform the addition in base 10, and then, if required, convert the result back to base 13.
+
+### Step 1: Convert \( 2AA0_{13} \) to base 10.
+
+The value of digits in base 13:
+- \(2\) has a base 10 value of \(2\).
+- \(A\) in base 13 is \(10\) in base 10.
+- \(0\) has a base 10 value of \(0\).
+
+Thus, \( 2AA0_{13} \) can be computed as:
+\[
+2AA0_{13} = 2 \cdot 13^3 + 10 \cdot 13^2 + 10 \cdot 13^1 + 0 \cdot 13^0
+\]
+
+Calculate each term:
+\[
+2 \cdot 13^3 = 2 \cdot 2197 = 4394
+\]
+\[
+10 \cdot 13^2 = 10 \cdot 169 = 1690
+\]
+\[
+10 \cdot 13^1 = 10 \cdot 13 = 130
+\]
+\[
+0 \cdot 13^0 = 0
+\]
+
+Sum these values:
+\[
+4394 + 1690 + 130 + 0 = 6214
+\]
+Thus, \( 2AA0_{13} = 6214_{10} \).
+
+### Step 2: Convert \( 155A4_{13} \) to base 10.
+
+Similarly, for \( 155A4_{13} \):
+- \(1\) has a base 10 value of \(1\).
+- \(5\) has a base 10 value of \(5\).
+- \(A\) in base 13 is \(10\) in base 10.
+- \(4\) has a base 10 value of \(4\).
+
+\[
+155A4_{13} = 1 \cdot 13^4 + 5 \cdot 13^3 + 5 \cdot 13^2 + 10 \cdot 13^1 + 4 \cdot 13^0
+\]
+
+Calculate each term:
+\[
+1 \cdot 13^4 = 1 \cdot 28561 = 28561
+\]
+\[
+5 \cdot 13^3 = 5 \cdot 2197 = 10985
+\]
+\[
+5 \cdot 13^2 = 5 \cdot 169 = 845
+\]
+\[
+10 \cdot 13^1 = 10 \cdot 13 = 130
+\]
+\[
+4 \cdot 13^0 = 4
+\]
+
+Sum these values:
+\[
+28561 + 10985 + 845 + 130 + 4 = 40441
+\]
+Thus, \( 155A4_{13} = 40441_{10} \).
+
+### Step 3: Perform the addition in base 10.
+
+\[
+6214_{10} + 40441_{10} = 46655_{10}
+\]
+
+### Step 4: Convert the result back to base 13.
+
+\[
+46655 \div 13 = 3581 \quad \text{remainder} \ 2
+\]
+\[
+3581 \div 13 = 275 \quad \text{remainder} \ 6
+\]
+\[
+275 \div 13 = 21 \quad \text{remainder} \ 2
+\]
+\[
+21 \div 13 = 1 \quad \text{remainder} \ 8
+\]
+\[
+1 \div 13 = 0 \quad \text{remainder} \ 1
+\]
+
+Read the remainders from bottom to top gives: \( 18262_{13} \).
+
+### Summary:
+\[
+2AA0_{13} + 155A4_{13} = 2AA0_{13} = 6214_{10} + 155A4_{13} = 40441_{10} = 18262_{13}
+\]

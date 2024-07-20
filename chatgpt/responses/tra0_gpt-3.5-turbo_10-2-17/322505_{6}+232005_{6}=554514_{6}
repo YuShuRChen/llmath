@@ -1,0 +1,11 @@
+To add these two numbers in base 6, we line up the numbers by place value and then add the digits in each position, carrying over if necessary.
+
+\[
+\begin{array}{r}
+ 322505_{6} \\
++\underline{232005_{6}} \\
+ 555510_{6} \\
+\end{array}
+\]
+
+Therefore, \(322505_{6} + 232005_{6} = 555510_{6}\).

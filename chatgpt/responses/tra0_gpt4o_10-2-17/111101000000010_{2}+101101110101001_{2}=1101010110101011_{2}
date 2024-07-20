@@ -1,0 +1,47 @@
+To compute the sum of two binary numbers, we first convert them to their decimal (base 10) forms, perform the addition in decimal, and then convert the result back to binary (base 2).
+
+### Step 1: Convert Binary to Decimal
+
+1. **111101000000010₂**:
+    - Starting from the rightmost bit:
+    - \((1 \cdot 2^0) + (0 \cdot 2^1) + (1 \cdot 2^2) + (0 \cdot 2^3) + (0 \cdot 2^4) + (0 \cdot 2^5) + (0 \cdot 2^6) + (0 \cdot 2^7) + (0 \cdot 2^8) + (1 \cdot 2^9) + (0 \cdot 2^{10}) + (1 \cdot 2^{11}) + (1 \cdot 2^{12}) + (1 \cdot 2^{13}) + (1 \cdot 2^{14})\)
+    - This equals \(1 + 4 + 512 + 2048 + 4096 + 8192 + 16384\)
+    - Sum: \(31746\)
+
+2. **101101110101001₂**:
+    - Starting from the rightmost bit:
+    - \((1 \cdot 2^0) + (0 \cdot 2^1) + (0 \cdot 2^2) + (1 \cdot 2^3) + (0 \cdot 2^4) + (1 \cdot 2^5) + (1 \cdot 2^6) + (0 \cdot 2^7) + (1 \cdot 2^8) + (1 \cdot 2^9) + (1 \cdot 2^{10}) + (0 \cdot 2^{11}) + (1 \cdot 2^{12}) + (1 \cdot 2^{13}) + (1 \cdot 2^{14})\)
+    - This equals \(1 + 8 + 32 + 64 + 512 + 1024 + 4096 + 8192 + 16384\)
+    - Sum: \(23641\)
+
+### Step 2: Perform the Addition in Decimal
+
+\[ 31746 + 23641 = 55387 \]
+
+### Step 3: Convert Decimal Back to Binary
+
+Divide 55387 by 2, keep track of the quotient and remainder, and continue dividing the quotient by 2 until it is zero:
+
+1. \(55387 \div 2 = 27693\) remainder \(1\)
+2. \(27693 \div 2 = 13846\) remainder \(1\)
+3. \(13846 \div 2 = 6923\) remainder \(0\)
+4. \(6923 \div 2 = 3461\) remainder \(1\)
+5. \(3461 \div 2 = 1730\) remainder \(1\)
+6. \(1730 \div 2 = 865\) remainder \(0\)
+7. \(865 \div 2 = 432\) remainder \(1\)
+8. \(432 \div 2 = 216\) remainder \(0\)
+9. \(216 \div 2 = 108\) remainder \(0\)
+10. \(108 \div 2 = 54\) remainder \(0\)
+11. \(54 \div 2 = 27\) remainder \(0\)
+12. \(27 \div 2 = 13\) remainder \(1\)
+13. \(13 \div 2 = 6\) remainder \(1\)
+14. \(6 \div 2 = 3\) remainder \(0\)
+15. \(3 \div 2 = 1\) remainder \(1\)
+16. \(1 \div 2 = 0\) remainder \(1\)
+
+Reading the remainders from bottom to top, the binary representation of \(55387\) is:
+
+\[ 1101100000011011_2 \]
+
+### Summary
+\[111101000000010_2 + 101101110101001_2 = 31746_{10} + 23641_{10} = 55387_{10} = 1101100000011011_{2}\]

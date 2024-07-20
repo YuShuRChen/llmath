@@ -1,0 +1,72 @@
+To solve the addition of two octal numbers, we'll first convert them to decimal, perform the addition in decimal, and then convert the result back to octal.
+
+1. **Convert 61237_{8} to decimal:**
+
+\[
+6 \times 8^4 + 1 \times 8^3 + 2 \times 8^2 + 3 \times 8^1 + 7 \times 8^0
+\]
+
+Calculating each term:
+
+\[
+6 \times 4096 + 1 \times 512 + 2 \times 64 + 3 \times 8 + 7 \times 1
+\]
+
+\[
+24576 + 512 + 128 + 24 + 7 = 25247_{10}
+\]
+
+2. **Convert 65652_{8} to decimal:**
+
+\[
+6 \times 8^4 + 5 \times 8^3 + 6 \times 8^2 + 5 \times 8^1 + 2 \times 8^0
+\]
+
+Calculating each term:
+
+\[
+6 \times 4096 + 5 \times 512 + 6 \times 64 + 5 \times 8 + 2 \times 1
+\]
+
+\[
+24576 + 2560 + 384 + 40 + 2 = 27602_{10}
+\]
+
+3. **Add the two decimal numbers:**
+
+\[
+25247_{10} + 27602_{10} = 52849_{10}
+\]
+
+4. **Convert 52849_{10} back to octal:**
+
+Divide 52849 by 8 repeatedly, keeping track of the remainders:
+
+\[
+52849 \div 8 = 6606 \text{ remainder } 1
+\]
+\[
+6606 \div 8 = 825 \text{ remainder } 6
+\]
+\[
+825 \div 8 = 103 \text{ remainder } 1
+\]
+\[
+103 \div 8 = 12 \text{ remainder } 7
+\]
+\[
+12 \div 8 = 1 \text{ remainder } 4
+\]
+\[
+1 \div 8 = 0 \text{ remainder } 1
+\]
+
+Reading the remainders from bottom to top, we get \(147161_{8}\).
+
+Thus,
+\[
+61237_{8} + 65652_{8} = 147161_{8}
+\]
+
+Summarized as:
+\(61237_{8} + 65652_{8} = 25247_{10} + 27602_{10} = 52849_{10} = 147161_{8}\)

@@ -1,0 +1,35 @@
+To calculate \(33506_{10} + 31845_{10}\):
+
+1. Align the numbers by the decimal point.
+
+\[
+\begin{array}{r}
+33506 \\
++31845 \\
+\hline
+\end{array}
+\]
+
+2. Add the digits column by column from right to left, carrying over when needed:
+
+ \[
+\begin{array}{r}
+\quad\ \  1 \\
+33506 \\
++31845 \\
+\hline
+65351 \\
+\end{array}
+\]
+
+Let's break it down:
+- Units place: \(6 + 5 = 11 \ \text{(write 1, carry 1)}\)
+- Tens place: \(0 + 4 + 1 = 5 \ \text{(write 5, no carry)}\)
+- Hundreds place: \(5 + 8 = 13 \ \text{(write 3, carry 1)}\)
+- Thousands place: \(3 + 1 + 1 = 5 \ \text{(write 5, no carry)}\)
+- Ten thousands place: \(3 + 3 = 6 \ \text{(write 6, no carry)}\)
+
+Therefore, the sum is \(65351_{10}\).
+
+Summarized answer: 
+33506_{10} + 31845_{10} = 65351_{10}.

@@ -1,0 +1,62 @@
+To solve the addition of two base-6 numbers, we first convert them to base-10, perform the addition in base-10, and then convert the result back to base-6.
+
+1. Convert \(453000_{6}\) to base-10:
+   \[
+   453000_{6} = 4 \cdot 6^5 + 5 \cdot 6^4 + 3 \cdot 6^3 + 0 \cdot 6^2 + 0 \cdot 6^1 + 0 \cdot 6^0
+   \]
+   \[
+   = 4 \cdot 7776 + 5 \cdot 1296 + 3 \cdot 216 + 0 \cdot 36 + 0 \cdot 6 + 0 \cdot 1
+   \]
+   \[
+   = 31004 + 6480 + 648 + 0 + 0 + 0
+   \]
+   \[
+   = 38132_{10}
+   \]
+
+2. Convert \(150135_{6}\) to base-10:
+   \[
+   150135_{6} = 1 \cdot 6^5 + 5 \cdot 6^4 + 0 \cdot 6^3 + 1 \cdot 6^2 + 3 \cdot 6^1 + 5 \cdot 6^0
+   \]
+   \[
+   = 1 \cdot 7776 + 5 \cdot 1296 + 0 \cdot 216 + 1 \cdot 36 + 3 \cdot 6 + 5 \cdot 1
+   \]
+   \[
+   = 7776 + 6480 + 0 + 36 + 18 + 5
+   \]
+   \[
+   = 14315_{10}
+   \]
+
+3. Add the two base-10 numbers:
+   \[
+   38132_{10} + 14315_{10} = 52447_{10}
+   \]
+
+4. Convert \(52447_{10}\) back to base-6:
+   * Divide 52447 by 6 repeatedly to obtain coefficients:
+   \[
+   52447 \div 6 = 8741 \text{ remainder } 1  \quad (\text{units place})
+   \]
+   \[
+   8741 \div 6 = 1456 \text{ remainder } 5 \quad (\text{6 place})
+   \]
+   \[
+   1456 \div 6 = 242 \text{ remainder } 4 \quad (\text{36 place})
+   \]
+   \[
+   242 \div 6 = 40 \text{ remainder } 2 \quad (\text{216 place})
+   \]
+   \[
+   40 \div 6 = 6 \text{ remainder } 4 \quad (\text{6^3 place})
+   \]
+   \[
+   6 \div 6 = 1 \text{ remainder } 0 \quad (\text{6^4 place})
+   \]
+
+   So, \(52447_{10} = 1042451_{6}\).
+
+Summarizing the process:
+\[
+  453000_{6} + 150135_{6} = 38132_{10} + 14315_{10} = 52447_{10} = 1042451_{6}
+\]

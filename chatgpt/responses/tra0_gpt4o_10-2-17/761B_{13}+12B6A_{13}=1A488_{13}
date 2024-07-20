@@ -1,0 +1,42 @@
+To add the numbers \(761B_{13}\) and \(12B6A_{13}\) in base 13, we follow these steps:
+
+1. Convert both numbers from base 13 to base 10.
+2. Perform the addition in base 10.
+3. Convert the result back to base 13.
+
+### Step 1: Convert from base 13 to base 10
+
+**\(761B_{13}\)**:
+\[ 7 \times 13^3 + 6 \times 13^2 + 1 \times 13^1 + B \times 13^0 \]
+where \( B = 11 \) in base 10.
+\[ = 7 \times 2197 + 6 \times 169 + 1 \times 13 + 11 \]
+\[ = 15379 + 1014 + 13 + 11 \]
+\[ = 16417_{10} \]
+
+**\(12B6A_{13}\)**:
+\[ 1 \times 13^4 + 2 \times 13^3 + B \times 13^2 + 6 \times 13^1 + A \times 13^0 \]
+where \( B = 11 \) and \( A = 10 \) in base 10.
+\[ = 1 \times 28561 + 2 \times 2197 + 11 \times 169 + 6 \times 13 + 10 \]
+\[ = 28561 + 4394 + 1859 + 78 + 10 \]
+\[ = 34802_{10} \]
+
+### Step 2: Perform the addition in base 10
+
+\[ 16417 + 34802 = 51219_{10} \]
+
+### Step 3: Convert the result back to base 13
+
+To convert \(51219_{10}\) to base 13:
+
+1. Divide by 13 and find the remainders:
+\[ 51219 \div 13 = 3939 \, \text{remainder} \, 12 \, \text{(C in base 13)} \]
+\[ 3939 \div 13 = 303 \, \text{remainder} \, 0 \]
+\[ 303 \div 13 = 23 \, \text{remainder} \, 4 \]
+\[ 23 \div 13 = 1 \, \text{remainder} \, 10 \, \text{(A in base 13)} \]
+\[ 1 \div 13 = 0 \, \text{remainder} \, 1 \]
+
+So \(51219_{10}\) converts to \(1A40C_{13}\).
+
+### Summary
+\[ 761B_{13} + 12B6A_{13} = 16417_{10} + 34802_{10} = 51219_{10} = 1A40C_{13} \]
+\[ 761B_{13} + 12B6A_{13} = 1A40C_{13} \]

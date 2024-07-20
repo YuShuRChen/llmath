@@ -1,0 +1,48 @@
+First, let's convert both octal numbers to decimal numbers.
+
+### Converting \(75002_8\) to decimal:
+\[ 75002_8 = 7 \times 8^4 + 5 \times 8^3 + 0 \times 8^2 + 0 \times 8^1 + 2 \times 8^0 \]
+Calculate the individual terms:
+\[ 7 \times 8^4 = 7 \times 4096 = 28672 \]
+\[ 5 \times 8^3 = 5 \times 512 = 2560 \]
+\[ 0 \times 8^2 = 0 \]
+\[ 0 \times 8^1 = 0 \]
+\[ 2 \times 8^0 = 2 \]
+
+Adding these together:
+\[ 28672 + 2560 + 0 + 0 + 2 = 31234 \]
+
+So, \(75002_8\) in decimal is \(31234_{10}\).
+
+### Converting \(55651_8\) to decimal:
+\[ 55651_8 = 5 \times 8^4 + 5 \times 8^3 + 6 \times 8^2 + 5 \times 8^1 + 1 \times 8^0 \]
+Calculate the individual terms:
+\[ 5 \times 8^4 = 5 \times 4096 = 20480 \]
+\[ 5 \times 8^3 = 5 \times 512 = 2560 \]
+\[ 6 \times 8^2 = 6 \times 64 = 384 \]
+\[ 5 \times 8^1 = 5 \times 8 = 40 \]
+\[ 1 \times 8^0 = 1 \]
+
+Adding these together:
+\[ 20480 + 2560 + 384 + 40 + 1 = 23565 \]
+
+So, \(55651_8\) in decimal is \(23565_{10}\).
+
+### Adding the two decimal numbers:
+\[ 31234 + 23565 = 54799 \]
+
+### Converting \(54799_{10}\) back to octal:
+We repeatedly divide the decimal number by 8 and keep track of the remainders:
+\[ 54799 \div 8 = 6849\ \text{remainder}\ 7 \]
+\[ 6849 \div 8 = 856\ \text{remainder}\ 1 \]
+\[ 856 \div 8 = 107\ \text{remainder}\ 0 \]
+\[ 107 \div 8 = 13\ \text{remainder}\ 3 \]
+\[ 13 \div 8 = 1\ \text{remainder}\ 5 \]
+\[ 1 \div 8 = 0\ \text{remainder}\ 1 \]
+
+Reading the remainders from bottom to top, we get:
+\[ 54799_{10} = 150317_8 \]
+
+### Summary
+\[ 75002_8 + 55651_8 = 31234_{10} + 23565_{10} = 54799_{10} = 150317_8 \]
+\[ 75002_{8} + 55651_{8} = 150317_{8} \]

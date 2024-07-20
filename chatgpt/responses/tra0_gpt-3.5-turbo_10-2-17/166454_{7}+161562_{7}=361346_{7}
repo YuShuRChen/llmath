@@ -1,0 +1,12 @@
+To add numbers in base 7, we need to carry over when the sum exceeds 6.
+
+Starting from the rightmost column:
+$4_{7} + 2_{7} = 6_{7}$ with no carry over.
+
+Moving to the next column:
+$5_{7} + 6_{7} = 13_{7} = 6_{7}$ with a carry over of 1.
+
+Moving to the next column:
+$4_{7} + 1_{7} + 1 = 6_{7}$.
+
+Therefore, $166454_{7} + 161562_{7} = 325016_{7}$.

@@ -1,0 +1,27 @@
+First, we need to convert the base-12 numbers to base-10.
+
+For \(1273B_{12}\):
+\[ 1 \cdot 12^4 + 2 \cdot 12^3 + 7 \cdot 12^2 + 3 \cdot 12^1 + B \cdot 12^0 \]
+where \(B = 11\) in decimal,
+\[ 1 \cdot 20736 + 2 \cdot 1728 + 7 \cdot 144 + 3 \cdot 12 + 11 \cdot 1 \]
+\[ 20736 + 3456 + 1008 + 36 + 11 \]
+\[ 25247 \]
+
+For \(13B4A_{12}\):
+\[ 1 \cdot 12^4 + 3 \cdot 12^3 + B \cdot 12^2 + 4 \cdot 12^1 + A \cdot 12^0 \]
+where \(B = 11\) and \(A = 10\) in decimal,
+\[ 1 \cdot 20736 + 3 \cdot 1728 + 11 \cdot 144 + 4 \cdot 12 + 10 \]
+\[ 20736 + 5184 + 1584 + 48 + 10 \]
+\[ 27562 \]
+
+Now we add the two base-10 numbers together:
+
+\[ 25247 + 27562 = 52809 \]
+
+Let's summarize:
+\[ 1273B_{12} = 25247_{10} \]
+\[ 13B4A_{12} = 27562_{10} \]
+\[ 25247_{10} + 27562_{10} = 52809_{10} \]
+
+Summarizing in one line:
+\[ 1273B_{12} + 13B4A_{12} = 25247_{10} + 27562_{10} = 52809_{10} \]

@@ -1,0 +1,12 @@
+First, we will align the numbers vertically and perform the addition as follows:
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c@{}}
+ & & & 1 & 2 & 0 & 9 & 3_{13} \\
++ & & & & & 4 & 2 & 0 & 1_{13} \\
+\hline
+ & & & 1 & 2 & 5 & 0 & 0 & 4_{13} \\
+\end{array}
+\]
+
+Therefore, \(12093_{13} + 4201_{13} = 125004_{13}\).

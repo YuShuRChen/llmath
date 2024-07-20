@@ -1,0 +1,24 @@
+To find the sum of 82E2_{16} and 7C65_{16}, we need to convert each hexadecimal number to its decimal equivalent, perform the addition in decimal, and then convert the result back to hexadecimal.
+
+First, convert 82E2_{16} to decimal:
+\[ 82E2_{16} = 8 \times 16^3 + 2 \times 16^2 + E \times 16^1 + 2 \times 16^0 \]
+\[ = 8 \times 4096 + 2 \times 256 + 14 \times 16 + 2 \]
+\[ = 32768 + 512 + 224 + 2 \]
+\[ = 33506_{10} \]
+
+Next, convert 7C65_{16} to decimal:
+\[ 7C65_{16} = 7 \times 16^3 + C \times 16^2 + 6 \times 16^1 + 5 \times 16^0 \]
+\[ = 7 \times 4096 + 12 \times 256 + 6 \times 16 + 5 \]
+\[ = 28672 + 3072 + 96 + 5 \]
+\[ = 31845_{10} \]
+
+Add the two decimal numbers together:
+\[ 33506_{10} + 31845_{10} = 65351_{10} \]
+
+Finally, convert the result back to hexadecimal:
+\[ 65351_{10} = FEF7_{16} \]
+
+So the sum of 82E2_{16} and 7C65_{16} is FEF7_{16}.
+
+Summary:
+\[ 82E2_{16} + 7C65_{16} \rightarrow 33506_{10} + 31845_{10} = 65351_{10} \rightarrow FEF7_{16} \]

@@ -1,0 +1,90 @@
+To solve the equation \(12093_{13} + 4201_{13}\) in base-13, follow these steps:
+
+1. **Convert both numbers to base-10.**
+
+   First, convert \(12093_{13}\) to base-10. The number 12093 in base-13 is calculated as follows:
+   \[
+   1 \cdot 13^4 + 2 \cdot 13^3 + 0 \cdot 13^2 + 9 \cdot 13^1 + 3 \cdot 13^0
+   \]
+   Let's calculate each term:
+   \[
+   1 \cdot 13^4 = 1 \cdot 28561 = 28561
+   \]
+   \[
+   2 \cdot 13^3 = 2 \cdot 2197 = 4394
+   \]
+   \[
+   0 \cdot 13^2 = 0
+   \]
+   \[
+   9 \cdot 13^1 = 9 \cdot 13 = 117
+   \]
+   \[
+   3 \cdot 13^0 = 3 \cdot 1 = 3
+   \]
+   Now add these values together:
+   \[
+   28561 + 4394 + 0 + 117 + 3 = 33075
+   \]
+   So, \(12093_{13} = 33075_{10}\).
+
+   Next, convert \(4201_{13}\) to base-10. The number 4201 in base-13 is calculated as follows:
+   \[
+   4 \cdot 13^3 + 2 \cdot 13^2 + 0 \cdot 13^1 + 1 \cdot 13^0
+   \]
+   Let's calculate each term:
+   \[
+   4 \cdot 13^3 = 4 \cdot 2197 = 8788
+   \]
+   \[
+   2 \cdot 13^2 = 2 \cdot 169 = 338
+   \]
+   \[
+   0 \cdot 13^1 = 0
+   \]
+   \[
+   1 \cdot 13^0 = 1 \cdot 1 = 1
+   \]
+   Now add these values together:
+   \[
+   8788 + 338 + 0 + 1 = 9127
+   \]
+   So, \(4201_{13} = 9127_{10}\).
+
+2. **Add the base-10 equivalents:**
+
+   \[
+   33075 + 9127 = 42102
+   \]
+
+3. **Convert the result back to base-13.**
+
+   To convert 42102 from base-10 to base-13, repeatedly divide by 13 and record the remainders:
+
+   \[
+   42102 ÷ 13 = 3238 \quad \text{remainder} \: 6
+   \]
+   \[
+   3238 ÷ 13 = 249 \quad \text{remainder} \: 1
+   \]
+   \[
+   249 ÷ 13 = 19 \quad \text{remainder} \: 2
+   \]
+   \[
+   19 ÷ 13 = 1 \quad \text{remainder} \: 6
+   \]
+   \[
+   1 ÷ 13 = 0 \quad \text{remainder} \: 1
+   \]
+
+   Reading the remainders from bottom to top, we get \(11626_{13}\).
+
+So:
+\[
+12093_{13} + 4201_{13} = 11626_{13}
+\]
+
+Here’s a summarized line of the solution:
+\[
+12093_{13} + 4201_{13} = 33075_{10} + 9127_{10} = 42102_{10} = 11626_{13}
+\]

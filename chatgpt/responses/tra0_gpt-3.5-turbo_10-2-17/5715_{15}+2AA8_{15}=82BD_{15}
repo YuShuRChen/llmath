@@ -1,0 +1,5 @@
+First, we convert the hexadecimal number 2AA8 to base 15:
+2AA8_{15} = 2*(15^3) + 10*(15^2) + 10*(15^1) + 8*(15^0) = 2*3375 + 10*225 + 10*15 + 8*1 = 6750 + 2250 + 150 + 8 = 9158_{15}
+
+Now, we can add the two numbers:
+5715_{15} + 9158_{15} = 14873_{15}

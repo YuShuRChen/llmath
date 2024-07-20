@@ -1,0 +1,68 @@
+To solve \(57400_9 + 21565_9\), we first need to convert these numbers from base 9 to base 10.
+
+### Converting \(57400_9\) to base 10:
+The number \(57400_9\) can be expanded as:
+\(5 \cdot 9^4 + 7 \cdot 9^3 + 4 \cdot 9^2 + 0 \cdot 9^1 + 0 \cdot 9^0\)
+
+Calculating each term:
+- \(5 \cdot 9^4 = 5 \cdot 6561 = 32805\)
+- \(7 \cdot 9^3 = 7 \cdot 729 = 5103\)
+- \(4 \cdot 9^2 = 4 \cdot 81 = 324\)
+- \(0 \cdot 9^1 = 0\)
+- \(0 \cdot 9^0 = 0\)
+
+Summing these:
+\(32805 + 5103 + 324 + 0 + 0 = 38232\)
+
+So, \(57400_9 = 38232_{10}\).
+
+### Converting \(21565_9\) to base 10:
+The number \(21565_9\) can be expanded as:
+\(2 \cdot 9^4 + 1 \cdot 9^3 + 5 \cdot 9^2 + 6 \cdot 9^1 + 5 \cdot 9^0\)
+
+Calculating each term:
+- \(2 \cdot 9^4 = 2 \cdot 6561 = 13122\)
+- \(1 \cdot 9^3 = 1 \cdot 729 = 729\)
+- \(5 \cdot 9^2 = 5 \cdot 81 = 405\)
+- \(6 \cdot 9^1 = 6 \cdot 9 = 54\)
+- \(5 \cdot 9^0 = 5\)
+
+Summing these:
+\(13122 + 729 + 405 + 54 + 5 = 14315\)
+
+So, \(21565_9 = 14315_{10}\).
+
+### Adding the base 10 equivalents:
+\(38232 + 14315 = 52547\)
+
+### Converting the result back to base 9:
+We take \(52547_{10}\) and convert it back to base 9.
+
+Find the largest power of 9 less than \(52547\):
+- \(9^5 = 59049\)
+- \(9^4 = 6561\) (usable as \(59049 > 52547\))
+
+Divide \(52547\) by \(6561\):
+- Quotient = \(8\)
+- Remainder = \(52547 - 8 \cdot 6561 = 52547 - 52488 = 59\)
+
+Next largest power of 9 for \(59\):
+- \(9^2 = 81\) (usable since \(9^3 = 729 > 59\))
+- Quotient = 0
+- \(81\cdot 0 = 0\)
+
+Next largest power of 9 for \(59\):
+- \(9^1 = 9\)
+- Quotient = \(6\)
+- Remainder = \(59 - (6 \cdot 9) = 59 - 54 = 5\)
+
+Finally, \(9^0\):
+- Quotient = \(5\)
+
+Putting it together, we get:
+\(52547_{10} = 86065_9\)
+
+Therefore, \(57400_9 + 21565_9 = 86065_9\).
+
+Summarizing:
+\(57400_9 + 21565_9 = 38232_{10} + 14315_{10} = 52547_{10} = 86065_9\)

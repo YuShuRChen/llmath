@@ -1,0 +1,10 @@
+To add the numbers, we sum the digits in each position with possible carries:
+\[
+\begin{array}{r}
+    & \text{46754}_{9} \\
+  + & \text{35162}_{9} \\
+\hline
+    & \text{132420}_{9} \\
+\end{array}
+\]
+Therefore, $46754_{9} + 35162_{9} = 132420_{9}$.

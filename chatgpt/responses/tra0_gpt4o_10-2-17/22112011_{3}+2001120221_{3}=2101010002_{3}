@@ -1,0 +1,39 @@
+To compute the addition of the numbers 22112011 base 3 and 2001120221 base 3, we first convert both numbers to base 10, then add them in base 10, and finally convert the result back to base 3.
+
+First, convert \(22112011_3\) to base \(10\):
+\[ 2 \cdot 3^7 + 2 \cdot 3^6 + 1 \cdot 3^5 + 1 \cdot 3^4 + 2 \cdot 3^3 + 0 \cdot 3^2 + 1 \cdot 3^1 + 1 \cdot 3^0 \]
+\[ = 2 \cdot 2187 + 2 \cdot 729 + 1 \cdot 243 + 1 \cdot 81 + 2 \cdot 27 + 0 \cdot 9 + 1 \cdot 3 + 1 \cdot 1 \]
+\[ = 4374 + 1458 + 243 + 81 + 54 + 0 + 3 + 1 \]
+\[ = 6214 \]
+
+Next, convert \(2001120221_3\) to base \(10\):
+\[ 2 \cdot 3^9 + 0 \cdot 3^8 + 0 \cdot 3^7 + 1 \cdot 3^6 + 1 \cdot 3^5 + 2 \cdot 3^4 + 0 \cdot 3^3 + 2 \cdot 3^2 + 2 \cdot 3^1 + 1 \cdot 3^0 \]
+\[ = 2 \cdot 19683 + 0 \cdot 6561 + 0 \cdot 2187 + 1 \cdot 729 + 1 \cdot 243 + 2 \cdot 81 + 0 \cdot 27 + 2 \cdot 9 + 2 \cdot 3 + 1 \cdot 1 \]
+\[ = 39366 + 0 + 0 + 729 + 243 + 162 + 0 + 18 + 6 + 1 \]
+\[ = 40525 \]
+
+Now, add the base \(10\) results:
+\[ 6214 + 40525 = 46739 \]
+
+Finally, convert \(46739\) from base \(10\) to base \(3\):
+\[ 46739 \div 3 = 15579 \quad remainder \quad 2 \]
+\[ 15579 \div 3 = 5193 \quad remainder \quad 0 \]
+\[ 5193 \div 3 = 1731 \quad remainder \quad 0 \]
+\[ 1731 \div 3 = 577 \quad remainder \quad 0 \]
+\[ 577 \div 3 = 192 \quad remainder \quad 1 \]
+\[ 192 \div 3 = 64 \quad remainder \quad 0 \]
+\[ 64 \div 3 = 21 \quad remainder \quad 1 \]
+\[ 21 \div 3 = 7 \quad remainder \quad 0 \]
+\[ 7 \div 3 = 2 \quad remainder \quad 1 \]
+\[ 2 \div 3 = 0 \quad remainder \quad 2 \]
+
+Reading the remainders from bottom to top, we get \(2101010022_3\).
+
+Therefore, the final result is:
+\[ 22112011_{3} + 2001120221_{3} = 2101010022_{3} \]
+
+Original equation, intermediate steps, final result:
+\[
+22112011_{3} \rightarrow 6214_{10}, \quad 2001120221_{3} \rightarrow 40525_{10}, \quad 6214_{10} + 40525_{10} = 46739_{10} \rightarrow 2101010022_{3}
+\]
+So, \(22112011_{3} + 2001120221_{3} = 2101010022_{3}\).

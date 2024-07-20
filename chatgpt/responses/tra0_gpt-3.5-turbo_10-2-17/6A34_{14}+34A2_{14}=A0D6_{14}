@@ -1,0 +1,12 @@
+To compute the sum of \(6A34_{14}\) and \(34A2_{14}\), we line up the numbers properly and add each column with carries:
+
+\[
+\begin{array}{r}
+  & 6\ A\ 3\ 4_{14} \\
++ & 3\ 4\ A\ 2_{14} \\
+\hline
+1\ 1\ 9\ 1\ 6_{14}
+\end{array}
+\]
+
+Therefore, \(6A34_{14} + 34A2_{14} = 11916_{14}\).

@@ -1,0 +1,124 @@
+First, we need to convert both numbers from base 4 to base 10.
+
+For \(10000201_4\):
+\[
+10000201_4 = 1 \cdot 4^7 + 0 \cdot 4^6 + 0 \cdot 4^5 + 0 \cdot 4^4 + 0 \cdot 4^3 + 2 \cdot 4^2 + 0 \cdot 4^1 + 1 \cdot 4^0
+\]
+Calculating each term:
+\[
+1 \cdot 4^7 = 1 \cdot 16384 = 16384
+\]
+\[
+0 \cdot 4^6 = 0
+\]
+\[
+0 \cdot 4^5 = 0
+\]
+\[
+0 \cdot 4^4 = 0
+\]
+\[
+0 \cdot 4^3 = 0
+\]
+\[
+2 \cdot 4^2 = 2 \cdot 16 = 32
+\]
+\[
+0 \cdot 4^1 = 0
+\]
+\[
+1 \cdot 4^0 = 1
+\]
+Summing these values:
+\[
+16384 + 0 + 0 + 0 + 0 + 32 + 0 + 1 = 16417
+\]
+Thus:
+\[
+10000201_4 = 16417_{10}
+\]
+
+For \(20201112_4\):
+\[
+20201112_4 = 2 \cdot 4^7 + 0 \cdot 4^6 + 2 \cdot 4^5 + 0 \cdot 4^4 + 1 \cdot 4^3 + 1 \cdot 4^2 + 1 \cdot 4^1 + 2 \cdot 4^0
+\]
+Calculating each term:
+\[
+2 \cdot 4^7 = 2 \cdot 16384 = 32768
+\]
+\[
+0 \cdot 4^6 = 0
+\]
+\[
+2 \cdot 4^5 = 2 \cdot 1024 = 2048
+\]
+\[
+0 \cdot 4^4 = 0
+\]
+\[
+1 \cdot 4^3 = 1 \cdot 64 = 64
+\]
+\[
+1 \cdot 4^2 = 1 \cdot 16 = 16
+\]
+\[
+1 \cdot 4^1 = 1 \cdot 4 = 4
+\]
+\[
+2 \cdot 4^0 = 2 \cdot 1 = 2
+\]
+Summing these values:
+\[
+32768 + 0 + 2048 + 0 + 64 + 16 + 4 + 2 = 34902
+\]
+Thus:
+\[
+20201112_4 = 34902_{10}
+\]
+
+Adding the two base 10 results:
+\[
+16417 + 34902 = 51319
+\]
+
+Finally, we convert 51319 from base 10 back to base 4. We divide 51319 by powers of 4 and track the remainders:
+
+\[
+51319 \div 4 = 12829 \quad \text{remainder: } 3
+\]
+\[
+12829 \div 4 = 3207 \quad \text{remainder: } 1
+\]
+\[
+3207 \div 4 = 801 \quad \text{remainder: } 3
+\]
+\[
+801 \div 4 = 200 \quad \text{remainder: } 1
+\]
+\[
+200 \div 4 = 50 \quad \text{remainder: } 0
+\]
+\[
+50 \div 4 = 12 \quad \text{remainder: } 2
+\]
+\[
+12 \div 4 = 3 \quad \text{remainder: } 0
+\]
+\[
+3 \div 4 = 0 \quad \text{remainder: } 3
+\]
+
+Reading the remainders from the last to the first, we get:
+\[
+51319_{10} = 30213013_4
+\]
+
+So:
+\[
+10000201_4 + 20201112_4 = 30213013_4
+\]
+
+Therefore, the final summarized response is:
+\[
+10000201_{4} + 20201112_{4} = 16417_{10} + 34902_{10} = 51319_{10} = 30213013_{4}
+\]

@@ -1,0 +1,98 @@
+To compute the sum of two base-4 numbers \(13220002_{4}\) and \(11232221_{4}\), let's follow these steps:
+
+1. Convert both numbers from base-4 to base-10.
+2. Add the two base-10 numbers.
+3. Convert the result back to base-4.
+
+### Step 1: Convert base-4 to base-10
+
+#### Number 1: \(13220002_{4}\)
+
+Calculate each digit multiplied by 4 raised to its position, starting from 0 on the right:
+
+\[
+13220002_{4} = 1 \cdot 4^7 + 3 \cdot 4^6 + 2 \cdot 4^5 + 2 \cdot 4^4 + 0 \cdot 4^3 + 0 \cdot 4^2 + 0 \cdot 4^1 + 2 \cdot 4^0 
+\]
+
+\[
+= 1 \cdot 16384 + 3 \cdot 4096 + 2 \cdot 1024 + 2 \cdot 256 + 0 \cdot 64 + 0 \cdot 16 + 0 \cdot 4 + 2 \cdot 1 
+\]
+
+\[
+= 16384 + 12288 + 2048 + 512 + 0 + 0 + 0 + 2 
+\]
+
+\[
+= 31234_{10}
+\]
+
+#### Number 2: \(11232221_{4}\)
+
+Calculate each digit similarly:
+
+\[
+11232221_{4} = 1 \cdot 4^7 + 1 \cdot 4^6 + 2 \cdot 4^5 + 3 \cdot 4^4 + 2 \cdot 4^3 + 2 \cdot 4^2 + 2 \cdot 4^1 + 1 \cdot 4^0 
+\]
+
+\[
+= 1 \cdot 16384 + 1 \cdot 4096 + 2 \cdot 1024 + 3 \cdot 256 + 2 \cdot 64 + 2 \cdot 16 + 2 \cdot 4 + 1 \cdot 1 
+\]
+
+\[
+= 16384 + 4096 + 2048 + 768 + 128 + 32 + 8 + 1 
+\]
+
+\[
+= 23465_{10}
+\]
+
+### Step 2: Add the base-10 numbers
+
+\[
+31234_{10} + 23465_{10} = 54699_{10}
+\]
+
+### Step 3: Convert base-10 result back to base-4
+
+Using repeated division by 4:
+
+\[
+54699 ÷ 4 = 13674 \quad \text{remainder } 3
+\]
+\[
+13674 ÷ 4 = 3418 \quad \text{remainder } 2
+\]
+\[
+3418 ÷ 4 = 854 \quad \text{remainder } 2
+\]
+\[
+854 ÷ 4 = 213 \quad \text{remainder } 2
+\]
+\[
+213 ÷ 4 = 53 \quad \text{remainder } 1
+\]
+\[
+53 ÷ 4 = 13 \quad \text{remainder } 1
+\]
+\[
+13 ÷ 4 = 3 \quad \text{remainder } 1
+\]
+\[
+3 ÷ 4 = 0 \quad \text{remainder } 3
+\]
+
+Reading the remainders from bottom to top gives us:
+
+\[
+54699_{10} = 31122123_{4}
+\]
+
+### Summary:
+\[
+13220002_{4} + 11232221_{4} = (31234_{10} + 23465_{10}) = 54699_{10} = 31122123_{4}
+\]
+
+Thus, the equations and intermediate steps in a single line:
+\[
+13220002_{4} + 11232221_{4} = 31234_{10} + 23465_{10} = 54699_{10} = 31122123_{4}
+\]

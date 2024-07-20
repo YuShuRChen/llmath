@@ -1,0 +1,110 @@
+To solve the equation \(21515_{11} + 166A2_{11}\), we first need to convert both numbers from base 11 to base 10, perform the addition in base 10, and then convert the result back to base 11.
+
+### Step 1: Convert \(21515_{11}\) to base 10
+To convert \(21515_{11}\) to base 10, we evaluate the polynomial:
+\[
+21515_{11} = 2 \cdot 11^4 + 1 \cdot 11^3 + 5 \cdot 11^2 + 1 \cdot 11^1 + 5 \cdot 11^0
+\]
+
+Calculating this:
+\[
+2 \cdot 11^4 = 2 \cdot 14641 = 29282
+\]
+\[
+1 \cdot 11^3 = 1 \cdot 1331 = 1331
+\]
+\[
+5 \cdot 11^2 = 5 \cdot 121 = 605
+\]
+\[
+1 \cdot 11^1 = 1 \cdot 11 = 11
+\]
+\[
+5 \cdot 11^0 = 5 \cdot 1 = 5
+\]
+
+Summing all the values:
+\[
+29282 + 1331 + 605 + 11 + 5 = 31234
+\]
+
+So, \(21515_{11} = 31234_{10}\).
+
+### Step 2: Convert \(166A2_{11}\) to base 10
+To convert \(166A2_{11}\) to base 10, we evaluate the polynomial:
+\[
+166A2_{11} = 1 \cdot 11^4 + 6 \cdot 11^3 + 6 \cdot 11^2 + 10 \cdot 11^1 + 2 \cdot 11^0
+\]
+
+Calculating this:
+\[
+1 \cdot 11^4 = 1 \cdot 14641 = 14641
+\]
+\[
+6 \cdot 11^3 = 6 \cdot 1331 = 7986
+\]
+\[
+6 \cdot 11^2 = 6 \cdot 121 = 726
+\]
+\[
+10 \cdot 11^1 = 10 \cdot 11 = 110
+\]
+\[
+2 \cdot 11^0 = 2 \cdot 1 = 2
+\]
+
+Summing all the values:
+\[
+14641 + 7986 + 726 + 110 + 2 = 23465
+\]
+
+So, \(166A2_{11} = 23465_{10}\).
+
+### Step 3: Add the two base 10 numbers
+Adding the two base 10 numbers:
+\[
+31234 + 23465 = 54699_{10}
+\]
+
+### Step 4: Convert \(54699_{10}\) back to base 11
+We need to divide 54699 by powers of 11 and figure out the coefficients for each power.
+
+Finding the coefficients:
+\[
+54699 ÷ 14641 ≈ 3 \rightarrow 3 \times 14641 = 43923 \quad \text{(coefficient for } 11^4)
+\]
+\[
+54699 - 43923 = 10776
+\]
+\[
+10776 ÷ 1331 ≈ 8 \rightarrow 8 \times 1331 = 10648 \quad \text{(coefficient for } 11^3)
+\]
+\[
+10776 - 10648 = 128
+\]
+\[
+128 ÷ 121 ≈ 1 \rightarrow 1 \times 121 = 121 \quad \text{(coefficient for } 11^2)
+\]
+\[
+128 - 121 = 7
+\]
+\[
+7 ÷ 11 ≈ 0 \rightarrow 0 \times 11 = 0 \quad \text{(coefficient for } 11^1)
+\]
+\[
+7 ÷ 1 = 7 \quad \text{(coefficient for } 11^0)
+\]
+
+So, the base 11 representation is:
+\[
+54699_{10} = 38017_{11}
+\]
+
+### Final Result
+\[
+21515_{11} + 166A2_{11} = 54699_{10} = 38017_{11}
+\]
+
+\[
+21515_{11} + 166A2_{11} = 31234_{10} + 23465_{10} = 54699_{10} = 38017_{11}
+\]

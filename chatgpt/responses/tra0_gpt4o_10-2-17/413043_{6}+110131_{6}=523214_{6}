@@ -1,0 +1,53 @@
+To add two numbers in base-6, we first need to convert them to base-10, perform the addition in base-10, and then convert the result back to base-6.
+
+Step-by-step process:
+
+1. Convert \( 413043_6 \) to base-10.
+\[ 413043_6 = 4 \cdot 6^5 + 1 \cdot 6^4 + 3 \cdot 6^3 + 0 \cdot 6^2 + 4 \cdot 6^1 + 3 \cdot 6^0 \]
+
+Calculating each term:
+\[ 4 \cdot 6^5 = 4 \cdot 7776 = 31104 \]
+\[ 1 \cdot 6^4 = 1 \cdot 1296 = 1296 \]
+\[ 3 \cdot 6^3 = 3 \cdot 216 = 648 \]
+\[ 0 \cdot 6^2 = 0 \cdot 36 = 0 \]
+\[ 4 \cdot 6^1 = 4 \cdot 6 = 24 \]
+\[ 3 \cdot 6^0 = 3 \cdot 1 = 3 \]
+
+Summing these together:
+\[ 413043_6 = 31104 + 1296 + 648 + 0 + 24 + 3 = 33075_{10} \]
+
+2. Convert \( 110131_6 \) to base-10.
+\[ 110131_6 = 1 \cdot 6^5 + 1 \cdot 6^4 + 0 \cdot 6^3 + 1 \cdot 6^2 + 3 \cdot 6^1 + 1 \cdot 6^0 \]
+
+Calculating each term:
+\[ 1 \cdot 6^5 = 1 \cdot 7776 = 7776 \]
+\[ 1 \cdot 6^4 = 1 \cdot 1296 = 1296 \]
+\[ 0 \cdot 6^3 = 0 \cdot 216 = 0 \]
+\[ 1 \cdot 6^2 = 1 \cdot 36 = 36 \]
+\[ 3 \cdot 6^1 = 3 \cdot 6 = 18 \]
+\[ 1 \cdot 6^0 = 1 \cdot 1 = 1 \]
+
+Summing these together:
+\[ 110131_6 = 7776 + 1296 + 0 + 36 + 18 + 1 = 9127_{10} \]
+
+3. Add the two base-10 numbers:
+\[ 33075 + 9127 = 42102_{10} \]
+
+4. Convert \( 42102_{10} \) back to base-6.
+
+Divide 42102 by powers of 6 and find the remainders:
+\[ 42102 \div 6 = 7017 \quad \text{remainder } 0 \]
+\[ 7017 \div 6 = 1169 \quad \text{remainder } 3 \]
+\[ 1169 \div 6 = 194 \quad \text{remainder } 5 \]
+\[ 194 \div 6 = 32 \quad \text{remainder } 2 \]
+\[ 32 \div 6 = 5 \quad \text{remainder } 2 \]
+\[ 5 \div 6 = 0 \quad \text{remainder } 5 \]
+
+Reading the remainders from bottom to top, \( 42102_{10} \) converts to:
+\[ 42102_{10} = 525230_{6} \]
+
+So, the final result is:
+\[ 413043_{6} + 110131_{6} = 525230_{6} \]
+
+In one summarized line:
+\[ 413043_6 + 110131_6 = 33075_{10} + 9127_{10} = 42102_{10} = 525230_{6} \]

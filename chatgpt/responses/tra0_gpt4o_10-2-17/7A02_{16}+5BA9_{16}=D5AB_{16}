@@ -1,0 +1,27 @@
+To compute the sum of the given hexadecimal numbers, we will first convert them to decimal (base 10), perform the addition in decimal, and then convert the result back to hexadecimal.
+
+1. Convert \(7A02_{16}\) to decimal:
+\[ 7A02_{16} = 7 \times 16^3 + 10 \times 16^2 + 0 \times 16^1 + 2 \times 16^0 \]
+\[ = 7 \times 4096 + 10 \times 256 + 0 \times 16 + 2 \]
+\[ = 28672 + 2560 + 0 + 2 \]
+\[ = 31234_{10} \]
+
+2. Convert \(5BA9_{16}\) to decimal:
+\[ 5BA9_{16} = 5 \times 16^3 + 11 \times 16^2 + 10 \times 16^1 + 9 \times 16^0 \]
+\[ = 5 \times 4096 + 11 \times 256 + 10 \times 16 + 9 \]
+\[ = 20480 + 2816 + 160 + 9 \]
+\[ = 23465_{10} \]
+
+3. Add the two decimal numbers:
+\[ 31234 + 23465 = 54699 \]
+
+4. Convert the result back to hexadecimal:
+To convert \(54699_{10}\) to hexadecimal, divide the number by 16 and record the remainders:
+\[ 54699 \div 16 = 3418 \text{ remainder } 11 \Rightarrow B \]
+\[ 3418 \div 16 = 213 \text{ remainder } 10 \Rightarrow A \]
+\[ 213 \div 16 = 13 \text{ remainder } 5 \Rightarrow D \]
+\[ 13 \div 16 = 0 \text{ remainder } 13 \Rightarrow D \]
+Thus, \(54699_{10} = D5AB_{16}\).
+
+To summarize in base format:
+\[ 7A02_{16} + 5BA9_{16} = 31234_{10} + 23465_{10} = 54699_{10} = D5AB_{16} \]

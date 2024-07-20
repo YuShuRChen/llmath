@@ -1,0 +1,5 @@
+Converting both numbers to base 10, we get $63651_{8}=8^4\cdot6+8^3\cdot3+8^2\cdot6+8^1\cdot5+8^0\cdot1=26849$ and $46645_{8}=8^4\cdot4+8^3\cdot6+8^2\cdot6+8^1\cdot4+8^0\cdot5=18821$. 
+Therefore, $63651_{8}+46645_{8}=26849+18821=45670$ in base 10.
+Converting 45670 from base 10 to base 8, we get $45670_{10}=8^4\cdot5+8^3\cdot4+8^2\cdot3+8^1\cdot7+8^0\cdot6=52546_{8}$. 
+
+Therefore, $63651_{8}+46645_{8}=52546_{8}$.

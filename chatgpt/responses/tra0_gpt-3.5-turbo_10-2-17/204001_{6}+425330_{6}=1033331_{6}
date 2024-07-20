@@ -1,0 +1,9 @@
+First, we need to convert the numbers to base 10 to perform the addition:
+
+$204001_6$ in base 10 is $2*6^5 + 0*6^4 + 4*6^3 + 0*6^2 + 0*6^1 + 1*6^0 = 4665$
+
+$425330_6$ in base 10 is $4*6^5 + 2*6^4 + 5*6^3 + 3*6^2 + 3*6^1 + 0*6^0 = 10206$
+
+Now, adding them in base 10: $4665 + 10206 = 14871$
+
+Therefore, $204001_{6}+425330_{6}= 112201_{6}$

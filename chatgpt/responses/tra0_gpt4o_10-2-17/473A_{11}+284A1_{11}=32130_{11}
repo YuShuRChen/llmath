@@ -1,0 +1,94 @@
+To find the sum of \(473A_{11} + 284A1_{11}\) in base 11, we'll follow these steps:
+
+1. **Convert each number from base 11 to base 10.**
+2. **Add the numbers in base 10.**
+3. **Convert the resulting sum back to base 11 (if required).**
+
+**Step 1: Convert \(473A_{11}\) to base 10**
+
+The number \(473A_{11}\) can be expanded as:
+
+\[
+4 \cdot 11^3 + 7 \cdot 11^2 + 3 \cdot 11^1 + 10 \cdot 11^0
+\]
+
+Now we compute the individual terms:
+
+\[
+4 \cdot 11^3 = 4 \cdot 1331 = 5324
+\]
+\[
+7 \cdot 11^2 = 7 \cdot 121 = 847
+\]
+\[
+3 \cdot 11^1 = 3 \cdot 11 = 33
+\]
+\[
+10 \cdot 11^0 = 10 \cdot 1 = 10
+\]
+
+Adding these together:
+
+\[
+5324 + 847 + 33 + 10 = 6214
+\]
+
+Thus, \(473A_{11} = 6214_{10}\).
+
+**Step 2: Convert \(284A1_{11}\) to base 10**
+
+The number \(284A1_{11}\) can be expanded as:
+
+\[
+2 \cdot 11^4 + 8 \cdot 11^3 + 4 \cdot 11^2 + 10 \cdot 11^1 + 1 \cdot 11^0
+\]
+
+Now we compute the individual terms:
+
+\[
+2 \cdot 11^4 = 2 \cdot 14641 = 29282
+\]
+\[
+8 \cdot 11^3 = 8 \cdot 1331 = 10648
+\]
+\[
+4 \cdot 11^2 = 4 \cdot 121 = 484
+\]
+\[
+10 \cdot 11^1 = 10 \cdot 11 = 110
+\]
+\[
+1 \cdot 11^0 = 1 \cdot 1 = 1
+\]
+
+Adding these together:
+
+\[
+29282 + 10648 + 484 + 110 + 1 = 40525
+\]
+
+Thus, \(284A1_{11} = 40525_{10}\).
+
+**Step 3: Add the two base 10 numbers**
+
+Now, add the numbers in base 10:
+
+\[
+6214 + 40525 = 46739
+\]
+
+**Summary:**
+
+\(
+473A_{11} (6214_{10}) + 284A1_{11} (40525_{10}) = 46739_{10}
+\)
+
+\[
+473A_{11} + 284A1_{11} = 46739_{10}
+\]
+
+Final result presented clearly:
+
+\[
+473A_{11} + 284A1_{11} = 6214_{10} + 40525_{10} = 46739_{10}
+\]

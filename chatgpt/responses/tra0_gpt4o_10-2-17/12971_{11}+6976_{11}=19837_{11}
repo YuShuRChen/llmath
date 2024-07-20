@@ -1,0 +1,54 @@
+To solve the addition of numbers in base 11, such as \(12971_{11} + 6976_{11}\), we need to first convert both numbers to base 10, perform the addition, and then convert the result back to base 11.
+
+### Step 1: Converting \(12971_{11}\) to base 10
+\[ 12971_{11} = 1 \cdot 11^4 + 2 \cdot 11^3 + 9 \cdot 11^2 + 7 \cdot 11^1 + 1 \cdot 11^0 \]
+
+Calculating each term:
+\[ 1 \cdot 11^4 = 1 \cdot 14641 = 14641 \]
+\[ 2 \cdot 11^3 = 2 \cdot 1331 = 2662 \]
+\[ 9 \cdot 11^2 = 9 \cdot 121 = 1089 \]
+\[ 7 \cdot 11^1 = 7 \cdot 11 = 77 \]
+\[ 1 \cdot 11^0 = 1 \]
+
+Summing these terms:
+\[ 14641 + 2662 + 1089 + 77 + 1 = 18470 \]
+
+Thus, \(12971_{11} = 18470_{10}\).
+
+### Step 2: Converting \(6976_{11}\) to base 10
+\[ 6976_{11} = 6 \cdot 11^3 + 9 \cdot 11^2 + 7 \cdot 11^1 + 6 \cdot 11^0 \]
+
+Calculating each term:
+\[ 6 \cdot 11^3 = 6 \cdot 1331 = 7986 \]
+\[ 9 \cdot 11^2 = 9 \cdot 121 = 1089 \]
+\[ 7 \cdot 11^1 = 7 \cdot 11 = 77 \]
+\[ 6 \cdot 11^0 = 6 \]
+
+Summing these terms:
+\[ 7986 + 1089 + 77 + 6 = 9158 \]
+
+Thus, \(6976_{11} = 9158_{10}\).
+
+### Step 3: Adding the base 10 numbers
+\[ 18470 + 9158 = 27628 \]
+
+### Step 4: Converting \(27628_{10}\) back to base 11
+We need to perform repeated division by 11 and keep track of the remainders.
+
+1. \(27628 \div 11 = 2511\) remainder \(7\)
+2. \(2511 \div 11 = 228\) remainder \(3\)
+3. \(228 \div 11 = 20\) remainder \(8\)
+4. \(20 \div 11 = 1\) remainder \(9\)
+5. \(1 \div 11 = 0\) remainder \(1\)
+
+Reading the remainders from bottom to top, we get \(19837_{11}\).
+
+### Summary
+\[12971_{11} + 6976_{11} = 18470_{10} + 9158_{10} = 27628_{10} = 19837_{11}\]
+
+- 12971_{11} in base 10 is 18470_{10}
+- 6976_{11} in base 10 is 9158_{10}
+- Adding those in base 10: 18470_{10} + 9158_{10} = 27628_{10}
+- Converting 27628_{10} back to base 11, we get 19837_{11}
+
+Thus, \(12971_{11} + 6976_{11} = 19837_{11}\).

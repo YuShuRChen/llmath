@@ -1,0 +1,12 @@
+To add these two numbers in base 9, we can perform the operation:
+
+\[
+\begin{array}{}
+\phantom{10} & & & 4 & 0 & 3 & 5_{9} \\
++ & & & 3 & 0 & 2 & 3_{9} \\
+\hline
+\phantom{10} & & 4 & 3 & 3 & 5_{9} \\
+\end{array}
+\]
+
+Therefore, $40355_{9} + 30235_{9} = 4335_{9}$.

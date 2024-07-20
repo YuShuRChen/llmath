@@ -1,0 +1,41 @@
+We need to add the binary numbers \(110011110101001_2\) and \(100110110100101_2\).
+
+First, align the numbers by their least significant digits:
+
+```
+  110011110101001
++ 100110110100101
+```
+
+Add each column, noting any carries:
+
+- Starting from the right:
+    - 1 + 1 = 0 (carry 1)
+    - 0 + 0 + 1 (carry) = 1 (no carry)
+    - 0 + 0 = 0 (no carry)
+    - 1 + 1 = 0 (carry 1)
+    - 0 + 0 + 1 (carry) = 1 (no carry)
+    - 1 + 0 = 1 (no carry)
+    - 1 + 1 = 0 (carry 1)
+    - 0 + 1 + 1 (carry) = 0 (carry 1)
+    - 1 + 0 + 1 (carry) = 0 (carry 1)
+    - 1 + 1 + 1 (carry) = 1 (carry 1)
+    - 1 + 0 + 1 (carry) = 0 (carry 1)
+    - 0 + 1 + 1 (carry) = 0 (carry 1)
+    - 1 + 0 + 1 (carry) = 0 (carry 1)
+    - 0 + 1 (carry) = 1 (no carry)
+    - 1 (carry) = 1 (final)
+
+Here's the addition with carries:
+```
+           1 1 1 1 1 1 1 
+     110011110101001
++    100110110100101
+-------------------
+  1011011101001110
+```
+
+Thus, the result of the addition is \(1011011101001110_2\).
+
+Summarizing:
+\(110011110101001_2 + 100110110100101_2 = 1011011101001110_2\)

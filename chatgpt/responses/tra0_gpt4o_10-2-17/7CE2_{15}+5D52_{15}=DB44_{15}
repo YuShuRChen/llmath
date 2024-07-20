@@ -1,0 +1,81 @@
+To solve the equation \(7CE2_{15} + 5D52_{15}\), we need to perform the addition in base 15. Here are the steps:
+
+### Step 1: Convert each base-15 number to base-10
+- Convert \(7CE2_{15}\) to base-10:
+  \[
+  7CE2_{15} = 7 \cdot 15^3 + C \cdot 15^2 + E \cdot 15^1 + 2 \cdot 15^0
+  \]
+  where \(C = 12\) and \(E = 14\) in base-10.
+  \[
+  7 \cdot 3375 + 12 \cdot 225 + 14 \cdot 15 + 2 \cdot 1
+  \]
+  \[
+  7 \cdot 3375 = 23625
+  \]
+  \[
+  12 \cdot 225 = 2700
+  \]
+  \[
+  14 \cdot 15 = 210
+  \]
+  \[
+  2 \cdot 1 = 2
+  \]
+  \[
+  23625 + 2700 + 210 + 2 = 26537
+  \]
+  Thus, \(7CE2_{15} = 26537_{10}\).
+
+- Convert \(5D52_{15}\) to base-10:
+  \[
+  5D52_{15} = 5 \cdot 15^3 + D \cdot 15^2 + 5 \cdot 15^1 + 2 \cdot 15^0
+  \]
+  where \(D = 13\) in base-10.
+  \[
+  5 \cdot 3375 + 13 \cdot 225 + 5 \cdot 15 + 2 \cdot 1
+  \]
+  \[
+  5 \cdot 3375 = 16875
+  \]
+  \[
+  13 \cdot 225 = 2925
+  \]
+  \[
+  5 \cdot 15 = 75
+  \]
+  \[
+  2 \cdot 1 = 2
+  \]
+  \[
+  16875 + 2925 + 75 + 2 = 19877
+  \]
+  Thus, \(5D52_{15} = 19877_{10}\).
+
+### Step 2: Add the two base-10 results
+\[
+26537 + 19877 = 46414
+\]
+
+### Step 3: Convert the sum back to base-15
+Converting \(46414_{10}\) to base-15 involves repeated division by 15 and recording the remainders:
+\[
+46414 \div 15 = 3094 \quad \text{remainder} \: 4
+\]
+\[
+3094 \div 15 = 206 \quad \text{remainder} \: 4
+\]
+\[
+206 \div 15 = 13 \quad \text{remainder} \: 11 \quad (\text{B in base-15})
+\]
+\[
+13 \div 15 = 0 \quad \text{remainder} \: 13 \quad (\text{D in base-15})
+\]
+
+So, \(46414_{10} = D B 4 4_{15}\).
+
+### Summary:
+\[
+7CE2_{15} + 5D52_{15} = 7CE2_{15} + 5D52_{15} = 26537_{10} + 19877_{10} = 46414_{10} = DB44_{15}
+\]
+
+Therefore, \(7CE2_{15} + 5D52_{15} = DB44_{15}\).

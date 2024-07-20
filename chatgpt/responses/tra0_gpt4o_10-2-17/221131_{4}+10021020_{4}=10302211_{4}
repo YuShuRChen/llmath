@@ -1,0 +1,54 @@
+We need to add the numbers \( 221131_4 \) and \( 10021020_4 \) from base 4. To do this, let's first convert each number from base 4 to base 10, perform the addition in base 10, then convert the result back to base 4.
+
+1. Convert \( 221131_4 \) to base 10:
+   \[
+   221131_4 = 2 \cdot 4^5 + 2 \cdot 4^4 + 1 \cdot 4^3 + 1 \cdot 4^2 + 3 \cdot 4^1 + 1 \cdot 4^0
+   \]
+   \[
+   = 2 \cdot 1024 + 2 \cdot 256 + 1 \cdot 64 + 1 \cdot 16 + 3 \cdot 4 + 1 \cdot 1
+   \]
+   \[
+   = 2048 + 512 + 64 + 16 + 12 + 1
+   \]
+   \[
+   = 2653_{10}
+   \]
+
+2. Convert \( 10021020_4 \) to base 10:
+   \[
+   10021020_4 = 1 \cdot 4^7 + 0 \cdot 4^6 + 0 \cdot 4^5 + 2 \cdot 4^4 + 1 \cdot 4^3 + 0 \cdot 4^2 + 2 \cdot 4^1 + 0 \cdot 4^0
+   \]
+   \[
+   = 1 \cdot 16384 + 0 \cdot 4096 + 0 \cdot 1024 + 2 \cdot 256 + 1 \cdot 64 + 0 \cdot 16 + 2 \cdot 4 + 0 \cdot 1
+   \]
+   \[
+   = 16384 + 0 + 0 + 512 + 64 + 0 + 8 + 0
+   \]
+   \[
+   = 16968_{10}
+   \]
+
+3. Add the base 10 equivalents:
+   \[
+   2653_{10} + 16968_{10} = 19621_{10}
+   \]
+
+4. Convert \( 19621_{10} \) back to base 4:
+   - The highest power of \( 4 \) less than \( 19621 \) is \( 4^8 = 65536 \). Use next lower power: \( 4^7 = 16384 \).
+   - Divide \( 19621 \) by \( 16384 \): \( 19621 / 16384 \approx 1 \). Remainder \( 19621 - 16384 = 3237 \).
+   - Next highest power: \( 4^6 = 4096 \). Skip, as 3237 < 4096.
+   - Next power: \( 4^5 = 1024 \). Divide \( 3237 / 1024 = 3 \). Remainder: \( 3237 - 3072 = 165 \).
+   - Next power: \( 4^4 = 256 \). Skip, as 165 < 256.
+   - Next power: \( 4^3 = 64 \). Divide \( 165 / 64 = 2 \). Remainder: \( 165 - 128 = 37 \).
+   - Next power: \( 4^2 = 16 \). Divide \( 37 / 16 = 2 \). Remainder: \( 37 - 32 = 5 \).
+   - Next power: \( 4^1 = 4 \). Divide \( 5 / 4 = 1 \). Remainder: \( 5 - 4 = 1 \).
+   - Power \( 4^0 = 1 \): \( 1 / 1 = 1 \).
+
+Thus, \( 19621_{10} = 110220211_4 \).
+
+Summarized result:
+\[ 221131_4 + 10021020_4 = 2653_{10} + 16968_{10} = 19621_{10} = 110220211_4 \]
+
+\[
+221131_{4} + 10021020_{4} \rightarrow 2653_{10} + 16968_{10} = 19621_{10} \rightarrow 110220211_{4}
+\]

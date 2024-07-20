@@ -1,0 +1,104 @@
+To solve the equation \(140240_{7} + 111644_{7}\), we need to convert each base-7 number to base-10, perform the addition in base-10, and then convert the result back to base-7.
+
+First, let's convert \(140240_{7}\) to base-10:
+
+\[ 
+140240_{7} = 1 \cdot 7^5 + 4 \cdot 7^4 + 0 \cdot 7^3 + 2 \cdot 7^2 + 4 \cdot 7^1 + 0 \cdot 7^0 
+\]
+
+Calculating each term:
+
+\[ 
+1 \cdot 7^5 = 1 \cdot 16807 = 16807 
+\]
+\[ 
+4 \cdot 7^4 = 4 \cdot 2401 = 9604 
+\]
+\[ 
+0 \cdot 7^3 = 0
+\]
+\[ 
+2 \cdot 7^2 = 2 \cdot 49 = 98 
+\]
+\[ 
+4 \cdot 7^1 = 4 \cdot 7 = 28 
+\]
+\[ 
+0 \cdot 7^0 = 0 
+\]
+
+Adding these values together:
+
+\[ 16807 + 9604 + 0 + 98 + 28 + 0 = 26537 \]
+
+So, \(140240_{7} = 26537_{10}\).
+
+Next, let's convert \(111644_{7}\) to base-10:
+
+\[ 
+111644_{7} = 1 \cdot 7^5 + 1 \cdot 7^4 + 1 \cdot 7^3 + 6 \cdot 7^2 + 4 \cdot 7^1 + 4 \cdot 7^0 
+\]
+
+Calculating each term:
+
+\[ 
+1 \cdot 7^5 = 1 \cdot 16807 = 16807 
+\]
+\[ 
+1 \cdot 7^4 = 1 \cdot 2401 = 2401 
+\]
+\[ 
+1 \cdot 7^3 = 1 \cdot 343 = 343 
+\]
+\[ 
+6 \cdot 7^2 = 6 \cdot 49 = 294 
+\]
+\[ 
+4 \cdot 7^1 = 4 \cdot 7 = 28 
+\]
+\[ 
+4 \cdot 7^0 = 4 
+\]
+
+Adding these values together:
+
+\[ 16807 + 2401 + 343 + 294 + 28 + 4 = 19977 \]
+
+So, \(111644_{7} = 19977_{10}\).
+
+Now, we add the base-10 equivalents:
+
+\[ 
+26537_{10} + 19977_{10} = 46514_{10} 
+\]
+
+Finally, we convert \(46514_{10}\) back to base-7. We repeatedly divide by 7 and record the remainders:
+
+\[ 
+46514 \div 7 = 6644 \text{ R } 2 
+\]
+\[ 
+6644 \div 7 = 949 \text{ R } 1 
+\]
+\[ 
+949 \div 7 = 135 \text{ R } 4 
+\]
+\[ 
+135 \div 7 = 19 \text{ R } 2 
+\]
+\[ 
+19 \div 7 = 2 \text{ R } 5 
+\]
+\[ 
+2 \div 7 = 0 \text{ R } 2 
+\]
+
+Reading the remainders from bottom to top gives us \(252412_{7}\).
+
+Therefore, the final result of the original equation is:
+
+\[140240_{7} + 111644_{7} = 252412_{7}\]
+
+To summarize:
+
+\[ 140240_{7} + 111644_{7} = 46514_{10} \rightarrow 252412_{7} \]

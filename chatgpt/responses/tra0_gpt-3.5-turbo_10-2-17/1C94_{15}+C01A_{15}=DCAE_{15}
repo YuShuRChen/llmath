@@ -1,0 +1,3 @@
+Converting the numbers to base 10, we get: \(1C94_{15} = 1 \times 15^3 + 12 \times 15^2 + 9 \times 15 + 4 = 65699\) and \(C01A_{15} = 12 \times 15^3 + 0 \times 15^2 + 1 \times 15 + 10 = 49186\). Adding these two numbers in base 10, we get \(65699 + 49186 = 114885\). Converting the result back to base 15, we have \(114885 = 32 \times 15^3 + 12 \times 15^2 + 0 \times 15 + 15 = 320CF_{15}\).
+
+Therefore, \(1C94_{15} + C01A_{15} = 320CF_{15}\).

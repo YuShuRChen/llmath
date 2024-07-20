@@ -1,0 +1,65 @@
+To solve \(17A72_{11} + 19787_{11}\), we should follow these steps:
+
+1. Convert each number from base 11 to base 10.
+2. Perform the addition in base 10.
+3. Convert the resulting base 10 number back to base 11.
+
+### Convert \(17A72_{11}\) to base 10:
+\[
+17A72_{11} = 1 \cdot 11^4 + 7 \cdot 11^3 + A \cdot 11^2 + 7 \cdot 11^1 + 2 \cdot 11^0
+\]
+Where \(A = 10\):
+\[
+= 1 \cdot 14641 + 7 \cdot 1331 + 10 \cdot 121 + 7 \cdot 11 + 2
+\]
+\[
+= 14641 + 9317 + 1210 + 77 + 2
+\]
+\[
+= 25247
+\]
+
+### Convert \(19787_{11}\) to base 10:
+\[
+19787_{11} = 1 \cdot 11^4 + 9 \cdot 11^3 + 7 \cdot 11^2 + 8 \cdot 11^1 + 7 \cdot 11^0
+\]
+\[
+= 1 \cdot 14641 + 9 \cdot 1331 + 7 \cdot 121 + 8 \cdot 11 + 7
+\]
+\[
+= 14641 + 11979 + 847 + 88 + 7
+\]
+\[
+= 27562
+\]
+
+### Perform the addition in base 10:
+\[
+25247 + 27562 = 52809
+\]
+
+### Convert \(52809_{10}\) to base 11:
+To convert from base 10 to base 11, repeatedly divide the number by 11 and keep track of the remainders:
+\[
+52809 \div 11 = 4800 \quad \text{remainder} \quad 9
+\]
+\[
+4800 \div 11 = 436 \quad \text{remainder} \quad 4
+\]
+\[
+436 \div 11 = 39 \quad \text{remainder} \quad 7
+\]
+\[
+39 \div 11 = 3 \quad \text{remainder} \quad 6
+\]
+\[
+3 \div 11 = 0 \quad \text{remainder} \quad 3
+\]
+Reading the remainders from bottom to top: \(36947_{11}\)
+
+Thus, 
+\[
+17A72_{11} + 19787_{11} = 36947_{11}
+\]
+
+\(\text{Summary: } 17A72_{11} + 19787_{11} = 25247_{10} + 27562_{10} = 52809_{10} = 36947_{11}\)

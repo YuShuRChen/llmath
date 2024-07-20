@@ -1,0 +1,95 @@
+First, we convert BBD_{15} and 5063_{15} to base 10.
+
+For BBD_{15}:
+Let's break it down digit by digit from left to right.
+- B is 11 in base 10.
+- B is 11 in base 10.
+- D is 13 in base 10.
+
+Using the place values of base 15:
+\[
+BBD_{15} = 11 \cdot 15^2 + 11 \cdot 15^1 + 13 \cdot 15^0
+\]
+
+Calculate each term separately:
+\[
+11 \cdot 15^2 = 11 \cdot 225 = 2475
+\]
+\[
+11 \cdot 15 = 165
+\]
+\[
+13 \cdot 1 = 13
+\]
+
+Now sum these values:
+\[
+2475 + 165 + 13 = 2653_{10}
+\]
+
+Next, for 5063_{15}:
+Let's break it down as well.
+- 5 is 5 in base 10.
+- 0 is 0 in base 10.
+- 6 is 6 in base 10.
+- 3 is 3 in base 10.
+
+Using the place values of base 15:
+\[
+5063_{15} = 5 \cdot 15^3 + 0 \cdot 15^2 + 6 \cdot 15^1 + 3 \cdot 15^0
+\]
+
+Calculate each term separately:
+\[
+5 \cdot 15^3 = 5 \cdot 3375 = 16875
+\]
+\[
+0 \cdot 225 = 0
+\]
+\[
+6 \cdot 15 = 90
+\]
+\[
+3 \cdot 1 = 3
+\]
+
+Now sum these values:
+\[
+16875 + 0 + 90 + 3 = 16968_{10}
+\]
+
+Finally, we add the two base 10 results:
+\[
+2653 + 16968 = 19621_{10}
+\]
+
+Let's convert the result 19621_{10} back to base 15.
+
+Repeat the division process:
+\[
+19621 \div 15 = 1308\text{ quotient},\ 13\text{ remainder }(D)
+\]
+\[
+1308 \div 15 = 87\text{ quotient},\ 3\text{ remainder }(3)
+\]
+\[
+87 \div 15 = 5\text{ quotient},\ 12\text{ remainder }(C)
+\]
+\[
+5 \div 15 = 0\text{ quotient},\ 5\text{ remainder }(5)
+\]
+
+So, 19621_{10} is 5C3D_{15}.
+
+Therefore, the final result is:
+\[
+BBD_{15} + 5063_{15} = 5C3D_{15}
+\]
+
+Summary:
+\[ \text{BBD}_{15} = 2653_{10} \]
+\[ \text{5063}_{15} = 16968_{10}  \]
+\[ \text{2653}_{10} + 16968_{10} = 19621_{10} = 5C3D_{15}  \]
+\[
+BBD_{15} + 5063_{15} = 5C3D_{15}
+\]

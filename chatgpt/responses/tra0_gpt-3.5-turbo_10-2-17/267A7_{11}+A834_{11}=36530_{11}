@@ -1,0 +1,13 @@
+First, we need to convert the numbers to base 10 in order to perform the addition:
+
+267A7_{11} = 2*11^4 + 6*11^3 + 7*11^2 + 10*11^1 + 7*11^0 = 2*14641 + 6*1331 + 7*121 + 10*11 + 7*1 = 29282
+
+A834_{11} = 10*11^3 + 8*11^2 + 3*11^1 + 4*11^0 = 10*1331 + 8*121 + 3*11 + 4*1 = 13974
+
+Adding both in base 10:
+
+29282 + 13974 = 43256
+
+Therefore, 267A7_{11} + A834_{11} = 43256_{10}
+
+The final result is 43256_{10}.

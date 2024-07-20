@@ -1,0 +1,46 @@
+To add the numbers \( D77_{14} \) and \( 6280_{14} \), we first convert each number from base 14 to base 10.
+
+### Step 1: Convert \( D77_{14} \) to base 10
+In base 14, \( D \) represents 13 in decimal.
+
+\[ D77_{14} = 13 \times 14^2 + 7 \times 14^1 + 7 \times 14^0 \]
+\[ = 13 \times 196 + 7 \times 14 + 7 \]
+\[ = 2548 + 98 + 7 \]
+\[ = 2653_{10} \]
+
+### Step 2: Convert \( 6280_{14} \) to base 10
+\[ 6280_{14} = 6 \times 14^3 + 2 \times 14^2 + 8 \times 14^1 + 0 \times 14^0 \]
+\[ = 6 \times 2744 + 2 \times 196 + 8 \times 14 \]
+\[ = 16464 + 392 + 112 \]
+\[ = 16968_{10} \]
+
+### Step 3: Add the base 10 equivalents
+\[ 2653_{10} + 16968_{10} = 19621_{10} \]
+
+### Step 4: Convert the sum back to base 14
+To convert \( 19621_{10} \) back to base 14:
+- Find the highest power of 14 less than 19621.
+- \( 14^3 = 2744 \)
+- \( 14^4 = 38416 \) which is too large.
+
+\[ 19621 \div 2744 \approx 7 \]
+\[ 19621 - 7 \times 2744 = 19621 - 19208 = 413 \]
+
+Next, find the coefficients for the remaining part (413):
+- \( 14^2 = 196 \)
+  
+\[ 413 \div 196 \approx 2 \]
+\[ 413 - 2 \times 196 = 413 - 392 = 21 \]
+
+Next, find the coefficients for the remaining part (21):
+- \( 14^1 = 14 \)
+
+\[ 21 \div 14 \approx 1 \]
+\[ 21 - 1 \times 14 = 21 - 14 = 7 \]
+
+Finally:
+\[ 19621_{10} = 7207_{14} \]
+
+Therefore, \( D77_{14} + 6280_{14} = 7207_{14} \).
+
+\[ D77_{14} + 6280_{14} = 2653_{10} + 16968_{10} = 19621_{10} = 7207_{14} \]

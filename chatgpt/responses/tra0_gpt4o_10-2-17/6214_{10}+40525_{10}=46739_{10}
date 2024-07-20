@@ -1,0 +1,24 @@
+First, we add the numbers directly since they are both in base 10.
+
+\[
+6214_{10} + 40525_{10}
+\]
+
+Step-by-step addition:
+1. Add the units place: \( 4 + 5 = 9 \)
+2. Add the tens place: \( 1 + 2 = 3 \)
+3. Add the hundreds place: \( 2 + 5 = 7 \)
+4. Add the thousands place: \( 6 + 0 = 6 \)
+5. Handle the ten-thousands place: \( 0 + 4 = 4 \)
+
+Now combining all these, we get:
+
+\[
+6214_{10} + 40525_{10} = 46739_{10}
+\]
+
+In summary:
+
+\[
+6214_{10} + 40525_{10} = 46739_{10}
+\]

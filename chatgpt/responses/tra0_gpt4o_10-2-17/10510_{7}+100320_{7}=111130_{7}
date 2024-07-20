@@ -1,0 +1,52 @@
+To solve the given mathematical addition, we have to convert the numbers from base-7 to base-10, perform the addition in base-10, and then convert the result back to base-7.
+
+### Step 1: Convert 10510 from base-7 to base-10
+\[ 10510_7 = 1 \times 7^4 + 0 \times 7^3 + 5 \times 7^2 + 1 \times 7^1 + 0 \times 7^0 \]
+
+Calculating each term:
+\[ 1 \times 7^4 = 1 \times 2401 = 2401 \]
+\[ 0 \times 7^3 = 0 \]
+\[ 5 \times 7^2 = 5 \times 49 = 245 \]
+\[ 1 \times 7^1 = 1 \times 7 = 7 \]
+\[ 0 \times 7^0 = 0 \]
+
+Adding them together:
+\[ 2401 + 0 + 245 + 7 + 0 = 2653_{10} \]
+
+### Step 2: Convert 100320 from base-7 to base-10
+\[ 100320_7 = 1 \times 7^5 + 0 \times 7^4 + 0 \times 7^3 + 3 \times 7^2 + 2 \times 7^1 + 0 \times 7^0 \]
+
+Calculating each term:
+\[ 1 \times 7^5 = 1 \times 16807 = 16807 \]
+\[ 0 \times 7^4 = 0 \]
+\[ 0 \times 7^3 = 0 \]
+\[ 3 \times 7^2 = 3 \times 49 = 147 \]
+\[ 2 \times 7^1 = 2 \times 7 = 14 \]
+\[ 0 \times 7^0 = 0 \]
+
+Adding them together:
+\[ 16807 + 0 + 0 + 147 + 14 + 0 = 16968_{10} \]
+
+### Step 3: Perform addition in base-10
+Adding the converted base-10 numbers:
+\[ 2653_{10} + 16968_{10} = 19621_{10} \]
+
+### Step 4: Convert the result back to base-7
+To convert \(19621_{10}\) to base-7, we perform successive divisions by 7, keeping track of the quotients and remainders.
+
+1. \(19621 \div 7 = 2803\) remainder \(0\)
+2. \(2803 \div 7 = 400\) remainder \(3\)
+3. \(400 \div 7 = 57\) remainder \(1\)
+4. \(57 \div 7 = 8\) remainder \(1\)
+5. \(8 \div 7 = 1\) remainder \(1\)
+6. \(1 \div 7 = 0\) remainder \(1\)
+
+Reading the remainders from bottom to top, the base-7 representation is:
+\[19621_{10} = 111130_{7}\]
+
+Therefore, the result of adding \(10510_7\) and \(100320_7\) is:
+
+\[ 10510_{7} + 100320_{7} = 111130_{7} \]
+
+Final summarized line:
+\[ 10510_7 + 100320_7 = 2653_{10} + 16968_{10} = 19621_{10} = 111130_{7} \]

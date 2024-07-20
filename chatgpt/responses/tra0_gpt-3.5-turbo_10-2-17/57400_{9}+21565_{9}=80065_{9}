@@ -1,0 +1,15 @@
+First, we have to convert the numbers to base 10, perform the addition, and then convert the sum back to base 9.
+
+Converting $57400_{9}$ to base 10: 
+$5*9^{4} + 7*9^{3} + 4*9^{2} + 0*9^{1} + 0*9^{0} = 32805$
+
+Converting $21565_{9}$ to base 10:
+$2*9^{4} + 1*9^{3} + 5*9^{2} + 6*9^{1} + 5*9^{0} = 6760$
+
+Performing the addition in base 10: 
+$32805 + 6760 = 39565$
+
+Converting $39565_{10}$ to base 9: 
+$39565 = 3*9^{4} + 6*9^{3} + 5*9^{2} + 6*9^{1} + 5*9^{0} = 37036_{9}$
+
+Therefore, $57400_{9} + 21565_{9} = 37036_{9}$.

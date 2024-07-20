@@ -1,0 +1,64 @@
+To add the numbers \(2210412_5\) and \(424230_5\), we first need to convert them from base-5 to base-10, perform the addition, and then, if required, convert the result back to base-5.
+
+### Step 1: Convert \(2210412_5\) to base-10
+Each digit will be multiplied by 5 raised to the power of its position, counting from right to left starting at 0.
+
+\[
+2 \times 5^6 + 2 \times 5^5 + 1 \times 5^4 + 0 \times 5^3 + 4 \times 5^2 + 1 \times 5^1 + 2 \times 5^0
+\]
+\[
+= 2 \times 15625 + 2 \times 3125 + 1 \times 625 + 0 \times 125 + 4 \times 25 + 1 \times 5 + 2 \times 1
+\]
+\[
+= 31250 + 6250 + 625 + 0 + 100 + 5 + 2
+\]
+\[
+= 38132_{10}
+\]
+
+### Step 2: Convert \(424230_5\) to base-10
+
+\[
+4 \times 5^5 + 2 \times 5^4 + 4 \times 5^3 + 2 \times 5^2 + 3 \times 5^1 + 0 \times 5^0
+\]
+\[
+= 4 \times 3125 + 2 \times 625 + 4 \times 125 + 2 \times 25 + 3 \times 5 + 0 \times 1
+\]
+\[
+= 12500 + 1250 + 500 + 50 + 15 + 0
+\]
+\[
+= 14315_{10}
+\]
+
+### Step 3: Add the two base-10 numbers
+
+\[
+38132_{10} + 14315_{10} = 52447_{10}
+\]
+
+### Step 4: Convert the result \(52447_{10}\) back to base-5
+
+We use repeated division by 5:
+
+1. \(52447 ÷ 5 = 10489 \text{ remainder } 2\)
+2. \(10489 ÷ 5 = 2097 \text{ remainder } 4\)
+3. \(2097 ÷ 5 = 419 \text{ remainder } 2\)
+4. \(419 ÷ 5 = 83 \text{ remainder } 4\)
+5. \(83 ÷ 5 = 16 \text{ remainder } 3\)
+6. \(16 ÷ 5 = 3 \text{ remainder } 1\)
+7. \(3 ÷ 5 = 0 \text{ remainder } 3\)
+
+Reading the remainders from last to first, we get:
+
+\[
+52447_{10} = 3134242_{5}
+\]
+
+**Final Result:**
+
+\[
+2210412_{5} + 424230_{5} = 3134242_{5}
+\]
+
+Thus, \(2210412_5 + 424230_5 = 52447_{10} \rightarrow 3134242_{5}\).

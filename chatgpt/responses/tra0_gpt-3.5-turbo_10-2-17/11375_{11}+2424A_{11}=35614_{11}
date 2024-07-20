@@ -1,0 +1,4 @@
+By adding the numbers in base 11,  
+$11^3\times1 + 11^2\times1 + 11\times3 + 1\times7 + 11^3\times2 + 11^2\times4 + 11\times2 + 1\times1 + 11\times10 + 1\times10 = 14641_{10} + 272_{10} + 121_{10}$ 
+$= 15034_{10}$  
+Therefore, $11375_{11} + 2424A_{11} = 15034_{10}$.

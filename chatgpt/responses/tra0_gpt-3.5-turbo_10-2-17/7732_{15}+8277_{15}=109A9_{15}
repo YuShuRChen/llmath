@@ -1,0 +1,11 @@
+First, we add each column from right to left:
+
+2 + 7 = 9 (in base 15)
+
+3 + 7 + 7 = 17 (in base 15), which is equal to 1 (carry over 1)
+
+7 + 8 + 1 = 16 (in base 15), which is equal to 1 (carry over 1)
+
+7 = 7 (in base 15)
+
+Therefore, 7732_{15} + 8277_{15} = 10191_{15}

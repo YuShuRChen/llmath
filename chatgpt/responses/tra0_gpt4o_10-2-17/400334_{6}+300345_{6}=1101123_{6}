@@ -1,0 +1,90 @@
+To compute the sum \(400334_6 + 300345_6\), we first convert each base-6 number to base-10, perform the sum in base-10, and then convert the result back to base-6.
+
+1. Convert \(400334_6\) to base-10:
+   \[
+   400334_6 = 4 \cdot 6^5 + 0 \cdot 6^4 + 0 \cdot 6^3 + 3 \cdot 6^2 + 3 \cdot 6^1 + 4 \cdot 6^0
+   \]
+   We calculate each term:
+   \[
+   4 \cdot 6^5 = 4 \cdot 7776 = 31104
+   \]
+   \[
+   0 \cdot 6^4 = 0
+   \]
+   \[
+   0 \cdot 6^3 = 0
+   \]
+   \[
+   3 \cdot 6^2 = 3 \cdot 36 = 108
+   \]
+   \[
+   3 \cdot 6^1 = 3 \cdot 6 = 18
+   \]
+   \[
+   4 \cdot 6^0 = 4
+   \]
+
+   Summing these values:
+   \[
+   31104 + 0 + 0 + 108 + 18 + 4 = 31234
+   \]
+   So, \(400334_6 = 31234_{10}\).
+
+2. Convert \(300345_6\) to base-10:
+   \[
+   300345_6 = 3 \cdot 6^5 + 0 \cdot 6^4 + 0 \cdot 6^3 + 3 \cdot 6^2 + 4 \cdot 6^1 + 5 \cdot 6^0
+   \]
+   We calculate each term:
+   \[
+   3 \cdot 6^5 = 3 \cdot 7776 = 23328
+   \]
+   \[
+   0 \cdot 6^4 = 0
+   \]
+   \[
+   0 \cdot 6^3 = 0
+   \]
+   \[
+   3 \cdot 6^2 = 3 \cdot 36 = 108
+   \]
+   \[
+   4 \cdot 6^1 = 4 \cdot 6 = 24
+   \]
+   \[
+   5 \cdot 6^0 = 5
+   \]
+
+   Summing these values:
+   \[
+   23328 + 0 + 0 + 108 + 24 + 5 = 23465
+   \]
+   So, \(300345_6 = 23465_{10}\).
+
+3. Add the two base-10 numbers:
+   \[
+   31234_{10} + 23465_{10} = 54699_{10}
+   \]
+
+4. Convert \(54699_{10}\) back to base-6:
+   \[
+   \begin{align*}
+   54699 \div 6 &= 9116 \quad \text{remainder } 3\\
+   9116 \div 6 &= 1519 \quad \text{remainder } 2\\
+   1519 \div 6 &= 253 \quad \text{remainder } 1\\
+   253 \div 6 &= 42 \quad \text{remainder } 1\\
+   42 \div 6 &= 7 \quad \text{remainder } 0\\
+   7 \div 6 &= 1 \quad \text{remainder } 1\\
+   1 \div 6 &= 0 \quad \text{remainder } 1\\
+   \end{align*}
+   \]
+   Reading the remainders from bottom to top, we get \(1112133_6\).
+
+So, the result of \(400334_6 + 300345_6\) is:
+
+\[
+400334_{6} + 300345_{6} = 1112133_{6}
+\]
+
+This can be summarized as:
+
+\[400334_6 (31234_{10}) + 300345_6 (23465_{10}) = 54699_{10} = 1112133_{6}\]

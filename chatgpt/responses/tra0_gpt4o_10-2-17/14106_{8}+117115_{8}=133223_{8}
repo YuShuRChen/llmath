@@ -1,0 +1,52 @@
+To add two numbers in octal, we can follow the method of converting them to decimal, performing the addition, and converting the result back to octal. 
+
+### Step 1: Convert 14106_{8} to decimal
+- The first octal number is 14106_{8}.
+- To convert it to decimal, use positional notation: \(1 \cdot 8^4 + 4 \cdot 8^3 + 1 \cdot 8^2 + 0 \cdot 8^1 + 6 \cdot 8^0\).
+
+\[
+14106_8 = 1 \cdot 4096 + 4 \cdot 512 + 1 \cdot 64 + 0 \cdot 8 + 6 \cdot 1 = 4096 + 2048 + 64 + 0 + 6 = 6214_{10}
+\]
+
+### Step 2: Convert 117115_{8} to decimal
+- The second octal number is 117115_{8}.
+- Use positional notation: \(1 \cdot 8^5 + 1 \cdot 8^4 + 7 \cdot 8^3 + 1 \cdot 8^2 + 1 \cdot 8^1 + 5 \cdot 8^0\).
+
+\[
+117115_8 = 1 \cdot 32768 + 1 \cdot 4096 + 7 \cdot 512 + 1 \cdot 64 + 1 \cdot 8 + 5 \cdot 1 = 32768 + 4096 + 3584 + 64 + 8 + 5 = 40525_{10}
+\]
+
+### Step 3: Add the decimal numbers
+\[
+6214_{10} + 40525_{10} = 46739_{10}
+\]
+
+### Step 4: Convert the sum back to octal
+To convert \(46739_{10}\) to octal:
+- Divide by 8 and keep track of remainders.
+
+\[
+46739 \div 8 = 5842 \text{ remainder } 3
+\]
+\[
+5842 \div 8 = 730 \text{ remainder } 2
+\]
+\[
+730 \div 8 = 91 \text{ remainder } 2
+\]
+\[
+91 \div 8 = 11 \text{ remainder } 3
+\]
+\[
+11 \div 8 = 1 \text{ remainder } 3
+\]
+\[
+1 \div 8 = 0 \text{ remainder } 1
+\]
+
+Reading the remainders from bottom to top, we get \(113223_8\).
+
+### Final summary:
+\[
+14106_{8} + 117115_{8} = 14106_{8} = 6214_{10} + 117115_{8} = 40525_{10} = 46739_{10} = 113223_{8}
+\]

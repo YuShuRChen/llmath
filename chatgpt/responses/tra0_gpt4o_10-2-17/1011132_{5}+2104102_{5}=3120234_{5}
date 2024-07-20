@@ -1,0 +1,63 @@
+To solve the addition of the two base-5 numbers 1011132\(_{5}\) and 2104102\(_{5}\), we will start by converting each number to base-10 (decimal).
+
+### Converting 1011132\(_{5}\) to base-10:
+
+\[ 
+1 \cdot 5^6 + 0 \cdot 5^5 + 1 \cdot 5^4 + 1 \cdot 5^3 + 1 \cdot 5^2 + 3 \cdot 5^1 + 2 \cdot 5^0 
+\]
+
+\[
+= 1 \cdot 15625 + 0 \cdot 3125 + 1 \cdot 625 + 1 \cdot 125 + 1 \cdot 25 + 3 \cdot 5 + 2 \cdot 1 
+\]
+
+\[
+= 15625 + 0 + 625 + 125 + 25 + 15 + 2 
+\]
+
+\[
+= 16417
+\]
+
+### Converting 2104102\(_{5}\) to base-10:
+
+\[ 
+2 \cdot 5^6 + 1 \cdot 5^5 + 0 \cdot 5^4 + 4 \cdot 5^3 + 1 \cdot 5^2 + 0 \cdot 5^1 + 2 \cdot 5^0 
+\]
+
+\[
+= 2 \cdot 15625 + 1 \cdot 3125 + 0 \cdot 625 + 4 \cdot 125 + 1 \cdot 25 + 0 \cdot 5 + 2 \cdot 1 
+\]
+
+\[
+= 31250 + 3125 + 0 + 500 + 25 + 0 + 2 
+\]
+
+\[
+= 34802 
+\]
+
+### Adding the base-10 equivalents:
+
+\[ 
+16417 + 34802 = 51219 
+\]
+
+### Converting the sum back to base-5:
+
+To perform this conversion, we continuously divide the result by 5 and record the remainders.
+
+1. \( 51219 \div 5 = 10243 \) remainder \( 4 \) 
+2. \( 10243 \div 5 = 2048 \) remainder \( 3 \) 
+3. \( 2048 \div 5 = 409 \) remainder \( 3 \) 
+4. \( 409 \div 5 = 81 \) remainder \( 4 \) 
+5. \( 81 \div 5 = 16 \) remainder \( 1 \) 
+6. \( 16 \div 5 = 3 \) remainder \( 1 \) 
+7. \( 3 \div 5 = 0 \) remainder \( 3 \) 
+
+Thus, \( 51219 \) in base-10 converts to \( 3114334 \) in base-5.
+
+So, the final result is:
+
+\(
+1011132_{5} + 2104102_{5} = 3114334_{5}
+\)

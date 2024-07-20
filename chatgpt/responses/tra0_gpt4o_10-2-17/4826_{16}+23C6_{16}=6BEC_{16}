@@ -1,0 +1,30 @@
+To solve \( 4826_{16} + 23C6_{16} \), we first convert both hexadecimal numbers to their decimal equivalents.
+
+### Step 1: Convert \( 4826_{16} \) to decimal
+- \( 4826_{16} = 4 \times 16^3 + 8 \times 16^2 + 2 \times 16^1 + 6 \times 16^0 \)
+- \( = 4 \times 4096 + 8 \times 256 + 2 \times 16 + 6 \)
+- \( = 16384 + 2048 + 32 + 6 \)
+- \( = 18470_{10} \)
+
+### Step 2: Convert \( 23C6_{16} \) to decimal
+- \( 23C6_{16} = 2 \times 16^3 + 3 \times 16^2 + 12 \times 16^1 + 6 \times 16^0 \)
+- \( = 2 \times 4096 + 3 \times 256 + 12 \times 16 + 6 \)
+- \( = 8192 + 768 + 192 + 6 \)
+- \( = 9158_{10} \)
+
+### Step 3: Add the two decimal numbers
+- \( 18470_{10} + 9158_{10} = 27628_{10} \)
+
+### Step 4: Convert \( 27628_{10} \) back to hexadecimal
+To convert \( 27628_{10} \) to hexadecimal, we perform successive divisions by 16:
+
+- \( 27628 / 16 = 1726 \) remainder \( 12 \) (C in hexadecimal)
+- \( 1726 / 16 = 107 \) remainder \( 14 \) (E in hexadecimal)
+- \( 107 / 16 = 6 \) remainder \( 11 \) (B in hexadecimal)
+- \( 6 / 16 = 0 \) remainder \( 6 \)
+
+Reading the remainders from bottom to top, we get \( 6BCE_{16} \).
+
+### Summary
+The original equation is \( 4826_{16} + 23C6_{16} \). Converting both to decimal, adding them, and then converting back to hexadecimal, we get:
+\[ 4826_{16} + 23C6_{16} = 6BCE_{16} \]

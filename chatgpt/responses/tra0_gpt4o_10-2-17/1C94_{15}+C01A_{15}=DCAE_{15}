@@ -1,0 +1,77 @@
+To solve the equation \( 1C94_{15} + C01A_{15} \), we'll first convert both numbers from base 15 to base 10, perform the addition in base 10, and then convert the result back to base 15.
+
+### Step 1: Convert \( 1C94_{15} \) to base 10
+
+The number \( 1C94_{15} \) can be expressed as:
+
+\[ 1 \cdot 15^3 + C \cdot 15^2 + 9 \cdot 15^1 + 4 \cdot 15^0 \]
+
+Here \( C_{15} \) is the same as \( 12_{10} \).
+
+So,
+
+\[ 1 \cdot 15^3 = 1 \cdot 3375 = 3375 \]
+\[ 12 \cdot 15^2 = 12 \cdot 225 = 2700 \]
+\[ 9 \cdot 15^1 = 9 \cdot 15 = 135 \]
+\[ 4 \cdot 15^0 = 4 \cdot 1 = 4 \]
+
+Adding them together,
+
+\[
+3375 + 2700 + 135 + 4 = 6214_{10} 
+\]
+
+### Step 2: Convert \( C01A_{15} \) to base 10
+
+The number \( C01A_{15} \) can be expressed as:
+
+\[ C \cdot 15^3 + 0 \cdot 15^2 + 1 \cdot 15^1 + A \cdot 15^0 \]
+
+Here \( C_{15} \) is \( 12_{10} \) and \( A_{15} \) is \( 10_{10} \).
+
+So,
+
+\[ 12 \cdot 15^3 = 12 \cdot 3375 = 40500 \]
+\[ 0 \cdot 15^2 = 0 \]
+\[ 1 \cdot 15^1 = 1 \cdot 15 = 15 \]
+\[ 10 \cdot 15^0 = 10 \cdot 1 = 10 \]
+
+Adding them together,
+
+\[
+40500 + 0 + 15 + 10 = 40525_{10}
+\]
+
+### Step 3: Perform the addition in base 10
+
+\[
+6214_{10} + 40525_{10} = 46739_{10}
+\]
+
+### Step 4: Convert \( 46739_{10} \) back to base 15
+
+To convert \( 46739_{10} \) to base 15, we follow the method of repeated division by 15, keeping track of the remainders.
+
+\[
+46739 \div 15 = 3115 \quad \text{remainder} \quad 14 \quad (E_{15})
+\]
+\[
+3115 \div 15 = 207 \quad \text{remainder} \quad 10 \quad (A_{15})
+\]
+\[
+207 \div 15 = 13 \quad \text{remainder} \quad 12 \quad (C_{15})
+\]
+\[
+13 \div 15 = 0 \quad \text{remainder} \quad 13 \quad (D_{15})
+\]
+
+So, \( 46739_{10} = DCAE_{15} \).
+
+### Final Result
+
+\[
+1C94_{15} + C01A_{15} = 1C94_{15} + C01A_{15} = 46739_{10} = DCAE_{15}
+\]
+
+Summary:
+\[ 1C94_{15} + C01A_{15} = 3375_{10} + 2700_{10} + 135_{10} + 4_{10} + 40500_{10} + 15_{10} + 10_{10} = 46739_{10} = DCAE_{15} \]

@@ -1,0 +1,92 @@
+To compute the sum of the numbers 4CE7_{15} and A51C_{15}, we first convert them from base 15 to base 10.
+
+### Convert 4CE7_{15} to base 10
+Each digit represents a power of 15:
+\[
+4CE7_{15} = 4 \times 15^3 + C \times 15^2 + E \times 15^1 + 7 \times 15^0
+\]
+Here, \( C_{15} = 12_{10} \) and \(E_{15} = 14_{10} \):
+\[
+4CE7_{15} = 4 \times 15^3 + 12 \times 15^2 + 14 \times 15^1 + 7 \times 15^0
+\]
+Calculate each term separately:
+\[
+4 \times 15^3 = 4 \times 3375 = 13500
+\]
+\[
+12 \times 15^2 = 12 \times 225 = 2700
+\]
+\[
+14 \times 15^1 = 14 \times 15 = 210
+\]
+\[
+7 \times 15^0 = 7 \times 1 = 7
+\]
+Add them up:
+\[
+13500 + 2700 + 210 + 7 = 16417_{10}
+\]
+
+### Convert A51C_{15} to base 10
+Each digit represents a power of 15:
+\[
+A51C_{15} = A \times 15^3 + 5 \times 15^2 + 1 \times 15^1 + C \times 15^0
+\]
+Here, \( A_{15} = 10_{10} \) and \( C_{15} = 12_{10} \):
+\[
+A51C_{15} = 10 \times 15^3 + 5 \times 15^2 + 1 \times 15^1 + 12 \times 15^0
+\]
+Calculate each term separately:
+\[
+10 \times 15^3 = 10 \times 3375 = 33750
+\]
+\[
+5 \times 15^2 = 5 \times 225 = 1125
+\]
+\[
+1 \times 15^1 = 1 \times 15 = 15
+\]
+\[
+12 \times 15^0 = 12 \times 1 = 12
+\]
+Add them up:
+\[
+33750 + 1125 + 15 + 12 = 34902_{10}
+\]
+
+### Sum of the two base 10 results
+Add the results:
+\[
+16417_{10} + 34902_{10} = 51319_{10}
+\]
+
+### Convert 51319_{10} to base 15
+Repeatedly divide by 15 and record the remainders:
+\[
+51319 \div 15 = 3421 \text{ remainder } 4
+\]
+\[
+3421 \div 15 = 228 \text{ remainder } 1
+\]
+\[
+228 \div 15 = 15 \text{ remainder } 3
+\]
+\[
+15 \div 15 = 1 \text{ remainder } 0
+\]
+\[
+1 \div 15 = 0 \text{ remainder } 1
+\]
+
+Reading the remainders from bottom to top, we get:
+\[
+51319_{10} = 10314_{15}
+\]
+
+Hence, the sum of 4CE7_{15} and A51C_{15} is:
+\[
+4CE7_{15} + A51C_{15} = 10314_{15}
+\]
+
+Summary line:
+4CE7_{15} + A51C_{15} = 16417_{10} + 34902_{10} = 51319_{10} = 10314_{15}

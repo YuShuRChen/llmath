@@ -1,0 +1,12 @@
+First, we need to perform the addition in base 13:
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c@{}c@{}c}
+  & & & 8 & 5 & 3 & A_{13} \\
++ & & 4 & 2 & 2 & 6_{13} \\
+\cline{2-7}
+  & 4 & 5 & 6 & 0 & 1 & 0_{13} \\
+\end{array}
+\]
+
+Therefore, $853A_{13} + 4226_{13} = 456010_{13}$.

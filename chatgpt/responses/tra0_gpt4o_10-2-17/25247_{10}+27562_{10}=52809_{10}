@@ -1,0 +1,20 @@
+To solve the addition in base 10, we simply add the two decimal numbers directly:
+
+\[ 25247_{10} \]
+\[+27562_{10} \]
+\[ \text{-----------} \]
+
+Starting from the rightmost digit:
+- Units place: \( 7 + 2 = 9 \)
+- Tens place: \( 4 + 6 = 10 \), write down 0 and carry over 1.
+- Hundreds place: \( 2 + 5 = 7 \) plus the carry over 1 gives \( 7 + 1 = 8 \)
+- Thousands place: \( 5 + 7 = 12 \), write down 2 and carry over 1.
+- Ten-thousands place: \( 2 + 2 = 4 \) plus the carry over 1 gives \( 4 + 1 = 5 \)
+
+So, the result is:
+
+\[ 52809_{10} \]
+
+Equation and steps summarized:
+
+\[ 25247_{10} + 27562_{10} = 52809_{10} \]

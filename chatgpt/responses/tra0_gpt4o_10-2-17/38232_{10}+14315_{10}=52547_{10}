@@ -1,0 +1,22 @@
+To add the two decimal numbers 38232 and 14315, follow these steps:
+
+1. Align the numbers by their rightmost digits and add each corresponding pair of digits from right to left, carrying over any value greater than 9.
+
+```
+  38232
++ 14315
+-------
+  52547
+```
+
+Here's the intermediate step-by-step addition:
+
+- Units place: 2 + 5 = 7
+- Tens place: 3 + 1 = 4
+- Hundreds place: 2 + 3 = 5
+- Thousands place: 8 + 4 = 12 (write down 2 and carry over 1 to the next place)
+- Ten-thousands place: 3 + 1 + 1 (carried over) = 5
+
+Thus, the sum is 52547.
+
+So, \( 38232_{10} + 14315_{10} = 38232_{10} + 14315_{10} = 52547_{10} \).

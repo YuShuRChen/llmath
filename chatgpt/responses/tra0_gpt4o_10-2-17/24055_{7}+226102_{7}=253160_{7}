@@ -1,0 +1,65 @@
+To solve the given equation \(24055_7 + 226102_7\), we need to perform the addition in base 7. Here are the steps:
+
+1. **Convert both numbers from base 7 to base 10**:
+   
+   - For \(24055_7\):
+     \[
+     (2 \times 7^4) + (4 \times 7^3) + (0 \times 7^2) + (5 \times 7^1) + (5 \times 7^0)
+     \]
+     \[
+     = (2 \times 2401) + (4 \times 343) + (0 \times 49) + (5 \times 7) + (5 \times 1)
+     \]
+     \[
+     = 4802 + 1372 + 0 + 35 + 5
+     \]
+     \[
+     = 6214
+     \]
+
+   - For \(226102_7\):
+     \[
+     (2 \times 7^5) + (2 \times 7^4) + (6 \times 7^3) + (1 \times 7^2) + (0 \times 7^1) + (2 \times 7^0)
+     \]
+     \[
+     = (2 \times 16807) + (2 \times 2401) + (6 \times 343) + (1 \times 49) + (0 \times 7) + (2 \times 1)
+     \]
+     \[
+     = 33614 + 4802 + 2058 + 49 + 0 + 2
+     \]
+     \[
+     = 40525
+     \]
+
+2. **Add the converted base 10 numbers**:
+   \[
+   6214 + 40525 = 46739
+   \]
+
+3. **Convert the sum from base 10 back to base 7**:
+   
+   To convert \(46739\) from base 10 to base 7, we divide by 7 and keep track of the remainders:
+   \[
+   46739 \div 7 = 6677 \quad \text{remainder: } 0
+   \]
+   \[
+   6677 \div 7 = 953 \quad \text{remainder: } 6
+   \]
+   \[
+   953 \div 7 = 136 \quad \text{remainder: } 1
+   \]
+   \[
+   136 \div 7 = 19 \quad \text{remainder: } 3
+   \]
+   \[
+   19 \div 7 = 2 \quad \text{remainder: } 5
+   \]
+   \[
+   2 \div 7 = 0 \quad \text{remainder: } 2
+   \]
+
+   So, the base 7 representation of \(46739\) is \(251360_7\).
+
+**Summary**:
+\[
+24055_{7} + 226102_{7} = 6214_{10} + 40525_{10} = 46739_{10} = 251360_{7}
+\]

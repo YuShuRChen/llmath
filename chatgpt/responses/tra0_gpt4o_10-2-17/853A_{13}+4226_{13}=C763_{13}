@@ -1,0 +1,54 @@
+We start by converting each number from base 13 to base 10.
+
+For \(853A_{13}\):
+- \(A\) in base 13 is equivalent to 10 in decimal.
+- Each position's value in base 13 is calculated using powers of 13.
+
+The value is:
+\[ 8 \times 13^3 + 5 \times 13^2 + 3 \times 13^1 + 10 \times 13^0 \]
+
+Calculating each term:
+\[ 8 \times 13^3 = 8 \times 2197 = 17576 \]
+\[ 5 \times 13^2 = 5 \times 169 = 845 \]
+\[ 3 \times 13^1 = 3 \times 13 = 39 \]
+\[ 10 \times 13^0 = 10 \]
+
+Adding these together:
+\[ 17576 + 845 + 39 + 10 = 18470 \]
+
+So, \(853A_{13} = 18470_{10}\).
+
+Next, for \(4226_{13}\):
+- Each position's value in base 13 is calculated similarly.
+
+The value is:
+\[ 4 \times 13^3 + 2 \times 13^2 + 2 \times 13^1 + 6 \times 13^0 \]
+
+Calculating each term:
+\[ 4 \times 13^3 = 4 \times 2197 = 8788 \]
+\[ 2 \times 13^2 = 2 \times 169 = 338 \]
+\[ 2 \times 13^1 = 2 \times 13 = 26 \]
+\[ 6 \times 13^0 = 6 \]
+
+Adding these together:
+\[ 8788 + 338 + 26 + 6 = 9158 \]
+
+So, \(4226_{13} = 9158_{10}\).
+
+Now, we add the two base 10 results together:
+\[ 18470 + 9158 = 27628 \]
+
+Finally, we convert \(27628_{10}\) back to base 13 by successively dividing by 13 and recording the remainders.
+
+1. \( 27628 \div 13 = 2125 \) remainder \( 3 \)
+2. \( 2125 \div 13 = 163 \) remainder \( 4 \)
+3. \( 163 \div 13 = 12 \) remainder \( 7 \)
+4. \( 12 \div 13 = 0 \) remainder \( 12 \) (denoted as C in base 13)
+
+Reading from bottom to top, the remainders give us the base 13 number.
+
+So, \( 27628_{10} = C743_{13} \).
+
+Thus:
+\[ 853A_{13} + 4226_{13} = C743_{13} \]
+\[ 853A_{13} + 4226_{13} = 18470_{10} + 9158_{10} = 27628_{10} = C743_{13} \]

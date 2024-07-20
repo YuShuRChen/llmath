@@ -1,0 +1,69 @@
+To compute the sum of two numbers in base 7, we first need to convert them to base 10, perform the addition, and then convert the result back to base 7.
+
+Let's start with converting \(166454_7\) to base 10.
+
+\(166454_7\) in base 10:
+\[
+1 \cdot 7^5 + 6 \cdot 7^4 + 6 \cdot 7^3 + 4 \cdot 7^2 + 5 \cdot 7^1 + 4 \cdot 7^0
+\]
+Calculate each term:
+\[
+7^0 = 1 \implies 4 \cdot 1 = 4\\
+7^1 = 7 \implies 5 \cdot 7 = 35\\
+7^2 = 49 \implies 4 \cdot 49 = 196\\
+7^3 = 343 \implies 6 \cdot 343 = 2058\\
+7^4 = 2401 \implies 6 \cdot 2401 = 14406\\
+7^5 = 16807 \implies 1 \cdot 16807 = 16807
+\]
+Add these values together:
+\[
+16807 + 14406 + 2058 + 196 + 35 + 4 = 33460
+\]
+
+Now, convert \(161562_7\) to base 10.
+
+\(161562_7\) in base 10:
+\[
+1 \cdot 7^5 + 6 \cdot 7^4 + 1 \cdot 7^3 + 5 \cdot 7^2 + 6 \cdot 7^1 + 2 \cdot 7^0
+\]
+Calculate each term:
+\[
+7^0 = 1 \implies 2 \cdot 1 = 2\\
+7^1 = 7 \implies 6 \cdot 7 = 42\\
+7^2 = 49 \implies 5 \cdot 49 = 245\\
+7^3 = 343 \implies 1 \cdot 343 = 343\\
+7^4 = 2401 \implies 6 \cdot 2401 = 14406\\
+7^5 = 16807 \implies 1 \cdot 16807 = 16807
+\]
+Add these values together:
+\[
+16807 + 14406 + 343 + 245 + 42 + 2 = 31845
+\]
+
+Next, add the two base 10 numbers:
+\[
+33460 + 31845 = 65305
+\]
+
+Finally, convert 65305 from base 10 to base 7.
+
+To convert from base 10 to base 7, repeatedly divide by 7 and record the remainders:
+\[
+65305 \div 7 = 9330 \text{ remainder } 5\\
+9330 \div 7 = 1332 \text{ remainder } 6\\
+1332 \div 7 = 190 \text{ remainder } 2\\
+190 \div 7 = 27 \text{ remainder } 1\\
+27 \div 7 = 3 \text{ remainder } 6\\
+3 \div 7 = 0 \text{ remainder } 3
+\]
+Reading the remainders from bottom to top gives \(361625_7\).
+
+\[
+166454_{7}+161562_{7}=361625_{7}
+\]
+
+Summarized response:
+
+\[
+166454_7 \rightarrow 33460_{10} + 161562_7 \rightarrow 31845_{10} = 65305_{10} \rightarrow 361625_{7}
+\]

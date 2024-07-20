@@ -1,0 +1,12 @@
+To add these two numbers together, we align them appropriately and perform column-wise addition:
+
+\[
+\begin{array}{r}
+   & 2 & 2 & 1 & 1 & 0 & 0 & 0 & 0_3 \\
+ + & 1 & 1 & 0 & 1 & 2 & 0 & 0 & 1_3 \\
+\hline
+   & 3 & 0 & 2 & 0 & 1 & 0 & 0 & 1_3 \\
+\end{array}
+\]
+
+Therefore, \( 221100002_{3} + 110120012_{3} = 30201001_{3} \).

@@ -1,0 +1,11 @@
+Converting the numbers to base 10:
+
+$1011132_{5} = 1\cdot5^6 + 0\cdot5^5 + 1\cdot5^4 + 1\cdot5^3 + 1\cdot5^2 + 3\cdot5^1 + 2\cdot5^0 = 15622$
+
+$2104102_{5} = 2\cdot5^6 + 1\cdot5^5 + 0\cdot5^4 + 4\cdot5^3 + 1\cdot5^2 + 0\cdot5^1 + 2\cdot5^0 = 21792$
+
+Adding the base 10 numbers:
+
+$15622 + 21792 = 37414$
+
+Therefore, $1011132_{5}+2104102_{5}=37414_{10}$.

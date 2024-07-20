@@ -1,0 +1,11 @@
+Converting both numbers to decimal:
+$40041_8 = 4 \times 8^4 + 0 \times 8^3 + 0 \times 8^2 + 4 \times 8^1 + 1 \times 8^0 = 16385_{10}$
+$104126_8 = 1 \times 8^5 + 0 \times 8^4 + 4 \times 8^3 + 1 \times 8^2 + 2 \times 8^1 + 6 \times 8^0 = 42422_{10}$
+
+Adding the decimal values:
+$16385_{10} + 42422_{10} = 58807_{10}$
+
+Converting the sum back to octal:
+$58807_{10} = 161357_{8}$
+
+Therefore, $40041_8 + 104126_8 = 161357_{8}$.

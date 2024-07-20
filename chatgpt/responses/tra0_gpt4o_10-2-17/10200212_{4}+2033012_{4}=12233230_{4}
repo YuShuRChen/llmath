@@ -1,0 +1,83 @@
+To perform the addition of two base-4 numbers, we need to first convert them to base-10, perform the addition, and if required, convert the result back to base-4.
+
+Here's the step-by-step process:
+
+1. **Convert \(10200212_4\) to base-10:**
+
+   The digits of \(10200212_4\) represent powers of 4 starting from 0 from right to left.
+   \[
+   10200212_4 = 1 \cdot 4^7 + 0 \cdot 4^6 + 2 \cdot 4^5 + 0 \cdot 4^4 + 0 \cdot 4^3 + 2 \cdot 4^2 + 1 \cdot 4^1 + 2 \cdot 4^0
+   \]
+   Evaluating each term:
+   \[
+   = 1 \cdot 16384 + 0 \cdot 4096 + 2 \cdot 1024 + 0 \cdot 256 + 0 \cdot 64 + 2 \cdot 16 + 1 \cdot 4 + 2 \cdot 1
+   \]
+   \[
+   = 16384 + 0 + 2048 + 0 + 0 + 32 + 4 + 2
+   \]
+   \[
+   = 18470_{10}
+   \]
+
+2. **Convert \(2033012_4\) to base-10:**
+   
+   Similarly, for \(2033012_4\):
+   \[
+   2033012_4 = 2 \cdot 4^6 + 0 \cdot 4^5 + 3 \cdot 4^4 + 3 \cdot 4^3 + 0 \cdot 4^2 + 1 \cdot 4^1 + 2 \cdot 4^0
+   \]
+   Evaluating each term:
+   \[
+   = 2 \cdot 4096 + 0 \cdot 1024 + 3 \cdot 256 + 3 \cdot 64 + 0 \cdot 16 + 1 \cdot 4 + 2 \cdot 1
+   \]
+   \[
+   = 8192 + 0 + 768 + 192 + 0 + 4 + 2
+   \]
+   \[
+   = 9158_{10}
+   \]
+
+3. **Add the two base-10 numbers:**
+
+   \[
+   18470_{10} + 9158_{10} = 27628_{10}
+   \]
+
+4. **Convert the result back to base-4:**
+   
+   Let's convert \(27628_{10}\) to base-4:
+   \[
+   27628 \div 4 = 6907 \quad \text{remainder:} \ 0
+   \]
+   \[
+   6907 \div 4 = 1726 \quad \text{remainder:} \ 3
+   \]
+   \[
+   1726 \div 4 = 431 \quad \text{remainder:} \ 2
+   \]
+   \[
+   431 \div 4 = 107 \quad \text{remainder:} \ 3
+   \]
+   \[
+   107 \div 4 = 26 \quad \text{remainder:} \ 3
+   \]
+   \[
+   26 \div 4 = 6 \quad \text{remainder:} \ 2
+   \]
+   \[
+   6 \div 4 = 1 \quad \text{remainder:} \ 2
+   \]
+   \[
+   1 \div 4 = 0 \quad \text{remainder:} \ 1
+   \]
+   
+   Reading the remainders from bottom to top, \(27628_{10}\) converts to \(12332330_4\).
+
+**Summary:**
+
+\[
+10200212_{4}+2033012_{4}=12332330_{4}
+\]
+
+\[
+10200212_4 = 18470_{10}, 2033012_4 = 9158_{10}, 18470_{10} + 9158_{10} = 27628_{10}, 27628_{10} = 12332330_4
+\]

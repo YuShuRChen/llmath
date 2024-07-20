@@ -1,0 +1,22 @@
+First, we align the numbers vertically to add them:
+
+\[
+\begin{array}{r}
+  10200212_4 \\
++ 2033012_4 \\
+\hline
+\end{array}
+\] 
+
+Next, we perform the addition for each column:
+
+\[
+\begin{array}{r}
+  10200212_4 \\
++ 2033012_4 \\
+\hline
+  30530324_4 \\
+\end{array}
+\] 
+
+Therefore, \( 10200212_{4} + 2033012_{4} = 30530324_{4} \).

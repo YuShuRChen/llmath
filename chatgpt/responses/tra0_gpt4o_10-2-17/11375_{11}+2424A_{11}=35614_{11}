@@ -1,0 +1,97 @@
+To solve the addition of numbers \(11375_{11}\) and \(2424A_{11}\) in base 11, let's first convert both numbers to base 10.
+
+1. **Convert \(11375_{11}\) to base 10:**
+
+\[
+11375_{11} = 1 \cdot 11^4 + 1 \cdot 11^3 + 3 \cdot 11^2 + 7 \cdot 11^1 + 5 \cdot 11^0 
+\]
+
+Calculating each term:
+\[
+1 \cdot 11^4 = 1 \cdot 14641 = 14641 
+\]
+\[
+1 \cdot 11^3 = 1 \cdot 1331 = 1331 
+\]
+\[
+3 \cdot 11^2 = 3 \cdot 121 = 363 
+\]
+\[
+7 \cdot 11^1 = 7 \cdot 11 = 77 
+\]
+\[
+5 \cdot 11^0 = 5 \cdot 1 = 5 
+\]
+
+Summing these up:
+\[
+14641 + 1331 + 363 + 77 + 5 = 16417
+\]
+
+So, \(11375_{11} = 16417_{10}\).
+
+2. **Convert \(2424A_{11}\) to base 10:**
+
+Recall that \(A\) in base 11 represents 10 in decimal.
+
+\[
+2424A_{11}= 2 \cdot 11^4 + 4 \cdot 11^3 + 2 \cdot 11^2 + 4 \cdot 11^1 + 10 \cdot 11^0 
+\]
+
+Calculating each term:
+\[
+2 \cdot 11^4 = 2 \cdot 14641 = 29282 
+\]
+\[
+4 \cdot 11^3 = 4 \cdot 1331 = 5324 
+\]
+\[
+2 \cdot 11^2 = 2 \cdot 121 = 242 
+\]
+\[
+4 \cdot 11^1 = 4 \cdot 11 = 44 
+\]
+\[
+10 \cdot 11^0 = 10 \cdot 1 = 10 
+\]
+
+Summing these up:
+\[
+29282 + 5324 + 242 + 44 + 10 = 34802 
+\]
+
+So, \(2424A_{11} = 34802_{10}\).
+
+3. **Add the two base 10 numbers:**
+
+\[
+16417_{10} + 34802_{10} = 51219_{10}
+\]
+
+4. **Convert the result back to base 11:**
+
+To do that, we'll repeatedly divide by 11 and track the remainders.
+
+\[
+51219 \div 11 = 4656 \text{ remainder } 3
+\]
+\[
+4656 \div 11 = 423 \text{ remainder } 3
+\]
+\[
+423 \div 11 = 38 \text{ remainder } 5
+\]
+\[
+38 \div 11 = 3 \text{ remainder } 5
+\]
+\[
+3 \div 11 = 0 \text{ remainder } 3
+\]
+
+Reading the remainders bottom to top gives us \(35533_{11}\).
+
+In summary:
+
+\[
+11375_{11} + 2424A_{11} = 16417_{10} + 34802_{10} = 51219_{10} = 35533_{11}
+\]

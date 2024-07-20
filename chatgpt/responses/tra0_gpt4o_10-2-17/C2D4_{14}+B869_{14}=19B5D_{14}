@@ -1,0 +1,48 @@
+First, let's convert each number from base 14 to base 10.
+
+\[\text{C2D4}_{14}\]
+Breaking the number down:
+\[ C2D4_{14} = (C \times 14^3) + (2 \times 14^2) + (D \times 14^1) + (4 \times 14^0) \]
+Where:
+\[ C = 12 \]
+\[ D = 13 \]
+Thus:
+\[ C2D4_{14} = (12 \times 14^3) + (2 \times 14^2) + (13 \times 14^1) + (4 \times 14^0) \]
+\[ = (12 \times 2744) + (2 \times 196) + (13 \times 14) + (4 \times 1) \]
+\[ = 32928 + 392 + 182 + 4 \]
+\[ = 33506_{10} \]
+
+Now for:
+\[\text{B869}_{14}\]
+Breaking the number down:
+\[ B869_{14} = (B \times 14^3) + (8 \times 14^2) + (6 \times 14^1) + (9 \times 14^0) \]
+Where:
+\[ B = 11 \]
+Thus:
+\[ B869_{14} = (11 \times 2744) + (8 \times 196) + (6 \times 14) + (9 \times 1) \]
+\[ = (11 \times 2744) + (8 \times 196) + (6 \times 14) + (9 \times 1) \]
+\[ = 30184 + 1568 + 84 + 9 \]
+\[ = 31845_{10} \]
+
+Now, we add the two base 10 results:
+
+\[ 33506 + 31845 = 65351_{10} \]
+
+Next, we need to convert the result back to base 14. 
+
+We do this by dividing the number by 14 repeatedly and noting the remainders:
+
+\[ 65351 \div 14 = 4667 \quad \text{remainder} \, 9 \]
+\[ 4667 \div 14 = 333 \quad \text{remainder} \, 5 \]
+\[ 333 \div 14 = 23 \quad \text{remainder} \, 11 \, (B) \]
+\[ 23 \div 14 = 1 \quad \text{remainder} \, 9 \]
+\[ 1 \div 14 = 0 \quad \text{remainder} \, 1 \]
+
+Reading the remainders from bottom to top, we get the number:
+\[ 195B9_{14} \]
+
+Thus:
+\[ C2D4_{14} + B869_{14} = 195B9_{14} \]
+
+Summarizing in one line:
+\[ C2D4_{14} + B869_{14} = 33506_{10} + 31845_{10} = 65351_{10} = 195B9_{14} \]

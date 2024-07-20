@@ -1,0 +1,65 @@
+To compute the sum of the numbers \(1AA2_{11}\) and \(11826_{11}\) in base 11, we first need to convert both numbers to base 10, perform the addition in base 10, and then convert the result back to base 11.
+
+**Step 1: Convert \(1AA2_{11}\) to base 10**
+
+The number \(1AA2_{11}\) can be expanded as follows:
+\[ 1AA2_{11} = 1 \times 11^3 + 10 \times 11^2 + 10 \times 11^1 + 2 \times 11^0 \]
+\[ = 1 \times 1331 + 10 \times 121 + 10 \times 11 + 2 \]
+
+Let's compute each term:
+\[ 1 \times 1331 = 1331 \]
+\[ 10 \times 121 = 1210 \]
+\[ 10 \times 11 = 110 \]
+\[ 2 \times 1 = 2 \]
+
+Adding these together:
+\[ 1331 + 1210 + 110 + 2 = 2653 \]
+
+Thus, \(1AA2_{11} = 2653_{10}\).
+
+**Step 2: Convert \(11826_{11}\) to base 10**
+
+The number \(11826_{11}\) can be expanded as follows:
+\[ 11826_{11} = 1 \times 11^4 + 1 \times 11^3 + 8 \times 11^2 + 2 \times 11^1 + 6 \times 11^0 \]
+\[ = 1 \times 14641 + 1 \times 1331 + 8 \times 121 + 2 \times 11 + 6 \]
+
+Let's compute each term:
+\[ 1 \times 14641 = 14641 \]
+\[ 1 \times 1331 = 1331 \]
+\[ 8 \times 121 = 968 \]
+\[ 2 \times 11 = 22 \]
+\[ 6 \times 1 = 6 \]
+
+Adding these together:
+\[ 14641 + 1331 + 968 + 22 + 6 = 16968 \]
+
+Thus, \(11826_{11} = 16968_{10}\).
+
+**Step 3: Add the two base 10 numbers**
+
+\[ 2653_{10} + 16968_{10} = 19621_{10} \]
+
+**Step 4: Convert \(19621_{10}\) back to base 11**
+
+To do this, we repeatedly divide by 11 and keep track of the remainders.
+
+\[ 19621 \div 11 = 1783 \text{ remainder } 8 \]
+\[ 1783 \div 11 = 162 \text{ remainder } 1 \]
+\[ 162 \div 11 = 14 \text{ remainder } 8 \]
+\[ 14 \div 11 = 1 \text{ remainder } 3 \]
+\[ 1 \div 11 = 0 \text{ remainder } 1 \]
+
+Reading the remainders from bottom to top, we get \(13818_{11}\).
+
+Thus, the sum of \(1AA2_{11}\) and \(11826_{11}\) is \(13818_{11}\).
+
+**Summary:**
+
+\[ 1AA2_{11} + 11826_{11} = 1AA2_{11} = 2653_{10} + 16968_{10} = 19621_{10} \text{, converting back to } 13818_{11}. \]
+
+So: 
+\[ 1AA2_{11} + 11826_{11} = 13818_{11}. \]
+
+In one line:
+
+\[ 1AA2_{11} + 11826_{11} = 2653_{10} + 16968_{10} = 19621_{10} = 13818_{11}. \]

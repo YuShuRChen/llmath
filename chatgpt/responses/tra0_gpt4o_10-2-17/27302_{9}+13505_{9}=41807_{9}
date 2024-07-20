@@ -1,0 +1,55 @@
+To compute the sum \( 27302_{9} + 13505_{9} \), we need to follow these steps:
+
+1. Convert both numbers from base 9 to base 10.
+2. Perform the addition in base 10.
+3. Convert the result back to base 9.
+
+**Step 1: Convert \( 27302_{9} \) to base 10.**
+
+\[ 27302_{9} = 2 \cdot 9^4 + 7 \cdot 9^3 + 3 \cdot 9^2 + 0 \cdot 9^1 + 2 \cdot 9^0 \]
+
+Calculations:
+\[ 2 \cdot 9^4 = 2 \cdot 6561 = 13122 \]
+\[ 7 \cdot 9^3 = 7 \cdot 729 = 5103 \]
+\[ 3 \cdot 9^2 = 3 \cdot 81 = 243 \]
+\[ 0 \cdot 9^1 = 0 \]
+\[ 2 \cdot 9^0 = 2 \]
+
+Adding these values:
+\[ 13122 + 5103 + 243 + 0 + 2 = 18470_{10} \]
+
+**Step 2: Convert \( 13505_{9} \) to base 10.**
+
+\[ 13505_{9} = 1 \cdot 9^4 + 3 \cdot 9^3 + 5 \cdot 9^2 + 0 \cdot 9^1 + 5 \cdot 9^0 \]
+
+Calculations:
+\[ 1 \cdot 9^4 = 6561 \]
+\[ 3 \cdot 9^3 = 3 \cdot 729 = 2187 \]
+\[ 5 \cdot 9^2 = 5 \cdot 81 = 405 \]
+\[ 0 \cdot 9^1 = 0 \]
+\[ 5 \cdot 9^0 = 5 \]
+
+Adding these values:
+\[ 6561 + 2187 + 405 + 0 + 5 = 9158_{10} \]
+
+**Step 3: Add the two base 10 numbers.**
+
+\[ 18470_{10} + 9158_{10} = 27628_{10} \]
+
+**Step 4: Convert the result back to base 9.**
+
+To convert \( 27628_{10} \) to base 9, we repeatedly divide by 9 and record the remainders:
+
+\[ 27628 \div 9 = 3070 \text{ remainder } 8 \]
+\[ 3070 \div 9 = 341 \text{ remainder } 1 \]
+\[ 341 \div 9 = 37 \text{ remainder } 8 \]
+\[ 37 \div 9 = 4 \text{ remainder } 1 \]
+\[ 4 \div 9 = 0 \text{ remainder } 4 \]
+
+Reading the remainders from top to bottom, we get \( 41818_{9} \).
+
+Therefore, the sum of \( 27302_{9} + 13505_{9} \) is \( 41818_{9} \).
+
+**Summary:**
+
+\[ 27302_{9} + 13505_{9} = 18470_{10} + 9158_{10} = 27628_{10} = 41818_{9} \]

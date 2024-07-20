@@ -1,0 +1,10 @@
+First, let's convert the numbers to base 10:
+\( 1100101212_{3} = 3^9 \times 1 + 3^8 \times 1 + 3^7 \times 0 + 3^6 \times 0 + 3^5 \times 1 + 3^4 \times 0 + 3^3 \times 1 + 3^2 \times 2 + 3^1 \times 1 + 3^0 \times 2 = 19684 \)
+\( 1000021012_{3} = 3^9 \times 1 + 3^8 \times 0 + 3^7 \times 0 + 3^6 \times 0 + 3^5 \times 0 + 3^4 \times 2 + 3^3 \times 1 + 3^2 \times 0 + 3^1 \times 1 + 3^0 \times 2 = 17861 \)
+
+Now, let's add the two numbers in base 10:
+\( 19684 + 17861 = 37545 \)
+
+Therefore, \( 1100101212_{3} + 1000021012_{3} = 37545_{10} \)
+
+Summary: \( 1100101212_{3} + 1000021012_{3} = 37545_{10} \)

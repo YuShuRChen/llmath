@@ -1,0 +1,41 @@
+To solve the addition of the numbers provided in base 12, we will first convert them to base 10, perform the addition in base 10, and then convert the result back to base 12.
+
+1. **Convert A832_{12} to base 10:**
+
+   The digits in the number A832_{12} are 'A', '8', '3', and '2'. In base 12, 'A' represents 10 in decimal.
+
+   A832_{12} = A * 12^3 + 8 * 12^2 + 3 * 12^1 + 2 * 12^0
+             = 10 * 1728 + 8 * 144 + 3 * 12 + 2 * 1
+             = 17280 + 1152 + 36 + 2
+             = 18470_{10}
+
+2. **Convert 5372_{12} to base 10:**
+
+   The digits in the number 5372_{12} are '5', '3', '7', and '2'.
+
+   5372_{12} = 5 * 12^3 + 3 * 12^2 + 7 * 12^1 + 2 * 12^0
+             = 5 * 1728 + 3 * 144 + 7 * 12 + 2 * 1
+             = 8640 + 432 + 84 + 2 
+             = 9158_{10}
+
+3. **Add the two numbers in base 10:**
+
+   18470_{10} + 9158_{10} = 27628_{10}
+
+4. **Convert the result back to base 12:**
+
+   To convert 27628_{10} to base 12, we successively divide the number by 12 and record the remainders.
+
+   27628 ÷ 12 = 2302 remainder 4
+   2302 ÷ 12 = 191 remainder 10 (A in base 12)
+   191 ÷ 12 = 15 remainder 11 (B in base 12)
+   15 ÷ 12 = 1 remainder 3
+   1 ÷ 12 = 0 remainder 1
+
+   Reading the remainders from bottom to top, we get:
+
+   27628_{10} = 13BA4_{12}
+
+   Therefore, the final result we obtained is: 13BA4_{12}
+
+**Summary:** A832_{12} + 5372_{12} = 18470_{10} + 9158_{10} = 27628_{10} = 13BA4_{12}

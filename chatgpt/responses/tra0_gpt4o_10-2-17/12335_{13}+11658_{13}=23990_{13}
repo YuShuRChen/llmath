@@ -1,0 +1,93 @@
+To solve the addition of \(12335_{13}\) and \(11658_{13}\), we need to follow these steps:
+
+1. **Convert both numbers from base 13 to base 10**.
+
+2. **Perform the addition in base 10**.
+
+3. **Convert the result back to base 13**.
+
+**Step 1: Convert \(12335_{13}\) and \(11658_{13}\) to base 10**
+
+For \(12335_{13}\):
+\[
+1 \cdot 13^4 + 2 \cdot 13^3 + 3 \cdot 13^2 + 3 \cdot 13^1 + 5 \cdot 13^0
+\]
+\[
+= 1 \cdot 28561 + 2 \cdot 2197 + 3 \cdot 169 + 3 \cdot 13 + 5 \cdot 1
+\]
+\[
+= 28561 + 4394 + 507 + 39 + 5
+\]
+\[
+= 33506_{10}
+\]
+
+For \(11658_{13}\):
+\[
+1 \cdot 13^4 + 1 \cdot 13^3 + 6 \cdot 13^2 + 5 \cdot 13^1 + 8 \cdot 13^0
+\]
+\[
+= 1 \cdot 28561 + 1 \cdot 2197 + 6 \cdot 169 + 5 \cdot 13 + 8 \cdot 1
+\]
+\[
+= 28561 + 2197 + 1014 + 65 + 8
+\]
+\[
+= 31845_{10}
+\]
+
+**Step 2: Add the base 10 numbers**
+
+\[
+33506_{10} + 31845_{10} = 65351_{10}
+\]
+
+**Step 3: Convert the result \(65351_{10}\) back to base 13**
+
+Let's find the coefficients of the base 13 conversion:
+
+First, find the highest power of 13 less than 65351:
+\[
+13^4 = 28561, \quad 13^5 = 371293 \quad (\text{too large})
+\]
+
+Now divide:
+\[
+65351 \div 28561 \approx 2 \quad \text{(coefficient of } 13^4\text{)}
+\]
+
+Subtract and continue:
+\[
+65351 - 2 \cdot 28561 = 65351 - 57122 = 8229
+\]
+\[
+8229 \div 2197 \approx 3 \quad \text{(coefficient of } 13^3\text{)}
+\]
+\[
+8229 - 3 \cdot 2197 = 8229 - 6591 = 1638
+\]
+\[
+1638 \div 169 \approx 9 \quad \text{(coefficient of } 13^2\text{)}
+\]
+\[
+1638 - 9 \cdot 169 = 1638 - 1521 = 117
+\]
+\[
+117 \div 13 \approx 9 \quad \text{(coefficient of } 13^1\text{)}
+\]
+\[
+117 - 9 \cdot 13 = 117 - 117 = 0
+\]
+\[
+0 \div 1 = 0 \quad \text{(coefficient of } 13^0\text{)}
+\]
+
+Putting it all together gives:
+\[
+65351_{10} = 23990_{13}
+\]
+
+So, the original equation and the final result is:
+\[
+12335_{13} + 11658_{13} = 23990_{13}
+\]

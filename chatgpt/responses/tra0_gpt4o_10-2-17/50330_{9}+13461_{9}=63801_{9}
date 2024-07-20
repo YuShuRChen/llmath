@@ -1,0 +1,50 @@
+To solve the expression \(50330_9 + 13461_9\), we first convert the base-9 numbers to base-10, perform the addition, and convert the result back to base-9.
+
+**Step 1: Conversion of \(50330_9\) to base-10**
+\[
+\begin{align*}
+50330_9 &= 5 \cdot 9^4 + 0 \cdot 9^3 + 3 \cdot 9^2 + 3 \cdot 9^1 + 0 \cdot 9^0 \\
+        &= 5 \cdot 6561 + 0 \cdot 729 + 3 \cdot 81 + 3 \cdot 9 + 0 \cdot 1 \\
+        &= 32805 + 0 + 243 + 27 + 0 \\
+        &= 33075
+\end{align*}
+\]
+
+**Step 2: Conversion of \(13461_9\) to base-10**
+\[
+\begin{align*}
+13461_9 &= 1 \cdot 9^4 + 3 \cdot 9^3 + 4 \cdot 9^2 + 6 \cdot 9^1 + 1 \cdot 9^0 \\
+        &= 1 \cdot 6561 + 3 \cdot 729 + 4 \cdot 81 + 6 \cdot 9 + 1 \cdot 1 \\
+        &= 6561 + 2187 + 324 + 54 + 1 \\
+        &= 9127
+\end{align*}
+\]
+
+**Step 3: Addition of the base-10 equivalents**
+\[
+50330_9 + 13461_9 = 33075 + 9127 = 42202
+\]
+
+**Step 4: Conversion of the result \(42202_{10}\) back to base-9**
+Divide \(42202\) by decreasing powers of \(9\), keeping track of remainders:
+
+\[
+42202_{10} \div 9^4 = 6561 \quad \text{(exactly 6 times, remainder is \(42202 - 6 \cdot 6561 = 5428\))}
+\]
+\[
+5428 \div 9^3 = 729 \quad \text{(exactly 7 times, remainder is \(5428 - 7 \cdot 729 = 479\))}
+\]
+\[
+479 \div 9^2 = 81 \quad \text{(exactly 5 times, remainder is \(479 - 5 \cdot 81 = 74\))}
+\]
+\[
+74 \div 9^1 = 9 \quad \text{(exactly 8 times, remainder is \(74 - 8 \cdot 9 = 2\))}
+\]
+\[
+2 \div 9^0 = 1 \quad \text{(no times, remainder is \(2\))}
+\]
+
+Compiling these results, \(42202_{10}\) converts to \(67582_{9}\).
+
+**Summary:**
+\[50330_9 + 13461_9 = 50330_{9}+13461_{9} \rightarrow 33075_{10} + 9127_{10} = 42202_{10} \rightarrow 67582_{9}\]

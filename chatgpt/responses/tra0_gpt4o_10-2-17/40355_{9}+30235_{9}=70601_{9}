@@ -1,0 +1,59 @@
+To compute the sum of two base-9 numbers, follow these steps:
+
+1. Convert each base-9 number to base-10.
+2. Perform the addition in base-10.
+3. Convert the result back to base-9.
+
+Let's process each step.
+
+### Step 1: Convert 40355_{9} to base-10
+
+40355_{9} can be expanded in base-9 notation as:
+\[ 4 \cdot 9^4 + 0 \cdot 9^3 + 3 \cdot 9^2 + 5 \cdot 9^1 + 5 \cdot 9^0 \]
+
+Calculating each term individually:
+\[ 4 \cdot 9^4 = 4 \cdot 6561 = 26244 \]
+\[ 0 \cdot 9^3 = 0 \]
+\[ 3 \cdot 9^2 = 3 \cdot 81 = 243 \]
+\[ 5 \cdot 9^1 = 5 \cdot 9 = 45 \]
+\[ 5 \cdot 9^0 = 5 \]
+
+Summing these results:
+\[ 26244 + 0 + 243 + 45 + 5 = 26537_{10} \]
+
+### Step 2: Convert 30235_{9} to base-10
+
+30235_{9} can be expanded as:
+\[ 3 \cdot 9^4 + 0 \cdot 9^3 + 2 \cdot 9^2 + 3 \cdot 9^1 + 5 \cdot 9^0 \]
+
+Calculating each term individually:
+\[ 3 \cdot 9^4 = 3 \cdot 6561 = 19683 \]
+\[ 0 \cdot 9^3 = 0 \]
+\[ 2 \cdot 9^2 = 2 \cdot 81 = 162 \]
+\[ 3 \cdot 9^1 = 3 \cdot 9 = 27 \]
+\[ 5 \cdot 9^0 = 5 \]
+
+Summing these results:
+\[ 19683 + 0 + 162 + 27 + 5 = 19877_{10} \]
+
+### Step 3: Perform the addition in base-10
+
+Now, add the two base-10 numbers together:
+\[ 26537_{10} + 19877_{10} = 46414_{10} \]
+
+### Step 4: Convert 46414_{10} back to base-9
+
+To convert 46414_{10} to base-9, repeatedly divide the number by 9 and track the remainders:
+
+46414 ÷ 9 = 5157 remainder 1
+5157 ÷ 9 = 573 remainder 0
+573 ÷ 9 = 63 remainder 6
+63 ÷ 9 = 7 remainder 0
+7 ÷ 9 = 0 remainder 7
+
+Reading the remainders from bottom to top, we get:
+\[ 46414_{10} = 70601_{9} \]
+
+### Summary
+
+40355_{9} + 30235_{9} = 26537_{10} + 19877_{10} = 46414_{10} = 70601_{9}

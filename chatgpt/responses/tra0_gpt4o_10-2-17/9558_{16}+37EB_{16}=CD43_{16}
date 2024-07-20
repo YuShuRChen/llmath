@@ -1,0 +1,30 @@
+To find the sum of the hexadecimal numbers \(9558_{16}\) and \(37EB_{16}\), follow these steps:
+
+1. Convert both numbers from hexadecimal to decimal:
+   - \(9558_{16}\):
+     - \(9 \times 16^3 + 5 \times 16^2 + 5 \times 16^1 + 8 \times 16^0\)
+     - \(9 \times 4096 + 5 \times 256 + 5 \times 16 + 8\)
+     - \(36864 + 1280 + 80 + 8\)
+     - \(38232_{10}\)
+   
+   - \(37EB_{16}\):
+     - \(3 \times 16^3 + 7 \times 16^2 + 14 \times 16^1 + 11 \times 16^0\)
+     - \(3 \times 4096 + 7 \times 256 + 14 \times 16 + 11\)
+     - \(12288 + 1792 + 224 + 11\)
+     - \(14315_{10}\)
+
+2. Add the decimal equivalents:
+   - \(38232 + 14315 = 52547_{10}\)
+
+3. Convert the sum back to hexadecimal:
+   - Divide 52547 by 16, the quotient is 3284 and the remainder is 3 (rightmost digit).
+   - Divide 3284 by 16, the quotient is 205 and the remainder is 4.
+   - Divide 205 by 16, the quotient is 12 and the remainder is 13.
+   - Divide 12 by 16, the quotient is 0 and the remainder is 12.
+   - Translate remainders: \(C = 12\), \(D = 13\), \(4 = 4\), and \(3 = 3\).
+   - The hexadecimal equivalent of 52547 is \(CD43_{16}\).
+
+So, the sum \(9558_{16} + 37EB_{16} = CD43_{16}\).
+
+Thus, the summarized process:
+\(9558_{16} + 37EB_{16} = 38232_{10} + 14315_{10} = 52547_{10} = CD43_{16}\)

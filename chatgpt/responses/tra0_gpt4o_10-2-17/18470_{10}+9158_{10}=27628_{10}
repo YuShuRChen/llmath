@@ -1,0 +1,25 @@
+First, we will simply add the two decimal numbers together:
+
+\[ 18470_{10} + 9158_{10} \]
+
+Let's align the numbers by their digits and add them column-wise:
+
+```
+  18470
++  9158
+-------
+```
+
+Starting from the rightmost digit:
+- 0 + 8 = 8
+- 7 + 5 = 12 (write down 2, carry over 1)
+- 4 + 1 + 1 (carry) = 6
+- 8 + 9 = 17 (write down 7, carry over 1)
+- 1 + 1 (carry) = 2
+
+Summing these up gives us:
+
+\[ 18470_{10} + 9158_{10} = 27628_{10} \]
+
+To summarize:
+18470_{10} + 9158_{10} = 27628_{10}

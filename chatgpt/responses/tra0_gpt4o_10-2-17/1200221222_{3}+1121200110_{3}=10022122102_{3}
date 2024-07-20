@@ -1,0 +1,101 @@
+First, let's convert each ternary (base 3) number to a decimal (base 10) number.
+
+### Converting 1200221222_{3} to decimal:
+To convert from base 3 to base 10, we multiply each digit by \(3\) raised to the position index (starting from 0 at the rightmost digit).
+
+\[1200221222_{3} = 1 \cdot 3^9 + 2 \cdot 3^8 + 0 \cdot 3^7 + 0 \cdot 3^6 + 2 \cdot 3^5 + 2 \cdot 3^4 + 1 \cdot 3^3 + 2 \cdot 3^2 + 2 \cdot 3^1 + 2 \cdot 3^0\]
+
+Calculating each term:
+
+\[
+\begin{align*}
+1 \cdot 3^9 &= 19683, \\
+2 \cdot 3^8 &= 2 \cdot 6561 = 13122, \\
+0 \cdot 3^7 &= 0, \\
+0 \cdot 3^6 &= 0, \\
+2 \cdot 3^5 &= 2 \cdot 243 = 486, \\
+2 \cdot 3^4 &= 2 \cdot 81 = 162, \\
+1 \cdot 3^3 &= 27, \\
+2 \cdot 3^2 &= 2 \cdot 9 = 18, \\
+2 \cdot 3^1 &= 2 \cdot 3 = 6, \\
+2 \cdot 3^0 &= 2.
+\end{align*}
+\]
+
+Summing these values:
+
+\[
+19683 + 13122 + 486 + 162 + 27 + 18 + 6 + 2 = 33365
+\]
+
+Thus,
+
+\[1200221222_{3} = 33365_{10}\]
+
+### Converting 1121200110_{3} to decimal:
+Similarly,
+
+\[1121200110_{3} = 1 \cdot 3^9 + 1 \cdot 3^8 + 2 \cdot 3^7 + 1 \cdot 3^6 + 2 \cdot 3^5 + 0 \cdot 3^4 + 0 \cdot 3^3 + 1 \cdot 3^2 + 1 \cdot 3^1 + 0 \cdot 3^0\]
+
+Calculating each term:
+
+\[
+\begin{align*}
+1 \cdot 3^9 &= 19683, \\
+1 \cdot 3^8 &= 6561, \\
+2 \cdot 3^7 &= 2 \cdot 2187 = 4374, \\
+1 \cdot 3^6 &= 729, \\
+2 \cdot 3^5 &= 2 \cdot 243 = 486, \\
+0 \cdot 3^4 &= 0, \\
+0 \cdot 3^3 &= 0, \\
+1 \cdot 3^2 &= 9, \\
+1 \cdot 3^1 &= 3, \\
+0 \cdot 3^0 &= 0.
+\end{align*}
+\]
+
+Summing these values:
+
+\[
+19683 + 6561 + 4374 + 729 + 486 + 9 + 3 = 31845
+\]
+
+Thus,
+
+\[1121200110_{3} = 31845_{10}\]
+
+### Adding the Decimal Results:
+Now, let's add these two decimal numbers:
+
+\[
+33365 + 31845 = 65210
+\]
+
+### Converting the Sum back to Ternary:
+To convert 65210 from decimal to ternary, we repeatedly divide by 3 and record the remainders:
+
+\[
+\begin{align*}
+65210 \div 3 &= 21736 \quad \text{remainder } 2, \\
+21736 \div 3 &= 7245 \quad \text{remainder } 1, \\
+7245 \div 3 &= 2415 \quad \text{remainder } 0, \\
+2415 \div 3 &= 805 \quad \text{remainder } 0, \\
+805 \div 3 &= 268 \quad \text{remainder } 1, \\
+268 \div 3 &= 89 \quad \text{remainder } 1, \\
+89 \div 3 &= 29 \quad \text{remainder } 2, \\
+29 \div 3 &= 9 \quad \text{remainder } 2, \\
+9 \div 3 &= 3 \quad \text{remainder } 0, \\
+3 \div 3 &= 1 \quad \text{remainder } 0, \\
+1 \div 3 &= 0 \quad \text{remainder } 1.
+\end{align*}
+\]
+
+Reading the remainders from bottom to top:
+
+\[65210_{10} = 10022110212_{3}\]
+
+### Final Result:
+\[1200221222_{3} + 1121200110_{3} = 10022110212_{3}\]
+In summary:
+
+\[1200221222_{3} \rightarrow 33365_{10} + 1121200110_{3} \rightarrow 31845_{10} = 65210_{10} \rightarrow 10022110212_{3}\]

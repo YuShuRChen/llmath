@@ -1,0 +1,55 @@
+To solve \(12132221_{4} + 10312211_{4}\), we first need to convert each base-4 number to base-10.
+
+First, convert \(12132221_{4}\) to base-10:
+\[ 1 \cdot 4^7 + 2 \cdot 4^6 + 1 \cdot 4^5 + 3 \cdot 4^4 + 2 \cdot 4^3 + 2 \cdot 4^2 + 2 \cdot 4^1 + 1 \cdot 4^0 \]
+
+Calculating each part:
+\[ 1 \cdot 4^7 = 1 \cdot 16384 = 16384 \]
+\[ 2 \cdot 4^6 = 2 \cdot 4096 = 8192 \]
+\[ 1 \cdot 4^5 = 1 \cdot 1024 = 1024 \]
+\[ 3 \cdot 4^4 = 3 \cdot 256 = 768 \]
+\[ 2 \cdot 4^3 = 2 \cdot 64 = 128 \]
+\[ 2 \cdot 4^2 = 2 \cdot 16 = 32 \]
+\[ 2 \cdot 4^1 = 2 \cdot 4 = 8 \]
+\[ 1 \cdot 4^0 = 1 \]
+
+Adding all together:
+\[ 16384 + 8192 + 1024 + 768 + 128 + 32 + 8 + 1 = 26537 \]
+
+Next, convert \(10312211_{4}\) to base-10:
+\[ 1 \cdot 4^7 + 0 \cdot 4^6 + 3 \cdot 4^5 + 1 \cdot 4^4 + 2 \cdot 4^3 + 2 \cdot 4^2 + 1 \cdot 4^1 + 1 \cdot 4^0 \]
+
+Calculating each part:
+\[ 1 \cdot 4^7 = 1 \cdot 16384 = 16384 \]
+\[ 0 \cdot 4^6 = 0 \cdot 4096 = 0 \]
+\[ 3 \cdot 4^5 = 3 \cdot 1024 = 3072 \]
+\[ 1 \cdot 4^4 = 1 \cdot 256 = 256 \]
+\[ 2 \cdot 4^3 = 2 \cdot 64 = 128 \]
+\[ 2 \cdot 4^2 = 2 \cdot 16 = 32 \]
+\[ 1 \cdot 4^1 = 1 \cdot 4 = 4 \]
+\[ 1 \cdot 4^0 = 1 \]
+
+Adding all together:
+\[ 16384 + 0 + 3072 + 256 + 128 + 32 + 4 + 1 = 19877 \]
+
+Now, add the two base-10 results:
+\[ 26537 + 19877 = 46414 \]
+
+Convert the sum back to base-4:
+Dividing by powers of 4, we get:
+46414 ÷ 4^8 = 1 remainder 10030 (4^8 = 65536 exceeds 46414)
+10030 ÷ 4^7 = 3 remainder 2466 (1 × 16384 + 3 × 4096)
+2466 ÷ 4^6 = 0 remainder 2466
+2466 ÷ 4^5 = 2 remainder 418  (2 × 1024)
+418 ÷ 4^4 = 1 remainder 162
+162 ÷ 4^3 = 2 remainder 34
+34 ÷ 4^2 = 2 remainder 2
+2 ÷ 4^1 = 0 with a remainder 2
+
+Assembling from highest to lowest power:
+\[ 1 \cdot 4^8 + 3 \cdot 4^7 + 0 \cdot 4^6 + 2 \cdot 4^5 + 1 \cdot 4^4 + 2 \cdot 4^3 + 2 \cdot 4^2 + 0 \cdot 4^1 + 2 \cdot 4^0 \]
+
+The final base-4 result is \(130212202_{4}\).
+
+Thus, \\
+\[ 12132221_{4} + 10312211_{4} = 12132221_{4} + 10312211_{4} \implies 26537_{10} + 19877_{10} = 46414_{10} \implies 130212202_{4} \]

@@ -1,0 +1,10 @@
+First, we need to add the numbers in base 13, carrying over if the sum exceeds 13:
+
+\[ \begin{array}{r}
+\phantom{00}C104_{13} \\
++\phantom{0}9080_{13} \\
+\hline
+10084_{13} \\
+\end{array} \]
+
+Therefore, \(C104_{13} + 9080_{13} = 10084_{13}\).

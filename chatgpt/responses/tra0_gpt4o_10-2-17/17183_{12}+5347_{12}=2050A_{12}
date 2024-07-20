@@ -1,0 +1,100 @@
+To perform the addition \(17183_{12} + 5347_{12}\), we'll start by converting these base-12 numbers to base-10, then perform the addition in base-10, and finally convert the result back to base-12.
+
+**Step 1: Convert \(17183_{12}\) to base-10**
+
+\[ 
+17183_{12} = 1 \times 12^4 + 7 \times 12^3 + 1 \times 12^2 + 8 \times 12^1 + 3 \times 12^0
+\]
+
+Calculate each term:
+\[
+1 \times 12^4 = 12^4 = 20736
+\]
+\[
+7 \times 12^3 = 7 \times 1728 = 12096
+\]
+\[
+1 \times 12^2 = 1 \times 144 = 144
+\]
+\[
+8 \times 12^1 = 8 \times 12 = 96
+\]
+\[
+3 \times 12^0 = 3 \times 1 = 3
+\]
+
+Sum these values:
+\[
+20736 + 12096 + 144 + 96 + 3 = 33075
+\]
+
+Thus:
+\[ 
+17183_{12} = 33075_{10}
+\]
+
+**Step 2: Convert \(5347_{12}\) to base-10**
+
+\[
+5347_{12} = 5 \times 12^3 + 3 \times 12^2 + 4 \times 12^1 + 7 \times 12^0
+\]
+
+Calculate each term:
+\[
+5 \times 12^3 = 5 \times 1728 = 8640
+\]
+\[
+3 \times 12^2 = 3 \times 144 = 432
+\]
+\[
+4 \times 12^1 = 4 \times 12 = 48
+\]
+\[
+7 \times 12^0 = 7 \times 1 = 7
+\]
+
+Sum these values:
+\[
+8640 + 432 + 48 + 7 = 9127
+\]
+
+Thus:
+\[ 
+5347_{12} = 9127_{10}
+\]
+
+**Step 3: Add the two base-10 numbers**
+
+\[
+33075_{10} + 9127_{10} = 42102_{10}
+\]
+
+**Step 4: Convert the result back to base-12**
+
+To convert \(42102_{10}\) to base-12, we repeatedly divide by 12 and keep track of the remainders.
+
+\[
+42102 \div 12 = 3508 \quad \text{remainder} \: 6
+\]
+\[
+3508 \div 12 = 292 \quad \text{remainder} \: 4
+\]
+\[
+292 \div 12 = 24 \quad \text{remainder} \: 4
+\]
+\[
+24 \div 12 = 2 \quad \text{remainder} \: 0
+\]
+\[
+2 \div 12 = 0 \quad \text{remainder} \: 2
+\]
+
+Reading the remainders from bottom to top, we get \(20446_{12}\).
+
+Thus:
+\[ 
+17183_{12} + 5347_{12} = 20446_{12}
+\]
+
+To summarize:
+\[ 17183_{12} + 5347_{12} = 33075_{10} + 9127_{10} = 42102_{10} = 20446_{12} \]

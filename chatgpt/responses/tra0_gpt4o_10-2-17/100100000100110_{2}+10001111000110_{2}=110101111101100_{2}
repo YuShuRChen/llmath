@@ -1,0 +1,47 @@
+To perform the addition, we first need to convert the binary numbers to their decimal equivalents.
+
+1. Convert \(100100000100110_2\) to decimal:
+   - Each digit from right to left represents increasing powers of 2.
+   - So, \(100100000100110_2\) can be written as:
+     \(1 \cdot 2^{14} + 0 \cdot 2^{13} + 0 \cdot 2^{12} + 1 \cdot 2^{11} + 0 \cdot 2^{10} + 0 \cdot 2^9 + 0 \cdot 2^8 + 0 \cdot 2^7 + 0 \cdot 2^6 + 1 \cdot 2^5 + 1 \cdot 2^4 + 0 \cdot 2^3 + 1 \cdot 2^2 + 1 \cdot 2^1 + 0 \cdot 2^0\).
+   - Simplifying that: 
+     \(1 \cdot 16384 + 0 \cdot 8192 + 0 \cdot 4096 + 1 \cdot 2048 + 0 \cdot 1024 + 0 \cdot 512 + 0 \cdot 256 + 0 \cdot 128 + 0 \cdot 64 + 1 \cdot 32 + 1 \cdot 16 + 0 \cdot 8 + 1 \cdot 4 + 1 \cdot 2 + 0 \cdot 1\).
+   - This becomes:
+     \(16384 + 0 + 0 + 2048 + 0 + 0 + 0 + 0 + 0 + 32 + 16 + 0 + 4 + 2 + 0 = 18486\).
+
+2. Convert \(10001111000110_2\) to decimal:
+   - Each digit from right to left represents increasing powers of 2.
+   - So, \(10001111000110_2\) can be written as:
+     \(1 \cdot 2^{13} + 0 \cdot 2^{12} + 0 \cdot 2^{11} + 0 \cdot 2^{10} + 1 \cdot 2^9 + 1 \cdot 2^8 + 1 \cdot 2^7 + 1 \cdot 2^6 + 0 \cdot 2^5 + 0 \cdot 2^4 + 0 \cdot 2^3 + 1 \cdot 2^2 + 1 \cdot 2^1 + 0 \cdot 2^0\).
+   - Simplifying that:
+     \(1 \cdot 8192 + 0 \cdot 4096 + 0 \cdot 2048 + 0 \cdot 1024 + 1 \cdot 512 + 1 \cdot 256 + 1 \cdot 128 + 1 \cdot 64 + 0 \cdot 32 + 0 \cdot 16 + 0 \cdot 8 + 1 \cdot 4 + 1 \cdot 2 + 0 \cdot 1\).
+   - This becomes:
+     \(8192 + 0 + 0 + 0 + 512 + 256 + 128 + 64 + 0 + 0 + 0 + 4 + 2 + 0 = 9158\).
+
+3. Add the two decimal numbers together:
+   \(18486 + 9158 = 27644\).
+
+4. Convert the result back to binary:
+   - Begin dividing the number by 2 and recording the remainders:
+     - 27644 ÷ 2 = 13822 remainder 0
+     - 13822 ÷ 2 = 6911 remainder 0
+     - 6911 ÷ 2 = 3455 remainder 1
+     - 3455 ÷ 2 = 1727 remainder 1
+     - 1727 ÷ 2 = 863 remainder 1
+     - 863 ÷ 2 = 431 remainder 1
+     - 431 ÷ 2 = 215 remainder 1
+     - 215 ÷ 2 = 107 remainder 1
+     - 107 ÷ 2 = 53 remainder 1
+     - 53 ÷ 2 = 26 remainder 1
+     - 26 ÷ 2 = 13 remainder 0
+     - 13 ÷ 2 = 6 remainder 1
+     - 6 ÷ 2 = 3 remainder 0
+     - 3 ÷ 2 = 1 remainder 1
+     - 1 ÷ 2 = 0 remainder 1
+   - Read remainders from bottom to top:
+     \(110110111011100_2\).
+
+Thus, the sum of \(100100000100110_2 + 10001111000110_2\) is \(110110111011100_2\).
+
+Summary:
+100100000100110_{2} + 10001111000110_{2} -> 18486_{10} + 9158_{10} = 27644_{10} -> 110110111011100_{2}

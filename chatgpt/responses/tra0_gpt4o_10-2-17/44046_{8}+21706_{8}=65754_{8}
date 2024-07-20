@@ -1,0 +1,29 @@
+To solve the addition of two octal numbers, we first need to convert them into their decimal equivalents, add them together in decimal form, and then convert the result back to octal.
+
+1. Convert \(44046_{8}\) to decimal:
+    - \(44046_{8} = 4 \cdot 8^4 + 4 \cdot 8^3 + 0 \cdot 8^2 + 4 \cdot 8^1 + 6 \cdot 8^0\)
+    - \( = 4 \cdot 4096 + 4 \cdot 512 + 0 \cdot 64 + 4 \cdot 8 + 6 \cdot 1\)
+    - \( = 16384 + 2048 + 0 + 32 + 6\)
+    - \( = 18470_{10}\)
+
+2. Convert \(21706_{8}\) to decimal:
+    - \(21706_{8} = 2 \cdot 8^4 + 1 \cdot 8^3 + 7 \cdot 8^2 + 0 \cdot 8^1 + 6 \cdot 8^0\)
+    - \( = 2 \cdot 4096 + 1 \cdot 512 + 7 \cdot 64 + 0 \cdot 8 + 6 \cdot 1\)
+    - \( = 8192 + 512 + 448 + 0 + 6\)
+    - \( = 9158_{10}\)
+
+3. Add the two decimal numbers:
+    - \(18470 + 9158 = 27628_{10}\)
+
+4. Convert the result back to octal:
+    - Divide \(27628\) by 8 and record the remainders.
+    - \(27628 \div 8 = 3453 \text{ with a remainder of } 4\)
+    - \(3453 \div 8 = 431 \text{ with a remainder of } 5\)
+    - \(431 \div 8 = 53 \text{ with a remainder of } 7\)
+    - \(53 \div 8 = 6 \text{ with a remainder of } 5\)
+    - \(6 \div 8 = 0 \text{ with a remainder of } 6\)
+
+So, reading the remainders from bottom to top, \(27628_{10} = 65574_{8}\).
+
+Hence, the result is 
+\(44046_{8} + 21706_{8} = 44046_{8} + 21706_{8} = 44046_{8} \rightarrow 18470_{10} + 21706_{8} \rightarrow 9158_{10} + 18470_{10} \rightarrow 27628_{10} = 65574_{8}\).

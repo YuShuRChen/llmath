@@ -1,0 +1,60 @@
+Let's break down the given base-5 numbers to base-10, perform the addition in base-10, and then convert the result back to base-5.
+
+First, we need to convert \( 1042340_5 \) and \( 243113_5 \) to base-10.
+
+Starting with \( 1042340_5 \):
+\[
+1 \cdot 5^6 + 0 \cdot 5^5 + 4 \cdot 5^4 + 2 \cdot 5^3 + 3 \cdot 5^2 + 4 \cdot 5^1 + 0 \cdot 5^0 
+\]
+\[
+= 1 \cdot 15625 + 0 \cdot 3125 + 4 \cdot 625 + 2 \cdot 125 + 3 \cdot 25 + 4 \cdot 5 + 0 \cdot 1 
+\]
+\[
+= 15625 + 0 + 2500 + 250 + 75 + 20 + 0 = 18470_{10}
+\]
+
+Next, converting \( 243113_5 \):
+\[
+2 \cdot 5^5 + 4 \cdot 5^4 + 3 \cdot 5^3 + 1 \cdot 5^2 + 1 \cdot 5^1 + 3 \cdot 5^0 
+\]
+\[
+= 2 \cdot 3125 + 4 \cdot 625 + 3 \cdot 125 + 1 \cdot 25 + 1 \cdot 5 + 3 \cdot 1 
+\]
+\[
+= 6250 + 2500 + 375 + 25 + 5 + 3 = 9158_{10}
+\]
+
+Now, we add the two base-10 numbers:
+\[
+18470 + 9158 = 27628_{10}
+\]
+
+Finally, we convert \( 27628_{10} \) back to base-5.
+
+To do that, we can find the largest power of 5 less than or equal to 27628 and work our way down:
+\[
+27628 \div 15625 = 1 \quad \text{remainder} = 27628 - 15625 \times 1 = 12003 
+\]
+\[
+12003 \div 3125 = 3 \quad \text{remainder} = 12003 - 3125 \times 3 = 3628 
+\]
+\[
+3628 \div 625 = 5 \quad \text{remainder} = 3628 - 5 \times 625 = 503
+\]
+\[
+503 \div 125 = 4 \quad \text{remainder} = 503 - 4 \times 125 = 3
+\]
+\[
+3 \div 25 = 0 \quad \text{remainder} = 3 
+\]
+\[
+3 \div 5 = 0 \quad \text{remainder} = 3 
+\]
+\[
+3 \div 1 = 3 \quad \text{remainder} = 0 
+\]
+
+So, \(27628_{10} = 1354003_5\).
+
+In summary:
+\( 1042340_{5} + 243113_{5} = 18470_{10} + 9158_{10} = 27628_{10} = 1354003_{5} \)

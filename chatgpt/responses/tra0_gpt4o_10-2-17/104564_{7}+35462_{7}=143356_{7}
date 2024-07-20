@@ -1,0 +1,46 @@
+To solve the equation \( 104564_7 + 35462_7 \), we first need to convert the two numbers from base 7 to base 10. Then, we will perform the addition in base 10 and convert the result back to base 7.
+
+### Step 1: Convert \(104564_7\) to base 10
+\[ 104564_7 = 1 \cdot 7^5 + 0 \cdot 7^4 + 4 \cdot 7^3 + 5 \cdot 7^2 + 6 \cdot 7^1 + 4 \cdot 7^0 \]
+
+Calculate each term:
+\[ 1 \cdot 7^5 = 1 \cdot 16807 = 16807 \]
+\[ 0 \cdot 7^4 = 0 \cdot 2401 = 0 \]
+\[ 4 \cdot 7^3 = 4 \cdot 343 = 1372 \]
+\[ 5 \cdot 7^2 = 5 \cdot 49 = 245 \]
+\[ 6 \cdot 7^1 = 6 \cdot 7 = 42 \]
+\[ 4 \cdot 7^0 = 4 \cdot 1 = 4 \]
+
+Summing these terms:
+\[ 16807 + 0 + 1372 + 245 + 42 + 4 = 18470_{10} \]
+
+### Step 2: Convert \(35462_7\) to base 10
+\[ 35462_7 = 3 \cdot 7^4 + 5 \cdot 7^3 + 4 \cdot 7^2 + 6 \cdot 7^1 + 2 \cdot 7^0 \]
+
+Calculate each term:
+\[ 3 \cdot 7^4 = 3 \cdot 2401 = 7203 \]
+\[ 5 \cdot 7^3 = 5 \cdot 343 = 1715 \]
+\[ 4 \cdot 7^2 = 4 \cdot 49 = 196 \]
+\[ 6 \cdot 7^1 = 6 \cdot 7 = 42 \]
+\[ 2 \cdot 7^0 = 2 \cdot 1 = 2 \]
+
+Summing these terms:
+\[ 7203 + 1715 + 196 + 42 + 2 = 9158_{10} \]
+
+### Step 3: Add the base 10 numbers
+\[ 18470_{10} + 9158_{10} = 27628_{10} \]
+
+### Step 4: Convert \(27628_{10}\) to base 7
+We use the method of division by 7 and tracking remainders to convert from base 10 to base 7:
+
+1. \( 27628 \div 7 = 3946 \) remainder \( 0 \)
+2. \( 3946 \div 7 = 563 \) remainder \( 5 \)
+3. \( 563 \div 7 = 80 \) remainder \( 3 \)
+4. \( 80 \div 7 = 11 \) remainder \( 3 \)
+5. \( 11 \div 7 = 1 \) remainder \( 4 \)
+6. \( 1 \div 7 = 0 \) remainder \( 1 \)
+
+Reading the remainders from bottom to top, \( 27628_{10} \) converts to \( 143350_{7} \).
+
+### Summary
+\[ 104564_7 + 35462_7 = 18470_{10} + 9158_{10} = 27628_{10} = 143350_{7} \]

@@ -1,0 +1,10 @@
+First, we need to convert both numbers to decimal:
+$9558_{16} = 37848_{10}$ and $37EB_{16} = 14315_{10}$
+
+Adding both decimal numbers:
+$37848_{10} + 14315_{10} = 52163_{10}$
+
+Converting the decimal result back to hexadecimal:
+$52163_{10} = CBB3_{16}$
+
+Therefore, $9558_{16} + 37EB_{16} = \boxed{CBB3_{16}}$

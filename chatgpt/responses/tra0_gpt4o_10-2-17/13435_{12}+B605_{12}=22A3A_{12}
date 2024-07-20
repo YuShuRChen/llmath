@@ -1,0 +1,52 @@
+To solve the equation \(13435_{12} + B605_{12}\), we should first convert each number from base 12 to base 10, perform the addition in base 10, and then convert the result back to base 12.
+
+### Step 1: Convert \(13435_{12}\) to base 10
+\[1 * 12^4 + 3 * 12^3 + 4 * 12^2 + 3 * 12^1 + 5 * 12^0\]
+
+Calculating each term:
+\[1 * 20736 = 20736\]
+\[3 * 1728 = 5184\]
+\[4 * 144 = 576\]
+\[3 * 12 = 36\]
+\[5 * 1 = 5\]
+
+Adding them up:
+\[20736 + 5184 + 576 + 36 + 5 = 26537\]
+
+So, \(13435_{12} = 26537_{10}\).
+
+### Step 2: Convert \(B605_{12}\) to base 10
+Note: \(B\) in base 12 represents the value 11 in base 10.
+\[11 * 12^3 + 6 * 12^2 + 0 * 12^1 + 5 * 12^0\]
+
+Calculating each term:
+\[11 * 1728 = 19008\]
+\[6 * 144 = 864\]
+\[0 * 12 = 0\]
+\[5 * 1 = 5\]
+
+Adding them up:
+\[19008 + 864 + 0 + 5 = 19877\]
+
+So, \(B605_{12} = 19877_{10}\).
+
+### Step 3: Add the two base 10 numbers
+\[26537 + 19877 = 46414\]
+
+So, the result in base 10 is \(46414_{10}\).
+
+### Step 4: Convert \(46414_{10}\) back to base 12
+We need to divide 46414 by 12 repeatedly and track the remainders.
+
+\[46414 \div 12 = 3867 \text{ remainder } 10\]
+\[3867 \div 12 = 322 \text{ remainder } 3\]
+\[322 \div 12 = 26 \text{ remainder } 10\]
+\[26 \div 12 = 2 \text{ remainder } 2\]
+\[2 \div 12 = 0 \text{ remainder } 2\]
+
+Reading the remainders from bottom to top, \(46414_{10}\) is \(22A3A_{12}\), where \(A\) is the representation of \(10\) in base \(12\).
+
+So the final result in base 12 is \(22A3A_{12}\).
+
+### Summary
+\[13435_{12} + B605_{12} = 13435_{12} + B605_{12} = 46414_{10} = 22A3A_{12}\]

@@ -1,0 +1,12 @@
+To add these two numbers in base 7, we can sum the corresponding place values:
+
+5 + 6 = 13 (carry over 1)
+0 + 1 + 1 = 2
+3 + 4 = 7
+5 + 5 = 12 (carry over 1)
+6 + 3 = 11 (carry over 1)
+1 + 0 = 1
+
+Therefore, the sum is 201211_{7}. 
+
+$165300_{7} + 35416_{7} = 201211_{7}$

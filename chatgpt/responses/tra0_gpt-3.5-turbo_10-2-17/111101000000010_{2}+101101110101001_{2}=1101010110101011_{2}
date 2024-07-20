@@ -1,0 +1,3 @@
+Convert both numbers to base 10, then add them together in base 10, and finally convert the sum back to base 2.
+
+$111101000000010_{2} + 101101110101001_{2} = 1214730_{10} + 74761_{10} = 1299491_{10} = 100111101110011110011_{2}$.

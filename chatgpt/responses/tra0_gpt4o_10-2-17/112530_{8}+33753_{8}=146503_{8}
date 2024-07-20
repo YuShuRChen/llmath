@@ -1,0 +1,76 @@
+To solve the equation \(112530_8 + 33753_8\), follow these steps:
+
+1. Convert each octal number to a decimal (base 10) number.
+2. Perform the addition in decimal.
+3. Convert the result back to an octal (base 8) number.
+
+### Step 1: Convert Octal to Decimal
+
+**Convert \(112530_8\) to decimal:**
+
+Each digit of the octal number represents a power of 8, starting from the right (0th power).
+
+\[
+112530_8 = 1 \cdot 8^5 + 1 \cdot 8^4 + 2 \cdot 8^3 + 5 \cdot 8^2 + 3 \cdot 8^1 + 0 \cdot 8^0
+\]
+\[
+= 1 \cdot 32768 + 1 \cdot 4096 + 2 \cdot 512 + 5 \cdot 64 + 3 \cdot 8 + 0 \cdot 1
+\]
+\[
+= 32768 + 4096 + 1024 + 320 + 24 + 0
+\]
+\[
+= 38192
+\]
+
+**Convert \(33753_8\) to decimal:**
+
+\[
+33753_8 = 3 \cdot 8^4 + 3 \cdot 8^3 + 7 \cdot 8^2 + 5 \cdot 8^1 + 3 \cdot 8^0
+\]
+\[
+= 3 \cdot 4096 + 3 \cdot 512 + 7 \cdot 64 + 5 \cdot 8 + 3 \cdot 1
+\]
+\[
+= 12288 + 1536 + 448 + 40 + 3
+\]
+\[
+= 14315
+\]
+
+### Step 2: Add the Decimal Numbers
+
+\[
+38192 + 14315 = 52507
+\]
+
+### Step 3: Convert the Sum back to Octal
+
+To convert from decimal to octal, we will divide the decimal number by 8 and keep track of the remainders.
+
+\[
+52507 \div 8 = 6563 \text{ remainder } 3
+\]
+\[
+6563 \div 8 = 820 \text{ remainder } 3
+\]
+\[
+820 \div 8 = 102 \text{ remainder } 4
+\]
+\[
+102 \div 8 = 12 \text{ remainder } 6
+\]
+\[
+12 \div 8 = 1 \text{ remainder } 4
+\]
+\[
+1 \div 8 = 0 \text{ remainder } 1
+\]
+
+Reading the remainders from last to first, the octal number is \(146433_8\).
+
+### Summary:
+
+\[112530_8 + 33753_8 = 52507_{10} = 146433_8\]
+
+\[112530_8 + 33753_8 = 112530_8 \rightarrow 38192_{10}, 33753_8 \rightarrow 14315_{10}, 38192_{10} + 14315_{10} = 52507_{10} \rightarrow 146433_{8}\]

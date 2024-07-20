@@ -1,0 +1,75 @@
+To solve the given octal addition, let's convert each number to decimal, perform the addition, and then convert the result back to octal.
+
+First, convert \(101342_8\) to decimal:
+
+\[ 
+101342_8 = 1 \times 8^5 + 0 \times 8^4 + 1 \times 8^3 + 3 \times 8^2 + 4 \times 8^1 + 2 \times 8^0 
+\]
+
+Perform the exponentiations and multiplications:
+
+\[ 
+1 \times 8^5 = 1 \times 32768 = 32768 \\
+0 \times 8^4 = 0 \times 4096 = 0 \\
+1 \times 8^3 = 1 \times 512 = 512 \\
+3 \times 8^2 = 3 \times 64 = 192 \\
+4 \times 8^1 = 4 \times 8 = 32 \\
+2 \times 8^0 = 2 \times 1 = 2 
+\]
+
+Now, add these values:
+
+\[ 
+32768 + 0 + 512 + 192 + 32 + 2 = 33506 
+\]
+
+Next, convert \(76145_8\) to decimal:
+
+\[ 
+76145_8 = 7 \times 8^4 + 6 \times 8^3 + 1 \times 8^2 + 4 \times 8^1 + 5 \times 8^0 
+\]
+
+Perform the exponentiations and multiplications:
+
+\[ 
+7 \times 8^4 = 7 \times 4096 = 28672 \\
+6 \times 8^3 = 6 \times 512 = 3072 \\
+1 \times 8^2 = 1 \times 64 = 64 \\
+4 \times 8^1 = 4 \times 8 = 32 \\
+5 \times 8^0 = 5 \times 1 = 5 
+\]
+
+Now, add these values:
+
+\[ 
+28672 + 3072 + 64 + 32 + 5 = 31845 
+\]
+
+Add the decimal equivalents of the two octal numbers:
+
+\[ 
+33506 + 31845 = 65351 
+\]
+
+Now, convert the sum back to octal. We repeatedly divide by 8, keeping track of remainders:
+
+\[ 
+65351 \div 8 = 8168 \ (remainder \ 7) \\
+8168 \div 8 = 1021 \ (remainder \ 0) \\
+1021 \div 8 = 127 \ (remainder \ 5) \\
+127 \div 8 = 15 \ (remainder \ 7) \\
+15 \div 8 = 1 \ (remainder \ 7) \\
+1 \div 8 = 0 \ (remainder \ 1) 
+\]
+
+Reading the remainders from bottom to top, the sum in octal is:
+
+\[ 
+175707_8 
+\]
+
+Thus, the original equation and calculation can be summarized as:
+
+\[ 
+101342_8 + 76145_8 = 101342_{8} \rightarrow 33506_{10} + 76145_{8} \rightarrow 31845_{10} = 65351_{10} \rightarrow 175707_{8}
+\]

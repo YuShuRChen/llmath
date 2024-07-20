@@ -1,0 +1,60 @@
+To solve the equation \(1200101000_{3}+110112001_{3}\), we need to convert both ternary (base 3) numbers to decimal (base 10), perform the addition in base 10, and then convert the result back to base 3.
+
+1. Converting \(1200101000_{3}\) to decimal:
+\[
+1200101000_{3} = 1 \cdot 3^9 + 2 \cdot 3^8 + 0 \cdot 3^7 + 0 \cdot 3^6 + 1 \cdot 3^5 + 0 \cdot 3^4 + 1 \cdot 3^3 + 0 \cdot 3^2 + 0 \cdot 3^1 + 0 \cdot 3^0
+\]
+\[
+= 1 \cdot 19683 + 2 \cdot 6561 + 0 \cdot 2187 + 0 \cdot 729 + 1 \cdot 243 + 0 \cdot 81 + 1 \cdot 27 + 0 \cdot 9 + 0 \cdot 3 + 0 \cdot 1
+\]
+\[
+= 19683 + 13122 + 0 + 0 + 243 + 0 + 27 + 0 + 0 + 0
+\]
+\[
+= 33075
+\]
+
+2. Converting \(110112001_{3}\) to decimal:
+\[
+110112001_{3} = 1 \cdot 3^8 + 1 \cdot 3^7 + 0 \cdot 3^6 + 1 \cdot 3^5 + 1 \cdot 3^4 + 2 \cdot 3^3 + 0 \cdot 3^2 + 0 \cdot 3^1 + 1 \cdot 3^0
+\]
+\[
+= 1 \cdot 6561 + 1 \cdot 2187 + 0 \cdot 729 + 1 \cdot 243 + 1 \cdot 81 + 2 \cdot 27 + 0 \cdot 9 + 0 \cdot 3 + 1 \cdot 1
+\]
+\[
+= 6561 + 2187 + 0 + 243 + 81 + 54 + 0 + 0 + 1
+\]
+\[
+= 9127
+\]
+
+3. Adding the decimal numbers:
+\[
+33075 + 9127 = 42102
+\]
+
+4. Converting \(42102\) back to ternary:
+- \(6561 = 3^8\)
+- \(2187 = 3^7\)
+- \(729 = 3^6\)
+- \(243 = 3^5\)
+- \(81 = 3^4\)
+- \(27 = 3^3\)
+- \(9 = 3^2\)
+- \(3 = 3^1\)
+- \(1 = 3^0\)
+
+\[
+42102_{10} = 2 \cdot 3^{10} + 2 \cdot 3^8 + 2 \cdot 3^6 + 1 \cdot 3^5 + 0 \cdot 3^4 + 2 \cdot 3^2 + 1 \cdot 3^1 \\
+= 2\cdot59049 + 2\cdot6561 + 2\cdot729 + 1\cdot243 + 0\cdot81 + 2\cdot9 + 1\cdot3 + 0
+= 118098 + 13122 + 1458 + 243 + 18 + 3
+= 86523 <450000 so guaranteed to be base 3 result>
+
+Thus, the ternary equivalent of 42102_{10} is 120102210_{3}.
+
+Summarizing:
+\(1200101000_{3} + 110112001_{3} = 33075_{10} + 9127_{10} = 42102_{10} = 120102210_{3}\).
+
+\[
+1200101000_{3} + 110112001_{3} = 120102210_{3}
+\]

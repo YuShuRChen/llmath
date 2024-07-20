@@ -1,0 +1,123 @@
+To convert the numbers from base 7 to base 10 and then perform the addition:
+
+1. **Convert 165300 (base 7) to base 10:**
+
+\[ 
+1 \cdot 7^5 + 6 \cdot 7^4 + 5 \cdot 7^3 + 3 \cdot 7^2 + 0 \cdot 7^1 + 0 \cdot 7^0
+\]
+
+Calculating each term:
+
+\[ 
+1 \cdot 16807 = 16807 
+\]
+
+\[ 
+6 \cdot 2401 = 14406 
+\]
+
+\[ 
+5 \cdot 343 = 1715 
+\]
+
+\[ 
+3 \cdot 49 = 147 
+\]
+
+\[ 
+0 \cdot 7 = 0 
+\]
+
+\[ 
+0 \cdot 1 = 0 
+\]
+
+Adding these together:
+
+\[ 
+16807 + 14406 + 1715 + 147 + 0 + 0 = 33175 
+\]
+
+So, \(165300_{7} = 33175_{10}\).
+
+2. **Convert 35416 (base 7) to base 10:**
+
+\[ 
+3 \cdot 7^4 + 5 \cdot 7^3 + 4 \cdot 7^2 + 1 \cdot 7^1 + 6 \cdot 7^0
+\]
+
+Calculating each term:
+
+\[ 
+3 \cdot 2401 = 7203 
+\]
+
+\[ 
+5 \cdot 343 = 1715 
+\]
+
+\[ 
+4 \cdot 49 = 196 
+\]
+
+\[ 
+1 \cdot 7 = 7 
+\]
+
+\[ 
+6 \cdot 1 = 6 
+\]
+
+Adding these together:
+
+\[ 
+7203 + 1715 + 196 + 7 + 6 = 9127 
+\]
+
+So, \(35416_{7} = 9127_{10}\).
+
+3. **Add the converted base 10 numbers:**
+
+\[ 
+33175_{10} + 9127_{10} = 42202_{10}
+\]
+
+4. **Convert 42202 (base 10) back to base 7:**
+
+We repeatedly divide by 7 and keep track of the remainders:
+
+\[ 
+42202 \div 7 = 6028 \quad \text{remainder} \: 6 
+\]
+
+\[ 
+6028 \div 7 = 861 \quad \text{remainder} \: 1
+\]
+
+\[ 
+861 \div 7 = 123 \quad \text{remainder} \: 0 
+\]
+
+\[ 
+123 \div 7 = 17 \quad \text{remainder} \: 4
+\]
+
+\[ 
+17 \div 7 = 2 \quad \text{remainder} \: 3
+\]
+
+\[ 
+2 \div 7 = 0 \quad \text{remainder} \: 2
+\]
+
+Reading the remainders bottom to top, we get:
+
+\[ 
+42202_{10} = 230416_{7}
+\]
+
+To summarize:
+
+\[ 
+165300_{7} + 35416_{7} = 33175_{10} + 9127_{10} = 42202_{10} = 230416_{7}
+\]

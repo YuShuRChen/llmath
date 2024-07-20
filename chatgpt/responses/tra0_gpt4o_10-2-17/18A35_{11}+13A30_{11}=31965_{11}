@@ -1,0 +1,94 @@
+To solve 18A35_{11} + 13A30_{11}, we'll convert each number from base 11 to base 10, perform the addition in base 10, and convert the result back to base 11.
+
+First, let's convert 18A35_{11} to base 10:
+- The digit '1' in base 11 (thousands position) has a value of \( 1 \times 11^4 \)
+- The digit '8' in base 11 (hundreds position) has a value of \( 8 \times 11^3 \)
+- The digit 'A' in base 11 (tens position) has a value of \( 10 \times 11^2 \) (since A = 10 in decimal)
+- The digit '3' in base 11 (units position) has a value of \( 3 \times 11^1 \)
+- The digit '5' in base 11 (ones position) has a value of \( 5 \times 11^0 \)
+
+Let's calculate each of these:
+\[
+1 \times 11^4 = 1 \times 14641 = 14641
+\]
+\[
+8 \times 11^3 = 8 \times 1331 = 10648
+\]
+\[
+10 \times 11^2 = 10 \times 121 = 1210
+\]
+\[
+3 \times 11^1 = 3 \times 11 = 33
+\]
+\[
+5 \times 11^0 = 5 \times 1 = 5
+\]
+
+Adding these up:
+\[
+14641 + 10648 + 1210 + 33 + 5 = 26537
+\]
+
+Now, let's convert 13A30_{11} to base 10 using the same method:
+- The digit '1' in base 11 (thousands position) has a value of \( 1 \times 11^4 \)
+- The digit '3' in base 11 (hundreds position) has a value of \( 3 \times 11^3 \)
+- The digit 'A' in base 11 (tens position) has a value of \( 10 \times 11^2 \) (since A = 10 in decimal)
+- The digit '3' in base 11 (units position) has a value of \( 3 \times 11^1 \)
+- The digit '0' in base 11 (ones position) has a value of \( 0 \times 11^0 \)
+
+Let's calculate each of these:
+\[
+1 \times 11^4 = 1 \times 14641 = 14641
+\]
+\[
+3 \times 11^3 = 3 \times 1331 = 3993
+\]
+\[
+10 \times 11^2 = 10 \times 121 = 1210
+\]
+\[
+3 \times 11^1 = 3 \times 11 = 33
+\]
+\[
+0 \times 11^0 = 0 \times 1 = 0
+\]
+
+Adding these up:
+\[
+14641 + 3993 + 1210 + 33 + 0 = 19877
+\]
+
+Now we add the two base 10 results together:
+\[
+26537 + 19877 = 46414
+\]
+
+Next, we need to convert 46414 back to base 11. We do this by repeatedly dividing by 11 and taking the remainder.
+
+\[
+46414 \div 11 = 4210, \text{ remainder } 4
+\]
+\[
+4210 \div 11 = 382, \text{ remainder } 8
+\]
+\[
+382 \div 11 = 34, \text{ remainder } 8
+\]
+\[
+34 \div 11 = 3, \text{ remainder } 1
+\]
+\[
+3 \div 11 = 0, \text{ remainder } 3
+\]
+
+Reading the remainders from bottom to top, we get:
+\[
+46414_{10} = 31884_{11}
+\]
+
+So, the sum 18A35_{11} + 13A30_{11} = 31884_{11}.
+
+To summarize:
+\[
+18A35_{11} + 13A30_{11} = 26537_{10} + 19877_{10} = 46414_{10} = 31884_{11}
+\]

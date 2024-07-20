@@ -1,0 +1,48 @@
+To solve the binary addition of \(1000001011100010_2 + 111110001100101_2\), we will follow these steps:
+
+1. Align the numbers for binary addition:
+   ```
+      1000001011100010
+   +    111110001100101
+   ```
+
+2. Perform the binary addition:
+   ```
+      1000001011100010
+   + 000111110001100101
+   -------------------
+    110000110001000111
+   ```
+   Now let's break it down step-by-step:
+
+   ```
+         1 0 0 0 0 0 1 0 1 1 1 0 0 0 1 0
+   +     0 1 1 1 1 0 0 0 1 1 0 0 1 0 1
+   -------------------------------------
+         1 1 0 0 0 1 1 0 0 1 0 0 0 1 1 1
+   ```
+
+Notice that we carry over when necessary in binary addition just like in decimal addition.
+
+Adding them:
+- Rightmost bit: \(0_2 + 1_2 = 1_2\)
+- Second bit: \(1_2 + 0_2 = 1_2\)
+- Third bit: \(1_2 + 1_2 = 0_2\) (carry over 1, placing 0)
+- Fourth bit: \(0_2 + 0_2 = 0_2\) (considering previous carry over 1, \(1_2 + 0_2 = 1_2\))
+
+Repeating this for each bit:
+   ```
+   1000001011100010
+   000111110001100101
+   -------------------
+   110000110001000111
+   ```
+
+The final binary sum is:
+   ```
+   110000110001000111_2
+   ```
+
+To conclude:
+\[
+1000001011100010_2 + 111110001100101_2 = 110000110001000111_2

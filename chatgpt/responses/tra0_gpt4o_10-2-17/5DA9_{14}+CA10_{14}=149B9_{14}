@@ -1,0 +1,84 @@
+To solve the addition of 5DA9_{14} and CA10_{14}, first convert them to base 10, perform the addition in base 10, and then convert the result back to base 14.
+
+### Conversion of 5DA9_{14} to base 10:
+Break down the number and compute:
+\[
+5DA9_{14} = 5 \times 14^3 + D \times 14^2 + A \times 14^1 + 9 \times 14^0
+\]
+where \( D = 13_{10} \) and \( A = 10_{10} \).
+
+\[
+= 5 \times 14^3 + 13 \times 14^2 + 10 \times 14 + 9
+\]
+
+Calculating powers of 14:
+\[
+14^3 = 2744,\quad 14^2 = 196,\quad 14^1 = 14,\quad 14^0 = 1
+\]
+
+Substitute:
+\[
+= 5 \times 2744 + 13 \times 196 + 10 \times 14 + 9
+\]
+\[
+= 13720 + 2548 + 140 + 9
+\]
+\[
+= 16417_{10}
+\]
+
+### Conversion of CA10_{14} to base 10:
+Break down the number and compute:
+\[
+CA10_{14} = C \times 14^3 + A \times 14^2 + 1 \times 14^1 + 0 \times 14^0
+\]
+where \( C = 12_{10} \) and \( A = 10_{10} \).
+
+\[
+= 12 \times 14^3 + 10 \times 14^2 + 1 \times 14 + 0
+\]
+
+Substitute:
+\[
+= 12 \times 2744 + 10 \times 196 + 14
+\]
+\[
+= 32928 + 1960 + 14
+\]
+\[
+= 34902_{10}
+\]
+
+### Addition in base 10:
+\[
+16417_{10} + 34902_{10} = 51319_{10}
+\]
+
+### Conversion of 51319_{10} to base 14:
+Repeatedly divide by 14 and note the remainders:
+
+\[
+51319 \div 14 = 3665 \quad \text{remainder } 9
+\]
+\[
+3665 \div 14 = 261 \quad \text{remainder } 1
+\]
+\[
+261 \div 14 = 18 \quad \text{remainder } 9
+\]
+\[
+18 \div 14 = 1 \quad \text{remainder } 4
+\]
+\[
+1 \div 14 = 0 \quad \text{remainder } 1
+\]
+
+Reading the remainders from bottom to top, we get:
+\[
+51319_{10} = 14919_{14}
+\]
+
+### Summary:
+\[
+5DA9_{14} + CA10_{14} = 14919_{14} \quad \text{(5DA9}_{14)_{14} + (CA10}_{14)_{14} = (14919}_{14)
+\]

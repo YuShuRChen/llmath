@@ -1,0 +1,125 @@
+To compute the sum \(21111120_4 + 3133223_4\), we'll first convert each number from base 4 to base 10, perform the addition in base 10, and then convert the result back to base 4.
+
+### Step 1: Converting \(21111120_4\) to base 10
+The base 4 number \(21111120_4\) can be expanded as follows:
+\[
+2 \cdot 4^7 + 1 \cdot 4^6 + 1 \cdot 4^5 + 1 \cdot 4^4 + 1 \cdot 4^3 + 1 \cdot 4^2 + 2 \cdot 4^1 + 0 \cdot 4^0
+\]
+
+Calculating each term:
+\[
+2 \cdot 4^7 = 2 \cdot 16384 = 32768
+\]
+\[
+1 \cdot 4^6 = 1 \cdot 4096 = 4096
+\]
+\[
+1 \cdot 4^5 = 1 \cdot 1024 = 1024
+\]
+\[
+1 \cdot 4^4 = 1 \cdot 256 = 256
+\]
+\[
+1 \cdot 4^3 = 1 \cdot 64 = 64
+\]
+\[
+1 \cdot 4^2 = 1 \cdot 16 = 16
+\]
+\[
+2 \cdot 4^1 = 2 \cdot 4 = 8
+\]
+\[
+0 \cdot 4^0 = 0 \cdot 1 = 0
+\]
+
+Summing them:
+\[
+32768 + 4096 + 1024 + 256 + 64 + 16 + 8 = 38232
+\]
+
+So, \(21111120_4 = 38232_{10}\).
+
+### Step 2: Converting \(3133223_4\) to base 10
+The base 4 number \(3133223_4\) can be expanded as follows:
+\[
+3 \cdot 4^6 + 1 \cdot 4^5 + 3 \cdot 4^4 + 3 \cdot 4^3 + 2 \cdot 4^2 + 2 \cdot 4^1 + 3 \cdot 4^0
+\]
+
+Calculating each term:
+\[
+3 \cdot 4^6 = 3 \cdot 4096 = 12288
+\]
+\[
+1 \cdot 4^5 = 1 \cdot 1024 = 1024
+\]
+\[
+3 \cdot 4^4 = 3 \cdot 256 = 768
+\]
+\[
+3 \cdot 4^3 = 3 \cdot 64 = 192
+\]
+\[
+2 \cdot 4^2 = 2 \cdot 16 = 32
+\]
+\[
+2 \cdot 4^1 = 2 \cdot 4 = 8
+\]
+\[
+3 \cdot 4^0 = 3 \cdot 1 = 3
+\]
+
+Summing them:
+\[
+12288 + 1024 + 768 + 192 + 32 + 8 + 3 = 15315
+\]
+
+So, \(3133223_4 = 15315_{10}\).
+
+### Step 3: Adding the base 10 equivalents
+\[
+38232_{10} + 15315_{10} = 53547_{10}
+\]
+
+### Step 4: Converting \(53547_{10}\) to base 4
+To convert from base 10 to base 4, we repeatedly divide by 4 and keep track of the remainders.
+
+\[
+53547 \div 4 = 13386 \text{ remainder } 3
+\]
+\[
+13386 \div 4 = 3346 \text{ remainder } 2
+\]
+\[
+3346 \div 4 = 836 \text{ remainder } 2
+\]
+\[
+836 \div 4 = 209 \text{ remainder } 0
+\]
+\[
+209 \div 4 = 52 \text{ remainder } 1
+\]
+\[
+52 \div 4 = 13 \text{ remainder } 0
+\]
+\[
+13 \div 4 = 3 \text{ remainder } 1
+\]
+\[
+3 \div 4 = 0 \text{ remainder } 3
+\]
+
+Reading the remainders from bottom to top, we get \(31022123_4\).
+
+### Final Answer
+\[
+21111120_4 + 3133223_4 = 31022123_4
+\]
+
+In summary:
+\[
+21111120_4 + 3133223_4 \rightarrow 38232_{10} + 15315_{10} = 53547_{10} \rightarrow 31022123_4
+\]
+Thus:
+\[
+21111120_4 + 3133223_4 = 31022123_4
+\]

@@ -1,0 +1,30 @@
+To solve this, we'll first convert the hexadecimal numbers to their decimal (base-10) equivalents, then add them, and finally convert the result back to hexadecimal.
+
+1. Convert \(4021_{16}\) to decimal:
+   - \(4021_{16} = 4 \times 16^3 + 0 \times 16^2 + 2 \times 16^1 + 1 \times 16^0\)
+   - \( = 4 \times 4096 + 0 \times 256 + 2 \times 16 + 1 \times 1\)
+   - \( = 16384 + 0 + 32 + 1\)
+   - \( = 16417_{10}\)
+
+2. Convert \(8856_{16}\) to decimal:
+   - \(8856_{16} = 8 \times 16^3 + 8 \times 16^2 + 5 \times 16^1 + 6 \times 16^0\)
+   - \( = 8 \times 4096 + 8 \times 256 + 5 \times 16 + 6 \times 1\)
+   - \( = 32768 + 2048 + 80 + 6\)
+   - \( = 34902_{10}\)
+
+3. Add the decimal equivalents:
+   - \(16417_{10} + 34902_{10} = 51319_{10}\)
+
+4. Convert \(51319_{10}\) back to hexadecimal:
+   - Divide 51319 by 16: \(51319 \div 16 = 3207\) remainder \(7\)
+   - Divide 3207 by 16: \(3207 \div 16 = 200\) remainder \(7\)
+   - Divide 200 by 16: \(200 \div 16 = 12\) remainder \(8\)
+   - Divide 12 by 16: \(12\) remainder \(C\) (since 12 in hexadecimal is \(C\))
+
+Combining the remainders from bottom to top, the hexadecimal equivalent is \(C877_{16}\).
+
+Thus:
+\(4021_{16} + 8856_{16} = 16417_{10} + 34902_{10} = 51319_{10} = C877_{16}\)
+
+Final Result:
+\(4021_{16} + 8856_{16} = 16417_{10} + 34902_{10} = 51319_{10} = C877_{16}\)

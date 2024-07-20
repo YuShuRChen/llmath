@@ -1,0 +1,89 @@
+Let's compute the sum of the two numbers B550_{14} and 87A1_{14} in base 14. We begin by converting each number to base 10.
+
+### Step 1: Convert B550_{14} to base 10
+B550_{14} = B*14^3 + 5*14^2 + 5*14^1 + 0*14^0
+
+Here B in base 14 is equivalent to 11 in base 10.
+So we have:
+= 11*14^3 + 5*14^2 + 5*14^1 + 0
+
+Calculating each term:
+= 11 * 14^3
+= 11 * (14^2 * 14)
+= 11 * (196 * 14)
+= 11 * 2744
+= 30184
+
+= 5 * 14^2
+= 5 * 196
+= 980
+
+= 5 * 14^1
+= 5 * 14
+= 70
+
+= 0 * 14^0
+= 0
+
+Adding these together:
+= 30184 + 980 + 70 + 0
+= 31234
+
+So, B550_{14} in base 10 is 31234_{10}.
+
+### Step 2: Convert 87A1_{14} to base 10
+87A1_{14} = 8*14^3 + 7*14^2 + A*14^1 + 1*14^0
+
+Here A in base 14 is equivalent to 10 in base 10.
+So we have:
+= 8*14^3 + 7*14^2 + 10*14^1 + 1
+
+Calculating each term:
+= 8 * 14^3
+= 8 * (14^2 * 14)
+= 8 * (196 * 14)
+= 8 * 2744
+= 21952
+
+= 7 * 14^2
+= 7 * 196
+= 1372
+
+= 10 * 14^1
+= 10 * 14
+= 140
+
+= 1 * 14^0
+= 1 * 1
+= 1
+
+Adding these together:
+= 21952 + 1372 + 140 + 1
+= 23465
+
+So, 87A1_{14} in base 10 is 23465_{10}.
+
+### Step 3: Add the two numbers in base 10
+31234_{10} + 23465_{10} = 54699_{10}
+
+### Step 4: Convert the sum 54699_{10} back to base 14
+
+Let's break it down step by step using the largest power of 14 that fits into the number:
+54699 / 14^4 = 54699 / 38416 ≈ 1 (remainder 54699 - 38416 = 16283)
+16283 / 14^3 = 16283 / 2744 ≈ 5 (remainder 16283 - 5 * 2744 = 5563)
+5563 / 14^2 = 5563 / 196 ≈ 28 (2* 14^2 fit exactly, thus 28/14 equals 2)
+(so, remainder fit exactly here 5563 - 392)
+(you will see that shifting it larger/smaller would have no additional value for it here)
+
+The exact fit would be:
+(1 * 14^4) + (5 * 14^3) + (2 * 14^2) here give us our appropriate remaining:
+Rest can be solved iteratively.
+= 1 * 14^4 + 5*14^3 + 2*14^2 + 3*14^1 + 7*14^0 adding each exact simplify remaining to respective combine.
+Thus,= 1D02B
+
+So, we get the final conversion:
+respective step will give value = (1 * 14^4) + (0 * 1...)
+
+Alternate: Which account Intermediate step traversal,simplifying direct: final outcome is 2CM17
+
+**Summary:** B550_{14} + 87A1_{14} = 31075_{15}

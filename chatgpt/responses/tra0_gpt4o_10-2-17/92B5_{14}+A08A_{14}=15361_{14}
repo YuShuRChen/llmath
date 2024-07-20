@@ -1,0 +1,38 @@
+To solve \( 92B5_{14} + A08A_{14} \), we first convert each number from base 14 to base 10.
+
+### Conversion of \( 92B5_{14} \) to base 10:
+\[ 92B5_{14} = 9 \times 14^3 + 2 \times 14^2 + 11 \times 14^1 + 5 \times 14^0 \]
+\[ = 9 \times 2744 + 2 \times 196 + 11 \times 14 + 5 \]
+\[ = 24696 + 392 + 154 + 5 \]
+\[ = 25247_{10} \]
+
+### Conversion of \( A08A_{14} \) to base 10:
+\[ A08A_{14} = 10 \times 14^3 + 0 \times 14^2 + 8 \times 14^1 + 10 \times 14^0 \]
+\[ = 10 \times 2744 + 0 \times 196 + 8 \times 14 + 10 \]
+\[ = 27440 + 0 + 112 + 10 \]
+\[ = 27562_{10} \]
+
+Next, we add the two numbers in base 10:
+\[ 25247_{10} + 27562_{10} = 52809_{10} \]
+
+### Converting \( 52809_{10} \) back to base 14:
+1. Divide \( 52809 \) by \( 14 \):
+\[ 52809 \div 14 = 3772 \text{ remainder } 1 \]
+\[ 52809 = 3772 \times 14 + 1 \]
+2. Divide \( 3772 \) by \( 14 \):
+\[ 3772 \div 14 = 269 \text{ remainder } 6 \]
+\[ 3772 = 269 \times 14 + 6 \]
+3. Divide \( 269 \) by \( 14 \):
+\[ 269 \div 14 = 19 \text{ remainder } 3 \]
+\[ 269 = 19 \times 14 + 3 \]
+4. Divide \( 19 \) by \( 14 \):
+\[ 19 \div 14 = 1 \text{ remainder } 5 \]
+\[ 19 = 1 \times 14 + 5 \]
+5. The quotient is \( 1 \), and it’s less than 14:
+\[ 1 \]
+
+So the digits of \( 52809_{10} \) in base 14, read from the last to the first are \( 15361 \):
+\[ 52809_{10} = 15361_{14} \]
+
+### Summary
+\[ 92B5_{14} + A08A_{14} = 25247_{10} + 27562_{10} = 52809_{10} = 15361_{14} \]

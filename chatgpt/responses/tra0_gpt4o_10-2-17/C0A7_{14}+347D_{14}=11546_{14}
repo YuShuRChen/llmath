@@ -1,0 +1,102 @@
+To solve the addition of C0A7_{14} and 347D_{14}, follow these steps:
+
+1. Convert each number from base 14 to base 10.
+
+For C0A7_{14}:
+\[
+C \text{ in base 14} = 12 \text{ in base 10}
+\]
+\[
+0 \text{ in base 14} = 0 \text{ in base 10}
+\]
+\[
+A \text{ in base 14} = 10 \text{ in base 10}
+\]
+\[
+7 \text{ in base 14} = 7 \text{ in base 10}
+\]
+
+Convert C0A7_{14} to base 10:
+\[
+C0A7_{14} = 12 \cdot 14^3 + 0 \cdot 14^2 + 10 \cdot 14^1 + 7 \cdot 14^0
+\]
+\[
+= 12 \cdot 2744 + 0 \cdot 196 + 10 \cdot 14 + 7
+\]
+\[
+= 32928 + 0 + 140 + 7
+\]
+\[
+= 33075_{10}
+\]
+
+For 347D_{14}:
+\[
+3 \text{ in base 14} = 3 \text{ in base 10}
+\]
+\[
+4 \text{ in base 14} = 4 \text{ in base 10}
+\]
+\[
+7 \text{ in base 14} = 7 \text{ in base 10}
+\]
+\[
+D \text{ in base 14} = 13 \text{ in base 10}
+\]
+
+Convert 347D_{14} to base 10:
+\[
+347D_{14} = 3 \cdot 14^3 + 4 \cdot 14^2 + 7 \cdot 14^1 + 13 \cdot 14^0
+\]
+\[
+= 3 \cdot 2744 + 4 \cdot 196 + 7 \cdot 14 + 13
+\]
+\[
+= 8232 + 784 + 98 + 13
+\]
+\[
+= 9127_{10}
+\]
+
+2. Add the results in base 10.
+\[
+33075_{10} + 9127_{10} = 42202_{10}
+\]
+
+3. Convert the result back to base 14.
+
+To convert 42202_{10} to base 14, we divide by 14 and find the remainders:
+
+\[
+42202 \div 14 = 3014 \quad \text{remainder} \quad 2
+\]
+\[
+3014 \div 14 = 215 \quad \text{remainder} \quad 4
+\]
+\[
+215 \div 14 = 15 \quad \text{remainder} \quad 5
+\]
+\[
+15 \div 14 = 1 \quad \text{remainder} \quad 1
+\]
+\[
+1 \div 14 = 0 \quad \text{remainder} \quad 1
+\]
+
+Reading the remainders from top to bottom, 42202_{10} in base 14 is:
+\[
+11542_{14}
+\]
+
+So, the final answer is:
+\[
+C0A7_{14} + 347D_{14} = 11542_{14}
+\]
+
+Summary:
+\[
+C0A7_{14} = 33075_{10}, \quad 347D_{14} = 9127_{10}, \quad 33075_{10} + 9127_{10} = 42202_{10}, \quad 42202_{10} = 11542_{14}
+\]
+\[
+C0A7_{14} + 347D_{14} = 11542_{14}
+\]

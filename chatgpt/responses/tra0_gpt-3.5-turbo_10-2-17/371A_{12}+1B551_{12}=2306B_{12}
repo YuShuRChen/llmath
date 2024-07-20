@@ -1,0 +1,14 @@
+First, we need to convert both numbers to base 10 to perform the addition:
+
+371A_{12} = 3*12^3 + 7*12^2 + 1*12^1 + 10*12^0 = 5182_{10}
+1B551_{12} = 1*12^4 + 11*12^3 + 5*12^2 + 5*12^1 + 1*12^0 = 19321_{10}
+
+Now, we can add these two numbers in base 10:
+
+5182_{10} + 19321_{10} = 24503_{10}
+
+Finally, we convert the result back to base 12:
+
+24503_{10} = 1431B_{12}
+
+Therefore, 371A_{12} + 1B551_{12} = 1431B_{12}.

@@ -1,0 +1,58 @@
+To solve the equation \( 9DDB_{15} + 9680_{15} \), we first need to convert the numbers from base 15 to base 10.
+
+### Step 1: Convert \( 9DDB_{15} \) to base 10
+The base 15 number \( 9DDB_{15} \) can be expanded as:
+\[ 9 \cdot 15^3 + 13 \cdot 15^2 + 13 \cdot 15^1 + 11 \cdot 15^0 \]
+
+Calculating each term:
+\[ 9 \cdot 15^3 = 9 \cdot 3375 = 30375 \]
+\[ 13 \cdot 15^2 = 13 \cdot 225 = 2925 \]
+\[ 13 \cdot 15^1 = 13 \cdot 15 = 195 \]
+\[ 11 \cdot 15^0 = 11 \]
+
+Summing these values:
+\[ 30375 + 2925 + 195 + 11 = 33506 \]
+
+So, \( 9DDB_{15} = 33506_{10} \).
+
+### Step 2: Convert \( 9680_{15} \) to base 10
+The base 15 number \( 9680_{15} \) can be expanded as:
+\[ 9 \cdot 15^3 + 6 \cdot 15^2 + 8 \cdot 15^1 + 0 \cdot 15^0 \]
+
+Calculating each term:
+\[ 9 \cdot 15^3 = 9 \cdot 3375 = 30375 \]
+\[ 6 \cdot 15^2 = 6 \cdot 225 = 1350 \]
+\[ 8 \cdot 15^1 = 8 \cdot 15 = 120 \]
+\[ 0 \cdot 15^0 = 0 \]
+
+Summing these values:
+\[ 30375 + 1350 + 120 + 0 = 31845 \]
+
+So, \( 9680_{15} = 31845_{10} \).
+
+### Step 3: Add the two base 10 numbers
+Adding the converted numbers from base 10:
+\[ 33506 + 31845 = 65351 \]
+
+### Step 4: Convert the sum back to base 15
+To convert \( 65351_{10} \) to base 15:
+
+1. Divide \( 65351 \) by \( 15 \):
+   \[ 65351 \div 15 = 4356 \text{ R } 11 \quad (\text{R means remainder}) \]
+
+2. Divide \( 4356 \) by \( 15 \):
+   \[ 4356 \div 15 = 290 \text{ R } 6 \]
+
+3. Divide \( 290 \) by \( 15 \):
+   \[ 290 \div 15 = 19 \text{ R } 5 \]
+
+4. Divide \( 19 \) by \( 15 \):
+   \[ 19 \div 15 = 1 \text{ R } 4 \]
+
+5. Finally, \( 1 \div 15 = 0 \text{ R } 1 \)
+
+Gathering these remainders (from bottom to top), the base 15 representation of \( 65351 \) is:
+\[ 1465B_{15} \]
+
+### Summary:
+\[ 9DDB_{15} + 9680_{15} = 33506_{10} + 31845_{10} = 65351_{10} = 1465B_{15} \]

@@ -1,0 +1,11 @@
+To compute \(3567_9 + 25243_9\), we can simply add the numbers in base 9 just like in base 10.
+
+\[
+\begin{array}{r}
+\phantom{00}3567_9 \\
++\phantom{00}25243_9 \\ \hline
+\phantom{0}28810_9
+\end{array}
+\]
+
+Therefore, \(3567_{9}+25243_{9} = 28810_{9}\).

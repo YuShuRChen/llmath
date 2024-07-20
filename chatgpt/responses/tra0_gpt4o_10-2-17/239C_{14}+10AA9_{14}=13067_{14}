@@ -1,0 +1,102 @@
+To solve the equation \(239C_{14} + 10AA9_{14}\), we first need to convert each number from base \(14\) to base \(10\).
+
+1. Convert \(239C_{14}\) to base \(10\):
+
+\[239C_{14} = 2 \cdot 14^3 + 3 \cdot 14^2 + 9 \cdot 14^1 + 12 \cdot 14^0\]
+
+Let's compute each term:
+
+\[
+2 \cdot 14^3 = 2 \cdot 2744 = 5488
+\]
+
+\[
+3 \cdot 14^2 = 3 \cdot 196 = 588
+\]
+
+\[
+9 \cdot 14^1 = 9 \cdot 14 = 126
+\]
+
+\[
+12 \cdot 14^0 = 12 \cdot 1 = 12
+\]
+
+Sum these values:
+
+\[
+5488 + 588 + 126 + 12 = 6214
+\]
+
+So, \(239C_{14} = 6214_{10}\).
+
+2. Convert \(10AA9_{14}\) to base \(10\):
+
+\[10AA9_{14} = 1 \cdot 14^4 + 0 \cdot 14^3 + 10 \cdot 14^2 + 10 \cdot 14^1 + 9 \cdot 14^0\]
+
+Let's compute each term:
+
+\[
+1 \cdot 14^4 = 1 \cdot 38416 = 38416
+\]
+
+\[
+0 \cdot 14^3 = 0
+\]
+
+\[
+10 \cdot 14^2 = 10 \cdot 196 = 1960
+\]
+
+\[
+10 \cdot 14^1 = 10 \cdot 14 = 140
+\]
+
+\[
+9 \cdot 14^0 = 9 \cdot 1 = 9
+\]
+
+Sum these values:
+
+\[
+38416 + 0 + 1960 + 140 + 9 = 40525
+\]
+
+So, \(10AA9_{14} = 40525_{10}\).
+
+3. Now add the two base \(10\) results:
+
+\[
+6214 + 40525 = 46739
+\]
+
+4. Convert \(46739_{10}\) back to base \(14\):
+
+To find the digits in base \(14\), follow these steps:
+
+\[
+46739 \div 14 = 3338 \quad \text{remainder: } 7
+\]
+\[
+3338 \div 14 = 238 \quad \text{remainder: } 6
+\]
+\[
+238 \div 14 = 17 \quad \text{remainder: } 0
+\]
+\[
+17 \div 14 = 1 \quad \text{remainder: } 3
+\]
+\[
+1 \div 14 = 0 \quad \text{remainder: } 1
+\]
+
+Reading the remainders from bottom to top, we get:
+
+\(13067_{14}\).
+
+So, the final answer is \(\boxed{13067_{14}}\).
+
+Summary:
+\[
+239C_{14} + 10AA9_{14} =  5488_{10} + 588_{10} + 126_{10} + 12_{10} + 38416_{10} + 0_{10} + 1960_{10} + 140_{10} + 9_{10} = 46739_{10} = 13067_{14}
+\]

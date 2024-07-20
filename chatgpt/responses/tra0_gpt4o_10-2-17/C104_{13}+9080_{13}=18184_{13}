@@ -1,0 +1,44 @@
+To solve the addition of \( \text{C104}_{13} + \text{9080}_{13} \), we need to convert each number from base 13 to base 10, perform the addition in base 10, and then convert the result back to base 13.
+
+1. Convert \( \text{C104}_{13} \) to base 10:
+   - The digits C, 1, 0, 4 in base 13 converts to base 10 as follows:
+     - C in base 13 is 12 in base 10.
+     - 1 in base 13 is 1 in base 10.
+     - 0 in base 13 is 0 in base 10.
+     - 4 in base 13 is 4 in base 10.
+   - Thus, 
+     \[ \text{C104}_{13} = 12 \cdot 13^3 + 1 \cdot 13^2 + 0 \cdot 13^1 + 4 \cdot 13^0 \]
+     \[ = 12 \cdot 2197 + 1 \cdot 169 + 0 \cdot 13 + 4 \cdot 1 \]
+     \[ = 26364 + 169 + 0 + 4 \]
+     \[ = 26537 \]
+
+2. Convert \( \text{9080}_{13} \) to base 10:
+   - The digits 9, 0, 8, 0 in base 13 converts to base 10 as follows:
+     - 9 in base 13 is 9 in base 10.
+     - 0 in base 13 is 0 in base 10.
+     - 8 in base 13 is 8 in base 10.
+     - 0 in base 13 is 0 in base 10.
+   - Thus,
+     \[ \text{9080}_{13} = 9 \cdot 13^3 + 0 \cdot 13^2 + 8 \cdot 13^1 + 0 \cdot 13^0 \]
+     \[ = 9 \cdot 2197 + 0 \cdot 169 + 8 \cdot 13 + 0 \cdot 1 \]
+     \[ = 19773 + 0 + 104 + 0 \]
+     \[ = 19877 \]
+
+3. Perform the addition in base 10:
+   \[ 26537 + 19877 = 46414 \]
+
+4. Convert the result \( 46414 \) from base 10 back to base 13.
+   - We perform successive division by 13 and note the remainders.
+   - \( 46414 \div 13 = 3570 \) remainder \( 4 \) (least significant digit)
+   - \( 3570 \div 13 = 274 \) remainder \( 2 \)
+   - \( 274 \div 13 = 21 \) remainder \( 1 \)
+   - \( 21 \div 13 = 1 \) remainder \( 8 \)
+   - \( 1 \div 13 = 0 \) remainder \( 1 \) (most significant digit)
+
+   - Combining these remainders from most significant to least significant, the base 13 representation is \( \text{18124}_{13} \).
+
+Thus, \( \text{C104}_{13} + \text{9080}_{13} = \text{18124}_{13} \).
+
+\[
+\boxed{\text{C104}_{13} + \text{9080}_{13} = \text{C104}_{13}[26537_{10}] + \text{9080}_{13}[19877_{10}] = 46414_{10} = \text{18124}_{13}}
+\]

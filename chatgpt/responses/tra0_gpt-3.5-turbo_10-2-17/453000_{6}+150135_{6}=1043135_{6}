@@ -1,0 +1,11 @@
+To solve this addition problem, we will add the numbers in base 6:
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c}
+& & & \text{4} & \text{5} & \text{3} & \text{0} & \text{0} & \text{0}_6 \\
+& & + & \text{1} & \text{5} & \text{0} & \text{1} & \text{3} & \text{5}_6 \\ \cline{2-9}
+& & & \text{5} & \text{0} & \text{3} & \text{1} & \text{3} & \text{5}_6 \\
+\end{array}
+\]
+
+Therefore, $453000_{6} + 150135_{6} = 503135_{6}$.
