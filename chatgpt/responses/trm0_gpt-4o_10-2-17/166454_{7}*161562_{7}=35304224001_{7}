@@ -1,0 +1,117 @@
+To solve the multiplication of two base-7 numbers, we first convert them to base-10, perform the multiplication, and then convert the result back to base-7.
+
+First, let's convert \(166454_7\) to base-10:
+The number \(166454_7\) can be expanded as:
+\[ 1 \cdot 7^5 + 6 \cdot 7^4 + 6 \cdot 7^3 + 4 \cdot 7^2 + 5 \cdot 7^1 + 4 \cdot 7^0. \]
+
+Calculate each term:
+\[
+1 \cdot 7^5 = 1 \cdot 16807 = 16807
+\]
+\[
+6 \cdot 7^4 = 6 \cdot 2401 = 14406
+\]
+\[
+6 \cdot 7^3 = 6 \cdot 343 = 2058
+\]
+\[
+4 \cdot 7^2 = 4 \cdot 49 = 196
+\]
+\[
+5 \cdot 7^1 = 5 \cdot 7 = 35
+\]
+\[
+4 \cdot 7^0 = 4 \cdot 1 = 4
+\]
+
+Sum these values:
+\[
+16807 + 14406 + 2058 + 196 + 35 + 4 = 33506
+\]
+
+Next, let's convert \(161562_7\) to base-10:
+The number \(161562_7\) can be expanded as:
+\[ 1 \cdot 7^5 + 6 \cdot 7^4 + 1 \cdot 7^3 + 5 \cdot 7^2 + 6 \cdot 7^1 + 2 \cdot 7^0. \]
+
+Calculate each term:
+\[
+1 \cdot 7^5 = 1 \cdot 16807 = 16807
+\]
+\[
+6 \cdot 7^4 = 6 \cdot 2401 = 14406
+\]
+\[
+1 \cdot 7^3 = 1 \cdot 343 = 343
+\]
+\[
+5 \cdot 7^2 = 5 \cdot 49 = 245
+\]
+\[
+6 \cdot 7^1 = 6 \cdot 7 = 42
+\]
+\[
+2 \cdot 7^0 = 2 \cdot 1 = 2
+\]
+
+Sum these values:
+\[
+16807 + 14406 + 343 + 245 + 42 + 2 = 31845
+\]
+
+Now, multiply the two base-10 numbers:
+\[
+33506 \times 31845 = 1067731770
+\]
+
+Lastly, convert \(1067731770\) to base-7. We will repeatedly divide the number by 7 and track the remainders:
+
+\[
+1067731770 \div 7 = 152533110 \quad \text{remainder } 0
+\]
+\[
+152533110 \div 7 = 21790444 \quad \text{remainder } 2
+\]
+\[
+21790444 \div 7 = 3112920 \quad \text{remainder } 4
+\]
+\[
+3112920 \div 7 = 444703 \quad \text{remainder } 1
+\]
+\[
+444703 \div 7 = 63528 \quad \text{remainder } 7
+\]
+\[
+63528 \div 7 = 9075 \quad \text{remainder } 3
+\]
+\[
+9075 \div 7 = 1296 \quad \text{remainder } 3
+\]
+\[
+1296 \div 7 = 185 \quad \text{remainder } 1
+\]
+\[
+185 \div 7 = 26 \quad \text{remainder } 3
+\]
+\[
+26 \div 7 = 3 \quad \text{remainder } 5
+\]
+\[
+3 \div 7 = 0 \quad \text{remainder } 3
+\]
+
+Reading the remainders from bottom to top, we get the base-7 representation:
+\[
+1067731770_{10} = 35031327420_{7}
+\]
+
+Thus, the final result is:
+\[166454_{7} * 161562_{7} = 35031327420_{7} \]
+
+Original equation, intermediate steps, and final result:
+\[ 166454_7 \rightarrow 33506_{10} \]
+\[ 161562_7 \rightarrow 31845_{10} \]
+\[ 33506_{10} \times 31845_{10} = 1067731770_{10} \rightarrow 35031327420_{7} \]
+
+\[
+166454_{7} * 161562_{7} = 35031327420_{7}
+\]

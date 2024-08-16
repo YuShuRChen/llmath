@@ -1,0 +1,13 @@
+To compute this, we can first convert the hexadecimal numbers to decimal and then perform multiplication:
+
+$4826_{16} = 18,630_{10}$
+
+$23C6_{16} = 9,990_{10}$
+
+$18,630_{10} * 9,990_{10} = 186,093,930_{10}$
+
+Converting the result back to hexadecimal:
+
+$186,093,930_{10} = 1 1C9D 51A_{16}$
+
+Therefore, $4826_{16} * 23C6_{16} = 1 1C9D 51A_{16}$.

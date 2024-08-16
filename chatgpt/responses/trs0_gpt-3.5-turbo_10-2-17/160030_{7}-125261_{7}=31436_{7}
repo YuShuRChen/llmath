@@ -1,0 +1,14 @@
+To subtract these numbers, we need to perform the subtraction in base 7.
+
+First, we will line up the numbers and perform the subtraction:
+
+\[
+\begin{array}{r}
+\phantom{0}1\phantom{00030_{\ 7}}\\ 
+- 1\phantom{25261_{\ 7}}\\ 
+\hline
+\phantom{0}0\underline{3}\phantom{775_{\ 7}}
+\end{array}
+\]
+
+Therefore, \(160030_7 - 125261_7 = 30775_7\).

@@ -1,0 +1,93 @@
+Let's first convert the given base-5 numbers to base-10 numbers.
+
+1. **Convert 144324\(_{5}\) to base-10**
+
+\[
+144324_{5} = 1 \cdot 5^5 + 4 \cdot 5^4 + 4 \cdot 5^3 + 3 \cdot 5^2 + 2 \cdot 5^1 + 4 \cdot 5^0
+\]
+
+Calculate each term:
+
+\[
+1 \cdot 5^5 = 1 \cdot 3125 = 3125
+\]
+\[
+4 \cdot 5^4 = 4 \cdot 625 = 2500
+\]
+\[
+4 \cdot 5^3 = 4 \cdot 125 = 500
+\]
+\[
+3 \cdot 5^2 = 3 \cdot 25 = 75
+\]
+\[
+2 \cdot 5^1 = 2 \cdot 5 = 10
+\]
+\[
+4 \cdot 5^0 = 4 \cdot 1 = 4
+\]
+
+Sum these:
+
+\[
+3125 + 2500 + 500 + 75 + 10 + 4 = 6214
+\]
+
+So,
+
+\[
+144324_{5} = 6214_{10}
+\]
+
+2. **Convert 2244100\(_{5}\) to base-10**
+
+\[
+2244100_{5} = 2 \cdot 5^6 + 2 \cdot 5^5 + 4 \cdot 5^4 + 4 \cdot 5^3 + 1 \cdot 5^2 + 0 \cdot 5^1 + 0 \cdot 5^0
+\]
+
+Calculate each term:
+
+\[
+2 \cdot 5^6 = 2 \cdot 15625 = 31250
+\]
+\[
+2 \cdot 5^5 = 2 \cdot 3125 = 6250
+\]
+\[
+4 \cdot 5^4 = 4 \cdot 625 = 2500
+\]
+\[
+4 \cdot 5^3 = 4 \cdot 125 = 500
+\]
+\[
+1 \cdot 5^2 = 1 \cdot 25 = 25
+\]
+\[
+0 \cdot 5^1 = 0 \cdot 5 = 0
+\]
+\[
+0 \cdot 5^0 = 0 \cdot 1 = 0
+\]
+
+Sum these:
+
+\[
+31250 + 6250 + 2500 + 500 + 25 + 0 + 0 = 40525
+\]
+
+So,
+
+\[
+2244100_{5} = 40525_{10}
+\]
+
+3. **Subtract the two base-10 numbers:**
+
+\[
+6214_{10} - 40525_{10} = 6214 - 40525 = -34311
+\]
+
+Combining all steps and results in one line:
+\[
+144324_{5} - 2244100_{5} = 6214_{10} - 40525_{10} = -34311_{10}
+\]

@@ -1,0 +1,49 @@
+To solve the given problem \(40041_8 - 104126_8\), the first step is to convert both octal numbers to decimal (base 10), then perform the subtraction in decimal, and finally, if required, convert the result back to octal.
+
+### Step 1: Convert \(40041_8\) to decimal.
+
+To convert from octal to decimal, we can use the following formula:
+\[ \text{Decimal value} = \sum_{i=0}^{n-1} d_i \cdot 8^i \]
+where \( d_i \) are the digits of the octal number starting from the right (least significant digit), and \( i \) is the position index starting from 0.
+
+For \(40041_8\):
+
+\[ 40041_8 = 4 \cdot 8^4 + 0 \cdot 8^3 + 0 \cdot 8^2 + 4 \cdot 8^1 + 1 \cdot 8^0 \]
+
+Calculate each term:
+\[ 4 \cdot 8^4 = 4 \cdot 4096 = 16384 \]
+\[ 0 \cdot 8^3 = 0 \cdot 512 = 0 \]
+\[ 0 \cdot 8^2 = 0 \cdot 64 = 0 \]
+\[ 4 \cdot 8^1 = 4 \cdot 8 = 32 \]
+\[ 1 \cdot 8^0 = 1 \cdot 1 = 1 \]
+
+Sum these values:
+\[ 40041_8 = 16384 + 0 + 0 + 32 + 1 = 16417_{10} \]
+
+### Step 2: Convert \(104126_8\) to decimal.
+
+For \(104126_8\):
+
+\[ 104126_8 = 1 \cdot 8^5 + 0 \cdot 8^4 + 4 \cdot 8^3 + 1 \cdot 8^2 + 2 \cdot 8^1 + 6 \cdot 8^0 \]
+
+Calculate each term:
+\[ 1 \cdot 8^5 = 1 \cdot 32768 = 32768 \]
+\[ 0 \cdot 8^4 = 0 \cdot 4096 = 0 \]
+\[ 4 \cdot 8^3 = 4 \cdot 512 = 2048 \]
+\[ 1 \cdot 8^2 = 1 \cdot 64 = 64 \]
+\[ 2 \cdot 8^1 = 2 \cdot 8 = 16 \]
+\[ 6 \cdot 8^0 = 6 \cdot 1 = 6 \]
+
+Sum these values:
+\[ 104126_8 = 32768 + 0 + 2048 + 64 + 16 + 6 = 34902_{10} \]
+
+### Step 3: Perform the subtraction in decimal.
+
+\[ 16417_{10} - 34902_{10} = -18485_{10} \]
+
+### Step 4: Convert the result back to octal if required.
+
+We express the result in decimal as is since it's a negative value. 
+
+To summarize:
+\[ 40041_8 - 104126_8 = 16417_{10} - 34902_{10} = -18485_{10} \]

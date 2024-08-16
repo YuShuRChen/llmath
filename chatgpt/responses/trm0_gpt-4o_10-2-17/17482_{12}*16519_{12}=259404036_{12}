@@ -1,0 +1,73 @@
+Let's compute the product of \(17482_{12} \times 16519_{12}\).
+
+1. First, convert each number from base 12 to base 10.
+   
+For \(17482_{12}\):
+\[
+17482_{12} = 1 \cdot 12^4 + 7 \cdot 12^3 + 4 \cdot 12^2 + 8 \cdot 12^1 + 2 \cdot 12^0
+           = 1 \cdot 20736 + 7 \cdot 1728 + 4 \cdot 144 + 8 \cdot 12 + 2 \cdot 1
+           = 20736 + 12096 + 576 + 96 + 2
+           = 33506_{10}
+\]
+
+For \(16519_{12}\):
+\[
+16519_{12} = 1 \cdot 12^4 + 6 \cdot 12^3 + 5 \cdot 12^2 + 1 \cdot 12^1 + 9 \cdot 12^0
+           = 1 \cdot 20736 + 6 \cdot 1728 + 5 \cdot 144 + 1 \cdot 12 + 9 \cdot 1
+           = 20736 + 10368 + 720 + 12 + 9
+           = 31845_{10}
+\]
+
+2. Multiply the two numbers in base 10.
+\[
+33506_{10} \times 31845_{10} = 1067126070_{10}
+\]
+
+So the product in base 10 is \(1067126070_{10}\).
+
+3. Convert the result back to base 12.
+This step involves repeatedly dividing the number by 12 and recording the remainders.
+
+\[
+1067126070_{10} \div 12 = 88927172 \text{ R } 6
+\]
+\[
+88927172 \div 12 = 7410597 \text{ R } 8
+\]
+\[
+7410597 \div 12 = 617549 \text{ R } 9
+\]
+\[
+617549 \div 12 = 51462 \text{ R } 5
+\]
+\[
+51462 \div 12 = 4288 \text{ R } 6
+\]
+\[
+4288 \div 12 = 357 \text{ R } 4
+\]
+\[
+357 \div 12 = 29 \text{ R } 9
+\]
+\[
+29 \div 12 = 2 \text{ R } 5
+\]
+\[
+2 \div 12 = 0 \text{ R } 2
+\]
+
+Reading the remainders from bottom to top, the result is:
+\[
+1067126070_{10} = 259469586_{12}
+\]
+
+So:
+\[
+17482_{12} \times 16519_{12} = 259469586_{12}
+\]
+
+**Summary**:
+\[ 17482_{12} \times 16519_{12} = 1 \cdot 20736_{10} + 7 \cdot 1728_{10} + 4 \cdot 144_{10} + 2 \cdot 1_{10} = 33506_{10} \]
+\[ 16519_{12} = 1 \cdot 20736_{10} + 6 \cdot 1728_{10} + 5 \cdot 144_{10} + 1 \cdot 12_{10} + 9 \cdot 1_{10} = 31845_{10} \]
+\[ 33506_{10} \times 31845_{10} = 1067126070_{10} = 259469586_{12} \]
+\[ 259469586_{12} \]

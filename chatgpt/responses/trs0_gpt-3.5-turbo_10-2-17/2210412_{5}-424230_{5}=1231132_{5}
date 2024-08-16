@@ -1,0 +1,12 @@
+To subtract 424230 from 2210412 in base 5, we need to borrow from the leftmost digit:
+
+\[
+\begin{array}{}
+& & 2_5 & 2_5 & 1_5 & 0_5 & 4_5 & 1_5 & 2_5 \\
+- & & & 4_5 & 2_5 & 4_5 & 2_5 & 3_5 & 0_5 \\
+\hline
+& & 1_5 & 1_5 & 4_5 & 6_5 & 1_5 & 1_5 & 2_5 \\
+\end{array}
+\]
+
+Therefore, \(2210412_{5} - 424230_{5} = 1146112_{5}\).

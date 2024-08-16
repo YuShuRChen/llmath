@@ -1,0 +1,43 @@
+To compute \(1322122_5 \times 1114002_5\), start by converting the base-5 numbers to base-10.
+
+First, convert \(1322122_5\) to base-10:
+\[ 1322122_5 = 1 \cdot 5^6 + 3 \cdot 5^5 + 2 \cdot 5^4 + 2 \cdot 5^3 + 1 \cdot 5^2 + 2 \cdot 5^1 + 2 \cdot 5^0 \]
+
+Calculating each term:
+\[ 1 \cdot 5^6 = 1 \cdot 15625 = 15625 \]
+\[ 3 \cdot 5^5 = 3 \cdot 3125 = 9375 \]
+\[ 2 \cdot 5^4 = 2 \cdot 625 = 1250 \]
+\[ 2 \cdot 5^3 = 2 \cdot 125 = 250 \]
+\[ 1 \cdot 5^2 = 1 \cdot 25 = 25 \]
+\[ 2 \cdot 5^1 = 2 \cdot 5 = 10 \]
+\[ 2 \cdot 5^0 = 2 \]
+
+Adding these values together:
+\[ 15625 + 9375 + 1250 + 250 + 25 + 10 + 2 = 26537 \]
+
+So, \(1322122_5 = 26537_{10}\).
+
+Next, convert \(1114002_5\) to base-10:
+\[ 1114002_5 = 1 \cdot 5^6 + 1 \cdot 5^5 + 1 \cdot 5^4 + 4 \cdot 5^3 + 0 \cdot 5^2 + 0 \cdot 5^1 + 2 \cdot 5^0 \]
+
+Calculating each term:
+\[ 1 \cdot 5^6 = 1 \cdot 15625 = 15625 \]
+\[ 1 \cdot 5^5 = 1 \cdot 3125 = 3125 \]
+\[ 1 \cdot 5^4 = 1 \cdot 625 = 625 \]
+\[ 4 \cdot 5^3 = 4 \cdot 125 = 500 \]
+\[ 0 \cdot 5^2 = 0 \]
+\[ 0 \cdot 5^1 = 0 \]
+\[ 2 \cdot 5^0 = 2 \]
+
+Adding these values together:
+\[ 15625 + 3125 + 625 + 500 + 0 + 0 + 2 = 19877 \]
+
+So, \(1114002_5 = 19877_{10}\).
+
+Multiply the base-10 equivalents:
+\[ 26537 \times 19877 = 527592649 \]
+
+Thus, the result of \(1322122_5 \times 1114002_5\) is \(527592649_{10}\).
+
+Summarizing:
+\[ 1322122_5 \times 1114002_5 = 26537_{10} \times 19877_{10} = 527592649_{10} \]

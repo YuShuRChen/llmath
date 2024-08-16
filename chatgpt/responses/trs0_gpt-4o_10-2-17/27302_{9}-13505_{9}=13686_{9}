@@ -1,0 +1,48 @@
+To solve the subtraction of the numbers in base 9, it's advisable first to convert them to base 10.
+
+### Convert 27302_9 to base 10:
+\[ 27302_9 = 2 \cdot 9^4 + 7 \cdot 9^3 + 3 \cdot 9^2 + 0 \cdot 9^1 + 2 \cdot 9^0 \]
+
+Calculate each term:
+\[ 2 \cdot 9^4 = 2 \cdot 6561 = 13122 \]
+\[ 7 \cdot 9^3 = 7 \cdot 729 = 5103 \]
+\[ 3 \cdot 9^2 = 3 \cdot 81 = 243 \]
+\[ 0 \cdot 9^1 = 0 \]
+\[ 2 \cdot 9^0 = 2 \]
+
+Sum the results:
+\[ 13122 + 5103 + 243 + 0 + 2 = 18470_{10} \]
+
+### Convert 13505_9 to base 10:
+\[ 13505_9 = 1 \cdot 9^4 + 3 \cdot 9^3 + 5 \cdot 9^2 + 0 \cdot 9^1 + 5 \cdot 9^0 \]
+
+Calculate each term:
+\[ 1 \cdot 9^4 = 1 \cdot 6561 = 6561 \]
+\[ 3 \cdot 9^3 = 3 \cdot 729 = 2187 \]
+\[ 5 \cdot 9^2 = 5 \cdot 81 = 405 \]
+\[ 0 \cdot 9^1 = 0 \]
+\[ 5 \cdot 9^0 = 5 \]
+
+Sum the results:
+\[ 6561 + 2187 + 405 + 0 + 5 = 9158_{10} \]
+
+### Subtract the base 10 results:
+\[ 18470 - 9158 = 9312_{10} \]
+
+### Convert 9312_{10} back to base 9:
+To convert from base 10 to base 9, divide the number by 9 and keep track of remainders.
+
+\[ 9312 \div 9 = 1034 \quad \text{remainder} \ 6 \]
+\[ 1034 \div 9 = 114 \quad \text{remainder} \ 8 \]
+\[ 114 \div 9 = 12 \quad \text{remainder} \ 6 \]
+\[ 12 \div 9 = 1 \quad \text{remainder} \ 3 \]
+\[ 1 \div 9 = 0 \quad \text{remainder} \ 1 \]
+
+Reading the remainders from bottom to top:
+\[ 9312_{10} = 13686_{9} \]
+
+Summary:
+\[ 27302_{9} - 13505_{9} = 18470_{10} - 9158_{10} = 9312_{10} = 13686_{9} \]
+
+Final result:
+\[ 27302_{9} - 13505_{9} = 13686_{9} \]

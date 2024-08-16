@@ -1,0 +1,12 @@
+To subtract 2004340_{5} from 2033011_{5}, we need to align the two numbers properly and then perform borrowing as necessary.
+
+\[
+\begin{array}{}
+& & \text{2} & \text{0} & \text{3} & \text{3} & \text{0} & \text{1} & \text{1}_{5} \\
+- & & \text{2} & \text{0} & \text{0} & \text{4} & \text{3} & \text{4} & \text{0}_{5} \\
+\hline
+& & \text{0} & \text{0} & \text{2} & \text{8} & \text{6} & \text{4} & \text{1}_{5} \\
+\end{array}
+\]
+
+Therefore, \(2033011_{5} - 2004340_{5} = 0028641_{5}\).

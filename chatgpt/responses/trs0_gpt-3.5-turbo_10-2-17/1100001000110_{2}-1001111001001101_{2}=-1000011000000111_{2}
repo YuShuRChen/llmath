@@ -1,0 +1,13 @@
+To subtract binary numbers, align them and perform subtraction as in decimal form:
+
+\[
+\begin{array}{r}
+& 1100001000110_2 \\
+- & 1001111001001101_2 \\
+\hline
+\end{array}
+\]
+
+1 - 1 = 0 (borrow 1), 1 - 0 = 1, 1 - 1 = 0, 0 - 0 = 0, 0 - 1 = 1 (borrow 1), 0 - 0 = 0, 1 - 0 = 1, 0 - 0 = 0, 1 - 1 = 0, 0 - 1 = 1, 0 - 1 = 1, 1 - 0 = 1, 1 - 1 = 0
+
+Therefore, \( 1100001000110_{2} - 1001111001001101_{2} = 111100111110101_2 \).

@@ -1,0 +1,19 @@
+To compute \(101342_8 * 76145_8\), we need to multiply these two numbers in base 8.
+
+\[
+\begin{array}{c}
+\underline{\phantom{0}101342_{8}} \\
+\underline{\times \phantom{0}76145_{8}} \\
+\end{array}
+\]
+
+\[
+\begin{array}{r}
+\phantom{00}405632_{8} \\
++\phantom{0}8125640_{8} \\
+\underline{506065_{8}} \\
+73640014_{8} \\
+\end{array}
+\]
+
+Therefore, \(101342_{8} * 76145_{8} = 73640014_{8}\).

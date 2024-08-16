@@ -1,0 +1,69 @@
+To solve 221131_4 - 10021020_4, we first need to convert both numbers from base 4 to base 10, then perform the subtraction, and finally convert the result back to base 4.
+
+### Step 1: Convert 221131_4 to base 10
+The base 4 number 221131_4 can be converted to base 10 using:
+\[ 2 \cdot 4^5 + 2 \cdot 4^4 + 1 \cdot 4^3 + 1 \cdot 4^2 + 3 \cdot 4^1 + 1 \cdot 4^0 \]
+
+Calculations:
+\[ 2 \cdot 1024 = 2048 \]
+\[ 2 \cdot 256 = 512 \]
+\[ 1 \cdot 64 = 64 \]
+\[ 1 \cdot 16 = 16 \]
+\[ 3 \cdot 4 = 12 \]
+\[ 1 \cdot 1 = 1 \]
+
+Adding them up:
+\[ 2048 + 512 + 64 + 16 + 12 + 1 = 2653 \]
+
+So, \( 221131_4 = 2653_{10} \).
+
+### Step 2: Convert 10021020_4 to base 10
+The base 4 number 10021020_4 can be converted to base 10 using:
+\[ 1 \cdot 4^7 + 0 \cdot 4^6 + 0 \cdot 4^5 + 2 \cdot 4^4 + 1 \cdot 4^3 + 0 \cdot 4^2 + 2 \cdot 4^1 + 0 \cdot 4^0 \]
+
+Calculations:
+\[ 1 \cdot 16384 = 16384 \]
+\[ 0 \cdot 4096 = 0 \]
+\[ 0 \cdot 1024 = 0 \]
+\[ 2 \cdot 256 = 512 \]
+\[ 1 \cdot 64 = 64 \]
+\[ 0 \cdot 16 = 0 \]
+\[ 2 \cdot 4 = 8 \]
+\[ 0 \cdot 1 = 0 \]
+
+Adding them up:
+\[ 16384 + 0 + 0 + 512 + 64 + 0 + 8 + 0 = 16968 \]
+
+So, \( 10021020_4 = 16968_{10} \).
+
+### Step 3: Perform the subtraction in base 10
+\[ 2653_{10} - 16968_{10} = -14315_{10} \]
+
+### Step 4: Convert -14315_{10} to base 4
+To convert a negative number to another base directly is more complex and is not typically done straightforwardly. Generally, conversion applies to positive numbers. However, since we have reached -14315 and need a typical four base conversion answer, we recognize:
+We still represent the negative result base 10 result as a converted value for understanding:
+\[ -(-14315_{10})= 14315_{10} \]
+
+#### Convert 14315_{10} to base 4
+Perform repeated division by 4 and note the remainders:
+Divide: 
+\[ 14315 \div 4 = 3578 R3 \]
+\[ 3578 \div 4 = 894 R2 \]
+\[ 894 \div 4 = 223 R2 \]
+\[ 223 \div 4 = 55 R3 \]
+\[ 55 \div 4 = 13 R3 \]
+\[ 13 \div 4 = 3 R1 \]
+\[ 3 \div 4 = 0 R3 \]
+
+So,
+
+\[ 14315_{10} becomes  3132232_{4} \]
+
+Thus the negative output is still retained as:
+\[ -14315_{10}=  -3132232_{4} \]
+
+Therefore:
+\[ 221131_4 - 10021020_4 =  -3132232_4 \]
+
+The original equation, intermediate steps, and the final result in one summary:
+\[ 221131_{4} - 10021020_{4} = 2653_{10} - 16968_{10} = -14315_{10} = -3132232_{4} \]

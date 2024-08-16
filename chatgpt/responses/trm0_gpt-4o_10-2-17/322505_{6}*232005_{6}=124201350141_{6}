@@ -1,0 +1,69 @@
+To compute \(322505_{6} \times 232005_{6}\), we will first convert these base-6 numbers to base-10, perform the multiplication in base-10, and then convert the result back to base-6.
+
+### Step 1: Convert \(322505_{6}\) to base-10
+
+The base-6 number \(322505_{6}\) can be converted to base-10 as follows:
+\[ 322505_{6} = 3 \cdot 6^5 + 2 \cdot 6^4 + 2 \cdot 6^3 + 5 \cdot 6^2 + 0 \cdot 6^1 + 5 \cdot 6^0 \]
+
+Calculating each term:
+\[ 3 \cdot 6^5 = 3 \cdot 7776 = 23328 \]
+\[ 2 \cdot 6^4 = 2 \cdot 1296 = 2592 \]
+\[ 2 \cdot 6^3 = 2 \cdot 216 = 432 \]
+\[ 5 \cdot 6^2 = 5 \cdot 36 = 180 \]
+\[ 0 \cdot 6^1 = 0 \]
+\[ 5 \cdot 6^0 = 5 \]
+
+Adding them together:
+\[ 23328 + 2592 + 432 + 180 + 0 + 5 = 26537 \]
+
+So, \(322505_{6} = 26537_{10}\).
+
+### Step 2: Convert \(232005_{6}\) to base-10
+
+The base-6 number \(232005_{6}\) can be converted to base-10 as follows:
+\[ 232005_{6} = 2 \cdot 6^5 + 3 \cdot 6^4 + 2 \cdot 6^3 + 0 \cdot 6^2 + 0 \cdot 6^1 + 5 \cdot 6^0 \]
+
+Calculating each term:
+\[ 2 \cdot 6^5 = 2 \cdot 7776 = 15552 \]
+\[ 3 \cdot 6^4 = 3 \cdot 1296 = 3888 \]
+\[ 2 \cdot 6^3 = 2 \cdot 216 = 432 \]
+\[ 0 \cdot 6^2 = 0 \]
+\[ 0 \cdot 6^1 = 0 \]
+\[ 5 \cdot 6^0 = 5 \]
+
+Adding them together:
+\[ 15552 + 3888 + 432 + 0 + 0 + 5 = 19877 \]
+
+So, \(232005_{6} = 19877_{10}\).
+
+### Step 3: Multiply the base-10 equivalents
+
+\[ 26537_{10} \times 19877_{10} = 527287149 \]
+
+### Step 4: Convert the result back to base-6
+
+To convert \(527287149\) from base-10 to base-6, we repeatedly divide by 6 and keep track of the remainders:
+
+\[ 527287149 \div 6 = 87881191 \text{ remainder } 3 \]
+\[ 87881191 \div 6 = 14646865 \text{ remainder } 1 \]
+\[ 14646865 \div 6 = 2441144 \text{ remainder } 1 \]
+\[ 2441144 \div 6 = 406857 \text{ remainder } 2 \]
+\[ 406857 \div 6 = 67809 \text{ remainder } 3 \]
+\[ 67809 \div 6 = 11301 \text{ remainder } 3 \]
+\[ 11301 \div 6 = 1883 \text{ remainder } 3 \]
+\[ 1883 \div 6 = 313 \text{ remainder } 5 \]
+\[ 313 \div 6 = 52 \text{ remainder } 1 \]
+\[ 52 \div 6 = 8 \text{ remainder } 4 \]
+\[ 8 \div 6 = 1 \text{ remainder } 2 \]
+\[ 1 \div 6 = 0 \text{ remainder } 1 \]
+
+Reading the remainders from bottom to top, we get:
+
+\[ 527287149_{10} = 1241533332113_{6} \]
+
+So, 
+\[ 322505_{6} \times 232005_{6} = 1241533332113_{6} \]
+
+\[
+322505_{6} \times 232005_{6} = 26537_{10} \times 19877_{10} = 527287149_{10} = 1241533332113_{6}
+\]

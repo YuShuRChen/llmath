@@ -1,0 +1,141 @@
+To multiply the numbers 2210412₅ and 424230₅, it is helpful to first convert them to their decimal (base 10) equivalents.
+
+### Conversion of 2210412₅ to decimal:
+Each digit must be multiplied by 5 raised to the power of its position index (starting from 0 on the right).
+
+\[
+2210412_5 = 2 \cdot 5^6 + 2 \cdot 5^5 + 1 \cdot 5^4 + 0 \cdot 5^3 + 4 \cdot 5^2 + 1 \cdot 5^1 + 2 \cdot 5^0
+\]
+
+Calculating each term separately:
+
+\[
+2 \cdot 5^6 = 2 \cdot 15625 = 31250
+\]
+\[
+2 \cdot 5^5 = 2 \cdot 3125 = 6250
+\]
+\[
+1 \cdot 5^4 = 1 \cdot 625 = 625
+\]
+\[
+0 \cdot 5^3 = 0 \cdot 125 = 0
+\]
+\[
+4 \cdot 5^2 = 4 \cdot 25 = 100
+\]
+\[
+1 \cdot 5^1 = 1 \cdot 5 = 5
+\]
+\[
+2 \cdot 5^0 = 2 \cdot 1 = 2
+\]
+
+Now sum these values:
+
+\[
+31250 + 6250 + 625 + 0 + 100 + 5 + 2 = 38132
+\]
+
+So, 2210412₅ = 38132₁₀.
+
+### Conversion of 424230₅ to decimal:
+Again, each digit must be multiplied by 5 raised to the power of its position index (starting from 0 on the right).
+
+\[
+424230_5 = 4 \cdot 5^5 + 2 \cdot 5^4 + 4 \cdot 5^3 + 2 \cdot 5^2 + 3 \cdot 5^1 + 0 \cdot 5^0
+\]
+
+Calculating each term separately:
+
+\[
+4 \cdot 5^5 = 4 \cdot 3125 = 12500
+\]
+\[
+2 \cdot 5^4 = 2 \cdot 625 = 1250
+\]
+\[
+4 \cdot 5^3 = 4 \cdot 125 = 500
+\]
+\[
+2 \cdot 5^2 = 2 \cdot 25 = 50
+\]
+\[
+3 \cdot 5^1 = 3 \cdot 5 = 15
+\]
+\[
+0 \cdot 5^0 = 0 \cdot 1 = 0
+\]
+
+Now sum these values:
+
+\[
+12500 + 1250 + 500 + 50 + 15 + 0 = 14315
+\]
+
+So, 424230₅ = 14315₁₀.
+
+### Multiplication of the decimal values:
+Now, multiply the decimal equivalents:
+
+\[
+38132 \times 14315 = 545918180
+\]
+
+### Final conversion back to base 5:
+To convert 545918180 from decimal to base 5, we divide by 5 and keep track of the remainders.
+
+\[
+545918180 \div 5 = 109183636 \ \text{remainder} \ 0
+\]
+\[
+109183636 \div 5 = 21836727 \ \text{remainder} \ 1
+\]
+\[
+21836727 \div 5 = 4367345 \ \text{remainder} \ 2
+\]
+\[
+4367345 \div 5 = 873469 \ \text{remainder} \ 0
+\]
+\[
+873469 \div 5 = 174693 \ \text{remainder} \ 4
+\]
+\[
+174693 \div 5 = 34938 \ \text{remainder} \ 3
+\]
+\[
+34938 \div 5 = 6987 \ \text{remainder} \ 3
+\]
+\[
+6987 \div 5 = 1397 \ \text{remainder} \ 2
+\]
+\[
+1397 \div 5 = 279 \ \text{remainder} \ 2
+\]
+\[
+279 \div 5 = 55 \ \text{remainder} \ 4
+\]
+\[
+55 \div 5 = 11 \ \text{remainder} \ 0
+\]
+\[
+11 \div 5 = 2 \ \text{remainder} \ 1
+\]
+\[
+2 \div 5 = 0 \ \text{remainder} \ 2
+\]
+
+Reading the remainders from bottom to top, the base 5 representation is:
+
+\[
+545918180_{10} = 2104322342310_5
+\]
+
+So, \( 2210412_{5} \times 424230_{5} = 2104322342310_{5} \).
+
+### Summary:
+\[
+2210412_{5} \to 38132_{10}, \ 424230_{5} \to 14315_{10}, \ 38132_{10} \times 14315_{10} = 545918180_{10} \to 2104322342310_{5}
+\]
+
+Final result: \( 2210412_{5} \times 424230_{5} = 2104322342310_{5} \)

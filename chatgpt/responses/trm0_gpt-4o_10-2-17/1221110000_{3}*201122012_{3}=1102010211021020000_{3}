@@ -1,0 +1,76 @@
+To compute the product of the ternary numbers \( 1221110000_3 \) and \( 201122012_3 \), we need to perform the following steps:
+
+1. **Convert the ternary numbers to decimal (base 10):**
+
+For \( 1221110000_3 \):
+\[
+1 \cdot 3^9 + 2 \cdot 3^8 + 2 \cdot 3^7 + 1 \cdot 3^6 + 1 \cdot 3^5 + 1 \cdot 3^4 + 0 \cdot 3^3 + 0 \cdot 3^2 + 0 \cdot 3^1 + 0 \cdot 3^0
+\]
+Calculating each term:
+\[
+1 \cdot 19683 + 2 \cdot 6561 + 2 \cdot 2187 + 1 \cdot 729 + 1 \cdot 243 + 1 \cdot 81 + 0 \cdot 27 + 0 \cdot 9 + 0 \cdot 3 + 0 \cdot 1 = 19683 + 13122 + 4374 + 729 + 243 + 81 + 0 + 0 + 0 + 0
+\]
+\[
+19683 + 13122 + 4374 + 729 + 243 + 81 = 38232
+\]
+So, \( 1221110000_3 = 38232_{10} \).
+
+For \( 201122012_3 \):
+\[
+2 \cdot 3^8 + 0 \cdot 3^7 + 1 \cdot 3^6 + 1 \cdot 3^5 + 2 \cdot 3^4 + 2 \cdot 3^3 + 0 \cdot 3^2 + 1 \cdot 3^1 + 2 \cdot 3^0
+\]
+Calculating each term:
+\[
+2 \cdot 6561 + 0 \cdot 2187 + 1 \cdot 729 + 1 \cdot 243 + 2 \cdot 81 + 2 \cdot 27 + 0 \cdot 9 + 1 \cdot 3 + 2 \cdot 1 = 13122 + 0 + 729 + 243 + 162 + 54 + 0 + 3 + 2
+\]
+\[
+13122 + 0 + 729 + 243 + 162 + 54 + 0 + 3 + 2 = 14243
+\]
+So, \( 201122012_3 = 14243_{10} \).
+
+2. **Multiply the decimal equivalents:**
+\[
+38232 \times 14243 = 544625976
+\]
+
+3. **Convert \( 544625976_{10} \) back to ternary (base 3):**
+
+Starting with \( 544625976 \):
+\[
+\begin{align*}
+544625976 \div 3 & = 181541992 \quad \text{remainder } 0 \\
+181541992 \div 3 & = 60513997 \quad \text{remainder } 1 \\
+60513997 \div 3 & = 20171332 \quad \text{remainder } 1 \\
+20171332 \div 3 & = 6723777 \quad \text{remainder } 1 \\
+6723777 \div 3 & = 2241259 \quad \text{remainder } 0 \\
+2241259 \div 3 & = 747086 \quad \text{remainder } 1 \\
+747086 \div 3 & = 249028 \quad \text{remainder } 2 \\
+249028 \div 3 & = 83009 \quad \text{remainder } 1 \\
+83009 \div 3 & = 27669 \quad \text{remainder } 2 \\
+27669 \div 3 & = 9223 \quad \text{remainder } 0 \\
+9223 \div 3 & = 3074 \quad \text{remainder } 1 \\
+3074 \div 3 & = 1024 \quad \text{remainder } 2 \\
+1024 \div 3 & = 341 \quad \text{remainder } 1 \\
+341 \div 3 & = 113 \quad \text{remainder } 2 \\
+113 \div 3 & = 37 \quad \text{remainder } 2 \\
+37 \div 3 & = 12 \quad \text{remainder } 1 \\
+12 \div 3 & = 4 \quad \text{remainder } 0 \\
+4 \div 3 & = 1 \quad \text{remainder } 1 \\
+1 \div 3 & = 0 \quad \text{remainder } 1 \\
+\end{align*}
+\]
+
+Reading the remainders from bottom to top:
+\[
+544625976_{10} = 1102212101221110010_3
+\]
+
+Therefore, the final product in base 3 is:
+\(
+1221110000_3 \times 201122012_3 = 1102212101221110010_3
+\)
+
+Summarized output:
+\(
+1221110000_3 * 201122012_3 = 38232_{10} * 14243_{10} = 544625976_{10} = 1102212101221110010_3
+\)

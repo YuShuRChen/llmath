@@ -1,0 +1,95 @@
+To solve the equation \( \text{C0A7}_{14} - \text{347D}_{14} \), we first need to convert both numbers from base 14 to base 10.
+
+### Step 1: Convert \( \text{C0A7}_{14} \) to base 10
+C represented in base 14 is equivalent to 12 in base 10.
+
+\[ \text{C0A7}_{14} = 12 \times 14^3 + 0 \times 14^2 + 10 \times 14^1 + 7 \times 14^0 \]
+
+Calculating each term:
+
+\[ 
+12 \times 14^3 = 12 \times 2744 = 32928 \\
+0 \times 14^2 = 0 \\
+10 \times 14^1 = 140 \\
+7 \times 14^0 = 7 
+\]
+
+Adding these values together:
+
+\[
+\text{C0A7}_{14} = 32928 + 0 + 140 + 7 = 33075 
+\]
+
+### Step 2: Convert \( \text{347D}_{14} \) to base 10
+D represented in base 14 is equivalent to 13 in base 10.
+
+\[ \text{347D}_{14} = 3 \times 14^3 + 4 \times 14^2 + 7 \times 14^1 + 13 \times 14^0 \]
+
+Calculating each term:
+
+\[ 
+3 \times 14^3 = 3 \times 2744 = 8232 \\
+4 \times 14^2 = 4 \times 196 = 784 \\
+7 \times 14^1 = 98 \\
+13 \times 14^0 = 13 
+\]
+
+Adding these values together:
+
+\[
+\text{347D}_{14} = 8232 + 784 + 98 + 13 = 9127 
+\]
+
+### Step 3: Subtract the two base 10 numbers
+
+\[ 
+33075 - 9127 = 23948 
+\]
+
+### Step 4: Convert the result back to base 14
+
+We need to convert 23948 from base 10 to base 14. 
+
+1. Calculate the largest power of 14 that is less than or equal to 23948:
+
+\[ 14^4 = 38416 \quad (\text{too large}) \]
+\[ 14^3 = 2744 \]
+
+Find the coefficient for \( 14^3 \):
+
+\[ 23948 \div 2744 \approx 8 \quad (\text{8 is the coefficient}) \]
+\[ 8 \times 2744 = 21952 \]
+\[ 23948 - 21952 = 1996 \]
+
+2. Continue with the next largest power:
+
+\[ 14^2 = 196 \]
+
+Find the coefficient for \( 14^2 \):
+
+\[ 1996 \div 196 \approx 10 \quad (\text{A is the coefficient}) \]
+\[ 10 \times 196 = 1960 \]
+\[ 1996 - 1960 = 36 \]
+
+3. Continue with the next power:
+
+\[ 14^1 = 14 \]
+
+Find the coefficient for \( 14^1 \):
+
+\[ 36 \div 14 \approx 2 \]
+\[ 2 \times 14 = 28 \]
+\[ 36 - 28 = 8 \]
+
+4. The remaining is:
+
+\[ 14^0 = 1 \]
+
+\[ 8 \div 1 = 8 \]
+
+Thus, the result in base 14 is \( 8A28_{14} \).
+
+\(\text{Therefore, } \text{C0A7}_{14} - \text{347D}_{14} = 8A28_{14} \).
+
+### Summary
+\[ \text{C0A7}_{14} - \text{347D}_{14} = 33075_{10} - 9127_{10} = 23948_{10} = 8A28_{14} \]

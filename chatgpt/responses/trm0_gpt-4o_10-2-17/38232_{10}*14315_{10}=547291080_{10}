@@ -1,0 +1,32 @@
+To find the product of \(38232_{10}\) and \(14315_{10}\), we need to perform the multiplication:
+
+\[ 
+38232 \times 14315 
+\]
+
+We'll break this down using traditional long multiplication:
+
+\[
+\begin{array}{r}
+    &38232 \\
+ \times  &14315 \\ \hline
+    &191160 \\ % 38232 * 5
+   1146960 \\ % 38232 * 1 (shifted one place to the left)
+ +1146960 \\ % 38232 * 1 (shifted two places to the left)
+ +1146960 \\ % 38232 * 1 (shifted three places to the left)
++2293920 \\\hline % 38232 * 2 (shifted four places to the left)
+547474680
+\end{array} 
+\]
+
+Summarizing:
+
+\[
+38232_{10} * 14315_{10} = 38232_{10} * 14315_{10} = 547474680_{10}
+\]
+
+So, the final result is:
+
+\[
+38232_{10} * 14315_{10} = 547474680_{10}
+\]

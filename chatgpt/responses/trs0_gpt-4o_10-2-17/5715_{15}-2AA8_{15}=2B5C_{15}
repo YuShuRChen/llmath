@@ -1,0 +1,61 @@
+To solve the equation \( 5715_{15} - 2AA8_{15} \), we first convert each number from base 15 to base 10.
+
+**Step 1: Converting \( 5715_{15} \) to base 10**
+\[
+5 \cdot 15^3 + 7 \cdot 15^2 + 1 \cdot 15^1 + 5 \cdot 15^0
+\]
+
+\[
+= 5 \cdot 3375 + 7 \cdot 225 + 1 \cdot 15 + 5 \cdot 1
+\]
+
+\[
+= 16875 + 1575 + 15 + 5
+\]
+
+\[
+= 18470_{10}
+\]
+
+**Step 2: Converting \( 2AA8_{15} \) to base 10**
+Note that \( A_{15} \) corresponds to \( 10_{10} \).
+
+\[
+2 \cdot 15^3 + 10 \cdot 15^2 + 10 \cdot 15^1 + 8 \cdot 15^0
+\]
+
+\[
+= 2 \cdot 3375 + 10 \cdot 225 + 10 \cdot 15 + 8 \cdot 1
+\]
+
+\[
+= 6750 + 2250 + 150 + 8
+\]
+
+\[
+= 9158_{10}
+\]
+
+**Step 3: Subtracting the two results in base 10**
+\[
+18470_{10} - 9158_{10} = 9312_{10}
+\]
+
+**Step 4: Converting \( 9312_{10} \) back to base 15**
+
+We successively divide by 15 and record the remainders:
+
+1. \( 9312 \div 15 = 620 \) remainder \( 12 \) (C in base 15)
+2. \( 620 \div 15 = 41 \) remainder \( 5 \)
+3. \( 41 \div 15 = 2 \) remainder \( 11 \) (B in base 15)
+4. \( 2 \div 15 = 0 \) remainder \( 2 \)
+
+Putting these remainders together from last to first, we get \( 2B5C_{15} \).
+
+**Step 5: Summarizing the response**
+
+\[
+5715_{15} - 2AA8_{15} = 5715_{15} \rightarrow 18470_{10}, 2AA8_{15} \rightarrow 9158_{10}, 18470_{10} - 9158_{10} = 9312_{10} \rightarrow 2B5C_{15}
+\]
+
+\(\boxed{2B5C_{15}}\)

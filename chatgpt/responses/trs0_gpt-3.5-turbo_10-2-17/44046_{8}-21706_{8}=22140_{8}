@@ -1,0 +1,13 @@
+To compute \(44046_{8} - 21706_{8}\), we can subtract each place value starting from the rightmost digit.
+
+\[
+\begin{array}{c}
+\phantom{-}4_{8} \\
+44_{8} \\
+-22_{8} \\
+\hline
+22_{8}
+\end{array}
+\]
+
+Therefore, \(44046_{8} - 21706_{8} = 22222_{8}\).

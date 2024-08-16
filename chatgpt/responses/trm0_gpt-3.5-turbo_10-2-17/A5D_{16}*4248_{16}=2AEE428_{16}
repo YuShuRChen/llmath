@@ -1,0 +1,10 @@
+To compute \(A5D_{16} * 4248_{16}\), we first convert the hexadecimal numbers to base 10:
+\(A5D_{16} = 10*16^2 + 5*16^1 + 13*16^0 = 10*256 + 5*16 + 13 = 2560 + 80 + 13 = 2653\)
+
+\(4248_{16} = 4*16^3 + 2*16^2 + 4*16^1 + 8*16^0 = 4*4096 + 2*256 + 4*16 + 8 = 16384 + 512 + 64 + 8 = 16968\)
+
+Now, we multiply the results: \(2653 * 16968 = 45022824_{10}\)
+
+Converting the result back to hexadecimal: \(45022824_{10} = ABD398_{16}\)
+
+Therefore, \(A5D_{16} * 4248_{16} = ABD398_{16}\)

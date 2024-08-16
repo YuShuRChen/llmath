@@ -1,0 +1,96 @@
+To multiply the binary numbers \( 110001010011111_2 \) and \( 110101110101010_2 \), we'll first convert them to their decimal (base 10) equivalents.
+
+Starting with \( 110001010011111_2 \):
+
+1. Calculate each bit's value:
+   - \( 1 \times 2^{14} = 16384 \)
+   - \( 1 \times 2^{13} = 8192 \)
+   - \( 0 \times 2^{12} = 0 \)
+   - \( 0 \times 2^{11} = 0 \)
+   - \( 0 \times 2^{10} = 0 \)
+   - \( 1 \times 2^{9} = 512 \)
+   - \( 0 \times 2^{8} = 0 \)
+   - \( 1 \times 2^{7} = 128 \)
+   - \( 0 \times 2^{6} = 0 \)
+   - \( 0 \times 2^{5} = 0 \)
+   - \( 1 \times 2^{4} = 16 \)
+   - \( 1 \times 2^{3} = 8 \)
+   - \( 1 \times 2^{2} = 4 \)
+   - \( 1 \times 2^{1} = 2 \)
+   - \( 1 \times 2^{0} = 1 \)
+
+2. Sum these values: 
+   - \( 16384 + 8192 + 512 + 128 + 16 + 8 + 4 + 2 + 1 = 25147_{10} \)
+
+Now for \( 110101110101010_2 \):
+
+1. Calculate each bit's value:
+   - \( 1 \times 2^{14} = 16384 \)
+   - \( 1 \times 2^{13} = 8192 \)
+   - \( 0 \times 2^{12} = 0 \)
+   - \( 1 \times 2^{11} = 2048 \)
+   - \( 0 \times 2^{10} = 0 \)
+   - \( 1 \times 2^{9} = 512 \)
+   - \( 1 \times 2^{8} = 256 \)
+   - \( 1 \times 2^{7} = 128 \)
+   - \( 0 \times 2^{6} = 0 \)
+   - \( 1 \times 2^{5} = 32 \)
+   - \( 0 \times 2^{4} = 0 \)
+   - \( 1 \times 2^{3} = 8 \)
+   - \( 0 \times 2^{2} = 0 \)
+   - \( 1 \times 2^{1} = 2 \)
+   - \( 0 \times 2^{0} = 0 \)
+
+2. Sum these values:
+   - \( 16384 + 8192 + 2048 + 512 + 256 + 128 + 32 + 8 + 2 = 27462_{10} \)
+
+Next, multiply the decimal equivalents:
+
+\[ 25147_{10} \times 27462_{10} = 690440814_{10} \]
+
+Finally, convert \( 690440814_{10} \) back to binary:
+
+1. Divide by 2 repeatedly and keep track of remainders:
+   - \( 690440814 \div 2 = 345220407 \) remainder: 0
+   - \( 345220407 \div 2 = 172610203 \) remainder: 1
+   - \( 172610203 \div 2 = 86305101 \) remainder: 1
+   - \( 86305101 \div 2 = 43152550 \) remainder: 1
+   - \( 43152550 \div 2 = 21576275 \) remainder: 0
+   - \( 21576275 \div 2 = 10788137 \) remainder: 1
+   - \( 10788137 \div 2 = 5394068 \) remainder: 1
+   - \( 5394068 \div 2 = 2697034 \) remainder: 0
+   - \( 2697034 \div 2 = 1348517 \) remainder: 0
+   - \( 1348517 \div 2 = 674258 \) remainder: 1
+   - \( 674258 \div 2 = 337129 \) remainder: 0
+   - \( 337129 \div 2 = 168564 \) remainder: 1
+   - \( 168564 \div 2 = 84282 \) remainder: 0
+   - \( 84282 \div 2 = 42141 \) remainder: 0
+   - \( 42141 \div 2 = 21070 \) remainder: 1
+   - \( 21070 \div 2 = 10535 \) remainder: 0
+   - \( 10535 \div 2 = 5267 \)  remainder: 1
+   - \( 5267 \div 2 = 2633 \) remainder: 1
+   - \( 2633 \div 2 = 1316 \) remainder: 1
+   - \( 1316 \div 2 = 658 \) remainder: 0
+   - \( 658 \div 2 = 329 \) remainder: 0
+   - \( 329 \div 2 = 164 \) remainder: 1
+   - \( 164 \div 2 = 82 \) remainder: 0
+   - \( 82 \div 2 = 41 \) remainder: 0
+   - \( 41 \div 2 = 20 \) remainder: 1
+   - \( 20 \div 2 = 10 \) remainder: 0
+   - \( 10 \div 2 = 5 \) remainder: 0
+   - \( 5 \div 2 = 2 \) remainder: 1
+   - \( 2 \div 2 = 1 \) remainder: 0
+   - \( 1 \div 2 = 0 \) remainder: 1
+  
+So the binary representation is
+
+\[ 690440814_{10} = 10100100110001010111101011110_{2} \]
+
+Thus, 
+
+\[
+110001010011111_2 \times 110101110101010_2 = 10100100110001010111101011110_2
+\]
+
+Summary:
+\[ 110001010011111_{2} \times 110101110101010_{2} = 25147_{10} \times 27462_{10} = 690440814_{10} = 10100100110001010111101011110_{2} \]

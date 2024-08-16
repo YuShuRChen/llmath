@@ -1,0 +1,52 @@
+To compute the equation \(239C_{14} \times 10AA9_{14}\), we first need to convert each number from base 14 to base 10.
+
+### Step 1: Convert \(239C_{14}\) to base 10
+The number \(239C_{14}\) represents:
+\[ 2 \cdot 14^3 + 3 \cdot 14^2 + 9 \cdot 14^1 + C \cdot 14^0 \]
+
+Here, \(C\) in base 14 equals 12 in base 10, as \(C\) stands for the digit 12.
+
+Now, calculating each term:
+\[ 2 \cdot 14^3 = 2 \cdot 2744 = 5488 \]
+\[ 3 \cdot 14^2 = 3 \cdot 196 = 588 \]
+\[ 9 \cdot 14^1 = 9 \cdot 14 = 126 \]
+\[ 12 \cdot 14^0 = 12 \cdot 1 = 12 \]
+
+Summing these values, we get:
+\[ 5488 + 588 + 126 + 12 = 6214 \]
+
+So,
+\[ 239C_{14} = 6214_{10} \]
+
+### Step 2: Convert \(10AA9_{14}\) to base 10
+The number \(10AA9_{14}\) represents:
+\[ 1 \cdot 14^4 + 0 \cdot 14^3 + A \cdot 14^2 + A \cdot 14^1 + 9 \cdot 14^0 \]
+
+Here, \(A\) in base 14 equals 10 in base 10, as \(A\) stands for the digit 10.
+
+Now, calculating each term:
+\[ 1 \cdot 14^4 = 1 \cdot 38416 = 38416 \]
+\[ 0 \cdot 14^3 = 0 \cdot 2744 = 0 \]
+\[ 10 \cdot 14^2 = 10 \cdot 196 = 1960 \]
+\[ 10 \cdot 14^1 = 10 \cdot 14 = 140 \]
+\[ 9 \cdot 14^0 = 9 \cdot 1 = 9 \]
+
+Summing these values, we get:
+\[ 38416 + 0 + 1960 + 140 + 9 = 40525 \]
+
+So,
+\[ 10AA9_{14} = 40525_{10} \]
+
+### Step 3: Multiply the two base 10 numbers
+\[ 6214_{10} \times 40525_{10} \]
+
+Calculating the product:
+\[ 6214 \times 40525 = 251765350 \]
+
+Thus, the final result is in base 10.
+\[ 251765350_{10} \]
+
+### Summary
+\[
+239C_{14} \times 10AA9_{14} = 239C_{14} = 6214_{10}, \quad 10AA9_{14} = 40525_{10}, \quad 6214_{10} \times 40525_{10} = 251765350_{10}
+\]

@@ -1,0 +1,8 @@
+First, we need to convert the numbers to decimal:
+1. \(1651_{12} = 1*12^3 + 6*12^2 + 5*12 + 1 = 2077\)
+2. \(99A0_{12} = 9*12^3 + 9*12^2 + 10*12 + 0 = 12512\)
+
+Now, calculate the multiplication:
+\(2077 * 12512 = 25972724\)
+
+Therefore, \(1651_{12} * 99A0_{12} = 25972724_{10}\)

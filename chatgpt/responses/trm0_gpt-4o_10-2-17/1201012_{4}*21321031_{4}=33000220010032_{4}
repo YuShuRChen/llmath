@@ -1,0 +1,80 @@
+To solve \( 1201012_4 \times 21321031_4 \), we first convert each base-4 number to base-10, perform the multiplication in base-10, and then convert the result back to base-4.
+
+### Step 1: Convert each base-4 number to base-10.
+
+#### Convert \( 1201012_4 \) to base-10
+\[
+1201012_4 = 1 \cdot 4^6 + 2 \cdot 4^5 + 0 \cdot 4^4 + 1 \cdot 4^3 + 0 \cdot 4^2 + 1 \cdot 4^1 + 2 \cdot 4^0
+\]
+
+\[
+= 1 \cdot 4096 + 2 \cdot 1024 + 0 \cdot 256 + 1 \cdot 64 + 0 \cdot 16 + 1 \cdot 4 + 2 \cdot 1
+\]
+
+\[
+= 4096 + 2048 + 0 + 64 + 0 + 4 + 2
+\]
+
+\[
+= 6214_{10}
+\]
+
+#### Convert \( 21321031_4 \) to base-10
+\[
+21321031_4 = 2 \cdot 4^7 + 1 \cdot 4^6 + 3 \cdot 4^5 + 2 \cdot 4^4 + 1 \cdot 4^3 + 0 \cdot 4^2 + 3 \cdot 4^1 + 1 \cdot 4^0
+\]
+
+\[
+= 2 \cdot 16384 + 1 \cdot 4096 + 3 \cdot 1024 + 2 \cdot 256 + 1 \cdot 64 + 0 \cdot 16 + 3 \cdot 4 + 1 \cdot 1
+\]
+
+\[
+= 32768 + 4096 + 3072 + 512 + 64 + 0 + 12 + 1
+\]
+
+\[
+= 40525_{10}
+\]
+
+### Step 2: Perform the multiplication in base-10
+
+\[
+6214 \times 40525 = 251818850
+\]
+
+### Step 3: Convert the result back to base-4
+
+To convert \( 251818850_{10} \) to base-4, divide the number by 4 and keep track of the remainders.
+
+\[
+\begin{align*}
+251818850 \div 4 &= 62954712 \quad \text{remainder } 2 \\
+62954712 \div 4 &= 15738678 \quad \text{remainder } 0 \\
+15738678 \div 4 &= 3934669  \quad \text{remainder } 2 \\
+3934669 \div 4 &= 983667 \quad \text{remainder } 1 \\
+983667 \div 4 &= 245916 \quad \text{remainder } 3 \\
+245916 \div 4 &= 61479 \quad \text{remainder } 0 \\
+61479 \div 4 &= 15369 \quad \text{remainder } 3 \\
+15369 \div 4 &= 3842 \quad \text{remainder } 1 \\
+3842 \div 4 &= 960 \quad \text{remainder } 2 \\
+960 \div 4 &= 240 \quad \text{remainder } 0 \\
+240 \div 4 &= 60 \quad \text{remainder } 0 \\
+60 \div 4 &= 15 \quad \text{remainder } 0 \\
+15 \div 4 &= 3 \quad \text{remainder } 3 \\
+3 \div 4 &= 0 \quad \text{remainder } 3 \\
+\end{align*}
+\]
+
+Reading the remainders from bottom to top, the base-4 representation is:
+\[ 251818850_{10} = 330012132102_{4} \]
+
+### Final Result:
+
+\[
+1201012_4 \times 21321031_4 = 330012132102_4
+\]
+
+#### Summary:
+\[ 
+1201012_{4} ( 6214_{10} ) * 21321031_{4} ( 40525_{10} ) = 251818850_{10} = 330012132102_{4}
+\]

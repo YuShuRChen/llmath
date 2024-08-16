@@ -1,0 +1,46 @@
+To compute the product of \(67A9_{16}\) and \(4DA5_{16}\), both numbers in hexadecimal, we follow these steps:
+
+1. Convert \(67A9_{16}\) and \(4DA5_{16}\) to their decimal equivalents.
+2. Perform the multiplication in decimal.
+3. Convert the decimal result back to hexadecimal.
+
+Step 1: Convert \(67A9_{16}\) to decimal.
+\[ 67A9_{16} = (6 \times 16^3) + (7 \times 16^2) + (10 \times 16^1) + (9 \times 16^0) \]
+\[ 67A9_{16} = (6 \times 4096) + (7 \times 256) + (10 \times 16) + (9 \times 1) \]
+\[ 67A9_{16} = 24576 + 1792 + 160 + 9 \]
+\[ 67A9_{16} = 26537_{10} \]
+
+Step 2: Convert \(4DA5_{16}\) to decimal.
+\[ 4DA5_{16} = (4 \times 16^3) + (13 \times 16^2) + (10 \times 16^1) + (5 \times 16^0) \]
+\[ 4DA5_{16} = (4 \times 4096) + (13 \times 256) + (10 \times 16) + (5 \times 1) \]
+\[ 4DA5_{16} = 16384 + 3328 + 160 + 5 \]
+\[ 4DA5_{16} = 19877_{10} \]
+
+Step 3: Perform the multiplication in decimal.
+\[ 26537_{10} \times 19877_{10} \]
+Using a calculator for the decimal multiplication:
+\[ 26537 \times 19877 = 527490049 \]
+
+Step 4: Convert \(527490049_{10}\) to hexadecimal.
+First, find the largest power of 16 less than 527490049:
+\[ 16^7 = 268435456 \]
+\[ 16^8 = 4294967296\] (too large)
+So, 527490049 can be expressed as:
+\[ 527490049 / 268435456 = 1 R 259054593 \]
+\[ 259054593 / 16777216 = 15 R 21292623 \]
+\[ 21292623 / 1048576 = 20 R 799999 \]
+\[ 799999 / 65536 = 12 R 18623 \]
+\[ 18623 / 4096 = 4 R 3455 \]
+\[ 3455 / 256 = 13 R 119 \]
+\[ 119 / 16 = 7 R 7 \]
+
+Now write down the hex digits in order:
+\[ 01F4CD77_{16} \]
+
+Therefore:
+
+\[ 67A9_{16} * 4DA5_{16} = 1F4CD77_{16} \].
+
+In summary:
+
+67A9_{16} * 4DA5_{16} = 26537_{10} * 19877_{10} = 527490049_{10} = 1F4CD77_{16}

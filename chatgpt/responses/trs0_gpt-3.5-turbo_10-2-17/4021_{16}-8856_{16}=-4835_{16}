@@ -1,0 +1,11 @@
+First, we will convert the hexadecimal numbers to decimal:
+4021_{16} = 4*16^3 + 2*16^2 + 1*16^1 = 16384 + 512 + 16 = 16912_{10}
+8856_{16} = 8*16^3 + 8*16^2 + 5*16^1 + 6*16^0 = 32768 + 2048 + 80 + 6 = 34902_{10}
+
+Now, subtracting the decimal equivalents:
+16912_{10}-34902_{10}= -17990_{10}
+
+Converting the result back to hexadecimal:
+-17990_{10} = -44E6_{16}
+
+Therefore, 4021_{16}-8856_{16} = -44E6_{16}

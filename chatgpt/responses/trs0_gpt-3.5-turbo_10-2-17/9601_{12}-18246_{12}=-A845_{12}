@@ -1,0 +1,32 @@
+To perform the subtraction, we first need to align the numbers properly:
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c}
+& & & 9 & 6 & 0 & 1_{12} \\
+- & & 1 & 8 & 2 & 4 & 6_{12} \\
+\hline
+\end{array}
+\]
+
+Now, let's perform the subtraction in base-12:
+
+$1_{12}$ is borrowed from the next higher significant digit making it $10_{12}$.
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c}
+& 10 & & 9 & 5 & 0 & 1_{12} \\
+- & 1 & 8 & 2 & 4 & 6_{12} \\
+\hline
+& 9 & 9 & 12 & 11 & 8_{12} \\
+\end{array}
+\]
+
+Convert back 12 to 10+2 in base-10:
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c}
+& 9 & 9 & 10+2 & 11 & 8_{12} \\
+\end{array}
+\]
+
+Therefore, $9601_{12} - 18246_{12} = 9923_{12}$.

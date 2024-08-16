@@ -1,0 +1,6 @@
+To find the product of $40041_{8}$ and $104126_{8}$ in base $8$:
+\[40041_{8} \times 104126_{8} = (4 \times 8^4 + 0 \times 8^3 + 0 \times 8^2 + 4 \times 8^1 + 1 \times 8^0) \times (1 \times 8^5 + 0 \times 8^4 + 4 \times 8^3 + 1 \times 8^2 + 2 \times 8^1 + 6 \times 8^0)\]
+Expanding and calculating the product:
+\[40041_{8} \times 104126_{8} = 10160400416_{8}\]
+
+Therefore, $40041_{8} \times 104126_{8} = \boxed{10160400416_{8}}$.

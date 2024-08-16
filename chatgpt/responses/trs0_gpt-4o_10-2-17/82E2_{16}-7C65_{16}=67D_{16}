@@ -1,0 +1,28 @@
+First, we need to convert the hexadecimal numbers to decimal to perform the subtraction.
+
+Start with \( 82E2_{16} \):
+\[ 8 \times 16^3 + 2 \times 16^2 + E \times 16^1 + 2 \times 16^0 \]
+\[ 8 \times 4096 + 2 \times 256 + 14 \times 16 + 2 \]
+\[ 32768 + 512 + 224 + 2 \]
+\[ 32768 + 512 + 224 + 2 = 33506_{10} \]
+
+Next, convert \( 7C65_{16} \):
+\[ 7 \times 16^3 + C \times 16^2 + 6 \times 16^1 + 5 \times 16^0 \]
+\[ 7 \times 4096 + 12 \times 256 + 6 \times 16 + 5 \]
+\[ 28672 + 3072 + 96 + 5 \]
+\[ 28672 + 3072 + 96 + 5 = 31845_{10} \]
+
+Now perform the subtraction:
+\[ 33506_{10} - 31845_{10} = 1661_{10} \]
+
+Finally, convert \( 1661_{10} \) back to hexadecimal:
+1. Divide by 16:
+\[ 1661 \div 16 = 103 \text{ remainder } 13 \]
+2. \( 103 \div 16 = 6 \text{ remainder } 7 \]
+
+So, \( 1661_{10} \) is \( 67D_{16} \).
+
+Therefore, the equation and result are:
+\[ 82E2_{16} - 7C65_{16} = 33506_{10} - 31845_{10} = 1661_{10} = 67D_{16} \]
+
+\[ 82E2_{16} - 7C65_{16} = 67D_{16} \]

@@ -1,0 +1,65 @@
+To solve the problem \( 20010303_{4} - 2032213_{4} \), we need to convert the base-4 numbers to base-10, perform the subtraction in base-10, and then convert the result back to base-4.
+
+First, let's convert \( 20010303_{4} \) to base-10.
+
+\[ 20010303_{4} \]
+\[ = 2 \times 4^7 + 0 \times 4^6 + 0 \times 4^5 + 1 \times 4^4 + 0 \times 4^3 + 3 \times 4^2 + 0 \times 4^1 + 3 \times 4^0 \]
+\[ = 2 \times 16384 + 0 \times 4096 + 0 \times 1024 + 1 \times 256 + 0 \times 64 + 3 \times 16 + 0 \times 4 + 3 \times 1 \]
+\[ = 32768 + 0 + 0 + 256 + 0 + 48 + 0 + 3 \]
+\[ = 33075_{10} \]
+
+Next, let's convert \( 2032213_{4} \) to base-10.
+
+\[ 2032213_{4} \]
+\[ = 2 \times 4^6 + 0 \times 4^5 + 3 \times 4^4 + 2 \times 4^3 + 2 \times 4^2 + 1 \times 4^1 + 3 \times 4^0 \]
+\[ = 2 \times 4096 + 0 \times 1024 + 3 \times 256 + 2 \times 64 + 2 \times 16 + 1 \times 4 + 3 \times 1 \]
+\[ = 8192 + 0 + 768 + 128 + 32 + 4 + 3 \]
+\[ = 9127_{10} \]
+
+Now, perform the subtraction in base-10.
+
+\[ 33075_{10} - 9127_{10} = 23948_{10} \]
+
+Finally, let's convert \( 23948_{10} \) back to base-4.
+
+1. Find the highest power of 4 less than or equal to 23948:
+\[ 4^8 = 65536 \quad (\text{too large}) \]
+\[ 4^7 = 16384 \quad (\text{fits}) \]
+
+2. Divide 23948 by 16384:
+\[ 23948 \div 16384 = 1 \quad (\text{integer part}) \]
+\[ \text{remainder} = 23948 - 16384 = 7564 \]
+
+3. Continue with \( 4^6 = 4096 \):
+\[ 7564 \div 4096 = 1 \quad (\text{integer part}) \]
+\[ \text{remainder} = 7564 - 4096 = 3468 \]
+
+4. Continue with \( 4^5 = 1024 \):
+\[ 3468 \div 1024 = 3 \quad (\text{integer part}) \]
+\[ \text{remainder} = 3468 - 3072 = 396 \]
+
+5. Continue with \( 4^4 = 256 \):
+\[ 396 \div 256 = 1 \quad (\text{integer part}) \]
+\[ \text{remainder} = 396 - 256 = 140 \]
+
+6. Continue with \( 4^3 = 64 \):
+\[ 140 \div 64 = 2 \quad (\text{integer part}) \]
+\[ \text{remainder} = 140 - 128 = 12 \]
+
+7. Continue with \( 4^2 = 16 \):
+\[ 12 \div 16 = 0 \quad (\text{integer part}) \]
+\[ \text{remainder} = 12 \]
+
+8. Continue with \( 4^1 = 4 \):
+\[ 12 \div 4 = 3 \quad (\text{integer part}) \]
+\[ \text{remainder} = 12 - 12 = 0 \]
+
+9. Continue with \( 4^0 = 1 \):
+\[ 0 \div 1 = 0 \quad (\text{integer part}) \]
+\[ \text{remainder} = 0 \]
+
+Therefore, \( 23948_{10} = 113120_{4} \).
+
+Summarizing:
+
+\[ 20010303_{4} - 2032213_{4} = 20010303_{4} \ (33075_{10}) - 2032213_{4} \ (9127_{10}) = 23948_{10} = 113120_{4}. \]

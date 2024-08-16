@@ -1,0 +1,38 @@
+To compute \(112A8_{13}-A8B0_{13}\), we first need to align the two numbers by placing them above each other:
+
+\[
+\begin{array}{r}
+  1 & 1 & 2 & A & 8_{13} \\
+- & A & 8 & B & 0_{13} \\
+\hline
+\end{array}
+\]
+
+Converting the numbers A and B to their decimal values, we get:
+
+\[
+\begin{array}{r}
+  1 & 1 & 2 & 10 & 8_{10} \\
+- & 10 & 8 & 11 & 0_{10} \\
+\hline
+\end{array}
+\]
+
+Performing the subtraction in decimal:
+
+\[
+\begin{array}{r}
+  1 & 1 & 2 & 10 & 8_{10} \\
+- & 10 & 8 & 11 & 0_{10} \\
+\hline
+&   & 3  & 22 & 8_{10}
+\end{array}
+\]
+
+Converting \(3_{10}\) to base 13 gives the final result:
+
+\[
+3228_{13}
+\]
+
+Therefore, \(112A8_{13}-A8B0_{13}=3228_{13}\).

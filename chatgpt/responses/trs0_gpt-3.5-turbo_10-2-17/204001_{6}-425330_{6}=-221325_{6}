@@ -1,0 +1,11 @@
+To subtract $425330_{6}$ from $204001_{6}$, we need to borrow from the next highest place value.
+\[
+\begin{array}{r}
+1_{6} \\
+-3_{6} \\
+-3_{6} \\
+-3_{6} \\
+1_{6} \\
+\end{array}
+\]
+Therefore, $204001_{6}-425330_{6} = 131314_{6}$.

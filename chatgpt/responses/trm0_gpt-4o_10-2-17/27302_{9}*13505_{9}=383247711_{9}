@@ -1,0 +1,41 @@
+First, let's convert each of the base-9 numbers to base-10.
+
+For \(27302_{9}\):
+\[ 27302_{9} = 2 \times 9^4 + 7 \times 9^3 + 3 \times 9^2 + 0 \times 9^1 + 2 \times 9^0 \]
+\[ 2 \times 9^4 = 2 \times 6561 = 13122 \]
+\[ 7 \times 9^3 = 7 \times 729 = 5103 \]
+\[ 3 \times 9^2 = 3 \times 81 = 243 \]
+\[ 0 \times 9^1 = 0 \]
+\[ 2 \times 9^0 = 2 \]
+\[ 27302_{9} = 13122 + 5103 + 243 + 0 + 2 = 18470_{10} \]
+
+For \(13505_{9}\):
+\[ 13505_{9} = 1 \times 9^4 + 3 \times 9^3 + 5 \times 9^2 + 0 \times 9^1 + 5 \times 9^0 \]
+\[ 1 \times 9^4 = 1 \times 6561 = 6561 \]
+\[ 3 \times 9^3 = 3 \times 729 = 2187 \]
+\[ 5 \times 9^2 = 5 \times 81 = 405 \]
+\[ 0 \times 9^1 = 0 \]
+\[ 5 \times 9^0 = 5 \]
+\[ 13505_{9} = 6561 + 2187 + 405 + 0 + 5 = 9158_{10} \]
+
+Now, we need to multiply the two base-10 equivalents:
+\[ 18470 \times 9158 = 169091260 \]
+
+Next, let's convert \(169091260_{10}\) back to base-9. 
+
+We use the division method to find coefficients of powers of 9.
+\[ 169091260 \div 9 = 18787917\; \text{remainder } 7 \]
+\[ 18787917 \div 9 = 2087546\; \text{remainder } 3 \]
+\[ 2087546 \div 9 = 231949\; \text{remainder } 5 \]
+\[ 231949 \div 9 = 25772\; \text{remainder } 1 \]
+\[ 25772 \div 9 = 2863\; \text{remainder } 5 \]
+\[ 2863 \div 9 = 318\; \text{remainder } 1 \]
+\[ 318 \div 9 = 35\; \text{remainder } 3 \]
+\[ 35 \div 9 = 3\; \text{remainder } 8 \]
+\[ 3 \div 9 = 0\; \text{remainder } 3 \]
+
+So, \(169091260_{10}\) in base-9 is:
+\[ 338153517_{9} \]
+
+**Summary:**
+27302_{9} * 13505_{9} = 27302_{9} = 18470_{10}, 13505_{9} = 9158_{10}, 18470_{10} * 9158_{10} = 169091260_{10} = 338153517_{9}

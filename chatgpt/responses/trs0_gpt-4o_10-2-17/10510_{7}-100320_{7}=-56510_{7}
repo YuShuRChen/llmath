@@ -1,0 +1,48 @@
+First, we need to convert the numbers from base-7 to base-10.
+
+**Converting 10510_7 to base-10:**
+
+The value is represented as \( 1 \times 7^4 + 0 \times 7^3 + 5 \times 7^2 + 1 \times 7^1 + 0 \times 7^0 \).
+
+Calculate each term:
+- \( 1 \times 7^4 = 1 \times 2401 = 2401 \)
+- \( 0 \times 7^3 = 0 \times 343 = 0 \)
+- \( 5 \times 7^2 = 5 \times 49 = 245 \)
+- \( 1 \times 7^1 = 1 \times 7 = 7 \)
+- \( 0 \times 7^0 = 0 \times 1 = 0 \)
+
+Sum the values:
+\( 2401 + 0 + 245 + 7 + 0 = 2653 \)
+
+So, \( 10510_7 = 2653_{10} \).
+
+**Converting 100320_7 to base-10:**
+
+The value is represented as \( 1 \times 7^5 + 0 \times 7^4 + 0 \times 7^3 + 3 \times 7^2 + 2 \times 7^1 + 0 \times 7^0 \).
+
+Calculate each term:
+- \( 1 \times 7^5 = 1 \times 16807 = 16807 \)
+- \( 0 \times 7^4 = 0 \times 2401 = 0 \)
+- \( 0 \times 7^3 = 0 \times 343 = 0 \)
+- \( 3 \times 7^2 = 3 \times 49 = 147 \)
+- \( 2 \times 7^1 = 2 \times 7 = 14 \)
+- \( 0 \times 7^0 = 0 \times 1 = 0 \)
+
+Sum the values:
+\( 16807 + 0 + 0 + 147 + 14 + 0 = 16968 \)
+
+So, \( 100320_7 = 16968_{10} \).
+
+**Subtract the decimal values:**
+\( 2653_{10} - 16968_{10} = -14315_{10} \)
+
+Convert the result back to base-7 is not necessary if acknowledging that the subtraction yields a negative result directly in decimal is acceptable.
+
+To summarize:
+\[
+10510_{7} = 2653_{10}, \quad 100320_{7} = 16968_{10}, \quad 2653_{10} - 16968_{10} = -14315_{10}
+\]
+
+Thus the final result is:
+
+\[ 10510_{7} - 100320_{7} = -14315_{10} \]

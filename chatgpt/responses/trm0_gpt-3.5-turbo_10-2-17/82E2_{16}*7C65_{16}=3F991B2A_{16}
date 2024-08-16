@@ -1,0 +1,10 @@
+Converting the hexadecimal numbers to decimal form:
+$82E2_{16} = 33506_{10}$ and $7C65_{16} = 31813_{10}$
+
+Multiplying the decimal numbers:
+$33506_{10} \times 31813_{10} = 1065871098_{10}$
+
+Converting the decimal result back to hexadecimal:
+$1065871098_{10} = 3FA94EBA_{16}$
+
+Therefore, $82E2_{16}*7C65_{16}=3FA94EBA_{16}$.

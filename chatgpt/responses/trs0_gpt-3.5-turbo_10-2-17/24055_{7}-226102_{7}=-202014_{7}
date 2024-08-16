@@ -1,0 +1,12 @@
+To subtract these numbers in base 7, we need to perform the operation digit by digit, borrowing when necessary. 
+
+Starting from the rightmost digit:
+\(5 - 2 = 3\) (no borrowing needed)
+\(5 - 0 = 5\) (no borrowing needed)
+\(0 - 1 = 6\) (borrowing 1 from the next column)
+\(4 - 6 = 5\) (borrowing 1 from the next column)
+\(2 - 2 = 0\) (no borrowing needed)
+\(0 - 2 = 5\) (borrowing 1 from the next column)
+\(2 - 2 = 0\) (no borrowing needed)
+
+Therefore, \(24055_{7} - 226102_{7} = 15353_{7}\).

@@ -1,0 +1,58 @@
+To solve the equation \(1452C_{13} - 6692_{13}\), we first need to convert the numbers from base 13 to base 10.
+
+1. Convert \(1452C_{13}\) to base 10:
+   \[
+   1452C_{13} = 1 \cdot 13^5 + 4 \cdot 13^4 + 5 \cdot 13^3 + 2 \cdot 13^2 + 12 \cdot 13^0
+   \]
+   Calculate each term:
+   \[
+   1 \cdot 13^5 = 1 \cdot 371293 = 371293
+   \]
+   \[
+   4 \cdot 13^4 = 4 \cdot 28561 = 114244
+   \]
+   \[
+   5 \cdot 13^3 = 5 \cdot 2197 = 10985
+   \]
+   \[
+   2 \cdot 13^2 = 2 \cdot 169 = 338
+   \]
+   \[
+   12 \cdot 13^0 = 12 \cdot 1 = 12
+   \]
+   Sum these values together to get:
+   \[
+   371293 + 114244 + 10985 + 338 + 12 = 496872
+   \]
+
+2. Convert \(6692_{13}\) to base 10:
+   \[
+   6692_{13} = 6 \cdot 13^3 + 6 \cdot 13^2 + 9 \cdot 13^1 + 2 \cdot 13^0
+   \]
+   Calculate each term:
+   \[
+   6 \cdot 13^3 = 6 \cdot 2197 = 13182
+   \]
+   \[
+   6 \cdot 13^2 = 6 \cdot 169 = 1014
+   \]
+   \[
+   9 \cdot 13^1 = 9 \cdot 13 = 117
+   \]
+   \[
+   2 \cdot 13^0 = 2 \cdot 1 = 2
+   \]
+   Sum these values together to get:
+   \[
+   13182 + 1014 + 117 + 2 = 14315
+   \]
+
+3. Subtract the two results:
+   \[
+   496872 - 14315 = 482557
+   \]
+
+Thus, the final result of the equation \(1452C_{13} - 6692_{13}\) in base 10 is 482557.
+
+Summarizing in one line:
+\[ 1452C_{13} - 6692_{13} = 496872_{10} - 14315_{10} = 482557_{10} \]

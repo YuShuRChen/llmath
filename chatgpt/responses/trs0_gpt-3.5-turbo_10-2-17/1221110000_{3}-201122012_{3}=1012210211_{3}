@@ -1,0 +1,17 @@
+To compute the result, we can first convert the numbers to base 10, perform the subtraction, and then convert the result back to base 3.
+
+Converting \( 1221110000_{3} \) to base 10:
+\( 1 \times 3^{9} + 2 \times 3^{8} + 2 \times 3^{7} + 1 \times 3^{6} + 1 \times 3^{5} + 1 \times 3^{4} + 0 \times 3^{3} + 0 \times 3^{2} + 0 \times 3^{1} + 0 \times 3^{0} = 19683 \)
+
+Converting \( 201122012_{3} \) to base 10:
+\( 2 \times 3^{8} + 0 \times 3^{7} + 1 \times 3^{6} + 1 \times 3^{5} + 2 \times 3^{4} + 2 \times 3^{3} + 0 \times 3^{2} + 1 \times 3^{1} + 2 \times 3^{0} = 242280 \)
+
+Performing the subtraction in base 10: \( 19683 - 242280 = -222597 \)
+
+Converting \( -222597 \) to base 3:
+We have to express 222597 as the sum of powers of 3:
+\( 222597 = 3^11 + 3^10 + 3^9 + 3^7 + 3^6 + 3^3 + 3^2 \)
+
+So, \( -222597_{10} = -101000101000_3 \)
+
+Therefore, \( 1221110000_{3} - 201122012_{3} = -101000101000_3 \)

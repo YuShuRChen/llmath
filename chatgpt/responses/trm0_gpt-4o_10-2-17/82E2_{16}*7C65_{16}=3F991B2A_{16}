@@ -1,0 +1,60 @@
+To solve \( 82E2_{16} * 7C65_{16} \), we'll first convert these hexadecimal numbers to decimal values, perform the multiplication, and then convert the result back to hexadecimal.
+
+### Step 1: Convert \( 82E2_{16} \) to decimal. 
+
+The hexadecimal number \( 82E2_{16} \) can be expanded as:
+\[ 8 \times 16^3 + 2 \times 16^2 + 14 \times 16^1 + 2 \times 16^0 \]
+
+Calculating the powers of 16:
+\[ 16^0 = 1 \]
+\[ 16^1 = 16 \]
+\[ 16^2 = 256 \]
+\[ 16^3 = 4096 \]
+
+Then multiply by the respective coefficients:
+\[ 8 \times 4096 = 32768 \]
+\[ 2 \times 256 = 512 \]
+\[ 14 \times 16 = 224 \]  (Since \(E_{16} = 14_{10}\))
+\[ 2 \times 1 = 2 \]
+
+Sum these products to get the decimal equivalent of \( 82E2_{16} \):
+\[ 32768 + 512 + 224 + 2 = 33506_{10} \]
+
+### Step 2: Convert \( 7C65_{16} \) to decimal.
+
+The hexadecimal number \( 7C65_{16} \) can be expanded as:
+\[ 7 \times 16^3 + 12 \times 16^2 + 6 \times 16^1 + 5 \times 16^0 \]
+
+Then multiply by the respective coefficients:
+\[ 7 \times 4096 = 28672 \]
+\[ 12 \times 256 = 3072 \]  (Since \(C_{16} = 12_{10}\))
+\[ 6 \times 16 = 96 \]
+\[ 5 \times 1 = 5 \]
+
+Sum these products to get the decimal equivalent of \( 7C65_{16} \):
+\[ 28672 + 3072 + 96 + 5 = 31845_{10} \]
+
+### Step 3: Multiply the decimal equivalents.
+\[ 33506 * 31845 = 1066883070_{10} \]
+
+### Step 4: Convert the decimal result back to hexadecimal.
+
+To convert \( 1066883070_{10} \) to hexadecimal, we repeatedly divide by 16 and note the remainders:
+\[ 1066883070 \div 16 = 66680191\, R14 \]  (14_{10} = E_{16})
+\[ 66680191 \div 16 = 4167511\, R15 \]  (15_{10} = F_{16})
+\[ 4167511 \div 16 = 260469\, R7 \]
+\[ 260469 \div 16 = 16279\, R5 \]
+\[ 16279 \div 16 = 1017\, R7 \]
+\[ 1017 \div 16 = 63\, R9 \]
+\[ 63 \div 16 = 3\, R15 \]  (15_{10} = F_{16})
+\[ 3 \div 16 = 0\, R3 \]
+
+Reading the remainders from bottom to top, we get:
+\[ 1066883070_{10} = 3F9757EF_{16} \]
+
+### Final Answer
+\[ 82E2_{16} * 7C65_{16} = 33506_{10} * 31845_{10} = 1066883070_{10} = 3F9757EF_{16} \]
+
+So, \( 82E2_{16} * 7C65_{16} = 3F9757EF_{16} \).
+
+Summarized Line: \( 82E2_{16} * 7C65_{16} = 33506_{10} * 31845_{10} = 1066883070_{10} = 3F9757EF_{16} \)

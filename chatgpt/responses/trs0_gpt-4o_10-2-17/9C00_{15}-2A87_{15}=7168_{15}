@@ -1,0 +1,52 @@
+First, we need to convert the numbers from base 15 to base 10 to perform the calculation.
+
+Let's start with \(9C00_{15}\):
+- \(9C00_{15}\) in base 10 can be calculated as: \(9 \times 15^3 + C \times 15^2 + 0 \times 15^1 + 0 \times 15^0\).
+
+Where \(C\) equals 12 in decimal.
+
+So, we compute:
+\[9 \times 15^3 = 9 \times 3375 = 30375\]
+\[C \times 15^2 = 12 \times 225 = 2700\]
+
+Adding these together:
+\[30375 + 2700 = 33075\]
+
+Thus, \(9C00_{15} = 33075_{10}\).
+
+Next, let's convert \(2A87_{15}\):
+- \(2A87_{15}\) in base 10 can be calculated as: \(2 \times 15^3 + A \times 15^2 + 8 \times 15^1 + 7 \times 15^0\).
+
+Where \(A\) equals 10 in decimal.
+
+So, we compute:
+\[2 \times 15^3 = 2 \times 3375 = 6750\]
+\[A \times 15^2 = 10 \times 225 = 2250\]
+\[8 \times 15^1 = 8 \times 15 = 120\]
+\[7 \times 15^0 = 7 \times 1 = 7\]
+
+Adding these together:
+\[6750 + 2250 + 120 + 7 = 9127\]
+
+Thus, \(2A87_{15} = 9127_{10}\).
+
+Now, let's subtract these two values in base 10:
+\[33075 - 9127 = 23948\]
+
+Next, we need to convert the result back into base 15.
+
+We repeatedly divide by 15 and note the remainders:
+\[23948 \div 15 = 1596 \text{ remainder } 8\]
+\[1596 \div 15 = 106 \text{ remainder } 6\]
+\[106 \div 15 = 7 \text{ remainder } 1\]
+\[7 \div 15 = 0 \text{ remainder } 7\]
+
+Reading the remainders from last to first, we get:
+\[23948_{10} = 7168_{15}\]
+
+So, the result of \(9C00_{15} - 2A87_{15}\) is:
+
+\[9C00_{15} - 2A87_{15} = 7168_{15}\]
+
+Summarizing in one line:
+\[9C00_{15}(33075_{10}) - 2A87_{15}(9127_{10}) = 7168_{15}(23948_{10})\]

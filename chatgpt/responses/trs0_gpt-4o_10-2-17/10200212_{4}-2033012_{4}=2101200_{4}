@@ -1,0 +1,111 @@
+First, we need to convert the numbers from base 4 to base 10.
+
+Converting \(10200212_4\) to base 10:
+\[
+1 \cdot 4^7 + 0 \cdot 4^6 + 2 \cdot 4^5 + 0 \cdot 4^4 + 0 \cdot 4^3 + 2 \cdot 4^2 + 1 \cdot 4^1 + 2 \cdot 4^0
+\]
+Calculate each term:
+\[
+1 \cdot 4^7 = 1 \cdot 16384 = 16384
+\]
+\[
+0 \cdot 4^6 = 0 \cdot 4096 = 0
+\]
+\[
+2 \cdot 4^5 = 2 \cdot 1024 = 2048
+\]
+\[
+0 \cdot 4^4 = 0 \cdot 256 = 0
+\]
+\[
+0 \cdot 4^3 = 0 \cdot 64 = 0
+\]
+\[
+2 \cdot 4^2 = 2 \cdot 16 = 32
+\]
+\[
+1 \cdot 4^1 = 1 \cdot 4 = 4
+\]
+\[
+2 \cdot 4^0 = 2 \cdot 1 = 2
+\]
+
+Summing these values:
+\[
+16384 + 0 + 2048 + 0 + 0 + 32 + 4 + 2 = 18470
+\]
+
+Now, converting \(2033012_4\) to base 10:
+\[
+2 \cdot 4^6 + 0 \cdot 4^5 + 3 \cdot 4^4 + 3 \cdot 4^3 + 0 \cdot 4^2 + 1 \cdot 4^1 + 2 \cdot 4^0
+\]
+Calculate each term:
+\[
+2 \cdot 4^6 = 2 \cdot 4096 = 8192
+\]
+\[
+0 \cdot 4^5 = 0 \cdot 1024 = 0
+\]
+\[
+3 \cdot 4^4 = 3 \cdot 256 = 768
+\]
+\[
+3 \cdot 4^3 = 3 \cdot 64 = 192
+\]
+\[
+0 \cdot 4^2 = 0 \cdot 16 = 0
+\]
+\[
+1 \cdot 4^1 = 1 \cdot 4 = 4
+\]
+\[
+2 \cdot 4^0 = 2 \cdot 1 = 2
+\]
+
+Summing these values:
+\[
+8192 + 0 + 768 + 192 + 0 + 4 + 2 = 9158
+\]
+
+Subtracting the results:
+\[
+18470 - 9158 = 9312
+\]
+
+Finally, we need to convert 9312 back to base 4:
+\[
+9312 \div 4 = 2328 \quad \text{remainder} \quad 0
+\]
+\[
+2328 \div 4 = 582 \quad \text{remainder} \quad 0
+\]
+\[
+582 \div 4 = 145 \quad \text{remainder} \quad 2
+\]
+\[
+145 \div 4 = 36 \quad \text{remainder} \quad 1
+\]
+\[
+36 \div 4 = 9 \quad \text{remainder} \quad 0
+\]
+\[
+9 \div 4 = 2 \quad \text{remainder} \quad 1
+\]
+\[
+2 \div 4 = 0 \quad \text{remainder} \quad 2
+\]
+
+Reading remainders from bottom to top, we get:
+\[
+9312_{10} = 2101200_4
+\]
+
+Therefore, the final result of \(10200212_4 - 2033012_4\) is:
+\[
+10200212_4 - 2033012_4 = 2101200_4
+\]
+
+Summarized:
+\[
+10200212_4 - 2033012_4 = 18470_{10} - 9158_{10} = 9312_{10} = 2101200_{4}
+\]

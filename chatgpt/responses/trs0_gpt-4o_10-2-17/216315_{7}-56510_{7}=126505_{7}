@@ -1,0 +1,94 @@
+To solve the given equation \( 216315_{7} - 56510_{7} \), we need to convert both numbers from base 7 to base 10, perform the subtraction in base 10, and then, if required, convert the result back to base 7.
+
+### Step 1: Convert \( 216315_7 \) to base 10
+Using positional notation, \( 216315_7 \) can be expressed as:
+\[ 2 \cdot 7^5 + 1 \cdot 7^4 + 6 \cdot 7^3 + 3 \cdot 7^2 + 1 \cdot 7^1 + 5 \cdot 7^0 \]
+
+Now, calculate the powers of 7:
+\[
+7^0 = 1 \\
+7^1 = 7 \\
+7^2 = 49 \\
+7^3 = 343 \\
+7^4 = 2401 \\
+7^5 = 16807
+\]
+
+Substitute these values:
+\[
+2 \cdot 16807 + 1 \cdot 2401 + 6 \cdot 343 + 3 \cdot 49 + 1 \cdot 7 + 5 \cdot 1
+\]
+
+Perform the multiplications:
+\[
+2 \cdot 16807 = 33614 \\
+1 \cdot 2401 = 2401 \\
+6 \cdot 343 = 2058 \\
+3 \cdot 49 = 147 \\
+1 \cdot 7 = 7 \\
+5 \cdot 1 = 5
+\]
+
+Now, add all these results together:
+\[
+33614 + 2401 + 2058 + 147 + 7 + 5 = 38232
+\]
+
+Thus, \( 216315_{7} = 38232_{10} \).
+
+### Step 2: Convert \( 56510_7 \) to base 10
+Using positional notation, \( 56510_7 \) can be expressed as:
+\[ 5 \cdot 7^4 + 6 \cdot 7^3 + 5 \cdot 7^2 + 1 \cdot 7^1 + 0 \cdot 7^0 \]
+
+Using the previously calculated powers of 7:
+\[
+5 \cdot 2401 + 6 \cdot 343 + 5 \cdot 49 + 1 \cdot 7 + 0 \cdot 1
+\]
+
+Perform the multiplications:
+\[
+5 \cdot 2401 = 12005 \\
+6 \cdot 343 = 2058 \\
+5 \cdot 49 = 245 \\
+1 \cdot 7 = 7 \\
+0 \cdot 1 = 0
+\]
+
+Now, add all these results together:
+\[
+12005 + 2058 + 245 + 7 + 0 = 14315
+\]
+
+Thus, \( 56510_{7} = 14315_{10} \).
+
+### Step 3: Perform the subtraction in base 10
+\[
+38232 - 14315 = 23917
+\]
+
+### Step 4: Convert \( 23917_{10} \) back to base 7 (if needed)
+We convert it by repeatedly dividing by 7 and noting the remainders.
+
+\begin{align*}
+23917 \div 7 &= 3416 \quad \text{remainder:} \, 5 \\
+3416 \div 7 &= 488 \quad \text{remainder:} \, 0 \\
+488 \div 7 &= 69 \quad \text{remainder:} \, 5 \\
+69 \div 7 &= 9 \quad \text{remainder:} \, 6 \\
+9 \div 7 &= 1 \quad \text{remainder:} \, 2 \\
+1 \div 7 &= 0 \quad \text{remainder:} \, 1 \\
+\end{align*}
+
+Reading the remainders from bottom to top, we get \( 126505_{7} \).
+
+Thus, \( 216315_{7} - 56510_{7} = 126505_{7} \).
+
+### Summary:
+
+\[
+216315_7 = 38232_{10}, \quad 56510_7 = 14315_{10}, \quad 38232_{10} - 14315_{10} = 23917_{10} = 126505_{7}
+\]
+
+Final Result:
+\[
+216315_{7} - 56510_{7} = 126505_{7}
+\]

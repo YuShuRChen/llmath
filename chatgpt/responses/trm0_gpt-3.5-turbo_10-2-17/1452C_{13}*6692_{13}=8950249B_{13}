@@ -1,0 +1,19 @@
+To multiply two numbers in base 13, we can use the standard multiplication algorithm taught in decimal arithmetic, with carrying over when necessary.
+
+\[
+\begin{array}{cccccccc}
+& & & & 1 & 4 & 5 & 2C_{13} \\
+\times & & & & & 6 & 6 & 9 & 2_{13} \\
+\hline
+& & & & 9 & C & D & 3 & 4 & 8_{13} \\
+& & 9 & C & D & 3 & 4 & 8_{13} & \text{(Carried over from the 1st row)} \\
+\hline
+& A & D & C & F & 5 & E & 6_{13}
+\end{array}
+\]
+
+Therefore, \(1452C_{13} \times 6692_{13} = ADCF5E6_{13}\).
+
+\[
+1452C_{13} \times 6692_{13} = ADCF5E6_{13}
+\]

@@ -1,0 +1,31 @@
+Let's break down the subtraction step-by-step, converting from base 5 to base 10 and then back to base 5 if necessary.
+
+First, convert \( 2033011_5 \) and \( 2004340_5 \) to base 10:
+
+For \( 2033011_5 \):
+\[ 2 \cdot 5^6 + 0 \cdot 5^5 + 3 \cdot 5^4 + 3 \cdot 5^3 + 0 \cdot 5^2 + 1 \cdot 5^1 + 1 \cdot 5^0 \]
+\[ = 2 \cdot 15625 + 0 + 3 \cdot 625 + 3 \cdot 125 + 0 + 1 \cdot 5 + 1 \]
+\[ = 31250 + 0 + 1875 + 375 + 0 + 5 + 1 \]
+\[ = 33506_{10} \]
+
+For \( 2004340_5 \):
+\[ 2 \cdot 5^6 + 0 \cdot 5^5 + 0 \cdot 5^4 + 4 \cdot 5^3 + 3 \cdot 5^2 + 4 \cdot 5^1 + 0 \cdot 5^0 \]
+\[ = 2 \cdot 15625 + 0 + 0 + 4 \cdot 125 + 3 \cdot 25 + 4 \cdot 5 + 0 \]
+\[ = 31250 + 0 + 0 + 500 + 75 + 20 + 0 \]
+\[ = 31845_{10} \]
+
+Now subtract the two base 10 numbers:
+\[ 33506_{10} - 31845_{10} = 1661_{10} \]
+
+Finally, convert \( 1661_{10} \) back to base 5:
+\[ 1661 \div 5 = 332 \text{ remainder } 1 \]
+\[ 332 \div 5 = 66 \text{ remainder } 2 \]
+\[ 66 \div 5 = 13 \text{ remainder } 1 \]
+\[ 13 \div 5 = 2 \text{ remainder } 3 \]
+\[ 2 \div 5 = 0 \text{ remainder } 2 \]
+So, \( 1661_{10} = 23021_5 \).
+
+Hence, the final result is:
+\[ 2033011_{5} - 2004340_{5} = 23021_{5} \]
+
+Summary: \( 2033011_{5} - 2004340_{5} = 33506_{10} - 31845_{10} = 1661_{10} = 23021_{5} \).

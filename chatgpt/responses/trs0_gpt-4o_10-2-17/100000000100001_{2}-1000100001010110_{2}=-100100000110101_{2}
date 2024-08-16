@@ -1,0 +1,25 @@
+Given the binary numbers \(100000000100001_2\) and \(1000100001010110_2\), we will first convert these binary numbers to decimal to perform the subtraction, then convert the result back to binary.
+
+Starting with \(100000000100001_2\):
+\[ 1 \cdot 2^{16} + 0 \cdot 2^{15} + 0 \cdot 2^{14} + 0 \cdot 2^{13} + 0 \cdot 2^{12} + 0 \cdot 2^{11} + 0 \cdot 2^{10} + 0 \cdot 2^9 + 1 \cdot 2^8 + 0 \cdot 2^7 + 0 \cdot 2^6 + 0 \cdot 2^5 + 0 \cdot 2^4 + 0 \cdot 2^3 + 0 \cdot 2^2 + 0 \cdot 2^1 + 1 \cdot 2^0 \]
+\[ = 2^{16} + 2^8 + 2^0 \]
+\[ = 65536 + 256 + 1 \]
+\[ = 65793 \]
+
+Next, for \(1000100001010110_2\):
+\[ 1 \cdot 2^{15} + 0 \cdot 2^{14} + 0 \cdot 2^{13} + 0 \cdot 2^{12} + 1 \cdot 2^{11} + 0 \cdot 2^{10} + 0 \cdot 2^9 + 0 \cdot 2^8 + 1 \cdot 2^7 + 0 \cdot 2^6 + 1 \cdot 2^5 + 0 \cdot 2^4 + 1 \cdot 2^3 + 1 \cdot 2^2 + 1 \cdot 2^1 + 0 \cdot 2^0 \]
+\[ = 2^{15} + 2^{11} + 2^7 + 2^5 + 2^3 + 2^2 + 2 \]
+\[ = 32768 + 2048 + 128 + 32 + 8 + 4 + 2 \]
+\[ = 34990 \]
+
+Perform the subtraction in decimal:
+\[ 65793 - 34990 = 30803 \]
+
+Convert the result, \(30803_{10}\), back to binary:
+\[ 30803_{10} = 111100001001011_2 \]
+
+So the original equation and result, including intermediate steps, is:
+\[ 100000000100001_{2} - 1000100001010110_{2} = 65793_{10} - 34990_{10} = 30803_{10} = 111100001001011_{2} \]
+
+Thus,
+\[ 100000000100001_{2} - 1000100001010110_{2} = 111100001001011_2 \]

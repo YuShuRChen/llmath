@@ -1,0 +1,11 @@
+To solve this equation, we first convert both numbers to base 10, multiply them, and then convert the result back to base 13.
+
+112A8_{13} = 1*13^4 + 1*13^3 + 2*13^2 + 10*13^1 + 8*13^0 = 13,621_{10}
+A8B0_{13} = 10*13^3 + 8*13^2 + 11*13^1 + 0*13^0 = 11,620_{10}
+
+Multiplying 13,621_{10} by 11,620_{10} gives us 158,324,420_{10}
+
+Converting 158,324,420_{10} to base 13:
+158,324,420_{10} = 1*13^7 + 4*13^6 + 7*13^5 + 13*13^4 + 5*13^3 + 10*13^2 + 5*13^1 + 13*13^0 = 14275_{13}
+
+Therefore, 112A8_{13} * A8B0_{13} = 14275_{13}.

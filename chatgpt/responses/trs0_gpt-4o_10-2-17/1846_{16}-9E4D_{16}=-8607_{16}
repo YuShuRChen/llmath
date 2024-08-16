@@ -1,0 +1,53 @@
+We need to subtract the hexadecimal numbers \(1846_{16}\) and \(9E4D_{16}\).
+
+First, we'll convert these hexadecimal values to decimal (base-10) for easier computation.
+
+For \(1846_{16}\):
+
+\[ 1 \times 16^3 + 8 \times 16^2 + 4 \times 16^1 + 6 \times 16^0 \]
+
+Breaking that down:
+
+\[ 1 \times 4096 + 8 \times 256 + 4 \times 16 + 6 \times 1 \]
+
+\[ 4096 + 2048 + 64 + 6 = 6214_{10} \]
+
+For \(9E4D_{16}\):
+
+\[ 9 \times 16^3 + E \times 16^2 + 4 \times 16^1 + D \times 16^0 \]
+
+Here, \(E\) in hexadecimal represents 14 in decimal, and \(D\) represents 13 in decimal. Breaking it down:
+
+\[ 9 \times 4096 + 14 \times 256 + 4 \times 16 + 13 \times 1 \]
+
+\[ 36864 + 3584 + 64 + 13 = 40525_{10} \]
+
+Now, we subtract these decimal numbers:
+
+\[ 6214 - 40525 \]
+
+This results in a negative number:
+
+\[ 6214 - 40525 = -34311_{10} \]
+
+To convert \(-34311_{10}\) back to hexadecimal, we need the two's complement form (if we are assuming a specific bit-width) or just representing it as a straightforward negative hexadecimal.
+
+Converting 34311 to hexadecimal:
+
+First, divide by 16:
+
+\[ 34311 \div 16 = 2144, \text{remainder } 7 \]
+\[ 2144 \div 16 = 134, \text{remainder } 0 \]
+\[ 134 \div 16 = 8, \text{remainder } 6 \]
+\[ 8 \div 16 = 0, \text{remainder } 8 \]
+
+So, \(34311_{10} = 8607_{16}\).
+
+Therefore, \(-34311_{10} = -8607_{16}\).
+
+Putting it all together:
+
+\[ 1846_{16} - 9E4D_{16} = 6214_{10} - 40525_{10} = -34311_{10} = -8607_{16} \]
+
+So, in one line: 
+\[ 1846_{16} - 9E4D_{16} = 6214_{10} - 40525_{10} = -34311_{10} = -8607_{16} \]

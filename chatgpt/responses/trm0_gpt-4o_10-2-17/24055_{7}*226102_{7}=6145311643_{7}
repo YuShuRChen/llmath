@@ -1,0 +1,38 @@
+To solve the problem \(24055_{7} \times 226102_{7}\), we need to first convert each number from base 7 to base 10, perform the multiplication in base 10, and then convert the result back to base 7.
+
+First, convert \(24055_{7}\) to base 10:
+\[ 24055_7 = 2 \cdot 7^4 + 4 \cdot 7^3 + 0 \cdot 7^2 + 5 \cdot 7^1 + 5 \cdot 7^0 \]
+\[ = 2 \cdot 2401 + 4 \cdot 343 + 0 \cdot 49 + 5 \cdot 7 + 5 \cdot 1 \]
+\[ = 4802 + 1372 + 0 + 35 + 5 \]
+\[ = 6214_{10} \]
+
+Next, convert \(226102_{7}\) to base 10:
+\[ 226102_7 = 2 \cdot 7^5 + 2 \cdot 7^4 + 6 \cdot 7^3 + 1 \cdot 7^2 + 0 \cdot 7^1 + 2 \cdot 7^0 \]
+\[ = 2 \cdot 16807 + 2 \cdot 2401 + 6 \cdot 343 + 1 \cdot 49 + 0 \cdot 7 + 2 \cdot 1 \]
+\[ = 33614 + 4802 + 2058 + 49 + 0 + 2 \]
+\[ = 40525_{10} \]
+
+Now multiply the two base 10 numbers:
+\[ 6214 \cdot 40525 = 251770850_{10} \]
+
+Finally, convert \(251770850_{10}\) back to base 7:
+
+To convert to base 7, perform successive division by 7 and capture the remainders:
+\[ 251770850 \div 7 = 35967264 \quad remainder \: 2 \]
+\[ 35967264 \div 7 = 5138180 \quad remainder \: 4 \]
+\[ 5138180 \div 7 = 734026 \quad remainder \: 2 \]
+\[ 734026 \div 7 = 104860 \quad remainder \: 6 \]
+\[ 104860 \div 7 = 14980 \quad remainder \: 0 \]
+\[ 14980 \div 7 = 2140 \quad remainder \: 0 \]
+\[ 2140 \div 7 = 305 \quad remainder \: 5 \]
+\[ 305 \div 7 = 43 \quad remainder \: 4 \]
+\[ 43 \div 7 = 6 \quad remainder \: 1 \]
+\[ 6 \div 7 = 0 \quad remainder \: 6 \]
+
+Thus, \(251770850_{10} = 61450402642_{7}\).
+
+So, \( 24055_{7} \times 226102_{7} = 61450402642_{7} \).
+
+Original equation, intermediate steps, and final result:
+
+\[ 24055_{7} \times 226102_{7} \rightarrow 6214_{10} \times 40525_{10} = 251770850_{10} \rightarrow 61450402642_{7} \]

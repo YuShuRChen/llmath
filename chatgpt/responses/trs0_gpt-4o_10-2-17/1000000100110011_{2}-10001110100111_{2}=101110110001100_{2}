@@ -1,0 +1,84 @@
+First, we need to convert the binary numbers to their decimal (base-10) equivalents.
+
+For the first number, \(1000000100110011_{2}\):
+\[
+1 \cdot 2^{15} + 0 \cdot 2^{14} + 0 \cdot 2^{13} + 0 \cdot 2^{12} + 0 \cdot 2^{11} + 0 \cdot 2^{10} + 0 \cdot 2^{9} + 1 \cdot 2^{8} + 0 \cdot 2^{7} + 0 \cdot 2^{6} + 1 \cdot 2^{5} + 1 \cdot 2^{4} + 0 \cdot 2^{3} + 0 \cdot 2^{2} + 1 \cdot 2^{1} + 1 \cdot 2^{0}
+\]
+\[
+= 32768 + 256 + 32 + 16 + 2 + 1 = 33075_{10}
+\]
+
+For the second number, \(10001110100111_{2}\):
+\[
+1 \cdot 2^{13} + 0 \cdot 2^{12} + 0 \cdot 2^{11} + 0 \cdot 2^{10} + 1 \cdot 2^{9} + 1 \cdot 2^{8} + 1 \cdot 2^{7} + 0 \cdot 2^{6} + 1 \cdot 2^{5} + 0 \cdot 2^{4} + 0 \cdot 2^{3} + 1 \cdot 2^{2} + 1 \cdot 2^{1} + 1 \cdot 2^{0}
+\]
+\[
+= 8192 + 512 + 256 + 128 + 32 + 4 + 2 + 1 = 9127_{10}
+\]
+
+Now, we subtract the second decimal number from the first:
+\[
+33075_{10} - 9127_{10} = 23948_{10}
+\]
+
+Finally, we convert the result back to binary:
+\[
+23948_{10}
+\]
+\[
+23948 \div 2 = 11974 \text{ remainder }0
+\]
+\[
+11974 \div 2 = 5987  \text{ remainder }0
+\]
+\[
+5987 \div 2 = 2993  \text{ remainder }1
+\]
+\[
+2993 \div 2 = 1496  \text{ remainder }1
+\]
+\[
+1496 \div 2 = 748   \text{ remainder }0
+\]
+\[
+748 \div 2 = 374   \text{ remainder }0
+\]
+\[
+374 \div 2 = 187   \text{ remainder }0
+\]
+\[
+187 \div 2 = 93    \text{ remainder }1
+\]
+\[
+93 \div 2 = 46    \text{ remainder }1
+\]
+\[
+46 \div 2 = 23    \text{ remainder }0
+\]
+\[
+23 \div 2 = 11    \text{ remainder }1
+\]
+\[
+11 \div 2 = 5     \text{ remainder }1
+\]
+\[
+5 \div 2 = 2     \text{ remainder }1
+\]
+\[
+2 \div 2 = 1     \text{ remainder }0
+\]
+\[
+1 \div 2 = 0     \text{ remainder }1
+\]
+
+Reading the remainders from bottom to top, we get:
+\[
+23948_{10} = 101110110001100_{2}
+\]
+
+So, our final result is:
+\[
+1000000100110011_{2} - 10001110100111_{2} = 101110110001100_{2}
+\]
+
+Summary: \( 1000000100110011_{2} - 10001110100111_{2} = 33075_{10} - 9127_{10} = 23948_{10} = 101110110001100_{2} \)

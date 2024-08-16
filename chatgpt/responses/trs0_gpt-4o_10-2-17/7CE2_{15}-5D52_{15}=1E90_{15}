@@ -1,0 +1,41 @@
+To perform the subtraction, we first convert each base-15 number to decimal (base 10).
+
+Starting with \(7CE2_{15}\):
+\[ 7 \times 15^3 + C \times 15^2 + E \times 15^1 + 2 \times 15^0 \]
+Given that C = 12 and E = 14 (using standard hexadecimal values for digits beyond 9),
+\[ 7 \times 3375 + 12 \times 225 + 14 \times 15 + 2 \]
+\[ = 23625 + 2700 + 210 + 2 \]
+\[ = 26537_{10} \]
+
+Next, convert \(5D52_{15}\):
+\[ 5 \times 15^3 + D \times 15^2 + 5 \times 15^1 + 2 \times 15^0 \]
+Given that D = 13,
+\[ 5 \times 3375 + 13 \times 225 + 5 \times 15 + 2 \]
+\[ = 16875 + 2925 + 75 + 2 \]
+\[ = 19877_{10} \]
+
+Now perform the decimal subtraction:
+\[ 26537_{10} - 19877_{10} = 6650_{10} \]
+
+Finally, convert the result back to base-15:
+Start with the largest power of 15 less than 6650:
+\[ 6650 \div 3375 \approx 1 \rightarrow \text{Coefficient for } 15^3 \]
+\[ 6650 - 1 \times 3375 = 3275 \]
+
+Next:
+\[ 3275 \div 225 \approx 14 \rightarrow \text{Coefficient for } 15^2 \]
+\[ 3275 - 14 \times 225 = 175 \]
+
+Next:
+\[ 175 \div 15 \approx 11 \rightarrow \text{Coefficient for } 15^1 \]
+\[ 175 - 11 \times 15 = 10 \]
+
+Lastly, the remaining part is the coefficient for \( 15^0 \):
+\[ 10 \]
+
+Therefore, the result in base-15 is:
+\[ 1EBA_{15} \]
+
+So, \( 7CE2_{15} - 5D52_{15} = 1EBA_{15} \).
+
+In one line: \( 7CE2_{15} - 5D52_{15} = 7CE2_{15} \rightarrow 26537_{10} - 5D52_{15} \rightarrow 19877_{10} = 6650_{10} \rightarrow 1EBA_{15} \).

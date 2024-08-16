@@ -1,0 +1,7 @@
+First, we can start by performing the subtraction in base 15:
+
+D - 5 = 8
+C - 9 = -1, regroup 1 to the left: 1C
+4 - 4 = 0
+
+Therefore, B4DC_{15} - 4395_{15} = 1C80_{15}

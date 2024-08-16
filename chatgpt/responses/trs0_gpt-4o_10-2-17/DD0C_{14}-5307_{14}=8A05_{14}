@@ -1,0 +1,140 @@
+To solve the equation \(DD0C_{14} - 5307_{14}\), we need to convert both numbers from base 14 to base 10, perform the subtraction, and convert the result back to base 14.
+
+Let's convert \(DD0C_{14}\) to base 10 first. 
+
+In base 14:
+\[
+DD0C_{14} = D \cdot 14^3 + D \cdot 14^2 + 0 \cdot 14^1 + C \cdot 14^0 
+\]
+where \(D = 13_{10}\) and \(C = 12_{10}\).
+
+\[
+DD0C_{14} = 13 \cdot 14^3 + 13 \cdot 14^2 + 0 \cdot 14^1 + 12 \cdot 14^0 
+\]
+
+Calculating the powers of 14:
+\[
+14^0 = 1
+\]
+\[
+14^1 = 14
+\]
+\[
+14^2 = 196
+\]
+\[
+14^3 = 2744
+\]
+
+Now substitute back in:
+\[
+DD0C_{14} = 13 \cdot 2744 + 13 \cdot 196 + 0 \cdot 14 + 12 \cdot 1 
+\]
+
+Perform the multiplications:
+\[
+13 \cdot 2744 = 35672
+\]
+\[
+13 \cdot 196 = 2548
+\]
+\[
+0 \cdot 14 = 0
+\]
+\[
+12 \cdot 1 = 12
+\]
+
+Add them together:
+\[
+35672 + 2548 + 0 + 12 = 38232_{10}
+\]
+
+Now let's convert \(5307_{14}\) to base 10.
+
+In base 14:
+\[
+5307_{14} = 5 \cdot 14^3 + 3 \cdot 14^2 + 0 \cdot 14^1 + 7 \cdot 14^0 
+\]
+
+Substitute the powers of 14:
+\[
+5307_{14} = 5 \cdot 2744 + 3 \cdot 196 + 0 \cdot 14 + 7 \cdot 1 
+\]
+
+Perform the multiplications:
+\[
+5 \cdot 2744 = 13720
+\]
+\[
+3 \cdot 196 = 588
+\]
+\[
+0 \cdot 14 = 0
+\]
+\[
+7 \cdot 1 = 7
+\]
+
+Add them together:
+\[
+13720 + 588 + 0 + 7 = 14315_{10}
+\]
+
+Now subtract the two results in base 10:
+\[
+38232_{10} - 14315_{10} = 23917_{10}
+\]
+
+Finally, convert \(23917_{10}\) back to base 14. 
+
+Divide \(23917_{10}\) by increasing powers of \(14\):
+
+The largest power less than 23917 is \(14^3 = 2744\):
+
+\[
+23917 \div 2744 = 8 \quad \text{(since 8 \cdot 2744 = 21952)}
+\]
+
+\[
+23917 - 21952 = 1965
+\]
+
+Next power is \(14^2 = 196\):
+
+\[
+1965 \div 196 = 10 \quad \text{(since 10 \cdot 196 = 1960)}
+\]
+
+\[
+1965 - 1960 = 5
+\]
+
+Next power is \(14^1 = 14\):
+
+\[
+5 \div 14 = 0
+\]
+
+Finally, \(14^0 = 1\):
+
+\[
+5 \div 1 = 5
+\]
+
+Therefore, \(23917_{10} = 80105_{14}\).
+
+To sum up:
+\[
+DD0C_{14} - 5307_{14} = 38232_{10} - 14315_{10} = 23917_{10} = 80105_{14}
+\]
+
+So, the final result is:
+\[
+DD0C_{14} - 5307_{14} = 80105_{14}
+\]
+
+Summarized:
+\[
+DD0C_{14} - 5307_{14} = 38232_{10} - 14315_{10} = 80105_{14}
+\]

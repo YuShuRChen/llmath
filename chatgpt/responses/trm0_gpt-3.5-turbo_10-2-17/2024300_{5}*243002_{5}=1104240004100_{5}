@@ -1,0 +1,12 @@
+To find the product of 2024300_5 and 243002_5, we will first convert these base-5 numbers into base-10, multiply them, and then convert the result back into base-5.
+
+2024300_5 = 2*5^6 + 0*5^5 + 2*5^4 + 4*5^3 + 3*5^2 + 0*5^1 + 0*5^0 = 1250
+243002_5 = 2*5^5 + 4*5^4 + 3*5^3 + 0*5^2 + 0*5^1 + 2*5^0 = 622
+
+1250 * 622 = 777500
+
+Converting 777500 to base-5:
+
+777500 = 2*5^6 + 1*5^5 + 0*5^4 + 4*5^3 + 0*5^2 + 0*5^1 + 0*5^0 = 1202140_5
+
+Therefore, 2024300_5 * 243002_5 = 1202140_{5}.

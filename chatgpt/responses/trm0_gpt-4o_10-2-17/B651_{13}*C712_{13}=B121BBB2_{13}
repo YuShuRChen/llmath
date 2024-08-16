@@ -1,0 +1,36 @@
+To solve \( B651_{13} \times C712_{13} \), we first need to convert these base-13 numbers to base-10.
+
+1. Converting \( B651_{13} \) to base-10:
+- \( B = 11_{10} \)
+- \( B651_{13} = 11 \times 13^3 + 6 \times 13^2 + 5 \times 13^1 + 1 \times 13^0 \)
+
+Calculating step-by-step:
+- \( 11 \times 13^3 = 11 \times 2197 = 24167 \)
+- \( 6 \times 13^2 = 6 \times 169 = 1014 \)
+- \( 5 \times 13^1 = 5 \times 13 = 65 \)
+- \( 1 \times 13^0 = 1 \)
+
+Summing these:
+- \( 24167 + 1014 + 65 + 1 = 25247_{10} \)
+
+2. Converting \( C712_{13} \) to base-10:
+- \( C = 12_{10} \)
+- \( C712_{13} = 12 \times 13^3 + 7 \times 13^2 + 1 \times 13^1 + 2 \times 13^0 \)
+
+Calculating step-by-step:
+- \( 12 \times 13^3 = 12 \times 2197 = 26364 \)
+- \( 7 \times 13^2 = 7 \times 169 = 1183 \)
+- \( 1 \times 13^1 = 1 \times 13 = 13 \)
+- \( 2 \times 13^0 = 2 \)
+
+Summing these:
+- \( 26364 + 1183 + 13 + 2 = 27562_{10} \)
+
+3. Multiplying the two base-10 numbers:
+- \( 25247 \times 27562 \)
+
+Performing the multiplication:
+- \( 25247 \times 27562 = 695828214 \)
+
+Now to summarize:
+\( B651_{13} \times C712_{13} = 25247_{10} \times 27562_{10} = 695828214_{10} \)

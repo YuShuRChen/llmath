@@ -1,0 +1,104 @@
+To solve the equation \(17A72_{11} - 19787_{11}\), let's convert each base-11 number to base-10, perform the subtraction in base-10, and then convert the result back to base-11.
+
+1. **Convert \(17A72_{11}\) to base-10:**
+
+   \[
+   17A72_{11} = 1 \cdot 11^4 + 7 \cdot 11^3 + A \cdot 11^2 + 7 \cdot 11^1 + 2 \cdot 11^0
+   \]
+
+   Here, \( A = 10 \) in base-10.
+
+   Calculate each term:
+
+   \[
+   1 \cdot 11^4 = 1 \cdot 14641 = 14641
+   \]
+   \[
+   7 \cdot 11^3 = 7 \cdot 1331 = 9317
+   \]
+   \[
+   10 \cdot 11^2 = 10 \cdot 121 = 1210
+   \]
+   \[
+   7 \cdot 11^1 = 7 \cdot 11 = 77
+   \]
+   \[
+   2 \cdot 11^0 = 2 \cdot 1 = 2
+   \]
+
+   Sum these results:
+
+   \[
+   14641 + 9317 + 1210 + 77 + 2 = 25247
+   \]
+
+   So, \( 17A72_{11} = 25247_{10} \).
+
+2. **Convert \(19787_{11}\) to base-10:**
+
+   \[
+   19787_{11} = 1 \cdot 11^4 + 9 \cdot 11^3 + 7 \cdot 11^2 + 8 \cdot 11^1 + 7 \cdot 11^0
+   \]
+
+   Calculate each term:
+
+   \[
+   1 \cdot 11^4 = 1 \cdot 14641 = 14641
+   \]
+   \[
+   9 \cdot 11^3 = 9 \cdot 1331 = 11979
+   \]
+   \[
+   7 \cdot 11^2 = 7 \cdot 121 = 847
+   \]
+   \[
+   8 \cdot 11^1 = 8 \cdot 11 = 88
+   \]
+   \[
+   7 \cdot 11^0 = 7 \cdot 1 = 7
+   \]
+
+   Sum these results:
+
+   \[
+   14641 + 11979 + 847 + 88 + 7 = 27562
+   \]
+
+   So, \( 19787_{11} = 27562_{10} \).
+
+3. **Subtract the base-10 equivalents:**
+
+   \[
+   25247_{10} - 27562_{10} = -2315_{10}
+   \]
+
+4. **Convert \(-2315_{10}\) back to base-11:**
+
+   Since we are working with a negative number, we find the magnitude first:
+
+   - Divide \(-2315\) by 11 and find remainders:
+   
+   \[
+   \begin{array}{c}
+   2315 \div 11 = 210 \quad \text{remainder } 5 \\
+   210 \div 11 = 19 \quad \text{remainder } 1 \\
+   19 \div 11 = 1 \quad \text{remainder } 8 \\
+   1 \div 11 = 0 \quad \text{remainder } 1 \\
+   \end{array}
+   \]
+
+   So, \( 2315_{10} = 1815_{11} \).
+
+   Thus, \(-2315_{10} = -1815_{11}\).
+
+5. **Final result:**
+
+   The original equation \(17A72_{11} - 19787_{11}\) becomes:
+   
+   \[
+   25247_{10} - 27562_{10} = -2315_{10} = -1815_{11}
+   \]
+
+\[
+17A72_{11} - 19787_{11} = 25247_{10} - 27562_{10} = -2315_{10} = -1815_{11}
+\]

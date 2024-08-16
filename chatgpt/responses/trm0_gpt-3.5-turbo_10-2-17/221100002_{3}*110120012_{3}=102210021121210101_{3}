@@ -1,0 +1,11 @@
+To multiply these two numbers, we first convert them to base 10, perform the multiplication, and then convert the result back to base 3.
+
+$221100002_{3} = 2*3^7 + 2*3^6 + 1*3^5 + 1*3^2 = 1458_{10}$
+
+$110120012_{3} = 1*3^7 + 1*3^5 + 1*3^3 + 2*3^2 = 145_{10}$
+
+$1458_{10} * 145_{10} = 211710_{10}$
+
+Converting $211710_{10}$ to base 3 gives $1011221000_{3}$.
+
+Therefore, $221100002_{3} * 110120012_{3} = 1011221000_{3}$.

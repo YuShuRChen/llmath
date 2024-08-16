@@ -1,0 +1,47 @@
+Firstly, to perform the subtraction, we will convert each number from base-5 to base-10.
+
+Starting with \( 1011132_{5} \):
+To convert this base-5 number to base-10, we follow:
+\[ 1011132_{5} = 1 \cdot 5^6 + 0 \cdot 5^5 + 1 \cdot 5^4 + 1 \cdot 5^3 + 1 \cdot 5^2 + 3 \cdot 5^1 + 2 \cdot 5^0 \]
+
+Calculating each term separately:
+\[ 1 \cdot 5^6 = 15625 \]
+\[ 0 \cdot 5^5 = 0 \]
+\[ 1 \cdot 5^4 = 625 \]
+\[ 1 \cdot 5^3 = 125 \]
+\[ 1 \cdot 5^2 = 25 \]
+\[ 3 \cdot 5^1 = 15 \]
+\[ 2 \cdot 5^0 = 2 \]
+
+Summing these values:
+\[ 15625 + 0 + 625 + 125 + 25 + 15 + 2 = 16417 \]
+
+So, \( 1011132_{5} = 16417_{10} \).
+
+Now, converting \( 2104102_{5} \) to base-10:
+\[ 2104102_{5} = 2 \cdot 5^6 + 1 \cdot 5^5 + 0 \cdot 5^4 + 4 \cdot 5^3 + 1 \cdot 5^2 + 0 \cdot 5^1 + 2 \cdot 5^0 \]
+
+Calculating each term separately:
+\[ 2 \cdot 5^6 = 31250 \]
+\[ 1 \cdot 5^5 = 3125 \]
+\[ 0 \cdot 5^4 = 0 \]
+\[ 4 \cdot 5^3 = 500 \]
+\[ 1 \cdot 5^2 = 25 \]
+\[ 0 \cdot 5^1 = 0 \]
+\[ 2 \cdot 5^0 = 2 \]
+
+Summing these values:
+\[ 31250 + 3125 + 0 + 500 + 25 + 0 + 2 = 34802 \]
+
+So, \( 2104102_{5} = 34802_{10} \).
+
+Now perform the subtraction in base-10:
+\[ 16417_{10} - 34802_{10} \]
+
+This results in:
+\[ 16417 - 34802 = -18385 \]
+
+So, \( 1011132_{5} - 2104102_{5} = -18385_{10} \).
+
+Summarized:
+\[ 1011132_{5} - 2104102_{5} = 16417_{10} - 34802_{10} = -18385_{10} \]

@@ -1,0 +1,98 @@
+First, we need to convert the numbers from base 11 to base 10 for easier computation.
+
+To convert \( 21515_{11} \) to base 10:
+\[
+2 \cdot 11^4 + 1 \cdot 11^3 + 5 \cdot 11^2 + 1 \cdot 11^1 + 5 \cdot 11^0
+\]
+Calculating each term:
+\[
+2 \cdot 14641 = 29282
+\]
+\[
+1 \cdot 1331 = 1331
+\]
+\[
+5 \cdot 121 = 605
+\]
+\[
+1 \cdot 11 = 11
+\]
+\[
+5 \cdot 1 = 5
+\]
+Adding these together:
+\[
+29282 + 1331 + 605 + 11 + 5 = 31234
+\]
+So, \( 21515_{11} \) in base 10 is \( 31234_{10} \).
+
+Next, we need to convert \( 166A2_{11} \) to base 10. Here, \( A \) represents 10 in base 11.
+\[
+1 \cdot 11^4 + 6 \cdot 11^3 + 6 \cdot 11^2 + 10 \cdot 11^1 + 2 \cdot 11^0
+\]
+Calculating each term:
+\[
+1 \cdot 14641 = 14641
+\]
+\[
+6 \cdot 1331 = 7986
+\]
+\[
+6 \cdot 121 = 726
+\]
+\[
+10 \cdot 11 = 110
+\]
+\[
+2 \cdot 1 = 2
+\]
+Adding these together:
+\[
+14641 + 7986 + 726 + 110 + 2 = 23465
+\]
+So, \( 166A2_{11} \) in base 10 is \( 23465_{10} \).
+
+Now we subtract the base 10 equivalents:
+\[
+31234 - 23465 = 7769
+\]
+
+Finally, we need to convert \( 7769 \) from base 10 back to base 11.
+
+To convert \( 7769 \) to base 11, we divide by powers of 11 and determine the coefficients:
+\[
+7769 \div 11^3 = 7769 \div 1331 \approx 5 \quad \text{(the integer quotient)}
+\]
+So, the coefficient of \( 11^3 \) is 5:
+\[
+7769 - 5 \cdot 1331 = 7769 - 6655 = 1114
+\]
+Next, for \( 11^2 \):
+\[
+1114 \div 121 \approx 9
+\]
+So, the coefficient of \( 11^2 \) is 9:
+\[
+1114 - 9 \cdot 121 = 1114 - 1089 = 25
+\]
+Next, for \( 11^1 \):
+\[
+25 \div 11 = 2
+\]
+So, the coefficient of \( 11^1 \) is 2:
+\[
+25 - 2 \cdot 11 = 25 - 22 = 3
+\]
+Finally, for \( 11^0 \):
+\[
+3 \div 1 = 3
+\]
+So, the coefficient of \( 11^0 \) is 3.
+
+Putting it all together, we get:
+\( 7769_{10} = 5923_{11} \).
+
+Therefore, the original equation with the intermediate steps and final result is:
+\[
+21515_{11} - 166A2_{11} = 31234_{10} - 23465_{10} = 7769_{10} = 5923_{11}
+\]

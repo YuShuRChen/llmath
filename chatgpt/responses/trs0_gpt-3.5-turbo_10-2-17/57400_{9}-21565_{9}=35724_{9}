@@ -1,0 +1,7 @@
+First, we need to subtract the numbers in base 9:
+
+0 - 5 = -5. In base 9, we need to borrow 1 from the next column, so we have 9 - 5 = 4 in the one's place.
+(1 - 1) - 6 = -6. We borrow 1 from the next column, so we have 9 - 6 = 3 in the nine's place.
+7 - 5 = 2.
+
+Therefore, 57400_{9} - 21565_{9} = 35834_{9}.

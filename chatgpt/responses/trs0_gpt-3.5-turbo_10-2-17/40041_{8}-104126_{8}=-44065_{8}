@@ -1,0 +1,22 @@
+To calculate the result of \( 40041_{8} - 104126_{8} \), we need to first convert the numbers to base 10, then perform the subtraction, and finally convert the result back to base 8.
+
+Converting \( 40041_{8} \) to base 10:
+
+\( 40041_{8} = 4*8^{4} + 0*8^{3} + 0*8^{2} + 4*8^{1} + 1*8^{0} = 4*4096 + 4*8 + 1 = 16384 + 32 + 1 = 16417 \)
+
+Converting \( 104126_{8} \) to base 10:
+
+\( 104126_{8} = 1*8^{5} + 0*8^{4} + 4*8^{3} + 1*8^{2} + 2*8^{1} + 6*8^{0} = 32768 + 512 + 32 + 8 + 6 = 33316 \)
+
+Performing the subtraction: \( 16417 - 33316 = -16899 \)
+
+Converting the result back to base 8:
+
+Since the result is negative, we need to consider its absolute value and include a negative sign at the end.
+
+The absolute value of -16899 is 16899.
+
+Converting 16899 to base 8:  
+\( 16899 = 3*8^{4} + 5*8^{3} + 0*8^{2} + 0*8^{1} + 3*8^{0} = 3*4096 + 5*512 + 3 = 12288 + 2560 + 3 = 14851 \)
+
+Thus, \( 40041_{8} - 104126_{8} = -14851_{8} \).

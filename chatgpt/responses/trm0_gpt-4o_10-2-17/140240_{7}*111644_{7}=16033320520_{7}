@@ -1,0 +1,96 @@
+To compute the product of two numbers in base 7, follow these steps: 
+
+1. Convert each number from base 7 to base 10.
+2. Multiply the base 10 numbers.
+3. Convert the result back to base 7.
+
+### Step 1: Convert from base 7 to base 10
+
+#### Convert \( 140240_7 \)
+
+The digits of \( 140240_7 \) are \( 1, 4, 0, 2, 4, 0 \) with place values \( 7^5, 7^4, 7^3, 7^2, 7^1, 7^0 \).
+
+\[
+140240_7 = 1 \cdot 7^5 + 4 \cdot 7^4 + 0 \cdot 7^3 + 2 \cdot 7^2 + 4 \cdot 7^1 + 0 \cdot 7^0 
+\]
+\[
+= 1 \cdot 16807 + 4 \cdot 2401 + 0 \cdot 343 + 2 \cdot 49 + 4 \cdot 7 + 0 \cdot 1 
+\]
+\[
+= 16807 + 9604 + 0 + 98 + 28 + 0 
+\]
+\[
+= 26437_{10}
+\]
+
+#### Convert \( 111644_7 \)
+
+The digits of \( 111644_7 \) are \( 1, 1, 1, 6, 4, 4 \) with place values \( 7^5, 7^4, 7^3, 7^2, 7^1, 7^0 \).
+
+\[
+111644_7 = 1 \cdot 7^5 + 1 \cdot 7^4 + 1 \cdot 7^3 + 6 \cdot 7^2 + 4 \cdot 7^1 + 4 \cdot 7^0 
+\]
+\[
+= 1 \cdot 16807 + 1 \cdot 2401 + 1 \cdot 343 + 6 \cdot 49 + 4 \cdot 7 + 4 \cdot 1 
+\]
+\[
+= 16807 + 2401 + 343 + 294 + 28 + 4 
+\]
+\[
+= 19877_{10}
+\]
+
+### Step 2: Multiply the base 10 numbers
+
+\[
+26437_{10} \times 19877_{10} = 525761749_{10}
+\]
+
+### Step 3: Convert the result back to base 7
+
+To convert \( 525761749_{10} \) to base 7, we repeatedly divide by 7 and track the remainders.
+
+\[
+525761749 ÷ 7 = 75108821 \quad \text{remainder } 2
+\]
+\[
+75108821 ÷ 7 = 10729831 \quad \text{remainder } 4
+\]
+\[
+10729831 ÷ 7 = 1532833 \quad \text{remainder } 0
+\]
+\[
+1532833 ÷ 7 = 218976 \quad \text{remainder } 1
+\]
+\[
+218976 ÷ 7 = 31282 \quad \text{remainder } 2
+\]
+\[
+31282 ÷ 7 = 4475 \quad \text{remainder } 7
+\]
+\[
+4475 ÷ 7 = 639 \quad \text{remainder } 2
+\]
+\[
+639 ÷ 7 = 91 \quad \text{remainder } 2
+\]
+\[
+91 ÷ 7 = 13 \quad \text{remainder } 0
+\]
+\[
+13 ÷ 7 = 1 \quad \text{remainder } 6
+\]
+\[
+1 ÷ 7 = 0 \quad \text{remainder } 1
+\]
+
+Reading the remainders from last to first gives us \( 16022702142_7 \).
+
+So, the final product is 
+
+\[
+140240_{7} \times 111644_{7} = 16022702142_{7} 
+\]
+
+Summary:
+140240_{7}*111644_{7} = (140240_{7} = 26437_{10}) * (111644_{7} = 19877_{10}) = 525761749_{10} = 16022702142_{7}

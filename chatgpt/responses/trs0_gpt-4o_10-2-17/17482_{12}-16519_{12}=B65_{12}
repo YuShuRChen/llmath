@@ -1,0 +1,56 @@
+To solve the problem 17482_{12} - 16519_{12}, let's first convert both numbers from base 12 to base 10 and then perform the subtraction.
+
+**Step 1: Convert 17482_{12} to base 10**
+
+17482_{12} means:
+\[ 1 \cdot 12^4 + 7 \cdot 12^3 + 4 \cdot 12^2 + 8 \cdot 12^1 + 2 \cdot 12^0 \]
+
+Calculate each term:
+\[ 1 \cdot 12^4 = 1 \cdot 20736 = 20736 \]
+\[ 7 \cdot 12^3 = 7 \cdot 1728 = 12096 \]
+\[ 4 \cdot 12^2 = 4 \cdot 144 = 576 \]
+\[ 8 \cdot 12^1 = 8 \cdot 12 = 96 \]
+\[ 2 \cdot 12^0 = 2 \cdot 1 = 2 \]
+
+Sum these up:
+\[ 20736 + 12096 + 576 + 96 + 2 = 33506 \]
+
+Therefore, \( 17482_{12} = 33506_{10} \).
+
+**Step 2: Convert 16519_{12} to base 10**
+
+16519_{12} means:
+\[ 1 \cdot 12^4 + 6 \cdot 12^3 + 5 \cdot 12^2 + 1 \cdot 12^1 + 9 \cdot 12^0 \]
+
+Calculate each term:
+\[ 1 \cdot 12^4 = 1 \cdot 20736 = 20736 \]
+\[ 6 \cdot 12^3 = 6 \cdot 1728 = 10368 \]
+\[ 5 \cdot 12^2 = 5 \cdot 144 = 720 \]
+\[ 1 \cdot 12^1 = 1 \cdot 12 = 12 \]
+\[ 9 \cdot 12^0 = 9 \cdot 1 = 9 \]
+
+Sum these up:
+\[ 20736 + 10368 + 720 + 12 + 9 = 31845 \]
+
+Therefore, \( 16519_{12} = 31845_{10} \).
+
+**Step 3: Subtract the two base 10 numbers**
+
+\[ 33506_{10} - 31845_{10} = 1661_{10} \]
+
+**Step 4: Convert 1661_{10} back to base 12**
+
+To do this, we successively divide 1661 by 12 and keep track of the remainders.
+
+\[ 1661 \div 12 = 138 \, \text{quotient}, \, 5 \, \text{remainder} \]
+\[ 138 \div 12 = 11 \, \text{quotient}, \, 6 \, \text{remainder} \]
+\[ 11 \div 12 = 0 \, \text{quotient}, \, 11 \, \text{remainder} \] 
+
+Reading the remainders from bottom to top, we get the base 12 number: \( B65_{12} \).
+
+Therefore, 17482_{12} - 16519_{12} = 1661_{10} = B65_{12}.
+
+**Summary:**
+\[ 17482_{12} - 16519_{12} = 17482_{12} \rightarrow 33506_{10} - 16519_{12} \rightarrow 31845_{10} = 1661_{10} \rightarrow B65_{12} \]
+
+\[ 17482_{12} - 16519_{12} = B65_{12} \]

@@ -1,0 +1,30 @@
+To multiply two numbers in base 9, we need to multiply each digit of the first number by each digit of the second number, and then sum up the products with appropriate place values.
+
+Starting with the calculation:
+
+1. \(4_{9} * 2_{9} = 8_{9}\)
+2. \(4_{9} * 6_{9} = 24_{9}\) (Note: 24 in base 9 is written as 26)
+3. \(4_{9} * 1_{9} = 4_{9}\)
+4. \(7_{9} * 2_{9} = 14_{9}\) (Note: 14 in base 9 is written as 16)
+5. \(7_{9} * 6_{9} = 42_{9}\) (Note: 42 in base 9 is written as 48)
+6. \(7_{9} * 1_{9} = 7_{9}\)
+
+Adding these partial products:
+
+\(8_{9} \quad 26_{9} \quad 4_{9} \quad 16_{9} \quad 48_{9} \quad 7_{9}\)
+
+Now, aligning these numbers properly and adding them up:
+
+\[
+\begin{array}{r}
+\quad\quad\quad\quad\\
+\qquad 4\quad 6 \quad 7 \quad 5 \quad 4_{9} \\
+\times\quad 3 \quad 5 \quad 1 \quad 6 \quad 2_{9} \\
+\hline
+\qquad\quad\quad\quad8\quad 26\quad 4\quad 16\quad 48\quad 7_{9} \\
+\end{array}
+\]
+
+The final result of the multiplication is \( 8428458_{9} \). 
+
+Therefore, \( 46754_{9} \times 35162_{9} = 8428458_{9} \).

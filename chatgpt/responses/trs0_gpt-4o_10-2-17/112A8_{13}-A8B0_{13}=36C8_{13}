@@ -1,0 +1,107 @@
+To solve the equation \( 112A8_{13} - A8B0_{13} \), we need to convert the numbers from base 13 to base 10, perform the subtraction, and then convert the result back to base 13.
+
+### Conversion of \( 112A8_{13} \) to base 10:
+
+1. Position values in base 13 are as follows (from right to left):
+   - \( 13^0 = 1 \)
+   - \( 13^1 = 13 \)
+   - \( 13^2 = 169 \)
+   - \( 13^3 = 2197 \)
+   - \( 13^4 = 28561 \)
+
+2. Use positional values:
+   \[
+   112A8_{13} = 1 \cdot 28561 + 1 \cdot 2197 + 2 \cdot 169 + A \cdot 13 + 8 \cdot 1
+   \]
+   Where \( A = 10_{10} \).
+
+3. Substitute the values:
+   \[
+   1 \cdot 28561 + 1 \cdot 2197 + 2 \cdot 169 + 10 \cdot 13 + 8 \cdot 1
+   \]
+   \[
+   = 28561 + 2197 + 338 + 130 + 8
+   \]
+   \[
+   = 31134_{10}
+   \]
+
+### Conversion of \( A8B0_{13} \) to base 10:
+
+1. Position values in base 13:
+   - \( 13^0 = 1 \)
+   - \( 13^1 = 13 \)
+   - \( 13^2 = 169 \)
+   - \( 13^3 = 2197 \)
+
+2. Use positional values:
+   \[
+   A8B0_{13} = A \cdot 2197 + 8 \cdot 169 + B \cdot 13 + 0 \cdot 1
+   \]
+   Where \( A = 10_{10} \) and \( B = 11_{10} \).
+
+3. Substitute the values:
+   \[
+   10 \cdot 2197 + 8 \cdot 169 + 11 \cdot 13 + 0 \cdot 1
+   \]
+   \[
+   = 21970 + 1352 + 143 + 0
+   \]
+   \[
+   = 23465_{10}
+   \]
+
+### Perform the subtraction in base 10:
+
+\[
+31134_{10} - 23465_{10} = 7669_{10}
+\]
+
+### Convert \( 7669_{10} \) back to base 13:
+
+1. Find the highest powers of 13 less than 7669:
+   - \( 13^4 = 28561 \) (too large)
+   - \( 13^3 = 2197 \)
+   - \( 13^2 = 169 \)
+   - \( 13^1 = 13 \)
+   - \( 13^0 = 1 \)
+
+2. Use successive divisions to find coefficients:
+   \[
+   7669 \div 2197 \approx 3
+   \]
+   \[
+   7669 - 3 \cdot 2197 = 1078
+   \]
+   \[
+   1078 \div 169 \approx 6
+   \]
+   \[
+   1078 - 6 \cdot 169 = 64
+   \]
+   \[
+   64 \div 13 \approx 4
+   \]
+   \[
+   64 - 4 \cdot 13 = 12
+   \]
+   \[
+   12 \div 1 = 12
+   \]
+
+   Combining these, we get the base 13 representation:
+   \[
+   7669_{10} = 36CA_{13}
+   \]
+   Where \( C = 12_{10} \).
+
+### Final result:
+
+\[
+112A8_{13} - A8B0_{13} = 36CA_{13}
+\]
+
+Summarized as:
+\[
+112A8_{13} - A8B0_{13} = 31134_{10} - 23465_{10} = 7669_{10} = 36CA_{13}
+\]

@@ -1,0 +1,101 @@
+To compute \( 8464_{9} * 61527_{9} \), we first need to convert the base-9 numbers into base-10, perform the multiplication in base-10, and then convert the result back to base-9.
+
+1. **Convert \( 8464_9 \) to base-10:**
+
+\[ 8464_9 = 8 \cdot 9^3 + 4 \cdot 9^2 + 6 \cdot 9^1 + 4 \cdot 9^0 \]
+
+\[
+8 \cdot 9^3 = 8 \cdot 729 = 5832
+\]
+\[
+4 \cdot 9^2 = 4 \cdot 81 = 324
+\]
+\[
+6 \cdot 9^1 = 6 \cdot 9 = 54
+\]
+\[
+4 \cdot 9^0 = 4 \cdot 1 = 4
+\]
+
+Adding these together:
+
+\[
+8464_{9} = 5832 + 324 + 54 + 4 = 6214_{10}
+\]
+
+2. **Convert \( 61527_9 \) to base-10:**
+
+\[ 61527_9 = 6 \cdot 9^4 + 1 \cdot 9^3 + 5 \cdot 9^2 + 2 \cdot 9^1 + 7 \cdot 9^0 \]
+
+\[
+6 \cdot 9^4 = 6 \cdot 6561 = 39366
+\]
+\[
+1 \cdot 9^3 = 1 \cdot 729 = 729
+\]
+\[
+5 \cdot 9^2 = 5 \cdot 81 = 405
+\]
+\[
+2 \cdot 9^1 = 2 \cdot 9 = 18
+\]
+\[
+7 \cdot 9^0 = 7 \cdot 1 = 7
+\]
+
+Adding these together:
+
+\[
+61527_{9} = 39366 + 729 + 405 + 18 + 7 = 40525_{10}
+\]
+
+3. **Perform the multiplication in base-10:**
+
+\[
+6214_{10} \times 40525_{10} = 251769350_{10}
+\]
+
+4. **Convert \( 251769350_{10} \) to base-9:**
+
+To convert to base-9, we repeatedly divide by 9 and record the remainders.
+
+\[
+251769350 \div 9 = 27974372 \quad \text{remainder} \, 2
+\]
+\[
+27974372 \div 9 = 3108263 \quad \text{remainder} \, 5
+\]
+\[
+3108263 \div 9 = 345362 \quad \text{remainder} \, 7
+\]
+\[
+345362 \div 9 = 38373 \quad \text{remainder} \, 5
+\]
+\[
+38373 \div 9 = 4263 \quad \text{remainder} \, 6
+\]
+\[
+4263 \div 9 = 473 \quad \text{remainder} \, 6
+\]
+\[
+473 \div 9 = 52 \quad \text{remainder} \, 5
+\]
+\[
+52 \div 9 = 5 \quad \text{remainder} \, 7
+\]
+\[
+5 \div 9 = 0 \quad \text{remainder} \, 5
+\]
+
+Reading the remainders in reverse:
+
+\[
+251769350_{10} = 557655752_{9}
+\]
+
+Thus, the equation \( 8464_{9} * 61527_{9} = 557655752_{9} \).
+
+**Summary:**
+\[ 8464_{9} \to 6214_{10}, 61527_{9} \to 40525_{10}, 6214_{10} * 40525_{10} = 251769350_{10} \to 557655752_{9} \]
+
+\[ 8464_{9} * 61527_{9} = 557655752_{9} \]

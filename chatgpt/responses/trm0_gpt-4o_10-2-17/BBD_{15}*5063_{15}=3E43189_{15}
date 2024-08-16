@@ -1,0 +1,49 @@
+To solve the given multiplication BBD_{15} * 5063_{15}, we first need to convert the base-15 numerals BBD_{15} and 5063_{15} to a more familiar base, such as base-10, perform the multiplication in base-10, and finally, if necessary, convert the result back to base-15.
+
+### Step 1: Convert BBD_{15} to base-10
+The digits represent the following in decimal:
+- B represents 11 in base-10.
+- D represents 13 in base-10.
+
+So the numeral BBD_{15} can be expanded as:
+\[ BBD_{15} = 11 \times 15^2 + 11 \times 15^1 + 13 \times 15^0 \]
+
+Calculating each term:
+\[ 11 \times 15^2 = 11 \times 225 = 2475 \]
+\[ 11 \times 15^1 = 11 \times 15 = 165 \]
+\[ 13 \times 15^0 = 13 \times 1 = 13 \]
+
+Summing these terms:
+\[ BBD_{15} = 2475 + 165 + 13 = 2653_{10} \]
+
+### Step 2: Convert 5063_{15} to base-10
+The digits represent the following in decimal:
+- 5 remains 5.
+- 0 remains 0.
+- 6 remains 6.
+- 3 remains 3.
+
+So the numeral 5063_{15} can be expanded as:
+\[ 5063_{15} = 5 \times 15^3 + 0 \times 15^2 + 6 \times 15^1 + 3 \times 15^0 \]
+
+Calculating each term:
+\[ 5 \times 15^3 = 5 \times 3375 = 16875 \]
+\[ 0 \times 15^2 = 0 \]
+\[ 6 \times 15^1 = 6 \times 15 = 90 \]
+\[ 3 \times 15^0 = 3 \times 1 = 3 \]
+
+Summing these terms:
+\[ 5063_{15} = 16875 + 0 + 90 + 3 = 16968_{10} \]
+
+### Step 3: Perform the multiplication in base-10
+\[ 2653_{10} \times 16968_{10} = 45039744_{10} \]
+
+Since the final base for the answer is unspecified, we leave it in base-10.
+
+### Summary
+\[
+BBD_{15} * 5063_{15} = 45039744_{10}
+\]  
+\[ BBD_{15} = 2653_{10}; 5063_{15} = 16968_{10}; 2653_{10} \times 16968_{10} = 45039744_{10} \]  
+Therefore:
+\[ BBD_{15} * 5063_{15} = 45039744_{10} \]

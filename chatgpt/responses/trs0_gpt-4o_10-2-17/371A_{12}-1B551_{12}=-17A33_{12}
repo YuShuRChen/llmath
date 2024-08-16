@@ -1,0 +1,44 @@
+To start, we need to convert the numbers from base-12 to base-10.
+
+First, let's convert \(371A_{12}\) to base-10:
+
+\[371A_{12} = 3 \cdot 12^3 + 7 \cdot 12^2 + 1 \cdot 12^1 + 10 \cdot 12^0\]
+
+Calculating each term:
+
+\[3 \cdot 12^3 = 3 \cdot 1728 = 5184\]
+\[7 \cdot 12^2 = 7 \cdot 144 = 1008\]
+\[1 \cdot 12^1 = 1 \cdot 12 = 12\]
+\[10 \cdot 12^0 = 10 \cdot 1 = 10\]
+
+Adding these together:
+
+\[371A_{12} = 5184 + 1008 + 12 + 10 = 6214_{10}\]
+
+Next, let's convert \(1B551_{12}\) to base-10:
+
+\[1B551_{12} = 1 \cdot 12^4 + B \cdot 12^3 + 5 \cdot 12^2 + 5 \cdot 12^1 + 1 \cdot 12^0\]
+
+Here, \(B_{12} = 11_{10}\).
+
+Calculating each term:
+
+\[1 \cdot 12^4 = 1 \cdot 20736 = 20736\]
+\[11 \cdot 12^3 = 11 \cdot 1728 = 19008\]
+\[5 \cdot 12^2 = 5 \cdot 144 = 720\]
+\[5 \cdot 12^1 = 5 \cdot 12 = 60\]
+\[1 \cdot 12^0 = 1 \cdot 1 = 1\]
+
+Adding these together:
+
+\[1B551_{12} = 20736 + 19008 + 720 + 60 + 1 = 40525_{10}\]
+
+Now, subtract these base-10 results:
+
+\[6214_{10} - 40525_{10} = -34311_{10}\]
+
+Thus, the final result of the subtraction is \(-34311_{10}\).
+
+Summary:
+
+\[371A_{12} (3 \cdot 12^3 + 7 \cdot 12^2 + 1 \cdot 12^1 + 10 \cdot 12^0 = 6214_{10}) - 1B551_{12} (1 \cdot 12^4 + 11 \cdot 12^3 + 5 \cdot 12^2 + 5 \cdot 12^1 + 1 \cdot 12^0 = 40525_{10}) = -34311_{10}\]

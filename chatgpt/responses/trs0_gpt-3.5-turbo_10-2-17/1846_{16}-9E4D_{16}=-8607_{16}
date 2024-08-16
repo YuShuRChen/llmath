@@ -1,0 +1,13 @@
+To subtract two hexadecimal numbers, we need to perform borrowing when necessary.
+
+\[
+\begin{array}{l}
+\begin{array}{r}
+1846_{16} \\
+-\underline{9E4D_{16}} \\
+B399_{16}
+\end{array}
+\end{array}
+\]
+
+Therefore, \( 1846_{16}-9E4D_{16}=B399_{16} \).

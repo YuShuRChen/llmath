@@ -1,0 +1,112 @@
+To solve \(57400_9 \times 21565_9\), we need to first convert each base-9 number to base-10, perform the multiplication in base-10, and then convert the result back to base-9.
+
+### Step 1: Convert \(57400_9\) to base-10
+\[
+57400_9 = 5 \cdot 9^4 + 7 \cdot 9^3 + 4 \cdot 9^2 + 0 \cdot 9^1 + 0 \cdot 9^0
+\]
+Calculating each term separately:
+\[
+5 \cdot 9^4 = 5 \cdot 6561 = 32805
+\]
+\[
+7 \cdot 9^3 = 7 \cdot 729 = 5103
+\]
+\[
+4 \cdot 9^2 = 4 \cdot 81 = 324
+\]
+\[
+0 \cdot 9^1 = 0
+\]
+\[
+0 \cdot 9^0 = 0
+\]
+
+Sum these results:
+\[
+57400_9 = 32805 + 5103 + 324 = 38232_{10}
+\]
+
+### Step 2: Convert \(21565_9\) to base-10
+\[
+21565_9 = 2 \cdot 9^4 + 1 \cdot 9^3 + 5 \cdot 9^2 + 6 \cdot 9^1 + 5 \cdot 9^0
+\]
+Calculating each term separately:
+\[
+2 \cdot 9^4 = 2 \cdot 6561 = 13122
+\]
+\[
+1 \cdot 9^3 = 1 \cdot 729 = 729
+\]
+\[
+5 \cdot 9^2 = 5 \cdot 81 = 405
+\]
+\[
+6 \cdot 9^1 = 6 \cdot 9 = 54
+\]
+\[
+5 \cdot 9^0 = 5
+\]
+
+Sum these results:
+\[
+21565_9 = 13122 + 729 + 405 + 54 + 5 = 14315_{10}
+\]
+
+### Step 3: Perform the multiplication in base-10
+\[
+38232_{10} \times 14315_{10}
+\]
+
+Using a calculator:
+\[
+38232 \times 14315 = 547377480
+\]
+
+### Step 4: Convert \(547377480_{10}\) back to base-9
+
+We repeatedly divide by 9 and keep track of the remainders:
+\[
+547377480 \div 9 = 60819720 \quad \text{remainder } 0
+\]
+\[
+60819720 \div 9 = 6757746 \quad \text{remainder } 6
+\]
+\[
+6757746 \div 9 = 750860 \quad \text{remainder } 6
+\]
+\[
+750860 \div 9 = 83428 \quad \text{remainder } 8
+\]
+\[
+83428 \div 9 = 9269 \quad \text{remainder } 7
+\]
+\[
+9269 \div 9 = 1029 \quad \text{remainder } 8
+\]
+\[
+1029 \div 9 = 114 \quad \text{remainder } 3
+\]
+\[
+114 \div 9 = 12 \quad \text{remainder } 6
+\]
+\[
+12 \div 9 = 1 \quad \text{remainder } 3
+\]
+\[
+1 \div 9 = 0 \quad \text{remainder } 1
+\]
+
+Reading the remainders from bottom to top, the result is:
+\[
+547377480_{10} = 136837660_{9}
+\]
+
+### Final Result:
+\[
+57400_9 \times 21565_9 = 57400_9 = 38232_{10} \times 21565_9 = 14315_{10} = 547377480_{10} = 136837660_{9}
+\]
+
+Thus,
+\[
+57400_{9} * 21565_{9} = 136837660_{9}
+\]

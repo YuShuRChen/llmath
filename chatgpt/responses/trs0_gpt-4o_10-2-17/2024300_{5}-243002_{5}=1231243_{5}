@@ -1,0 +1,49 @@
+To solve the base 5 subtraction 2024300\(_{5}\) - 243002\(_{5}\), we'll convert both numbers to base 10, perform the subtraction, and then convert the result back to base 5.
+
+### Step 1: Convert 2024300\(_{5}\) to base 10
+
+2024300\(_{5}\):
+\[ 2 \cdot 5^6 + 0 \cdot 5^5 + 2 \cdot 5^4 + 4 \cdot 5^3 + 3 \cdot 5^2 + 0 \cdot 5^1 + 0 \cdot 5^0 \]
+
+Calculate each term:
+\[ 2 \cdot 15625 + 0 \cdot 3125 + 2 \cdot 625 + 4 \cdot 125 + 3 \cdot 25 + 0 \cdot 5 + 0 \cdot 1 \]
+
+\[ 31250 + 0 + 1250 + 500 + 75 + 0 + 0 = 33075 \]
+
+So, 2024300\(_{5}\) = 33075\(_{10}\).
+
+### Step 2: Convert 243002\(_{5}\) to base 10
+
+243002\(_{5}\):
+\[ 2 \cdot 5^5 + 4 \cdot 5^4 + 3 \cdot 5^3 + 0 \cdot 5^2 + 0 \cdot 5^1 + 2 \cdot 5^0 \]
+
+Calculate each term:
+\[ 2 \cdot 3125 + 4 \cdot 625 + 3 \cdot 125 + 0 \cdot 25 + 0 \cdot 5 + 2 \cdot 1 \]
+
+\[ 6250 + 2500 + 375 + 0 + 0 + 2 = 9127 \]
+
+So, 243002\(_{5}\) = 9127\(_{10}\).
+
+### Step 3: Perform the subtraction in base 10
+
+\[ 33075 - 9127 = 23948 \]
+
+### Step 4: Convert 23948\(_{10}\) to base 5
+
+To convert from base 10 to base 5, we repeatedly divide by 5 and record the remainders:
+
+\[ 23948 \div 5 = 4789 \quad remainder = 3 \]
+\[ 4789 \div 5 = 957 \quad remainder = 4 \]
+\[ 957 \div 5 = 191 \quad remainder = 2 \]
+\[ 191 \div 5 = 38 \quad remainder = 1 \]
+\[ 38 \div 5 = 7 \quad remainder = 3 \]
+\[ 7 \div 5 = 1 \quad remainder = 2 \]
+\[ 1 \div 5 = 0 \quad remainder = 1 \]
+
+Reading the remainders from bottom to top, we get 1232413\(_{5}\).
+
+### Summary:
+
+\[ 2024300_{5} - 243002_{5} = 33075_{10} - 9127_{10} = 23948_{10} = 1232413_{5} \]
+
+So, the answer is 1232413\(_{5}\).

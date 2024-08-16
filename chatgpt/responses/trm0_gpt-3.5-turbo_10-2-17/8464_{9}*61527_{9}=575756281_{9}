@@ -1,0 +1,11 @@
+Converting both numbers to base 10:
+$8464_9 = 8*9^3 + 4*9^2 + 6*9 + 4 = 5832$
+$61527_9 = 6*9^4 + 1*9^3 + 5*9^2 + 2*9 + 7 = 30385$
+
+Multiplying the converted numbers in base 10:
+$5832 * 30385 = 177191320$
+
+Converting the result back to base 9:
+$177191320_{10} = 3600663664_{9}$
+
+Therefore, $8464_{9} * 61527_{9} = 3600663664_{9}$.

@@ -1,0 +1,62 @@
+To solve the equation \( 110001010011111_{2} - 110101110101010_{2} \), we need to first convert both binary numbers to decimal, perform the subtraction, and then convert the result back to binary.
+
+### Step 1: Convert binary to decimal
+
+1. Convert \( 110001010011111_{2} \) to decimal:
+   \[
+   1 \cdot 2^{14} + 1 \cdot 2^{13} + 0 \cdot 2^{12} + 0 \cdot 2^{11} + 0 \cdot 2^{10} + 1 \cdot 2^{9} +
+   0 \cdot 2^{8} + 1 \cdot 2^{7} + 0 \cdot 2^{6} + 0 \cdot 2^{5} + 1 \cdot 2^{4} +
+   1 \cdot 2^{3} + 1 \cdot 2^{2} + 1 \cdot 2^{1} + 1 \cdot 2^{0}
+   \]
+   \[
+   = 16384 + 8192 + 512 + 64 + 16 + 8 + 4 + 2 + 1 = 25183_{10}
+   \]
+
+2. Convert \( 110101110101010_{2} \) to decimal:
+   \[
+   1 \cdot 2^{14} + 1 \cdot 2^{13} + 0 \cdot 2^{12} + 1 \cdot 2^{11} + 0 \cdot 2^{10} + 1 \cdot 2^{9} +
+   1 \cdot 2^{8} + 1 \cdot 2^{7} + 0 \cdot 2^{6} + 1 \cdot 2^{5} + 0 \cdot 2^{4} +
+   1 \cdot 2^{3} + 0 \cdot 2^{2} + 1 \cdot 2^{1} + 0 \cdot 2^{0}
+   \]
+   \[
+   = 16384 + 8192 + 2048 + 512 + 256 + 128 + 32 + 8 + 2 = 27462_{10}
+   \]
+
+### Step 2: Subtract the decimal numbers
+\[
+25183_{10} - 27462_{10} = -2279_{10}
+\]
+
+### Step 3: Convert the result back to binary
+To represent \(-2279_{10}\) using two's complement in binary, we need to consider the number of bits necessary to accommodate the value.
+
+1. Find the absolute value of \(-2279_{10}\), which is \(2279_{10}\).
+
+2. Convert \(2279_{10}\) to binary:
+   \[
+   2279_{10} = 1000\_1100\_0111_{2}
+   \]
+
+3. Represent it with the required bit-length (assuming at least 16 bits for clear representation):
+   \[
+   0000\_1000\_1100\_0111_{2}
+   \]
+
+4. Calculate the two's complement (invert and add 1):
+   - Invert the bits: \(1111\_0111\_0011\_1000_{2}\)
+   - Add 1 to the inverted bits:
+   \[
+   1111\_0111\_0011\_1000_{2} + 1_{2} = 1111\_0111\_0011\_1001_{2}
+   \]
+
+Therefore, \(-2279_{10}\) in 16-bit two’s complement binary is:
+\[
+1111\_0111\_0011\_1001_{2}
+\]
+
+### Summary
+\[
+110001010011111_{2} - 110101110101010_{2} = -2279_{10} = 1111011100111001_{2}
+\]
+
+Thus, the final result is \(110001010011111_{2} - 110101110101010_{2} = 1111011100111001_{2}\).

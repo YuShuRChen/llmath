@@ -1,0 +1,31 @@
+To compute \( 4021_{16} - 8856_{16} \), we first convert both hexadecimal numbers to decimal.
+
+Starting with \( 4021_{16} \):
+\[ 4 \times 16^3 + 0 \times 16^2 + 2 \times 16^1 + 1 \times 16^0 = 4 \times 4096 + 0 \times 256 + 2 \times 16 + 1 \times 1 \]
+\[ = 16384 + 0 + 32 + 1 = 16417_{10} \]
+
+Next, with \( 8856_{16} \):
+\[ 8 \times 16^3 + 8 \times 16^2 + 5 \times 16^1 + 6 \times 16^0 = 8 \times 4096 + 8 \times 256 + 5 \times 16 + 6 \times 1 \]
+\[ = 32768 + 2048 + 80 + 6 = 34802_{10} \]
+
+Now, perform the subtraction in decimal:
+\[ 16417 - 34802 = -18385 \]
+
+Convert \( -18385_{10} \) back to hexadecimal. For negative numbers, one typically uses two's complement in computing contexts. But for straightforward conversion in this educational context:
+
+1. First convert the positive magnitude of 18385 to hexadecimal.
+\[ 18385 \div 16 = 1149 \] remainder \( 1 \)
+\[ 1149 \div 16 = 71 \] remainder \( 13 \) (which is D in hexadecimal)
+\[ 71 \div 16 = 4 \] remainder \( 7 \)
+\[ 4 \div 16 = 0 \] remainder \( 4 \)
+
+So, \( 18385_{10} = 47D1_{16} \).
+
+Therefore, the negative decimal \( -18385_{10} \) is written, considering the magnitude:
+\[ -18385_{10} = -47D1_{16} \]
+
+Thus, 
+\[ 4021_{16} - 8856_{16} = -47D1_{16} \]
+
+To summarize the response in one line:
+\[ 4021_{16} \rightarrow 16417_{10}, 8856_{16} \rightarrow 34802_{10}, 16417_{10} - 34802_{10} \rightarrow -18385_{10} \rightarrow -47D1_{16} \]

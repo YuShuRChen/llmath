@@ -1,0 +1,106 @@
+To compute the product of the two numbers given in base 3, we will first convert each number from base 3 to base 10, perform the multiplication in base 10, and then convert the result back to base 3.
+
+First, let's convert the base 3 numbers to base 10.
+
+For 1200101000_{3}:
+\[
+1 \cdot 3^9 + 2 \cdot 3^8 + 0 \cdot 3^7 + 0 \cdot 3^6 + 1 \cdot 3^5 + 0 \cdot 3^4 + 1 \cdot 3^3 + 0 \cdot 3^2 + 0 \cdot 3^1 + 0 \cdot 3^0
+\]
+\[
+= 1 \cdot 19683 + 2 \cdot 6561 + 0 \cdot 2187 + 0 \cdot 729 + 1 \cdot 243 + 0 \cdot 81 + 1 \cdot 27 + 0 \cdot 9 + 0 \cdot 3 + 0 \cdot 1
+\]
+\[
+= 19683 + 13122 + 243 + 27
+\]
+\[
+= 33075
+\]
+
+For 110112001_{3}:
+\[
+1 \cdot 3^8 + 1 \cdot 3^7 + 0 \cdot 3^6 + 1 \cdot 3^5 + 1 \cdot 3^4 + 2 \cdot 3^3 + 0 \cdot 3^2 + 0 \cdot 3^1 + 1 \cdot 3^0
+\]
+\[
+= 1 \cdot 6561 + 1 \cdot 2187 + 0 \cdot 729 + 1 \cdot 243 + 1 \cdot 81 + 2 \cdot 27 + 0 \cdot 9 + 0 \cdot 3 + 1 \cdot 1
+\]
+\[
+= 6561 + 2187 + 243 + 81 + 54 + 1
+\]
+\[
+= 9127
+\]
+
+Now, let's multiply the two base 10 numbers:
+\[
+33075 \cdot 9127
+\]
+
+\[
+= 301863525
+\]
+
+Now, we need to convert the result back to base 3. To convert 301863525 from base 10 to base 3, we continually divide by 3 and keep track of the remainders:
+
+\[
+301863525 \div 3 = 100621175 \quad \text{remainder} = 0
+\]
+\[
+100621175 \div 3 = 33540391 \quad \text{remainder} = 2
+\]
+\[
+33540391 \div 3 = 11180130 \quad \text{remainder} = 1
+\]
+\[
+11180130 \div 3 = 3726710 \quad \text{remainder} = 0
+\]
+\[
+3726710 \div 3 = 1242236 \quad \text{remainder} = 2
+\]
+\[
+1242236 \div 3 = 414078 \quad \text{remainder} = 2
+\]
+\[
+414078 \div 3 = 138026 \quad \text{remainder} = 0
+\]
+\[
+138026 \div 3 = 46008 \quad \text{remainder} = 2
+\]
+\[
+46008 \div 3 = 15336 \quad \text{remainder} = 0
+\]
+\[
+15336 \div 3 = 5112 \quad \text{remainder} = 0
+\]
+\[
+5112 \div 3 = 1704 \quad \text{remainder} = 0
+\]
+\[
+1704 \div 3 = 568 \quad \text{remainder} = 0
+\]
+\[
+568 \div 3 = 189 \quad \text{remainder} = 1
+\]
+\[
+189 \div 3 = 63 \quad \text{remainder} = 0
+\]
+\[
+63 \div 3 = 21 \quad \text{remainder} = 0
+\]
+\[
+21 \div 3 = 7 \quad \text{remainder} = 0
+\]
+\[
+7 \div 3 = 2 \quad \text{remainder} = 1
+\]
+\[
+2 \div 3 = 0 \quad \text{remainder} = 2
+\]
+
+Reading the remainders from bottom to top, we get:
+\[
+301863525_{10} = 210000021220220_{3}
+\]
+
+So the final result is:
+
+1200101000_{3} * 110112001_{3} = 301863525_{10} = 210000021220220_{3}.

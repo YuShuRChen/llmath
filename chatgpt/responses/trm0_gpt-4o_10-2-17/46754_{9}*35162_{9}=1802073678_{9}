@@ -1,0 +1,42 @@
+To solve the multiplication problem \(46754_9 \times 35162_9\), we first need to convert the base-9 numbers into base-10.
+
+1. Convert \(46754_9\) to base-10:
+\[
+46754_9 = 4 \cdot 9^4 + 6 \cdot 9^3 + 7 \cdot 9^2 + 5 \cdot 9^1 + 4 \cdot 9^0
+\]
+\[
+= 4 \cdot 6561 + 6 \cdot 729 + 7 \cdot 81 + 5 \cdot 9 + 4 \cdot 1
+\]
+\[
+= 26244 + 4374 + 567 + 45 + 4
+\]
+\[
+= 31234_{10}
+\]
+
+2. Convert \(35162_9\) to base-10:
+\[
+35162_9 = 3 \cdot 9^4 + 5 \cdot 9^3 + 1 \cdot 9^2 + 6 \cdot 9^1 + 2 \cdot 9^0
+\]
+\[
+= 3 \cdot 6561 + 5 \cdot 729 + 1 \cdot 81 + 6 \cdot 9 + 2 \cdot 1
+\]
+\[
+= 19683 + 3645 + 81 + 54 + 2
+\]
+\[
+= 23465_{10}
+\]
+
+3. Multiply the two base-10 results:
+\[
+31234_{10} \times 23465_{10} 
+\]
+
+Perform the multiplication:
+\[
+31234 \times 23465 = 732154710
+\]
+
+Thus, summarizing the steps:
+\(46754_9 \times 35162_9 = 31234_{10} \times 23465_{10} = 732154710_{10}\)

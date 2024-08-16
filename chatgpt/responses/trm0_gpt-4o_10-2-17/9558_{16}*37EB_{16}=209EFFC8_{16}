@@ -1,0 +1,100 @@
+First, let's convert the hexadecimal numbers \( 9558_{16} \) and \( 37EB_{16} \) to decimal.
+
+To convert \( 9558_{16} \) to decimal:
+\[
+9 \times 16^3 + 5 \times 16^2 + 5 \times 16^1 + 8 \times 16^0
+\]
+Calculating each term:
+\[
+9 \times 4096 = 36864
+\]
+\[
+5 \times 256 = 1280
+\]
+\[
+5 \times 16 = 80
+\]
+\[
+8 \times 1 = 8
+\]
+Adding these together:
+\[
+36864 + 1280 + 80 + 8 = 38232
+\]
+So, \( 9558_{16} = 38232_{10} \).
+
+Next, to convert \( 37EB_{16} \) to decimal:
+\[
+3 \times 16^3 + 7 \times 16^2 + 14 \times 16^1 + 11 \times 16^0
+\]
+Calculating each term:
+\[
+3 \times 4096 = 12288
+\]
+\[
+7 \times 256 = 1792
+\]
+\[
+14 \times 16 = 224
+\]
+\[
+11 \times 1 = 11
+\]
+Adding these together:
+\[
+12288 + 1792 + 224 + 11 = 14315
+\]
+So, \( 37EB_{16} = 14315_{10} \).
+
+Now, we multiply the two decimal numbers:
+\[
+38232 \times 14315
+\]
+Calculating the product:
+\[
+38232 \times 14315 = 547324680
+\]
+
+Next, we need to convert the result back to hexadecimal. To convert \( 547324680_{10} \) to hexadecimal, we repeatedly divide by 16 and keep track of the remainders.
+
+\[
+547324680 \div 16 = 34207805 \text{ remainder } 0
+\]
+\[
+34207805 \div 16 = 2137987 \text{ remainder } 13 (D_{16})
+\]
+\[
+2137987 \div 16 = 133624 \text{ remainder } 3
+\]
+\[
+133624 \div 16 = 8351 \text{ remainder } 8
+\]
+\[
+8351 \div 16 = 521 \text{ remainder } 15 (F_{16})
+\]
+\[
+521 \div 16 = 32 \text{ remainder } 9
+\]
+\[
+32 \div 16 = 2 \text{ remainder } 0
+\]
+\[
+2 \div 16 = 0 \text{ remainder } 2
+\]
+
+Reading the remainders from bottom to top, we get:
+\[
+547324680_{10} = 20F83D0_{16}
+\]
+
+So, the hexadecimal representation of the product is \( 20F83D0_{16} \).
+
+Therefore:
+\[
+9558_{16} * 37EB_{16} = 20F83D0_{16}
+\]
+
+Summary:
+\[
+9558_{16} * 37EB_{16} = 38232_{10} * 14315_{10} = 547324680_{10} = 20F83D0_{16}
+\]

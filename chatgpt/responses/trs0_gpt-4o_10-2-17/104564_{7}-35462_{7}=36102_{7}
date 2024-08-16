@@ -1,0 +1,52 @@
+To solve \( 104564_{7} - 35462_{7} \), we first need to convert both numbers from base 7 to base 10, perform the subtraction in base 10, and then, if necessary, convert the result back to base 7.
+
+### Step 1: Convert \( 104564_7 \) to base 10
+\( 104564_7 = 1 \cdot 7^5 + 0 \cdot 7^4 + 4 \cdot 7^3 + 5 \cdot 7^2 + 6 \cdot 7^1 + 4 \cdot 7^0 \)
+
+Calculating each term:
+- \( 1 \cdot 7^5 = 1 \cdot 16807 = 16807 \)
+- \( 0 \cdot 7^4 = 0 \cdot 2401 = 0 \)
+- \( 4 \cdot 7^3 = 4 \cdot 343 = 1372 \)
+- \( 5 \cdot 7^2 = 5 \cdot 49 = 245 \)
+- \( 6 \cdot 7^1 = 6 \cdot 7 = 42 \)
+- \( 4 \cdot 7^0 = 4 \cdot 1 = 4 \)
+
+Adding them together gives:
+\[ 16807 + 0 + 1372 + 245 + 42 + 4 = 18470 \]
+
+So, \( 104564_7 = 18470_{10} \).
+
+### Step 2: Convert \( 35462_7 \) to base 10
+\( 35462_7 = 3 \cdot 7^4 + 5 \cdot 7^3 + 4 \cdot 7^2 + 6 \cdot 7^1 + 2 \cdot 7^0 \)
+
+Calculating each term:
+- \( 3 \cdot 7^4 = 3 \cdot 2401 = 7203 \)
+- \( 5 \cdot 7^3 = 5 \cdot 343 = 1715 \)
+- \( 4 \cdot 7^2 = 4 \cdot 49 = 196 \)
+- \( 6 \cdot 7^1 = 6 \cdot 7 = 42 \)
+- \( 2 \cdot 7^0 = 2 \cdot 1 = 2 \)
+
+Adding them together gives:
+\[ 7203 + 1715 + 196 + 42 + 2 = 9158 \]
+
+So, \( 35462_7 = 9158_{10} \).
+
+### Step 3: Subtract the base 10 equivalents
+Now we subtract the two base 10 numbers:
+\[ 18470 - 9158 = 9312 \]
+
+### Step 4: Convert \( 9312_{10} \) back to base 7
+To convert a base 10 number to base 7, we repeatedly divide the number by 7 and record the remainders.
+
+1. \( 9312 \div 7 = 1330 \) remainder \( 2 \)
+2. \( 1330 \div 7 = 190 \) remainder \( 0 \)
+3. \( 190 \div 7 = 27 \) remainder \( 1 \)
+4. \( 27 \div 7 = 3 \) remainder \( 6 \)
+5. \( 3 \div 7 = 0 \) remainder \( 3 \)
+
+Reading the remainders from bottom to top, we get \( 363102_7 \).
+
+So, \( 9312_{10} = 363102_7 \).
+
+### Summary:
+\[ 104564_{7} - 35462_{7} = 18470_{10} - 9158_{10} = 9312_{10} = 363102_{7} \]

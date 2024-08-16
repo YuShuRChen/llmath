@@ -1,0 +1,80 @@
+To solve the equation \( 13220002_{4} - 11232221_{4} \), follow these steps:
+
+1. **Convert the bases from base 4 to base 10**.
+
+   **Convert \( 13220002_4 \) to base 10**:
+   \[
+   1 \cdot 4^7 + 3 \cdot 4^6 + 2 \cdot 4^5 + 2 \cdot 4^4 + 0 \cdot 4^3 + 0 \cdot 4^2 + 0 \cdot 4^1 + 2 \cdot 4^0
+   \]
+   Calculate the powers of 4:
+   \[
+   4^7 = 16384, \quad 4^6 = 4096, \quad 4^5 = 1024, \quad 4^4 = 256, \quad 4^3 = 64, \quad 4^2 = 16, \quad 4^1 = 4, \quad 4^0 = 1
+   \]
+   Substitute the results:
+   \[
+   1 \cdot 16384 + 3 \cdot 4096 + 2 \cdot 1024 + 2 \cdot 256 + 0 \cdot 64 + 0 \cdot 16 + 0 \cdot 4 + 2 \cdot 1
+   \]
+   Perform the multiplication and addition:
+   \[
+   16384 + 12288 + 2048 + 512 + 0 + 0 + 0 + 2 = 31234
+   \]
+   Therefore, \( 13220002_4 = 31234_{10} \).
+
+   **Convert \( 11232221_4 \) to base 10**:
+   \[
+   1 \cdot 4^7 + 1 \cdot 4^6 + 2 \cdot 4^5 + 3 \cdot 4^4 + 2 \cdot 4^3 + 2 \cdot 4^2 + 2 \cdot 4^1 + 1 \cdot 4^0
+   \]
+   Using the previously calculated powers of 4:
+   \[
+   1 \cdot 16384 + 1 \cdot 4096 + 2 \cdot 1024 + 3 \cdot 256 + 2 \cdot 64 + 2 \cdot 16 + 2 \cdot 4 + 1 \cdot 1
+   \]
+   Perform the multiplication and addition:
+   \[
+   16384 + 4096 + 2048 + 768 + 128 + 32 + 8 + 1 = 23465
+   \]
+   Therefore, \( 11232221_4 = 23465_{10} \).
+
+2. **Subtract the converted numbers in base 10**:
+
+   \[
+   31234_{10} - 23465_{10} = 7769_{10}
+   \]
+
+3. **Convert the result back to base 4**:
+
+   To convert \( 7769_{10} \) to base 4, divide repeatedly by 4 and record the remainders:
+   \[
+   7769 \div 4 = 1942, \text{ remainder } 1
+   \]
+   \[
+   1942 \div 4 = 485, \text{ remainder } 2
+   \]
+   \[
+   485 \div 4 = 121, \text{ remainder } 1
+   \]
+   \[
+   121 \div 4 = 30, \text{ remainder } 1
+   \]
+   \[
+   30 \div 4 = 7, \text{ remainder } 2
+   \]
+   \[
+   7 \div 4 = 1, \text{ remainder } 3
+   \]
+   \[
+   1 \div 4 = 0, \text{ remainder } 1
+   \]
+   Reading the remainders from bottom to top, the conversion is:
+   \[
+   7769_{10} = 1321121_{4}
+   \]
+
+4. **Summarize the steps and final result**:
+   \[
+   13220002_{4} - 11232221_{4} = 13220002_{4} \to 31234_{10} - 11232221_{4} \to 23465_{10} = 7769_{10} \to 1321121_{4}
+   \]
+
+Therefore, the final result is:
+\[
+13220002_{4} - 11232221_{4} = 1321121_{4}
+\]

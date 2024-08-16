@@ -1,0 +1,13 @@
+To multiply these two numbers in base 5, we can use the standard multiplication method.
+
+\[
+\begin{array}{r}
+ \underline{2210412_{5}} \\
+\underline{{\times \quad424230_{5}}} \\
+ 1\,1051208_{5} \quad \text{(Multiplying by 2)} \\
+8\,84096640_{5} \quad \text{(Multiplying by 3)} \\
+1\,5777760712_{5} \quad \text{(Multiplying by 2)} \\
+\end{array}
+\]
+
+Therefore, \(2210412_{5} * 424230_{5} = 1\,5777760712_{5}\).

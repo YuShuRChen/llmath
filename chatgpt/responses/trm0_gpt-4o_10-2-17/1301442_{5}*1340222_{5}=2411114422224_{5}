@@ -1,0 +1,77 @@
+To solve the problem of multiplying the two base-5 numbers \(1301442_5\) and \(1340222_5\), we need to follow these steps:
+
+1. **Convert each base-5 number to base-10.**
+2. **Perform the multiplication in base-10.**
+3. **Convert the result back to base-5, if needed.**
+
+### Step 1: Convert each base-5 number to base-10
+To convert \(1301442_5\) to base-10, we use the formula:
+\[ a_n \times 5^n + a_{n-1} \times 5^{n-1} + \ldots + a_1 \times 5^1 + a_0 \times 5^0 \]
+
+For \(1301442_5\):
+\[
+\begin{align*}
+1 \times 5^6 & = 1 \times 15625 = 15625 \\
+3 \times 5^5 & = 3 \times 3125 = 9375 \\
+0 \times 5^4 & = 0 \times 625 = 0 \\
+1 \times 5^3 & = 1 \times 125 = 125 \\
+4 \times 5^2 & = 4 \times 25 = 100 \\
+4 \times 5^1 & = 4 \times 5 = 20 \\
+2 \times 5^0 & = 2 \times 1 = 2 \\
+& \\
+\text{Sum} & = 15625 + 9375 + 0 + 125 + 100 + 20 + 2 = 25247
+\end{align*}
+\]
+So, \(1301442_5 = 25247_{10}\).
+
+For \(1340222_5\):
+\[
+\begin{align*}
+1 \times 5^6 & = 1 \times 15625 = 15625 \\
+3 \times 5^5 & = 3 \times 3125 = 9375 \\
+4 \times 5^4 & = 4 \times 625 = 2500 \\
+0 \times 5^3 & = 0 \times 125 = 0 \\
+2 \times 5^2 & = 2 \times 25 = 50 \\
+2 \times 5^1 & = 2 \times 5 = 10 \\
+2 \times 5^0 & = 2 \times 1 = 2 \\
+& \\
+\text{Sum} & = 15625 + 9375 + 2500 + 0 + 50 + 10 + 2 = 27562
+\end{align*}
+\]
+So, \(1340222_5 = 27562_{10}\).
+
+### Step 2: Perform the multiplication in base-10
+
+Now, we multiply the two base-10 numbers:
+\[
+25247 \times 27562 = 696252514
+\]
+
+### Step 3: Convert the result back to base-5
+
+To convert \(696252514_{10}\) to base-5, we repeatedly divide by 5 and keep track of the remainders.
+
+\[
+\begin{align*}
+696252514 \div 5 & = 139250502 \; R4 \\
+139250502 \div 5 & = 27850100 \; R2 \\
+27850100 \div 5 & = 5570020 \; R0 \\
+5570020 \div 5 & = 1114004 \; R0 \\
+1114004 \div 5 & = 222800 \; R4 \\
+222800 \div 5 & = 44560 \; R0 \\
+44560 \div 5 & = 8912 \; R0 \\
+8912 \div 5 & = 1782 \; R2 \\
+1782 \div 5 & = 356 \; R2 \\
+356 \div 5 & = 71 \; R1 \\
+71 \div 5 & = 14 \; R1 \\
+14 \div 5 & = 2 \; R4 \\
+2 \div 5 & = 0 \; R2 \\
+\end{align*}
+\]
+So, writing the remainders in reverse order, we get:
+\[ 2021142020044_5 \]
+
+### Result Summary
+
+The final result is:
+\[ 1301442_5 * 1340222_5 = 25247_{10} * 27562_{10} = 696252514_{10} = 2021142020044_5\]

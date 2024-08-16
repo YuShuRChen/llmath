@@ -1,0 +1,41 @@
+First, let's convert the numbers from base 15 to base 10.
+
+For \(7CE2_{15}\):
+\[ 7CE2_{15} = 7 \times 15^3 + C \times 15^2 + E \times 15^1 + 2 \times 15^0 \]
+where \(C = 12\) and \(E = 14\).
+
+So,
+\[ 7CE2_{15} = 7 \times 3375 + 12 \times 225 + 14 \times 15 + 2 \]
+\[ = 23625 + 2700 + 210 + 2 \]
+\[ = 26537_{10} \]
+
+For \(5D52_{15}\):
+\[ 5D52_{15} = 5 \times 15^3 + D \times 15^2 + 5 \times 15^1 + 2 \times 15^0 \]
+where \(D = 13\).
+
+So,
+\[ 5D52_{15} = 5 \times 3375 + 13 \times 225 + 5 \times 15 + 2 \]
+\[ = 16875 + 2925 + 75 + 2 \]
+\[ = 19877_{10} \]
+
+Now, multiply the two numbers in base 10:
+\[ 26537_{10} \times 19877_{10} = 527591249_{10} \]
+
+Finally, convert the result back to base 15. We need to divide repeatedly by 15 and keep track of remainders.
+
+\[ 527591249 \div 15 = 35172749 \quad remainder \, 14 \]
+\[ 35172749 \div 15 = 2344849 \quad remainder \, 14 \]
+\[ 2344849 \div 15 = 156323 \quad remainder \, 14 \]
+\[ 156323 \div 15 = 10421 \quad remainder \, 8 \]
+\[ 10421 \div 15 = 694 \quad remainder \, 1 \]
+\[ 694 \div 15 = 46 \quad remainder \, 4 \]
+\[ 46 \div 15 = 3 \quad remainder \, 1 \]
+\[ 3 \div 15 = 0 \quad remainder \, 3 \]
+
+Reading the remainders from last to first, the base 15 result is:
+\[ 314141148_{15} \]
+
+Thus, \( 7CE2_{15} \times 5D52_{15} = 7CE2_{15} \times 5D52_{15} = 527591249_{10} = 314141148_{15} \)
+
+Summary:
+\[ 7CE2_{15} \times 5D52_{15} = 26537_{10} \times 19877_{10} = 527591249_{10} = 314141148_{15} \]

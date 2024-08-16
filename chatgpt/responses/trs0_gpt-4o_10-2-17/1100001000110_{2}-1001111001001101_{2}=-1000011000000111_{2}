@@ -1,0 +1,30 @@
+To solve the binary subtraction \( 1100001000110_{2} - 1001111001001101_{2} \), we first need to convert both binary numbers into decimal (base 10), perform the subtraction in decimal, and then convert the result back to binary.
+
+1. Convert \( 1100001000110_{2} \) to decimal:
+\( 1100001000110_{2} \) = \( 1 \cdot 2^{12} + 1 \cdot 2^{11} + 0 \cdot 2^{10} + 0 \cdot 2^{9} + 0 \cdot 2^{8} + 0 \cdot 2^{7} + 1 \cdot 2^{6} + 0 \cdot 2^{5} + 0 \cdot 2^{4} + 1 \cdot 2^{3} + 1 \cdot 2^{2} + 1 \cdot 2^{1} + 0 \cdot 2^{0} \)
+\[ = 4096 + 2048 + 64 + 8 + 4 + 2 \]
+\[ = 6222_{10} \]
+
+2. Convert \( 1001111001001101_{2} \) to decimal:
+\( 1001111001001101_{2} \) = \( 1 \cdot 2^{15} + 0 \cdot 2^{14} + 0 \cdot 2^{13} + 1 \cdot 2^{12} + 1 \cdot 2^{11} + 1 \cdot 2^{10} + 1 \cdot 2^{9} + 1 \cdot 2^{8} + 0 \cdot 2^{7} + 0 \cdot 2^{6} + 1 \cdot 2^{5} + 1 \cdot 2^{4} + 0 \cdot 2^{3} + 1 \cdot 2^{2} + 0 \cdot 2^{1}  + 1 \cdot 2^{0} \)
+\[ = 32768 + 4096 + 2048 + 1024 + 512 + 256 + 32 + 16 + 4 + 1 \]
+\[ = 40557_{10} \]
+
+3. Perform the subtraction in decimal:
+\[ 6222_{10} - 40557_{10} = -34335_{10} \]
+
+4. Convert \( -34335_{10} \) back to binary. First, convert the positive value \( 34335_{10} \) to binary:
+\[ 34335_{10} \rightarrow 1000011000011111_{2} \]
+
+To represent the negative binary number, use Two’s Complement:
+
+a. Start with the binary of the positive number: \( 1000011000011111_{2} \).
+b. Invert all the bits: \( 0111100111100000_{2} \).
+c. Add 1 to the inverted bits:
+\[ 0111100111100000_{2} + 1_{2} = 0111100111100001_{2} \]
+
+The binary representation of \( -34335_{10} \) in two's complement notation (assuming a suitable bit-length) is \( 1111100111100001_{2} \).
+
+So, the complete solution can be summarized as:
+
+\[ 1100001000110_{2} - 1001111001001101_{2} = -34335_{10} = 1111100111100001_{2} = 1100001000110_{2} - 1001111001001101_{2} = 0111100111100001_{2} \final.\]

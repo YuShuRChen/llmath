@@ -1,0 +1,10 @@
+To solve this, let's first convert the numbers to base 10:
+21515_{11} = 2*11^4 + 1*11^3 + 5*11^2 + 1*11^1 + 5*11^0 = 34252
+166A2_{11} = 1*11^3 + 6*11^2 + 10*11^1 + 2*11^0 = 14978
+
+Now, subtract 14978 from 34252:
+34252 - 14978 = 19274
+
+Therefore, the result is 19274 in base 10.
+
+So, the equation 21515_{11} - 166A2_{11} = 19274_{10}.

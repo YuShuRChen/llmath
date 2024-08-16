@@ -1,0 +1,81 @@
+First, let's convert the base-4 numbers to base-10.
+
+For \( 13220002_4 \):
+\[
+13220002_4 = 1 \cdot 4^7 + 3 \cdot 4^6 + 2 \cdot 4^5 + 2 \cdot 4^4 + 0 \cdot 4^3 + 0 \cdot 4^2 + 0 \cdot 4^1 + 2 \cdot 4^0
+\]
+
+Calculating each term:
+\[
+1 \cdot 4^7 = 1 \cdot 16384 = 16384
+\]
+\[
+3 \cdot 4^6 = 3 \cdot 4096 = 12288
+\]
+\[
+2 \cdot 4^5 = 2 \cdot 1024 = 2048
+\]
+\[
+2 \cdot 4^4 = 2 \cdot 256 = 512
+\]
+\[
+0 \cdot 4^3 = 0 \cdot 64 = 0
+\]
+\[
+0 \cdot 4^2 = 0 \cdot 16 = 0
+\]
+\[
+0 \cdot 4^1 = 0 \cdot 4 = 0
+\]
+\[
+2 \cdot 4^0 = 2 \cdot 1 = 2
+\]
+
+Sum these:
+\[
+16384 + 12288 + 2048 + 512 + 0 + 0 + 0 + 2 = 31234_{10}
+\]
+
+For \( 11232221_4 \):
+\[
+11232221_4 = 1 \cdot 4^7 + 1 \cdot 4^6 + 2 \cdot 4^5 + 3 \cdot 4^4 + 2 \cdot 4^3 + 2 \cdot 4^2 + 2 \cdot 4^1 + 1 \cdot 4^0
+\]
+
+Calculating each term:
+\[
+1 \cdot 4^7 = 1 \cdot 16384 = 16384
+\]
+\[
+1 \cdot 4^6 = 1 \cdot 4096 = 4096
+\]
+\[
+2 \cdot 4^5 = 2 \cdot 1024 = 2048
+\]
+\[
+3 \cdot 4^4 = 3 \cdot 256 = 768
+\]
+\[
+2 \cdot 4^3 = 2 \cdot 64 = 128
+\]
+\[
+2 \cdot 4^2 = 2 \cdot 16 = 32
+\]
+\[
+2 \cdot 4^1 = 2 \cdot 4 = 8
+\]
+\[
+1 \cdot 4^0 = 1 \cdot 1 = 1
+\]
+
+Sum these:
+\[
+16384 + 4096 + 2048 + 768 + 128 + 32 + 8 + 1 = 23465_{10}
+\]
+
+Now, multiply the two base-10 equivalents:
+\[
+31234_{10} \cdot 23465_{10} = 732256810
+\]
+
+Thus, the final answer is:
+13220002_{4} * 11232221_{4} = 732256810_{10}

@@ -1,0 +1,53 @@
+To solve the equation \(211112001_3 - 1202212200_3\), we first need to convert each number from base 3 to base 10, perform the subtraction in base 10, and then, if needed, convert the result back to base 3.
+
+### Step 1: Convert \(211112001_3\) to base 10
+
+\[ 211112001_3 = 2 \cdot 3^8 + 1 \cdot 3^7 + 1 \cdot 3^6 + 1 \cdot 3^5 + 1 \cdot 3^4 + 2 \cdot 3^3 + 0 \cdot 3^2 + 0 \cdot 3^1 + 1 \cdot 3^0 \]
+
+\[
+= 2 \cdot 6561 + 1 \cdot 2187 + 1 \cdot 729 + 1 \cdot 243 + 1 \cdot 81 + 2 \cdot 27 + 0 \cdot 9 + 0 \cdot 3 + 1
+\]
+
+\[
+= 13122 + 2187 + 729 + 243 + 81 + 54 + 0 + 0 + 1
+\]
+
+\[
+= 16217_{10}
+\]
+
+### Step 2: Convert \(1202212200_3\) to base 10
+
+\[ 1202212200_3 = 1 \cdot 3^9 + 2 \cdot 3^8 + 0 \cdot 3^7 + 2 \cdot 3^6 + 2 \cdot 3^5 + 1 \cdot 3^4 + 2 \cdot 3^3 + 2 \cdot 3^2 + 0 \cdot 3^1 + 0 \cdot 3^0 \]
+
+\[
+= 1 \cdot 19683 + 2 \cdot 6561 + 0 \cdot 2187 + 2 \cdot 729 + 2 \cdot 243 + 1 \cdot 81 + 2 \cdot 27 + 2 \cdot 9 + 0 \cdot 3 + 0
+\]
+
+\[
+= 19683 + 13122 + 0 + 1458 + 486 + 81 + 54 + 18 + 0 + 0
+\]
+
+\[
+= 34884_{10}
+\]
+
+### Step 3: Perform subtraction in base 10
+
+\[
+16217 - 34884 = -18667_{10}
+\]
+
+### Step 4: Convert \(-18667_{10}\) to base 3 (if needed)
+
+Negative integers are not often represented in another base system without assuming some extended form such as signed integers; thus, often they are left in base 10 in such cases.
+
+\[
+211112001_3 - 1202212200_3 = 16217_{10} - 34884_{10} = -18667_{10}
+\]
+
+\Then the final result is:
+
+\[
+211112001_{3} - 1202212200_{3} = 16217_{10} - 34884_{10} = -18667_{10}
+\]

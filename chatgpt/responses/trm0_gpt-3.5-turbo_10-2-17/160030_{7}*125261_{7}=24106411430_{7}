@@ -1,0 +1,14 @@
+To compute this multiplication, we multiply the numbers in base 7:
+
+\[
+160030_{7} \times 125261_{7} = (6 \times 1)7^0 + (3 \times 6)7^1 + (0 \times 2)7^2 + (0 \times 5)7^3 + (6 \times 1)7^4 + (1 \times 5)7^5 + (5 \times 1)7^6 + (2 \times 6)7^7 + (0 \times 1)7^8 + (6 \times 1)7^9
+\]
+
+We then calculate the result:
+
+\[
+160030_{7} \times 125261_{7} = 21041153_{7}
+\]
+
+Therefore:
+\[160030_{7}*125261_{7}=21041153_{7}\]

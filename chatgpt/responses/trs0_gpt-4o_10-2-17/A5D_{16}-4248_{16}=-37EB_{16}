@@ -1,0 +1,65 @@
+To compute the equation \( A5D_{16} - 4248_{16} \), we will first convert each hexadecimal number to its decimal equivalent, perform the subtraction in decimal, and then convert the result back to hexadecimal.
+
+1. Convert \( A5D_{16} \) to decimal:
+   - \( A_{16} = 10_{10} \)
+   - The place values for \( A5D_{16} \) are \( 16^2, 16^1, \) and \( 16^0 \).
+
+   \[
+   A5D_{16} = 10 \times 16^2 + 5 \times 16^1 + 13 \times 16^0
+   \]
+   \[
+   = 10 \times 256 + 5 \times 16 + 13 \times 1
+   \]
+   \[
+   = 2560 + 80 + 13
+   \]
+   \[
+   = 2653_{10}
+   \]
+
+2. Convert \( 4248_{16} \) to decimal:
+   - \( 4_{16} = 4_{10} \) and \( 2_{16} = 2_{10} \) and \( 8_{16} = 8_{10} \).
+   - The place values for \( 4248_{16} \) are \( 16^3, 16^2, 16^1, \) and \( 16^0 \).
+
+   \[
+   4248_{16} = 4 \times 16^3 + 2 \times 16^2 + 4 \times 16^1 + 8 \times 16^0
+   \]
+   \[
+   = 4 \times 4096 + 2 \times 256 + 4 \times 16 + 8 \times 1
+   \]
+   \[
+   = 16384 + 512 + 64 + 8
+   \]
+   \[
+   = 16968_{10}
+   \]
+
+3. Perform the subtraction in decimal:
+   \[
+   2653_{10} - 16968_{10} = -14315_{10}
+   \]
+
+4. Convert \(-14315_{10}\) back to hexadecimal:
+   - Divide by 16 repeatedly and track the remainders:
+   \[
+   \begin{align*}
+   -14315 \div 16 & = -894 \quad \text{Remainder: } 1 \\
+   -894 \div 16 & = -56 \quad \text{Remainder: } 10 (A_{16}) \\
+   -56 \div 16 & = -4 \quad \text{Remainder: } 8 \\
+   -4 \div 16 & = -0 \quad \text{Remainder: } 12 (C_{16})
+   \end{align*}
+   \]
+   So,
+   \[
+   -14315_{10} \longrightarrow -381A_{16}
+   \]
+
+Therefore:
+\[
+A5D_{16} - 4248_{16} = -381A_{16}
+\]
+
+In summary:
+\[
+A5D_{16} - 4248_{16} = 2653_{10} - 16968_{10} = -14315_{10} = -381A_{16}
+\]

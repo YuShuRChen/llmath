@@ -1,0 +1,147 @@
+To solve the equation \(1120211211_3 - 1012012002_3\), we need to follow these steps:
+
+1. Convert each base-3 number to base-10.
+2. Perform the subtraction in base-10.
+3. Convert the result back to base-3.
+
+First, convert \(1120211211_3\) to base-10. Each digit is multiplied by \(3^n\), where \(n\) is the position of the digit from the right (starting at 0):
+
+\[
+1120211211_3 = 1 \cdot 3^{9} + 1 \cdot 3^{8} + 2 \cdot 3^{7} + 0 \cdot 3^{6} + 2 \cdot 3^{5} + 1 \cdot 3^{4} + 1 \cdot 3^{3} + 2 \cdot 3^{2} + 1 \cdot 3^{1} + 1 \cdot 3^{0}
+\]
+
+Calculate each term:
+
+\[
+1 \cdot 3^{9} = 19683
+\]
+\[
+1 \cdot 3^{8} = 6561
+\]
+\[
+2 \cdot 3^{7} = 4374
+\]
+\[
+0 \cdot 3^{6} = 0
+\]
+\[
+2 \cdot 3^{5} = 486
+\]
+\[
+1 \cdot 3^{4} = 81
+\]
+\[
+1 \cdot 3^{3} = 27
+\]
+\[
+2 \cdot 3^{2} = 18
+\]
+\[
+1 \cdot 3^{1} = 3
+\]
+\[
+1 \cdot 3^{0} = 1
+\]
+
+Add them up:
+
+\[
+19683 + 6561 + 4374 + 0 + 486 + 81 + 27 + 18 + 3 + 1 = 31234
+\]
+
+So, \(1120211211_3\) in base-10 is \(31234_{10}\).
+
+Next, convert \(1012012002_3\) to base-10 as well:
+
+\[
+1012012002_3 = 1 \cdot 3^{9} + 0 \cdot 3^{8} + 1 \cdot 3^{7} + 2 \cdot 3^{6} + 0 \cdot 3^{5} + 1 \cdot 3^{4} + 2 \cdot 3^{3} + 0 \cdot 3^{2} + 0 \cdot 3^{1} + 2 \cdot 3^{0}
+\]
+
+Calculate each term:
+
+\[
+1 \cdot 3^{9} = 19683
+\]
+\[
+0 \cdot 3^{8} = 0
+\]
+\[
+1 \cdot 3^{7} = 2187
+\]
+\[
+2 \cdot 3^{6} = 1458
+\]
+\[
+0 \cdot 3^{5} = 0
+\]
+\[
+1 \cdot 3^{4} = 81
+\]
+\[
+2 \cdot 3^{3} = 54
+\]
+\[
+0 \cdot 3^{2} = 0
+\]
+\[
+0 \cdot 3^{1} = 0
+\]
+\[
+2 \cdot 3^{0} = 2
+\]
+
+Add them up:
+
+\[
+19683 + 0 + 2187 + 1458 + 0 + 81 + 54 + 0 + 0 + 2 = 23465
+\]
+
+So, \(1012012002_3\) in base-10 is \(23465_{10}\).
+
+Now, perform the subtraction in base-10:
+
+\[
+31234 - 23465 = 7769
+\]
+
+Finally, convert \(7769_{10}\) back to base-3. To do this, repeatedly divide by 3 and record the remainders:
+
+\[
+7769 \div 3 = 2589 \text{ remainder } 2
+\]
+\[
+2589 \div 3 = 863 \text{ remainder } 0
+\]
+\[
+863 \div 3 = 287 \text{ remainder } 2
+\]
+\[
+287 \div 3 = 95 \text{ remainder } 2
+\]
+\[
+95 \div 3 = 31 \text{ remainder } 2
+\]
+\[
+31 \div 3 = 10 \text{ remainder } 1
+\]
+\[
+10 \div 3 = 3 \text{ remainder } 1
+\]
+\[
+3 \div 3 = 1 \text{ remainder } 0
+\]
+\[
+1 \div 3 = 0 \text{ remainder } 1
+\]
+
+Reading the remainders from bottom to top, \(7769_{10} = 1011222012_3\).
+
+In summary:
+\[
+1120211211_3 - 1012012002_3 = 7769_{10} = 1011222012_3
+\]
+
+The original equation, intermediate steps and final result are:
+\[
+1120211211_{3} - 1012012002_{3} = 1011222012_{3}
+\]

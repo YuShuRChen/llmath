@@ -1,0 +1,62 @@
+To solve \( B651_{13} - C712_{13} \), we first need to convert both numbers from base 13 to base 10.
+
+### Conversion from base 13 to base 10:
+
+#### Converting \( B651_{13} \):
+- \(B\) in base 13 is equivalent to \(11\) in base 10.
+- Write the expanded form using the place values of base 13:
+
+\[ B651_{13} = 11 \times 13^3 + 6 \times 13^2 + 5 \times 13^1 + 1 \times 13^0 \]
+
+Calculate each term:
+\[ 11 \times 13^3 = 11 \times 2197 = 24167 \]
+\[ 6 \times 13^2 = 6 \times 169 = 1014 \]
+\[ 5 \times 13^1 = 5 \times 13 = 65 \]
+\[ 1 \times 13^0 = 1 \times 1 = 1 \]
+
+Sum them up:
+\[ 24167 + 1014 + 65 + 1 = 25247_{10} \]
+
+#### Converting \( C712_{13} \):
+- \(C\) in base 13 is equivalent to \(12\) in base 10.
+- Write the expanded form using the place values of base 13:
+
+\[ C712_{13} = 12 \times 13^3 + 7 \times 13^2 + 1 \times 13^1 + 2 \times 13^0 \]
+
+Calculate each term:
+\[ 12 \times 13^3 = 12 \times 2197 = 26364 \]
+\[ 7 \times 13^2 = 7 \times 169 = 1183 \]
+\[ 1 \times 13^1 = 1 \times 13 = 13 \]
+\[ 2 \times 13^0 = 2 \times 1 = 2 \]
+
+Sum them up:
+\[ 26364 + 1183 + 13 + 2 = 27562_{10} \]
+
+### Subtraction in base 10:
+
+Perform the subtraction:
+\[ 25247_{10} - 27562_{10} = -2315_{10} \]
+
+### Convert the result back to base 13:
+
+1. Find the largest power of 13 that fits into 2315:
+\[ 13^2 = 169, \quad 13^3 = 2197 \quad (\text{larger than 2315}) \]
+
+2. Divide 2315 by 169:
+\[ 2315 \div 169 = 13 \quad (\text{integer part}) \]
+
+Find the remainder:
+\[ 2315 - 13 \times 169 = 2315 - 2197 = 118 \]
+
+3. Divide 118 by 13:
+\[ 118 \div 13 = 9 \quad (\text{integer part}) \]
+
+Find the remainder:
+\[ 118 - 9 \times 13 = 118 - 117 = 1 \]
+
+Hence, the result in base 13 is: 
+\[ -2315_{10} = -1000_{13} - 9D_{13} \]
+
+So, the final answer is:
+\( B651_{13} - C712_{13} = -9D_{13} \)
+\( B651_{13} - C712_{13} \Rightarrow 25247_{10} - 27562_{10} = -2315_{10} = -1009_{13} \)

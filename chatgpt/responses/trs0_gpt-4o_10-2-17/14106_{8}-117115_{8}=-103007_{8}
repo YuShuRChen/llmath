@@ -1,0 +1,56 @@
+First, convert the octal (base-8) numbers to decimal (base-10).
+
+For \(14106_8\):
+\[ 
+1 \times 8^4 + 4 \times 8^3 + 1 \times 8^2 + 0 \times 8^1 + 6 \times 8^0 
+= 1 \times 4096 + 4 \times 512 + 1 \times 64 + 0 \times 8 + 6 \times 1 
+= 4096 + 2048 + 64 + 0 + 6 
+= 6214 
+\]
+
+For \(117115_8\):
+\[ 
+1 \times 8^5 + 1 \times 8^4 + 7 \times 8^3 + 1 \times 8^2 + 1 \times 8^1 + 5 \times 8^0 
+= 1 \times 32768 + 1 \times 4096 + 7 \times 512 + 1 \times 64 + 1 \times 8 + 5 \times 1 
+= 32768 + 4096 + 3584 + 64 + 8 + 5 
+= 40425 
+\]
+
+Now, subtract the decimal equivalents:
+\[
+6214 - 40425 = -34211
+\]
+
+Next, convert the result back to octal:
+To convert \(-34211\) to octal, we first convert the positive version \(34211\) to octal and then apply the negative sign.
+
+Divide \(34211\) by \(8\) repeatedly and keep track of the remainders.
+\[
+34211 \div 8 = 4276 \text{ remainder } 3 
+\]
+\[
+4276 \div 8 = 534 \text{ remainder } 4 
+\]
+\[
+534 \div 8 = 66 \text{ remainder } 6 
+\]
+\[
+66 \div 8 = 8 \text{ remainder } 2 
+\]
+\[
+8 \div 8 = 1 \text{ remainder } 0 
+\]
+\[
+1 \div 8 = 0 \text{ remainder } 1 
+\]
+
+Reading the remainders from bottom to top, \(34211_{10}\) converts to \(102643_8\).
+
+Thus, \(-34211_{10}\) converts to \(-102643_8\).
+
+Summarizing:
+\[
+14106_8 - 117115_8 = 6214_{10} - 40425_{10} = -34211_{10} = -102643_8
+\]
+
+\(\boxed{14106_8 - 117115_8 = 6214_{10} - 40425_{10} = -34211_{10} = -102643_8}\)

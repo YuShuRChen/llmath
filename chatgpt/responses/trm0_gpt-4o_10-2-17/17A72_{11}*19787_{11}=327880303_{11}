@@ -1,0 +1,70 @@
+To solve the multiplication problem with numbers in base 11, we will convert both numbers from base 11 to base 10, perform the multiplication in base 10, and then convert the result back to base 11. Here are the steps in detail:
+
+### Step 1: Convert 17A72_{11} to base 10
+To convert \(17A72_{11}\) to base 10, we identify each digit and its power of 11:
+ - \(1 \cdot 11^4\)
+ - \(7 \cdot 11^3\)
+ - \(A \cdot 11^2\) (A in base 11 is equivalent to 10 in base 10)
+ - \(7 \cdot 11^1\)
+ - \(2 \cdot 11^0\)
+
+So,
+\[ 1 \cdot 11^4 = 1 \cdot 14641 = 14641 \]
+\[ 7 \cdot 11^3 = 7 \cdot 1331 = 9317 \]
+\[ A \cdot 11^2 = 10 \cdot 121 = 1210 \]
+\[ 7 \cdot 11^1 = 7 \cdot 11 = 77 \]
+\[ 2 \cdot 11^0 = 2 \]
+
+Adding these together:
+\[ 14641 + 9317 + 1210 + 77 + 2 = 25247 \]
+
+Hence, \(17A72_{11} = 25247_{10}\).
+
+### Step 2: Convert 19787_{11} to base 10
+Similarly, for \(19787_{11}\):
+ - \(1 \cdot 11^4\)
+ - \(9 \cdot 11^3\)
+ - \(7 \cdot 11^2\)
+ - \(8 \cdot 11^1\)
+ - \(7 \cdot 11^0\)
+
+So,
+\[ 1 \cdot 11^4 = 1 \cdot 14641 = 14641 \]
+\[ 9 \cdot 11^3 = 9 \cdot 1331 = 11979 \]
+\[ 7 \cdot 11^2 = 7 \cdot 121 = 847 \]
+\[ 8 \cdot 11^1 = 8 \cdot 11 = 88 \]
+\[ 7 \cdot 11^0 = 7 \]
+
+Adding these together:
+\[ 14641 + 11979 + 847 + 88 + 7 = 27562 \]
+
+Hence, \(19787_{11} = 27562_{10}\).
+
+### Step 3: Multiply the two base 10 numbers
+Now we multiply the converted base 10 numbers:
+\[ 25247 \times 27562 \]
+
+Perform the multiplication using a calculator or long multiplication:
+\[ 25247 \times 27562 = 695988414 \]
+
+### Step 4: Convert the result back to base 11
+Finally, we need to convert \(695988414_{10}\) to base 11. This can be done by successive division by 11 and keeping track of the remainders:
+
+\[ 695988414 \div 11 = 63271764 \quad \text{remainder} \ 10 (A) \]
+\[ 63271764 \div 11 = 5751978 \quad \text{remainder} \ 6 \]
+\[ 5751978 \div 11 = 522907 \quad \text{remainder} \ 1 \]
+\[ 522907 \div 11 = 47537 \quad \text{remainder} \ 10 (A) \]
+\[ 47537 \div 11 = 4321 \quad \text{remainder} \ 6 \]
+\[ 4321 \div 11 = 392 \quad \text{remainder} \ 9 \]
+\[ 392 \div 11 = 35 \quad \text{remainder} \ 7 \]
+\[ 35 \div 11 = 3 \quad \text{remainder} \ 2 \]
+\[ 3 \div 11 = 0 \quad \text{remainder} \ 3 \]
+
+Reading the remainders from bottom to top gives us the base 11 representation:
+\[ 31096A6A_{11} \]
+
+So, the final result is:
+\[ 17A72_{11} \times 19787_{11} = 31096A6A_{11} \]
+
+### Summary
+\[ 17A72_{11} \times 19787_{11} = 25247_{10} \times 27562_{10} = 695988414_{10} = 31096A6A_{11} \]

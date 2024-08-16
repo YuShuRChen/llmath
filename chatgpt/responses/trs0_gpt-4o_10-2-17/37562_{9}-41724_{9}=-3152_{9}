@@ -1,0 +1,54 @@
+To solve the expression \(37562_9 - 41724_9\), we need to convert these numbers from base 9 to base 10, perform the subtraction, and possibly convert the result back to base 9.
+
+### Conversion from Base 9 to Base 10
+First, convert \(37562_9\) to base 10:
+\(37562_9\) can be expressed as:
+\[3 \cdot 9^4 + 7 \cdot 9^3 + 5 \cdot 9^2 + 6 \cdot 9^1 + 2 \cdot 9^0 \]
+
+Calculating each term:
+\[ 3 \cdot 6561 = 19683 \]
+\[ 7 \cdot 729 = 5103 \]
+\[ 5 \cdot 81 = 405 \]
+\[ 6 \cdot 9 = 54 \]
+\[ 2 \cdot 1 = 2 \]
+
+Summing them up:
+\[ 19683 + 5103 + 405 + 54 + 2 = 25247 \]
+
+So, \(37562_9 = 25247_{10}\).
+
+Next, convert \(41724_9\) to base 10:
+\(41724_9\) can be expressed as:
+\[4 \cdot 9^4 + 1 \cdot 9^3 + 7 \cdot 9^2 + 2 \cdot 9^1 + 4 \cdot 9^0 \]
+
+Calculating each term:
+\[ 4 \cdot 6561 = 26244 \]
+\[ 1 \cdot 729 = 729 \]
+\[ 7 \cdot 81 = 567 \]
+\[ 2 \cdot 9 = 18 \]
+\[ 4 \cdot 1 = 4 \]
+
+Summing them up:
+\[ 26244 + 729 + 567 + 18 + 4 = 27562 \]
+
+So, \(41724_9 = 27562_{10}\).
+
+### Subtraction in Base 10
+Now, subtract the converted base 10 numbers:
+\[ 25247 - 27562 = -2315 \]
+
+### Conversion from Base 10 to Base 9 (Negative Numbers)
+To convert a negative number to base 9, notice the focus is primarily on magnitude (base conversion) and then handling the negative sign:
+\[2315_{10} \text{ divided by } 9 = 257.222\ldots \Rightarrow \text{remainder } 2\]
+\[257_{10} \text{ divided by } 9 = 28.555\ldots \Rightarrow \text{remainder } 5\]
+\[28_{10} \text{ divided by } 9 = 3.111\ldots \Rightarrow \text{remainder } 1\]
+\[3_{10} \text{ divided by } 9 = 0.333\ldots \Rightarrow \text{remainder } 3\]
+
+So, the base 9 representation of \(2315_{10}\) is \(3152_9\).
+Since the original result was negative, it remains:
+\[-3152_9\]
+
+### Summary
+\[
+37562_9 - 41724_9 = 25247_{10} - 27562_{10} = -2315_{10} = -3152_9
+\]

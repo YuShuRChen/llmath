@@ -1,0 +1,13 @@
+First, convert both binary numbers to decimal, multiply them, and then convert the result back to binary.
+
+Converting to decimal:
+$100100000100110_{2} = 30166_{10}$
+$10001111000110_{2} = 28686_{10}$
+
+Multiplying:
+$30166_{10} * 28686_{10} = 866444076_{10}$
+
+Converting back to binary:
+$866444076_{10} = 110011111101101100100110_{2}$
+
+Therefore, $100100000100110_{2} * 10001111000110_{2} = 110011111101101100100110_{2}$.

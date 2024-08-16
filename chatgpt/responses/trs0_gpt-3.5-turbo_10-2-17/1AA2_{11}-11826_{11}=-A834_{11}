@@ -1,0 +1,14 @@
+First, we need to convert the numbers to base 10. 
+
+Converting 1AA2 base 11 to base 10:
+1AA2 base 11 = 1*(11^3) + 10*(11^2) + 10*(11^1) + 2*(11^0) = 1*1331 + 10*121 + 10*11 + 2*1 = 1331 + 1210 + 110 + 2 = 2653 base 10
+
+Converting 11826 base 11 to base 10:
+11826 base 11 = 1*(11^4) + 1*(11^3) + 8*(11^2) + 2*(11^1) + 6*(11^0) = 1*14641 + 1*1331 + 8*121 + 2*11 + 6*1 = 14641 + 1331 + 968 + 22 + 6 = 16968 base 10
+
+Now, subtracting 2653 base 10 from 16968 base 10:
+16968 - 2653 = 14315 base 10
+
+Therefore, the result is 14315_{10}.
+
+Equation: 1AA2_{11} - 11826_{11} = 14315_{10}.

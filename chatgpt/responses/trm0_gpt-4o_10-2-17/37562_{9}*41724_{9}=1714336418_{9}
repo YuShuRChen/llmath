@@ -1,0 +1,26 @@
+First, we need to convert both numbers from base 9 to base 10.
+
+Let's convert \(37562_9\) to base 10:
+\[ 3 \cdot 9^4 + 7 \cdot 9^3 + 5 \cdot 9^2 + 6 \cdot 9^1 + 2 \cdot 9^0 \]
+\[ = 3 \cdot 6561 + 7 \cdot 729 + 5 \cdot 81 + 6 \cdot 9 + 2 \cdot 1 \]
+\[ = 19683 + 5103 + 405 + 54 + 2 \]
+\[ = 25247_{10} \]
+
+Now let's convert \(41724_9\) to base 10:
+\[ 4 \cdot 9^4 + 1 \cdot 9^3 + 7 \cdot 9^2 + 2 \cdot 9^1 + 4 \cdot 9^0 \]
+\[ = 4 \cdot 6561 + 1 \cdot 729 + 7 \cdot 81 + 2 \cdot 9 + 4 \cdot 1 \]
+\[ = 26244 + 729 + 567 + 18 + 4 \]
+\[ = 27562_{10} \]
+
+With both numbers in base 10, we now perform the multiplication:
+\[ 25247_{10} \times 27562_{10} \]
+
+Calculating the product:
+\[ 25247 \times 27562 = 695479214 \]
+
+Now, for verification, we can compute the result again to ensure accuracy.
+
+The original equation:
+\[ 37562_9 \times 41724_9 = (37562_9 \rightarrow 25247_{10}) \times (41724_9 \rightarrow 27562_{10}) = 695479214_{10} \]
+In summary, the output is:
+\[ 37562_{9}*41724_{9} = 25247_{10} \times 27562_{10} = 695479214_{10} = 695479214_{10} = 695479214_{10} \]

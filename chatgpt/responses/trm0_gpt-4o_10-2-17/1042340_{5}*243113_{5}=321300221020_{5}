@@ -1,0 +1,97 @@
+To calculate the product of the numbers \( 1042340_{5} \) and \( 243113_{5} \), we first convert them to base 10.
+
+### Step 1: Convert \( 1042340_{5} \) to base 10.
+The base 5 number \( 1042340_{5} \) is:
+\[
+1 \times 5^6 + 0 \times 5^5 + 4 \times 5^4 + 2 \times 5^3 + 3 \times 5^2 + 4 \times 5^1 + 0 \times 5^0
+\]
+
+Calculate each term individually:
+\[
+1 \times 15625 = 15625
+\]
+\[
+0 \times 3125 = 0
+\]
+\[
+4 \times 625 = 2500
+\]
+\[
+2 \times 125 = 250
+\]
+\[
+3 \times 25 = 75
+\]
+\[
+4 \times 5 = 20
+\]
+\[
+0 \times 1 = 0
+\]
+
+Sum these terms:
+\[
+15625 + 0 + 2500 + 250 + 75 + 20 + 0 = 18470_{10}
+\]
+
+### Step 2: Convert \( 243113_{5} \) to base 10.
+The base 5 number \( 243113_{5} \) is:
+\[
+2 \times 5^5 + 4 \times 5^4 + 3 \times 5^3 + 1 \times 5^2 + 1 \times 5^1 + 3 \times 5^0
+\]
+
+Calculate each term individually:
+\[
+2 \times 3125 = 6250
+\]
+\[
+4 \times 625 = 2500
+\]
+\[
+3 \times 125 = 375
+\]
+\[
+1 \times 25 = 25
+\]
+\[
+1 \times 5 = 5
+\]
+\[
+3 \times 1 = 3
+\]
+
+Sum these terms:
+\[
+6250 + 2500 + 375 + 25 + 5 + 3 = 9158_{10}
+\]
+
+### Step 3: Multiply the two base 10 numbers.
+\[
+18470_{10} \times 9158_{10} = 169054260_{10}
+\]
+
+### Step 4: Convert the result back to base 5.
+We'll divide \( 169054260 \) by 5 and record the remainders.
+
+1. \( 169054260 \div 5 = 33810852 \) remainder \( 0 \)
+2. \( 33810852 \div 5 = 6762170 \) remainder \( 2 \)
+3. \( 6762170 \div 5 = 1352434 \) remainder \( 0 \)
+4. \( 1352434 \div 5 = 270486 \) remainder \( 4 \)
+5. \( 270486 \div 5 = 54097 \) remainder \( 1 \)
+6. \( 54097 \div 5 = 10819 \) remainder \( 2 \)
+7. \( 10819 \div 5 = 2163 \) remainder \( 4 \)
+8. \( 2163 \div 5 = 432 \) remainder \( 3 \)
+9. \( 432 \div 5 = 86 \) remainder \( 2 \)
+10. \( 86 \div 5 = 17 \) remainder \( 1 \)
+11. \( 17 \div 5 = 3 \) remainder \( 2 \)
+12. \( 3 \div 5 = 0 \) remainder \( 3 \)
+
+Reading the remainders backward:
+\[
+32021424320_{5}
+\]
+
+Thus, the final result is \( 1042340_{5} \times 243113_{5} = 32021424320_{5} \).
+
+Summary:
+\( 1042340_{5} \times 243113_{5} = 18470_{10} \times 9158_{10} = 169054260_{10} \Rightarrow 32021424320_{5} \)

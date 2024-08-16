@@ -1,0 +1,59 @@
+To solve \( 1301442_5 - 1340222_5 \), we first convert both numbers from base 5 to base 10.
+
+### Conversion of \( 1301442_5 \) to base 10:
+\[ 1301442_5 = 1 \cdot 5^6 + 3 \cdot 5^5 + 0 \cdot 5^4 + 1 \cdot 5^3 + 4 \cdot 5^2 + 4 \cdot 5^1 + 2 \cdot 5^0 \]
+
+Calculating each term:
+\[ 1 \cdot 5^6 = 1 \cdot 15625 = 15625 \]
+\[ 3 \cdot 5^5 = 3 \cdot 3125 = 9375 \]
+\[ 0 \cdot 5^4 = 0 \cdot 625 = 0 \]
+\[ 1 \cdot 5^3 = 1 \cdot 125 = 125 \]
+\[ 4 \cdot 5^2 = 4 \cdot 25 = 100 \]
+\[ 4 \cdot 5^1 = 4 \cdot 5 = 20 \]
+\[ 2 \cdot 5^0 = 2 \cdot 1 = 2 \]
+
+Summing all terms:
+\[ 15625 + 9375 + 0 + 125 + 100 + 20 + 2 = 25247 \]
+
+So, \( 1301442_5 = 25247_{10} \).
+
+### Conversion of \( 1340222_5 \) to base 10:
+\[ 1340222_5 = 1 \cdot 5^6 + 3 \cdot 5^5 + 4 \cdot 5^4 + 0 \cdot 5^3 + 2 \cdot 5^2 + 2 \cdot 5^1 + 2 \cdot 5^0 \]
+
+Calculating each term:
+\[ 1 \cdot 5^6 = 1 \cdot 15625 = 15625 \]
+\[ 3 \cdot 5^5 = 3 \cdot 3125 = 9375 \]
+\[ 4 \cdot 5^4 = 4 \cdot 625 = 2500 \]
+\[ 0 \cdot 5^3 = 0 \cdot 125 = 0 \]
+\[ 2 \cdot 5^2 = 2 \cdot 25 = 50 \]
+\[ 2 \cdot 5^1 = 2 \cdot 5 = 10 \]
+\[ 2 \cdot 5^0 = 2 \cdot 1 = 2 \]
+
+Summing all terms:
+\[ 15625 + 9375 + 2500 + 0 + 50 + 10 + 2 = 27562 \]
+
+So, \( 1340222_5 = 27562_{10} \).
+
+### Subtraction in base 10:
+\[ 25247_{10} - 27562_{10} = -2315_{10} \]
+
+### Converting the result back to base 5:
+We need to convert \( -2315_{10} \) to base 5:
+
+Since the result is negative, we first convert \( 2315_{10} \) to base 5:
+\[ 2315 \div 5 = 463 \quad \text{remainder: } 0 \]
+\[ 463 \div 5 = 92 \quad \text{remainder: } 3 \]
+\[ 92 \div 5 = 18 \quad \text{remainder: } 2 \]
+\[ 18 \div 5 = 3 \quad \text{remainder: } 3 \]
+\[ 3 \div 5 = 0 \quad \text{remainder: } 3 \]
+
+The base 5 representation of \( 2315_{10} \) is read from bottom to top:
+
+\[ 2315_{10} = 33230_5 \]
+
+Considering the negative sign:
+\[ -2315_{10} = -33230_5 \]
+
+### Summary:
+\[ 1301442_5 - 1340222_5 = 25247_{10} - 27562_{10} = -2315_{10} = -33230_{5} \]
+\[ \boxed{1301442_5 - 1340222_5 = -33230_5} \]

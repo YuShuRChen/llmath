@@ -1,0 +1,13 @@
+To multiply these numbers in base 7, we can simply convert them to base 10, perform the multiplication in base 10, and then convert the result back to base 7.
+
+Converting to base 10:
+216315_{7} = 2*7^5 + 1*7^4 + 6*7^3 + 3*7^2 + 1*7^1 + 5*7^0 = 68681_{10}
+56510_{7} = 5*7^4 + 6*7^3 + 5*7^1 + 1*7^0 = 13129_{10}
+
+Multiplying in base 10:
+68681_{10} * 13129_{10} = 901805849_{10}
+
+Converting the result back to base 7:
+901805849_{10} = 6*7^8 + 1*7^7 + 1*7^6 + 5*7^5 + 1*7^3 + 1*7^1 + 3*7^0 = 61151035_{7}
+
+Therefore, 216315_{7} * 56510_{7} = 61151035_{7}.

@@ -1,0 +1,57 @@
+To solve the subtraction of two octal numbers \( 44046_8 - 21706_8 \), first convert them to their decimal (base-10) equivalents, then perform the subtraction, and finally convert the result back to octal (base-8).
+
+### Step 1: Convert \(44046_8\) to decimal.
+
+The number \(44046_8\) can be expanded as follows:
+\[ 4 \times 8^4 + 4 \times 8^3 + 0 \times 8^2 + 4 \times 8^1 + 6 \times 8^0 \]
+
+Calculating each term:
+\[ 4 \times 8^4 = 4 \times 4096 = 16384 \]
+\[ 4 \times 8^3 = 4 \times 512 = 2048 \]
+\[ 0 \times 8^2 = 0 \]
+\[ 4 \times 8^1 = 4 \times 8 = 32 \]
+\[ 6 \times 8^0 = 6 \]
+
+Summing these values:
+\[ 16384 + 2048 + 0 + 32 + 6 = 18470 \]
+
+So, \( 44046_8 = 18470_{10} \).
+
+### Step 2: Convert \(21706_8\) to decimal.
+
+The number \(21706_8\) can be expanded as follows:
+\[ 2 \times 8^4 + 1 \times 8^3 + 7 \times 8^2 + 0 \times 8^1 + 6 \times 8^0 \]
+
+Calculating each term:
+\[ 2 \times 8^4 = 2 \times 4096 = 8192 \]
+\[ 1 \times 8^3 = 1 \times 512 = 512 \]
+\[ 7 \times 8^2 = 7 \times 64 = 448 \]
+\[ 0 \times 8^1 = 0 \]
+\[ 6 \times 8^0 = 6 \]
+
+Summing these values:
+\[ 8192 + 512 + 448 + 0 + 6 = 9158 \]
+
+So, \( 21706_8 = 9158_{10} \).
+
+### Step 3: Perform the subtraction in decimal.
+
+\[ 18470_{10} - 9158_{10} = 9312_{10} \]
+
+### Step 4: Convert \(9312_{10}\) back to octal.
+
+To convert \(9312_{10}\) to octal, we repeatedly divide by 8 and keep track of the remainders:
+
+1. \( 9312 \div 8 = 1164 \) remainder \( 0 \)
+2. \( 1164 \div 8 = 145 \) remainder \( 4 \)
+3. \( 145 \div 8 = 18 \) remainder \( 1 \)
+4. \( 18 \div 8 = 2 \) remainder \( 2 \)
+5. \( 2 \div 8 = 0 \) remainder \( 2 \)
+
+Reading the remainders in reverse order, we get \( 22240_8 \).
+
+Thus, the result of \( 44046_8 - 21706_8 \) is \( 22240_8 \).
+
+\[
+44046_8 - 21706_8 = 18470_{10} - 9158_{10} = 9312_{10} = 22240_8
+\]

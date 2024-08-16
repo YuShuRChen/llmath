@@ -1,0 +1,21 @@
+To multiply two numbers in base 12, we need to convert them to base 10, perform the multiplication, and then convert the result back to base 12.
+
+Converting 160AA_{12} to base 10:
+160AA_{12} = 1*12^4 + 6*12^3 + 0*12^2 + 10*12^1 + 10*12^0
+         = 1*20736 + 6*1728 + 0*144 + 10*12 + 10*1
+         = 20736 + 10368 + 0 + 120 + 10
+         = 31234
+
+Converting 116B5_{12} to base 10:
+116B5_{12} = 1*12^4 + 1*12^3 + 6*12^2 + 11*12^1 + 5*12^0
+         = 1*20736 + 1*1728 + 6*144 + 11*12 + 5*1
+         = 20736 + 1728 + 864 + 132 + 5
+         = 23365
+
+Multiplying the two numbers in base 10:
+31234 * 23365 = 729,649,010
+
+Converting the result back to base 12:
+729649010_{10} = 4B19B6A_{12}
+
+Therefore, 160AA_{12} * 116B5_{12} = 4B19B6A_{12}.

@@ -1,0 +1,15 @@
+First, convert both numbers to base 10:
+
+629F_{16} = 6*16^3 + 2*16^2 + 9*16 + 15 = 25231
+
+6BAA_{16} = 6*16^3 + 11*16^2 + 10*16 + 10 = 27562
+
+Now, multiply both numbers in base 10:
+
+25231 * 27562 = 695936022
+
+Convert the result back to base 16:
+
+695936022 = A8698E6_{16}
+
+Therefore, 629F_{16}*6BAA_{16}=A8698E6_{16}.

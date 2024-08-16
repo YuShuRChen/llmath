@@ -1,0 +1,34 @@
+To subtract these two numbers, we first need to borrow from the left. 
+
+Then, 
+\[ \begin{array}{}
+& & & 3 & 7 & 5 & 6 & 2_{9}\\ 
+& - & 4 & 1 & 7 & 2 & 4_{9}\\ 
+\end{array} \]
+
+We borrow from the left to get:
+\[ \begin{array}{}
+& & & 2_{9} & 16 & 15 & 16 & 2_{9}\\ 
+& - & 4 & 1 & 7 & 2 & 4_{9}\\ 
+& & & & 3 & 8 & 13_{9}\\ 
+\end{array} \]
+
+Then, we continue to borrow until the second column: 
+\[ \begin{array}{}
+& & & 1 & 15 & 14_{9} & 16 & 2_{9}\\ 
+& - & 4 & 1 & 7 & 2 & 4_{9}\\ 
+& & & & 8 & 6 & 16_{9}\\ 
+\end{array} \]
+
+Then, we continue to borrow until the third column: 
+\[ \begin{array}{}
+& & & 0 & 24_{9} & 14_{9} & 16 & 2_{9}\\ 
+& - & 4 & 1 & 7 & 2 & 4_{9}\\ 
+& & & 8 & 15_{9} & 14_{9} & 16_{9}\\ 
+\end{array} \]
+
+Finally, we get 
+\[ 37562_{9} - 41724_{9} = 81516_{9} \]
+
+Therefore, 
+\[ 37562_{9} - 41724_{9} = 81516_{9} \]

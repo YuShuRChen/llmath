@@ -1,0 +1,15 @@
+To multiply two binary numbers, we perform binary multiplication as follows:
+```
+                110001010011111_{2}
+          ×     110101110101010_{2}
+          _______________________
+                110001010011111_{2}  (First row, shifted 0 bits)
+           +   00000000000000000       (Second row, shifted 1 bit)
+          +    11000101001111100       (Third row, shifted 2 bits)
++         11000101001111100             (Fourth row, shifted 3 bits)
+         +    11000101001111100        (Fifth row, shifted 4 bits)
+    +      11000101001111100           (Sixth row, shifted 5 bits)
+ _________________________________
+              100110011111000101100
+```
+Therefore, 110001010011111_{2}*110101110101010_{2}=  100110011111000101100_{2}.

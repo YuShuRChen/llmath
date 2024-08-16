@@ -1,0 +1,11 @@
+To subtract 331334_{6} from 312515_{6}, we can first convert the numbers to base 10, subtract them, and then convert the result back to base 6.
+
+In base 10, 312515_{6} = 3*6^5 + 1*6^4 + 2*6^3 + 5*6^2 + 1*6^1 + 5*6^0 = 13951_{10}
+
+In base 10, 331334_{6} = 3*6^5 + 3*6^4 + 1*6^3 + 3*6^2 + 3*6^1 + 4*6^0 = 15362_{10}
+
+Subtracting 15362_{10} from 13951_{10} gives 13951_{10} - 15362_{10} = -1411_{10}
+
+Converting -1411_{10} to base 6, we get -1411 = -3*6^3 + 1*6^2 + 5*6^1 + 5*6^0 = -3515_{6}
+
+Therefore, 312515_{6} - 331334_{6} = -3515_{6}

@@ -1,0 +1,8 @@
+To subtract these two numbers, we first need to ensure they have the same base:
+$22939_{11} = 2\cdot11^4 + 2\cdot11^3 + 9\cdot11^2 + 3\cdot11^1 + 9\cdot11^0 = 26620_{10}$
+
+$6948_{11} = 6\cdot11^3 + 9\cdot11^2 + 4\cdot11^1 + 8\cdot11^0 = 8470_{10}$
+
+Subtracting $26620_{10}-8470_{10}=18150_{10} = 14221_{11}$
+
+Therefore, $22939_{11} - 6948_{11} = 14221_{11}$.

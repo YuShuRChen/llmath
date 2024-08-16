@@ -1,0 +1,70 @@
+To compute the product of two numbers in base 14, B550_{14} and 87A1_{14}, let's follow these steps:
+
+1. **Convert the base 14 numbers to base 10**:
+   - For \( B550_{14} \):
+     - \( B \) in base 14 is \( 11 \) in base 10.
+     - \( 5 \) in base 14 is \( 5 \) in base 10.
+     - The places are \( 14^3, 14^2, 14^1, 14^0 \).
+
+     Converting \( B550_{14} \) to base 10:
+     \[
+     B550_{14} = 11 \cdot 14^3 + 5 \cdot 14^2 + 5 \cdot 14^1 + 0 \cdot 14^0
+     \]
+     Calculating the powers of 14:
+     \[
+     14^3 = 2744,\quad 14^2 = 196,\quad 14^1 = 14,\quad 14^0 = 1
+     \]
+     So:
+     \[
+     11 \cdot 2744 + 5 \cdot 196 + 5 \cdot 14 = 30184 + 980 + 70 = 31234_{10}
+     \]
+
+   - For \( 87A1_{14} \):
+     - \( 8 \) in base 14 is \( 8 \) in base 10.
+     - \( 7 \) in base 14 is \( 7 \) in base 10.
+     - \( A \) in base 14 is \( 10 \) in base 10.
+     - \( 1 \) in base 14 is \( 1 \) in base 10.
+
+     Converting \( 87A1_{14} \) to base 10:
+     \[
+     87A1_{14} = 8 \cdot 14^3 + 7 \cdot 14^2 + 10 \cdot 14^1 + 1 \cdot 14^0
+     \]
+     Using the computed powers of 14:
+     \[
+     8 \cdot 2744 + 7 \cdot 196 + 10 \cdot 14 + 1 \cdot 1 = 21952 + 1372 + 140 + 1 = 23465_{10}
+     \]
+
+2. **Multiply the base 10 equivalents**:
+   \[
+   31234_{10} \times 23465_{10} = 732665810_{10}
+   \]
+
+3. **Convert the result back to base 14**:
+   - To find the base, keep dividing by 14 and keeping track of the remainders:
+
+     \[
+     \begin{align*}
+     732665810 \div 14 &= 52333272 \quad \text{remainder} \ 2 \\
+     52333272 \div 14 &= 3738090 \quad \text{remainder} \ 12 \ (C) \\
+     3738090 \div 14 &= 267006 \quad \text{remainder} \ 6 \\
+     267006 \div 14 &= 19072 \quad \text{remainder} \ 14 \ (10 \ where\ A=10 \ and\ remainder\ of\ 0)\\
+     19072 \div 14 &= 1362 \quad \text{remainder} \ 10 \ (A) \\
+     1362 \div 14 &= 97  \quad \text{remainder} \ 4 \\
+     97 \div 14 &= 6 \quad \text{remainder} \ 13 \ (D) \\
+     6 \div 14 &= 0 \quad \text{remainder} \ 6
+     \end{align*}
+     \]
+
+     Reading remainders from bottom to top, the resulting number in base 14 is:
+     \[ 
+     6D4A6C2_{14}
+     \]
+
+So, the final result is:
+\[
+B550_{14} * 87A1_{14} = 6D4A6C2_{14}
+\]
+
+Single line summary:
+\[ B550_{14} \cdot 87A1_{14} \rightarrow 31234_{10} \cdot 23465_{10} = 732665810_{10} \rightarrow 6D4A6C2_{14} \]
+

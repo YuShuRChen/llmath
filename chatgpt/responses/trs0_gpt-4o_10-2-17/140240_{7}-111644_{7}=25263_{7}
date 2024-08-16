@@ -1,0 +1,127 @@
+To solve the equation \(140240_{7} - 111644_{7}\), we first need to convert these base-7 numbers to base-10, perform the subtraction in base-10, and then convert the result back to base-7.
+
+### Converting \(140240_{7}\) to base-10:
+\[
+140240_{7} = 1 \cdot 7^5 + 4 \cdot 7^4 + 0 \cdot 7^3 + 2 \cdot 7^2 + 4 \cdot 7^1 + 0 \cdot 7^0
+\]
+Calculate each term:
+\[
+1 \cdot 7^5 = 1 \cdot 16807 = 16807
+\]
+\[
+4 \cdot 7^4 = 4 \cdot 2401 = 9604
+\]
+\[
+0 \cdot 7^3 = 0 \cdot 343 = 0
+\]
+\[
+2 \cdot 7^2 = 2 \cdot 49 = 98
+\]
+\[
+4 \cdot 7^1 = 4 \cdot 7 = 28
+\]
+\[
+0 \cdot 7^0 = 0 \cdot 1 = 0
+\]
+
+Add these up:
+\[
+16807 + 9604 + 0 + 98 + 28 + 0 = 26537
+\]
+So, \(140240_{7} = 26537_{10}\).
+
+### Converting \(111644_{7}\) to base-10:
+\[
+111644_{7} = 1 \cdot 7^5 + 1 \cdot 7^4 + 1 \cdot 7^3 + 6 \cdot 7^2 + 4 \cdot 7^1 + 4 \cdot 7^0
+\]
+Calculate each term:
+\[
+1 \cdot 7^5 = 1 \cdot 16807 = 16807
+\]
+\[
+1 \cdot 7^4 = 1 \cdot 2401 = 2401
+\]
+\[
+1 \cdot 7^3 = 1 \cdot 343 = 343
+\]
+\[
+6 \cdot 7^2 = 6 \cdot 49 = 294
+\]
+\[
+4 \cdot 7^1 = 4 \cdot 7 = 28
+\]
+\[
+4 \cdot 7^0 = 4 \cdot 1 = 4
+\]
+
+Add these up:
+\[
+16807 + 2401 + 343 + 294 + 28 + 4 = 19877
+\]
+So, \(111644_{7} = 19877_{10}\).
+
+### Perform the subtraction in base-10:
+\[
+26537_{10} - 19877_{10} = 6650_{10}
+\]
+
+### Convert \(6650_{10}\) back to base-7:
+Find the largest power of 7 less than or equal to 6650:
+\[
+7^4 = 2401, \quad 7^3 = 343, \quad 7^2 = 49, \quad 7^1 = 7, \quad 7^0 = 1
+\]
+
+To convert:
+\[
+6650 \div 2401 \approx 2 \quad \text{(coefficient of } 7^4)
+\]
+Calculate the remainder:
+\[
+6650 - (2 \cdot 2401) = 1848
+\]
+
+Next coefficient of \(7^3\):
+\[
+1848 \div 343 \approx 5 \quad \text{(coefficient of } 7^3) \]
+Calculate the remainder:
+\[
+1848 - (5 \cdot 343) = 133
+\]
+
+Next coefficient of \(7^2\):
+\[
+133 \div 49 \approx 2 \quad \text{(coefficient of } 7^2)
+\]
+Calculate the remainder:
+\[
+133 - (2 \cdot 49) = 35
+\]
+
+Next coefficient of \(7^1\):
+\[
+35 \div 7 \approx 5 \quad \text{(coefficient of } 7^1)
+\]
+
+Calculate the remainder:
+\[
+35 - (5 \cdot 7) = 0
+\]
+
+Next coefficient of \(7^0\):
+\[
+\]
+\]
+
+So, \(6650_{10} = 25250_{7}\).
+
+### Summary:
+\[
+140240_{7} - 111644_{7} = 140240_{7} \rightarrow 26537_{10} - 111644_{7} \rightarrow 19877_{10} = 6650_{10} \rightarrow 25250_{7}
+\]
+\]
+)
+
+
+The final result is:
+\]
+140240_{7} - 111644_{7} = 25250_{7}

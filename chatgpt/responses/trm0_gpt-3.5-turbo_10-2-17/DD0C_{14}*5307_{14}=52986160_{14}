@@ -1,0 +1,11 @@
+First, let's convert the numbers to base 10:
+DD0C_{14} = (13*14^3) + (13*14^2) + (0*14^1) + (12*14^0) = 26364_{10}
+5307_{14} = (5*14^3) + (3*14^2) + (0*14^1) + (7*14^0) = 8295_{10}
+
+Now, multiply the base 10 numbers:
+26364_{10} * 8295_{10} = 218608020_{10}
+
+Finally, convert the result back to base 14:
+218608020_{10} = 60C728_{14}
+
+Therefore, DD0C_{14} * 5307_{14} = 60C728_{14}.

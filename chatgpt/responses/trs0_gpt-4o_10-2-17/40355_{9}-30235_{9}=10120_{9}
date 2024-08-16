@@ -1,0 +1,144 @@
+To solve the problem \(40355_{9} - 30235_{9}\), we need to convert both numbers from base 9 to base 10, perform the subtraction, and then convert the result back to base 9.
+
+First, let's convert \(40355_{9}\) to base 10:
+
+\(40355_{9} = 4 \cdot 9^4 + 0 \cdot 9^3 + 3 \cdot 9^2 + 5 \cdot 9^1 + 5 \cdot 9^0\)
+
+Breaking down the computation:
+
+\[
+4 \cdot 9^4 = 4 \cdot 6561 = 26244
+\]
+\[
+0 \cdot 9^3 = 0 \cdot 729 = 0
+\]
+\[
+3 \cdot 9^2 = 3 \cdot 81 = 243
+\]
+\[
+5 \cdot 9^1 = 5 \cdot 9 = 45
+\]
+\[
+5 \cdot 9^0 = 5 \cdot 1 = 5
+\]
+
+Adding these up:
+
+\[
+26244 + 0 + 243 + 45 + 5 = 26537
+\]
+
+Therefore,
+
+\[
+40355_{9} = 26537_{10}
+\]
+
+Next, let's convert \(30235_{9}\) to base 10:
+
+\(
+30235_{9} = 3 \cdot 9^4 + 0 \cdot 9^3 + 2 \cdot 9^2 + 3 \cdot 9^1 + 5 \cdot 9^0
+\)
+
+Breaking down the computation:
+
+\[
+3 \cdot 9^4 = 3 \cdot 6561 = 19683
+\]
+\[
+0 \cdot 9^3 = 0 \cdot 729 = 0
+\]
+\[
+2 \cdot 9^2 = 2 \cdot 81 = 162
+\]
+\[
+3 \cdot 9^1 = 3 \cdot 9 = 27
+\]
+\[
+5 \cdot 9^0 = 5 \cdot 1 = 5
+\]
+
+Adding these up:
+
+\[
+19683 + 0 + 162 + 27 + 5 = 19877
+\]
+
+Therefore,
+
+\[
+30235_{9} = 19877_{10}
+\]
+
+Now let's perform the subtraction:
+
+\(
+26537_{10} - 19877_{10} = 6650_{10}
+\)
+
+Finally, we need to convert \(6650_{10}\) back to base 9. To do this, we find the coefficients for powers of 9.
+
+\(
+6650_{10} = a \cdot 9^4 + b \cdot 9^3 + c \cdot 9^2 + d \cdot 9^1 + e \cdot 9^0
+\)
+
+Compute the largest power:
+
+\(
+9^4 = 6561 \quad \Rightarrow \quad a = \left\lfloor \frac{6650}{6561} \right\rfloor = 1
+\)
+
+Subtract this amount:
+
+\(
+6650 - 1 \cdot 6561 = 89
+\)
+
+Next power of 9:
+
+\(
+9^3 = 729 \quad \Rightarrow \quad b = \left\lfloor \frac{89}{729} \right\rfloor = 0
+\)
+
+No subtraction necessary as \(b\) is 0. Proceed with next power:
+
+\(
+9^2 = 81 \quad \Rightarrow \quad c = \left\lfloor \frac{89}{81} \right\rfloor = 1
+\)
+
+Subtract this amount:
+
+\(
+89 - 1 \cdot 81 = 8
+\)
+
+Next power:
+
+\(
+9^1 = 9 \quad \Rightarrow \quad d = \left\lfloor \frac{8}{9} \right\rfloor = 0
+\)
+
+And finally:
+
+\(
+9^0 = 1 \quad \Rightarrow \quad e = \frac{8}{1} = 8
+\)
+
+Result:
+
+\[
+6650_{10} = 10108_{9}
+\]
+
+Therefore, the final result of the subtraction \(40355_9 - 30235_9\) is:
+
+\[
+40355_{9} - 30235_{9} = 10108_{9}
+\]
+
+\(
+
+40355_{9} - 30235_{9} = 40355_{9} \to 26537_{10}, 30235_{9} \to 19877_{10}, 
+26537_{10} - 19877_{10} = 6650_{10}, 6650_{10} \to 10108_{9} = 10108_{9}
+
+\)

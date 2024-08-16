@@ -1,0 +1,14 @@
+To multiply two numbers in base 13, we can first convert them to base 10, perform the multiplication, and then convert the result back to base 13.
+
+Converting 1291_{13} to base 10:
+1*13^3 + 2*13^2 + 9*13^1 + 1*13^0 = 2197 + 338 + 117 + 1 = 2653_{10}
+
+Converting 7953_{13} to base 10:
+7*13^3 + 9*13^2 + 5*13^1 + 3*13^0 = 6370 + 1521 + 65 + 3 = 7959_{10}
+
+Multiplying 2653_{10} * 7959_{10} = 21130827_{10}
+
+Converting 21130827_{10} to base 13:
+21130827 = 2*13^7 + 11*13^6 + 1*13^5 + 2*13^4 + 4*13^3 + 6*13^2 + 2*13^1 + 7*13^0 = 2B12642A7_{13}
+
+Therefore, 1291_{13} * 7953_{13} = 2B12642A7_{13}

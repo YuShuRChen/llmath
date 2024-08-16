@@ -1,0 +1,68 @@
+To solve the equation \( 24055_{7} - 226102_{7} \) by hand, we can convert these base-7 numbers to base-10, perform the subtraction, and then convert the result back to base-7.
+
+Step 1: Convert \( 24055_{7} \) to base-10.
+\[
+24055_{7} = 2 \cdot 7^4 + 4 \cdot 7^3 + 0 \cdot 7^2 + 5 \cdot 7^1 + 5 \cdot 7^0
+\]
+
+\[
+= 2 \cdot 2401 + 4 \cdot 343 + 0 \cdot 49 + 5 \cdot 7 + 5 \cdot 1
+\]
+
+\[
+= 4802 + 1372 + 0 + 35 + 5 = 6214_{10}
+\]
+
+Step 2: Convert \( 226102_{7} \) to base-10.
+\[
+226102_{7} = 2 \cdot 7^5 + 2 \cdot 7^4 + 6 \cdot 7^3 + 1 \cdot 7^2 + 0 \cdot 7^1 + 2 \cdot 7^0
+\]
+
+\[
+= 2 \cdot 16807 + 2 \cdot 2401 + 6 \cdot 343 + 1 \cdot 49 + 0 + 2
+\]
+
+\[
+= 33614 + 4802 + 2058 + 49 + 2 = 40525_{10}
+\]
+
+Step 3: Perform the subtraction in base-10.
+\[
+6214_{10} - 40525_{10} = -34311_{10}
+\]
+
+Step 4: Convert \(-34311_{10}\) back to base-7. Since it is negative, we first convert \(34311\) to base-7.
+\[
+34311_{10} \div 7 = 4901 \text{ remainder } 4
+\]
+\[
+4901 \div 7 = 700 \text{ remainder } 1
+\]
+\[
+700 \div 7 = 100 \text{ remainder } 0
+\]
+\[
+100 \div 7 = 14 \text{ remainder } 2
+\]
+\[
+14 \div 7 = 2 \text{ remainder } 0
+\]
+\[
+2 \div 7 = 0 \text{ remainder } 2
+\]
+
+Writing the remainders from the bottom up, we get:
+\[
+34311_{10} = 200014_{7}
+\]
+
+Therefore, \(-34311_{10} = -200014_{7}\).
+
+\[
+24055_{7} - 226102_{7} = -200014_{7}
+\]
+
+Summarizing,
+\[
+24055_{7} - 226102_{7} = 6214_{10} - 40525_{10} = -34311_{10} = -200014_{7}
+\]

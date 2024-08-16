@@ -1,0 +1,51 @@
+To solve the equation \(1A160_{12} - 834B_{12}\), we first need to convert both numbers from base 12 to base 10.
+
+### Convert \(1A160_{12}\) to base 10:
+Each digit from the number in base 12 is multiplied by \(12^n\), where \(n\) is the position of the digit from right to left starting at 0.
+
+1. \(0 \times 12^0 = 0\)
+2. \(6 \times 12^1 = 72\)
+3. \(1 \times 12^2 = 144\)
+4. \(A_{12} \times 12^3\) (where \(A_{12} = 10_{10}\)):
+   \(10 \times 12^3 = 10 \times 1728 = 17280\)
+5. \(1 \times 12^4 = 1 \times 20736 = 20736\)
+
+Now, sum these products:
+
+\[ 0 + 72 + 144 + 17280 + 20736 = 38232 \]
+
+So, \(1A160_{12} = 38232_{10}\).
+
+### Convert \(834B_{12}\) to base 10:
+Similarly, take each digit and multiply by \(12^n\):
+
+1. \(B_{12} \times 12^0\) (where \(B_{12} = 11_{10}\)):
+   \(11 \times 1 = 11\)
+2. \(4 \times 12^1 = 48\)
+3. \(3 \times 12^2 = 432\)
+4. \(8 \times 12^3 = 8 \times 1728 = 13824\)
+
+Now, sum these products:
+
+\[ 11 + 48 + 432 + 13824 = 14315 \]
+
+So, \(834B_{12} = 14315_{10}\).
+
+### Subtract the two results in base 10:
+\[ 38232 - 14315 = 23917 \]
+
+### Convert the result back to base 12:
+To convert \(23917_{10}\) to base 12, we repeatedly divide by 12:
+
+1. \(23917 \div 12 = 1993 \text{ remainder } 1\)
+2. \(1993 \div 12 = 166 \text{ remainder } 5\)
+3. \(166 \div 12 = 13 \text{ remainder } 10\) (remember \(10_{10} = A_{12}\))
+4. \(13 \div 12 = 1 \text{ remainder } 1\)
+5. \(1 \div 12 = 0 \text{ remainder } 1\)
+
+So, reading these remainders from bottom to top, \(23917_{10} = 11A51_{12}\).
+
+### Summary:
+\[
+1A160_{12} - 834B_{12} = (0 + 72 + 144 + 17280 + 20736)_{10} - (11 + 48 + 432 + 13824)_{10} = 38232_{10} - 14315_{10} = 23917_{10} = 11A51_{12}
+\]

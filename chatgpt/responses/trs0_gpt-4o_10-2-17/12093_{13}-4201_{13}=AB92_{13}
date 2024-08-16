@@ -1,0 +1,48 @@
+Let's start by converting the base-13 numbers to base-10 numbers.
+
+For \( 12093_{13} \):
+- The rightmost digit is the units place: \( 3 \times 13^0 = 3 \times 1 = 3 \).
+- The next digit is the \( 13^1 \) place: \( 9 \times 13^1 = 9 \times 13 = 117 \).
+- The next digit is the \( 13^2 \) place: \( 0 \times 13^2 = 0 \times 169 = 0 \).
+- The next digit is the \( 13^3 \) place: \( 2 \times 13^3 = 2 \times 2197 = 4394 \).
+- The leftmost digit is the \( 13^4 \) place: \( 1 \times 13^4 = 1 \times 28561 = 28561 \).
+
+Adding these up: \( 3 + 117 + 0 + 4394 + 28561 = 33075 \).
+
+So, \( 12093_{13} = 33075_{10} \).
+
+For \( 4201_{13} \):
+- The rightmost digit is the units place: \( 1 \times 13^0 = 1 \times 1 = 1 \).
+- The next digit is the \( 13^1 \) place: \( 0 \times 13^1 = 0 \times 13 = 0 \).
+- The next digit is the \( 13^2 \) place: \( 2 \times 13^2 = 2 \times 169 = 338 \).
+- The leftmost digit is the \( 13^3 \) place: \( 4 \times 13^3 = 4 \times 2197 = 8788 \).
+
+Adding these up: \( 1 + 0 + 338 + 8788 = 9127 \).
+
+So, \( 4201_{13} = 9127_{10} \).
+
+Now we subtract the two base-10 numbers: \( 33075_{10} - 9127_{10} = 23948_{10} \).
+
+Next, we convert \( 23948_{10} \) back to base-13.
+
+To convert from base-10 to base-13, we divide the number by the highest power of 13 that is less than or equal to the number, and continue the process with the remainders:
+
+1. \( 13^4 = 28561 \) (too large)
+2. \( 13^3 = 2197 \)
+3. \( 23948 \div 2197 = 10 \) (integer part), remainder = 23948 - 21970 = 1978
+
+Next, \( 13^2 = 169 \):
+- \( 1978 \div 169 = 11 \) (integer part), remainder = 1978 - 1859 = 119
+
+Next, \( 13^1 = 13 \):
+- \( 119 \div 13 = 9 \) (integer part), remainder = 119 - 117 = 2
+
+Finally, \( 13^0 = 1 \):
+- \( 2 \div 1 = 2 \) (integer part), remainder = 0
+
+Putting it all together, \( 23948_{10} \) converts to \( 10192_{13} \).
+
+So the result is:
+\( 12093_{13} - 4201_{13} = 10192_{13} \).
+
+Summary: \( 12093_{13} - 4201_{13} = 33075_{10} - 9127_{10} = 23948_{10} = 10192_{13} \).

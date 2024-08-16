@@ -1,0 +1,79 @@
+To compute the product of the two base-4 numbers, \(12132221_4\) and \(10312211_4\), we first need to convert them into base-10, perform the multiplication in base-10, and then convert the result back to base-4. Here's how we do it step-by-step:
+
+### Step 1: Convert \(12132221_4\) to base-10
+
+The base-4 number \(12132221_4\) can be expanded as follows:
+\[ 1 \cdot 4^7 + 2 \cdot 4^6 + 1 \cdot 4^5 + 3 \cdot 4^4 + 2 \cdot 4^3 + 2 \cdot 4^2 + 2 \cdot 4^1 + 1 \cdot 4^0 \]
+
+Calculating the powers of 4:
+\[ 4^7 = 16384, \; 4^6 = 4096, \; 4^5 = 1024, \; 4^4 = 256, \; 4^3 = 64, \; 4^2 = 16, \; 4^1 = 4, \; 4^0 = 1 \]
+
+Now substituting in and calculating each term:
+\[ 1 \cdot 16384 = 16384 \]
+\[ 2 \cdot 4096 = 8192 \]
+\[ 1 \cdot 1024 = 1024 \]
+\[ 3 \cdot 256 = 768 \]
+\[ 2 \cdot 64 = 128 \]
+\[ 2 \cdot 16 = 32 \]
+\[ 2 \cdot 4 = 8 \]
+\[ 1 \cdot 1 = 1 \]
+
+Adding these together:
+\[ 16384 + 8192 + 1024 + 768 + 128 + 32 + 8 + 1 = 26437 \]
+
+So, \(12132221_4 = 26437_{10}\).
+
+### Step 2: Convert \(10312211_4\) to base-10
+
+The base-4 number \(10312211_4\) can be expanded as follows:
+\[ 1 \cdot 4^7 + 0 \cdot 4^6 + 3 \cdot 4^5 + 1 \cdot 4^4 + 2 \cdot 4^3 + 2 \cdot 4^2 + 1 \cdot 4^1 + 1 \cdot 4^0 \]
+
+Calculating the powers of 4:
+\[ 4^7 = 16384, \; 4^6 = 4096, \; 4^5 = 1024, \; 4^4 = 256, \; 4^3 = 64, \; 4^2 = 16, \; 4^1 = 4, \; 4^0 = 1 \]
+
+Now substituting in and calculating each term:
+\[ 1 \cdot 16384 = 16384 \]
+\[ 0 \cdot 4096 = 0 \]
+\[ 3 \cdot 1024 = 3072 \]
+\[ 1 \cdot 256 = 256 \]
+\[ 2 \cdot 64 = 128 \]
+\[ 2 \cdot 16 = 32 \]
+\[ 1 \cdot 4 = 4 \]
+\[ 1 \cdot 1 = 1 \]
+
+Adding these together:
+\[ 16384 + 0 + 3072 + 256 + 128 + 32 + 4 + 1 = 19877 \]
+
+So, \(10312211_4 = 19877_{10}\).
+
+### Step 3: Multiply the two base-10 numbers
+
+Now we multiply \(26437_{10}\) by \(19877_{10}\):
+\[ 26437 \times 19877 = 525635149 \]
+
+### Step 4: Convert the result back to base-4
+
+To convert \(525635149_{10}\) to base-4, we repeatedly divide by 4, keeping track of the remainders:
+
+\[ 525635149 ÷ 4 = 131408787 \text{ remainder } 1 \]
+\[ 131408787 ÷ 4 = 32852196 \text{ remainder } 3 \]
+\[ 32852196 ÷ 4 = 8213049 \text{ remainder } 0 \]
+\[ 8213049 ÷ 4 = 2053262 \text{ remainder } 1 \]
+\[ 2053262 ÷ 4 = 513315 \text{ remainder } 2 \]
+\[ 513315 ÷ 4 = 128328 \text{ remainder } 3 \]
+\[ 128328 ÷ 4 = 32082 \text{ remainder } 0 \]
+\[ 32082 ÷ 4 = 8020 \text{ remainder } 2 \]
+\[ 8020 ÷ 4 = 2005 \text{ remainder } 0 \]
+\[ 2005 ÷ 4 = 501 \text{ remainder } 1 \]
+\[ 501 ÷ 4 = 125 \text{ remainder } 1 \]
+\[ 125 ÷ 4 = 31 \text{ remainder } 1 \]
+\[ 31 ÷ 4 = 7 \text{ remainder } 3 \]
+\[ 7 ÷ 4 = 1 \text{ remainder } 3 \]
+\[ 1 ÷ 4 = 0 \text{ remainder } 1 \]
+
+Reading the remainders from bottom to top, we get:
+\[ 525635149_{10} = 133110320232031_{4} \]
+
+So the answer is: 
+\[ 12132221_4 \times 10312211_4 = 133110320232031_4 \]
+Final result: \( 12132221_4 * 10312211_4 = 26437_{10} * 19877_{10} = 525635149_{10} = 133110320232031_{4} \)

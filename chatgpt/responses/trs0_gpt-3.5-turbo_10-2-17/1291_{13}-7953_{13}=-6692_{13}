@@ -1,0 +1,12 @@
+First, we need to subtract the numbers in base 13:
+
+1. \( 1_{13} - 3_{13} = -2_{13} = 11_{13} \) (borrowing 1 from the next column to the left)
+2. \( 9_{13} - 5_{13} = 4_{13} \)
+3. \( 2_{13} - 9_{13} = -7_{13} = 6_{13} \) (borrowing 1 from the next column to the left)
+4. \( 1_{13} - 7_{13} = -6_{13} = 7_{13} \) (borrowing 1 from the next column to the left)
+
+Therefore, \( 1291_{13} - 7953_{13} = -6662_{13} \)
+
+\[
+1291_{13} - 7953_{13} = -6662_{13}
+\]

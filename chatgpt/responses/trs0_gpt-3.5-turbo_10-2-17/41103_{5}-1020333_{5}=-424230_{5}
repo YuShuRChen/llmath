@@ -1,0 +1,10 @@
+To subtract these numbers in base 5, we need to align them accordingly and then perform the subtraction digit by digit. 
+
+```
+   4  1  1  0  3
+-  1  0  2  0  3  3 3
+___________________
+   3  1  3  1  0  0
+```
+
+Therefore, \( 41103_{5} - 1020333_{5} = 313100_{5} \).

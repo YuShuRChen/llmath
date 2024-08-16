@@ -1,0 +1,14 @@
+First, we need to perform the subtraction in base 11.
+
+1. Convert A (base 11) to 10 (base 10):
+A = 10
+
+2. Perform the subtraction in base 10:
+473A (base 11) = 4*11^3 + 7*11^2 + 3*11^1 + 10*11^0 = 5324 (base 10)
+284A1 (base 11) = 2*11^3 + 8*11^2 + 4*11^1 + 10*11^0 = 3088 (base 10)
+5324 - 3088 = 2236 (base 10)
+
+3. Convert the result back to base 11:
+2236 (base 10) = 1*11^3 + 2*11^2 + 8*11^1 + 4*11^0 = 1284 (base 11)
+
+Therefore, 473A_{11}-284A1_{11} = 1284_{11}.

@@ -1,0 +1,23 @@
+To solve \(6214_{10} * 40525_{10}\), we perform a straightforward multiplication of the two decimal numbers.
+
+Step-by-step multiplication:
+```
+             6214
+           ×40525
+     ______________
+            31070   (6214 × 5)
+           31070    (6214 × 20, shift one position to the left)
+          248560    (6214 × 500, shift two positions to the left)
+         1864200    (6214 × 4000, shift three positions to the left)
+        24856000    (6214 × 40000, shift four positions to the left)
+     ______________
+        251765350  (sum of all the above partial products)
+```
+
+Finally, the multiplication is performed as follows:
+\[
+6214_{10} * 40525_{10} = 251765350_{10}
+\]
+
+To summarize:
+\[ 6214_{10} * 40525_{10} = 251765350_{10} \]

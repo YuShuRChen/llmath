@@ -1,0 +1,147 @@
+To solve the subtraction problem \( 221100002_{3} - 110120012_{3} \), we will first convert both ternary (base-3) numbers into decimal (base-10) numbers, then perform the subtraction, and finally convert the result back into a ternary number.
+
+### Step 1: Convert \( 221100002_{3} \) to decimal
+
+We expand the number in base-3 with the corresponding powers of 3:
+
+\[
+221100002_{3} = 2 \cdot 3^8 + 2 \cdot 3^7 + 1 \cdot 3^6 + 1 \cdot 3^5 + 0 \cdot 3^4 + 0 \cdot 3^3 + 0 \cdot 3^2 + 0 \cdot 3^1 + 2 \cdot 3^0
+\]
+
+Now let's calculate each term:
+
+\[
+2 \cdot 3^8 = 2 \cdot 6561 = 13122
+\]
+\[
+2 \cdot 3^7 = 2 \cdot 2187 = 4374
+\]
+\[
+1 \cdot 3^6 = 1 \cdot 729 = 729
+\]
+\[
+1 \cdot 3^5 = 1 \cdot 243 = 243
+\]
+\[
+0 \cdot 3^4 = 0
+\]
+\[
+0 \cdot 3^3 = 0
+\]
+\[
+0 \cdot 3^2 = 0
+\]
+\[
+0 \cdot 3^1 = 0
+\]
+\[
+2 \cdot 3^0 = 2
+\]
+
+Adding these together:
+
+\[
+13122 + 4374 + 729 + 243 + 0 + 0 + 0 + 0 + 2 = 18170
+\]
+
+So, \( 221100002_{3} = 18170_{10} \).
+
+### Step 2: Convert \( 110120012_{3} \) to decimal
+
+Similarly, we expand the number in base-3:
+
+\[
+110120012_{3} = 1 \cdot 3^8 + 1 \cdot 3^7 + 0 \cdot 3^6 + 1 \cdot 3^5 + 2 \cdot 3^4 + 0 \cdot 3^3 + 0 \cdot 3^2 + 1 \cdot 3^1 + 2 \cdot 3^0
+\]
+
+Now let's calculate each term:
+
+\[
+1 \cdot 3^8 = 1 \cdot 6561 = 6561
+\]
+\[
+1 \cdot 3^7 = 1 \cdot 2187 = 2187
+\]
+\[
+0 \cdot 3^6 = 0
+\]
+\[
+1 \cdot 3^5 = 1 \cdot 243 = 243
+\]
+\[
+2 \cdot 3^4 = 2 \cdot 81 = 162
+\]
+\[
+0 \cdot 3^3 = 0
+\]
+\[
+0 \cdot 3^2 = 0
+\]
+\[
+1 \cdot 3^1 = 3
+\]
+\[
+2 \cdot 3^0 = 2
+\]
+
+Adding these together:
+
+\[
+6561 + 2187 + 0 + 243 + 162 + 0 + 0 + 3 + 2 = 9158
+\]
+
+So, \( 110120012_{3} = 9158_{10} \).
+
+### Step 3: Perform the subtraction in base-10
+
+\[
+18170 - 9158 = 9012
+\]
+
+### Step 4: Convert the result \( 9012_{10} \) back to base-3
+
+We divide by the largest powers of 3 until we get the digits:
+
+\[
+9012 \div 3^8 = 9012 \div 6561 = 1 \quad \text{(remainder } 2451 \text{)}
+\]
+\[
+2451 \div 3^7 = 2451 \div 2187 = 1 \quad \text{(remainder } 264 \text{)}
+\]
+\[
+264 \div 3^6 = 264 \div 729 = 0 
+\]
+\[
+264 \div 3^5 = 264 \div 243 = 1 \quad \text{(remainder } 21 \text{)}
+\]
+\[
+21 \div 3^4 = 21 \div 81 = 0 
+\]
+\[
+21 \div 3^3 = 21 \div 27 = 0 
+\]
+\[
+21 \div 3^2 = 21 \div 9 = 2 \quad \text{(remainder } 3 \text{)}
+\]
+\[
+3 \div 3^1 = 3 \div 3 = 1 \quad \text{(remainder } 0 \text{)}
+\]
+\[
+0 \div 3^0 = 0 
+\]
+
+So the ternary form of \( 9012 \) is:
+
+\[
+110102100_{3}
+\]
+
+### Summary:
+\[
+221100002_{3} - 110120012_{3} = 18170_{10} - 9158_{10} = 9012_{10} = 110102100_{3}
+\]
+
+Therefore,
+\[
+221100002_{3}-110120012_{3} = 110102100_{3}
+\]

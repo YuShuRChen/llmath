@@ -1,0 +1,13 @@
+To subtract in base 9, we can borrow 1 from the digit to the left if needed. 
+
+Converting both numbers to base 10:
+24461_{9} = 2*9^4 + 4*9^3 + 4*9^2 + 6*9 + 1 = 6626_{10}
+52780_{9} = 5*9^4 + 2*9^3 + 7*9^2 + 8*9 = 36041_{10}
+
+Subtracting in base 10:
+6626_{10} - 36041_{10} = -29415_{10}
+
+Converting the result back to base 9:
+-29415_{10} = -3*9^4 - 2*9^3 - 5*9^2 - 3*9 = -32323_{9}
+
+Therefore, 24461_{9} - 52780_{9} = -32323_{9}.

@@ -1,0 +1,109 @@
+To solve the equation \( 9601_{12} - 18246_{12} \), we first need to convert both numbers from base 12 to base 10.
+
+**Step 1: Convert \(9601_{12}\) to base 10.**
+
+\[
+9601_{12} = 9 \times 12^3 + 6 \times 12^2 + 0 \times 12^1 + 1 \times 12^0
+\]
+
+Calculating each term individually:
+
+\[
+9 \times 12^3 = 9 \times 1728 = 15552
+\]
+\[
+6 \times 12^2 = 6 \times 144 = 864
+\]
+\[
+0 \times 12^1 = 0
+\]
+\[
+1 \times 12^0 = 1
+\]
+
+Summing these results:
+
+\[
+15552 + 864 + 0 + 1 = 16417
+\]
+
+Thus,
+
+\[
+9601_{12} = 16417_{10}
+\]
+
+**Step 2: Convert \(18246_{12}\) to base 10.**
+
+\[
+18246_{12} = 1 \times 12^4 + 8 \times 12^3 + 2 \times 12^2 + 4 \times 12^1 + 6 \times 12^0
+\]
+
+Calculating each term individually:
+
+\[
+1 \times 12^4 = 1 \times 20736 = 20736
+\]
+\[
+8 \times 12^3 = 8 \times 1728 = 13824
+\]
+\[
+2 \times 12^2 = 2 \times 144 = 288
+\]
+\[
+4 \times 12^1 = 4 \times 12 = 48
+\]
+\[
+6 \times 12^0 = 6
+\]
+
+Summing these results:
+
+\[
+20736 + 13824 + 288 + 48 + 6 = 34902
+\]
+
+Thus,
+
+\[
+18246_{12} = 34902_{10}
+\]
+
+**Step 3: Perform the subtraction in base 10.**
+
+\[
+16417_{10} - 34902_{10} = -18485_{10}
+\]
+
+**Step 4: Convert \(-18485_{10}\) to base 12.**
+
+Since \(-18485_{10}\) is negative, we will first convert \(18485_{10}\) to base 12.
+
+Finding the coefficients for each power of 12:
+
+18485 divided by 12 (2260 remainder 5)  
+2260 divided by 12 (188 remainder 4)  
+188 divided by 12 (15 remainder 8)  
+15 divided by 12 (1 remainder 3)  
+1 divided by 12 equals 0 remainder 1
+
+So, 
+\[
+18485_{10} = 13845_{12}
+\]
+
+Thus, 
+\[
+-18485_{10} = -13845_{12}
+\]
+
+Summarizing:
+
+\[
+9601_{12} - 18246_{12} = (9601_{12} = 16417_{10}) - (18246_{12} = 34902_{10}) = -18485_{10} = -13845_{12}
+\]
+
+So,
+\[
+9601_{12} - 18246_{12} = -13845_{12}
+\]

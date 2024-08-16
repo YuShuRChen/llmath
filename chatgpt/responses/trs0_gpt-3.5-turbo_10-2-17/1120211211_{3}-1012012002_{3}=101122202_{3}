@@ -1,0 +1,18 @@
+To subtract these two ternary numbers, we will first convert them to decimal and then perform the subtraction in decimal before converting the result back to ternary.
+
+Converting \(1120211211_3\) to decimal:
+\[1 \times 3^9 + 1 \times 3^8 + 2 \times 3^7 + 0 \times 3^6 + 2 \times 3^5 + 1 \times 3^4 + 1 \times 3^3 + 2 \times 3^2 + 1 \times 3^1 + 1 \times 3^0\]
+\[= 19683 + 6561 + 4374 + 486 + 162 + 27 + 9 + 6 + 3 + 1\]
+\[= 31202\]
+
+Converting \(1012012002_3\) to decimal:
+\[1 \times 3^9 + 0 \times 3^8 + 1 \times 3^7 + 2 \times 3^6 + 0 \times 3^5 + 1 \times 3^4 + 2 \times 3^3 + 0 \times 3^2 + 0 \times 3^1 + 2 \times 3^0\]
+\[= 19683 + 4374 + 729 + 81 + 18 + 2\]
+\[= 24387\]
+
+Subtracting \(31202 - 24387 = 6823\)
+
+Converting 6823 back to ternary:
+\[6823_{10} = 1001122212_3\]
+
+Therefore, \(1120211211_{3} - 1012012002_{3} = 1001122212_{3}\)

@@ -1,0 +1,10 @@
+To subtract two numbers in base 5, we can align them vertically and perform borrowing if needed. 
+
+```
+   1042340_{5}
+ -   243113_{5}
+ --------------
+   8001204_{5}
+```
+
+Therefore, \(1042340_{5} - 243113_{5} = 8001204_{5}\).

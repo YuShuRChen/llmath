@@ -83,3 +83,30 @@ def calculate(equation):
 
 def score_add(equation, result):
     return 0
+
+
+# def check_correctness_in_base(a, b, base):
+#     a = a[::-1]
+#     b = b[::-1]
+#
+#     carry = 0
+#     result = []
+#     # Perform addition digit by digit
+#     for i in range(max(len(a), len(b))):
+#         digit_sum = carry
+#         if i < len(a):
+#             digit_sum += (a[i])
+#         if i < len(b):
+#             digit_sum += int(b[i], base)
+#         carry = digit_sum // base
+#         digit_sum %= base
+#         result.append(str(digit_sum))
+#
+#     # Add the last carry if there's any
+#     if carry:
+#         result.append(str(carry))
+#
+#     # Reverse the result to get the correct order
+#     result = ''.join(result[::-1])
+#
+#     return result

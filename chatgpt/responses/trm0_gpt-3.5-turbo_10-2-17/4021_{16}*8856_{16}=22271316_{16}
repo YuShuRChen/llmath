@@ -1,0 +1,23 @@
+First, let's convert the numbers to decimal to perform the multiplication:
+
+\[
+4021_{16} = 4*16^3 + 0*16^2 + 2*16^1 + 1*16^0 = 16385_{10}
+\]
+
+\[
+8856_{16} = 8*16^3 + 8*16^2 + 5*16^1 + 6*16^0 = 34918_{10}
+\]
+
+Now, let's multiply these decimal numbers:
+
+\[
+16385_{10} * 34918_{10} = 571949930_{10}
+\]
+
+Converting the result back to hexadecimal:
+
+\[
+571949930_{10} = 8A4C9AA_{16}
+\]
+
+Therefore, \( 4021_{16} * 8856_{16} = 8A4C9AA_{16} \)

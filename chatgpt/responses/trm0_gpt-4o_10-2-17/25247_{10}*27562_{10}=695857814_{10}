@@ -1,0 +1,51 @@
+First, we need to compute the multiplication of the two given decimal numbers.
+
+\[25247 * 27562.\]
+
+Let's break it down step by step.
+
+1. Multiply each digit of the second number (27562) by each digit of the first number (25247):
+
+- 25247 * 2 = 50494 
+- 25247 * 60 = 1514820
+- 25247 * 500 = 12623500
+- 25247 * 7000 = 176729000
+- 25247 * 20000 = 504940000
+
+2. Now, sum these results together, being careful with place values:
+
+50494
++
+1514820
++
+12623500
++
+176729000
++
+504940000
+
+Let's add them step-by-step:
+
+First, add the smallest two results:
+50494
++ 1514820
+= 1565314
+
+Add the result to the next value:
+1565314
++ 12623500
+= 14188814
+
+Add the result to the next value:
+14188814
++ 176729000
+= 190917814
+
+Finally, add the result to the largest value:
+190917814
++ 504940000
+= 695857814
+
+Thus,
+
+\[25247_{10} \times 27562_{10} = 695857814_{10}.\]

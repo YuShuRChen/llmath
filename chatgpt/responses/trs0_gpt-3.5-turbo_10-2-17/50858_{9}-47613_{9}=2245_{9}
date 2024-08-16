@@ -1,0 +1,12 @@
+To subtract $47613_9$ from $50858_9$, we can align the numbers and perform the subtraction:
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c}
+& & 5 & 0 & 8 & 5 & 8_9 \\
+- & & 4 & 7 & 6 & 1 & 3_9 \\
+\hline
+& & 0 & 2 & 2 & 4 & 5_9
+\end{array}
+\]
+
+Therefore, $50858_{9}-47613_{9}=02245_{9}$.

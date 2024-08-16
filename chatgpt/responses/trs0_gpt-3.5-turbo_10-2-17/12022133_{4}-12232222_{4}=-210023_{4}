@@ -1,0 +1,18 @@
+To subtract numbers in base 4, we need to perform the subtraction column by column, borrowing when necessary. 
+
+Step 1: Perform the subtraction of the ones column:
+3 (base 4) - 2 (base 4) = 1 (base 4)
+
+Step 2: Perform the subtraction of the fours column:
+3 (base 4) - 2 (base 4) = 1 (base 4)
+
+Step 3: Perform the subtraction of the sixteens column:
+2 (base 4) - 2 (base 4) = 0 (base 4)
+
+Step 4: Perform the subtraction of the sixty-fours column:
+0 (base 4) - 3 (base 4) = -3 (base 4) = 3 (base 4) with carrying 1 to the 256 column
+
+Step 5: Perform the subtraction of the two hundred fifty-six column:
+1 (base 4) - 1 (base 4) (from the carry) = 0 (base 4)
+
+Therefore, \(12022133_{4} - 12232222_{4} = 301_{4}\)

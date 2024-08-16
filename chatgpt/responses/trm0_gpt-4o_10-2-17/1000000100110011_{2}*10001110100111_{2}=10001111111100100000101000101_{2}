@@ -1,0 +1,64 @@
+First, let's convert the binary numbers to decimal:
+
+1. \( 1000000100110011_{2} \)
+
+To convert \( 1000000100110011 \) from binary to decimal, we use the positional values of binary digits, which are powers of 2:
+
+\[
+1 \cdot 2^{15} + 0 \cdot 2^{14} + 0 \cdot 2^{13} + 0 \cdot 2^{12} + 0 \cdot 2^{11} + 0 \cdot 2^{10} + 0 \cdot 2^{9} + 1 \cdot 2^{8} + 0 \cdot 2^{7} + 0 \cdot 2^{6} + 1 \cdot 2^{5} + 1 \cdot 2^{4} + 0 \cdot 2^{3} + 0 \cdot 2^{2} + 1 \cdot 2^{1} + 1 \cdot 2^{0}
+\]
+
+Calculating each term:
+
+\[
+1 \cdot 32768 + 1 \cdot 256 + 1 \cdot 16 + 1 \cdot 2 + 1 \cdot 1 = 32768 + 256 + 16 + 2 + 1 = 33043_{10}
+\]
+
+2. \( 10001110100111_{2} \)
+
+To convert \( 10001110100111 \) from binary to decimal, we use the positional values of binary digits, which are powers of 2:
+
+\[
+1 \cdot 2^{13} + 0 \cdot 2^{12} + 0 \cdot 2^{11} + 0 \cdot 2^{10} + 1 \cdot 2^{9} + 1 \cdot 2^{8} + 1 \cdot 2^{7} + 0 \cdot 2^{6} + 0 \cdot 2^{5} + 1 \cdot 2^{4} + 0 \cdot 2^{3} + 0 \cdot 2^{2} + 1 \cdot 2^{1} + 1 \cdot 2^{0}
+\]
+
+Calculating each term:
+
+\[
+1 \cdot 8192 + 1 \cdot 512 + 1 \cdot 256 + 1 \cdot 16 + 1 \cdot 2 + 1 \cdot 1 = 8192 + 512 + 256 + 16 + 2 + 1 = 8979_{10}
+\]
+
+Now, we need to multiply these decimal numbers:
+
+\[
+33043 \cdot 8979
+\]
+
+Performing the multiplication:
+
+\[
+33043 \cdot 8979 = 296617197
+\]
+
+Now, to convert the result back to binary:
+
+\[
+296617197_{10} \rightarrow \text{to binary using successive division by 2 and recording the remainders}
+\]
+
+This yields:
+
+\[
+296617197_{10} = 100011011010010011110010101_{2}
+\]
+
+Therefore, the solution is:
+
+\[
+1000000100110011_{2} \times 10001110100111_{2} = 100011011010010011110010101_{2}
+\]
+
+Summarizing in the requested format:
+\[
+1000000100110011_{2} \rightarrow 33043_{10}, \quad 10001110100111_{2} \rightarrow 8979_{10}, \quad 33043_{10} \times 8979_{10} = 296617197_{10} = 100011011010010011110010101_{2}
+\]

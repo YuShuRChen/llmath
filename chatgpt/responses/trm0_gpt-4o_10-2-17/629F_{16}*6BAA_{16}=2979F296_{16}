@@ -1,0 +1,43 @@
+To compute the product of \(629F_{16}\) and \(6BAA_{16}\), follow these steps:
+
+1. Convert the hexadecimal numbers to decimal.
+2. Perform the multiplication in decimal.
+3. Convert the result back to hexadecimal.
+
+### Step 1: Convert hexadecimal to decimal
+- For \(629F_{16}\):
+    \[ 629F_{16} = 6 \cdot 16^3 + 2 \cdot 16^2 + 9 \cdot 16^1 + F \cdot 16^0 \]
+    \[ = 6 \cdot 4096 + 2 \cdot 256 + 9 \cdot 16 + 15 \]
+    \[ = 24576 + 512 + 144 + 15 \]
+    \[ = 25247_{10} \]
+
+- For \(6BAA_{16}\):
+    \[ 6BAA_{16} = 6 \cdot 16^3 + B \cdot 16^2 + A \cdot 16^1 + A \cdot 16^0 \]
+    Here, \(B_{16} = 11_{10}\) and \(A_{16} = 10_{10}\).
+    \[ = 6 \cdot 4096 + 11 \cdot 256 + 10 \cdot 16 + 10 \]
+    \[ = 24576 + 2816 + 160 + 10 \]
+    \[ = 27562_{10} \]
+
+### Step 2: Perform the multiplication in decimal
+\[ 25247 \times 27562 = 695668414 \]
+
+### Step 3: Convert the result back to hexadecimal
+- To convert \(695668414_{10}\) to hexadecimal:
+    1. Divide the number by 16 repeatedly, keeping track of the remainders.
+    2. Convert each remainder to the corresponding hexadecimal digit.
+
+\[ 695668414 \div 16 = 43479275 \text{ remainder } 14 \rightarrow E \]
+\[ 43479275 \div 16 = 2717454 \text{ remainder } 11 \rightarrow B \]
+\[ 2717454 \div 16 = 169841 \text{ remainder } 14 \rightarrow E \]
+\[ 169841 \div 16 = 10615 \text{ remainder } 1 \rightarrow 1 \]
+\[ 10615 \div 16 = 663 \text{ remainder } 7 \rightarrow 7 \]
+\[ 663 \div 16 = 41 \text{ remainder } 7 \rightarrow 7 \]
+\[ 41 \div 16 = 2 \text{ remainder } 9 \rightarrow 9 \]
+\[ 2 \div 16 = 0 \text{ remainder } 2 \rightarrow 2 \]
+
+Reversing the remainders, we get \( 29577EBE_{16} \).
+
+### Summary
+\[ 629F_{16} * 6BAA_{16} = 629F_{16} \to 25247_{10}, 6BAA_{16} \to 27562_{10}, 25247_{10} * 27562_{10} = 695668414_{10}, 695668414_{10} \to 29577EBE_{16} \]
+
+\[ 629F_{16} * 6BAA_{16} = 29577EBE_{16} \]

@@ -1,0 +1,20 @@
+First, let's perform the subtraction directly as it's straightforward with both numbers in base 10.
+
+Start by aligning the numbers:
+```
+  38232
+- 14315
+---------
+```
+
+Now, subtract each digit from right to left:
+```
+  38232
+- 14315
+---------
+  23917
+```
+
+So the result of \( 38232_{10} - 14315_{10} \) is \( 23917_{10} \).
+
+Summarizing: \( 38232_{10} - 14315_{10} = 23917_{10} \)

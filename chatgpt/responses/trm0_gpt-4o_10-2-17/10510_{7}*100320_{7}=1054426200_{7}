@@ -1,0 +1,44 @@
+First, let's convert both numbers from base 7 to base 10.
+
+For \( 10510_7 \):
+\[ 10510_7 = 1 \cdot 7^4 + 0 \cdot 7^3 + 5 \cdot 7^2 + 1 \cdot 7^1 + 0 \cdot 7^0 \]
+Calculate each term separately:
+\[ 1 \cdot 7^4 = 1 \cdot 2401 = 2401 \]
+\[ 0 \cdot 7^3 = 0 \cdot 343 = 0 \]
+\[ 5 \cdot 7^2 = 5 \cdot 49 = 245 \]
+\[ 1 \cdot 7^1 = 1 \cdot 7 = 7 \]
+\[ 0 \cdot 7^0 = 0 \cdot 1 = 0 \]
+
+Now sum these values:
+\[ 2401 + 0 + 245 + 7 + 0 = 2653 \]
+Thus, \( 10510_7 = 2653_{10} \).
+
+For \( 100320_7 \):
+\[ 100320_7 = 1 \cdot 7^5 + 0 \cdot 7^4 + 0 \cdot 7^3 + 3 \cdot 7^2 + 2 \cdot 7^1 + 0 \cdot 7^0 \]
+Calculate each term separately:
+\[ 1 \cdot 7^5 = 1 \cdot 16807 = 16807 \]
+\[ 0 \cdot 7^4 = 0 \cdot 2401 = 0 \]
+\[ 0 \cdot 7^3 = 0 \cdot 343 = 0 \]
+\[ 3 \cdot 7^2 = 3 \cdot 49 = 147 \]
+\[ 2 \cdot 7^1 = 2 \cdot 7 = 14 \]
+\[ 0 \cdot 7^0 = 0 \cdot 1 = 0 \]
+
+Now sum these values:
+\[ 16807 + 0 + 0 + 147 + 14 + 0 = 16968 \]
+Thus, \( 100320_7 = 16968_{10} \).
+
+Next, multiply the two numbers in base 10:
+\[ 2653 \times 16968 = 45026504 \]
+
+Finally, we summarize:
+\[ 10510_7 \text{ to } 2653_{10}, \]
+\[ 100320_7 \text{ to } 16968_{10}, \]
+\[ 2653_{10} \times 16968_{10} = 45026504_{10}. \]
+
+Original equation and result in detail:
+\[ 10510_{7} \rightarrow 2653_{10}, \]
+\[ 100320_{7} \rightarrow 16968_{10}, \]
+\[ 2653_{10} \times 16968_{10} = 45026504_{10}. \]
+
+Concisely in one line:
+\[ 10510_{7} = 2653_{10}, \; 100320_{7} = 16968_{10}, \; 2653_{10} \times 16968_{10} = 45026504_{10} \]

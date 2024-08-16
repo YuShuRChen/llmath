@@ -1,0 +1,58 @@
+To solve the equation \( B550_{14} - 87A1_{14} \), we start by converting both numbers from base 14 to base 10.
+
+### Step 1: Convert \( B550_{14} \) to base 10
+The base 14 number \( B550_{14} \) is expanded as follows:
+\[ B550_{14} = B \times 14^3 + 5 \times 14^2 + 5 \times 14^1 + 0 \times 14^0 \]
+
+In base 14, \( B \) represents 11, so:
+\[ B550_{14} = 11 \times 14^3 + 5 \times 14^2 + 5 \times 14^1 + 0 \times 14^0 \]
+
+Calculating each term:
+\[ 11 \times 14^3 = 11 \times 2744 = 30184 \]
+\[ 5 \times 14^2 = 5 \times 196 = 980 \]
+\[ 5 \times 14^1 = 5 \times 14 = 70 \]
+\[ 0 \times 14^0 = 0 \]
+
+Adding these values together:
+\[ 30184 + 980 + 70 + 0 = 31234 \]
+
+So, \( B550_{14} = 31234_{10} \).
+
+### Step 2: Convert \( 87A1_{14} \) to base 10
+The base 14 number \( 87A1_{14} \) is expanded as follows:
+\[ 87A1_{14} = 8 \times 14^3 + 7 \times 14^2 + A \times 14^1 + 1 \times 14^0 \]
+
+In base 14, \( A \) represents 10, so:
+\[ 87A1_{14} = 8 \times 14^3 + 7 \times 14^2 + 10 \times 14^1 + 1 \times 14^0 \]
+
+Calculating each term:
+\[ 8 \times 14^3 = 8 \times 2744 = 21952 \]
+\[ 7 \times 14^2 = 7 \times 196 = 1372 \]
+\[ 10 \times 14^1 = 10 \times 14 = 140 \]
+\[ 1 \times 14^0 = 1 \]
+
+Adding these values together:
+\[ 21952 + 1372 + 140 + 1 = 23465 \]
+
+So, \( 87A1_{14} = 23465_{10} \).
+
+### Step 3: Perform the subtraction in base 10
+Now we subtract the two results in base 10:
+\[ 31234_{10} - 23465_{10} \]
+
+Calculating the subtraction:
+\[ 31234 - 23465 = 7769 \]
+
+### Step 4: Convert the result back to base 14
+To convert \( 7769_{10} \) to base 14, we divide by successive powers of 14 and find the remainders:
+\[ 7769 \div 14 = 554 \text{ R } 5 \]
+\[ 554 \div 14 = 39 \text{ R } 8 \]
+\[ 39 \div 14 = 2 \text{ R } 11(B) \]
+\[ 2 \div 14 = 0 \text{ R } 2 \]
+
+So, \( 7769_{10} = 2B85_{14} \).
+
+### Summary
+The original equation and computation steps are:
+
+\[ B550_{14} - 87A1_{14} = 31234_{10} - 23465_{10} = 7769_{10} = 2B85_{14} \]

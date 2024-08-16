@@ -1,0 +1,90 @@
+To solve the problem, we need to convert both numbers from base 15 to base 10, perform the multiplication, and then interpret the result in the desired base.
+
+Let's start with converting \( B4DC_{15} \) to base 10.
+
+\[
+B4DC_{15} = B \cdot 15^3 + 4 \cdot 15^2 + D \cdot 15^1 + C \cdot 15^0
+\]
+
+In base 15, the digits translate to:
+- \( B = 11 \) in decimal,
+- \( D = 13 \) in decimal,
+- \( C = 12 \) in decimal.
+
+Now we substitute these into the expression:
+
+\[
+B4DC_{15} = 11 \cdot 15^3 + 4 \cdot 15^2 + 13 \cdot 15^1 + 12 \cdot 15^0
+\]
+
+Calculate each term:
+
+\[
+11 \cdot 15^3 = 11 \cdot 3375 = 37125
+\]
+\[
+4 \cdot 15^2 = 4 \cdot 225 = 900
+\]
+\[
+13 \cdot 15^1 = 13 \cdot 15 = 195
+\]
+\[
+12 \cdot 15^0 = 12 \cdot 1 = 12
+\]
+
+Sum these up:
+
+\[
+37125 + 900 + 195 + 12 = 38232
+\]
+
+Next, convert \( 4395_{15} \) to base 10:
+
+\[
+4395_{15} = 4 \cdot 15^3 + 3 \cdot 15^2 + 9 \cdot 15^1 + 5 \cdot 15^0
+\]
+
+Calculate each term:
+
+\[
+4 \cdot 15^3 = 4 \cdot 3375 = 13500
+\]
+\[
+3 \cdot 15^2 = 3 \cdot 225 = 675
+\]
+\[
+9 \cdot 15^1 = 9 \cdot 15 = 135
+\]
+\[
+5 \cdot 15^0 = 5 \cdot 1 = 5
+\]
+
+Sum these up:
+
+\[
+13500 + 675 + 135 + 5 = 14315
+\]
+
+Now, multiply the two base 10 numbers:
+
+\[
+38232 \times 14315
+\]
+
+Using multiplication:
+
+\[
+38232 \times 14315 = 547263480 
+\]
+
+To summarize:
+
+\[
+B4DC_{15} * 4395_{15} = 547263480_{10}
+\]
+
+Finally, the summarized equation with intermediate steps is:
+
+\[
+B4DC_{15} (11_{10} \cdot 15^3 + 4_{10} \cdot 15^2 + 13_{10} \cdot 15^1 + 12_{10} = 38232_{10}) * 4395_{15} (4_{10} \cdot 15^3 + 3_{10} \cdot 15^2 + 9_{10} \cdot 15^1 + 5_{10} = 14315_{10}) = 547263480_{10}
+\]

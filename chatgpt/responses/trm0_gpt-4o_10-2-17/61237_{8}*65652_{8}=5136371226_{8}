@@ -1,0 +1,87 @@
+To compute the product of two numbers given in octal, we first need to convert them to decimal, perform the multiplication, and then convert the result back to octal.
+
+1. Convert \(61237_{8}\) to decimal:
+   - \(61237_{8}\) means:
+   \[
+   6 \times 8^4 + 1 \times 8^3 + 2 \times 8^2 + 3 \times 8^1 + 7 \times 8^0
+   \]
+   - Calculating the powers of 8:
+   \[
+   8^0 = 1,\quad 8^1 = 8,\quad 8^2 = 64,\quad 8^3 = 512,\quad 8^4 = 4096
+   \]
+   - Substituting these values:
+   \[
+   6 \times 4096 + 1 \times 512 + 2 \times 64 + 3 \times 8 + 7 \times 1 
+   \]
+   - Performing the multiplications:
+   \[
+   = 24576 + 512 + 128 + 24 + 7
+   \]
+   - Summing these values:
+   \[
+   = 25247_{10}
+   \]
+
+2. Convert \(65652_{8}\) to decimal:
+   - \(65652_{8}\) means:
+   \[
+   6 \times 8^4 + 5 \times 8^3 + 6 \times 8^2 + 5 \times 8^1 + 2 \times 8^0
+   \]
+   - Using the powers of 8 calculated previously:
+   \[
+   6 \times 4096 + 5 \times 512 + 6 \times 64 + 5 \times 8 + 2 \times 1
+   \]
+   - Performing the multiplications:
+   \[
+   = 24576 + 2560 + 384 + 40 + 2
+   \]
+   - Summing these values:
+   \[
+   = 27662_{10}
+   \]
+
+3. Multiply the two decimal numbers:
+   \[
+   25247_{10} \times 27662_{10} = 698065654 
+   \]
+
+4. Convert the resulting decimal back to octal:
+   - To convert \(698065654_{10}\) to octal, we repeatedly divide by 8 and record the remainders.
+   - Doing the divisions:
+   \[
+   698065654 \div 8 = 87258206 \quad \text{remainder}\ 6
+   \]
+   \[
+   87258206 \div 8 = 10907275 \quad \text{remainder}\ 6
+   \]
+   \[
+   10907275 \div 8 = 1363409 \quad \text{remainder}\ 3
+   \]
+   \[
+   1363409 \div 8 = 170426 \quad \text{remainder}\ 1
+   \]
+   \[
+   170426 \div 8 = 21303 \quad \text{remainder}\ 2
+   \]
+   \[
+   21303 \div 8 = 2662 \quad \text{remainder}\ 7
+   \]
+   \[
+   2662 \div 8 = 332 \quad \text{remainder}\ 6
+   \]
+   \[
+   332 \div 8 = 41 \quad \text{remainder} \ 4
+   \]
+   \[
+   41 \div 8 = 5 \quad \text{remainder}\ 1
+   \]
+   \[
+   5 \div 8 = 0 \quad \text{remainder}\ 5
+   \]
+   - Thus, reading the remainders from the last to the first, we get:
+   \[
+   512763316_{8}
+   \]
+
+Summarizing, we get:
+\[ 61237_8 * 65652_8 \rightarrow 25247_{10} * 27662_{10} = 698065654_{10} \rightarrow 512763316_{8} \]

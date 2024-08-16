@@ -1,0 +1,49 @@
+To solve the equation \(7A02_{16} - 5BA9_{16}\), we need to perform the subtraction in hexadecimal (base 16).
+
+1. **Convert hexadecimal numbers to decimal numbers:**
+
+\( 7A02_{16} \):
+- 7  (hex) is 7  (dec),
+- A  (hex) is 10 (dec),
+- 0  (hex) is 0  (dec),
+- 2  (hex) is 2  (dec).
+
+So, \( 7A02_{16} \) in decimal is:
+\[ 7 \times 16^3 + 10 \times 16^2 + 0 \times 16^1 + 2 \times 16^0 \]
+\[ = 7 \times 4096 + 10 \times 256 + 0 \times 16 + 2 \]
+\[ = 28672 + 2560 + 0 + 2 \]
+\[ = 31234_{10} \]
+
+\( 5BA9_{16} \):
+- 5  (hex) is 5  (dec),
+- B  (hex) is 11 (dec),
+- A  (hex) is 10 (dec),
+- 9  (hex) is 9  (dec).
+
+So, \( 5BA9_{16} \) in decimal is:
+\[ 5 \times 16^3 + 11 \times 16^2 + 10 \times 16^1 + 9 \times 16^0 \]
+\[ = 5 \times 4096 + 11 \times 256 + 10 \times 16 + 9 \]
+\[ = 20480 + 2816 + 160 + 9 \]
+\[ = 23465_{10} \]
+
+2. **Perform the subtraction in decimal:**
+
+\[ 31234_{10} - 23465_{10} = 7777_{10} \]
+
+3. **Convert the result back to hexadecimal:**
+
+To convert \(7777_{10}\) to hexadecimal:
+\[ 7777 \div 16 = 486 \text{ remainder } 1 \]
+\[ 486 \div 16 = 30 \text{ remainder } 6 \]
+\[ 30 \div 16 = 1 \text{ remainder } E \]
+\[ 1 \div 16 = 0 \text{ remainder } 1 \]
+
+So, \(7777_{10} = 1E61_{16}\).
+
+Therefore, the final answer is:
+\[ 7A02_{16} - 5BA9_{16} = 1E61_{16} \]
+\[ 31234_{10} - 23465_{10} = 7777_{10} \]
+
+\[
+7A02_{16} - 5BA9_{16} = 31234_{10} - 23465_{10} = 7777_{10} = 1E61_{16}
+\]

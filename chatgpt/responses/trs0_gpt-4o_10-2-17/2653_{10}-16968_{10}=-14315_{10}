@@ -1,0 +1,17 @@
+We start with the given equation:
+\[ 2653_{10} - 16968_{10} \]
+
+To compute this subtraction in base 10:
+\[ 2653 - 16968 \]
+
+We can reframe this as:
+\[ 2653 + (-16968) \]
+
+Calculating this gives:
+\[ 2653 - 16968 = -14315 \]
+
+Thus, the final result is:
+\[ 2653_{10} - 16968_{10} = -14315_{10} \]
+
+So, summarizing:
+\[ 2653_{10} - 16968_{10} = -14315_{10} \]

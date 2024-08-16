@@ -1,0 +1,13 @@
+To subtract two numbers in base 11, we need to perform borrows if necessary.
+
+Converting the numbers to base 10:
+267A7_{11} = 2*11^4 + 6*11^3 + 7*11^2 + 10*11^1 + 7*11^0 = 26940_{10}
+A834_{11} = 10*11^3 + 8*11^2 + 3*11^1 + 4*11^0 = 12685_{10}
+
+Now subtracting:
+26940_{10} - 12685_{10} = 14255_{10}
+
+Converting the result to base 11:
+14255_{10} = 10*11^3 + 2*11^2 + 8*11^1 + 1*11^0 = A281_{11}
+
+Therefore, 267A7_{11} - A834_{11} = A281_{11}

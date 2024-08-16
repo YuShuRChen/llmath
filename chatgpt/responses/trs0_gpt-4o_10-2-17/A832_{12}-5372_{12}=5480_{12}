@@ -1,0 +1,42 @@
+To subtract these base-12 numbers, let's first ensure that we understand the digits in base-12. In base-12, digits range from 0 to 11, with 10 and 11 typically represented as 'A' and 'B', respectively.
+
+Here's the step-by-step subtraction:
+
+1. **Align the numbers:**
+   ```
+     A832_{12}
+   - 5372_{12}
+   ```
+
+2. **Start Subtraction from the least significant digit (rightmost):**
+
+   - Subtract '2' from '2':
+     ```
+     2_{12} - 2_{12} = 0_{12}
+     ```
+   
+   - Subtract '7' from '3':
+     We need to borrow since 7 is greater than 3. Borrow 1 (which is 12 in decimal) from '8' making it '7' and '3' become 15 in base 12 (since 3 + 12 = 15 in base 10, and converting 15 back to base-12 results in 13).
+     ```
+     15_{12} - 7_{12} = 8_{12}
+     ```
+
+   - Subtract '3' from '7':
+     ```
+     7_{12} - 3_{12} = 4_{12}
+     ```
+
+   - Subtract '5' from 'A':
+     Convert 'A' to 10 in decimal.
+     ```
+     10_{12} - 5_{12} = 5_{12}
+     ```
+
+So, the result of the subtraction is:
+```
+  5830_{12}
+```
+
+Final answer:
+
+A832_{12} - 5372_{12} = 5830_{12}

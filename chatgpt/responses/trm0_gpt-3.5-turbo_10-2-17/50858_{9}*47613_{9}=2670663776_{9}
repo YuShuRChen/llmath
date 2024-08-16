@@ -1,0 +1,14 @@
+To multiply two numbers in base 9, we follow the standard multiplication method from right to left:
+
+   50858_{9}
+x 47613_{9}
+------------
+  25429_{9}  (50858_{9} * 3_{9})
+172172_{9}    (50858_{9} * 1_{9} shifted one position to the left)
+203432_{9}    (50858_{9} * 6_{9} shifted two positions to the left)
+152574_{9}    (50858_{9} * 7_{9} shifted three positions to the left)
+228858_{9}    (50858_{9} * 4_{9} shifted four positions to the left)
+------------
+71180862_{9}   (Final result)
+
+Therefore, 50858_{9} * 47613_{9} = 71180862_{9}.

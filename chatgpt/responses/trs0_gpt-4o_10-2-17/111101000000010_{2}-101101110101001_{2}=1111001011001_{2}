@@ -1,0 +1,71 @@
+To solve the subtraction 111101000000010_{2} - 101101110101001_{2}, we need to convert both binary numbers to their decimal equivalents, perform the subtraction, and then convert the result back to binary.
+
+First, convert 111101000000010_{2} to decimal:
+
+1 * 2^{14} + 
+1 * 2^{13} + 
+1 * 2^{12} + 
+1 * 2^{10} + 
+0 * 2^{9} + 
+0 * 2^{8} + 
+0 * 2^{7} + 
+0 * 2^{6} + 
+0 * 2^{5} + 
+0 * 2^{4} + 
+0 * 2^{3} + 
+1 * 2^{1} + 
+0 * 2^{0} 
+
+= 16384 + 8192 + 4096 + 1024 + 2 
+
+= 29698_{10}
+
+Next, convert 101101110101001_{2} to decimal:
+
+1 * 2^{14} + 
+0 * 2^{13} + 
+1 * 2^{12} + 
+1 * 2^{11} + 
+0 * 2^{10} + 
+1 * 2^{9} + 
+1 * 2^{8} + 
+1 * 2^{7} + 
+0 * 2^{6} + 
+1 * 2^{5} + 
+0 * 2^{4} + 
+1 * 2^{3} + 
+0 * 2^{2} + 
+0 * 2^{1} + 
+1 * 2^{0} 
+
+= 16384 + 4096 + 2048 + 512 + 256 + 128 + 32 + 8 + 1 
+
+= 23365_{10}
+
+Perform the subtraction in decimal:
+
+29698 - 23365 = 6333_{10}
+
+Finally, convert 6333_{10} back to binary:
+
+Divide by 2:
+6333 / 2 = 3166 remainder 1
+3166 / 2 = 1583 remainder 0
+1583 / 2 = 791 remainder 1
+791 / 2 = 395 remainder 1
+395 / 2 = 197 remainder 1
+197 / 2 = 98 remainder 1
+98 / 2 = 49 remainder 0
+49 / 2 = 24 remainder 1
+24 / 2 = 12 remainder 0
+12 / 2 = 6 remainder 0
+6 / 2 = 3 remainder 0
+3 / 2 = 1 remainder 1
+1 / 2 = 0 remainder 1
+
+Reading remainders from bottom to top, we get: 1100010111101_{2}
+
+To summarize:
+111101000000010_{2} - 101101110101001_{2} = 29698_{10} - 23365_{10} = 6333_{10} = 1100010111101_{2}
+
+111101000000010_{2} - 101101110101001_{2} = 1100010111101_{2}

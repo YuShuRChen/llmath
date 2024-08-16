@@ -1,0 +1,13 @@
+To multiply 413043_{6} by 110131_{6}, we can convert the numbers to base 10, perform the multiplication, and then convert the result back to base 6.
+
+Converting to base 10:
+413043_{6} = 4*6^5 + 1*6^4 + 3*6^3 + 0*6^2 + 4*6^1 + 3*6^0 = 6711_{10}
+110131_{6} = 1*6^5 + 1*6^4 + 0*6^3 + 1*6^2 + 3*6^1 + 1*6^0 = 2149_{10}
+
+Multiplying in base 10:
+6711_{10} * 2149_{10} = 14418239_{10}
+
+Converting back to base 6:
+14418239_{10} = 2*6^6 + 0*6^5 + 1*6^4 + 1*6^3 + 0*6^2 + 1*6^1 + 1*6^0 = 2010101_{6}
+
+Therefore, 413043_{6} * 110131_{6} = 2010101_{6}.

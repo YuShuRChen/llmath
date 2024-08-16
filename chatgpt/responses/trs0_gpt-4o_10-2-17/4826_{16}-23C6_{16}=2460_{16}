@@ -1,0 +1,46 @@
+To calculate \( 4826_{16} - 23C6_{16} \):
+
+1. Convert \( 4826_{16} \) to its decimal (base 10) form:
+
+    \( 4826_{16} = 4 \cdot 16^3 + 8 \cdot 16^2 + 2 \cdot 16^1 + 6 \cdot 16^0 \)
+    
+    \( = 4 \cdot 4096 + 8 \cdot 256 + 2 \cdot 16 + 6 \)
+    
+    \( = 16384 + 2048 + 32 + 6 \)
+    
+    \( = 18470_{10} \)
+
+2. Convert \( 23C6_{16} \) to its decimal (base 10) form:
+
+    \( 23C6_{16} = 2 \cdot 16^3 + 3 \cdot 16^2 + 12 \cdot 16^1 + 6 \cdot 16^0 \)
+    
+    \( = 2 \cdot 4096 + 3 \cdot 256 + 12 \cdot 16 + 6 \)
+    
+    \( = 8192 + 768 + 192 + 6 \)
+    
+    \( = 9158_{10} \)
+
+3. Subtract the two decimal numbers:
+
+    \( 18470_{10} - 9158_{10} = 9312_{10} \)
+
+4. Convert the result back to hexadecimal (base 16):
+
+    To convert \( 9312_{10} \) to hexadecimal, repeatedly divide by 16 and record the remainders:
+    
+    \( 9312 \div 16 = 582\) remainder \(0\)
+    
+    \( 582 \div 16 = 36\) remainder \(6\)
+    
+    \( 36 \div 16 = 2\) remainder \(4\)
+    
+    \( 2 \div 16 = 0\) remainder \(2\)
+    
+    Reading the remainders from bottom to top, we get \( 2460_{16} \).
+
+Therefore, \( 4826_{16} - 23C6_{16} = 2460_{16} \).
+
+**Summary:**
+\( 4826_{16} = 18470_{10} - 23C6_{16} = 9158_{10} = 9312_{10} \rightarrow 2460_{16} \)
+
+Thus, the final result is \( 4826_{16} - 23C6_{16} = 2460_{16} \).

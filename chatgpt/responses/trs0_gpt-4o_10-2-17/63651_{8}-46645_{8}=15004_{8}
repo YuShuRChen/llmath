@@ -1,0 +1,63 @@
+To solve the equation \(63651_{8} - 46645_{8}\), we will convert both octal numbers to decimal, perform the subtraction in decimal, and if needed, convert the result back to octal.
+
+1. **Converting \(63651_{8}\) to decimal:**
+   \[
+   63651_{8} = 6 \times 8^4 + 3 \times 8^3 + 6 \times 8^2 + 5 \times 8^1 + 1 \times 8^0 
+   \]
+   \[
+   = 6 \times 4096 + 3 \times 512 + 6 \times 64 + 5 \times 8 + 1 \times 1
+   \]
+   \[
+   = 24576 + 1536 + 384 + 40 + 1
+   \]
+   \[
+   = 26537_{10}
+   \]
+
+2. **Converting \(46645_{8}\) to decimal:**
+   \[
+   46645_{8} = 4 \times 8^4 + 6 \times 8^3 + 6 \times 8^2 + 4 \times 8^1 + 5 \times 8^0
+   \]
+   \[
+   = 4 \times 4096 + 6 \times 512 + 6 \times 64 + 4 \times 8 + 5 \times 1
+   \]
+   \[
+   = 16384 + 3072 + 384 + 32 + 5
+   \]
+   \[
+   = 19877_{10}
+   \]
+
+3. **Subtracting in decimal:**
+   \[
+   26537_{10} - 19877_{10} = 6650_{10}
+   \]
+
+4. **Converting the result back to octal:**
+   We convert \(6650_{10}\) to octal by dividing by 8 and keeping track of the remainders:
+   \[
+   6650 \div 8 = 831 \quad \text{remainder: } 2
+   \]
+   \[
+   831 \div 8 = 103 \quad \text{remainder: } 7
+   \]
+   \[
+   103 \div 8 = 12 \quad \text{remainder: } 7
+   \]
+   \[
+   12 \div 8 = 1 \quad \text{remainder: } 4
+   \]
+   \[
+   1 \div 8 = 0 \quad \text{remainder: } 1
+   \]
+   Reading the remainders from bottom to top, \(6650_{10} = 14772_{8}\).
+
+Thus, the correct answer is:
+\[
+63651_{8} - 46645_{8} = 14772_{8} 
+\]
+
+Summarizing in one line:
+\[
+63651_{8} - 46645_{8} = 26537_{10} - 19877_{10} = 6650_{10} = 14772_{8}
+\]

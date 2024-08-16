@@ -1,0 +1,12 @@
+First, we need to perform the subtraction in base 13.
+
+Convert the numbers to base 10:
+1452C_{13} = 1*13^3 + 4*13^2 + 5*13^1 + 2*13^0 = 2197 + 676 + 65 + 2 = 2940
+6692_{13} = 6*13^3 + 6*13^2 + 9*13^1 + 2*13^0 = 1014 + 1014 + 117 + 2 = 2147
+
+Perform the subtraction in base 10: 2940 - 2147 = 793
+
+Convert the result back to base 13:
+793 = 7*13^2 + 2*13^1 + 12*13^0 = 7D2_{13}
+
+Therefore, 1452C_{13} - 6692_{13} = 7D2_{13}

@@ -1,0 +1,12 @@
+First, let's convert the hexadecimal numbers to decimal numbers.  
+
+\(67A9_{16} = 6 \times 16^3 + 7 \times 16^2 + 10 \times 16^1 + 9 \times 16^0 = 27433_{10}\)  
+\(4DA5_{16} = 4 \times 16^3 + 13 \times 16^2 + 10 \times 16^1 + 5 \times 16^0 = 19877_{10}\)  
+
+Now, let's subtract the decimal numbers:  
+\(27433_{10} - 19877_{10} = 7556_{10}\)  
+
+Converting the decimal result back to hexadecimal:  
+\(7556_{10} = 1 \times 16^3 + 2 \times 16^2 + 13 \times 16^1 + 4 \times 16^0 = 1D24_{16}\)
+
+Therefore, \(67A9_{16} - 4DA5_{16} = 1D24_{16}\)

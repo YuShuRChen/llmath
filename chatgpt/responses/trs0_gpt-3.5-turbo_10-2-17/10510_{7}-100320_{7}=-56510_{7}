@@ -1,0 +1,12 @@
+To subtract these two numbers, we can align them properly:
+
+\[
+\begin{array}{}
+& & 1 & 0 & 5 & 1 & 0_7 \\
+- & & 1 & 0 & 0 & 3 & 2 & 0_7 \\
+\hline
+& & & 0 & 4 & 4 & 3_7 \\
+\end{array}
+\]
+
+Therefore, \(10510_{7} - 100320_{7} = 443_{7}\).

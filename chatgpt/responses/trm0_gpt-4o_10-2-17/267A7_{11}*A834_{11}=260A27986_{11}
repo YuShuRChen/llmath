@@ -1,0 +1,19 @@
+First, we need to convert the numbers from base 11 to base 10.
+
+For 267A7_{11}:
+\[ 267A7_{11} = 2 \cdot 11^4 + 6 \cdot 11^3 + 7 \cdot 11^2 + 10 \cdot 11^1 + 7 \cdot 11^0 \]
+\[ = 2 \cdot 14641 + 6 \cdot 1331 + 7 \cdot 121 + 10 \cdot 11 + 7 \]
+\[ = 29282 + 7986 + 847 + 110 + 7 \]
+\[ = 38232 \]
+
+For A834_{11}:
+\[ A834_{11} = 10 \cdot 11^3 + 8 \cdot 11^2 + 3 \cdot 11^1 + 4 \cdot 11^0 \]
+\[ = 10 \cdot 1331 + 8 \cdot 121 + 3 \cdot 11 + 4 \]
+\[ = 13310 + 968 + 33 + 4 \]
+\[ = 14315 \]
+
+Next, we multiply the two base 10 results:
+\[ 38232 \times 14315 = 547207380 \]
+
+Finally, to summarize:
+\[ 267A7_{11} \times A834_{11} = 267A7_{11} \rightarrow 38232_{10}; \, A834_{11} \rightarrow 14315_{10}; \, 38232_{10} \times 14315_{10} = 547207380_{10} \]

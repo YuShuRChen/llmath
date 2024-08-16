@@ -1,0 +1,31 @@
+First, we need to convert the hexadecimal numbers to decimal.
+
+For 629F_{16}:
+6 * 16^3 + 2 * 16^2 + 9 * 16^1 + F * 16^0
+= 6 * 4096 + 2 * 256 + 9 * 16 + 15 * 1
+= 24576 + 512 + 144 + 15
+= 25247_{10}
+
+For 6BAA_{16}:
+6 * 16^3 + B * 16^2 + A * 16^1 + A * 16^0
+= 6 * 4096 + 11 * 256 + 10 * 16 + 10 * 1
+= 24576 + 2816 + 160 + 10
+= 27562_{10}
+
+Now, we perform the subtraction in decimal:
+25247_{10} - 27562_{10} = -2315_{10}
+
+Next, we need to convert -2315_{10} back to hexadecimal. First, convert the positive value 2315_{10} to hexadecimal:
+
+2315_{10}:
+2315 ÷ 16 = 144 remainder 11 (B)
+144 ÷ 16 = 9 remainder 0 (0)
+9 ÷ 16 = 0 remainder 9 (9)
+
+So, 2315_{10} = 90B_{16}
+
+Since it's negative, the final result is:
+
+-2315_{10} = -90B_{16}
+
+629F_{16} - 6BAA_{16} = 629F_{16} (25247_{10}) - 6BAA_{16} (27562_{10}) = -2315_{10} (-90B_{16})

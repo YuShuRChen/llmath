@@ -1,0 +1,59 @@
+To solve the multiplication of two numbers in base 13, we need to perform the following steps:
+
+1. Convert both numbers from base 13 to base 10.
+2. Multiply the two base-10 numbers.
+3. Convert the result back to base 13.
+
+First, let's convert C104_{13} and 9080_{13} to base 10.
+
+**Conversion of C104_{13} to base 10:**
+The base 13 number "C104" means:
+\[ C \times 13^3 + 1 \times 13^2 + 0 \times 13^1 + 4 \times 13^0 \]
+
+Note that "C" in base 13 converts to 12 in base 10.
+
+So,
+\[ C104_{13} = 12 \times 13^3 + 1 \times 13^2 + 0 \times 13^1 + 4 \times 13^0 \]
+\[ = 12 \times 2197 + 1 \times 169 + 0 \times 13 + 4 \]
+\[ = 26364 + 169 + 0 + 4 \]
+\[ = 26537 \]
+
+**Conversion of 9080_{13} to base 10:**
+The base 13 number "9080" means:
+\[ 9 \times 13^3 + 0 \times 13^2 + 8 \times 13^1 + 0 \times 13^0 \]
+
+So,
+\[ 9080_{13} = 9 \times 2197 + 0 \times 169 + 8 \times 13 + 0 \]
+\[ = 19773 + 0 + 104 + 0 \]
+\[ = 19877 \]
+
+**Multiplication in base 10:**
+\[ 26537 \times 19877 \]
+
+Performing the multiplication:
+\[ 26537 \times 19877 = 527654489 \]
+
+**Conversion of the result back to base 13:**
+To convert 527654489 from base 10 to base 13, we repeatedly divide by 13 and keep the remainders.
+
+\[ 527654489 \div 13 = 40588037 \text{ remainder } 8 \]
+\[ 40588037 \div 13 = 3122156 \text{ remainder } 9 \]
+\[ 3122156 \div 13 = 240165 \text{ remainder } 11 \text{ (B in base 13)} \]
+\[ 240165 \div 13 = 18474 \text{ remainder } 3 \]
+\[ 18474 \div 13 = 1421 \text{ remainder } 11 \text{ (B in base 13)} \]
+\[ 1421 \div 13 = 109 \text{ remainder } 4 \]
+\[ 109 \div 13 = 8 \text{ remainder } 5 \]
+\[ 8 \div 13 = 0 \text{ remainder } 8 \]
+
+Reading the remainders from bottom to top, the base 13 representation is:
+\[ 854BB398_{13} \]
+
+Thus, the multiplication C104_{13} * 9080_{13} equals 854BB398_{13}.
+
+Original equation and intermediate steps:
+\[ C104_{13} = 26537_{10} \]
+\[ 9080_{13} = 19877_{10} \]
+\[ 26537_{10} * 19877_{10} = 527654489_{10} \]
+\[ 527654489_{10} = 854BB398_{13} \]
+
+Hence, C104_{13} * 9080_{13} = 854BB398_{13}.

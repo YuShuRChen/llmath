@@ -1,0 +1,21 @@
+To find the product of \(21111120_{4} \times 3133223_{4}\), we multiply the two numbers:
+
+\[
+\begin{array}{r}
+\phantom{+}21111120_{4} \\
+\underline{\times \phantom{2}3133223_{4}} \\
+\end{array}
+\]
+
+\[
+\begin{array}{r}
+\phantom{+}21111120_{4} \\
++\underline{42222240_{4}\phantom{0}} \\
+\underline{63333360_{4}\phantom{00}} \\
++43333210_{4}0000 \\
+\end{array}
+\]
+
+Therefore, \(21111120_{4} \times 3133223_{4} = 43333210_{4}0000\).
+
+Summary: \(21111120_{4} \times 3133223_{4} = 43333210_{4}0000\)

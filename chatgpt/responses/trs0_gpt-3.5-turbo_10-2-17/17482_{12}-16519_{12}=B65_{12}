@@ -1,0 +1,11 @@
+To subtract two numbers in base 12, we can first convert them to base 10, perform the subtraction, and then convert the result back to base 12.
+Converting 17482_{12} to base 10:
+1 * 12^4 + 7 * 12^3 + 4 * 12^2 + 8 * 12^1 + 2 * 12^0 = 20736 + 9072 + 576 + 96 + 2 = 30782_{10}
+Converting 16519_{12} to base 10:
+1 * 12^4 + 6 * 12^3 + 5 * 12^2 + 1 * 12^1 + 9 * 12^0 = 20736 + 6480 + 720 + 12 + 9 = 27557_{10}
+Performing the subtraction in base 10: 
+30782 - 27557 = 3225
+Converting 3225_{10} to base 12:
+3225 = 12^3 * 2 + 12^2 * 4 + 12^1 * 7 + 12^0 * 9 = 2479_{12}
+
+Therefore, 17482_{12} - 16519_{12} = 2479_{12}.

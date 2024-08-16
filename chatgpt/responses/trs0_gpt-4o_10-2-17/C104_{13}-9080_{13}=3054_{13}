@@ -1,0 +1,72 @@
+To solve the equation \(C104_{13} - 9080_{13}\), let's follow these steps:
+
+1. **Convert each number from base 13 to base 10:**
+
+   - \(C104_{13}\):
+     - 'C' corresponds to 12 in decimal.
+     - Therefore, \(C104_{13} = 12 \cdot 13^3 + 1 \cdot 13^2 + 0 \cdot 13^1 + 4 \cdot 13^0\).
+     - Calculating the powers and coefficients: 
+       \[
+       12 \cdot 13^3 = 12 \cdot 2197 = 26364, 
+       \]
+       \[
+       1 \cdot 13^2 = 1 \cdot 169 = 169,
+       \]
+       \[
+       0 \cdot 13^1 = 0 \cdot 13 = 0,
+       \]
+       \[
+       4 \cdot 13^0 = 4 \cdot 1 = 4.
+       \]
+     - Adding them together:
+       \[
+       26364 + 169 + 0 + 4 = 26537.
+       \]
+
+   - \(9080_{13}\):
+     - '9' corresponds to 9 in decimal, and '8' corresponds to 8 in decimal.
+     - Therefore, \(9080_{13} = 9 \cdot 13^3 + 0 \cdot 13^2 + 8 \cdot 13^1 + 0 \cdot 13^0\).
+     - Calculating the powers and coefficients:
+       \[
+       9 \cdot 13^3 = 9 \cdot 2197 = 19773,
+       \]
+       \[
+       0 \cdot 13^2 = 0 \cdot 169 = 0,
+       \]
+       \[
+       8 \cdot 13^1 = 8 \cdot 13 = 104,
+       \]
+       \[
+       0 \cdot 13^0 = 0 \cdot 1 = 0.
+       \]
+     - Adding them together:
+       \[
+       19773 + 0 + 104 + 0 = 19877.
+       \]
+
+2. **Subtract the two base 10 results:**
+
+   - \(26537 - 19877 = 7660.\)
+
+3. **Convert the result back to base 13:**
+
+   - To convert \(7660\) to base 13, we repeatedly divide by 13 and record the remainders.
+     \[
+     7660 \div 13 = 589 \text{ remainder } 3,
+     \]
+     \[
+     589 \div 13 = 45 \text{ remainder } 4,
+     \]
+     \[
+     45 \div 13 = 3 \text{ remainder } 6,
+     \]
+     \[
+     3 \div 13 = 0 \text{ remainder } 3.
+     \]
+
+   - Therefore, reading the remainders from bottom to top, \(7660_{10} = 3643_{13}\).
+
+Summarizing the solution:
+\[
+C104_{13} - 9080_{13} = 26537_{10} - 19877_{10} = 7660_{10} = 3643_{13}.
+\]

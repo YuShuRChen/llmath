@@ -1,0 +1,11 @@
+Converting the numbers to decimal:
+111101000000010_{2} = 122978_{10}
+101101110101001_{2} = 47049_{10}
+
+Performing subtraction in decimal:
+122978_{10} - 47049_{10} = 75929_{10}
+
+Converting the result back to binary:
+75929_{10} = 10010100001001001_{2}
+
+Therefore, 111101000000010_{2} - 101101110101001_{2} = 10010100001001001_{2}.

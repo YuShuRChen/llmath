@@ -1,0 +1,16 @@
+First, we can pad the shorter binary number with leading zeros to match the length of the longer number:
+
+\( 00100100000100110_{2} - 0001001111000110_{2} \)
+
+Then, we can subtract the two binary numbers as follows:
+
+\[
+\begin{array}{c}
+  00100100000100110 \\
+- 0001001111000110 \\
+\hline
+  00010000010100000 \\
+\end{array}
+\]
+
+Therefore, \(100100000100110_{2} - 10001111000110_{2} = 10000010100000_{2}\)

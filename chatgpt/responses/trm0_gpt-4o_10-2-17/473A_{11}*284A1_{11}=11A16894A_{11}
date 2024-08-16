@@ -1,0 +1,68 @@
+Let's calculate the multiplication step-by-step.
+
+Firstly, convert the base 11 numbers to base 10.
+
+### Conversion to Base 10
+
+**473A_{11}:**
+
+473A in base 11 is evaluated as:
+\[ 4 \times 11^3 + 7 \times 11^2 + 3 \times 11^1 + A \times 11^0 \]
+
+Here, \( A \) in base 11 equals 10 in base 10.
+
+So:
+\[ 4 \times 11^3 + 7 \times 11^2 + 3 \times 11^1 + 10 \times 11^0 \]
+\[ 4 \times 1331 + 7 \times 121 + 3 \times 11 + 10 \]
+\[ 5324 + 847 + 33 + 10 \]
+\[ = 6214 \]
+
+Thus, \( 473A_{11} = 6214_{10} \).
+
+**284A1_{11}:**
+
+284A1 in base 11 is evaluated as:
+\[ 2 \times 11^4 + 8 \times 11^3 + 4 \times 11^2 + A \times 11^1 + 1 \times 11^0 \]
+
+Here, again, \( A \) in base 11 equals 10 in base 10.
+
+So:
+\[ 2 \times 11^4 + 8 \times 11^3 + 4 \times 11^2 + 10 \times 11^1 + 1 \times 11^0 \]
+\[ 2 \times 14641 + 8 \times 1331 + 4 \times 121 + 10 \times 11 + 1 \]
+\[ 29282 + 10648 + 484 + 110 + 1 \]
+\[ = 40525 \]
+
+Thus, \( 284A1_{11} = 40525_{10} \).
+
+### Multiplication in Base 10
+
+Now multiply these two base 10 numbers:
+
+\[ 6214 \times 40525 \]
+
+Using standard multiplication:
+\[ 6214 \times 40525 = 251793350 \]
+
+### Conversion Back to Base 11
+Finally, we need to convert the result back to base 11:
+
+251793350 divided by 11 gives:
+\[ 251793350 \div 11 = 22890213 \text{ remainder } 7 \] (least significant digit)
+
+Continue dividing:
+\[ 22890213 \div 11 = 2080928 \text{ remainder } 5 \]
+\[ 2080928 \div 11 = 189175 \text{ remainder } 3 \]
+\[ 189175 \div 11 = 17197 \text{ remainder } 8 \]
+\[ 17197 \div 11 = 1563 \text{ remainder } 4 \]
+\[ 1563 \div 11 = 142 \text{ remainder } 1 \]
+\[ 142 \div 11 = 12 \text{ remainder } 10 (A) \]
+\[ 12 \div 11 = 1 \text{ remainder } 1 \]
+\[ 1 \div 11 = 0 \text{ remainder } 1 \]
+
+Putting the remainders together in reverse order, we get the base 11 result:
+\[ 114A43857_{11} \]
+
+Therefore, 
+\[ 473A_{11} * 284A1_{11} = 114A43857_{11} = 6214_{10} \times 40525_{10} = 251793350_{10} \]
+
+\[ 473A_{11} * 284A1_{11} = 114A43857_{11} \]

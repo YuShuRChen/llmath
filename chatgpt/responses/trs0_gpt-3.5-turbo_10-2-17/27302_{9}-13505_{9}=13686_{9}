@@ -1,0 +1,14 @@
+To subtract two numbers in base 9, we need to perform regrouping when necessary.
+
+Starting from the rightmost digit:
+$2_{9}$ subtracted by $5_{9}$ is not possible, so we need to borrow from the next digit.
+The $7_{9}$ becomes $6_{9}$ and the $2_{9}$ becomes $11_{9}$.
+
+Thus, we have now $11_{9}$ subtracted by $5_{9}$, which equals $6_{9}$.
+
+Moving on to the next pair of digits:
+$10_{9}$ subtracted by $5_{9}$ equals $5_{9}$.
+
+Finally, combining all digits together we have $13897_{9}$ as the result of the subtraction.
+
+Therefore, $27302_{9} - 13505_{9} = 13897_{9}$.

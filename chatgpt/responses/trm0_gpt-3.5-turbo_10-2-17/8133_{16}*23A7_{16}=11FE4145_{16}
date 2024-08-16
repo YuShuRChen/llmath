@@ -1,0 +1,11 @@
+Converting 8133 and 23A7 to decimal:
+8133_{16} = 33011_{10}
+23A7_{16} = 9111_{10}
+
+Multiplying 33011 and 9111 in decimal:
+33011_{10} * 9111_{10} = 300562221_{10}
+
+Converting 300562221 to hexadecimal:
+300562221_{10} = 11CA92ED_{16}
+
+Therefore, 8133_{16} * 23A7_{16} = 11CA92ED_{16}.

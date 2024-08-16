@@ -1,0 +1,89 @@
+To solve the given problem, we will first convert the numbers from base 14 to base 10, perform the subtraction, and then, if necessary, convert the result back to base 14.
+
+1. Convert C2D4_{14} to base 10:
+   \[
+   C2D4_{14} = C \cdot 14^3 + 2 \cdot 14^2 + D \cdot 14^1 + 4 \cdot 14^0
+   \]
+   Here, C = 12 and D = 13, translating to:
+   \[
+   12 \cdot 14^3 + 2 \cdot 14^2 + 13 \cdot 14^1 + 4
+   \]
+   Calculate each term:
+   \[
+   12 \cdot 14^3 = 12 \cdot 2744 = 32928
+   \]
+   \[
+   2 \cdot 14^2 = 2 \cdot 196 = 392
+   \]
+   \[
+   13 \cdot 14^1 = 13 \cdot 14 = 182
+   \]
+   \[
+   4 \cdot 14^0 = 4 \cdot 1 = 4
+   \]
+   Sum all terms:
+   \[
+   32928 + 392 + 182 + 4 = 33506
+   \]
+   Therefore:
+   \[
+   C2D4_{14} = 33506_{10}
+   \]
+
+2. Convert B869_{14} to base 10:
+   \[
+   B869_{14} = B \cdot 14^3 + 8 \cdot 14^2 + 6 \cdot 14^1 + 9 \cdot 14^0
+   \]
+   Here, B = 11, giving:
+   \[
+   11 \cdot 14^3 + 8 \cdot 14^2 + 6 \cdot 14^1 + 9
+   \]
+   Calculate each term:
+   \[
+   11 \cdot 14^3 = 11 \cdot 2744 = 30184
+   \]
+   \[
+   8 \cdot 14^2 = 8 \cdot 196 = 1568
+   \]
+   \[
+   6 \cdot 14^1 = 6 \cdot 14 = 84
+   \]
+   \[
+   9 \cdot 14^0 = 9
+   \]
+   Sum all terms:
+   \[
+   30184 + 1568 + 84 + 9 = 31845
+   \]
+   Therefore:
+   \[
+   B869_{14} = 31845_{10}
+   \]
+
+3. Perform the subtraction in base 10:
+   \[
+   33506 - 31845 = 1661
+   \]
+
+4. Convert 1661_{10} back to base 14:
+   To do this, we continuously divide by 14 and record the remainders.
+
+   \[
+   1661 \div 14 = 118 \, \text{remainder} \ 13
+   \]
+   \[
+   118 \div 14 = 8 \, \text{remainder} \ 6
+   \]
+   \[
+   8 \div 14 = 0 \, \text{remainder} \ 8
+   \]
+   Therefore:
+   \[
+   1661_{10} = 868_{14}
+   \]
+
+Let's put it all together:
+C2D4_{14} - B869_{14} = 33506_{10} - 31845_{10} = 1661_{10} = 868_{14}.
+
+So, the final answer in one line is:
+C2D4_{14} - B869_{14} = 33506_{10} - 31845_{10} = 1661_{10} = 868_{14}.

@@ -1,0 +1,10 @@
+Converting the base-11 numbers to decimal:
+$12971_{11}=14801_{10}$ and $6976_{11}=8217_{10}$
+
+Multiplying in decimal:
+$14801_{10} \times 8217_{10} = 121640617_{10}$
+
+Converting the result back to base-11:
+$121640617_{10}= 1A7B336_{11}$
+
+Therefore, $12971_{11} \times 6976_{11} = 1A7B336_{11}$.

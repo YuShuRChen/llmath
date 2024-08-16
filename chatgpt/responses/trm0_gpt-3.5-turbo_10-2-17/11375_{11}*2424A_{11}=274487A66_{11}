@@ -1,0 +1,10 @@
+To compute the product of 11375_{11} and 2424A_{11}, first convert the numbers to base 10, multiply them together, and then convert the result back to base 11.
+
+11375_{11} = 1*11^4 + 1*11^3 + 3*11^2 + 7*11^1 + 5*11^0 = 14641
+2424A_{11} = 2*11^4 + 4*11^3 + 2*11^2 + 4*11^1 + 10*11^0 = 29915
+
+14641 * 29915 = 438361115
+
+438361115 in base 11 is 1A0102A0.
+
+Final result: 11375_{11}*2424A_{11} = 1A0102A0_{11}.

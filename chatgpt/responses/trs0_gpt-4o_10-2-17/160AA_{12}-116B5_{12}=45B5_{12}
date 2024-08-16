@@ -1,0 +1,35 @@
+To solve \(160AA_{12} - 116B5_{12}\), we first need to convert these numbers from base \(12\) to base \(10\).
+
+1. Convert \(160AA_{12}\) to base \(10\):
+   \[ 1 \times 12^4 + 6 \times 12^3 + 0 \times 12^2 + 10 \times 12^1 + 10 \times 12^0 \]
+   Calculate each term:
+   \[ 1 \times 20736 = 20736 \]
+   \[ 6 \times 1728 = 10368 \]
+   \[ 0 \times 144 = 0 \]
+   \[ 10 \times 12 = 120 \]
+   \[ 10 \times 1 = 10 \]
+   Sum these values:
+   \[ 20736 + 10368 + 0 + 120 + 10 = 31234_{10} \]
+
+2. Convert \(116B5_{12}\) to base \(10\):
+   \[ 1 \times 12^4 + 1 \times 12^3 + 6 \times 12^2 + 11 \times 12^1 + 5 \times 12^0 \]
+   Calculate each term:
+   \[ 1 \times 20736 = 20736 \]
+   \[ 1 \times 1728 = 1728 \]
+   \[ 6 \times 144 = 864 \]
+   \[ 11 \times 12 = 132 \]
+   \[ 5 \times 1 = 5 \]
+   Sum these values:
+   \[ 20736 + 1728 + 864 + 132 + 5 = 23465_{10} \]
+
+3. Perform the subtraction in base \(10\):
+   \[ 31234_{10} - 23465_{10} = 7775_{10} \]
+
+Finally, convert the result back to base \(12\), if needed, but the problem statement doesn't ask for the final result to be in any particular base, so:
+
+\[ 160AA_{12} - 116B5_{12} = 7775_{10} \]
+
+Thus, in a summary:
+\[ 160AA_{12} \rightarrow 31234_{10}, \quad 116B5_{12} \rightarrow 23465_{10} \]
+\[ 31234_{10} - 23465_{10} = 7775_{10} \]
+\[ 160AA_{12} - 116B5_{12} = 7775_{10} \]

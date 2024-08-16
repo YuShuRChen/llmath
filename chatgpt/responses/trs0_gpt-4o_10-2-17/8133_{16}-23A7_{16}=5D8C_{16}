@@ -1,0 +1,61 @@
+To compute \(8133_{16} - 23A7_{16}\), we should first convert the hexadecimal numbers to decimal, perform the subtraction in decimal, and then convert the result back to hexadecimal.
+
+Step-by-Step Conversion and Calculation:
+
+1. Convert \(8133_{16}\) to decimal.
+\[
+8133_{16} = 8 \times 16^3 + 1 \times 16^2 + 3 \times 16^1 + 3 \times 16^0
+\]
+\[
+= 8 \times 4096 + 1 \times 256 + 3 \times 16 + 3 \times 1
+\]
+\[
+= 32768 + 256 + 48 + 3
+\]
+\[
+= 33075_{10}
+\]
+
+2. Convert \(23A7_{16}\) to decimal.
+\[
+23A7_{16} = 2 \times 16^3 + 3 \times 16^2 + 10 \times 16^1 + 7 \times 16^0
+\]
+\[
+= 2 \times 4096 + 3 \times 256 + 10 \times 16 + 7 \times 1
+\]
+\[
+= 8192 + 768 + 160 + 7
+\]
+\[
+= 9127_{10}
+\]
+
+3. Subtract the decimal values.
+\[
+33075_{10} - 9127_{10} = 23948_{10}
+\]
+
+4. Convert the result \(23948_{10}\) back to hexadecimal.
+To convert \(23948_{10}\) to hexadecimal, we can use repeated division by 16:
+\[
+23948 \div 16 = 1496 \quad \text{remainder: } 12 \  (C_{16})
+\]
+\[
+1496 \div 16 = 93 \quad \text{remainder: } 8 \ (8_{16})
+\]
+\[
+93 \div 16 = 5 \quad \text{remainder: } 13 \ (D_{16})
+\]
+\[
+5 \div 16 = 0 \quad \text{remainder: } 5 \ (5_{16})
+\]
+
+So, \(23948_{10} = 5DC8_{16}\).
+
+Summary:
+\[
+8133_{16} - 23A7_{16} = 8133_{16} \rightarrow 33075_{10}, \ 23A7_{16} \rightarrow 9127_{10}, \ 33075_{10} - 9127_{10} = 23948_{10} \rightarrow 5DC8_{16}
+\]
+\[
+8133_{16} - 23A7_{16} = 5DC8_{16}
+\]

@@ -1,0 +1,40 @@
+First, let's convert BBD_{15} and 5063_{15} to decimal (base 10).
+
+### Conversion of BBD_{15} to Decimal:
+- BBD_{15} = B * 15^2 + B * 15^1 + D * 15^0
+- In base 15, B = 11 and D = 13.
+- Therefore: BBD_{15} = 11 * 15^2 + 11 * 15^1 + 13 * 15^0.
+- Calculating each term:
+  - 11 * 15^2 = 11 * 225 = 2475
+  - 11 * 15^1 = 11 * 15 = 165
+  - 13 * 15^0 = 13 * 1 = 13
+- Summing these values: 2475 + 165 + 13 = 2653.
+- Thus, BBD_{15} = 2653_{10}.
+
+### Conversion of 5063_{15} to Decimal:
+- 5063_{15} = 5 * 15^3 + 0 * 15^2 + 6 * 15^1 + 3 * 15^0
+- Therefore:
+  - 5 * 15^3 = 5 * 3375 = 16875
+  - 0 * 15^2 = 0
+  - 6 * 15^1 = 6 * 15 = 90
+  - 3 * 15^0 = 3 * 1 = 3
+- Summing these values: 16875 + 0 + 90 + 3 = 16968.
+- Thus, 5063_{15} = 16968_{10}.
+
+### Subtract the Decimal Values:
+- Now we subtract the two decimal values:
+  - 2653_{10} - 16968_{10} = -14315_{10}.
+
+### Conversion of -14315_{10} back to base 15:
+- We'll convert the absolute value of 14315_{10} to base 15 and then add the negative sign.
+- First, finding the coefficients:
+  - Divide 14315 by 15: 14315 ÷ 15 = 954 remainder 5.
+  - Divide 954 by 15: 954 ÷ 15 = 63 remainder 9.
+  - Divide 63 by 15: 63 ÷ 15 = 4 remainder 3.
+  - Finally, 4 ÷ 15 = 0 remainder 4.
+- Placing these remainders in reverse order: 43395_{15}.
+
+Since it is negative: -43395_{15}.
+
+### Summary of the Subtraction in One Line:
+BBD_{15} = 2653_{10} - 5063_{15} = 16968_{10} = -14315_{10} = -43395_{15}.

@@ -1,0 +1,104 @@
+To solve \(453000_{6} - 150135_{6}\) we will first convert both numbers from base 6 to base 10, then perform the subtraction, and finally, if desired, convert the result back to base 6.
+
+1. Convert \(453000_{6}\) to base 10:
+
+   \[
+   453000_{6} = 4 \cdot 6^5 + 5 \cdot 6^4 + 3 \cdot 6^3 + 0 \cdot 6^2 + 0 \cdot 6^1 + 0 \cdot 6^0
+   \]
+
+   Calculate each term:
+
+   \[
+   4 \cdot 6^5 = 4 \cdot 7776 = 31104
+   \]
+   \[
+   5 \cdot 6^4 = 5 \cdot 1296 = 6480
+   \]
+   \[
+   3 \cdot 6^3 = 3 \cdot 216 = 648
+   \]
+
+   Sum the values:
+
+   \[
+   31104 + 6480 + 648 = 38232
+   \]
+
+   Thus, 
+   \[
+   453000_{6} = 38232_{10}
+   \]
+
+2. Convert \(150135_{6}\) to base 10:
+
+   \[
+   150135_{6} = 1 \cdot 6^5 + 5 \cdot 6^4 + 0 \cdot 6^3 + 1 \cdot 6^2 + 3 \cdot 6^1 + 5 \cdot 6^0
+   \]
+
+   Calculate each term:
+
+   \[
+   1 \cdot 6^5 = 1 \cdot 7776 = 7776
+   \]
+   \[
+   5 \cdot 6^4 = 5 \cdot 1296 = 6480
+   \]
+   \[
+   0 \cdot 6^3 = 0
+   \]
+   \[
+   1 \cdot 6^2 = 1 \cdot 36 = 36
+   \]
+   \[
+   3 \cdot 6^1 = 3 \cdot 6 = 18
+   \]
+   \[
+   5 \cdot 6^0 = 5
+   \]
+
+   Sum the values:
+
+   \[
+   7776 + 6480 + 36 + 18 + 5 = 14315
+   \]
+
+   Thus,
+   \[
+   150135_{6} = 14315_{10}
+   \]
+
+3. Perform the subtraction in base 10:
+
+   \[
+   38232_{10} - 14315_{10} = 23917_{10}
+   \]
+
+The base 10 result is \(23917_{10}\).
+
+4. Optionally, convert \(23917_{10}\) back to base 6 (if required):
+
+   To convert \(23917_{10}\) to base 6, we repeatedly divide the number by 6 and record the remainders:
+
+   \[
+   23917 \div 6 = 3986 \, \text{remainder} \, 1
+   \]
+   \[
+   3986 \div 6 = 664 \, \text{remainder} \, 2
+   \]
+   \[
+   664 \div 6 = 110 \, \text{remainder} \, 4
+   \]
+   \[
+   110 \div 6 = 18 \, \text{remainder} \, 2
+   \]
+   \[
+   18 \div 6 = 3 \, \text{remainder} \, 0
+   \]
+   \[
+   3 \div 6 = 0 \, \text{remainder} \, 3
+   \]
+
+   Reading the remainders from bottom to top, we get \(302421_{6}\).
+
+Thus, summarizing:
+\(453000_{6}-150135_{6}=453000_{6}=38232_{10}-150135_{6}=14315_{10}=23917_{10}=302421_{6}\)

@@ -1,0 +1,13 @@
+To compute the difference between \(14106_{8}\) and \(117115_{8}\), we first need to convert both numbers to base 10 and then subtract them.
+
+Converting \(14106_{8}\) to base 10:
+
+\(14106_{8} = 6 \times 8^0 + 0 \times 8^1 + 1 \times 8^2 + 4 \times 8^3 + 1 \times 8^4 = 6 + 0 + 64 + 256 + 32768 = 33194\).
+
+Converting \(117115_{8}\) to base 10:
+
+\(117115_{8} = 5 \times 8^0 + 1 \times 8^1 + 1 \times 8^2 + 7 \times 8^3 + 1 \times 8^4 = 5 + 8 + 64 + 3584 + 4096 = 7757\).
+
+Subtracting \(117115_{8}\) from \(14106_{8}\) in base 10 gives \(33194 - 7757 = 25437\).
+
+Therefore, \(14106_{8} - 117115_{8} = 25437_{10}\).

@@ -1,0 +1,12 @@
+To subtract two numbers in base 3, we perform the arithmetic operations column by column, carrying over as needed:
+
+\[
+\begin{array}{}
+& & 1 & 2 & 0 & 0 & 2 & 2 & 1 & 2 & 2 & 2_{3} \\
+- & & 1 & 1 & 2 & 1 & 2 & 0 & 0 & 1 & 1 & 0_{3} \\
+\hline
+& & 0 & 0 & 0 & 2 & 0 & 2 & 2 & 1 & 1 & 2_{3} \\
+\end{array}
+\]
+
+Therefore, \(1200221222_{3}-1121200110_{3} = 0002022112_{3}\).

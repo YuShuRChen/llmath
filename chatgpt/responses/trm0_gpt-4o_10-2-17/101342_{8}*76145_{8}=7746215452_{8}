@@ -1,0 +1,78 @@
+First, let's convert the given octal numbers to decimal.
+
+**Step 1: Convert 101342_{8} to decimal.**
+
+The value of 101342_{8} can be computed as:
+\[ 1 \cdot 8^5 + 0 \cdot 8^4 + 1 \cdot 8^3 + 3 \cdot 8^2 + 4 \cdot 8^1 + 2 \cdot 8^0 \]
+
+Calculating the powers of 8:
+\[ 8^5 = 32768 \]
+\[ 8^4 = 4096 \]
+\[ 8^3 = 512 \]
+\[ 8^2 = 64 \]
+\[ 8^1 = 8 \]
+\[ 8^0 = 1 \]
+
+Now, compute the value:
+\[ 1 \cdot 32768 = 32768 \]
+\[ 0 \cdot 4096 = 0 \]
+\[ 1 \cdot 512 = 512 \]
+\[ 3 \cdot 64 = 192 \]
+\[ 4 \cdot 8 = 32 \]
+\[ 2 \cdot 1 = 2 \]
+
+Sum these values:
+\[ 32768 + 0 + 512 + 192 + 32 + 2 = 33506 \]
+
+So, \( 101342_{8} = 33506_{10} \).
+
+**Step 2: Convert 76145_{8} to decimal.**
+
+The value of 76145_{8} can be computed as:
+\[ 7 \cdot 8^4 + 6 \cdot 8^3 + 1 \cdot 8^2 + 4 \cdot 8^1 + 5 \cdot 8^0 \]
+
+Calculating the powers of 8:
+\[ 8^4 = 4096 \]
+\[ 8^3 = 512 \]
+\[ 8^2 = 64 \]
+\[ 8^1 = 8 \]
+\[ 8^0 = 1 \]
+
+Now, compute the value:
+\[ 7 \cdot 4096 = 28672 \]
+\[ 6 \cdot 512 = 3072 \]
+\[ 1 \cdot 64 = 64 \]
+\[ 4 \cdot 8 = 32 \]
+\[ 5 \cdot 1 = 5 \]
+
+Sum these values:
+\[ 28672 + 3072 + 64 + 32 + 5 = 31845 \]
+
+So, \( 76145_{8} = 31845_{10} \).
+
+**Step 3: Multiply the decimal values.**
+
+\[ 33506 \times 31845 = 1067241570 \]
+
+**Step 4: Convert the result back to octal.**
+
+To convert 1067241570_{10} to octal, we use repeated division by 8 and record the remainders.
+
+\[ 1067241570 \div 8 = 133405196 \quad \text{remainder} = 2 \]
+\[ 133405196 \div 8 = 16675649 \quad \text{remainder} = 4 \]
+\[ 16675649 \div 8 = 2084456 \quad \text{remainder} = 1 \]
+\[ 2084456 \div 8 = 260557 \quad \text{remainder} = 0 \]
+\[ 260557 \div 8 = 32569 \quad \text{remainder} = 5 \]
+\[ 32569 \div 8 = 4071 \quad \text{remainder} = 1 \]
+\[ 4071 \div 8 = 508 \quad \text{remainder} = 7 \]
+\[ 508 \div 8 = 63 \quad \text{remainder} = 4 \]
+\[ 63 \div 8 = 7 \quad \text{remainder} = 7 \]
+\[ 7 \div 8 = 0 \quad \text{remainder} = 7 \]
+
+Reading the remainders from bottom to top, we get:
+\[ 7775140122_{8} \]
+
+So, the final result is:
+\[ 101342_{8} * 76145_{8} = 7775140122_{8} \]
+
+Summary: \( 101342_{8} = 33506_{10} \), \( 76145_{8} = 31845_{10} \), \( 33506_{10} * 31845_{10} = 1067241570_{10} = 7775140122_{8} \)

@@ -1,0 +1,13 @@
+To compute the result of \( 6214_{10} - 40525_{10} \):
+
+1. Start with 6214 in decimal (base 10).
+2. Then subtract 40525 in decimal (base 10) from it.
+
+\[ 6214_{10} - 40525_{10} \]
+
+\[ 6214 - 40525 = -34311 \]
+
+So the final result is \( -34311 \) in base 10.
+
+Summarizing in one line:
+\[ 6214_{10} - 40525_{10} = -34311_{10} \]

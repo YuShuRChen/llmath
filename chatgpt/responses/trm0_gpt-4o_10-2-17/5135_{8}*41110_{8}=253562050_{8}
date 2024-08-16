@@ -1,0 +1,46 @@
+To compute the product of the octal numbers 5135_{8} and 41110_{8}, let's follow these steps:
+
+1. Convert both octal numbers to decimal.
+2. Multiply the decimal equivalents.
+3. Convert the result back to octal.
+
+### Step 1: Convert 5135_{8} and 41110_{8} to decimal
+
+#### Converting 5135_{8} to decimal:
+\[ 5135_{8} = 5 \times 8^3 + 1 \times 8^2 + 3 \times 8^1 + 5 \times 8^0 \]
+\[ = 5 \times 512 + 1 \times 64 + 3 \times 8 + 5 \times 1 \]
+\[ = 2560 + 64 + 24 + 5 \]
+\[ = 2653_{10} \]
+
+#### Converting 41110_{8} to decimal:
+\[ 41110_{8} = 4 \times 8^4 + 1 \times 8^3 + 1 \times 8^2 + 1 \times 8^1 + 0 \times 8^0 \]
+\[ = 4 \times 4096 + 1 \times 512 + 1 \times 64 + 1 \times 8 + 0 \]
+\[ = 16384 + 512 + 64 + 8 + 0 \]
+\[ = 16968_{10} \]
+
+### Step 2: Multiply the decimal equivalents
+\[ 2653_{10} \times 16968_{10} = 45025824_{10} \]
+
+### Step 3: Convert the result back to octal
+To convert 45025824_{10} to octal:
+
+1. Divide the decimal number by 8 and record the remainder.
+2. Repeat the process with the quotient until the quotient is zero.
+3. The octal number is the remainders read in reverse order.
+
+Let's perform the conversion:
+\[ 45025824 \div 8 = 5628228 \quad \text{remainder} \, 0 \]
+\[ 5628228 \div 8 = 703528 \quad \text{remainder} \, 4 \]
+\[ 703528 \div 8 = 87941 \quad \text{remainder} \, 0 \]
+\[ 87941 \div 8 = 10992 \quad \text{remainder} \, 5 \]
+\[ 10992 \div 8 = 1374 \quad \text{remainder} \, 0 \]
+\[ 1374 \div 8 = 171 \quad \text{remainder} \, 6 \]
+\[ 171 \div 8 = 21 \quad \text{remainder} \, 3 \]
+\[ 21 \div 8 = 2 \quad \text{remainder} \, 5 \]
+\[ 2 \div 8 = 0 \quad \text{remainder} \, 2 \]
+
+Reading the remainders from bottom to top, we get:
+\[ 45025824_{10} = 25063040_{8} \]
+
+### Summary
+\[ 5135_{8} \times 41110_{8} = 2653_{10} \times 16968_{10} = 45025824_{10} = 25063040_{8} \]

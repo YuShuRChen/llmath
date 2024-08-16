@@ -1,0 +1,11 @@
+Converting the numbers to base 10:
+\(20010303_{4} = 2 \times 4^7 + 1 \times 4^4 + 3 \times 4^2 + 3 \)
+\(20010303_{4} = 32768 + 256 + 48 + 3 = 33075\)
+
+\(2032213_{4} = 2 \times 4^6 + 3 \times 4^5 + 2 \times 4^4 + 2 \times 4 + 3 \)
+\(2032213_{4} = 2048 + 192 + 32 + 8 + 3 = 2283\)
+
+Subtracting the converted numbers in base 10:
+\(33075 - 2283 = 30792\)
+
+Therefore, \(20010303_{4} - 2032213_{4} = 30792_{10}\)

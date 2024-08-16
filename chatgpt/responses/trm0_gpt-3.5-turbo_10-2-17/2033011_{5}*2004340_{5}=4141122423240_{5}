@@ -1,0 +1,16 @@
+To multiply two numbers in base 5, we can use the traditional multiplication method.
+
+\[
+\begin{array}{cc@{}c@{}c@{}c@{}c@{}c@{}c}
+& & & 2 & 0 & 3 & 3 & 0 & 1 & 1_{5} \\
+\times & & & 2 & 0 & 0 & 4 & 3 & 4 & 0_{5} \\
+\hline
+& & & & & & & 0 & 2 & 0 & 5 \\
+& & & & & 8 & 1 & 4 & 4 & 0 & 0_{5} \\
+& & & 8 & 1 & 4 & 0 & 0 & 0 & 0 & 0_{5} \\
+\hline
+& & & 8 & 3 & 2 & 4 & 4 & 0 & 0 & 5_{5} \\
+\end{array}
+\]
+
+Therefore, \(2033011_{5} \times 2004340_{5} = 832440005_{5}\).

@@ -1,0 +1,19 @@
+To begin with, let's convert the numbers from base 13 to base 10.
+
+1. Converting \(12335_{13}\):
+\[ 12335_{13} = 1 \times 13^4 + 2 \times 13^3 + 3 \times 13^2 + 3 \times 13^1 + 5 \times 13^0 \]
+\[ = 1 \times 28561 + 2 \times 2197 + 3 \times 169 + 3 \times 13 + 5 \times 1 \]
+\[ = 28561 + 4394 + 507 + 39 + 5 \]
+\[ = 33506_{10} \]
+
+2. Converting \(11658_{13}\):
+\[ 11658_{13} = 1 \times 13^4 + 1 \times 13^3 + 6 \times 13^2 + 5 \times 13^1 + 8 \times 13^0 \]
+\[ = 1 \times 28561 + 1 \times 2197 + 6 \times 169 + 5 \times 13 + 8 \times 1 \]
+\[ = 28561 + 2197 + 1014 + 65 + 8 \]
+\[ = 31845_{10} \]
+
+Next, we proceed with the multiplication of the two base 10 numbers:
+\[ 33506_{10} \times 31845_{10} = 1066969770_{10} \]
+
+### Summary:
+\( 12335_{13} \times 11658_{13} = 33506_{10} \times 31845_{10} = 1066969770_{10} \)

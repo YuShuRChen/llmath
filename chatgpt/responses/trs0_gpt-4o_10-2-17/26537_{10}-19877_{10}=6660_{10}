@@ -1,0 +1,20 @@
+To solve the equation \( 26537_{10} - 19877_{10} \):
+
+1. Perform the subtraction directly:
+   \[
+   26537 - 19877
+   \]
+
+2. Subtracting step-by-step:
+   \[
+   \begin{array}{r}
+   \phantom{1}26537 \\
+   -19877 \\
+   \hline
+   \phantom{12}6650 \\
+   \end{array}
+   \]
+
+So, the result of \( 26537_{10} - 19877_{10} \) is \( 6650_{10} \).
+
+Summary: \( 26537_{10} - 19877_{10} = 6650_{10} \)

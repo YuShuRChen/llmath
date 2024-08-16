@@ -1,0 +1,114 @@
+To perform the multiplication of the numbers 13435_{12} and B605_{12}, we first need to convert these base-12 numbers to base-10, perform the multiplication in base-10, and then convert the result back to base-12.
+
+1. **Converting 13435_{12} to base-10:**
+
+   Each digit in the number 13435_{12} is multiplied by 12 raised to the power of its position from the right, starting at zero.
+
+   \[
+   13435_{12} = 1 \cdot 12^4 + 3 \cdot 12^3 + 4 \cdot 12^2 + 3 \cdot 12^1 + 5 \cdot 12^0
+   \]
+
+   Calculating each term:
+
+   \[
+   1 \cdot 12^4 = 1 \cdot 20736 = 20736
+   \]
+   \[
+   3 \cdot 12^3 = 3 \cdot 1728 = 5184
+   \]
+   \[
+   4 \cdot 12^2 = 4 \cdot 144 = 576
+   \]
+   \[
+   3 \cdot 12^1 = 3 \cdot 12 = 36
+   \]
+   \[
+   5 \cdot 12^0 = 5 \cdot 1 = 5
+   \]
+
+   Adding them together:
+
+   \[
+   20736 + 5184 + 576 + 36 + 5 = 26537_{10}
+   \]
+
+2. **Converting B605_{12} to base-10:**
+
+   Here, 'B' stands for 11 in base-10.
+
+   \[
+   B605_{12} = 11 \cdot 12^3 + 6 \cdot 12^2 + 0 \cdot 12^1 + 5 \cdot 12^0
+   \]
+
+   Calculating each term:
+
+   \[
+   11 \cdot 12^3 = 11 \cdot 1728 = 19008
+   \]
+   \[
+   6 \cdot 12^2 = 6 \cdot 144 = 864
+   \]
+   \[
+   0 \cdot 12^1 = 0 \cdot 12 = 0
+   \]
+   \[
+   5 \cdot 12^0 = 5 \cdot 1 = 5
+   \]
+
+   Adding them together:
+
+   \[
+   19008 + 864 + 0 + 5 = 19877_{10}
+   \]
+
+3. **Multiplying the converted base-10 numbers:**
+
+   \[
+   26537 \times 19877 = 527660849
+   \]
+
+4. **Converting the result back to base-12:**
+
+   To convert 527660849_{10} to base-12, we continually divide by 12 and record the remainders.
+
+   \[
+   527660849 \div 12 = 43971737 \quad \text{remainder}\ 5
+   \]
+   \[
+   43971737 \div 12 = 3664311 \quad \text{remainder}\ 9
+   \]
+   \[
+   3664311 \div 12 = 305359 \quad \text{remainder}\ 3
+   \]
+   \[
+   305359 \div 12 = 25446 \quad \text{remainder}\ 7
+   \]
+   \[
+   25446 \div 12 = 2120 \quad \text{remainder}\ 6
+   \]
+   \[
+   2120 \div 12 = 176 \quad \text{remainder}\ 8
+   \]
+   \[
+   176 \div 12 = 14 \quad \text{remainder}\ 8
+   \]
+   \[
+   14 \div 12 = 1 \quad \text{remainder}\ 2
+   \]
+   \[
+   1 \div 12 = 0 \quad \text{remainder}\ 1
+   \]
+
+   Reading the remainders from bottom to top:
+
+   \[
+   527660849_{10} = 1288679375_{12}
+   \]
+
+Therefore:
+
+\[
+13435_{12} \times B605_{12} = 1288679375_{12}
+\]
+
+Summary: \( 13435_{12} \times B605_{12} = 20527137_{10} \times 17527077_{10} = 527660849_{10} \rightarrow 1288679375_{12} \).

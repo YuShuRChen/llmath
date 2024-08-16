@@ -1,0 +1,55 @@
+First, we need to convert the numbers from base 7 to base 10.
+
+#### Converting 65602\(_7\) to base 10:
+\[ 65602_7 = 6 \times 7^4 + 5 \times 7^3 + 6 \times 7^2 + 0 \times 7^1 + 2 \times 7^0 \]
+
+Calculating each term:
+\[ 6 \times 7^4 = 6 \times 2401 = 14406 \]
+\[ 5 \times 7^3 = 5 \times 343 = 1715 \]
+\[ 6 \times 7^2 = 6 \times 49 = 294 \]
+\[ 0 \times 7^1 = 0 \times 7 = 0 \]
+\[ 2 \times 7^0 = 2 \times 1 = 2 \]
+
+Adding up the values:
+\[ 14406 + 1715 + 294 + 0 + 2 = 16417 \]
+So, \( 65602_7 \) in base 10 is \( 16417_{10} \).
+
+#### Converting 203520\(_7\) to base 10:
+\[ 203520_7 = 2 \times 7^5 + 0 \times 7^4 + 3 \times 7^3 + 5 \times 7^2 + 2 \times 7^1 + 0 \times 7^0 \]
+
+Calculating each term:
+\[ 2 \times 7^5 = 2 \times 16807 = 33614 \]
+\[ 0 \times 7^4 = 0 \times 2401 = 0 \]
+\[ 3 \times 7^3 = 3 \times 343 = 1029 \]
+\[ 5 \times 7^2 = 5 \times 49 = 245 \]
+\[ 2 \times 7^1 = 2 \times 7 = 14 \]
+\[ 0 \times 7^0 = 0 \times 1 = 0 \]
+
+Adding up the values:
+\[ 33614 + 0 + 1029 + 245 + 14 + 0 = 34902 \]
+So, \( 203520_7 \) in base 10 is \( 34902_{10} \).
+
+#### Subtracting the base 10 numbers:
+\[ 16417_{10} - 34902_{10} = -18485_{10} \]
+
+Convert \(-18485_{10}\) back to base 7:
+1. Find the magnitude of the number in base 7.
+
+Steps to get the positive equivalent of \(18485_{10}\) in base 7:
+- Divide the number by 7, write down the remainder, and continue with the quotient until the quotient is zero.
+
+\[ 18485 \div 7 = 2640 \, R \, 5 \]
+\[ 2640 \div 7 = 377 \, R \, 1 \]
+\[ 377 \div 7 = 53 \, R \, 6 \]
+\[ 53 \div 7 = 7 \, R \, 4 \]
+\[ 7 \div 7 = 1 \, R \, 0 \]
+\[ 1 \div 7 = 0 \, R \, 1 \]
+
+Reading the remainders from bottom to top, \( 18485_{10} \) converts to \( 104615_7 \).
+
+So, \(-18485_{10}\) in base 7 is written as \(-104615_7\).
+
+#### Final summary:
+\[ 65602_7 - 203520_7 = 16417_{10} - 34902_{10} = -18485_{10} = -104615_7 \]
+
+So, \( 65602_7-203520_7 = -104615_7 \).

@@ -1,0 +1,63 @@
+To solve the given equation \(2210412_5 - 424230_5\), we need to first convert the numbers from base 5 to base 10, perform the subtraction in base 10, and then convert the result back to base 5.
+
+### Step 1: Convert \(2210412_5\) to base 10
+\[
+2210412_5 = 2 \cdot 5^6 + 2 \cdot 5^5 + 1 \cdot 5^4 + 0 \cdot 5^3 + 4 \cdot 5^2 + 1 \cdot 5^1 + 2 \cdot 5^0
+\]
+\[
+= 2 \cdot 15625 + 2 \cdot 3125 + 1 \cdot 625 + 0 \cdot 125 + 4 \cdot 25 + 1 \cdot 5 + 2 \cdot 1
+\]
+\[
+= 31250 + 6250 + 625 + 0 + 100 + 5 + 2
+\]
+\[
+= 38132_{10}
+\]
+
+### Step 2: Convert \(424230_5\) to base 10
+\[
+424230_5 = 4 \cdot 5^5 + 2 \cdot 5^4 + 4 \cdot 5^3 + 2 \cdot 5^2 + 3 \cdot 5^1 + 0 \cdot 5^0
+\]
+\[
+= 4 \cdot 3125 + 2 \cdot 625 + 4 \cdot 125 + 2 \cdot 25 + 3 \cdot 5 + 0 \cdot 1
+\]
+\[
+= 12500 + 1250 + 500 + 50 + 15 + 0
+\]
+\[
+= 14315_{10}
+\]
+
+### Step 3: Perform the subtraction in base 10
+\[
+38132_{10} - 14315_{10} = 23817_{10}
+\]
+
+### Step 4: Convert \(23817_{10}\) to base 5
+To convert \(23817\) from base 10 to base 5, we repeatedly divide by 5 and record the remainders.
+\[
+23817 \div 5 = 4763 \quad \text{remainder} \quad 2
+\]
+\[
+4763 \div 5 = 952 \quad \text{remainder} \quad 3
+\]
+\[
+952 \div 5 = 190 \quad \text{remainder} \quad 2
+\]
+\[
+190 \div 5 = 38 \quad \text{remainder} \quad 0
+\]
+\[
+38 \div 5 = 7 \quad \text{remainder} \quad 3
+\]
+\[
+7 \div 5 = 1 \quad \text{remainder} \quad 2
+\]
+\[
+1 \div 5 = 0 \quad \text{remainder} \quad 1
+\]
+
+Reading the remainders from bottom to top gives us \(1232032_5\).
+
+### Summary in one line
+\[ 2210412_5 - 424230_5 = 2210412_{5} \rightarrow 38132_{10} - 424230_{5} \rightarrow 14315_{10} = 23817_{10} \rightarrow 1232032_{5} \]

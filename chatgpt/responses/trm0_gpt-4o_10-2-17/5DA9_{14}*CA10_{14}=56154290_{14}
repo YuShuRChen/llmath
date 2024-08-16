@@ -1,0 +1,98 @@
+To compute the product of \( 5DA9_{14} \) and \( CA10_{14} \), follow these steps:
+
+1. **Convert \( 5DA9_{14} \) to decimal:**
+
+   \( 5DA9_{14} \) can be expanded as:
+   \[
+   5 \times 14^3 + 13 \times 14^2 + 10 \times 14^1 + 9 \times 14^0
+   \]
+
+   Calculating each term:
+   \[
+   5 \times 14^3 = 5 \times 2744 = 13720
+   \]
+   \[
+   13 \times 14^2 = 13 \times 196 = 2548
+   \]
+   \[
+   10 \times 14^1 = 10 \times 14 = 140
+   \]
+   \[
+   9 \times 14^0 = 9 \times 1 = 9
+   \]
+
+   Adding these up:
+   \[
+   13720 + 2548 + 140 + 9 = 16417
+   \]
+   So, \( 5DA9_{14} = 16417_{10} \).
+
+2. **Convert \( CA10_{14} \) to decimal:**
+
+   \( CA10_{14} \) can be expanded as:
+   \[
+   12 \times 14^3 + 10 \times 14^2 + 1 \times 14^1 + 0 \times 14^0
+   \]
+
+   Calculating each term:
+   \[
+   12 \times 14^3 = 12 \times 2744 = 32928
+   \]
+   \[
+   10 \times 14^2 = 10 \times 196 = 1960
+   \]
+   \[
+   1 \times 14^1 = 1 \times 14 = 14
+   \]
+   \[
+   0 \times 14^0 = 0 \times 1 = 0
+   \]
+
+   Adding these up:
+   \[
+   32928 + 1960 + 14 + 0 = 34902
+   \]
+   So, \( CA10_{14} = 34902_{10} \).
+
+3. **Multiply the decimal values:**
+
+   \[
+   16417_{10} \times 34902_{10} = 572957634
+   \]
+
+4. **Convert the result back to base 14:**
+
+   We convert \( 572957634_{10} \) to base 14 by repeatedly dividing by 14 and recording the remainders:
+
+   \[
+   572957634 \div 14 = 40925545 \quad \text{remainder} \quad 4
+   \]
+   \[
+   40925545 \div 14 = 2923253 \quad \text{remainder} \quad 7
+   \]
+   \[
+   2923253 \div 14 = 208803 \quad \text{remainder} \quad 11 (B_{14})
+   \]
+   \[
+   208803 \div 14 = 14914 \quad \text{remainder} \quad 3
+   \]
+   \[
+   14914 \div 14 = 1065 \quad \text{remainder} \quad 4
+   \]
+   \[
+   1065 \div 14 = 76 \quad \text{remainder} \quad 1
+   \]
+   \[
+   76 \div 14 = 5 \quad \text{remainder} \quad 6
+   \]
+   \[
+   5 \div 14 = 0 \quad \text{remainder} \quad 5
+   \]
+
+   Reading the remainders from bottom to top, we get:
+   \[
+   56 134 B74_{14}
+   \]
+
+So, summarizing the steps and result: 
+\(\ 5DA9_{14} * CA10_{14} = 16417_{10} * 34902_{10} = 572957634_{10} = 56134B74_{14} \)

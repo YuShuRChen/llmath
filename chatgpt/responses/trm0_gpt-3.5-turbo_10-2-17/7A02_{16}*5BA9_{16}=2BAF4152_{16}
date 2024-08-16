@@ -1,0 +1,14 @@
+First, convert both numbers to base 10:
+$$
+7A02_{16} = 7*16^3 + 10*16^2 + 0*16^1 + 2*16^0 = 12290_{10} \\
+5BA9_{16} = 5*16^3 + 11*16^2 + 10*16^1 + 9*16^0 = 23401_{10}
+$$
+Now, multiply these two numbers in base 10:
+$$
+12290_{10} * 23401_{10} = 287579090_{10}
+$$
+Convert the result back to base 16:
+$$
+287579090_{10} = 113F2F92_{16}
+$$
+Therefore, $7A02_{16}*5BA9_{16} = 113F2F92_{16}$.

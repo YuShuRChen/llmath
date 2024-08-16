@@ -1,0 +1,5 @@
+To solve this multiplication in base 15, we first multiply the numbers and then convert the result back to base 15.
+
+$7CE2_{15}*5D52_{15} = 6719736_{10} * 32034_{10} = 215383558624_{10}$
+
+Converting $215383558624_{10}$ to base 15, we get $\boxed{5A4C43A94_{15}}$.

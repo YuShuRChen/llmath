@@ -1,0 +1,44 @@
+To solve the multiplication of two numbers in base 4, we need to first convert the numbers to base 10, perform the multiplication in base 10, and then convert the result back to base 4.
+
+Let's convert 20010303 in base 4 to base 10:
+\[ 20010303_4 \]
+\[ = 2 \times 4^7 + 0 \times 4^6 + 0 \times 4^5 + 1 \times 4^4 + 0 \times 4^3 + 3 \times 4^2 + 0 \times 4^1 + 3 \times 4^0 \]
+\[ = 2 \times 16384 + 0 \times 4096 + 0 \times 1024 + 1 \times 256 + 0 \times 64 + 3 \times 16 + 0 \times 4 + 3 \times 1 \]
+\[ = 32768 + 256 + 48 + 3 \]
+\[ = 33075_{10} \]
+
+Now, let's convert 2032213 in base 4 to base 10:
+\[ 2032213_4 \]
+\[ = 2 \times 4^6 + 0 \times 4^5 + 3 \times 4^4 + 2 \times 4^3 + 2 \times 4^2 + 1 \times 4^1 + 3 \times 4^0 \]
+\[ = 2 \times 4096 + 0 \times 1024 + 3 \times 256 + 2 \times 64 + 2 \times 16 + 1 \times 4 + 3 \times 1 \]
+\[ = 8192 + 768 + 128 + 32 + 4 + 3 \]
+\[ = 9127_{10} \]
+
+Next, perform the multiplication in base 10:
+\[ 33075_{10} \times 9127_{10} \]
+\[ = 301682025_{10} \]
+
+Finally, we convert 301682025 from base 10 to base 4. We divide the number successively by 4 and note the remainders.
+
+\[ 301682025 \div 4 = 75420506 \, \text{R} \, 1 \]
+\[ 75420506 \div 4 = 18855126 \, \text{R} \, 2 \]
+\[ 18855126 \div 4 = 4713781 \, \text{R} \, 2 \]
+\[ 4713781 \div 4 = 1178445 \, \text{R} \, 1 \]
+\[ 1178445 \div 4 = 294611 \, \text{R} \, 1 \]
+\[ 294611 \div 4 = 73652 \, \text{R} \, 3 \]
+\[ 73652 \div 4 = 18413 \, \text{R} \, 0 \]
+\[ 18413 \div 4 = 4603 \, \text{R} \, 1 \]
+\[ 4603 \div 4 = 1150 \, \text{R} \, 3 \]
+\[ 1150 \div 4 = 287 \, \text{R} \, 2 \]
+\[ 287 \div 4 = 71 \, \text{R} \, 3 \]
+\[ 71 \div 4 = 17 \, \text{R} \, 3 \]
+\[ 17 \div 4 = 4 \, \text{R} \, 1 \]
+\[ 4 \div 4 = 1 \, \text{R} \, 0 \]
+\[ 1 \div 4 = 0 \, \text{R} \, 1 \]
+
+So, when we write down the remainders from the last to the first, the result in base 4 is:
+\[ 301682025_{10} = 10133231321121_{4} \]
+
+Thus, the final result is:
+
+\[ 20010303_4 \times 2032213_4 = 10133231321121_4 \]

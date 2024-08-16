@@ -1,0 +1,77 @@
+To solve the equation \( 165300_{7} - 35416_{7} \), we need to follow these steps:
+
+1. **Convert the numbers from base 7 to base 10**.
+
+2. **Perform the subtraction in base 10**.
+
+3. **Convert the result back to base 7 (if necessary)**.
+
+### Step 1: Convert \( 165300_{7} \) to base 10
+
+\[ 165300_7 = 1 \cdot 7^5 + 6 \cdot 7^4 + 5 \cdot 7^3 + 3 \cdot 7^2 + 0 \cdot 7^1 + 0 \cdot 7^0 \]
+
+Calculate each term separately:
+
+\[ 1 \cdot 7^5 = 1 \cdot 16807 = 16807 \]
+\[ 6 \cdot 7^4 = 6 \cdot 2401 = 14406 \]
+\[ 5 \cdot 7^3 = 5 \cdot 343 = 1715 \]
+\[ 3 \cdot 7^2 = 3 \cdot 49 = 147 \]
+\[ 0 \cdot 7^1 = 0 \cdot 7 = 0 \]
+\[ 0 \cdot 7^0 = 0 \cdot 1 = 0 \]
+
+Add these values together:
+
+\[ 16807 + 14406 + 1715 + 147 + 0 + 0 = 33175 \]
+
+So, \( 165300_7 = 33175_{10} \).
+
+### Step 2: Convert \( 35416_{7} \) to base 10
+
+\[ 35416_7 = 3 \cdot 7^4 + 5 \cdot 7^3 + 4 \cdot 7^2 + 1 \cdot 7^1 + 6 \cdot 7^0 \]
+
+Calculate each term separately:
+
+\[ 3 \cdot 7^4 = 3 \cdot 2401 = 7203 \]
+\[ 5 \cdot 7^3 = 5 \cdot 343 = 1715 \]
+\[ 4 \cdot 7^2 = 4 \cdot 49 = 196 \]
+\[ 1 \cdot 7^1 = 1 \cdot 7 = 7 \]
+\[ 6 \cdot 7^0 = 6 \cdot 1 = 6 \]
+
+Add these values together:
+
+\[ 7203 + 1715 + 196 + 7 + 6 = 9127 \]
+
+So, \( 35416_7 = 9127_{10} \).
+
+### Step 3: Subtract the two base 10 numbers
+
+\[ 33175 - 9127 = 24048 \]
+
+### Convert the result back to base 7
+
+To convert \( 24048_{10} \) to base 7, we perform successive divisions by 7 and record the remainders.
+
+\[ 24048 \div 7 = 3435 \text{ remainder } 3 \]
+\[ 3435 \div 7 = 491 \text{ remainder } 2 \]
+\[ 491 \div 7 = 70 \text{ remainder } 1 \]
+\[ 70 \div 7 = 10 \text{ remainder } 0 \]
+\[ 10 \div 7 = 1 \text{ remainder } 3 \]
+\[ 1 \div 7 = 0 \text{ remainder } 1 \]
+
+Reading the remainders from bottom to top, we get:
+
+\[ 24048_{10} = 130123_{7} \]
+
+So, the final result in base 7 is:
+
+\[ 165300_7 - 35416_7 = 130123_7 \]
+
+### Summary:
+
+\[ 165300_{7} = 33175_{10}, \]
+\[ 35416_{7} = 9127_{10}, \]
+\[ 33175_{10} - 9127_{10} = 24048_{10}, \]
+\[ 24048_{10} = 130123_{7} \]
+
+Therefore:
+\[ 165300_{7} - 35416_{7} = 130123_{7} \]

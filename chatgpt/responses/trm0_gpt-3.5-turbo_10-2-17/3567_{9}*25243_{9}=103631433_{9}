@@ -1,0 +1,16 @@
+To multiply 3567_{9} by 25243_{9}, we can use the standard multiplication method:
+
+\[
+\begin{array}{}
+& & & & 3 & 5 & 6 & 7_{9} \\
+& & & \times & 2 & 5 & 2 & 4 & 3_{9} \\
+\hline
+& & & & & & 2 & 1 & 1 & 1_{9}  \\
+& & & 2 & 1 & 2 & 2 & 6 & 1 & 6_{9} \\
++ & 1 & 4 & 2 & 6 & 1 & 4_{9} \\
+\hline
+& 2 & 0 & 3 & 6 & 4 & 0 & 3 & 0_{9} \\
+\end{array}
+\]
+
+Therefore, 3567_{9} * 25243_{9} = 20364030_{9}.

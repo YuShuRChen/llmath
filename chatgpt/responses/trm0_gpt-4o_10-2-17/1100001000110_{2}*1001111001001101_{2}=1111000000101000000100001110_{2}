@@ -1,0 +1,76 @@
+Let's multiply the binary numbers step by step.
+
+First, convert these binary numbers to decimal for easier multiplication:
+
+\[ 1100001000110_2 \]
+
+To convert from binary to decimal, recognize each position represents a power of 2.
+
+\[ 1100001000110_2 = 1 \cdot 2^{12} + 1 \cdot 2^{11} + 0 \cdot 2^{10} + 0 \cdot 2^{9} + 0 \cdot 2^{8} + 0 \cdot 2^{7} + 1 \cdot 2^{6} + 0 \cdot 2^{5} + 0 \cdot 2^{4} + 1 \cdot 2^{3} + 1 \cdot 2^{2} + 1 \cdot 2^{1} + 0 \cdot 2^{0} \]
+
+Calculating each term:
+
+\[ 1 \cdot 2^{12} = 4096 \]
+\[ 1 \cdot 2^{11} = 2048 \]
+\[ 0 \cdot 2^{10} = 0 \]
+\[ 0 \cdot 2^{9} = 0 \]
+\[ 0 \cdot 2^{8} = 0 \]
+\[ 0 \cdot 2^{7} = 0 \]
+\[ 1 \cdot 2^{6} = 64 \]
+\[ 0 \cdot 2^{5} = 0 \]
+\[ 0 \cdot 2^{4} = 0 \]
+\[ 1 \cdot 2^{3} = 8 \]
+\[ 1 \cdot 2^{2} = 4 \]
+\[ 1 \cdot 2^{1} = 2 \]
+\[ 0 \cdot 2^{0} = 0 \]
+
+Adding these together:
+
+\[ 4096 + 2048 + 64 + 8 + 4 + 2 = 6222 \]
+
+Thus, \( 1100001000110_2 = 6222_{10} \).
+
+Now, convert the second binary number to decimal:
+
+\[ 1001111001001101_2 \]
+
+Apply the same method:
+
+\[ 1001111001001101_2 = 1 \cdot 2^{15} + 0 \cdot 2^{14} + 0 \cdot 2^{13} + 1 \cdot 2^{12} + 1 \cdot 2^{11} + 1 \cdot 2^{10} + 1 \cdot 2^{9} + 0 \cdot 2^{8} + 0 \cdot 2^{7} + 1 \cdot 2^{6} + 0 \cdot 2^{5} + 0 \cdot 2^{4} + 1 \cdot 2^{3} + 1 \cdot 2^{2} + 0 \cdot 2^{1} + 1 \cdot 2^{0} \]
+
+Calculating each term:
+
+\[ 1 \cdot 2^{15} = 32768 \]
+\[ 0 \cdot 2^{14} = 0 \]
+\[ 0 \cdot 2^{13} = 0 \]
+\[ 1 \cdot 2^{12} = 4096 \]
+\[ 1 \cdot 2^{11} = 2048 \]
+\[ 1 \cdot 2^{10} = 1024 \]
+\[ 1 \cdot 2^{9} = 512 \]
+\[ 0 \cdot 2^{8} = 0 \]
+\[ 0 \cdot 2^{7} = 0 \]
+\[ 1 \cdot 2^{6} = 64 \]
+\[ 0 \cdot 2^{5} = 0 \]
+\[ 0 \cdot 2^{4} = 0 \]
+\[ 1 \cdot 2^{3} = 8 \]
+\[ 1 \cdot 2^{2} = 4 \]
+\[ 0 \cdot 2^{1} = 0 \]
+\[ 1 \cdot 2^{0} = 1 \]
+
+Adding these together:
+
+\[ 32768 + 4096 + 2048 + 1024 + 512 + 64 + 8 + 4 + 1 = 40425 \]
+
+Thus, \( 1001111001001101_2 = 40425_{10} \).
+
+Now multiply the two decimal numbers obtained:
+
+\[ 6222 \times 40425 = 251488350 \]
+
+Converting the result back to binary, we get:
+
+\[ 251488350_{10} = 1110111111001000110001110_2 \]
+
+So, summarizing:
+
+\[ 1100001000110_2 \times 1001111001001101_2 = 6222_{10} \times 40425_{10} = 251488350_{10} = 1110111111001000110001110_{2} \]

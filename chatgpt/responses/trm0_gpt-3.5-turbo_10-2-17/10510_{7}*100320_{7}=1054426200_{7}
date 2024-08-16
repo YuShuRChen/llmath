@@ -1,0 +1,15 @@
+To solve this, we can first convert the numbers to base 10, perform the multiplication, and then convert the result back to base 7.
+
+Converting 10510_{7} to base 10:
+\(10510_{7} = 1*7^4 + 0*7^3 + 5*7^2 + 1*7^1 + 0*7^0 = 2401 + 0 + 245 + 7 + 0 = 2653\)
+
+Converting 100320_{7} to base 10:
+\(100320_{7} = 1*7^5 + 0*7^4 + 0*7^3 + 3*7^2 + 2*7^1 + 0*7^0 = 16807 + 0 + 0 + 147 + 14 + 0 = 17068\)
+
+Performing the multiplication in base 10:
+\(2653 * 17068 = 45307364\)
+
+Converting 45307364 to base 7:
+\(45307364 = 4*7^7 + 5*7^6 + 3*7^5 + 0*7^4 + 7*7^3 + 3*7^2 + 6*7^1 + 4*7^0 = 4*117649 + 5*82354 + 3*16807 + 0 + 7*343 + 3*49 + 6*7 + 4*1 = 4025304 + 411770 + 50421 + 0 + 2401 + 147 + 42 + 4 = 4470669\)
+
+Therefore, \(10510_{7} * 100320_{7} = 4470669_{7}\)

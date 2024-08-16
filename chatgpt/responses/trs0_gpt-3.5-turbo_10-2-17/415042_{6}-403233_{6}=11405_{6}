@@ -1,0 +1,12 @@
+To subtract the numbers 415042 and 403233 in base 6, we will line up the numbers and perform the subtraction:
+
+\[
+\begin{array}{cccccc}
+& & & 4 & 1 & 5 & 0 & 4_6 \\
+- & & & 4 & 0 & 3 & 2 & 3_6 \\
+\hline
+& & & 0 & 1 & 1 & 3 & 1_6 \\
+\end{array}
+\]
+
+Therefore, \(415042_6 - 403233_6 = 11131_6\).

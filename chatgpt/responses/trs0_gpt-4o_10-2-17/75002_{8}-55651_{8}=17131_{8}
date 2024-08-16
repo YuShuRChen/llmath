@@ -1,0 +1,53 @@
+To solve the equation \(75002_8 - 55651_8\), we need to convert the numbers from octal (base 8) to decimal (base 10), perform the subtraction in decimal, and then (if necessary) convert the result back to octal.
+
+First, convert \(75002_8\) to decimal.
+
+\[ 75002_8 = 7 \times 8^4 + 5 \times 8^3 + 0 \times 8^2 + 0 \times 8^1 + 2 \times 8^0 \]
+
+Calculate the powers of 8:
+
+\[ 8^0 = 1 \]
+\[ 8^1 = 8 \]
+\[ 8^2 = 64 \]
+\[ 8^3 = 512 \]
+\[ 8^4 = 4096 \]
+
+Substitute these values in:
+
+\[ 75002_8 = 7 \times 4096 + 5 \times 512 + 0 \times 64 + 0 \times 8 + 2 \times 1 \]
+\[ 75002_8 = 28672 + 2560 + 0 + 0 + 2 \]
+\[ 75002_8 = 31234_{10} \]
+
+Now, convert \(55651_8\) to decimal.
+
+\[ 55651_8 = 5 \times 8^4 + 5 \times 8^3 + 6 \times 8^2 + 5 \times 8^1 + 1 \times 8^0 \]
+
+Substitute the powers of 8 as above:
+
+\[ 55651_8 = 5 \times 4096 + 5 \times 512 + 6 \times 64 + 5 \times 8 + 1 \times 1 \]
+\[ 55651_8 = 20480 + 2560 + 384 + 40 + 1 \]
+\[ 55651_8 = 23465_{10} \]
+
+Perform the subtraction in decimal.
+
+\[ 31234_{10} - 23465_{10} = 7770_{10} \]
+
+If required, convert \(7770_{10}\) back to octal.
+
+Divide 7770 by 8 and find the remainders:
+
+\[ 7770 \div 8 = 971 \text{ remainder } 2 \]
+\[ 971 \div 8 = 121 \text{ remainder } 3 \]
+\[ 121 \div 8 = 15 \text{ remainder } 1 \]
+\[ 15 \div 8 = 1 \text{ remainder } 7 \]
+\[ 1 \div 8 = 0 \text{ remainder } 1 \]
+
+Reading the remainders from bottom to top, \(7770_{10}\) is:
+
+\[ 17132_8 \]
+
+Thus, \(75002_8 - 55651_8 = 17132_8\).
+
+To summarize:
+
+\[ 75002_8 - 55651_8 = 31234_{10} - 23465_{10} = 7770_{10} = 17132_8 \]

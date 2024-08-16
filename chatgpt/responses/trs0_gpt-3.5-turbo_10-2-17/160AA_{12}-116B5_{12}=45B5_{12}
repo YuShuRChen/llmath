@@ -1,0 +1,9 @@
+First, we need to convert the numbers to base 10:
+1. \( 160AA_{12} = 1 \times 12^4 + 6 \times 12^3 + 0 \times 12^2 + 10 \times 12^1 + 10 \times 12^0 = 23902_{10} \)
+2. \( 116B5_{12} = 1 \times 12^4 + 1 \times 12^3 + 6 \times 12^2 + 11 \times 12^1 + 5 \times 12^0 = 14037_{10} \)
+
+Then, we subtract to find the result in base 10: \( 23902_{10} - 14037_{10} = 9865_{10} \)
+
+Finally, we convert the result back to base 12: \( 9865_{10} = 5 \times 12^3 + 3 \times 12^2 + 7 \times 12^1 + 9 \times 12^0 = 53D9_{12} \)
+
+Therefore, \( 160AA_{12} - 116B5_{12} = 53D9_{12} \)

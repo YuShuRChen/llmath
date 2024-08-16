@@ -1,0 +1,64 @@
+To evaluate \( 93C4_{15} \times 6E45_{15} \), we should follow these steps:
+
+1. Convert both numbers from base 15 to base 10.
+2. Perform the multiplication in base 10.
+3. Convert the result back to base 15.
+
+### Step 1: Convert \( 93C4_{15} \) to base 10.
+To convert \( 93C4_{15} \) to base 10, we use:
+\[ 93C4_{15} \Rightarrow 9 \times 15^3 + 3 \times 15^2 + 12 \times 15^1 + 4 \times 15^0 \]
+
+Calculate each term:
+\[ 9 \times 15^3 = 9 \times 3375 = 30375 \]
+\[ 3 \times 15^2 = 3 \times 225 = 675 \]
+\[ 12 \times 15^1 = 12 \times 15 = 180 \]
+\[ 4 \times 15^0 = 4 \]
+
+Sum the results:
+\[ 30375 + 675 + 180 + 4 = 31234 \]
+
+### Step 2: Convert \( 6E45_{15} \) to base 10.
+To convert \( 6E45_{15} \) to base 10, we use:
+\[ 6E45_{15} \Rightarrow 6 \times 15^3 + 14 \times 15^2 + 4 \times 15^1 + 5 \times 15^0 \]
+(Note: \( E \) represents 14 in base 15).
+
+Calculate each term:
+\[ 6 \times 15^3 = 6 \times 3375 = 20250 \]
+\[ 14 \times 15^2 = 14 \times 225 = 3150 \]
+\[ 4 \times 15^1 = 4 \times 15 = 60 \]
+\[ 5 \times 15^0 = 5 \]
+
+Sum the results:
+\[ 20250 + 3150 + 60 + 5 = 23465 \]
+
+### Step 3: Perform the multiplication in base 10.
+Now multiply the two base 10 numbers:
+\[ 31234 \times 23465 \]
+
+\[ 31234 \times 23465 = 732923710 \]
+
+### Step 4: Convert the result back to base 15.
+Let's convert \( 732923710_{10} \) to base 15.
+
+Steps involve continuously dividing by 15 and keeping remainders:
+\[ 732923710 \div 15 = 48861580 \text{ remainder } 10 \]
+\[ 48861580 \div 15 = 3257438 \text{ remainder } 10 \]
+\[ 3257438 \div 15 = 217162 \text{ remainder } 8 \]
+\[ 217162 \div 15 = 14477 \text{ remainder } 7 \]
+\[ 14477 \div 15 = 965 \text{ remainder } 2 \]
+\[ 965 \div 15 = 64 \text{ remainder } 5 \]
+\[ 64 \div 15 = 4 \text{ remainder } 4 \]
+\[ 4 \div 15 = 0 \text{ remainder } 4 \]
+
+Reversing the order of the remainders, we get the base 15 result:
+\[ 444752AA_{15} \]
+
+Thus, the answer is:
+\[ 93C4_{15} \times 6E45_{15} = 444752AA_{15} \]
+
+### Summary:
+\[ 93C4_{15} = 31234_{10} \]
+\[ 6E45_{15} = 23465_{10} \]
+\[ 31234_{10} \times 23465_{10} = 732923710_{10} \]
+\[ 732923710_{10} = 444752AA_{15} \]
+\[ 93C4_{15} \times 6E45_{15} = 31234_{10} \times 23465_{10} = 732923710_{10} = 444752AA_{15} \]

@@ -1,0 +1,22 @@
+To multiply two numbers in base 8, we can perform the same steps as in decimal multiplication, but taking into account the base. 
+
+\[
+\begin{array}{r}
+  44046_{8} \\
+\times 21706_{8} \\
+\hline
+\end{array}
+\]
+
+\[
+\begin{array}{r}
+\phantom{00}44046_{8} \\
+\underline{\times \phantom{000}21706_{8}} \\
+\phantom{0}264276_{8} \quad \text{(Multiplying the units place)}\\
+44046_{8} \quad \text{(Shifting the second number by one place to the left)}\\
+\underline{308322_{8} \quad \text{(Multiplying the 8's place)}}\\
+2642024_{8} \quad \text{(Adding the two results)}
+\end{array}
+\]
+
+Therefore, \(44046_{8} * 21706_{8} = 2642024_{8}\)

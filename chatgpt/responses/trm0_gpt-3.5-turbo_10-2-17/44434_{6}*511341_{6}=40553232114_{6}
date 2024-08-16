@@ -1,0 +1,23 @@
+To multiply two numbers in base 6, we can convert the numbers to base 10, perform the multiplication, and then convert the result back to base 6.
+
+Converting:
+$44434_{6}=1*6^4+1*6^3+1*6^2+2*6+4=1296+216+36+12+4=1564_{10}$
+$511341_{6}=5*6^5+1*6^4+1*6^3+3*6^2+4*6+1=77760+1296+216+108+24+1=79405_{10}$
+
+Multiplying:
+$1564_{10}*79405_{10}=124193620_{10}$
+
+Converting back to base 6:
+$124193620_{10}\div 6=20698936$ remainder $4$
+$20698936_{10} \div 6=3449822$ remainder $4$
+$3449822_{10} \div 6=574970$ remainder $2$
+$574970_{10} \div 6=95828$ remainder $2$
+$95828_{10} \div 6=15971$ remainder $2$
+$15971_{10} \div 6=2661$ remainder $5$
+$2661_{10} \div 6=443$ remainder $3$
+$443_{10} \div 6=73$ remainder $5$
+$73_{10} \div 6=12$ remainder $1$
+$12_{10} \div 6=2$ remainder $0$
+$2_{10}$
+
+Therefore, $44434_{6}*511341_{6}=124193620_{10}=2004004042_{6}$.

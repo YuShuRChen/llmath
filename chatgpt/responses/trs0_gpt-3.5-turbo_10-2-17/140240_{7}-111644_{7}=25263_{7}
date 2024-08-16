@@ -1,0 +1,12 @@
+To subtract these two numbers, we need to align them by place value and then subtract each position starting from the right.
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c}
+& & & 2_{7} & 4_{7} & 0_{7} \\
+- & & 1_{7} & 1_{7} & 1_{7} & 6_{7} \\
+\cline{2-6}
+& & 1_{7} & 3_{7} & 3_{7} & 4_{7} \\
+\end{array}
+\]
+
+So, \(140240_{7}-111644_{7} = 13344_{7}\).

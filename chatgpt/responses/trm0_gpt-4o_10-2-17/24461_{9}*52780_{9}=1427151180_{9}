@@ -1,0 +1,52 @@
+To multiply the numbers \(24461_9\) and \(52780_9\), we first need to convert them from base 9 to base 10.
+
+### Conversion of \(24461_9\) to base 10:
+\[ 24461_9 = 2 \cdot 9^4 + 4 \cdot 9^3 + 4 \cdot 9^2 + 6 \cdot 9^1 + 1 \cdot 9^0 \]
+
+1. \(2 \cdot 9^4 = 2 \cdot 6561 = 13122\)
+2. \(4 \cdot 9^3 = 4 \cdot 729 = 2916\)
+3. \(4 \cdot 9^2 = 4 \cdot 81 = 324\)
+4. \(6 \cdot 9^1 = 6 \cdot 9 = 54\)
+5. \(1 \cdot 9^0 = 1 \cdot 1 = 1\)
+
+Summing these values:
+\[ 13122 + 2916 + 324 + 54 + 1 = 16417 \]
+
+Thus, \(24461_9 = 16417_{10}\).
+
+### Conversion of \(52780_9\) to base 10:
+\[ 52780_9 = 5 \cdot 9^4 + 2 \cdot 9^3 + 7 \cdot 9^2 + 8 \cdot 9^1 + 0 \cdot 9^0 \]
+
+1. \(5 \cdot 9^4 = 5 \cdot 6561 = 32805\)
+2. \(2 \cdot 9^3 = 2 \cdot 729 = 1458\)
+3. \(7 \cdot 9^2 = 7 \cdot 81 = 567\)
+4. \(8 \cdot 9^1 = 8 \cdot 9 = 72\)
+5. \(0 \cdot 9^0 = 0\)
+
+Summing these values:
+\[ 32805 + 1458 + 567 + 72 + 0 = 34902 \]
+
+Thus, \(52780_9 = 34902_{10}\).
+
+### Multiplication of \(16417_{10}\) and \(34902_{10}\):
+\[ 16417 \times 34902 = 572724834 \]
+
+### Converting \(572724834_{10}\) back to base 9:
+We repeatedly divide the number by 9 and record the remainders:
+
+1. \(572724834 \div 9 = 63636092\) remainder \(6\)
+2. \(63636092 \div 9 = 7070676\) remainder \(8\)
+3. \(7070676 \div 9 = 785630\) remainder \(6\)
+4. \(785630 \div 9 = 87392\) remainder \(2\)
+5. \(87392 \div 9 = 9709\) remainder \(1\)
+6. \(9709 \div 9 = 1078\) remainder \(7\)
+7. \(1078 \div 9 = 119\) remainder \(7\)
+8. \(119 \div 9 = 13\) remainder \(2\)
+9. \(13 \div 9 = 1\) remainder \(4\)
+10. \(1 \div 9 = 0\) remainder \(1\)
+
+Reading the remainders from bottom to top, we get:
+\[ 572724834_{10} = 1421772686_{9} \]
+
+### Summary:
+\[ 24461_9 * 52780_9 = 16417_{10} * 34902_{10} = 572724834_{10} = 1421772686_{9} \]

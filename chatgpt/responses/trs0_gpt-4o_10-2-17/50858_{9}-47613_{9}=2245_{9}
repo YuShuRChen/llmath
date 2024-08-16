@@ -1,0 +1,44 @@
+First, we need to convert the base-9 numbers to base-10.
+
+To convert \(50858_9\) to base-10:
+\[5 \times 9^4 + 0 \times 9^3 + 8 \times 9^2 + 5 \times 9^1 + 8 \times 9^0\]
+
+Calculate each term:
+- \(5 \times 9^4 = 5 \times 6561 = 32805\)
+- \(0 \times 9^3 = 0\)
+- \(8 \times 9^2 = 8 \times 81 = 648\)
+- \(5 \times 9^1 = 5 \times 9 = 45\)
+- \(8 \times 9^0 = 8 \times 1 = 8\)
+
+Now, sum these values:
+\[32805 + 0 + 648 + 45 + 8 = 33506\]
+
+Next, convert \(47613_9\) to base-10:
+\[4 \times 9^4 + 7 \times 9^3 + 6 \times 9^2 + 1 \times 9^1 + 3 \times 9^0\]
+
+Calculate each term:
+- \(4 \times 9^4 = 4 \times 6561 = 26244\)
+- \(7 \times 9^3 = 7 \times 729 = 5103\)
+- \(6 \times 9^2 = 6 \times 81 = 486\)
+- \(1 \times 9^1 = 1 \times 9 = 9\)
+- \(3 \times 9^0 = 3 \times 1 = 3\)
+
+Now, sum these values:
+\[26244 + 5103 + 486 + 9 + 3 = 31845\]
+
+Subtract the base-10 numbers:
+\[33506 - 31845 = 1661\]
+
+Finally, we convert the result, 1661, back to base-9. 
+
+To convert 1661 from base-10 to base-9, we perform repeated division by 9 and record the remainders:
+- \(1661 \div 9 = 184\) remainder \(5\)
+- \(184 \div 9 = 20\) remainder \(4\)
+- \(20 \div 9 = 2\) remainder \(2\)
+- \(2 \div 9 = 0\) remainder \(2\)
+
+Reading the remainders from bottom to top, \(1661_{10}\) is \(2245_{9}\).
+
+Summary:
+\[50858_9 - 47613_9 = 50858_9 -> 33506_{10} - 47613_9 -> 31845_{10} = 1661_{10} -> 2245_{9}\]
+\[50858_9 - 47613_9 = 2245_9\]

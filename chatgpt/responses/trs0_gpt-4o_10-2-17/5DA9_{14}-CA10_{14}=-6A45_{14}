@@ -1,0 +1,48 @@
+To solve the equation \(5DA9_{14} - CA10_{14}\), we need to convert the numbers from base 14 to base 10, perform the subtraction, and optionally convert the result back to base 14 for interpretation.
+
+### Conversion from base 14 to base 10
+First, convert \(5DA9_{14}\) to base 10.
+\[5DA9_{14} = 5 \cdot 14^3 + D \cdot 14^2 + A \cdot 14^1 + 9 \cdot 14^0\]
+
+Given that \(D = 13\) and \(A = 10\),
+\[5DA9_{14} = 5 \cdot 14^3 + 13 \cdot 14^2 + 10 \cdot 14^1 + 9\]
+
+Calculations:
+\[5 \cdot 14^3 = 5 \cdot 2744 = 13720\]
+\[13 \cdot 14^2 = 13 \cdot 196 = 2548\]
+\[10 \cdot 14^1 = 10 \cdot 14 = 140\]
+\[9 \cdot 14^0 = 9\]
+
+Adding them together:
+\[13720 + 2548 + 140 + 9 = 16417\]
+
+So, \(5DA9_{14} = 16417_{10}\).
+
+Next, convert \(CA10_{14}\) to base 10.
+\[CA10_{14} = C \cdot 14^3 + A \cdot 14^2 + 1 \cdot 14^1 + 0 \cdot 14^0\]
+
+Given that \(C = 12\) and \(A = 10\),
+\[CA10_{14} = 12 \cdot 14^3 + 10 \cdot 14^2 + 1 \cdot 14^1 + 0\]
+
+Calculations:
+\[12 \cdot 14^3 = 12 \cdot 2744 = 32928\]
+\[10 \cdot 14^2 = 10 \cdot 196 = 1960\]
+\[1 \cdot 14^1 = 14\]
+\[0 \cdot 14^0 = 0\]
+
+Adding them together:
+\[32928 + 1960 + 14 + 0 = 34802\]
+
+So, \(CA10_{14} = 34802_{10}\).
+
+### Performing the subtraction in base 10:
+\[16417_{10} - 34802_{10} = -18385_{10}\]
+
+### Summary:
+\[5DA9_{14} = 5 \cdot 14^3 + D \cdot 14^2 + A \cdot 14^1 + 9 \cdot 14^0 = 13720_{10} + 2548_{10} + 140_{10} + 9_{10} = 16417_{10}\]
+\[CA10_{14} = C \cdot 14^3 + A \cdot 14^2 + 1 \cdot 14^1 + 0 \cdot 14^0 = 32928_{10} + 1960_{10} + 14_{10} + 0_{10} = 34802_{10}\]
+\[5DA9_{14} - CA10_{14} = 16417_{10} - 34802_{10} = -18385_{10}\]
+
+Thus, the original equation \(5DA9_{14} - CA10_{14}\) results in \(-18385_{10}\).
+
+\[5DA9_{14} - CA10_{14} = 16417_{10} - 34802_{10} = -18385_{10}\]

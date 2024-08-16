@@ -1,0 +1,19 @@
+To solve this equation, let's subtract the two numbers in base 4.
+
+First, let's align the two numbers:
+```
+   12132221
+-  10312211
+------------
+```
+
+Now, let's perform the subtraction:
+```
+          1
+   12132221
+-  10312211
+------------
+     155010
+```
+
+Therefore, the result of the equation \(12132221_4 - 10312211_4\) is \(155010_4\).

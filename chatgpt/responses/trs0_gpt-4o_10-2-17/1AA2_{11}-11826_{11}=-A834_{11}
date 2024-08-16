@@ -1,0 +1,57 @@
+To compute the subtraction of two numbers in base 11, we first need to convert them to a common base (typically base 10), perform the subtraction, and then convert the result back to base 11.
+
+### Converting 1AA2_{11} to base 10:
+The digits in 1AA2_{11} are from the hexadecimal subset: 1, A(=10), and 2.
+
+\[1AA2_{11} = 1 \cdot 11^3 + 10 \cdot 11^2 + 10 \cdot 11^1 + 2 \cdot 11^0\]
+
+Calculating each term:
+\[1 \cdot 11^3 = 1 \cdot 1331 = 1331\]
+\[10 \cdot 11^2 = 10 \cdot 121 = 1210\]
+\[10 \cdot 11^1 = 10 \cdot 11 = 110\]
+\[2 \cdot 11^0 = 2 \cdot 1 = 2\]
+
+Sum these values:
+\[1331 + 1210 + 110 + 2 = 2653\]
+
+Hence,
+\[1AA2_{11} = 2653_{10}\]
+
+### Converting 11826_{11} to base 10:
+The digits in 11826_{11} are:
+\[11826_{11} = 1 \cdot 11^4 + 1 \cdot 11^3 + 8 \cdot 11^2 + 2 \cdot 11^1 + 6 \cdot 11^0\]
+
+Calculating each term:
+\[1 \cdot 11^4 = 1 \cdot 14641 = 14641\]
+\[1 \cdot 11^3 = 1 \cdot 1331 = 1331\]
+\[8 \cdot 11^2 = 8 \cdot 121 = 968\]
+\[2 \cdot 11^1 = 2 \cdot 11 = 22\]
+\[6 \cdot 11^0 = 6 \cdot 1 = 6\]
+
+Sum these values:
+\[14641 + 1331 + 968 + 22 + 6 = 16968\]
+
+Hence,
+\[11826_{11} = 16968_{10}\]
+
+### Subtract in Base 10:
+\[2653_{10} - 16968_{10} = -14315_{10}\]
+
+### Converting -14315_{10} to base 11:
+First, ignore the negative sign and convert 14315_{10} to base 11. 
+
+To do this, we sequentially divide 14315 by 11 and take the remainders:
+
+1. \(14315 \div 11 = 1301\) remainder \(4\)
+2. \(1301 \div 11 = 118\) remainder \(3\)
+3. \(118 \div 11 = 10\) remainder \(8\)
+4. \(10 \div 11 = 0\) remainder \(10\) (A in base 11)
+
+Thus,
+\[14315_{10} = A834_{11}\]
+
+Therefore, the result is:
+\[-14315_{10} = -A834_{11}\]
+
+Summing up in one line:
+\[1AA2_{11} - 11826_{11} = 2653_{10} - 16968_{10} = -14315_{10} = -A834_{11}\]

@@ -1,0 +1,36 @@
+First, we need to borrow from the next place value to subtract in base 15. 
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c@{}c}
+          & 7 & 7 & 3 & 2 & _{15} \\
+- & 8 & 2 & 7 & 7 & _{15} \\
+\cline{2-5}
+\end{array}
+\]
+
+After borrowing, the new equation becomes:
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c@{}c}
+          & 6_{15} & 17_{15} & 10_{15} & 2_{15} \\
+- & 8_{15} & 2_{15} & 7_{15} & 7_{15} \\
+\cline{2-5}
+\end{array}
+\]
+
+Now we subtract starting from the rightmost digit:
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c@{}c}
+          & 6_{15} & 16_{15} & 9_{15} & 2_{15} \\
+- & 8_{15} & 2_{15} & 7_{15} & 7_{15} \\
+\cline{2-5}
+          & \textbf{5_{15}} & 14_{15} & 2_{15} & 10_{15} \\
+\end{array}
+\]
+
+Lastly, we convert the result back to base 15:
+
+$5_{15} = 5_{15}$
+
+Therefore, $7732_{15}-8277_{15}=5_{15}$.

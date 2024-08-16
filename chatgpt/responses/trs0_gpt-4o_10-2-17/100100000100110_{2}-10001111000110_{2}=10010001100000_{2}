@@ -1,0 +1,35 @@
+To solve the given equation, we'll convert each binary number to its decimal equivalent, perform the subtraction, and convert the result back to binary form.
+
+1. Convert the first binary number \( 100100000100110_2 \) to decimal:
+   \[
+   1 \times 2^{14} + 0 \times 2^{13} + 0 \times 2^{12} + 1 \times 2^{11} + 0 \times 2^{10} + 0 \times 2^{9} + 0 \times 2^{8} + 0 \times 2^{7} + 0 \times 2^{6} + 1 \times 2^{5} + 1 \times 2^{4} + 0 \times 2^{3} + 0 \times 2^{2} + 1 \times 2^{1} + 0 \times 2^{0}
+   \]
+   \[
+   = 16384 + 2048 + 32 + 16 + 2 = 18482_{10}
+   \]
+
+2. Convert the second binary number \( 10001111000110_2 \) to decimal:
+   \[
+   1 \times 2^{13} + 0 \times 2^{12} + 0 \times 2^{11} + 0 \times 2^{10} + 1 \times 2^{9} + 1 \times 2^{8} + 1 \times 2^{7} + 1 \times 2^{6} + 0 \times 2^{5} + 0 \times 2^{4} + 1 \times 2^{3} + 1 \times 2^{2} + 0 \times 2^{1} + 0 \times 2^{0}
+   \]
+   \[
+   = 8192 + 256 + 128 + 64 + 8 + 4 = 8652_{10}
+   \]
+
+3. Subtract the decimal equivalents:
+   \[
+   18482 - 8652 = 9830_{10}
+   \]
+
+4. Convert the result back to binary:
+   \[
+   9830_{10} \rightarrow 10011001000110_2
+   \]
+
+Therefore, the result of the subtraction \( 100100000100110_2 - 10001111000110_2 \) is:
+\[
+100100000100110_2 - 10001111000110_2 = 10011001000110_2
+\]
+
+Summary:
+\( 100100000100110_2 - 10001111000110_2 = 18482_{10} - 8652_{10} = 9830_{10} = 10011001000110_2 \)

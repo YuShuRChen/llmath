@@ -1,0 +1,75 @@
+To solve the equation \(1C94_{15} - C01A_{15}\), let's first convert the numbers from base 15 to base 10.
+
+1. Convert \(1C94_{15}\) to base 10:
+   - Split the number into its digits: \(1, C, 9, 4\).
+   - Convert each digit to base 10: \(1 = 1_{10}\), \(C = 12_{10}\), \(9 = 9_{10}\), \(4 = 4_{10}\).
+   - Each digit needs to be multiplied by \(15\) raised to the power of its position (from right to left, starting with power 0).
+
+\[ 
+1C94_{15} = 1 \cdot 15^3 + 12 \cdot 15^2 + 9 \cdot 15^1 + 4 \cdot 15^0 
+\]
+\[
+= 1 \cdot 3375 + 12 \cdot 225 + 9 \cdot 15 + 4 \cdot 1
+\]
+\[
+= 3375 + 2700 + 135 + 4 = 6214_{10}
+\]
+
+2. Convert \(C01A_{15}\) to base 10:
+   - Split the number into its digits: \(C, 0, 1, A\).
+   - Convert each digit to base 10: \(C = 12_{10}\), \(0 = 0_{10}\), \(1 = 1_{10}\), \(A = 10_{10}\).
+   - Multiply each digit by \(15\) raised to the power of its position.
+
+\[ 
+C01A_{15} = 12 \cdot 15^3 + 0 \cdot 15^2 + 1 \cdot 15^1 + 10 \cdot 15^0
+\]
+\[
+= 12 \cdot 3375 + 0 \cdot 225 + 1 \cdot 15 + 10 \cdot 1
+\]
+\[
+= 40500 + 0 + 15 + 10 = 40525_{10}
+\]
+
+3. Subtract \(C01A_{15}\) from \(1C94_{15}\) in base 10:
+\[
+= 6214_{10} - 40525_{10} 
+= -34311_{10}
+\]
+
+4. Now, convert \(-34311_{10}\) back to base 15.
+
+First, find the magnitude \(34311_{10}\) in base 15:
+- Find the highest power of 15 less than \(34311\):
+\[ 15^4 = 50625 \quad (\text{too large, so reduce the power}) \]
+\[ 15^3 = 3375 \]
+
+- Divide \(34311\) by 3375:
+\[ 34311 \div 3375 \approx 10 \quad (\text{with remainder}) \]
+
+10 base 15 is \(A\).
+
+- Remainder is:
+\[ 34311 - 10 \cdot 3375 = 34311 - 33750 = 561 \]
+
+- Repeat the process for \(561\):
+\[ 561 \div 225 \approx 2 \]
+\[ 561 - 2 \cdot 225 = 561 - 450 = 111 \]
+
+Then \(2 \cdot 15^2 = 2\).
+
+- Continue with remaining \(111\):
+\[ 111 \div 15 = 7 \]
+\[ 111 - 7 \cdot 15 = 111 - 105 = 6 \]
+
+Finally, we have:
+\[
+34311_{10} = 1*15^3 + 0*15^2 + 1*15^1 + 6*15^0  = A209_{15}
+\]
+
+For negative result:
+\[
+- A209_{15}
+\]
+
+**Summary**: 
+\[1C94_{15} - C01A_{15} = -A209_{15}\]

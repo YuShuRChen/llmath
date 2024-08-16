@@ -1,0 +1,35 @@
+To solve the equation \( 21111120_4 - 3133223_4 \):
+
+1. Convert \( 21111120_4 \) to decimal (base 10):
+   - \( 21111120_4 = 2 \cdot 4^7 + 1 \cdot 4^6 + 1 \cdot 4^5 + 1 \cdot 4^4 + 1 \cdot 4^3 + 1 \cdot 4^2 + 2 \cdot 4^1 + 0 \cdot 4^0 \)
+   - \( = 2 \cdot 16384 + 1 \cdot 4096 + 1 \cdot 1024 + 1 \cdot 256 + 1 \cdot 64 + 1 \cdot 16 + 2 \cdot 4 + 0 \cdot 1 \)
+   - \( = 32768 + 4096 + 1024 + 256 + 64 + 16 + 8 + 0 \)
+   - \( = 38232 \)
+
+2. Convert \( 3133223_4 \) to decimal (base 10):
+   - \( 3133223_4 = 3 \cdot 4^6 + 1 \cdot 4^5 + 3 \cdot 4^4 + 3 \cdot 4^3 + 2 \cdot 4^2 + 2 \cdot 4^1 + 3 \cdot 4^0 \)
+   - \( = 3 \cdot 4096 + 1 \cdot 1024 + 3 \cdot 256 + 3 \cdot 64 + 2 \cdot 16 + 2 \cdot 4 + 3 \cdot 1 \)
+   - \( = 12288 + 1024 + 768 + 192 + 32 + 8 + 3 \)
+   - \( = 14278 \)
+
+3. Subtract the two decimal values:
+   - \( 38232 - 14278 = 23954 \)
+
+4. Convert \( 23954 \) back to base 4:
+   - \( 23954 \div 4 = 5988 \) remainder \( 2 \)
+   - \( 5988 \div 4 = 1497 \) remainder \( 0 \)
+   - \( 1497 \div 4 = 374 \) remainder \( 1 \)
+   - \( 374 \div 4 = 93 \) remainder \( 2 \)
+   - \( 93 \div 4 = 23 \) remainder \( 1 \)
+   - \( 23 \div 4 = 5 \) remainder \( 3 \)
+   - \( 5 \div 4 = 1 \) remainder \( 1 \)
+   - \( 1 \div 4 = 0 \) remainder \( 1 \)
+
+   Reading the remainders from bottom to top, we get \( 11132102_4 \).
+
+So,
+
+\[ 21111120_4 - 3133223_4 = 11132102_4 \]
+
+Summarizing in one line:
+\[ 21111120_4 - 3133223_4 = 38232_{10} - 14278_{10} = 23954_{10} = 11132102_{4} \]

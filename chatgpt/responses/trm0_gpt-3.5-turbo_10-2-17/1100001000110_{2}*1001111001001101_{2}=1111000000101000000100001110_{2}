@@ -1,0 +1,9 @@
+Converting the given binary numbers to decimal:
+\(1100001000110_{2} = 6390_{10}\)
+\(1001111001001101_{2} = 50525_{10}\)
+Performing the multiplication in decimal:
+\(6390_{10} \times 50525_{10} = 323155750_{10}\)
+Converting the result back to binary:
+\(323155750_{10} = 1001111001001101000_{2}\)
+
+\(1100001000110_{2} \times 1001111001001101_{2} = 1001111001001101000_{2}\)

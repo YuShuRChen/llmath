@@ -1,0 +1,24 @@
+To compute the difference between 221131_{4} and 10021020_{4}, we first need to align the numbers by adding leading zeroes to make them the same length.
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c }
+& & 2 & 2 & 1 & 1 & 3 & 1_{4} \\
+- & & 1 & 0 & 0 & 2 & 1 & 0 & 2 & 0_{4} \\
+\hline
+\end{array}
+\]
+
+Converting the numbers to base 10:
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c }
+& & 2 & 2 & 1 & 1 & 3 & 1_{4} \\
+- & & 1 & 0 & 0 & 2 & 1 & 0 & 2 & 0_{4} \\
+\hline
+& & 4+8+16+64+128 & & 3+1 & & 1_{10} \\
+- & & 16+64+512+16384 & & 2+16+512 & & 2560_{10} \\
+\hline
+= & & 342 & & 4 & & -2459_{10} \\
+\end{array}
+\]
+
+Therefore, the result of \( 221131_{4}-10021020_{4} \) is \( -2117_{10} \).

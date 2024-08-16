@@ -1,0 +1,10 @@
+First, we need to convert the numbers to base 10:
+B651_{13} = (11 * 13^3) + (6 * 13^2) + (5 * 13^1) + (1 * 13^0) = 25493
+C712_{13} = (12 * 13^3) + (7 * 13^2) + (1 * 13^1) + (2 * 13^0) = 28697
+
+Now subtract the second number from the first:
+25493 - 28697 = -3204
+
+Therefore, B651_{13} - C712_{13} = -3204_{10}.
+
+Equation: B651_{13} - C712_{13} = -3204_{10}

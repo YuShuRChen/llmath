@@ -1,0 +1,62 @@
+To solve the equation 12971_{11} * 6976_{11}, we first need to convert these base-11 numbers to base-10, perform the multiplication in base-10, and then convert the result back to base-11.
+
+### Step 1: Convert 12971_{11} to base-10
+Each digit in a base-11 number represents a power of 11. Here's the breakdown:
+
+\[ 1 \times 11^4 + 2 \times 11^3 + 9 \times 11^2 + 7 \times 11^1 + 1 \times 11^0 \]
+
+Calculate each term:
+
+- \( 1 \times 11^4 = 1 \times 14641 = 14641 \)
+- \( 2 \times 11^3 = 2 \times 1331 = 2662 \)
+- \( 9 \times 11^2 = 9 \times 121 = 1089 \)
+- \( 7 \times 11^1 = 7 \times 11 = 77 \)
+- \( 1 \times 11^0 = 1 \times 1 = 1 \)
+
+Sum these results:
+
+\[ 14641 + 2662 + 1089 + 77 + 1 = 18470 \]
+
+So, \( 12971_{11} = 18470_{10} \).
+
+### Step 2: Convert 6976_{11} to base-10
+Similarly, convert 6976_{11}:
+
+\[ 6 \times 11^3 + 9 \times 11^2 + 7 \times 11^1 + 6 \times 11^0 \]
+
+Calculate each term:
+
+- \( 6 \times 11^3 = 6 \times 1331 = 7986 \)
+- \( 9 \times 11^2 = 9 \times 121 = 1089 \)
+- \( 7 \times 11^1 = 7 \times 11 = 77 \)
+- \( 6 \times 11^0 = 6 \times 1 = 6 \)
+
+Sum these results:
+
+\[ 7986 + 1089 + 77 + 6 = 9158 \]
+
+So, \( 6976_{11} = 9158_{10} \).
+
+### Step 3: Multiply the two base-10 numbers
+Now multiply 18470 and 9158:
+
+\[ 18470 \times 9158 = 169086260 \]
+
+### Step 4: Convert the result back to base-11
+To convert 169086260_{10} to base-11, we repeatedly divide by 11 and keep track of the remainders:
+
+1. \( 169086260 \div 11 = 15371478 \ R2 \) 
+2. \( 15371478 \div 11 = 1397407 \ R1 \)
+3. \( 1397407 \div 11 = 127946 \ R1 \)
+4. \( 127946 \div 11 = 11631 \ R5 \)
+5. \( 11631 \div 11 = 1057 \ R4 \)
+6. \( 1057 \div 11 = 96 \ R1 \)
+7. \( 96 \div 11 = 8 \ R8 \)
+8. \( 8 \div 11 = 0 \ R8 \)
+
+Reading the remainders in reverse order gives us the base-11 number:
+
+So, 169086260_{10} is equivalent to 88145112_{11}.
+
+**Summary:**
+12971_{11} * 6976_{11} = 18470_{10} * 9158_{10} = 169086260_{10} = 88145112_{11}.

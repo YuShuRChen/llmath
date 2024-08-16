@@ -1,0 +1,33 @@
+To solve the given equation \( 473A_{11} - 284A1_{11} \), we first need to convert the numbers from base 11 to base 10.
+
+1. Convert \( 473A_{11} \) to base 10:
+   \[
+   473A_{11} = 4 \times 11^3 + 7 \times 11^2 + 3 \times 11^1 + A \times 11^0
+   \]
+   Since \( A \) represents 10 in base 11:
+   \[
+   473A_{11} = 4 \times 1331 + 7 \times 121 + 3 \times 11 + 10 \times 1
+              = 5324 + 847 + 33 + 10
+              = 6214_{10}
+   \]
+
+2. Convert \( 284A1_{11} \) to base 10:
+   \[
+   284A1_{11} = 2 \times 11^4 + 8 \times 11^3 + 4 \times 11^2 + A \times 11^1 + 1 \times 11^0
+   \]
+   Again, \( A \) represents 10 in base 11:
+   \[
+   284A1_{11} = 2 \times 14641 + 8 \times 1331 + 4 \times 121 + 10 \times 11 + 1 \times 1
+               = 29282 + 10648 + 484 + 110 + 1
+               = 40525_{10}
+   \]
+
+3. Subtract the two numbers in base 10:
+   \[
+   6214_{10} - 40525_{10} = -34311_{10}
+   \]
+
+Summarizing the steps:
+\[
+473A_{11} - 284A1_{11} = 6214_{10} - 40525_{10} = -34311_{10}
+\]

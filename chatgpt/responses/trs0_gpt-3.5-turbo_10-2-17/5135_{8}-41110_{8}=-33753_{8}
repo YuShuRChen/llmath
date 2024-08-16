@@ -1,0 +1,7 @@
+To subtract these two numbers, we can first convert them to decimal:
+$5\times8^{0}+3\times8^{1}+1\times8^{2}+5\times8^{3} - 4\times8^{0} - 1\times8^{1} - 1\times8^{2} - 1\times8^{3} - 0\times8^{4} = 261 - 33 = 228_{10}$
+
+Converting the result back to base 8:
+$228_{10} = 3\times8^{0} + 5\times8^{1} = 354_{8}$
+
+Therefore, $5135_{8}-41110_{8}=354_{8}$.

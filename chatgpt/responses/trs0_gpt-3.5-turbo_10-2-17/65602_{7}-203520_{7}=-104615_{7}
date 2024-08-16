@@ -1,0 +1,26 @@
+To compute \(65602_7 - 203520_7\), we can align the numbers and perform the subtraction in base 7:
+
+\[
+\begin{array}{r}
+\phantom{0}65602_7 \\
+- \phantom{0}203520_7 \\
+\hline
+\end{array}
+\]
+
+Carrying out the subtraction:
+
+\[
+\begin{array}{r}
+\phantom{0}65602_7 \\
+- \phantom{0}203520_7 \\
+\hline
+\phantom{0}45202_7 \\
+\end{array}
+\]
+
+Therefore, \(65602_7 - 203520_7 = 45202_7\).
+
+\[
+65602_{7} - 203520_{7} = 45202_{7}
+\]

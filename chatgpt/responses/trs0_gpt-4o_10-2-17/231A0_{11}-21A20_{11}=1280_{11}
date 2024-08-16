@@ -1,0 +1,55 @@
+Let's convert the numbers from base 11 to base 10 first.
+
+Starting with \( 231A0_{11} \):
+
+Break it down by each place value:
+- \( 0 \times 11^0 = 0 \)
+- \( A \times 11^1 = 10 \times 11 = 110 \)
+- \( 1 \times 11^2 = 1 \times 121 = 121 \)
+- \( 3 \times 11^3 = 3 \times 1331 = 3993 \)
+- \( 2 \times 11^4 = 2 \times 14641 = 29282 \)
+
+Now, add them together:
+\[ 0 + 110 + 121 + 3993 + 29282 = 33506 \]
+
+So, \( 231A0_{11} = 33506_{10} \).
+
+Next, convert \( 21A20_{11} \):
+
+Break it down by each place value:
+- \( 0 \times 11^0 = 0 \)
+- \( 2 \times 11^1 = 2 \times 11 = 22 \)
+- \( A \times 11^2 = 10 \times 121 = 1210 \)
+- \( 1 \times 11^3 = 1 \times 1331 = 1331 \)
+- \( 2 \times 11^4 = 2 \times 14641 = 29282 \)
+
+Now, add them together:
+\[ 0 + 22 + 1210 + 1331 + 29282 = 31845 \]
+
+So, \( 21A20_{11} = 31845_{10} \).
+
+Now, perform the subtraction in base 10:
+\[ 33506 - 31845 = 1661 \]
+
+Finally, let's convert the result back to base 11 to match the original format if needed.
+
+Divide 1661 by 11:
+\[ 1661 \div 11 = 151 \, \text{remainder} \, 0 \]
+
+Divide 151 by 11:
+\[ 151 \div 11 = 13 \, \text{remainder} \, 8 \]
+
+Divide 13 by 11:
+\[ 13 \div 11 = 1 \, \text{remainder} \, 2 \]
+
+Divide 1 by 11:
+\[ 1 \div 11 = 0 \, \text{remainder} \, 1 \]
+
+Thus, reading the remainders from last to first gives us \( 12680_{11} \).
+
+So, the answer to the original equation is:
+
+\[ 231A0_{11} - 21A20_{11} = 1661_{10} \Rightarrow 12680_{11} \]
+
+Summarized:
+\[ 231A0_{11} - 21A20_{11} = 33506_{10} - 31845_{10} = 1661_{10} = 12680_{11} \]

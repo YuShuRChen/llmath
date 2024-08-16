@@ -1,0 +1,56 @@
+To solve the multiplication of two hexadecimal numbers, we need to convert them to decimal, perform the multiplication, and then convert the result back to hexadecimal.
+
+First, let's convert \(4021_{16}\) and \(8856_{16}\) to decimal.
+
+For \(4021_{16}\):
+\[
+4 \times 16^3 + 0 \times 16^2 + 2 \times 16^1 + 1 \times 16^0 = 4 \times 4096 + 0 \times 256 + 2 \times 16 + 1 \times 1 = 16384 + 0 + 32 + 1 = 16417_{10}
+\]
+
+For \(8856_{16}\):
+\[
+8 \times 16^3 + 8 \times 16^2 + 5 \times 16^1 + 6 \times 16^0 = 8 \times 4096 + 8 \times 256 + 5 \times 16 + 6 \times 1 = 32768 + 2048 + 80 + 6 = 34902_{10}
+\]
+
+Next, we multiply the decimal equivalents:
+\[
+16417 \times 34902 = 572865234
+\]
+
+Finally, convert the result \(572865234_{10}\) back to hexadecimal:
+\[
+572865234 \div 16 = 35804077\text{ remainder }10 \rightarrow A
+\]
+\[
+35804077 \div 16 = 2237754\text{ remainder }13 \rightarrow D
+\]
+\[
+2237754 \div 16 = 139859\text{ remainder }10 \rightarrow A
+\]
+\[
+139859 \div 16 = 8737\text{ remainder }15 \rightarrow F
+\]
+\[
+8737 \div 16 = 546\text{ remainder }1 \rightarrow 1
+\]
+\[
+546 \div 16 = 34\text{ remainder }2 \rightarrow 2
+\]
+\[
+34 \div 16 = 2\text{ remainder }2 \rightarrow 2
+\]
+\[
+2 \div 16 = 0\text{ remainder }2 \rightarrow 2
+\]
+
+Reading the remainders from bottom to top, the hexadecimal representation of \(572865234_{10}\) is \(222AFDA_{16}\).
+
+Therefore, the final result is:
+\[
+4021_{16} \times 8856_{16} = 222AFDA_{16}
+\]
+
+So, the summarized response is:
+\[
+4021_{16} * 8856_{16} \rightarrow 16417_{10} * 34902_{10} = 572865234_{10} \rightarrow 222AFDA_{16}
+\]

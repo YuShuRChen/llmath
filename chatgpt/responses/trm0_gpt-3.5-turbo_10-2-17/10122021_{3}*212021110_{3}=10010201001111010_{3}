@@ -1,0 +1,14 @@
+To multiply two numbers in base 3, we can convert them to base 10, perform the multiplication, and then convert the result back to base 3.
+
+Convert 10122021_{3} to base 10: 
+1*3^7 + 0*3^6 + 1*3^5 + 2*3^4 + 2*3^3 + 0*3^2 + 2*3^1 + 1*3^0 = 3^7 + 3^5 + 2*3^4 + 2*3^3 + 2*3^1 + 3^0 = 21870
+
+Convert 212021110_{3} to base 10: 
+2*3^8 + 1*3^7 + 2*3^6 + 0*3^5 + 2*3^4 + 1*3^3 + 1*3^1 + 0*3^0 = 2*3^8 + 3^7 + 2*3^6 + 2*3^4 + 3^3 + 3 + 1 = 75808
+
+Multiply 21870 * 75808 = 1657948960
+
+Convert 1657948960 to base 3: 
+Performing division by 3 repeatedly, we get the result as 101221001212101212110100_{3}
+
+Therefore, 10122021_{3} * 212021110_{3} = 101221001212101212110100_{3}

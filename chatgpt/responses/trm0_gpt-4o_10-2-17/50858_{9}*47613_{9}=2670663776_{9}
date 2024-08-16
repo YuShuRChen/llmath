@@ -1,0 +1,70 @@
+To compute the product of two numbers in base 9, it is helpful to first convert each number to base 10, perform the multiplication, and then convert the result back to base 9.
+
+### Step 1: Convert from base 9 to base 10
+
+First, let’s convert \(50858_9\) to base 10.
+
+\[ 50858_9 = 5 \cdot 9^4 + 0 \cdot 9^3 + 8 \cdot 9^2 + 5 \cdot 9^1 + 8 \cdot 9^0 \]
+
+Calculating each term:
+
+\[ 5 \cdot 9^4 = 5 \cdot 6561 = 32805 \]
+\[ 0 \cdot 9^3 = 0 \cdot 729 = 0 \]
+\[ 8 \cdot 9^2 = 8 \cdot 81 = 648 \]
+\[ 5 \cdot 9^1 = 5 \cdot 9 = 45 \]
+\[ 8 \cdot 9^0 = 8 \cdot 1 = 8 \]
+
+Adding these up:
+
+\[ 50858_9 = 32805 + 0 + 648 + 45 + 8 = 33506_{10} \]
+
+Next, let’s convert \(47613_9\) to base 10.
+
+\[ 47613_9 = 4 \cdot 9^4 + 7 \cdot 9^3 + 6 \cdot 9^2 + 1 \cdot 9^1 + 3 \cdot 9^0 \]
+
+Calculating each term:
+
+\[ 4 \cdot 9^4 = 4 \cdot 6561 = 26244 \]
+\[ 7 \cdot 9^3 = 7 \cdot 729 = 5103 \]
+\[ 6 \cdot 9^2 = 6 \cdot 81 = 486 \]
+\[ 1 \cdot 9^1 = 1 \cdot 9 = 9 \]
+\[ 3 \cdot 9^0 = 3 \cdot 1 = 3 \]
+
+Adding these up:
+
+\[ 47613_9 = 26244 + 5103 + 486 + 9 + 3 = 31845_{10} \]
+
+### Step 2: Multiply the base 10 numbers
+
+Next, we multiply these two base 10 numbers:
+
+\[ 33506_{10} \times 31845_{10} \]
+\[ = 1067383770_{10} \]
+
+### Step 3: Convert the result back to base 9
+
+To convert \(1067383770_{10}\) to base 9, we repeatedly divide by 9 and record the remainders.
+
+1. \( 1067383770 \div 9 = 118598196 \) remainder \(6\)
+2. \( 118598196 \div 9 = 13177577 \) remainder \(3\)
+3. \( 13177577 \div 9 = 1464175 \) remainder \(2\)
+4. \( 1464175 \div 9 = 162686 \) remainder \(1\)
+5. \( 162686 \div 9 = 18076 \) remainder \(2\)
+6. \( 18076 \div 9 = 2008 \) remainder \(4\)
+7. \( 2008 \div 9 = 223 \) remainder \(1\)
+8. \( 223 \div 9 = 24 \) remainder \(7\)
+9. \( 24 \div 9 = 2 \) remainder \(6\)
+10. \( 2 \div 9 = 0 \) remainder \(2\)
+
+Reading the remainders from bottom to top:
+
+\[ 1067383770_{10} = 2671423626_9 \]
+
+So, the final product is:
+
+\[ 50858_{9} \times 47613_{9} = 2671423626_{9} \]
+
+### Summary:
+\[ 50858_9 = 33506_{10}, 47613_9 = 31845_{10}, 33506_{10} \times 31845_{10} = 1067383770_{10}, 1067383770_{10} = 2671423626_9 \]
+Thus,
+\[ 50858_9 \times 47613_9 = 2671423626_9 \]

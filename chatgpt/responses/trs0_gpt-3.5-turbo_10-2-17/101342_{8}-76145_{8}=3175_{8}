@@ -1,0 +1,15 @@
+First, we need to align the numbers to subtract them:
+```
+  101342
+-  76145
+--------
+```
+
+Converting both numbers to base 10:
+- $101342_8 = 1*8^5 + 0*8^4 + 1*8^3 + 3*8^2 + 4*8^1 + 2*8^0 = 42560$.
+- $76145_8 = 7*8^4 + 6*8^3 + 1*8^2 + 4*8^1 + 5*8^0 = 31781$.
+
+Therefore, subtracting $42560 - 31781 = 10779$.
+
+The final result is $10779_{10}$. 
+Therefore, $101342_{8}-76145_{8}=10779_{10}$.

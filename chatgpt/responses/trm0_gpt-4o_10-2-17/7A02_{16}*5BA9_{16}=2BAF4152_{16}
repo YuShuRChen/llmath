@@ -1,0 +1,31 @@
+To compute the product of \(7A02_{16}\) and \(5BA9_{16}\), we will first convert these hexadecimal numbers to their decimal equivalents.
+
+1. Convert \(7A02_{16}\) to decimal:
+    - \(7A02_{16} = 7 \times 16^3 + 10 \times 16^2 + 0 \times 16^1 + 2 \times 16^0\)
+    - \(7 \times 16^3 = 7 \times 4096 = 28672\)
+    - \(10 \times 16^2 = 10 \times 256 = 2560\)
+    - \(0 \times 16^1 = 0\)
+    - \(2 \times 16^0 = 2\)
+    - Adding these values together: \(28672 + 2560 + 0 + 2 = 31234\)
+
+2. Convert \(5BA9_{16}\) to decimal:
+    - \(5BA9_{16} = 5 \times 16^3 + 11 \times 16^2 + 10 \times 16^1 + 9 \times 16^0\)
+    - \(5 \times 16^3 = 5 \times 4096 = 20480\)
+    - \(11 \times 16^2 = 11 \times 256 = 2816\)
+    - \(10 \times 16^1 = 10 \times 16 = 160\)
+    - \(9 \times 16^0 = 9\)
+    - Adding these values together: \(20480 + 2816 + 160 + 9 = 23465\)
+
+3. Multiply the two decimal numbers:
+    \[
+    31234 \times 23465 = 732637610
+    \]
+
+4. Convert the product back to hexadecimal:
+    \[
+    732637610_{10} = 2BA6C1CA_{16}
+    \]
+
+Summary: \(7A02_{16} \times 5BA9_{16} = 31234_{10} \times 23465_{10} = 732637610_{10} = 2BA6C1CA_{16}\)
+
+So, the result of \(7A02_{16} \times 5BA9_{16}\) is \(2BA6C1CA_{16}\).

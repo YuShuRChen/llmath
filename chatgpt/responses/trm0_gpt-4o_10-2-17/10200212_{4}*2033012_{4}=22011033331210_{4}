@@ -1,0 +1,153 @@
+To solve the given equation \(10200212_4 \times 2033012_4\), let's follow these steps:
+
+1. Convert both numbers from base 4 to base 10.
+2. Perform the multiplication in base 10.
+3. Convert the result back to base 4.
+
+### Step 1: Convert \(10200212_4\) to base 10
+Let's expand the number \(10200212_4\) in base 4:
+\[
+10200212_4 = 1 \times 4^7 + 0 \times 4^6 + 2 \times 4^5 + 0 \times 4^4 + 0 \times 4^3 + 2 \times 4^2 + 1 \times 4^1 + 2 \times 4^0
+\]
+Calculating each power of 4 and their products:
+\[
+4^7 = 16384, \quad 4^6 = 4096, \quad 4^5 = 1024, \quad 4^4 = 256, \quad 4^3 = 64, \quad 4^2 = 16, \quad 4^1 = 4, \quad 4^0 = 1
+\]
+Now, putting those values into the expanded expression:
+\[
+1 \times 16384 + 0 \times 4096 + 2 \times 1024 + 0 \times 256 + 0 \times 64 + 2 \times 16 + 1 \times 4 + 2 \times 1
+\]
+Calculate each term:
+\[
+1 \times 16384 = 16384
+\]
+\[
+0 \times 4096 = 0
+\]
+\[
+2 \times 1024 = 2048
+\]
+\[
+0 \times 256 = 0
+\]
+\[
+0 \times 64 = 0
+\]
+\[
+2 \times 16 = 32
+\]
+\[
+1 \times 4 = 4
+\]
+\[
+2 \times 1 = 2
+\]
+Summing these results:
+\[
+16384 + 0 + 2048 + 0 + 0 + 32 + 4 + 2 = 18470
+\]
+\[
+10200212_4 = 18470_{10}
+\]
+
+### Step 2: Convert \(2033012_4\) to base 10
+Let's expand the number \(2033012_4\) in base 4:
+\[
+2033012_4 = 2 \times 4^6 + 0 \times 4^5 + 3 \times 4^4 + 3 \times 4^3 + 0 \times 4^2 + 1 \times 4^1 + 2 \times 4^0
+\]
+Calculating each power of 4 and their products:
+\[
+4^6 = 4096, \quad 4^5 = 1024, \quad 4^4 = 256, \quad 4^3 = 64, \quad 4^2 = 16, \quad 4^1 = 4, \quad 4^0 = 1
+\]
+Putting those values into the expanded expression:
+\[
+2 \times 4096 + 0 \times 1024 + 3 \times 256 + 3 \times 64 + 0 \times 16 + 1 \times 4 + 2 \times 1
+\]
+Calculate each term:
+\[
+2 \times 4096 = 8192
+\]
+\[
+0 \times 1024 = 0
+\]
+\[
+3 \times 256 = 768
+\]
+\[
+3 \times 64 = 192
+\]
+\[
+0 \times 16 = 0
+\]
+\[
+1 \times 4 = 4
+\]
+\[
+2 \times 1 = 2
+\]
+Summing these results:
+\[
+8192 + 0 + 768 + 192 + 0 + 4 + 2 = 9158
+\]
+\[
+2033012_4 = 9158_{10}
+\]
+
+### Step 3: Multiply these two base 10 numbers
+\[
+18470_{10} \times 9158_{10} = 169071860
+\]
+
+### Step 4: Convert \(169071860_{10}\) back to base 4
+To convert from base 10 to base 4, repeatedly divide by 4 and track the remainders:
+\[
+169071860 \div 4 = 42267965 \, \text{remainder} \, 0
+\]
+\[
+42267965 \div 4 = 10566991 \, \text{remainder} \, 1
+\]
+\[
+10566991 \div 4 = 2641747 \, \text{remainder} \, 3
+\]
+\[
+2641747 \div 4 = 660436 \, \text{remainder} \, 3
+\]
+\[
+660436 \div 4 = 165109 \, \text{remainder} \, 0
+\]
+\[
+165109 \div 4 = 41277 \, \text{remainder} \, 1
+\]
+\[
+41277 \div 4 = 10319 \, \text{remainder} \, 1
+\]
+\[
+10319 \div 4 = 2579 \, \text{remainder} \, 3
+\]
+\[
+2579 \div 4 = 644 \, \text{remainder} \, 3
+\]
+\[
+644 \div 4 = 161 \, \text{remainder} \, 0
+\]
+\[
+161 \div 4 = 40 \, \text{remainder} \, 1
+\]
+\[
+40 \div 4 = 10 \, \text{remainder} \, 0
+\]
+\[
+10 \div 4 = 2 \, \text{remainder} \, 2
+\]
+\]
+2 \div 4 = 0 \, \text{remainder} \, 2
+\]
+Reading the remainders from bottom to top, the number in base 4 is:
+\[
+169071860_{10} = 220311310303100_{4}
+\] 
+
+Finally, summarize:
+\[
+10200212_{4} \times 2033012_{4} = 18470_{10} \times 9158_{10} = 169071860_{10} = 220311310303100_{4}
+\]

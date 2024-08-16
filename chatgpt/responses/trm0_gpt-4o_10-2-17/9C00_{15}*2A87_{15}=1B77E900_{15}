@@ -1,0 +1,36 @@
+First, let's convert 9C00_{15} and 2A87_{15} from base-15 to base-10.
+
+To convert 9C00_{15} to base-10:
+9C00_{15} = 9 * 15^3 + 12 * 15^2 + 0 * 15^1 + 0 * 15^0
+           = 9 * 3375 + 12 * 225 + 0 + 0
+           = 30375 + 2700 + 0 + 0
+           = 33075_{10}
+
+To convert 2A87_{15} to base-10:
+2A87_{15} = 2 * 15^3 + 10 * 15^2 + 8 * 15^1 + 7 * 15^0
+           = 2 * 3375 + 10 * 225 + 8 * 15 + 7 * 1
+           = 6750 + 2250 + 120 + 7
+           = 10027_{10}
+
+Next, multiply the two base-10 numbers:
+33075_{10} * 10027_{10} = 331104025_{10}
+
+Now, let's convert 331104025_{10} back to base-15. To do this, we perform repeated division by 15 and track the remainders.
+
+\[ 331104025 ÷ 15 = 22073601 \text{ remainder } 10 \]
+\[ 22073601 ÷ 15 = 1471573 \text{ remainder } 6 \]
+\[ 1471573 ÷ 15 = 98104 \text{ remainder } 13 \]
+\[ 98104 ÷ 15 = 6540 \text{ remainder } 4 \]
+\[ 6540 ÷ 15 = 436 \text{ remainder } 0 \]
+\[ 436 ÷ 15 = 29 \text{ remainder } 1 \]
+\[ 29 ÷ 15 = 1 \text{ remainder } 14 \]
+\[ 1 ÷ 15 = 0 \text{ remainder } 1 \]
+
+Reading the remainders from bottom to top, we get: 1E1046A_{15}
+
+Thus, the product of 9C00_{15} and 2A87_{15} is 1E1046A_{15}.
+
+So, the equation 9C00_{15} * 2A87_{15} = 1E1046A_{15}.
+
+Therefore:
+\[ 9C00_{15} \times 2A87_{15} = 33075_{10} \times 10027_{10} = 331104025_{10} = 1E1046A_{15} \]

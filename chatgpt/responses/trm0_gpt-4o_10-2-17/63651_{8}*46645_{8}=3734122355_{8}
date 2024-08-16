@@ -1,0 +1,65 @@
+To perform the multiplication of two octal (base-8) numbers, it is often easier to convert them to decimal (base-10), execute the multiplication, and then convert the result back to octal.
+
+### Step-by-Step Process:
+1. Convert \(63651_{8}\) to decimal:
+\[63651_8 = 6 \times 8^4 + 3 \times 8^3 + 6 \times 8^2 + 5 \times 8^1 + 1 \times 8^0\]
+
+First, calculate the powers of 8:
+\[8^4 = 4096\]
+\[8^3 = 512\]
+\[8^2 = 64\]
+\[8^1 = 8\]
+\[8^0 = 1\]
+
+Then, compute each term:
+\[6 \times 4096 = 24576\]
+\[3 \times 512 = 1536\]
+\[6 \times 64 = 384\]
+\[5 \times 8 = 40\]
+\[1 \times 1 = 1\]
+
+Summing these terms:
+\[24576 + 1536 + 384 + 40 + 1 = 26537_{10}\]
+
+2. Convert \(46645_{8}\) to decimal:
+\[46645_8 = 4 \times 8^4 + 6 \times 8^3 + 6 \times 8^2 + 4 \times 8^1 + 5 \times 8^0\]
+
+Using previously computed powers of 8:
+\[4 \times 4096 = 16384\]
+\[6 \times 512 = 3072\]
+\[6 \times 64 = 384\]
+\[4 \times 8 = 32\]
+\[5 \times 1 = 5\]
+
+Summing these terms:
+\[16384 + 3072 + 384 + 32 + 5 = 19877_{10}\]
+
+3. Multiply these two decimal values:
+\[26537_{10} \times 19877_{10} = 527566849\]
+
+4. Convert the resulting decimal value back to octal:
+To convert \(527566849_{10}\) to octal, divide by 8 and record the remainders:
+\[527566849 \div 8 = 65945856, \text{ remainder } 1\]
+\[65945856 \div 8 = 8243232, \text{ remainder } 0\]
+\[8243232 \div 8 = 1030404, \text{ remainder } 0\]
+\[1030404 \div 8 = 128800, \text{ remainder } 4\]
+\[128800 \div 8 = 16100, \text{ remainder } 0\]
+\[16100 \div 8 = 2012, \text{ remainder } 4\]
+\[2012 \div 8 = 251, \text{ remainder } 4\]
+\[251 \div 8 = 31, \text{ remainder } 3\]
+\[31 \div 8 = 3, \text{ remainder } 7\]
+\[3 \div 8 = 0, \text{ remainder } 3\]
+
+Reading the remainders in reverse order gives the octal result: \(370440041_{8}\)
+
+### Summary
+\[63651_{8} \rightarrow 26537_{10}\]
+\[46645_{8} \rightarrow 19877_{10}\]
+\[26537_{10} \times 19877_{10} = 527566849_{10}\]
+\[527566849_{10} \rightarrow 370440041_{8}\]
+
+Therefore:
+\[63651_{8} * 46645_{8} = 370440041_{8}\]
+
+Final result summary: 
+\[63651_{8} \times 46645_{8} = 370440041_{8}\]

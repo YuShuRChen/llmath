@@ -1,0 +1,11 @@
+First, we need to convert the hexadecimal numbers to base 10:
+$7A02_{16} = 7*16^3 + 10*16^2 + 0*16 + 2 = 31362_{10}$
+$5BA9_{16} = 5*16^3 + 11*16^2 + 10*16 + 9 = 23465_{10}$
+
+Subtracting them in base 10:
+$31362_{10} - 23465_{10} = 7897_{10}$
+
+Converting the result back to hexadecimal:
+$7897_{10} = 1E79_{16}$
+
+Therefore, 7A02_{16}-5BA9_{16}=1E79_{16}.

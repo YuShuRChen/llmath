@@ -1,0 +1,44 @@
+To compute the product \(1452C_{13} \times 6692_{13}\), we first need to convert each number from base-13 to base-10.
+
+### Step 1: Convert \(1452C_{13}\) to base-10
+\[ 1452C_{13} \]
+= \(1 \times 13^5 + 4 \times 13^4 + 5 \times 13^3 + 2 \times 13^2 + 12 \times 13^1\) (Note: \(C\) is 12 in base-10)
+
+Calculate each term:
+\[ 1 \times 13^5 =  1 \times 371293 = 371293 \]
+\[ 4 \times 13^4 =  4 \times 28561 = 114244 \]
+\[ 5 \times 13^3 =  5 \times 2197 = 10985 \]
+\[ 2 \times 13^2 =  2 \times 169 = 338 \]
+\[ 12 \times 13^1 =  12 \times 13 = 156 \]
+
+Sum these values:
+\[ 371293 + 114244 + 10985 + 338 + 156 = 496016 \]
+
+So, 
+\[ 1452C_{13} = 496016_{10} \]
+
+### Step 2: Convert \(6692_{13}\) to base-10
+\[ 6692_{13} \]
+\[ = 6 \times 13^3 + 6 \times 13^2 + 9 \times 13^1 + 2 \times 13^0 \]
+
+Calculate each term:
+\[ 6 \times 13^3 = 6 \times 2197 = 13182 \]
+\[ 6 \times 13^2 = 6 \times 169 = 1014 \]
+\[ 9 \times 13^1 = 9 \times 13 = 117 \]
+\[ 2 \times 13^0 = 2 \times 1 = 2 \]
+
+Sum these values:
+\[ 13182 + 1014 + 117 + 2 = 14315 \]
+
+So, 
+\[ 6692_{13} = 14315_{10} \]
+
+### Step 3: Multiply the two base-10 numbers
+\[ 496016_{10} \times 14315_{10} = 7100803440_{10} \]
+
+### Step 4: Summarize
+\[ 1452C_{13} = 496016_{10} \]
+\[ 6692_{13} = 14315_{10} \]
+\[ 1452C_{13} \times 6692_{13} = 496016_{10} \times 14315_{10} = 7100803440_{10} \]
+
+So, \( 1452C_{13} \times 6692_{13} = 7100803440_{10} \)

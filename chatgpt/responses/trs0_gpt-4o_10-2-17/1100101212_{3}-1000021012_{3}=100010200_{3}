@@ -1,0 +1,87 @@
+To solve the given equation \(1100101212_{3} - 1000021012_{3}\), we begin by converting the base-3 numbers to base-10. 
+
+Starting with \(1100101212_{3}\):
+
+\[
+1100101212_{3} = 1 \cdot 3^{9} + 1 \cdot 3^{8} + 0 \cdot 3^{7} + 0 \cdot 3^{6} + 1 \cdot 3^{5} + 0 \cdot 3^{4} + 1 \cdot 3^{3} + 2 \cdot 3^{2} + 1 \cdot 3^{1} + 2 \cdot 3^{0}
+\]
+
+Calculating the powers of 3 involved:
+
+\[
+3^{9} = 19683, \quad 3^{8} = 6561, \quad 3^{7} = 2187, \quad 3^{6} = 729, \quad 3^{5} = 243, \quad 3^{4} = 81, \quad 3^{3} = 27, \quad 3^{2} = 9, \quad 3^{1} = 3, \quad 3^{0} = 1
+\]
+
+Substituting these values into the equation:
+
+\[
+1100101212_{3} = 1 \cdot 19683 + 1 \cdot 6561 + 0 \cdot 2187 + 0 \cdot 729 + 1 \cdot 243 + 0 \cdot 81 + 1 \cdot 27 + 2 \cdot 9 + 1 \cdot 3 + 2 \cdot 1
+\]
+
+Simplifying:
+
+\[
+= 19683 + 6561 + 0 + 0 + 243 + 0 + 27 + 18 + 3 + 2 = 26537
+\]
+
+Now, converting \(1000021012_{3}\):
+
+\[
+1000021012_{3} = 1 \cdot 3^{9} + 0 \cdot 3^{8} + 0 \cdot 3^{7} + 0 \cdot 3^{6} + 0 \cdot 3^{5} + 2 \cdot 3^{4} + 1 \cdot 3^{3} + 0 \cdot 3^{2} + 1 \cdot 3^{1} + 2 \cdot 3^{0}
+\]
+
+Substituting the powers of 3:
+
+\[
+1000021012_{3} = 1 \cdot 19683 + 0 \cdot 6561 + 0 \cdot 2187 + 0 \cdot 729 + 0 \cdot 243 + 2 \cdot 81 + 1 \cdot 27 + 0 \cdot 9 + 1 \cdot 3 + 2 \cdot 1
+\]
+
+Simplifying:
+
+\[
+= 19683 + 0 + 0 + 0 + 0 + 162 + 27 + 0 + 3 + 2 = 19877
+\]
+
+Now, we perform the subtraction of the two base-10 equivalents:
+
+\[
+26537 - 19877 = 6660
+\]
+
+Finally, we convert 6660 back to base-3. Repeatedly dividing by 3:
+
+\[
+6660 \div 3 = 2220 \quad \text{remainder} \quad 0
+\]
+\[
+2220 \div 3 = 740 \quad \text{remainder} \quad 0
+\]
+\[
+740 \div 3 = 246 \quad \text{remainder} \quad 2
+\]
+\[
+246 \div 3 = 82 \quad \text{remainder} \quad 0
+\]
+\[
+82 \div 3 = 27 \quad \text{remainder} \quad 1
+\]
+\[
+27 \div 3 = 9 \quad \text{remainder} \quad 0
+\]
+\[
+9 \div 3 = 3 \quad \text{remainder} \quad 0
+\]
+\[
+3 \div 3 = 1 \quad \text{remainder} \quad 0
+\]
+\[
+1 \div 3 = 0 \quad \text{remainder} \quad 1
+\]
+
+Reading the remainders from bottom to top, \(6660_{10} = 100010200_{3}\).
+
+Summarizing everything:
+
+\[
+1100101212_{3} - 1000021012_{3} = 26537_{10} - 19877_{10} = 6660_{10} = 100010200_{3}
+\]

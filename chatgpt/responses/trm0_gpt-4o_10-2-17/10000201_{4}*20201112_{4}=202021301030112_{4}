@@ -1,0 +1,93 @@
+To compute \(10000201_{4} \times 20201112_{4}\), we first convert these base-4 numbers to base-10, perform the multiplication in base-10, and then convert the result back to base-4.
+
+1. Convert \(10000201_{4}\) to base-10:
+   \[
+   10000201_{4} = 1 \cdot 4^7 + 0 \cdot 4^6 + 0 \cdot 4^5 + 0 \cdot 4^4 + 0 \cdot 4^3 + 2 \cdot 4^2 + 0 \cdot 4^1 + 1 \cdot 4^0
+   \]
+   \[
+   = 1 \cdot 16384 + 0 + 0 + 0 + 0 + 2 \cdot 16 + 0 + 1
+   \]
+   \[
+   = 16384 + 0 + 0 + 0 + 0 + 32 + 0 + 1
+   \]
+   \[
+   = 16417
+   \]
+
+2. Convert \(20201112_{4}\) to base-10:
+   \[
+   20201112_{4} = 2 \cdot 4^7 + 0 \cdot 4^6 + 2 \cdot 4^5 + 0 \cdot 4^4 + 1 \cdot 4^3 + 1 \cdot 4^2 + 1 \cdot 4^1 + 2 \cdot 4^0
+   \]
+   \[
+   = 2 \cdot 16384 + 0 + 2 \cdot 1024 + 0 + 1 \cdot 64 + 1 \cdot 16 + 1 \cdot 4 + 2
+   \]
+   \[
+   = 32768 + 0 + 2048 + 0 + 64 + 16 + 4 + 2
+   \]
+   \[
+   = 34902
+   \]
+
+3. Multiply the base-10 equivalents:
+   \[
+   16417 \times 34902 = 572968734
+   \]
+
+4. Convert the result \(572968734_{10}\) back to base-4:
+   \[
+   572968734 \div 4 = 143242183 \quad \text{remainder } 2
+   \]
+   \[
+   143242183 \div 4 = 35810545 \quad \text{remainder } 3
+   \]
+   \[
+   35810545 \div 4 = 8952636 \quad \text{remainder } 1
+   \]
+   \[
+   8952636 \div 4 = 2238159 \quad \text{remainder } 0
+   \]
+   \[
+   2238159 \div 4 = 559539 \quad \text{remainder } 3
+   \]
+   \[
+   559539 \div 4 = 139884 \quad \text{remainder } 3
+   \]
+   \[
+   139884 \div 4 = 34971 \quad \text{remainder } 0
+   \]
+   \[
+   34971 \div 4 = 8742 \quad \text{remainder } 3
+   \]
+   \[
+   8742 \div 4 = 2185 \quad \text{remainder } 2
+   \]
+   \[
+   2185 \div 4 = 546 \quad \text{remainder } 1
+   \]
+   \[
+   546 \div 4 = 136 \quad \text{remainder } 2
+   \]
+   \[
+   136 \div 4 = 34 \quad \text{remainder } 0
+   \]
+   \[
+   34 \div 4 = 8 \quad \text{remainder } 2
+   \]
+   \[
+   8 \div 4 = 2 \quad \text{remainder } 0
+   \]
+   \[
+   2 \div 4 = 0 \quad \text{remainder } 2
+   \]
+
+Reading the remainders backward:
+   \[
+   572968734_{10} = 2032102330132_{4}
+   \]
+
+So the final computation is:
+   \[
+   10000201_{4} \times 20201112_{4} = 2032102330132_{4}
+   \]
+
+Summary: \(10000201_{4} \times 20201112_{4} = 16417_{10} \times 34902_{10} = 572968734_{10} = 2032102330132_{4}\)

@@ -1,0 +1,50 @@
+First, we need to convert both numbers from base-11 to base-10.
+
+For 11375_{11}:
+\[
+1 \cdot 11^4 + 1 \cdot 11^3 + 3 \cdot 11^2 + 7 \cdot 11^1 + 5 \cdot 11^0
+\]
+Calculating each term:
+\[
+1 \cdot 14641 = 14641\\
+1 \cdot 1331 = 1331\\
+3 \cdot 121 = 363\\
+7 \cdot 11 = 77\\
+5 \cdot 1 = 5
+\]
+Now add them up:
+\[
+14641 + 1331 + 363 + 77 + 5 = 16417
+\]
+
+Next, for 2424A_{11}:
+\[
+2 \cdot 11^4 + 4 \cdot 11^3 + 2 \cdot 11^2 + 4 \cdot 11^1 + 10 \cdot 11^0
+\]
+Calculating each term:
+\[
+2 \cdot 14641 = 29282\\
+4 \cdot 1331 = 5324\\
+2 \cdot 121 = 242\\
+4 \cdot 11 = 44\\
+10 \cdot 1 = 10
+\]
+Now add them up:
+\[
+29282 + 5324 + 242 + 44 + 10 = 34902
+\]
+
+Now, multiply the two base-10 results:
+\[
+16417 \times 34902
+\]
+
+Performing the multiplication:
+\[
+16417 \times 34902 = 572946534
+\]
+
+Finally, summarize the conversion and multiplication steps:
+\[
+11375_{11} \times 2424A_{11} = 16417_{10} \times 34902_{10} = 572946534_{10}
+\]

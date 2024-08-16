@@ -1,0 +1,52 @@
+To compute the product of D77_{14} and 6280_{14}, we first need to convert these base-14 numbers to base-10.
+
+**Step 1: Converting D77_{14} to base-10**
+
+D77_{14} can be expressed as:
+\[ \text{D77}_{14} = D \times 14^2 + 7 \times 14^1 + 7 \times 14^0 \]
+
+Where D in base-14 is 13 in base-10.
+
+So,
+\[ 13 \times 196 + 7 \times 14 + 7 \times 1 \]
+\[ = 13 \times 196 + 7 \times 14 + 7 \]
+\[ = 2548 + 98 + 7 \]
+\[ = 2653_{10} \]
+
+**Step 2: Converting 6280_{14} to base-10**
+
+6280_{14} can be expressed as:
+\[ 6 \times 14^3 + 2 \times 14^2 + 8 \times 14^1 + 0 \times 14^0 \]
+
+So,
+\[ 6 \times 2744 + 2 \times 196 + 8 \times 14 + 0 \times 1 \]
+\[ = 16464 + 392 + 112 + 0 \]
+\[ = 16968_{10} \]
+
+**Step 3: Multiplying the numbers in base-10**
+
+Now, we multiply the two results obtained:
+\[ 2653_{10} \times 16968_{10} \]
+
+Calculating the product:
+\[ 2653 \times 16968 = 45033144 \]
+
+**Step 4: Converting the result back to base-14**
+
+To convert 45033144 from base-10 to base-14, we perform successive division by 14 and note the remainders:
+
+\[ 45033144 \div 14 = 3216653 \quad \text{remainder: 6} \]
+\[ 3216653 \div 14 = 229761 \quad \text{remainder: 9} \]
+\[ 229761 \div 14 = 16411 \quad \text{remainder: 7} \]
+\[ 16411 \div 14 = 1172 \quad \text{remainder: 3} \]
+\[ 1172 \div 14 = 83 \quad \text{remainder: 10} \]
+\[ 83 \div 14 = 5 \quad \text{remainder: 13 (D)} \]
+\[ 5 \div 14 = 0 \quad \text{remainder: 5} \]
+
+Reading the remainders from bottom to top, 45033144_{10} is equivalent to 5D37A96_{14}.
+
+So, the product of D77_{14} * 6280_{14} is:
+\[ D77_{14} * 6280_{14} = 5D37A96_{14} \]
+
+In summary:  
+\[ D77_{14} (2653_{10}) * 6280_{14} (16968_{10}) = 45033144_{10} = 5D37A96_{14} \]

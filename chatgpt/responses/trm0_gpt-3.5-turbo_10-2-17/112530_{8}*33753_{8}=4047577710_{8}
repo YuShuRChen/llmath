@@ -1,0 +1,30 @@
+To compute \(112530_{8} \times 33753_{8}\), we start with:
+
+\[
+\begin{array}{r}
+\phantom{+}112530_{8} \\
+\times \phantom{0}33753_{8} \\
+\hline
+\end{array}
+\]
+
+\[
+\begin{array}{r}
+\phantom{+}   33753_{8} \times 0 \\
++   90024_{8} \times 3 \\
++  225060_{8} \times 5 \\
+\hline
+\end{array}
+\]
+
+\[
+\begin{array}{r}
+\phantom{+}   0000000_{8} \\
++  252072_{8}0 \\
++1004430_{8} \\
+\hline
+13535530_{8}
+\end{array}
+\]
+
+Therefore, \(112530_{8} \times 33753_{8} = 13535530_{8}\).

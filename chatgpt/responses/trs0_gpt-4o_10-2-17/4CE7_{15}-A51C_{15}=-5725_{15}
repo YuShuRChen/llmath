@@ -1,0 +1,26 @@
+To solve the equation \(4CE7_{15} - A51C_{15}\), we need to convert each number from base 15 to base 10, perform the subtraction, and if required, convert the result back to base 15.
+
+First, convert \(4CE7_{15}\) to base 10:
+\[ 4CE7_{15} = 4 \cdot 15^3 + C \cdot 15^2 + E \cdot 15 + 7 \]
+Here, \( C = 12 \) and \( E = 14 \):
+\[ = 4 \cdot 3375 + 12 \cdot 225 + 14 \cdot 15 + 7 \]
+\[ = 13500 + 2700 + 210 + 7 \]
+\[ = 16417 \]
+
+Next, convert \(A51C_{15}\) to base 10:
+\[ A51C_{15} = A \cdot 15^3 + 5 \cdot 15^2 + 1 \cdot 15 + C \]
+Here, \( A = 10 \) and \( C = 12 \):
+\[ = 10 \cdot 3375 + 5 \cdot 225 + 1 \cdot 15 + 12 \]
+\[ = 33750 + 1125 + 15 + 12 \]
+\[ = 34802 \]
+
+Now, perform the subtraction in base 10:
+\[ 16417 - 34802 = -18385 \]
+
+Since we have a negative result, it remains in base 10, as there is no defined representation for negative numbers in the specified base 15 notation.
+
+Thus, \(4CE7_{15} - A51C_{15} = -18385_{10}\).
+
+\[
+4CE7_{15} - A51C_{15} = 16417_{10} - 34802_{10} = -18385_{10}
+\]

@@ -1,0 +1,73 @@
+To compute the product of 165300₇ and 35416₇, we first need to convert both of them from base 7 to base 10, perform the multiplication in base 10, and then, if required, convert the result back to base 7.
+
+Let's start by converting 165300₇ to base 10.
+
+165300₇ = 1 * 7⁵ + 6 * 7⁴ + 5 * 7³ + 3 * 7² + 0 * 7¹ + 0 * 7⁰
+
+Calculating the powers of 7 we need:
+- 7⁰ = 1
+- 7¹ = 7
+- 7² = 49
+- 7³ = 343
+- 7⁴ = 2401
+- 7⁵ = 16807
+
+Now, substituting these values:
+1 * 16807 + 6 * 2401 + 5 * 343 + 3 * 49
+
+Calculate step-by-step:
+- 1 * 16807 = 16807
+- 6 * 2401 = 14406
+- 5 * 343 = 1715
+- 3 * 49 = 147
+
+Add them up:
+16807 + 14406 + 1715 + 147 = 33075
+
+So, 165300₇ is 33075₁₀.
+
+Next, let's convert 35416₇ to base 10.
+
+35416₇ = 3 * 7⁴ + 5 * 7³ + 4 * 7² + 1 * 7¹ + 6 * 7⁰
+
+Using the same powers of 7:
+- 3 * 2401 = 7203
+- 5 * 343 = 1715
+- 4 * 49 = 196
+- 1 * 7 = 7
+- 6 * 1 = 6
+
+Add them up:
+7203 + 1715 + 196 + 7 + 6 = 9127
+
+So, 35416₇ is 9127₁₀.
+
+Multiply the two base 10 numbers:
+33075 * 9127
+
+First, approximate the multiplication to ensure the next steps are in the right range:
+33075 * 9127 = 301,741,725 (intermediate step)
+
+Now, let’s perform precise multiplication:
+33075 * 9127 = 301,726,125
+
+Now we need to convert 301,726,125 (base 10) back to base 7. This involves repeated division by 7 and keeping track of the remainders:
+
+Let's perform the division:
+
+301726125 ÷ 7 = 43103732 remainder 1
+43103732 ÷ 7 = 6157676 remainder 0
+6157676 ÷ 7 = 879667 remainder 5
+879667 ÷ 7 = 125666 remainder 5
+125666 ÷ 7 = 17952 remainder 2
+17952 ÷ 7 = 2564 remainder 4
+2564 ÷ 7 = 366 remainder 2
+366 ÷ 7 = 52 remainder 2
+52 ÷ 7 = 7 remainder 3
+7 ÷ 7 = 1 remainder 0
+1 ÷ 7 = 0 remainder 1
+
+Reading the remainders from last to first, we get: 10322455201₇
+
+So, the final result is:
+165300₇ * 35416₇ = 10322455201₇

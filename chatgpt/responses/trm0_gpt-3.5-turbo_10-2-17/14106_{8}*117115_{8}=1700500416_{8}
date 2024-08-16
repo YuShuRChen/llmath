@@ -1,0 +1,13 @@
+To multiply the two octal numbers, we perform the operation as follows:
+
+\(14106_{8} \times 117115_{8} = (1 \times 8^4 + 4 \times 8^3 + 1 \times 8^2 + 0 \times 8 + 6) \times (1 \times 8^5 + 1 \times 8^4 + 7 \times 8^3 + 1 \times 8^2 + 5 \times 8 + 5)\)
+
+Expanding this out and performing the multiplication:
+
+\(14106_{8} \times 117115_{8} = 160000_{8} + 100000_{8} + 70000_{8} + 10000_{8} + 5000_{8} + 0\)
+
+Finally, adding these results together:
+
+\(14106_{8} \times 117115_{8} = 341106_{8}\)
+
+Therefore, \(14106_{8} \times 117115_{8} = 341106_{8}\)

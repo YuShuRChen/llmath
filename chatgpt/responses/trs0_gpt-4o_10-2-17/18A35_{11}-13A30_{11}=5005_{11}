@@ -1,0 +1,61 @@
+Let's break down the subtraction problem \(18A35_{11} - 13A30_{11}\) into steps.
+
+1. Convert the numbers from base 11 to base 10 to perform the subtraction more easily.
+  
+   First, we convert \(18A35_{11}\):
+   \[
+   18A35_{11} = 1 \cdot 11^4 + 8 \cdot 11^3 + 10 \cdot 11^2 + 3 \cdot 11^1 + 5 \cdot 11^0
+   \]
+   Simplify each term:
+   \[
+   = 1 \cdot 14641 + 8 \cdot 1331 + 10 \cdot 121 + 3 \cdot 11 + 5 \cdot 1
+   = 14641 + 10648 + 1210 + 33 + 5
+   = 26537_{10}
+   \]
+
+   Now, we convert \(13A30_{11}\):
+   \[
+   13A30_{11} = 1 \cdot 11^4 + 3 \cdot 11^3 + 10 \cdot 11^2 + 3 \cdot 11^1 + 0 \cdot 11^0
+   \]
+   Simplify each term:
+   \[
+   = 1 \cdot 14641 + 3 \cdot 1331 + 10 \cdot 121 + 3 \cdot 11 + 0 \cdot 1
+   = 14641 + 3993 + 1210 + 33 + 0
+   = 19877_{10}
+   \]
+
+2. Perform the subtraction in base 10:
+   \[
+   26537_{10} - 19877_{10} = 6650_{10}
+   \]
+
+3. Convert the result back to base 11:
+   We convert \(6650_{10}\) to base 11 by dividing the number by 11 and recording the remainders.
+   
+   Divide 6650 by 11:
+   \[
+   6650 \div 11 = 604 \quad \text{remainder} \; 6
+   \]
+   Divide 604 by 11:
+   \[
+   604 \div 11 = 54 \quad \text{remainder} \; 10 (A_{11})
+   \]
+   Divide 54 by 11:
+   \[
+   54 \div 11 = 4 \quad \text{remainder} \; 10 (A_{11})
+   \]
+   Divide 4 by 11:
+   \[
+   4 \div 11 = 0 \quad \text{remainder} \; 4
+   \]
+   
+   Putting the remainders together from last to first, we get:
+   \[
+   6650_{10} = 4AA6_{11}
+   \]
+
+Hence, the result of \(18A35_{11} - 13A30_{11}\) is \(4AA6_{11}\).
+
+\[
+18A35_{11} - 13A30_{11} = 18A35_{11} (26537_{10}) - 13A30_{11} (19877_{10}) = 6650_{10} = 4AA6_{11}
+\]

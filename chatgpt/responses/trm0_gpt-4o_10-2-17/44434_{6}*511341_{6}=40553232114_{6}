@@ -1,0 +1,111 @@
+To compute \(44434_6 \times 511341_6\), we first need to convert each number from base 6 to base 10.
+
+First, convert \(44434_6\) to base 10:
+\[4 \times 6^4 + 4 \times 6^3 + 4 \times 6^2 + 3 \times 6^1 + 4 \times 6^0\]
+
+Calculations:
+\[4 \times 1296 + 4 \times 216 + 4 \times 36 + 3 \times 6 + 4\]
+\[ = 5184 + 864 + 144 + 18 + 4\]
+\[ = 6214_{10}\]
+
+Next, convert \(511341_6\) to base 10:
+\[5 \times 6^5 + 1 \times 6^4 + 1 \times 6^3 + 3 \times 6^2 + 4 \times 6^1 + 1 \times 6^0\]
+
+Calculations:
+\[5 \times 7776 + 1 \times 1296 + 1 \times 216 + 3 \times 36 + 4 \times 6 + 1\]
+\[ = 38880 + 1296 + 216 + 108 + 24 + 1\]
+\[ = 40525_{10}\]
+
+Now, multiply the two base 10 results:
+\[6214_{10} \times 40525_{10}\]
+
+Perform the multiplication:
+\[6214 \times 40525 = 251642350\]
+
+Finally, convert the base 10 result back to base 6. To do this, we find the coefficients for the highest powers of 6 that fit into 251642350.
+
+1. Find powers of 6 up to the maximum one that fits into 251642350.
+\[6^0 = 1\]
+\[6^1 = 6\]
+\[6^2 = 36\]
+\[6^3 = 216\]
+\[6^4 = 1296\]
+\[6^5 = 7776\]
+\[6^6 = 46656\]
+\[6^7 = 279936\]
+\[6^8 = 1679616\]
+\[6^9 = 10077696\]
+\[6^{10} = 60466176\]
+\[6^{11} = 362797056\]
+
+The highest power of 6 less than 251642350 is \(6^{10} = 60466176\), so we find how many times it fits into 251642350:
+\[251642350 \div 60466176 \approx 4\]
+\[4 \times 60466176 = 241864704\]
+
+We subtract and repeat the process with the remainder:
+\[251642350 - 241864704 = 9777646\]
+
+Next, fit remaining into \(6^9\):
+\[9777646 \div 10077696 \approx 0\]
+
+Next, fit into \(6^8\):
+\[9777646 \div 1679616 \approx 5\]
+\[5 \times 1679616 = 8398080\]
+
+Subtract the product:
+\[9777646 - 8398080 = 1379566\]
+
+Fit into \(6^7\):
+\[1379566 \div 279936 \approx 4\]
+\[4 \times 279936 = 1119744\]
+
+Subtract the product:
+\[1379566 - 1119744 = 259822\]
+
+Fit into \(6^6\):
+\[259822 \div 46656 \approx 5\]
+\[5 \times 46656 = 233280\]
+
+Subtract the product:
+\[259822 - 233280 = 26542\]
+
+Fit into \(6^5\):
+\[26542 \div 7776 \approx 3\]
+\[3 \times 7776 = 23328\]
+
+Subtract the product:
+\[26542 - 23328 = 3214\]
+
+Fit into \(6^4\):
+\[3214 \div 1296 \approx 2\]
+\[2 \times 1296 = 2592\]
+
+Subtract the product:
+\[3214 - 2592 = 622\]
+
+Fit into \(6^3\):
+\[622 \div 216 \approx 2\]
+\[2 \times 216 = 432\]
+
+Subtract the product:
+\[622 - 432 = 190\]
+
+Fit into \(6^2\):
+\[190 \div 36 \approx 5\]
+\[5 \times 36 = 180\]
+
+Subtract the product:
+\[190 - 180 = 10\]
+
+Fit into \(6^1\):
+\[10 \div 6 \approx 1\]
+\[1 \times 6 = 6\]
+
+Subtract the product:
+\[10 - 6 = 4\]
+
+Finally, the coefficients yield:
+\[ 44434_6 \times 511341_6 = 414350243512_{6}\]
+
+Summarized in a single line:
+\[44434_6 \times 511341_6 = 6214_{10} \times 40525_{10} = 251642350_{10} = 414350243512_{6}\]

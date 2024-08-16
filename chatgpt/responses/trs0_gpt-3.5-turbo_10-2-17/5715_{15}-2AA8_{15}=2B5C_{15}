@@ -1,0 +1,11 @@
+To compute this, we convert the hexadecimal number 2AA8 to base 15, and then subtract that from 5715 in base 15.
+
+Converting 2AA8 to base 15:
+2AA8_{15} = 2*15^3 + 10*15^2 + 10*15^1 + 8*15^0 
+          = 6750 + 2250 + 150 + 8
+          = 9158_{15}
+
+Subtracting:
+5715_{15} - 9158_{15} = 5715_{15} - 9158_{15} in base 15 = -3443_{15} 
+
+Therefore, the answer is -3443_{15}.

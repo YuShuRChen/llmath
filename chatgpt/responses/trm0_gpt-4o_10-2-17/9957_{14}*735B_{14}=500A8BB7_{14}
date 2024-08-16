@@ -1,0 +1,89 @@
+To solve \( 9957_{14} * 735B_{14} \), we should first convert the base-14 numbers to base-10, perform the multiplication in base-10, then convert the result back to base-14.
+
+We start by converting \( 9957_{14} \) to base-10:
+
+\[
+9957_{14} = 9 \cdot 14^3 + 9 \cdot 14^2 + 5 \cdot 14^1 + 7 \cdot 14^0
+\]
+
+\[
+= 9 \cdot 2744 + 9 \cdot 196 + 5 \cdot 14 + 7
+\]
+
+\[
+= 24696 + 1764 + 70 + 7
+\]
+
+\[
+= 26537_{10}
+\]
+
+Next, we convert \( 735B_{14} \) to base-10, knowing \( B_{14} \) represents 11 in base-10:
+
+\[
+735B_{14} = 7 \cdot 14^3 + 3 \cdot 14^2 + 5 \cdot 14^1 + 11 \cdot 14^0
+\]
+
+\[
+= 7 \cdot 2744 + 3 \cdot 196 + 5 \cdot 14 + 11
+\]
+
+\[
+= 19208 + 588 + 70 + 11
+\]
+
+\[
+= 19877_{10}
+\]
+
+Now, we multiply the two base-10 results:
+
+\[
+26537_{10} \cdot 19877_{10} = 527578649_{10}
+\]
+
+Finally, we convert the result back to base-14:
+
+1. Divide \( 527578649 \) by \( 14 \), record the remainder, and continue with the quotient:
+
+\[
+527578649 \div 14 = 37684189, \text{ remainder } 3
+\]
+
+\[
+37684189 \div 14 = 2691727, \text{ remainder } 7
+\]
+
+\[
+2691727 \div 14 = 192266, \text{ remainder } 3
+\]
+
+\[
+192266 \div 14 = 13733, \text{ remainder } 8
+\]
+
+\[
+13733 \div 14 = 980, \text{ remainder } 13 \rightarrow D_{14}
+\]
+
+\[
+980 \div 14 = 70, \text{ remainder } 0
+\]
+
+\[
+70 \div 14 = 5, \text{ remainder } 0
+\]
+
+\[
+5 \div 14 = 0, \text{ remainder } 5
+\]
+
+Thus, \( 527578649_{10} = 500D8373_{14} \).
+
+So, the final result of \( 9957_{14} * 735B_{14} \) in base-14 is:
+
+\( 9957_{14} * 735B_{14} = 500D8373_{14} \)
+
+Summary in one line:
+
+\( 9957_{14} * 735B_{14} = 26537_{10} * 19877_{10} = 527578649_{10} = 500D8373_{14} \)

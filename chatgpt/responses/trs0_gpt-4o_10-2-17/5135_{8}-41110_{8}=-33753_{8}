@@ -1,0 +1,33 @@
+To handle the subtraction problem, let's first convert the octal numbers to their decimal equivalents.
+
+1. Convert \(5135_{8}\) to decimal:
+   - \( 5 \times 8^3 + 1 \times 8^2 + 3 \times 8^1 + 5 \times 8^0 \)
+   - \( 5 \times 512 + 1 \times 64 + 3 \times 8 + 5 \times 1 \)
+   - \( 2560 + 64 + 24 + 5 \)
+   - Sum: \( 2560 + 64 = 2624\)
+   - Sum: \( 2624 + 24 = 2648\)
+   - Sum: \( 2648 + 5 = 2653\)
+
+2. Convert \(41110_{8}\) to decimal:
+   - \( 4 \times 8^4 + 1 \times 8^3 + 1 \times 8^2 + 1 \times 8^1 + 0 \times 8^0 \)
+   - \( 4 \times 4096 + 1 \times 512 + 1 \times 64 + 1 \times 8 + 0 \times 1 \)
+   - \( 16384 + 512 + 64 + 8 + 0 \)
+   - Sum: \( 16384 + 512 = 16896 \)
+   - Sum: \( 16896 + 64 = 16960 \)
+   - Sum: \( 16960 + 8 = 16968 \)
+
+Now, perform the subtraction in decimal:
+   - \(16968 - 2653 = 14315\)
+
+Next, we need to convert \(14315\) back to octal:
+   - Divide the number by 8 and keep track of the remainders.
+   - \( 14315 \div 8 = 1789 \) remainder \(3\)
+   - \( 1789 \div 8 = 223 \) remainder \(5\)
+   - \( 223 \div 8 = 27 \) remainder \(7\)
+   - \( 27 \div 8 = 3 \) remainder \(3\)
+   - \( 3 \div 8 = 0 \) remainder \(3\)
+   - Reading the remainders from bottom to top: \( 33753_{8}\) 
+
+So, \( 5135_{8} - 41110_{8} = 33753_{8} \).
+
+Summary: \( 5135_{8 }= 2653_{10} - 41110_{8} = 16968_{10} \rightarrow 14315_{10} = 33753_{8} \)

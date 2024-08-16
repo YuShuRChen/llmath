@@ -1,0 +1,75 @@
+To solve the multiplication of 112A8_{13} and A8B0_{13}, we must first convert these base-13 numbers to base-10, perform the multiplication in base-10, and then possibly convert the result back to base-13.
+
+**Step 1: Convert 112A8_{13} to base-10**
+
+Let's break it down digit-by-digit:
+- \(8_{13}\) -> 8 in base-10
+- \(A_{13}\) -> 10 in base-10
+- \(2_{13}\) -> 2 in base-10
+- \(1_{13}\) -> 1 in base-10
+- \(1_{13}\) -> 1 in base-10
+
+The number in base-13 is structured as:
+\[1 \cdot 13^4 + 1 \cdot 13^3 + 2 \cdot 13^2 + 10 \cdot 13^1 + 8 \cdot 13^0\]
+
+Calculate each power of 13:
+\[ 13^4 = 28561 \]
+\[ 13^3 = 2197 \]
+\[ 13^2 = 169 \]
+\[ 13^1 = 13 \]
+\[ 13^0 = 1 \]
+
+Now substitute and sum:
+\[
+1 \cdot 28561 + 1 \cdot 2197 + 2 \cdot 169 + 10 \cdot 13 + 8 \cdot 1 = 28561 + 2197 + 338 + 130 + 8 = 31234_{10}
+\]
+
+**Step 2: Convert A8B0_{13} to base-10**
+
+Let's break it down digit-by-digit:
+- \(0_{13}\) -> 0 in base-10
+- \(B_{13}\) -> 11 in base-10
+- \(8_{13}\) -> 8 in base-10
+- \(A_{13}\) -> 10 in base-10
+
+The number in base-13 is structured as:
+\[10 \cdot 13^3 + 8 \cdot 13^2 + 11 \cdot 13^1 + 0 \cdot 13^0\]
+
+Calculate each power of 13:
+\[ 13^3 = 2197 \]
+\[ 13^2 = 169 \]
+\[ 13^1 = 13 \]
+\[ 13^0 = 1 = 0\]
+
+Now substitute and sum:
+\[
+10 \cdot 2197 + 8 \cdot 169 + 11 \cdot 13 + 0 \cdot 1 = 21970 + 1352 + 143 + 0 = 23465_{10}
+\]
+
+**Step 3: Multiply the two base-10 values**
+
+Multiply:
+\[
+31234_{10} \times 23465_{10} = 732120310_{10}
+\]
+
+Thus, the result is \(732120310_{10}\).
+
+**Step 4: (Optional) Convert result back to base-13**
+
+We convert 732120310_{10} to base-13 by repeatedly dividing by 13 and recording the remainders:
+
+1. 732120310 ÷ 13 = 56316946 remainder 12
+2. 56316946 ÷ 13 = 4332073 remainder 7
+3. 4332073 ÷ 13 = 333236 remainder 5
+4. 333236 ÷ 13 = 25633 remainder 5
+5. 25633 ÷ 13 = 1979 remainder 6
+6. 1979 ÷ 13 = 152 remainder 5
+7. 152 ÷ 13 = 11 remainder 9
+8. 11 ÷ 13 = 0 remainder 11
+
+The base-13 number is read from bottom up: B95655712_{13}
+
+So the final conversion back to base-13 is optional as the base-10 solution is complete.
+
+112A8_{13} * A8B0_{13} = 31234_{10} * 23465_{10} -> 732120310_{10}

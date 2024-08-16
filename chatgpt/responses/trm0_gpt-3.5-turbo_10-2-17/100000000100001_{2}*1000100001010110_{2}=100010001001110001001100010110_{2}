@@ -1,0 +1,8 @@
+Converting the given numbers to base 10:
+\(100000000100001_{2} = 351105 \) and \(1000100001010110_{2} = 43038 \)
+Performing the multiplication: \( 351105 * 43038 = 15100061930 \)
+Returning the final result in base 10: \(15100061930_{10}\) 
+
+Original equation: \(100000000100001_{2}*1000100001010110_{2}\)
+Intermediate steps: \(351105_{10} * 43038_{10}\)
+Final result: \(15100061930_{10}\)

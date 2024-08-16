@@ -1,0 +1,90 @@
+Let's solve the problem by converting each number from base 14 to base 10, perform the subtraction in base 10, and then convert the result back to base 14.
+
+1. Convert \(9957_{14}\) to base 10:
+
+\[ 
+9957_{14} = 9 \cdot 14^3 + 9 \cdot 14^2 + 5 \cdot 14^1 + 7 \cdot 14^0 
+\]
+
+Calculate each term:
+\[ 
+9 \cdot 14^3 = 9 \cdot 2744 = 24696 
+\]
+\[ 
+9 \cdot 14^2 = 9 \cdot 196 = 1764 
+\]
+\[ 
+5 \cdot 14^1 = 5 \cdot 14 = 70 
+\]
+\[ 
+7 \cdot 14^0 = 7 \cdot 1 = 7 
+\]
+
+Add them up:
+\[ 
+9957_{14} = 24696 + 1764 + 70 + 7 = 26537_{10} 
+\]
+
+2. Convert \(735B_{14}\) to base 10:
+
+\[ 
+735B_{14} = 7 \cdot 14^3 + 3 \cdot 14^2 + 5 \cdot 14^1 + 11 \cdot 14^0 
+\]
+
+Calculate each term:
+\[ 
+7 \cdot 14^3 = 7 \cdot 2744 = 19208 
+\]
+\[ 
+3 \cdot 14^2 = 3 \cdot 196 = 588 
+\]
+\[ 
+5 \cdot 14^1 = 5 \cdot 14 = 70 
+\]
+\[ 
+11 \cdot 14^0 = 11 \cdot 1 = 11 
+\]
+
+Add them up:
+\[ 
+735B_{14} = 19208 + 588 + 70 + 11 = 19877_{10} 
+\]
+
+3. Perform the subtraction in base 10:
+
+\[ 
+26537_{10} - 19877_{10} = 6650_{10} 
+\]
+
+4. Convert \(6650_{10}\) to base 14:
+
+To convert, divide by 14 and record the remainders:
+
+\[ 
+6650 \div 14 = 475 \quad \text{remainder} \: 10 
+\]
+\[ 
+475 \div 14 = 33 \quad \text{remainder} \: 13 
+\]
+\[ 
+33 \div 14 = 2 \quad \text{remainder} \: 5 
+\]
+\[ 
+2 \div 14 = 0 \quad \text{remainder} \: 2 
+\]
+
+So, in base 14, 6650 in base 10 is written as \(2D5A_{14}\).
+
+Thus,
+
+\[ 
+9957_{14} - 735B_{14} = 2D5A_{14} 
+\]
+
+Summary:
+\[ 
+9957_{14} \rightarrow 26537_{10}, \quad 735B_{14} \rightarrow 19877_{10}, \quad 26537_{10} - 19877_{10} = 6650_{10}, \quad 6650_{10} \rightarrow 2D5A_{14} 
+\]
+\[ 
+9957_{14} - 735B_{14} = 2D5A_{14} 
+\]

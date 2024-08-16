@@ -1,0 +1,59 @@
+To solve the problem \( 9DDB_{15} - 9680_{15} \), we should first convert the numbers from base 15 to base 10.
+
+### Step 1: Convert \( 9DDB_{15} \) to base 10
+In base 15, the digits represent values according to powers of 15. Therefore,
+
+\[ 9DDB_{15} = 9 \times 15^3 + D \times 15^2 + D \times 15^1 + B \times 15^0 \]
+
+Here, \( D \) (as the 13th digit in base 15) and \( B \) (as the 11th digit in base 15):
+\[ D = 13 \]
+\[ B = 11 \]
+
+Now we calculate each term:
+\[ 9 \times 15^3 = 9 \times 3375 = 30375 \]
+\[ 13 \times 15^2 = 13 \times 225 = 2925 \]
+\[ 13 \times 15^1 = 13 \times 15 = 195 \]
+\[ 11 \times 15^0 = 11 \]
+
+Adding these values together:
+\[ 30375 + 2925 + 195 + 11 = 33506 \]
+
+So,
+\[ 9DDB_{15} = 33506_{10} \]
+
+### Step 2: Convert \( 9680_{15} \) to base 10
+
+Similarly, we break down \( 9680_{15} \):
+\[ 9680_{15} = 9 \times 15^3 + 6 \times 15^2 + 8 \times 15^1 + 0 \times 15^0 \]
+
+Calculating each part:
+\[ 9 \times 15^3 = 9 \times 3375 = 30375 \]
+\[ 6 \times 15^2 = 6 \times 225 = 1350 \]
+\[ 8 \times 15^1 = 8 \times 15 = 120 \]
+\[ 0 \times 15^0 = 0 \]
+
+Adding these values together:
+\[ 30375 + 1350 + 120 + 0 = 31845 \]
+
+So,
+\[ 9680_{15} = 31845_{10} \]
+
+### Step 3: Perform subtraction in base 10
+
+Now, we subtract the two base-10 numbers:
+\[ 33506_{10} - 31845_{10} \]
+
+\[ 33506 - 31845 = 1661 \]
+
+### Step 4: Convert the result back to base 15
+
+Finally, we convert \( 1661_{10} \) back to base 15 to match the questions' original format. To do this, we successively divide by 15 and take the remainders:
+
+\[ 1661 \div 15 = 110 \text{ remainder } 11 \rightarrow B \]
+\[ 110 \div 15 = 7 \text{ remainder } 5 \rightarrow 5 \]
+\[ 7 \div 15 = 0 \text{ remainder } 7 \rightarrow 7 \]
+
+So, \( 1661_{10} \) converts to \( 75B_{15} \).
+
+### Summary:
+\[ 9DDB_{15} - 9680_{15} = 9DDB_{15} (30375_{10} + 2925_{10} + 195_{10} + 11_{10}) - 9680_{15} (30375_{10} + 1350_{10} + 120_{10} + 0_{10}) = 9DDB_{15} 33506_{10} - 9680_{15} 31845_{10} = 75B_{15} 1661_{10} \]

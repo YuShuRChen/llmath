@@ -1,0 +1,31 @@
+First, convert both hexadecimal numbers to decimal.
+
+67A9_{16}:
+6 * 16^3 + 7 * 16^2 + A * 16^1 + 9 * 16^0
+= 6 * 4096 + 7 * 256 + 10 * 16 + 9
+= 24576 + 1792 + 160 + 9
+= 26537_{10}
+
+4DA5_{16}:
+4 * 16^3 + D * 16^2 + A * 16^1 + 5 * 16^0
+= 4 * 4096 + 13 * 256 + 10 * 16 + 5
+= 16384 + 3328 + 160 + 5
+= 19877_{10}
+
+Now, perform the subtraction in decimal:
+26537_{10} - 19877_{10}
+= 6650_{10}
+
+Finally, convert the result back to hexadecimal:
+6650_{10}:
+6650 ÷ 16 = 415 remainder 10 (A in hex)
+415 ÷ 16 = 25 remainder 15 (F in hex)
+25 ÷ 16 = 1 remainder 9
+1
+
+So, 6650_{10} is 19FA_{16}.
+
+Therefore, 67A9_{16} - 4DA5_{16} = 19FA_{16}.
+
+Summary:
+67A9_{16} - 4DA5_{16} = 26537_{10} - 19877_{10} = 6650_{10} = 19FA_{16}

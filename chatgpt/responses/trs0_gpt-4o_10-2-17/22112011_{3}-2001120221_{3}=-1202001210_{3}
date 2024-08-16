@@ -1,0 +1,85 @@
+To solve the problem \( 22112011_3 - 2001120221_3 \), we first need to convert each ternary (base 3) number to decimal (base 10), perform the subtraction in decimal, and then convert the result back to ternary. 
+
+Let's start by converting \( 22112011_3 \) to decimal:
+\[
+2 \times 3^7 + 2 \times 3^6 + 1 \times 3^5 + 1 \times 3^4 + 2 \times 3^3 + 0 \times 3^2 + 1 \times 3^1 + 1 \times 3^0
+\]
+\[
+= 2 \times 2187 + 2 \times 729 + 1 \times 243 + 1 \times 81 + 2 \times 27 + 0 \times 9 + 1 \times 3 + 1 \times 1 
+\]
+\[
+= 4374 + 1458 + 243 + 81 + 54 + 0 + 3 + 1 
+\]
+\[
+= 6214_{10}
+\]
+
+Now, let's convert \( 2001120221_3 \) to decimal:
+\[
+2 \times 3^9 + 0 \times 3^8 + 0 \times 3^7 + 1 \times 3^6 + 1 \times 3^5 + 2 \times 3^4 + 0 \times 3^3 + 2 \times 3^2 + 2 \times 3^1 + 1 \times 3^0
+\]
+\[
+= 2 \times 19683 + 0 \times 6561 + 0 \times 2187 + 1 \times 729 + 1 \times 243 + 2 \times 81 + 0 \times 27 + 2 \times 9 + 2 \times 3 + 1 \times 1 
+\]
+\[
+= 39366 + 0 + 0 + 729 + 243 + 162 + 0 + 18 + 6 + 1 
+\]
+\[
+= 40353_{10}
+\]
+
+Now let's perform the subtraction in decimal:
+\[
+6214 - 40353 = -34139_{10}
+\]
+
+To convert \(-34139_{10}\) back to ternary, we first convert \(34139_{10}\) to ternary and then add the negative sign.
+
+We perform the division repeatedly:
+\[
+34139 \div 3 = 11379 \text{ remainder } 2
+\]
+\[
+11379 \div 3 = 3793 \text{ remainder } 0
+\]
+\[
+3793 \div 3 = 1264 \text{ remainder } 1
+\]
+\[
+1264 \div 3 = 421 \text{ remainder } 1
+\]
+\[
+421 \div 3 = 140 \text{ remainder } 1
+\]
+\[
+140 \div 3 = 46 \text{ remainder } 2
+\]
+\[
+46 \div 3 = 15 \text{ remainder } 1
+\]
+\[
+15 \div 3 = 5 \text{ remainder } 0
+\]
+\[
+5 \div 3 = 1 \text{ remainder } 2
+\]
+\[
+1 \div 3 = 0 \text{ remainder } 1
+\]
+
+Putting the remainders together from bottom to top gives:
+\[
+34139_{10} = 1201211202_3
+\]
+
+Finally, \(-34139_{10}\) in ternary is represented as:
+\[
+-1201211202_3
+\]
+
+Thus, the original equation results in:
+\[
+22112011_3 - 2001120221_3 = -1201211202_3
+\]
+
+Summary: \(22112011_3 (6214_{10}) - 2001120221_3 (40353_{10}) = -1201211202_3 (-34139_{10})\)

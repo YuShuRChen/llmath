@@ -1,0 +1,104 @@
+To solve the multiplication problem 104564_{7} * 35462_{7}, we need to convert each number from base-7 to base-10, perform the multiplication in base-10, and then convert the result back to base-7.
+
+1. Convert 104564_{7} to base-10:
+   \[
+   104564_{7} = 1 \cdot 7^5 + 0 \cdot 7^4 + 4 \cdot 7^3 + 5 \cdot 7^2 + 6 \cdot 7^1 + 4 \cdot 7^0
+   \]
+   Calculate each term:
+   \[
+   1 \cdot 7^5 = 1 \cdot 16807 = 16807
+   \]
+   \[
+   0 \cdot 7^4 = 0 \cdot 2401 = 0
+   \]
+   \[
+   4 \cdot 7^3 = 4 \cdot 343 = 1372
+   \]
+   \[
+   5 \cdot 7^2 = 5 \cdot 49 = 245
+   \]
+   \[
+   6 \cdot 7^1 = 6 \cdot 7 = 42
+   \]
+   \[
+   4 \cdot 7^0 = 4 \cdot 1 = 4
+   \]
+
+   Sum these values to get the base-10 equivalent:
+   \[
+   16807 + 0 + 1372 + 245 + 42 + 4 = 18470_{10}
+   \]
+
+2. Convert 35462_{7} to base-10:
+   \[
+   35462_{7} = 3 \cdot 7^4 + 5 \cdot 7^3 + 4 \cdot 7^2 + 6 \cdot 7^1 + 2 \cdot 7^0
+   \]
+   Calculate each term:
+   \[
+   3 \cdot 7^4 = 3 \cdot 2401 = 7203
+   \]
+   \[
+   5 \cdot 7^3 = 5 \cdot 343 = 1715
+   \]
+   \[
+   4 \cdot 7^2 = 4 \cdot 49 = 196
+   \]
+   \[
+   6 \cdot 7^1 = 6 \cdot 7 = 42
+   \]
+   \[
+   2 \cdot 7^0 = 2 \cdot 1 = 2
+   \]
+
+   Sum these values to get the base-10 equivalent:
+   \[
+   7203 + 1715 + 196 + 42 + 2 = 9158_{10}
+   \]
+
+3. Multiply the two base-10 numbers:
+   \[
+   18470 \times 9158 = 169026460
+   \]
+
+4. Convert the result back to base-7:
+   We will repeatedly divide the result by 7 and record the remainders.
+   \[
+   169026460 \div 7 = 24146637 \quad r = 1
+   \]
+   \[
+   24146637 \div 7 = 3456662 \quad r = 3
+   \]
+   \[
+   3456662 \div 7 = 493808 \quad r = 6
+   \]
+   \[
+   493808 \div 7 = 70544 \quad r = 0
+   \]
+   \[
+   70544 \div 7 = 10077 \quad r = 5
+   \]
+   \[
+   10077 \div 7 = 1439 \quad r = 4
+   \]
+   \[
+   1439 \div 7 = 205 \quad r = 4
+   \]
+   \[
+   205 \div 7 = 29 \quad r = 2
+   \]
+   \[
+   29 \div 7 = 4 \quad r = 1
+   \]
+   \[
+   4 \div 7 = 0 \quad r = 4
+   \]
+
+   Reading the remainders from bottom to top, we get the base-7 result:
+   \[
+   169026460_{10} = 4124456031_{7}
+   \]
+
+Summarizing all steps:
+\[
+104564_{7} * 35462_{7} = 104564_{7} \rightarrow 18470_{10}, \quad 35462_{7} \rightarrow 9158_{10}, \quad 18470_{10} * 9158_{10} = 169026460_{10} \rightarrow 4124456031_{7}
+\]

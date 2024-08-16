@@ -1,0 +1,70 @@
+To solve the equation \( 10122021_3 - 212021110_3 \), we need to convert both base-3 numbers to base-10, perform the subtraction in base-10, and then convert the result back to base-3.
+
+**Step 1: Convert \( 10122021_3 \) to base-10.**
+
+\[ 10122021_3 \]
+Each digit is multiplied by \( 3^{\text{position}} \) (starting from 0 on the right):
+
+\[ 1 \cdot 3^7 + 0 \cdot 3^6 + 1 \cdot 3^5 + 2 \cdot 3^4 + 2 \cdot 3^3 + 0 \cdot 3^2 + 2 \cdot 3^1 + 1 \cdot 3^0 \]
+
+Calculate each term:
+
+\[ 1 \cdot 2187 + 0 \cdot 729 + 1 \cdot 243 + 2 \cdot 81 + 2 \cdot 27 + 0 \cdot 9 + 2 \cdot 3 + 1 \cdot 1 \]
+
+\[ = 2187 + 0 + 243 + 162 + 54 + 0 + 6 + 1 \]
+
+Sum the values:
+
+\[ = 2653_{10} \]
+
+**Step 2: Convert \( 212021110_3 \) to base-10.**
+
+\[ 212021110_3 \]
+
+\[ 2 \cdot 3^8 + 1 \cdot 3^7 + 2 \cdot 3^6 + 0 \cdot 3^5 + 2 \cdot 3^4 + 1 \cdot 3^3 + 1 \cdot 3^2 + 1 \cdot 3^1 + 0 \cdot 3^0 \]
+
+Calculate each term:
+
+\[ 2 \cdot 6561 + 1 \cdot 2187 + 2 \cdot 729 + 0 \cdot 243 + 2 \cdot 81 + 1 \cdot 27 + 1 \cdot 9 + 1 \cdot 3 + 0 \cdot 1 \]
+
+\[ = 13122 + 2187 + 1458 + 0 + 162 + 27 + 9 + 3 + 0 \]
+
+Sum the values:
+
+\[ = 16875_{10} \]
+
+**Step 3: Subtract the base-10 results.**
+
+\[ 2653_{10} - 16875_{10} \]
+
+Since this result is negative:
+
+\[ -14222_{10} \] 
+
+**Step 4: Convert \( -14222_{10} \) back to base-3.**
+
+To convert a negative number to base-3, we first convert the absolute value to base-3 and then add the negative sign.
+
+Converting \( 14222_{10} \):
+
+Repeated division by 3 and capturing remainders:
+
+\[ 14222 \div 3 = 4740 \text{ remainder } 2 \]
+\[ 4740 \div 3 = 1580 \text{ remainder } 0 \]
+\[ 1580 \div 3 = 526 \text{ remainder } 2 \]
+\[ 526 \div 3 = 175 \text{ remainder } 1 \]
+\[ 175 \div 3 = 58 \text{ remainder } 1 \]
+\[ 58 \div 3 = 19 \text{ remainder } 1 \]
+\[ 19 \div 3 = 6 \text{ remainder } 1 \]
+\[ 6 \div 3 = 2 \text{ remainder } 0 \]
+\[ 2 \div 3 = 0 \text{ remainder } 2 \]
+
+So, writing the remainders in reverse:
+
+\[ 14222_{10} = 201111202_3 \]
+
+Thus, \( -14222_{10} = -201111202_3 \)
+
+**Summary:**
+
+\[ 10122021_3 - 212021110_3 = 2653_{10} - 16875_{10} = -14222_{10} = -201111202_3 \]

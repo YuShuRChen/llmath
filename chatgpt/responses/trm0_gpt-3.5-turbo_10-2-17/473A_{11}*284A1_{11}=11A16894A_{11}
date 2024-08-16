@@ -1,0 +1,23 @@
+To multiply emplate grid: 
+
+\[
+\begin{array}{r}
+\phantom{+}473A_{11} \\
+\times \phantom{0}284A1_{11} \\
+\hline
+\end{array}
+\]
+
+${A} \times{1} = {A}$ in base 11. Therefore the product of ${A}$ and ${1}$ in base 11 is equivalent to ${A}$.
+
+Adding $473A_{11}$ four times (each shifted one position to the left due to the multiplication by $2$) and adding once with $473A_{11}$ without shifting.
+
+$$
+\begin{array}{r}
+\phantom{+}4 \times 473A_{{11}} \\
++ \phantom{0}473A_{{11}} \\
+\hline
+2261AA_{11}
+\end{array}
+$$
+Therefore, $473A_{11} \times 284A1_{11} = 2261AA_{11}$.

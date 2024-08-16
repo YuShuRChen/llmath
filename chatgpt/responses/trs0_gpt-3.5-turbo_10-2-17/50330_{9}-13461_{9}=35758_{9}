@@ -1,0 +1,32 @@
+To subtract these two numbers, we need to perform the operation in base 9:
+
+\[
+\begin{array}{r}
+\phantom{+}50330_9 \\
+- \phantom{+}13461_9 \\
+\hline
+\end{array}
+\]
+
+We need to borrow from the next higher digit since 0 cannot be subtracted from 1 in base 9:
+
+\[
+\begin{array}{r}
+\phantom{+}50320_9 \\
+- \phantom{+}13461_9 \\
+\hline
+\end{array}
+\]
+
+Performing the subtraction in each digit:
+
+\[
+\begin{array}{r}
+\phantom{+}50320_9 \\
+- \phantom{+}13461_9 \\
+\hline
+\phantom{+}36451_9
+\end{array}
+\]
+
+Therefore, \(50330_{9} - 13461_{9} = 36451_{9}\)

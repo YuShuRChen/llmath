@@ -1,0 +1,71 @@
+To solve the equation \(2AA0_{13} \times 155A4_{13}\), we need to follow these steps:
+
+1. Convert the base-13 numbers to base-10.
+2. Perform the multiplication in base-10.
+3. Convert the result back to base-13.
+
+### Step 1: Convert \(2AA0_{13}\) to base-10
+
+Each digit in a base-13 number represents an increasing power of 13 from right to left. Here:
+\[ 2AA0_{13} = 2 \times 13^3 + A \times 13^2 + A \times 13^1 + 0 \times 13^0 \]
+
+where \(A = 10\) in base-10 (since it is the digit for 10 in base-13).
+
+So, let's compute each term:
+\[ 2 \times 13^3 = 2 \times 2197 = 4394 \]
+\[ 10 \times 13^2 = 10 \times 169 = 1690 \]
+\[ 10 \times 13^1 = 10 \times 13 = 130 \]
+\[ 0 \times 13^0 = 0 \]
+
+Adding these together:
+\[ 4394 + 1690 + 130 + 0 = 6214 \]
+
+So, \(2AA0_{13}\) converts to \(6214_{10}\) in base-10.
+
+### Step 2: Convert \(155A4_{13}\) to base-10
+
+Similarly:
+\[ 155A4_{13} = 1 \times 13^4 + 5 \times 13^3 + 5 \times 13^2 + A \times 13^1 + 4 \times 13^0 \]
+
+where again \(A = 10\).
+
+Let's compute each term:
+\[ 1 \times 13^4 = 1 \times 28561 = 28561 \]
+\[ 5 \times 13^3 = 5 \times 2197 = 10985 \]
+\[ 5 \times 13^2 = 5 \times 169 = 845 \]
+\[ 10 \times 13^1 = 10 \times 13 = 130 \]
+\[ 4 \times 13^0 = 4 \]
+
+Adding these together:
+\[ 28561 + 10985 + 845 + 130 + 4 = 40525 \]
+
+So, \(155A4_{13}\) converts to \(40525_{10}\) in base-10.
+
+### Step 3: Perform the multiplication in base-10
+
+Next, we multiply the base-10 equivalents:
+\[ 6214 \times 40525 \]
+
+Perform the multiplication:
+\[ 6214 \times 40525 = 251797850 \]
+
+### Step 4: Convert the result back to base-13
+
+Now, we convert \(251797850_{10}\) back to base-13. This requires continuously dividing by 13 and collecting the remainders.
+
+\[ 251797850 \div 13 = 19369065 \quad \text{remainder} \, 5 \]
+\[ 19369065 \div 13 = 1482235 \quad \text{remainder} \, 0 \]
+\[ 1482235 \div 13 = 114018 \quad \text{remainder} \, 1 \]
+\[ 114018 \div 13 = 8769 \quad \text{remainder} \, 11 \, \text{(B)} \]
+\[ 8769 \div 13 = 674 \quad \text{remainder} \, 7 \]
+\[ 674 \div 13 = 51 \quad \text{remainder} \, 11 \, \text{(B)} \]
+\[ 51 \div 13 = 3 \quad \text{remainder} \, 12 \, \text{(C)} \]
+\[ 3 \div 13 = 0 \quad \text{remainder} \, 3 \]
+
+Reading from bottom to top, the base-13 representation is:
+\[ 3CB7B105_{13} \]
+
+Thus, the final result of the multiplication is:
+\[ 2AA0_{13} \times 155A4_{13} = 3CB7B105_{13} \]
+
+\[ 2AA0_{13} \times 155A4_{13} = 6214_{10} \times 40525_{10} = 251797850_{10} \rightarrow 3CB7B105_{13} \]

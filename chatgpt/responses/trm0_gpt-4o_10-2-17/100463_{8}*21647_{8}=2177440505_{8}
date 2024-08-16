@@ -1,0 +1,91 @@
+To solve the equation \(100463_{8} \times 21647_{8}\), we first need to convert the octal (base 8) numbers into decimal (base 10) to perform the multiplication and then convert the result back into octal.
+
+1. Convert \(100463_{8}\) to decimal:
+   \[
+   100463_{8} = 1 \times 8^5 + 0 \times 8^4 + 0 \times 8^3 + 4 \times 8^2 + 6 \times 8^1 + 3 \times 8^0
+   \]
+   Calculate each term:
+   \[
+   1 \times 32768 = 32768
+   \]
+   \[
+   0 \times 4096 = 0
+   \]
+   \[
+   0 \times 512 = 0
+   \]
+   \[
+   4 \times 64 = 256
+   \]
+   \[
+   6 \times 8 = 48
+   \]
+   \[
+   3 \times 1 = 3
+   \]
+   Adding them together:
+   \[
+   32768 + 0 + 0 + 256 + 48 + 3 = 33075
+   \]
+
+2. Convert \(21647_{8}\) to decimal:
+   \[
+   21647_{8} = 2 \times 8^4 + 1 \times 8^3 + 6 \times 8^2 + 4 \times 8^1 + 7 \times 8^0
+   \]
+   Calculate each term:
+   \[
+   2 \times 4096 = 8192
+   \]
+   \[
+   1 \times 512 = 512
+   \]
+   \[
+   6 \times 64 = 384
+   \]
+   \[
+   4 \times 8 = 32
+   \]
+   \[
+   7 \times 1 = 7
+   \]
+   Adding them together:
+   \[
+   8192 + 512 + 384 + 32 + 7 = 9127
+   \]
+
+3. Multiply the two decimal numbers:
+   \[
+   33075 \times 9127 = 301860525
+   \]
+
+4. Convert \(301860525_{10}\) back to octal. To convert from decimal to octal, we repeatedly divide the number by 8 and record the remainders:
+   \[
+   \begin{array}{c|c|c}
+   \text{Quotient} & \text{Remainder} & \text{Octal} \\ \hline
+   301860525 \div 8 & 375 = 37732565 & 5 \\
+   37732565 \div 8 & 4716563 = 37732565 \div 8 & 5 \\ 
+   4716563 \div 8 & 589570 = 4716563 \div 8 & 3 \\ 
+   589570 \div 8 & 73696 = 589570 \div 8 & 2 \\
+   73696 \div 8 & 9212 = 73696 \div 8 & 0 \\
+   9212 \div 8 & 1151 = 9212 \div 8 & 4 \\
+   1151 \div 8 & 143 = 1151 \div 8 & 7 \\
+   143 \div 8 & 17 = 143 \div 8 & 7 \\
+   17 \div 8 & 2 = 17 \div 8 & 1 \\ 
+   2 \div 8 & 0 = 2 \div 8 & 2 \\
+   \end{array}
+   \]
+
+Thus, the remainder columns form the octal number when read from bottom to top:
+\[
+301860525_{10} = 2177404235_{8}
+\]
+
+So, the final answer is:
+\[
+100463_{8} \times 21647_{8} = 2177404235_{8}
+\] 
+
+In summary:
+\[
+100463_{8} \times 21647_{8} = 33075_{10} \times 9127_{10} = 301860525_{10} = 2177404235_{8}
+\]

@@ -1,0 +1,57 @@
+To solve the equation \( 1444414_5 - 1222330_5 \), we first need to convert the base-5 numbers to base-10, perform the subtraction, and then convert the result back to base-5.
+
+### Step 1: Convert \( 1444414_5 \) to base-10
+Each digit in a base-5 number represents a power of 5.
+
+\[ 1444414_5 = 1 \cdot 5^6 + 4 \cdot 5^5 + 4 \cdot 5^4 + 4 \cdot 5^3 + 4 \cdot 5^2 + 1 \cdot 5^1 + 4 \cdot 5^0 \]
+
+Calculating each term:
+\[ 1 \cdot 5^6 = 1 \cdot 15625 = 15625 \]
+\[ 4 \cdot 5^5 = 4 \cdot 3125 = 12500 \]
+\[ 4 \cdot 5^4 = 4 \cdot 625 = 2500 \]
+\[ 4 \cdot 5^3 = 4 \cdot 125 = 500 \]
+\[ 4 \cdot 5^2 = 4 \cdot 25 = 100 \]
+\[ 1 \cdot 5^1 = 1 \cdot 5 = 5 \]
+\[ 4 \cdot 5^0 = 4 \cdot 1 = 4 \]
+
+Summing these values:
+\[ 15625 + 12500 + 2500 + 500 + 100 + 5 + 4 = 31234 \]
+
+Therefore, \( 1444414_5 = 31234_{10} \).
+
+### Step 2: Convert \( 1222330_5 \) to base-10
+
+\[ 1222330_5 = 1 \cdot 5^6 + 2 \cdot 5^5 + 2 \cdot 5^4 + 2 \cdot 5^3 + 3 \cdot 5^2 + 3 \cdot 5^1 + 0 \cdot 5^0 \]
+
+Calculating each term:
+\[ 1 \cdot 5^6 = 1 \cdot 15625 = 15625 \]
+\[ 2 \cdot 5^5 = 2 \cdot 3125 = 6250 \]
+\[ 2 \cdot 5^4 = 2 \cdot 625 = 1250 \]
+\[ 2 \cdot 5^3 = 2 \cdot 125 = 250 \]
+\[ 3 \cdot 5^2 = 3 \cdot 25 = 75 \]
+\[ 3 \cdot 5^1 = 3 \cdot 5 = 15 \]
+\[ 0 \cdot 5^0 = 0 \cdot 1 = 0 \]
+
+Summing these values:
+\[ 15625 + 6250 + 1250 + 250 + 75 + 15 + 0 = 23265 \]
+
+Therefore, \( 1222330_5 = 23265_{10} \).
+
+### Step 3: Perform the subtraction in base-10
+\[ 31234_{10} - 23265_{10} = 7969_{10} \]
+
+### Step 4: Convert \( 7969_{10} \) back to base-5
+We divide 7969 by powers of 5 and record the remainders:
+
+\[ 7969 \div 5^6 = 7969 \div 15625 \approx 0 \]
+\[ 7969 \div 5^5 = 7969 \div 3125 \approx 2 \quad (R = 1720) \]
+\[ 1720 \div 5^4 = 1720 \div 625 \approx 2 \quad (R = 470) \]
+\[ 470 \div 5^3 = 470 \div 125 \approx 3 \quad (R = 95) \]
+\[ 95 \div 5^2 = 95 \div 25 \approx 3 \quad (R = 20) \]
+\[ 20 \div 5^1 = 20 \div 5 \approx 4 \quad (R = 0) \]
+\[ 0 \cdot 5^0 = 0 \quad (R = 0) \]
+
+Thus, \( 7969_{10} = 230340_5 \).
+
+### Final Calculation Summary:
+\[ 1444414_5 - 1222330_5 = 31234_{10} - 23265_{10} = 7969_{10} = 230340_{5} \]

@@ -1,0 +1,48 @@
+To compute the product of the two numbers given in base 5, it helps to first convert them to base 10.
+
+First, let's convert \(1011132_5\) to base 10:
+\[ 1011132_5 = 1 \times 5^6 + 0 \times 5^5 + 1 \times 5^4 + 1 \times 5^3 + 1 \times 5^2 + 3 \times 5^1 + 2 \times 5^0 \]
+\[ = 1 \times 15625 + 0 \times 3125 + 1 \times 625 + 1 \times 125 + 1 \times 25 + 3 \times 5 + 2 \times 1 \]
+\[ = 15625 + 0 + 625 + 125 + 25 + 15 + 2 \]
+\[ = 16417_{10} \]
+
+Now, let's convert \(2104102_5\) to base 10:
+\[ 2104102_5 = 2 \times 5^6 + 1 \times 5^5 + 0 \times 5^4 + 4 \times 5^3 + 1 \times 5^2 + 0 \times 5^1 + 2 \times 5^0 \]
+\[ = 2 \times 15625 + 1 \times 3125 + 0 \times 625 + 4 \times 125 + 1 \times 25 + 0 \times 5 + 2 \times 1 \]
+\[ = 31250 + 3125 + 0 + 500 + 25 + 0 + 2 \]
+\[ = 34802_{10} \]
+
+Now we need to multiply these two base 10 numbers:
+\[ 16417_{10} \times 34802_{10} \]
+
+Let's perform the multiplication:
+\[ 16417 \times 34802 = 571230034 \]
+
+Finally, let's convert \(571230034_{10}\) back to base 5. This can be a lengthy process, but it involves repeatedly dividing by 5 and tracking the remainders:
+
+Let's do the division step by step:
+\[ 571230034 \div 5 = 114246006 \text{ remainder } 4 \]
+\[ 114246006 \div 5 = 22849201 \text{ remainder } 1 \]
+\[ 22849201 \div 5 = 4569840 \text{ remainder } 1 \]
+\[ 4569840 \div 5 = 913968 \text{ remainder } 0 \]
+\[ 913968 \div 5 = 182793 \text{ remainder } 3 \]
+\[ 182793 \div 5 = 36558 \text{ remainder } 3 \]
+\[ 36558 \div 5 = 7311 \text{ remainder } 3 \]
+\[ 7311 \div 5 = 1462 \text{ remainder } 1 \]
+\[ 1462 \div 5 = 292 \text{ remainder } 2 \]
+\[ 292 \div 5 = 58 \text{ remainder } 2 \]
+\[ 58 \div 5 = 11 \text{ remainder } 3 \]
+\[ 11 \div 5 = 2 \text{ remainder } 1 \]
+\[ 2 \div 5 = 0 \text{ remainder } 2 \]
+
+So, writing the remainders in reverse order we get:
+\[ 571230034_{10} = 2133213300114_{5} \]
+
+Therefore, \( 1011132_5 \times 2104102_5 = 2133213300114_5 \).
+
+Summary:
+\[ 1011132_5 = 16417_{10} \]
+\[ 2104102_5 = 34802_{10} \]
+\[ 1011132_5 \times 2104102_5 = 16417_{10} \times 34802_{10} = 571230034_{10} = 2133213300114_{5} \]
+
+\[ 1011132_{5} \times 2104102_{5} = 2133213300114_{5} \]

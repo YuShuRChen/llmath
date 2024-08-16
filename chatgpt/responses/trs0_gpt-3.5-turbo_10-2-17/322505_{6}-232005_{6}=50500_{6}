@@ -1,0 +1,12 @@
+To subtract these two numbers, we line up the numbers vertically and subtract each corresponding place value:
+
+\[
+\begin{array}{@{}c@{\;}c@{}c@{}c@{}c@{}c@{}c@{}c}
+& & & 3 & 2 & 2 & 5 & 0_6 \\
+- & & & 2 & 3 & 2 & 0 & 0_6 \\
+\cline{1-8}
+& & & 1 & 0 & 0 & 5 & 0_6 \\
+\end{array}
+\]
+
+Therefore, \( 322505_{6}-232005_{6}=10050_{6} \)

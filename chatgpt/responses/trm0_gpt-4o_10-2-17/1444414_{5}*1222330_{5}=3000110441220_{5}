@@ -1,0 +1,89 @@
+To solve the problem of multiplying two numbers in base-5, we need to follow these steps:
+
+1. Convert both numbers from base-5 to base-10.
+2. Perform the multiplication in base-10.
+3. If necessary, convert the result back to base-5.
+
+### Step 1: Convert \(1444414_5\) to base-10
+
+The number \(1444414_5\) can be converted to base-10 by interpreting it as a polynomial:
+
+\[ 1 \cdot 5^6 + 4 \cdot 5^5 + 4 \cdot 5^4 + 4 \cdot 5^3 + 4 \cdot 5^2 + 1 \cdot 5^1 + 4 \cdot 5^0 \]
+
+Calculating each term:
+
+\[ 1 \cdot 15625 = 15625 \]
+\[ 4 \cdot 3125 = 12500 \]
+\[ 4 \cdot 625 = 2500 \]
+\[ 4 \cdot 125 = 500 \]
+\[ 4 \cdot 25 = 100 \]
+\[ 1 \cdot 5 = 5 \]
+\[ 4 \cdot 1 = 4 \]
+
+Adding all these up:
+
+\[ 15625 + 12500 + 2500 + 500 + 100 + 5 + 4 = 31234 \]
+
+So, \(1444414_5 = 31234_{10}\).
+
+### Step 2: Convert \(1222330_5\) to base-10
+
+Similarly, convert \(1222330_5\):
+
+\[ 1 \cdot 5^6 + 2 \cdot 5^5 + 2 \cdot 5^4 + 2 \cdot 5^3 + 3 \cdot 5^2 + 3 \cdot 5^1 + 0 \cdot 5^0 \]
+
+Calculating each term:
+
+\[ 1 \cdot 15625 = 15625 \]
+\[ 2 \cdot 3125 = 6250 \]
+\[ 2 \cdot 625 = 1250 \]
+\[ 2 \cdot 125 = 250 \]
+\[ 3 \cdot 25 = 75 \]
+\[ 3 \cdot 5 = 15 \]
+\[ 0 \cdot 1 = 0 \]
+
+Adding all these up:
+
+\[ 15625 + 6250 + 1250 + 250 + 75 + 15 + 0 = 23465 \]
+
+So, \(1222330_5 = 23465_{10}\).
+
+### Step 3: Perform the multiplication in base-10
+
+Now multiply the two base-10 numbers:
+
+\[ 31234_{10} \cdot 23465_{10} \]
+
+Calculating it:
+
+\[ 31234 \times 23465 = 732050410 \]
+
+### Step 4: (Optional) Convert back to base-5
+
+To convert \(732050410_{10}\) back to base-5, we repeatedly divide by 5 and keep track of the remainders:
+
+\[ 732050410 \div 5 = 146410082 \quad \text{remainder} \ 0 \]
+\[ 146410082 \div 5 = 29282016 \quad \text{remainder} \ 2 \]
+\[ 29282016 \div 5 = 5856403 \quad \text{remainder} \ 1 \]
+\[ 5856403 \div 5 = 1171280 \quad \text{remainder} \ 3 \]
+\[ 1171280 \div 5 = 234256 \quad \text{remainder} \ 0 \]
+\[ 234256 \div 5 = 46851 \quad \text{remainder} \ 1 \]
+\[ 46851 \div 5 = 9370 \quad \text{remainder} \ 1 \]
+\[ 9370 \div 5 = 1874 \quad \text{remainder} \ 4 \]
+\[ 1874 \div 5 = 374 \quad \text{remainder} \ 4 \]
+\[ 374 \div 5 = 74 \quad \text{remainder} \ 4 \]
+\[ 74 \div 5 = 14 \quad \text{remainder} \ 4 \]
+\[ 14 \div 5 = 2 \quad \text{remainder} \ 4 \]
+\[ 2 \div 5 = 0 \quad \text{remainder} \ 2 \]
+
+Reading the remainders from bottom to top gives the base-5 representation:
+
+\[ 732050410_{10} = 2414444110320_{5} \]
+
+Thus, \(1444414_{5}*1222330_{5} = 2414444110320_{5}\).
+
+Finally, summarizing the steps:
+
+\[ 1444414_{5} \rightarrow 31234_{10}, \ 1222330_{5} \rightarrow 23465_{10}, \ 31234_{10} \cdot 23465_{10} = 732050410_{10} \rightarrow 2414444110320_{5} \]
+
+So, \( 1444414_5 * 1222330_5 = 2414444110320_5 \).

@@ -1,0 +1,5 @@
+First, we need to convert both numbers to base 10 to perform the subtraction: 
+\(9957_{14} = 9 \times 14^3 + 9 \times 14^2 + 5 \times 14^1 + 7 \times 14^0 = 18252_{10}\), 
+\(735B_{14} = 7 \times 14^3 + 3 \times 14^2 + 5 \times 14^1 + 11 \times 14^0 = 18239_{10}\). 
+So, \(9957_{14}-735B_{14} = 18252_{10} - 18239_{10} = 13_{10} = D_{14}\). 
+Therefore, \(9957_{14}-735B_{14} = D_{14}\).

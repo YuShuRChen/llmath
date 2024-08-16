@@ -1,0 +1,54 @@
+To compute the result of \(10000201_4 - 20201112_4\), we must first convert both numbers from base 4 to base 10.
+
+**Step 1: Convert \(10000201_4\) to base 10.**
+\[ 10000201_4 = 1 \cdot 4^7 + 0 \cdot 4^6 + 0 \cdot 4^5 + 0 \cdot 4^4 + 0 \cdot 4^3 + 2 \cdot 4^2 + 0 \cdot 4^1 + 1 \cdot 4^0 \]
+\[ 1 \cdot 4^7 = 1 \cdot 16384 = 16384 \]
+\[ 0 \cdot 4^6 = 0 \]
+\[ 0 \cdot 4^5 = 0 \]
+\[ 0 \cdot 4^4 = 0 \]
+\[ 0 \cdot 4^3 = 0 \]
+\[ 2 \cdot 4^2 = 2 \cdot 16 = 32 \]
+\[ 0 \cdot 4^1 = 0 \]
+\[ 1 \cdot 4^0 = 1 \]
+
+Adding these values together:
+\[ 16384 + 0 + 0 + 0 + 0 + 32 + 0 + 1 = 16417 \]
+So, \(10000201_4\) converts to \(16417_{10}\).
+
+**Step 2: Convert \(20201112_4\) to base 10.**
+\[ 20201112_4 = 2 \cdot 4^7 + 0 \cdot 4^6 + 2 \cdot 4^5 + 0 \cdot 4^4 + 1 \cdot 4^3 + 1 \cdot 4^2 + 1 \cdot 4^1 + 2 \cdot 4^0 \]
+\[ 2 \cdot 4^7 = 2 \cdot 16384 = 32768 \]
+\[ 0 \cdot 4^6 = 0 \]
+\[ 2 \cdot 4^5 = 2 \cdot 1024 = 2048 \]
+\[ 0 \cdot 4^4 = 0 \]
+\[ 1 \cdot 4^3 = 1 \cdot 64 = 64 \]
+\[ 1 \cdot 4^2 = 1 \cdot 16 = 16 \]
+\[ 1 \cdot 4^1 = 1 \cdot 4 = 4 \]
+\[ 2 \cdot 4^0 = 2 \]
+
+Adding these values together:
+\[ 32768 + 0 + 2048 + 0 + 64 + 16 + 4 + 2 = 34902 \]
+So, \(20201112_4\) converts to \(34902_{10}\).
+
+**Step 3: Subtract the numbers in base 10.**
+\[ 16417_{10} - 34902_{10} = -18485_{10}\]
+
+**Step 4: Convert the result back to base 4.**
+
+Finding the base 4 representation of \(-18485\):
+
+This involves converting the positive value first:
+\[ 18485 \]
+\[ 18485 \div 4 = 4621, \text{ remainder } 1 \]
+\[ 4621 \div 4 = 1155, \text{ remainder } 1 \]
+\[ 1155 \div 4 = 288, \text{ remainder } 3 \]
+\[ 288 \div 4 = 72, \text{ remainder } 0 \]
+\[ 72 \div 4 = 18, \text{ remainder } 0 \]
+\[ 18 \div 4 = 4, \text{ remainder } 2 \]
+\[ 4 \div 4 = 1, \text{ remainder } 0 \]
+\[ 1 \div 4 = 0, \text{ remainder } 1 \]
+
+So, the positive form is \(18485_{10} = 10200311_{4}\). Hence, \(-18485_{10}\) translates to the base-4 negative value as \(-10200311_4\).
+
+**Summary:**
+\[ 10000201_{4} - 20201112_{4} = 16417_{10} - 34902_{10} = -18485_{10} = -10200311_{4} \]

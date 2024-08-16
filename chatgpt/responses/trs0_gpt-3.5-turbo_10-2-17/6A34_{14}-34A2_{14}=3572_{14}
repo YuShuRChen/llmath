@@ -1,0 +1,4 @@
+Subtracting in base $14$:
+$6A34_{14}-34A2_{14} = (6 \times 14^3 + 10 \times 14^2 + 3 \times 14 + 4) - (3 \times 14^3 + 4 \times 14^2 + 10 \times 14 + 2) =  (6 \times 14^3 + 10 \times 14^2 + 3 \times 14 + 4) - (3 \times 14^3 + 4 \times 14^2 + 10 \times 14 + 2) = (6-3) \times 14^3 + (10-4) \times 14^2 + (3-10) \times 14 + (4-2) = 3 \times 14^3 + 6 \times 14^2 - 7 \times 14 + 2 = 3B62_{14}$
+
+$6A34_{14}-34A2_{14}=3B62_{14}$

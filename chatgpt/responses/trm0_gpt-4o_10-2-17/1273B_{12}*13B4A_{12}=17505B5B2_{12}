@@ -1,0 +1,48 @@
+To solve the given multiplication, we first need to convert the base-12 numbers to base-10.
+
+Let's start by converting \( 1273B_{12} \) to base-10:
+\[ 
+1 \cdot 12^4 + 2 \cdot 12^3 + 7 \cdot 12^2 + 3 \cdot 12^1 + B \cdot 12^0 
+\]
+where \( B \) corresponds to \( 11 \) in base-10.
+
+Thus,
+\[
+1273B_{12} = 1 \cdot 20736 + 2 \cdot 1728 + 7 \cdot 144 + 3 \cdot 12 + 11 \cdot 1 
+\]
+\[
+= 20736 + 3456 + 1008 + 36 + 11 
+\]
+\[
+= 25247_{10}
+\]
+
+Now let's convert \( 13B4A_{12} \) to base-10:
+\[ 
+1 \cdot 12^4 + 3 \cdot 12^3 + B \cdot 12^2 + 4 \cdot 12^1 + A \cdot 12^0 
+\]
+where \( B \) is 11 and \( A \) is 10 in base-10.
+
+Thus,
+\[
+13B4A_{12} = 1 \cdot 20736 + 3 \cdot 1728 + 11 \cdot 144 + 4 \cdot 12 + 10 \cdot 1 
+\]
+\[
+= 20736 + 5184 + 1584 + 48 + 10 
+\]
+\[
+= 27562_{10}
+\]
+
+Now, multiply the two base-10 numbers:
+\[
+25247 \times 27562 
+\]
+
+This gives:
+\[
+25247 \times 27562 = 695143514 
+\]
+
+Finally, the original equation and the result in base-10 and base-12 are:
+\[ 1273B_{12} \times 13B4A_{12} = 25247_{10} \times 27562_{10} = 695143514_{10} \]

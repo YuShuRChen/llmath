@@ -1,0 +1,11 @@
+To multiply two numbers in base 16, we can convert them to base 10, perform the multiplication, and then convert the result back to base 16.
+
+$1846_{16} = 6246_{10}$
+
+$9E4D_{16} = 40557_{10}$
+
+$6246_{10} * 40557_{10} = 252888522_{10}$
+
+Converting $252888522_{10}$ to base 16 gives $3D504CA_{16}$.
+
+Therefore, $1846_{16} * 9E4D_{16} = 3D504CA_{16}$.

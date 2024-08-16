@@ -1,0 +1,63 @@
+To solve the equation \(239C_{14} - 10AA9_{14}\), we first need to convert both numbers from base 14 to base 10. 
+
+Let's convert \(239C_{14}\) to base 10:
+\[
+239C_{14} = 2 \times 14^3 + 3 \times 14^2 + 9 \times 14^1 + C \times 14^0
+\]
+In base 14, \(C\) is equivalent to 12 in base 10. Thus:
+\[
+= 2 \times 14^3 + 3 \times 14^2 + 9 \times 14^1 + 12 \times 14^0
+\]
+\[
+= 2 \times 2744 + 3 \times 196 + 9 \times 14 + 12
+\]
+\[
+= 5488 + 588 + 126 + 12
+\]
+\[
+= 6214_{10}
+\]
+
+Next, let's convert \(10AA9_{14}\) to base 10:
+\[
+10AA9_{14} = 1 \times 14^4 + 0 \times 14^3 + A \times 14^2 + A \times 14^1 + 9 \times 14^0
+\]
+In base 14, \(A\) is equivalent to 10 in base 10. Thus:
+\[
+= 1 \times 14^4 + 0 \times 14^3 + 10 \times 14^2 + 10 \times 14^1 + 9 \times 14^0
+\]
+\[
+= 1 \times 38416 + 0 \times 2744 + 10 \times 196 + 10 \times 14 + 9
+\]
+\[
+= 38416 + 0 + 1960 + 140 + 9
+\]
+\[
+= 40525_{10}
+\]
+
+Now, let's subtract the base 10 equivalents:
+\[
+6214_{10} - 40525_{10} = -34311_{10}
+\]
+
+To express \(-34311_{10}\) in base 14, we need to convert it back from base 10 to base 14. Negative conversions, however, are straightforward through their absolute value:
+
+\[
+34311_{10} \approx 1845_{14}25
+\]
+and then include the negative sign:
+
+\[
+-34311_{10} = -184525_{14}
+\]
+
+So, \(239C_{14} - 10AA9_{14} = -184525_{14}\).
+
+Summary: 
+\[
+239C_{14} (6214_{10}) - 10AA9_{14} (40525_{10}) = -34311_{10} = -184525_{14}
+\]
+
+Therefore, the final answer is: 
+\(239C_{14} (6214_{10}) - 10AA9_{14} (40525_{10}) = -184525_{14}\).

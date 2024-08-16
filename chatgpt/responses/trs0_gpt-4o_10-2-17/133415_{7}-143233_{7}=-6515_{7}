@@ -1,0 +1,110 @@
+First, we convert the given numbers from base 7 to base 10.
+
+For \( 133415_7 \):
+\[
+133415_7 = 1 \cdot 7^5 + 3 \cdot 7^4 + 3 \cdot 7^3 + 4 \cdot 7^2 + 1 \cdot 7^1 + 5 \cdot 7^0
+\]
+Calculating each power of 7:
+
+\[
+7^0 = 1 
+\]
+\[
+7^1 = 7 
+\]
+\[
+7^2 = 49 
+\]
+\[
+7^3 = 343 
+\]
+\[
+7^4 = 2401 
+\]
+\[
+7^5 = 16807 
+\]
+
+Now substitute these values into the equation:
+
+\[
+133415_7 = 1 \cdot 16807 + 3 \cdot 2401 + 3 \cdot 343 + 4 \cdot 49 + 1 \cdot 7 + 5 \cdot 1
+\]
+
+Calculate each term:
+
+\[
+1 \cdot 16807 = 16807 
+\]
+\[
+3 \cdot 2401 = 7203 
+\]
+\[
+3 \cdot 343 = 1029 
+\]
+\[
+4 \cdot 49 = 196 
+\]
+\[
+1 \cdot 7 = 7 
+\]
+\[
+5 \cdot 1 = 5 
+\]
+
+Now add them together:
+
+\[
+16807 + 7203 + 1029 + 196 + 7 + 5 = 25247
+\]
+
+So \( 133415_7 = 25247_{10} \).
+
+Next, we convert \( 143233_7 \) to base 10.
+
+Calculations for \( 143233_7 \):
+
+\[
+143233_7 = 1 \cdot 16807 + 4 \cdot 2401 + 3 \cdot 343 + 2 \cdot 49 + 3 \cdot 7 + 3 \cdot 1
+\]
+
+Calculate each term:
+
+\[
+1 \cdot 16807 = 16807 
+\]
+\[
+4 \cdot 2401 = 9604 
+\]
+\[
+3 \cdot 343 = 1029 
+\]
+\[
+2 \cdot 49 = 98 
+\]
+\[
+3 \cdot 7 = 21 
+\]
+\[
+3 \cdot 1 = 3 
+\]
+
+Now add them together:
+
+\[
+16807 + 9604 + 1029 + 98 + 21 + 3 = 27662
+\]
+
+So, \( 143233_7 = 27662_{10} \).
+
+Now, subtract the two base 10 results:
+
+\[
+25247_{10} - 27662_{10} = -2415_{10}
+\]
+
+Finally, expressing all steps clearly:
+
+\[ 133415_7 - 143233_7 = 25247_{10} - 27662_{10} = -2415_{10} \]
+
+Answer: \( 133415_7 - 143233_7 = 25247_{10} - 27662_{10} = -2415_{10} \)

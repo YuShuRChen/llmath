@@ -1,0 +1,14 @@
+First, let's convert the numbers to decimal to perform the subtraction:
+
+110011110101001_{2} = 15481_{10}
+100110110100101_{2} = 11893_{10}
+
+Now, subtracting:
+
+15481_{10} - 11893_{10} = 3590_{10}
+
+Converting the result back to binary:
+
+3590_{10} = 111000000110_{2}
+
+Therefore, 110011110101001_{2} - 100110110100101_{2} = 111000000110_{2}

@@ -1,0 +1,15 @@
+First, let's convert the hexadecimal numbers to decimal numbers in orderto perform subtraction:
+
+$629F_{16}=25023_{10}$
+
+$6BAA_{16}=27562_{10}$
+
+Next, performing the subtraction:
+
+$25023_{10} - 27562_{10} = -2539_{10}$
+
+Finally, convert the result back to hexadecimal:
+
+$-2539_{10} = -9EB_{16}$
+
+Therefore, $629F_{16} - 6BAA_{16} = -9EB_{16}$.

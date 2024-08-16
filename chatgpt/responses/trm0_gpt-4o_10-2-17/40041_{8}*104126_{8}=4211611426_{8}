@@ -1,0 +1,41 @@
+To calculate the product \( 40041_8 \times 104126_8 \), we first need to convert both numbers from base 8 to base 10.
+
+Let's convert \( 40041_8 \) to base 10:
+\[ 40041_8 = 4 \cdot 8^4 + 0 \cdot 8^3 + 0 \cdot 8^2 + 4 \cdot 8^1 + 1 \cdot 8^0 \]
+\[ = 4 \cdot 4096 + 0 \cdot 512 + 0 \cdot 64 + 4 \cdot 8 + 1 \cdot 1 \]
+\[ = 4 \cdot 4096 + 4 \cdot 8 + 1 \]
+\[ = 16384 + 32 + 1 \]
+\[ = 16417_{10} \]
+
+Next, let's convert \( 104126_8 \) to base 10:
+\[ 104126_8 = 1 \cdot 8^5 + 0 \cdot 8^4 + 4 \cdot 8^3 + 1 \cdot 8^2 + 2 \cdot 8^1 + 6 \cdot 8^0 \]
+\[ = 1 \cdot 32768 + 0 \cdot 4096 + 4 \cdot 512 + 1 \cdot 64 + 2 \cdot 8 + 6 \cdot 1 \]
+\[ = 32768 + 0 + 2048 + 64 + 16 + 6 \]
+\[ = 34802_{10} \]
+
+Now multiply these base 10 numbers:
+\[ 16417_{10} \times 34802_{10} \]
+\[ = 570906034 \]
+
+Now, let's convert \( 570906034_{10} \) back to base 8:
+We'll divide by 8 and keep the remainders:
+\[ 570906034 \div 8 = 71363254 \text{ remainder } 2 \]
+\[ 71363254 \div 8 = 8920406 \text{ remainder } 6 \]
+\[ 8920406 \div 8 = 1115050 \text{ remainder } 6 \]
+\[ 1115050 \div 8 = 139381 \text{ remainder } 2 \]
+\[ 139381 \div 8 = 17422 \text{ remainder } 5 \]
+\[ 17422 \div 8 = 2177 \text{ remainder } 6 \]
+\[ 2177 \div 8 = 272 \text{ remainder } 1 \]
+\[ 272 \div 8 = 34 \text{ remainder } 0 \]
+\[ 34 \div 8 = 4 \text{ remainder } 2 \]
+\[ 4 \div 8 = 0 \text{ remainder } 4 \]
+
+Therefore, reading the remainders from bottom to top, \( 570906034_{10} \) is \( 426156662_{8} \) in base 8.
+
+Hence,
+\[ 40041_8 * 104126_8 = 426156662_8 \]
+
+Original equation with intermediate steps and final result:
+\[ 40041_8 \rightarrow 16417_{10}, \; 104126_8 \rightarrow 34802_{10}, \]
+\[ 16417_{10} \times 34802_{10} = 570906034_{10}, \; 570906034_{10} \rightarrow 426156662_{8} \]
+\[ 40041_8 \times 104126_8 = 426156662_8 \]

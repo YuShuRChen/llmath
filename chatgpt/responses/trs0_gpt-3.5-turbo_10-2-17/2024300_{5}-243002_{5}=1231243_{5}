@@ -1,0 +1,23 @@
+To subtract these two base-5 numbers, we align them according to place value and subtract each digit from right to left. 
+
+\[
+\begin{array}{}
+  & 2024300_{5} \\
+- & 0243002_{5} \\
+\hline
+\end{array}
+\]
+
+Now let's perform the subtraction:
+
+Carrying over where necessary:
+\[
+\begin{array}{}
+  & 2024300_{5} \\
+- & 0243002_{5} \\
+\hline
+  & 100002_5
+\end{array}
+\]
+
+Therefore, \(2024300_{5} - 243002_{5} = 100002_{5}\).

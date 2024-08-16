@@ -1,0 +1,32 @@
+To solve \( 100463_8 - 21647_8 \), we first need to convert both octal (base 8) numbers to decimal (base 10), perform the subtraction in decimal, and then convert the result back to octal.
+
+### Step 1: Convert \( 100463_8 \) to decimal.
+\[ 100463_8 = 1 \cdot 8^5 + 0 \cdot 8^4 + 0 \cdot 8^3 + 4 \cdot 8^2 + 6 \cdot 8^1 + 3 \cdot 8^0 \]
+\[ = 1 \cdot 32768 + 0 \cdot 4096 + 0 \cdot 512 + 4 \cdot 64 + 6 \cdot 8 + 3 \cdot 1 \]
+\[ = 32768 + 0 + 0 + 256 + 48 + 3 \]
+\[ = 33075 \]
+
+### Step 2: Convert \( 21647_8 \) to decimal.
+\[ 21647_8 = 2 \cdot 8^4 + 1 \cdot 8^3 + 6 \cdot 8^2 + 4 \cdot 8^1 + 7 \cdot 8^0 \]
+\[ = 2 \cdot 4096 + 1 \cdot 512 + 6 \cdot 64 + 4 \cdot 8 + 7 \cdot 1 \]
+\[ = 8192 + 512 + 384 + 32 + 7 \]
+\[ = 9127 \]
+
+### Step 3: Subtract the two decimal values.
+\[ 33075_{10} - 9127_{10} = 23948_{10} \]
+
+### Step 4: Convert \( 23948 \) from decimal to octal.
+We repeatedly divide by 8 and keep track of the remainders.
+
+1. \( 23948 \div 8 = 2993 \) remainder \( 4 \)
+2. \( 2993 \div 8 = 374 \) remainder \( 1 \)
+3. \( 374 \div 8 = 46 \) remainder \( 6 \)
+4. \( 46 \div 8 = 5 \) remainder \( 6 \)
+5. \( 5 \div 8 = 0 \) remainder \( 5 \)
+
+Reading the remainders from bottom to top, \( 23948_{10} = 55614_{8} \).
+
+### Summary
+\[ 100463_8 - 21647_8 = 33075_{10} - 9127_{10} = 23948_{10} = 55614_{8} \]
+So,
+\[ 100463_{8} - 21647_{8} = 55614_{8} \]

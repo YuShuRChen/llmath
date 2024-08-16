@@ -1,0 +1,10 @@
+First, let's convert the numbers to base-10 to make the subtraction easier:
+$8464_{9} = 8*9^3 + 4*9^2 + 6*9 + 4 = 5836_{10}$.
+$61527_{9} = 6*9^4 + 1*9^3 + 5*9^2 + 2*9 + 7 = 21750_{10}$.
+
+Now, perform the subtraction in base-10: $5836_{10} - 21750_{10} = -15914_{10}$.
+
+Finally, convert the result back to base-9:
+$-15914_{10} = -1*9^4 + 5*9^3 + 4*9^2 + 2*9 + 5 = -15414_{9}$.
+
+Therefore, $8464_{9} - 61527_{9} = -15414_{9}$.

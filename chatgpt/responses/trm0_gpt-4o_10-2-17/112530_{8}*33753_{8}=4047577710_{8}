@@ -1,0 +1,56 @@
+To compute the product of the two base-8 (octal) numbers, we first need to convert them to base-10 (decimal), perform the multiplication in base-10, and then convert the result back to base-8.
+
+### Step 1: Convert 112530_{8} to base-10
+We'll use the positional value method to convert each digit:
+\[ 112530_{8} = 1 \cdot 8^5 + 1 \cdot 8^4 + 2 \cdot 8^3 + 5 \cdot 8^2 + 3 \cdot 8^1 + 0 \cdot 8^0 \]
+
+Breaking it down:
+\[ 1 \cdot 8^5 = 1 \cdot 32768 = 32768 \]
+\[ 1 \cdot 8^4 = 1 \cdot 4096 = 4096 \]
+\[ 2 \cdot 8^3 = 2 \cdot 512 = 1024 \]
+\[ 5 \cdot 8^2 = 5 \cdot 64 = 320 \]
+\[ 3 \cdot 8^1 = 3 \cdot 8 = 24 \]
+\[ 0 \cdot 8^0 = 0 \]
+
+Summing these up:
+\[ 32768 + 4096 + 1024 + 320 + 24 = 38232 \]
+
+So, \( 112530_{8} = 38232_{10} \).
+
+### Step 2: Convert 33753_{8} to base-10
+Similarly, we'll convert each digit:
+\[ 33753_{8} = 3 \cdot 8^4 + 3 \cdot 8^3 + 7 \cdot 8^2 + 5 \cdot 8^1 + 3 \cdot 8^0 \]
+
+Breaking it down:
+\[ 3 \cdot 8^4 = 3 \cdot 4096 = 12288 \]
+\[ 3 \cdot 8^3 = 3 \cdot 512 = 1536 \]
+\[ 7 \cdot 8^2 = 7 \cdot 64 = 448 \]
+\[ 5 \cdot 8^1 = 5 \cdot 8 = 40 \]
+\[ 3 \cdot 8^0 = 3 \]
+
+Summing these up:
+\[ 12288 + 1536 + 448 + 40 + 3 = 14265 \]
+
+So, \( 33753_{8} = 14265_{10} \).
+
+### Step 3: Multiply the numbers in base-10
+\[ 38232 \times 14265 = 545270280 \]
+
+### Step 4: Convert the result back to base-8
+To convert \( 545270280_{10} \) to base-8, we divide by 8 and keep track of the remainders.
+
+1. \( 545270280 \div 8 = 68158785 \) remainder \( 0 \)
+2. \( 68158785 \div 8 = 8519848 \) remainder \( 1 \)
+3. \( 8519848 \div 8 = 1064981 \) remainder \( 0 \)
+4. \( 1064981 \div 8 = 133122 \) remainder \( 5 \)
+5. \( 133122 \div 8 = 16640 \) remainder \( 2 \)
+6. \( 16640 \div 8 = 2080 \) remainder \( 0 \)
+7. \( 2080 \div 8 = 260 \) remainder \( 0 \)
+8. \( 260 \div 8 = 32 \) remainder \( 4 \)
+9. \( 32 \div 8 = 4 \) remainder \( 0 \)
+10. \( 4 \div 8 = 0 \) remainder \( 4 \)
+
+Reading the remainders from bottom to top, the base-8 representation is \( 404205010_{8} \).
+
+### Summary
+\[ 112530_{8} \times 33753_{8} = 38232_{10} \times 14265_{10} = 545270280_{10} = 404205010_{8} \]

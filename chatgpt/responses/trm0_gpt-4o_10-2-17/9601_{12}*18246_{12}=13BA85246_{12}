@@ -1,0 +1,62 @@
+To multiply numbers in base 12, we'll first convert them to base 10, perform the multiplication, and then convert the result back to base 12. 
+
+Let's start by converting \( 9601_{12} \) and \( 18246_{12} \) to base 10.
+
+### Converting \( 9601_{12} \) to base 10
+Breaking it down:
+\[ 9601_{12} = 9 \cdot 12^3 + 6 \cdot 12^2 + 0 \cdot 12^1 + 1 \cdot 12^0 \]
+
+### Calculate each term:
+\[ 9 \cdot 12^3 = 9 \cdot 1728 = 15552 \]
+\[ 6 \cdot 12^2 = 6 \cdot 144 = 864 \]
+\[ 0 \cdot 12^1 = 0 \]
+\[ 1 \cdot 12^0 = 1 \]
+
+Adding them together:
+\[ 15552 + 864 + 0 + 1 = 16417 \]
+
+Therefore,
+\[ 9601_{12} = 16417_{10} \]
+
+### Converting \( 18246_{12} \) to base 10
+Breaking it down:
+\[ 18246_{12} = 1 \cdot 12^4 + 8 \cdot 12^3 + 2 \cdot 12^2 + 4 \cdot 12^1 + 6 \cdot 12^0 \]
+
+### Calculate each term:
+\[ 1 \cdot 12^4 = 1 \cdot 20736 = 20736 \]
+\[ 8 \cdot 12^3 = 8 \cdot 1728 = 13824 \]
+\[ 2 \cdot 12^2 = 2 \cdot 144 = 288 \]
+\[ 4 \cdot 12^1 = 4 \cdot 12 = 48 \]
+\[ 6 \cdot 12^0 = 6 \]
+
+Adding them together:
+\[ 20736 + 13824 + 288 + 48 + 6 = 34890 \]
+
+Therefore,
+\[ 18246_{12} = 34890_{10} \]
+
+### Multiplying the base 10 equivalents:
+\[ 16417 \times 34890 = 572576130 \]
+
+### Converting \( 572576130_{10} \) to base 12
+We need to divide the number by 12 repeatedly and keep track of the remainders.
+\[ 572576130 \div 12 = 47714677 \text{ remainder } 6 \]
+\[ 47714677 \div 12 = 3976223 \text{ remainder } 1 \]
+\[ 3976223 \div 12 = 331351 \text{ remainder } 11 \]
+\[ 331351 \div 12 = 27612 \text{ remainder } 7 \]
+\[ 27612 \div 12 = 2301 \text{ remainder } 0 \]
+\[ 2301 \div 12 = 191 \text{ remainder } 9 \]
+\[ 191 \div 12 = 15 \text{ remainder } 11 \]
+\[ 15 \div 12 = 1 \text{ remainder } 3 \]
+\[ 1 \div 12 = 0 \text{ remainder } 1 \]
+
+Reading the remainders from bottom to top, we get:
+\[ 1 3 11 9 0 7 11 1 6_{12} \]
+Converting \( 11_{10} \) to base 12, we use letter 'B' for 11:
+\[ 1 3 B 9 0 7 B 1 6_{12} \]
+
+Finally:
+\[ 9601_{12} \times 18246_{12} = 13B907B16_{12} \]
+
+Thus:
+\[ 9601_{12} * 18246_{12} = 9601_{12} (16417_{10}) \times 18246_{12} (34890_{10}) = 572576130_{10} = 13B907B16_{12} \]

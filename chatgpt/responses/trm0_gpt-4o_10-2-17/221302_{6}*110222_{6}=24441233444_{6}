@@ -1,0 +1,103 @@
+To compute the product of 221302\(_6\) and 110222\(_6\), we first convert each number from base 6 to base 10.
+
+1. Convert 221302\(_6\) to base 10:
+   \[
+   221302_6 = 2 \cdot 6^5 + 2 \cdot 6^4 + 1 \cdot 6^3 + 3 \cdot 6^2 + 0 \cdot 6^1 + 2 \cdot 6^0
+   \]
+   Calculating each term:
+   \[
+   2 \cdot 6^5 = 2 \cdot 7776 = 15552
+   \]
+   \[
+   2 \cdot 6^4 = 2 \cdot 1296 = 2592
+   \]
+   \[
+   1 \cdot 6^3 = 1 \cdot 216 = 216
+   \]
+   \[
+   3 \cdot 6^2 = 3 \cdot 36 = 108
+   \]
+   \[
+   0 \cdot 6^1 = 0
+   \]
+   \[
+   2 \cdot 6^0 = 2
+   \]
+   Summing these results:
+   \[
+   15552 + 2592 + 216 + 108 + 0 + 2 = 18470_{10}
+   \]
+
+2. Convert 110222\(_6\) to base 10:
+   \[
+   110222_6 = 1 \cdot 6^5 + 1 \cdot 6^4 + 0 \cdot 6^3 + 2 \cdot 6^2 + 2 \cdot 6^1 + 2 \cdot 6^0
+   \]
+   Calculating each term:
+   \[
+   1 \cdot 6^5 = 1 \cdot 7776 = 7776
+   \]
+   \[
+   1 \cdot 6^4 = 1 \cdot 1296 = 1296
+   \]
+   \[
+   0 \cdot 6^3 = 0
+   \]
+   \[
+   2 \cdot 6^2 = 2 \cdot 36 = 72
+   \]
+   \[
+   2 \cdot 6^1 = 2 \cdot 6 = 12
+   \]
+   \[
+   2 \cdot 6^0 = 2
+   \]
+   Summing these results:
+   \[
+   7776 + 1296 + 0 + 72 + 12 + 2 = 9158_{10}
+   \]
+
+3. Multiply the two base 10 results:
+   \[
+   18470_{10} \cdot 9158_{10} = 169112260
+   \]
+
+4. Convert the result back to base 6:
+   Repeated division by 6 to form the base 6 number:
+   \[
+   169112260 \div 6 = 28185376 \quad \text{remainder } 4
+   \]
+   \[
+   28185376 \div 6 = 4697562 \quad \text{remainder } 4
+   \]
+   \[
+   4697562 \div 6 = 782926 \quad \text{remainder } 4
+   \]
+   \[
+   782926 \div 6 = 130487 \quad \text{remainder } 4
+   \]
+   \[
+   130487 \div 6 = 21747 \quad \text{remainder } 5
+   \]
+   \[
+   21747 \div 6 = 3624 \quad \text{remainder } 3
+   \]
+   \[
+   3624 \div 6 = 604 \quad \text{remainder } 0
+   \]
+   \[
+   604 \div 6 = 100 \quad \text{remainder } 4
+   \]
+   \[
+   100 \div 6 = 16 \quad \text{remainder } 4
+   \]
+   \[
+   16 \div 6 = 2 \quad \text{remainder } 4
+   \]
+   \[
+   2 \div 6 = 0 \quad \text{remainder } 2
+   \]
+
+   Thus, the converted number is read in reverse: \(24443044444_{6}\).
+
+Summarized:
+\[ 221302_6 * 110222_6 = 18470_{10} \times 9158_{10} = 169112260_{10} = 24443044444_6 \]

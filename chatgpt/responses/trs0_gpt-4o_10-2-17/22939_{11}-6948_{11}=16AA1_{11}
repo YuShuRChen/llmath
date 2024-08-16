@@ -1,0 +1,51 @@
+To solve the problem \(22939_{11} - 6948_{11}\), we first need to convert these base-11 numbers into base-10, perform the subtraction in base-10, and then convert the result back to base-11.
+
+Let's start with converting \(22939_{11}\) to base-10.
+
+\[ 22939_{11} = 2 \cdot 11^4 + 2 \cdot 11^3 + 9 \cdot 11^2 + 3 \cdot 11^1 + 9 \cdot 11^0 \]
+
+Calculating each term:
+\[ 2 \cdot 11^4 = 2 \cdot 14641 = 29282 \]
+\[ 2 \cdot 11^3 = 2 \cdot 1331 = 2662 \]
+\[ 9 \cdot 11^2 = 9 \cdot 121 = 1089 \]
+\[ 3 \cdot 11^1 = 3 \cdot 11 = 33 \]
+\[ 9 \cdot 11^0 = 9 \]
+
+Adding these values together:
+\[ 29282 + 2662 + 1089 + 33 + 9 = 33075 \]
+
+So, \(22939_{11} = 33075_{10}\).
+
+Next, convert \(6948_{11}\) to base-10.
+
+\[ 6948_{11} = 6 \cdot 11^3 + 9 \cdot 11^2 + 4 \cdot 11^1 + 8 \cdot 11^0 \]
+
+Calculating each term:
+\[ 6 \cdot 11^3 = 6 \cdot 1331 = 7986 \]
+\[ 9 \cdot 11^2 = 9 \cdot 121 = 1089 \]
+\[ 4 \cdot 11^1 = 4 \cdot 11 = 44 \]
+\[ 8 \cdot 11^0 = 8 \]
+
+Adding these values together:
+\[ 7986 + 1089 + 44 + 8 = 9127 \]
+
+So, \(6948_{11} = 9127_{10}\).
+
+Now, subtract the base-10 equivalents:
+\[ 33075_{10} - 9127_{10} = 23948_{10} \]
+
+Finally, we convert \(23948_{10}\) back to base-11. We repeatedly divide the number by 11 and track the remainders.
+
+\[ 23948 \div 11 = 2177 \text{ R }1 \]
+\[ 2177 \div 11 = 197 \text{ R }10 \]
+\[ 197 \div 11 = 17 \text{ R }10 \]
+\[ 17 \div 11 = 1 \text{ R }6 \]
+\[ 1 \div 11 = 0 \text{ R }1 \]
+
+Reading the remainders from bottom to top gives: \(1610\text{A}_{11}\).
+
+So, the final result is:
+\[ 22939_{11} - 6948_{11} = 1610A_{11} \]
+
+Summary:
+\[ 22939_{11} \rightarrow 33075_{10} - 6948_{11} \rightarrow 9127_{10} = 23948_{10} \rightarrow 1610A_{11} \]

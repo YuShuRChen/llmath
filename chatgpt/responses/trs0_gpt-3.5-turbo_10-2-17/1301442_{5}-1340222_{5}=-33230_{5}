@@ -1,0 +1,12 @@
+To subtract 1301442_{5} from 1340222_{5}, we need to align the numbers properly and perform the subtraction operation in base 5.
+
+\[
+\begin{array}{c@{}c@{\;}c@{}c@{}c@{}c@{}c}
+ & & & 1 & 3 & 4 & 0 & 2 & 2 & 2_{5} \\
+- & & & 1 & 3 & 0 & 1 & 4 & 4 & 2_{5} \\
+\cline{1-10}
+ & & & & 4 & 4 & 4 & 3 & 3 & 3_{5} \\
+\end{array}
+\]
+
+Therefore, 1301442_{5} - 1340222_{5} = 444333_{5}.

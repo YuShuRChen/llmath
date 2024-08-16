@@ -1,0 +1,95 @@
+First, we need to convert the numbers from base 13 to base 10 to perform the subtraction.
+
+**Step 1: Convert \( 853A_{13} \) to base 10.**
+
+Given \( 853A_{13} \):
+
+- \( 8 \times 13^3 \)
+- \( 5 \times 13^2 \)
+- \( 3 \times 13^1 \)
+- \( A \times 13^0 \)
+
+Where \( A = 10 \) in decimal.
+
+Now, calculate separately:
+
+- \( 8 \times 13^3 = 8 \times 2197 = 17576 \)
+- \( 5 \times 13^2 = 5 \times 169 = 845 \)
+- \( 3 \times 13^1 = 3 \times 13 = 39 \)
+- \( 10 \times 13^0 = 10 \times 1 = 10 \)
+
+Sum these up:
+
+\[ 17576 + 845 + 39 + 10 = 18470 \]
+
+So, \( 853A_{13} = 18470_{10} \).
+
+**Step 2: Convert \( 4226_{13} \) to base 10.**
+
+Given \( 4226_{13} \):
+
+- \( 4 \times 13^3 \)
+- \( 2 \times 13^2 \)
+- \( 2 \times 13^1 \)
+- \( 6 \times 13^0 \)
+
+Now, calculate separately:
+
+- \( 4 \times 13^3 = 4 \times 2197 = 8788 \)
+- \( 2 \times 13^2 = 2 \times 169 = 338 \)
+- \( 2 \times 13^1 = 2 \times 13 = 26 \)
+- \( 6 \times 13^0 = 6 \times 1 = 6 \)
+
+Sum these up:
+
+\[ 8788 + 338 + 26 + 6 = 9158 \]
+
+So, \( 4226_{13} = 9158_{10} \).
+
+**Step 3: Perform the subtraction in base 10.**
+
+\[ 18470_{10} - 9158_{10} \]
+
+Calculate the difference:
+
+\[ 18470 - 9158 = 9312 \]
+
+**Step 4: Convert the result back to base 13.**
+
+Let's convert \( 9312_{10} \) to base 13:
+
+1. Find the largest power of 13 less than 9312:
+   - \( 13^4 = 28561 \) (too large)
+   - \( 13^3 = 2197 \)
+
+   Next term:
+
+\[ 9312 \div 2197 \approx 4 \quad \text{(The coefficient is 4)} \]
+\[ \Rightarrow 4 \times 2197 = 8788 \]
+
+Subtract this:
+
+\[ 9312 - 8788 = 524 \]
+
+2. Continue with the remaining value (524):
+   - \( 524 \div 169 \approx 3 \) \quad \text{(The coefficient is 3)}
+   - \( 3 \times 169 = 507 \)
+
+Subtract this:
+
+\[ 524 - 507 = 17 \]
+
+3. Continue with the remaining value (17):
+   - \( 17 \div 13 \approx 1 \) \quad \text{(The coefficient is 1)}
+   - \( 1 \times 13 = 13 \)
+
+Subtract this:
+
+\[ 17 - 13 = 4 \]
+
+4. The final coefficient is 4 with the remainder.
+
+Thus, \( 9312_{10} = 4304_{13} \).
+
+**Summary:**
+\[ 853A_{13} - 4226_{13} = 18470_{10} - 9158_{10} = 9312_{10} = 4304_{13} \]

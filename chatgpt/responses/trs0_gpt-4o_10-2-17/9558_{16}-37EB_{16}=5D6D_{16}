@@ -1,0 +1,34 @@
+To solve the subtraction of hexadecimal numbers \( 9558_{16} - 37EB_{16} \), let's follow these steps:
+
+1. Convert the hexadecimal numbers to decimal form.
+2. Perform the subtraction in decimal.
+3. Convert the result back to hexadecimal.
+
+**Step 1: Convert hexadecimal to decimal**
+
+Let's convert \( 9558_{16} \):
+\[ 9 \times 16^3 + 5 \times 16^2 + 5 \times 16^1 + 8 \times 16^0 \]
+\[ 9 \times 4096 + 5 \times 256 + 5 \times 16 + 8 \]
+\[ 36864 + 1280 + 80 + 8 = 38132_{10} \]
+
+Now, let's convert \( 37EB_{16} \):
+\[ 3 \times 16^3 + 7 \times 16^2 + E \times 16^1 + B \times 16^0 \]
+\[ 3 \times 4096 + 7 \times 256 + 14 \times 16 + 11 \]
+\[ 12288 + 1792 + 224 + 11 = 14215_{10} \]
+
+**Step 2: Subtract the decimal values**
+\[ 38132_{10} - 14215_{10} = 23917_{10} \]
+
+**Step 3: Convert the result back to hexadecimal**
+
+To convert \( 23917_{10} \) to hexadecimal, we perform successive division by 16 and keep track of the remainders:
+\[ 23917 \div 16 = 1494 \quad \text{remainder:} \ 13 \ (D) \]
+\[ 1494 \div 16 = 93 \quad \text{remainder:} \ 6 \]
+\[ 93 \div 16 = 5 \quad \text{remainder:} \ 13 \ (D) \]
+\[ 5 \div 16 = 0 \quad \text{remainder:} \ 5 \]
+
+Reading the remainders from bottom to top, \( 23917_{10} \) converts to:
+\[ 5D6D_{16} \]
+
+**Summary:**
+\[ 9558_{16} - 37EB_{16} = 9558_{16} - 37EB_{16} = 38132_{10} - 14215_{10} = 23917_{10} = 5D6D_{16} \]

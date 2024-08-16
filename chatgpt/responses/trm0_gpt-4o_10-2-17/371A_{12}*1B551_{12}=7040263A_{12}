@@ -1,0 +1,95 @@
+First, let's convert the numbers from base 12 to base 10, so we can perform the multiplication in base 10.
+
+For \( 371A_{12} \):
+
+\[
+3 \times 12^3 + 7 \times 12^2 + 1 \times 12^1 + A \times 12^0
+\]
+
+where \( A = 10_{10} \):
+
+\[
+3 \times 12^3 + 7 \times 12^2 + 1 \times 12^1 + 10 \times 12^0
+\]
+
+\[
+= 3 \times 1728 + 7 \times 144 + 1 \times 12 + 10
+\]
+
+\[
+= 5184 + 1008 + 12 + 10
+\]
+
+\[
+= 6214_{10}
+\]
+
+For \( 1B551_{12} \):
+
+\[
+1 \times 12^4 + B \times 12^3 + 5 \times 12^2 + 5 \times 12^1 + 1 \times 12^0
+\]
+
+where \( B = 11_{10} \):
+
+\[
+1 \times 20736 + 11 \times 1728 + 5 \times 144 + 5 \times 12 + 1
+\]
+
+\[
+= 20736 + 19008 + 720 + 60 + 1
+\]
+
+\[
+= 40525_{10}
+\]
+
+Now multiply:
+
+\[
+6214_{10} \times 40525_{10}
+\]
+
+\[
+= 251834350_{10}
+\]
+
+Finally, to convert \( 251834350_{10} \) back to base 12. We will find the coefficients by repeatedly dividing by 12 and keeping track of the remainders:
+
+\[
+251834350 \div 12 = 20986195 \, R \, 10 = A
+\]
+
+\[
+20986195 \div 12 = 1748849 \, R \, 7
+\]
+
+\[
+1748849 \div 12 = 145737 \, R \, 5
+\]
+
+\[
+145737 \div 12 = 12144 \, R \, 9
+\]
+
+\[
+12144 \div 12 = 1012 \, R \, 0
+\]
+
+\[
+1012 \div 12 = 84 \, R \, 4
+\]
+
+\[
+84 \div 12 = 7 \, R \, 0
+\]
+
+\[
+7 \div 12 = 0 \, R \, 7
+\]
+
+So, \( 251834350_{10} = 7049507A_{12} \)
+
+Summarizing:
+
+\( 371A_{12} * 1B551_{12} = 6214_{10} * 40525_{10} = 251834350_{10} = 7049507A_{12} \)

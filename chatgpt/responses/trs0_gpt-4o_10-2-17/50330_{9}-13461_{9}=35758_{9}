@@ -1,0 +1,50 @@
+To solve the given equation \(50330_{9} - 13461_{9}\), we need to first convert both numbers from base 9 to base 10, then perform the subtraction in base 10, and finally convert the result back into base 9.
+
+1. Converting \(50330_{9}\) to base 10:
+   \[
+   50330_{9} = 5 \cdot 9^4 + 0 \cdot 9^3 + 3 \cdot 9^2 + 3 \cdot 9^1 + 0 \cdot 9^0
+   \]
+   \[
+   = 5 \cdot 6561 + 0 \cdot 729 + 3 \cdot 81 + 3 \cdot 9 + 0 \cdot 1
+   \]
+   \[
+   = 32805 + 0 + 243 + 27 + 0
+   \]
+   \[
+   = 33075_{10}
+   \]
+
+2. Converting \(13461_{9}\) to base 10:
+   \[
+   13461_{9} = 1 \cdot 9^4 + 3 \cdot 9^3 + 4 \cdot 9^2 + 6 \cdot 9^1 + 1 \cdot 9^0
+   \]
+   \[
+   = 1 \cdot 6561 + 3 \cdot 729 + 4 \cdot 81 + 6 \cdot 9 + 1 \cdot 1
+   \]
+   \[
+   = 6561 + 2187 + 324 + 54 + 1
+   \]
+   \[
+   = 9127_{10}
+   \]
+
+3. Performing the subtraction in base 10:
+   \[
+   33075_{10} - 9127_{10} = 23948_{10}
+   \]
+
+4. Converting \(23948_{10}\) back to base 9:
+   First find the highest power of 9 less than 23948:
+   \[
+   9^4 = 6561, \quad 9^3 = 729, \quad 9^2 = 81, \quad 9^1 = 9, \quad 9^0 = 1
+   \]
+   
+   23948 \(\div\) 6561 = 3 (remainder = 2939)
+   2939 \(\div\) 729 = 4 (remainder = 823)
+   823 \(\div\) 81 = 10 (remainder = 13)
+   13 \(\div\) 9 = 1 (remainder = 4)
+   
+   Thus, \(23948_{10} = 31414_{9}\).
+
+Summarized response:
+50330_{9} - 13461_{9} = 33075_{10} - 9127_{10} = 23948_{10} = 31414_{9}

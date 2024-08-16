@@ -1,0 +1,5 @@
+First, we need to convert the hexadecimal numbers to base 10: \(9558_{16}=38232\) and \(37EB_{16}=14251\).
+
+Next, we multiply the two numbers together: \(38232 * 14251 = 546139032\).
+
+Therefore, \(9558_{16} * 37EB_{16} = 546139032_{10}\).

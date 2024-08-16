@@ -1,0 +1,69 @@
+To compute the product \( 1A160_{12} \times 834B_{12} \), let's first convert both numbers from base 12 to base 10.
+
+**Step 1: Convert \( 1A160_{12} \) to base 10**
+
+The digits in \( 1A160_{12} \) are 1, A, 1, 6, and 0. In base 12, A represents 10 in decimal.
+
+\[ 1A160_{12} = 1 \cdot 12^4 + 10 \cdot 12^3 + 1 \cdot 12^2 + 6 \cdot 12^1 + 0 \cdot 12^0 \]
+
+Now calculate the value:
+\[ 1 \cdot 12^4 = 1 \cdot 20736 = 20736 \]
+\[ 10 \cdot 12^3 = 10 \cdot 1728 = 17280 \]
+\[ 1 \cdot 12^2 = 1 \cdot 144 = 144 \]
+\[ 6 \cdot 12^1 = 6 \cdot 12 = 72 \]
+\[ 0 \cdot 12^0 = 0 \]
+
+Summing these values:
+\[ 20736 + 17280 + 144 + 72 + 0 = 38232 \]
+
+Therefore, \( 1A160_{12} = 38232_{10} \).
+
+**Step 2: Convert \( 834B_{12} \) to base 10**
+
+The digits in \( 834B_{12} \) are 8, 3, 4, and B. In base 12, B represents 11 in decimal.
+
+\[ 834B_{12} = 8 \cdot 12^3 + 3 \cdot 12^2 + 4 \cdot 12^1 + 11 \cdot 12^0 \]
+
+Now calculate the value:
+\[ 8 \cdot 12^3 = 8 \cdot 1728 = 13824 \]
+\[ 3 \cdot 12^2 = 3 \cdot 144 = 432 \]
+\[ 4 \cdot 12^1 = 4 \cdot 12 = 48 \]
+\[ 11 \cdot 12^0 = 11 \]
+
+Summing these values:
+\[ 13824 + 432 + 48 + 11 = 14315 \]
+
+Therefore, \( 834B_{12} = 14315_{10} \).
+
+**Step 3: Multiply the converted base 10 numbers**
+
+\[ 38232_{10} \times 14315_{10} \]
+
+Now, perform the multiplication:
+\[ 38232 \times 14315 = 547296180 \]
+
+**Step 4: Convert the product back to base 12**
+
+To convert \( 547296180_{10} \) to base 12, we need to repeatedly divide by 12 and record the remainders:
+
+\[
+\begin{aligned}
+547296180 \div 12 &= 45608015 \quad \text{remainder} \ 0 \\
+45608015 \div 12 &= 3800667 \quad \text{remainder} \ 1 \\
+3800667 \div 12 &= 316722 \quad \text{remainder} \ 3 \\
+316722 \div 12 &= 26393 \quad \text{remainder} \ 6 \\
+26393 \div 12 &= 2199 \quad \text{remainder} \ 5 \\
+2199 \div 12 &= 183 \quad \text{remainder} \ 3 \\
+183 \div 12 &= 15 \quad \text{remainder} \ 3 \\
+15 \div 12 &= 1 \quad \text{remainder} \ 3 \\
+1 \div 12 &= 0 \quad \text{remainder} \ 1 \\
+\end{aligned}
+\]
+
+So, concatenating all the remainders from bottom to top, the number in base 12 is:
+\[ 133536310_{12} \]
+
+Therefore, the final answer is:
+\[ 1A160_{12} \times 834B_{12} = 133536310_{12} \]
+
+In one line summary: \( 1A160_{12} \times 834B_{12} = 38232_{10} \times 14315_{10} = 547296180_{10} = 133536310_{12} \).

@@ -1,0 +1,54 @@
+First, we need to convert the base-13 numbers to base-10 to perform the subtraction.
+
+**Convert 12335_{13} to base-10:**
+We break it down by each digit:
+\[ 12335_{13} = 1 \times 13^4 + 2 \times 13^3 + 3 \times 13^2 + 3 \times 13^1 + 5 \times 13^0 \]
+
+Calculating each term:
+\[ 1 \times 13^4 = 1 \times 28561 = 28561 \]
+\[ 2 \times 13^3 = 2 \times 2197 = 4394 \]
+\[ 3 \times 13^2 = 3 \times 169 = 507 \]
+\[ 3 \times 13^1 = 3 \times 13 = 39 \]
+\[ 5 \times 13^0 = 5 \times 1 = 5 \]
+
+Adding these values together:
+\[ 28561 + 4394 + 507 + 39 + 5 = 33506 \]
+
+Therefore:
+\[ 12335_{13} = 33506_{10} \]
+
+**Convert 11658_{13} to base-10:**
+We break it down by each digit:
+\[ 11658_{13} = 1 \times 13^4 + 1 \times 13^3 + 6 \times 13^2 + 5 \times 13^1 + 8 \times 13^0 \]
+
+Calculating each term:
+\[ 1 \times 13^4 = 1 \times 28561 = 28561 \]
+\[ 1 \times 13^3 = 1 \times 2197 = 2197 \]
+\[ 6 \times 13^2 = 6 \times 169 = 1014 \]
+\[ 5 \times 13^1 = 5 \times 13 = 65 \]
+\[ 8 \times 13^0 = 8 \times 1 = 8 \]
+
+Adding these values together:
+\[ 28561 + 2197 + 1014 + 65 + 8 = 31845 \]
+
+Therefore:
+\[ 11658_{13} = 31845_{10} \]
+
+**Perform the subtraction in base-10:**
+\[ 33506 - 31845 = 1661 \]
+
+Now, we need to convert 1661 from base-10 back to base-13.
+
+We'll use successive division and remainders:
+\[ 1661 \div 13 = 127 \quad \text{remainder: } 10 \]
+\[ 127 \div 13 = 9 \quad \text{remainder: } 10 \]
+\[ 9 \div 13 = 0 \quad \text{remainder: } 9 \]
+
+Reading the remainders from bottom to top, the base-13 representation is:
+\[ 1661_{10} = 91010_{13} \]
+
+Therefore:
+\[ 12335_{13} - 11658_{13} = 91010_{13} \]
+
+The full summary: 
+\[ 12335_{13} - 11658_{13} = 33506_{10} - 31845_{10} = 1661_{10} = 91010_{13} \]

@@ -1,0 +1,15 @@
+To calculate this, we can first convert the numbers to base 10, then perform the subtraction, and finally convert the result back to base 6 to get the final answer.
+
+Converting \( 413043_{6} \) to base 10:
+\( 413043_{6} = 4 \times 6^{5} + 1 \times 6^{4} + 3 \times 6^{3} + 0 \times 6^{2} + 4 \times 6^{1} + 3 \times 6^{0} = 37343 \)
+
+Converting \( 110131_{6} \) to base 10:
+\( 110131_{6} = 1 \times 6^{5} + 1 \times 6^{4} + 0 \times 6^{3} + 1 \times 6^{2} + 3 \times 6^{1} + 1 \times 6^{0} = 13049 \)
+
+Now, let's subtract 13049 from 37343:
+\( 37343 - 13049 = 24294 \)
+
+Converting 24294 to base 6:
+\( 24294 = 4 \times 6^{4} + 2 \times 6^{3} + 1 \times 6^{2} + 3 \times 6^{1} + 3 \times 6^{0} = 40233_{6} \)
+
+Therefore, \( 413043_{6} - 110131_{6} = 40233_{6} \)

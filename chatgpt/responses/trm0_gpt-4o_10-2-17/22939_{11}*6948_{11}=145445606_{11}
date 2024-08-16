@@ -1,0 +1,62 @@
+To multiply the numbers \(22939_{11}\) and \(6948_{11}\), we first convert them from base 11 to base 10.
+
+Let's start with \(22939_{11}\):
+
+\[ 22939_{11} = 2 \times 11^4 + 2 \times 11^3 + 9 \times 11^2 + 3 \times 11^1 + 9 \times 11^0 \]
+
+Calculating each term:
+
+\[ 2 \times 11^4 = 2 \times 14641 = 29282 \]
+\[ 2 \times 11^3 = 2 \times 1331 = 2662 \]
+\[ 9 \times 11^2 = 9 \times 121 = 1089 \]
+\[ 3 \times 11^1 = 3 \times 11 = 33 \]
+\[ 9 \times 11^0 = 9 \]
+
+Adding these together:
+
+\[ 29282 + 2662 + 1089 + 33 + 9 = 33075 \]
+
+So, \(22939_{11} = 33075_{10}\).
+
+Next, let's convert \(6948_{11}\):
+
+\[ 6948_{11} = 6 \times 11^3 + 9 \times 11^2 + 4 \times 11^1 + 8 \times 11^0 \]
+
+Calculating each term:
+
+\[ 6 \times 11^3 = 6 \times 1331 = 7986 \]
+\[ 9 \times 11^2 = 9 \times 121 = 1089 \]
+\[ 4 \times 11^1 = 4 \times 11 = 44 \]
+\[ 8 \times 11^0 = 8 \]
+
+Adding these together:
+
+\[ 7986 + 1089 + 44 + 8 = 9127 \]
+
+So, \(6948_{11} = 9127_{10}\).
+
+Now, multiply these two base 10 numbers:
+
+\[ 33075_{10} \times 9127_{10} = 301815225 \]
+
+Finally, we need to convert the result back to base 11. To do this, we continuously divide the result by 11 and record the remainders:
+
+\[ 301815225 \div 11 = 27437747, \text{ remainder } 8 \]
+\[ 27437747 \div 11 = 2494340, \text{ remainder } 7 \]
+\[ 2494340 \div 11 = 226758, \text{ remainder } 2 \]
+\[ 226758 \div 11 = 20614, \text{ remainder } 4 \]
+\[ 20614 \div 11 = 1874, \text{ remainder } 0 \]
+\[ 1874 \div 11 = 170, \text{ remainder } 4 \]
+\[ 170 \div 11 = 15, \text{ remainder } 5 \]
+\[ 15 \div 11 = 1, \text{ remainder } 4 \]
+\[ 1 \div 11 = 0, \text{ remainder } 1 \]
+
+Reading the remainders from bottom to top, we get:
+
+\[ 301815225_{10} = 1404502478_{11} \]
+
+Putting it together:
+
+\[ 22939_{11} \times 6948_{11} = 1404502478_{11} \]
+
+So, the summarized form is: \( 22939_{11} \times 6948_{11} = 33075_{10} \times 9127_{10} = 301815225_{10} = 1404502478_{11} \)

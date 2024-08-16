@@ -1,0 +1,41 @@
+To solve the multiplication \(231A0_{11} \times 21A20_{11}\), we first need to convert the numbers from base 11 to base 10.
+
+#### Converting \(231A0_{11}\) to Base 10:
+The base 11 number \(231A0\) can be expanded as:
+\[ 2 \times 11^4 + 3 \times 11^3 + 1 \times 11^2 + 10 \times 11^1 + 0 \times 11^0 \]
+
+Calculating each term:
+\[ 2 \times 11^4 = 2 \times 14641 = 29282 \]
+\[ 3 \times 11^3 = 3 \times 1331 = 3993 \]
+\[ 1 \times 11^2 = 1 \times 121 = 121 \]
+\[ 10 \times 11^1 = 10 \times 11 = 110 \]
+\[ 0 \times 11^0 = 0 \]
+
+Summing these values:
+\[ 29282 + 3993 + 121 + 110 + 0 = 33506 \]
+
+So, \(231A0_{11}\) in base 10 is \(33506_{10}\).
+
+#### Converting \(21A20_{11}\) to Base 10:
+The base 11 number \(21A20\) can be expanded as:
+\[ 2 \times 11^4 + 1 \times 11^3 + 10 \times 11^2 + 2 \times 11^1 + 0 \times 11^0 \]
+
+Calculating each term:
+\[ 2 \times 11^4 = 2 \times 14641 = 29282 \]
+\[ 1 \times 11^3 = 1 \times 1331 = 1331 \]
+\[ 10 \times 11^2 = 10 \times 121 = 1210 \]
+\[ 2 \times 11^1 = 2 \times 11 = 22 \]
+\[ 0 \times 11^0 = 0 \]
+
+Summing these values:
+\[ 29282 + 1331 + 1210 + 22 + 0 = 31845 \]
+
+So, \(21A20_{11}\) in base 10 is \(31845_{10}\).
+
+#### Multiplying the Base 10 Numbers:
+\[ 33506 \times 31845 = 1067432370 \]
+
+So, \(231A0_{11} \times 21A20_{11} = 1067432370\) in base 10.
+
+#### Final Summary:
+\[ 231A0_{11}*21A20_{11} \rightarrow 33506_{10} * 31845_{10} = 1067432370_{10} \]

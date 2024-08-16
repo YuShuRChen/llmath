@@ -1,0 +1,64 @@
+To solve the equation \( 221302_{6} - 110222_{6} \), we'll first convert each number from base 6 to base 10, perform the subtraction in base 10, and then convert the result back to base 6.
+
+**Step 1: Converting \( 221302_{6} \) to base 10**
+
+\[ 221302_{6} = 2 \cdot 6^5 + 2 \cdot 6^4 + 1 \cdot 6^3 + 3 \cdot 6^2 + 0 \cdot 6^1 + 2 \cdot 6^0 \]
+
+Breaking it down:
+
+\[ 2 \cdot 6^5 = 2 \cdot 7776 = 15552 \]
+\[ 2 \cdot 6^4 = 2 \cdot 1296 = 2592 \]
+\[ 1 \cdot 6^3 = 1 \cdot 216 = 216 \]
+\[ 3 \cdot 6^2 = 3 \cdot 36 = 108 \]
+\[ 0 \cdot 6^1 = 0 \cdot 6 = 0 \]
+\[ 2 \cdot 6^0 = 2 \cdot 1 = 2 \]
+
+Summing these values:
+
+\[ 15552 + 2592 + 216 + 108 + 0 + 2 = 18470 \]
+
+So, \( 221302_{6} = 18470_{10} \).
+
+**Step 2: Converting \( 110222_{6} \) to base 10**
+
+\[ 110222_{6} = 1 \cdot 6^5 + 1 \cdot 6^4 + 0 \cdot 6^3 + 2 \cdot 6^2 + 2 \cdot 6^1 + 2 \cdot 6^0 \]
+
+Breaking it down:
+
+\[ 1 \cdot 6^5 = 1 \cdot 7776 = 7776 \]
+\[ 1 \cdot 6^4 = 1 \cdot 1296 = 1296 \]
+\[ 0 \cdot 6^3 = 0 \cdot 216 = 0 \]
+\[ 2 \cdot 6^2 = 2 \cdot 36 = 72 \]
+\[ 2 \cdot 6^1 = 2 \cdot 6 = 12 \]
+\[ 2 \cdot 6^0 = 2 \cdot 1 = 2 \]
+
+Summing these values:
+
+\[ 7776 + 1296 + 0 + 72 + 12 + 2 = 9158 \]
+
+So, \( 110222_{6} = 9158_{10} \).
+
+**Step 3: Performing the subtraction in base 10**
+
+\[ 18470_{10} - 9158_{10} = 9312_{10} \]
+
+**Step 4: Converting the result from base 10 back to base 6**
+
+To convert \( 9312_{10} \) to base 6, we continuously divide by 6 and track the remainders:
+
+\[ 9312 \div 6 = 1552 \text{ R } 0 \]
+\[ 1552 \div 6 = 258 \text{ R } 4 \]
+\[ 258 \div 6 = 43 \text{ R } 0 \]
+\[ 43 \div 6 = 7 \text{ R } 1 \]
+\[ 7 \div 6 = 1 \text{ R } 1 \]
+\[ 1 \div 6 = 0 \text{ R } 1 \]
+
+Reading the remainders in reverse order, we get \( 111040_{6} \).
+
+Therefore:
+
+\[ 221302_{6} - 110222_{6} = 111040_{6} \]
+
+**Summary:** \( 221302_{6} - 110222_{6} = 18470_{10} - 9158_{10} = 9312_{10} = 111040_{6} \)
+
+Final result: \( 221302_{6} - 110222_{6} = 111040_{6} \)

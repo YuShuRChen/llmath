@@ -1,0 +1,69 @@
+Let's solve the given multiplication of two base-11 numbers by converting them to base-10, performing the multiplication in base-10, and converting the result back to base-11.
+
+First, we'll convert \(21515_{11}\) to base-10.
+
+\[21515_{11} = 2 \times 11^4 + 1 \times 11^3 + 5 \times 11^2 + 1 \times 11^1 + 5 \times 11^0\]
+
+Calculating each term independently:
+
+\[2 \times 11^4 = 2 \times 14641 = 29282\]
+\[1 \times 11^3 = 1 \times 1331 = 1331\]
+\[5 \times 11^2 = 5 \times 121 = 605\]
+\[1 \times 11^1 = 1 \times 11 = 11\]
+\[5 \times 11^0 = 5 \times 1 = 5\]
+
+Adding these up:
+
+\[29282 + 1331 + 605 + 11 + 5 = 31234\]
+
+So, \(21515_{11} = 31234_{10}\).
+
+Now, let's convert \(166A2_{11}\) to base-10.
+
+\[166A2_{11} = 1 \times 11^4 + 6 \times 11^3 + 6 \times 11^2 + 10 \times 11^1 + 2 \times 11^0\]
+
+Calculating each term independently:
+
+\[1 \times 11^4 = 1 \times 14641 = 14641\]
+\[6 \times 11^3 = 6 \times 1331 = 7986\]
+\[6 \times 11^2 = 6 \times 121 = 726\]
+\[10 \times 11^1 = 10 \times 11 = 110\]
+\[2 \times 11^0 = 2 \times 1 = 2\]
+
+Adding these up:
+
+\[14641 + 7986 + 726 + 110 + 2 = 23465\]
+
+So, \(166A2_{11} = 23465_{10}\).
+
+Next, we multiply the two base-10 numbers:
+
+\[31234 \times 23465\]
+
+Calculating the product:
+
+\[31234 \times 23465 = 732878810\]
+
+Finally, we need to convert \(732878810_{10}\) back to base-11.
+
+We'll perform the repeated division by 11 and keep track of the remainders and quotients.
+
+1. \( 732878810 \div 11 = 66625346\) remainder \(4\)
+2. \( 66625346 \div 11 = 6056840\) remainder \(6\)
+3. \( 6056840 \div 11 = 550622\) remainder \(8\)
+4. \( 550622 \div 11 = 50056\) remainder \(6\)
+5. \( 50056 \div 11 = 4559\) remainder \(7\)
+6. \( 4559 \div 11 = 414\) remainder \(5\)
+7. \( 414 \div 11 = 37\) remainder \(7\)
+8. \( 37 \div 11 = 3\) remainder \(4\)
+9. \( 3 \div 11 = 0\) remainder \(3\)
+
+Putting the remainders together gives us the result in base-11 from LSB to MSB:
+
+\[732878810_{10} = 347576864_{11}\]
+
+Therefore, the result is:
+
+\[21515_{11} * 166A2_{11} = 347576864_{11}\]
+
+Summarizing: \(21515_{11} * 166A2_{11} = 31234_{10} * 23465_{10} = 732878810_{10} = 347576864_{11}\)

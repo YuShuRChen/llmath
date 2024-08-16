@@ -1,0 +1,13 @@
+Converting the numbers to base 10:
+
+\(12093_{13} = 1*13^{4} + 2*13^{3} + 0*13^{2} + 9*13^{1} + 3*13^{0} = 28561 \)
+
+\(4201_{13} = 4*13^{3} + 2*13^{2} + 0*13^{1} + 1*13^{0} = 754 \)
+
+Calculating the subtraction in base 10:
+
+\( 28561 - 754 = 27807 \)
+
+Converting the result back to base 13:
+
+\(\boxed{27807_{10}=1A7C6_{13}}\)

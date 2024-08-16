@@ -1,0 +1,38 @@
+First, we need to convert the numbers from base 11 to base 10.
+
+Let's start with \(18A35_{11}\):
+\[ 18A35_{11} = 1 \times 11^4 + 8 \times 11^3 + A \times 11^2 + 3 \times 11^1 + 5 \times 11^0 \]
+\[ A \text{ in base 11 corresponds to } 10 \text{ in base 10} \]
+\[ 18A35_{11} = 1 \times 14641 + 8 \times 1331 + 10 \times 121 + 3 \times 11 + 5 \]
+\[ 18A35_{11} = 14641 + 10648 + 1210 + 33 + 5 \]
+\[ 18A35_{11} = 26537_{10} \]
+
+Now, convert \(13A30_{11}\):
+\[ 13A30_{11} = 1 \times 11^4 + 3 \times 11^3 + A \times 11^2 + 3 \times 11^1 + 0 \times 11^0 \]
+\[ A \text{ (again) in base 11 corresponds to } 10 \text{ in base 10} \]
+\[ 13A30_{11} = 1 \times 14641 + 3 \times 1331 + 10 \times 121 + 3 \times 11 + 0 \]
+\[ 13A30_{11} = 14641 + 3993 + 1210 + 33 + 0 \]
+\[ 13A30_{11} = 19877_{10} \]
+
+Now, multiply the two base 10 numbers:
+\[ 26537_{10} \times 19877_{10} = 527512349_{10} \]
+
+Finally, convert the result back to base 11. This is a complex task, so let's break it down step by step.
+
+\[527512349_{10} \div 11 = 47955668_{\text{R }1} \]
+\[47955668 \div 11 = 4359606_{\text{R }2} \]
+\[4359606 \div 11 = 396328_{\text{R }2} \]
+\[396328 \div 11 = 36029_{\text{R }9} \]
+\[36029 \div 11 = 3275_{\text{R }4} \]
+\[3275 \div 11 = 297_{\text{R }8} \]
+\[297 \div 11 = 27_{\text{R }0}]
+\[27 \div 11 = 2_{\text{R }5}]
+
+Reading remainders from bottom to top, we get the final conversion:
+\[ 527512349_{10} = 250498291_{11} \]
+
+Thus:
+\[ 18A35_{11} \times 13A30_{11} = 527512349_{10} = 250498291_{11} \]
+
+Summary:
+\[ 18A35_{11} \times 13A30_{11} \rightarrow 26537_{10} \times 19877_{10} = 527512349_{10} = 250498291_{11} \]

@@ -1,0 +1,33 @@
+To perform the subtraction 11375_{11} - 2424A_{11}, we need to borrow from the leftmost digit:
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c}
+& & \cancel{1} & 1 & 3 & 7 & 5_{11} \\
+& - & 2 & 4 & 2 & 4 & A_{11} \\
+\cline{2-6}
+\end{array}
+\]
+
+After borrowing, the calculation becomes:
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c}
+& \cancel{1} & \cancelto{11}{11} & 2 & 4 & 7 & 5_{11} \\
+& - & 2 & 4 & 2 & 4 & A_{11} \\
+\cline{2-6}
+\end{array}
+\]
+
+Now, we subtract each column:
+
+Units: $5-10 = -5 = 6_{11}$
+
+Elevens: $7-4 = 3_{11}$
+
+Twelves: $4-2 = 2_{11}$
+
+Thirty-sixes: $2-2 = 0_{11}$
+
+So, the result is $2036_{11}$.
+
+Therefore, $11375_{11}-2424A_{11}=2036_{11}$.

@@ -1,0 +1,101 @@
+To solve the multiplication of two numbers in base 4, we can follow these steps:
+
+1. Convert both numbers from base 4 to base 10.
+2. Perform the multiplication in base 10.
+3. Convert the result back to base 4.
+
+### Step 1: Convert from base 4 to base 10
+
+**Convert \(20023202_4\) to base 10:**
+
+20023202_4 = 2 \cdot 4^7 + 0 \cdot 4^6 + 0 \cdot 4^5 + 2 \cdot 4^4 + 3 \cdot 4^3 + 2 \cdot 4^2 + 0 \cdot 4^1 + 2 \cdot 4^0
+
+\[
+= 2 \cdot 16384 + 0 \cdot 4096 + 0 \cdot 1024 + 2 \cdot 256 + 3 \cdot 64 + 2 \cdot 16 + 0 \cdot 4 + 2 \cdot 1
+\]
+\[
+= 32768 + 0 + 0 + 512 + 192 + 32 + 0 + 2
+\]
+\[
+= 33406_{10}
+\]
+
+**Convert \(13301211_4\) to base 10:**
+
+13301211_4 = 1 \cdot 4^7 + 3 \cdot 4^6 + 3 \cdot 4^5 + 0 \cdot 4^4 + 1 \cdot 4^3 + 2 \cdot 4^2 + 1 \cdot 4^1 + 1 \cdot 4^0
+
+\[
+= 1 \cdot 16384 + 3 \cdot 4096 + 3 \cdot 1024 + 0 \cdot 256 + 1 \cdot 64 + 2 \cdot 16 + 1 \cdot 4 + 1 \cdot 1
+\]
+\[
+= 16384 + 12288 + 3072 + 0 + 64 + 32 + 4 + 1
+\]
+\[
+= 31845_{10}
+\]
+
+### Step 2: Multiply the numbers in base 10
+
+\[
+33406 \times 31845 = 1064099070_{10}
+\]
+
+### Step 3: Convert the result back to base 4
+
+To convert 1064099070 from base 10 to base 4, we use the method of successive division by 4:
+
+\[
+1064099070 \div 4 = 266024767 \quad \text{remainder: 2}
+\]
+\[
+266024767 \div 4 = 66506191 \quad \text{remainder: 3}
+\]
+\[
+66506191 \div 4 = 16626547 \quad \text{remainder: 3}
+\]
+\[
+16626547 \div 4 = 4156636 \quad \text{remainder: 3}
+\]
+\[
+4156636 \div 4 = 1039159 \quad \text{remainder: 0}
+\]
+\[
+1039159 \div 4 = 259789 \quad \text{remainder: 3}
+\]
+\[
+259789 \div 4 = 64947 \quad \text{remainder: 1}
+\]
+\[
+64947 \div 4 = 16236 \quad \text{remainder: 3}
+\]
+\[
+16236 \div 4 = 4059 \quad \text{remainder: 0}
+\]
+\[
+4059 \div 4 = 1014 \quad \text{remainder: 3}
+\]
+\[
+1014 \div 4 = 253 \quad \text{remainder: 2}
+\]
+\[
+253 \div 4 = 63 \quad \text{remainder: 1}
+\]
+\[
+63 \div 4 = 15 \quad \text{remainder: 3}
+\]
+\[
+15 \div 4 = 3 \quad \text{remainder: 3}
+\]
+\[
+3 \div 4 = 0 \quad \text{remainder: 3}
+\]
+
+Writing the remainders from bottom to top, we get:
+
+\[
+1064099070_{10} = 33321303333032_4
+\]
+
+\[
+20023202_{4} \times 13301211_{4} = 20023202_{4} \times 13301211_{4} \rightarrow 33406_{10} \times 31845_{10} = 1064099070_{10} = 33321303333032_{4}
+\]

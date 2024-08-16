@@ -1,0 +1,22 @@
+To multiply two numbers in base 12, we can use the standard long multiplication method. 
+
+```
+  13435
+×  B605
+---------
+```
+
+Calculating the multiplication:
+```
+          13435
+        ×  B605
+ -----------------
+         80415   (5*13435)
+    +     67280   (0*13435 shifted left)
+  +       26940   (6*13435 shifted left twice)
+  +       B6050   (B*13435 shifted left three times)
+ -----------------
+      7A778CB5    (Sum all the partial results)
+```
+
+Therefore, the result of 13435_{12} * B605_{12} is 7A778CB5_{12}.

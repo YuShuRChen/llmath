@@ -1,0 +1,89 @@
+To solve the equation \( 12132221_4 - 10312211_4 \), we first need to convert both numbers from base-4 to base-10, perform the subtraction, and then convert the result back to base-4 if necessary.
+
+### Step 1: Convert \( 12132221_4 \) to base-10
+
+Each digit in a base-4 number represents a value multiplied by a power of 4. Starting from the rightmost digit and moving left, the powers of 4 start from \( 4^0 \).
+
+So for \( 12132221_4 \):
+
+\[
+12132221_4 = 1 \cdot 4^7 + 2 \cdot 4^6 + 1 \cdot 4^5 + 3 \cdot 4^4 + 2 \cdot 4^3 + 2 \cdot 4^2 + 2 \cdot 4^1 + 1 \cdot 4^0 
+\]
+
+Calculating each term:
+
+\[
+= 1 \cdot 16384 + 2 \cdot 4096 + 1 \cdot 1024 + 3 \cdot 256 + 2 \cdot 64 + 2 \cdot 16 + 2 \cdot 4 + 1 \cdot 1
+\]
+\[
+= 16384 + 8192 + 1024 + 768 + 128 + 32 + 8 + 1
+\]
+\[
+= 26537_{10}
+\]
+
+### Step 2: Convert \( 10312211_4 \) to base-10
+
+Similarly, for \( 10312211_4 \):
+
+\[
+10312211_4 = 1 \cdot 4^7 + 0 \cdot 4^6 + 3 \cdot 4^5 + 1 \cdot 4^4 + 2 \cdot 4^3 + 2 \cdot 4^2 + 1 \cdot 4^1 + 1 \cdot 4^0
+\]
+
+Calculating each term:
+
+\[
+= 1 \cdot 16384 + 0 \cdot 4096 + 3 \cdot 1024 + 1 \cdot 256 + 2 \cdot 64 + 2 \cdot 16 + 1 \cdot 4 + 1 \cdot 1
+\]
+\[
+= 16384 + 0 + 3072 + 256 + 128 + 32 + 4 + 1
+\]
+\[
+= 19877_{10}
+\]
+
+### Step 3: Subtract the base-10 results
+
+\[
+26537_{10} - 19877_{10} = 6650_{10}
+\]
+
+### Step 4: Convert the result back to base-4
+
+To convert \( 6650_{10} \) to base-4, we divide by the highest powers of 4 and keep track of the remainders.
+
+\[
+6650 \div 4^6 = 6650 \div 4096 \approx 1 \quad \text{(remainder } 2554)
+\]
+\[
+2554 \div 4^5 = 2554 \div 1024 \approx 2 \quad \text{(remainder } 506)
+\]
+\[
+506 \div 4^4 = 506 \div 256 \approx 1 \quad \text{(remainder } 250)
+\]
+\[
+250 \div 4^3 = 250 \div 64 \approx 3 \quad \text{(remainder } 58)
+\]
+\[
+58 \div 4^2 = 58 \div 16 \approx 3 \quad \text{(remainder } 10)
+\]
+\[
+10 \div 4^1 = 10 \div 4 \approx 2 \quad \text{(remainder } 2)
+\]
+\[
+2 \div 4^0 = 2 \div 1 = 2
+\]
+
+So, the base-4 value is:
+
+\[
+6650_{10} = 1233322_{4}
+\]
+
+### Final result:
+
+\[
+12132221_4 - 10312211_4 = 1_4 \cdot 4^6 + 2_4 \cdot 4^5 + 1_4 \cdot 4^4 + 3_4 \cdot 4^3 + 3_4 \cdot 4^2 + 2_4 \cdot 4^1 + 2_4 \cdot 4^0 = 1233322_4
+\]
+
+So, \( 12132221_{4} - 10312211_{4} = 1233322_{4} \).

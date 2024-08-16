@@ -1,0 +1,25 @@
+To multiply these two numbers in base 8, we can convert them to base 10, perform the multiplication, and then convert the result back to base 8.
+
+Convert $75002_{8}$ to base 10:
+$7*8^4 + 5*8^3 + 0*8^2 + 0*8^1 + 2*8^0 = 7*4096 + 5*512 + 0*64 + 0*8 + 2*1 = 28672 + 2560 + 0 + 0 + 2 = 31234_{10}$
+
+Convert $55651_{8}$ to base 10:
+$5*8^4 + 5*8^3 + 6*8^2 + 5*8^1 + 1*8^0 = 5*4096 + 5*512 + 6*64 + 5*8 + 1*1 = 20480 + 2560 + 384 + 40 + 1 = 23365_{10}$
+
+Multiply $31234_{10}$ by $23365_{10}$:
+$31234_{10} * 23365_{10} = 729332410_{10}$
+
+Convert $729332410_{10}$ to base 8:
+Performing repeated division by 8, we get:
+$729332410 \div 8 = 91166551$ (Remainder: 2)
+$91166551 \div 8 = 11395818$ (Remainder: 7)
+$11395818 \div 8 = 1424472$ (Remainder: 2)
+$1424472 \div 8 = 178059$ (Remainder: 0)
+$178059 \div 8 = 22257$ (Remainder: 3)
+$22257 \div 8 = 2782$ (Remainder: 1)
+$2782 \div 8 = 347$ (Remainder: 6)
+$347 \div 8 = 43$ (Remainder: 3)
+$43 \div 8 = 5$ (Remainder: 3)
+$5 \div 8 = 0$ (Remainder: 5)
+
+Therefore, $31234_{8} * 23365_{8} = 21331712_{8}$

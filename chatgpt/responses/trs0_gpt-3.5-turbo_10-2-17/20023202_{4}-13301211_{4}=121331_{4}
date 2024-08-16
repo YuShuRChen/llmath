@@ -1,0 +1,12 @@
+To subtract the two numbers, we can follow the borrowing method in base-4 arithmetic.
+
+\[
+\begin{array}{}
+\text{  }& 2_{4} & 0_{4} & 2_{4} & 3_{4} & 2_{4} & 0_{4} & 2_{4} \\
+- & 1_{4} & 3_{4} & 3_{4} & 0_{4} & 1_{4} & 2_{4} & 1_{4} \\
+\hline
+& 0_{4} & 3_{4} & 3_{4} & 3_{4} & 1_{4} & 1_{4} & 1_{4}
+\end{array}
+\]
+
+Therefore, \(20023202_{4} - 13301211_{4} = 03331111_{4}\).

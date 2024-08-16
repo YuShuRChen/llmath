@@ -1,0 +1,18 @@
+To multiply the binary numbers \( 101001011101_2 \) and \( 100001001001000_2 \), we can first convert them to decimal (base 10), perform the multiplication, and then convert the result back to binary (base 2).
+
+First, let's convert \( 101001011101_2 \) to decimal:
+\[ 101001011101_2 = 1 \cdot 2^{11} + 0 \cdot 2^{10} + 1 \cdot 2^9 + 0 \cdot 2^8 + 0 \cdot 2^7 + 1 \cdot 2^6 + 1 \cdot 2^5 + 1 \cdot 2^4 + 1 \cdot 2^3 + 0 \cdot 2^2 + 1 \cdot 2^1 + 1 \cdot 2^0 \]
+\[ = 1 \cdot 2048 + 1 \cdot 512 + 1 \cdot 64 + 1 \cdot 32 + 1 \cdot 16 + 1 \cdot 2 + 1 = 2605_{10} \]
+
+Next, let's convert \( 100001001001000_2 \) to decimal:
+\[ 100001001001000_2 = 1 \cdot 2^{14} + 0 \cdot 2^{13} + 0 \cdot 2^{12} + 0 \cdot 2^{11} + 0 \cdot 2^{10} + 1 \cdot 2^9 + 0 \cdot 2^8 + 0 \cdot 2^7 + 1 \cdot 2^6 + 0 \cdot 2^5 + 0 \cdot 2^4 + 1 \cdot 2^3 + 0 \cdot 2^2 + 0 \cdot 2^1 + 0 \cdot 2^0 \]
+\[ = 1 \cdot 16384 + 1 \cdot 512 + 1 \cdot 64 + 1 \cdot 8 = 16968_{10} \]
+
+Now, multiply the two decimal numbers:
+\[ 2605_{10} \times 16968_{10} = 44125640_{10} \]
+
+Finally, convert the result back to binary:
+\[ 44125640_{10} = 1010100000100001010101000_2 \]
+
+Summarized in one line:
+\[ 101001011101_{2} * 100001001001000_{2} = 44125640_{10} = 1010100000100001010101000_{2} \]

@@ -1,0 +1,73 @@
+First, let's convert the base-6 numbers to base-10 decimal numbers.
+
+### Convert 322505_6 to base-10:
+\( 322505_6 \)
+
+\[
+= 3 \times 6^5 + 2 \times 6^4 + 2 \times 6^3 + 5 \times 6^2 + 0 \times 6^1 + 5 \times 6^0 
+\]
+
+\[
+= 3 \times 7776 + 2 \times 1296 + 2 \times 216 + 5 \times 36 + 0 \times 6 + 5 \times 1 
+\]
+
+\[
+= 23328 + 2592 + 432 + 180 + 0 + 5 
+\]
+
+\[
+= 26537 
+\]
+
+### Convert 232005_6 to base-10:
+\( 232005_6 \)
+
+\[
+= 2 \times 6^5 + 3 \times 6^4 + 2 \times 6^3 + 0 \times 6^2 + 0 \times 6^1 + 5 \times 6^0 
+\]
+
+\[
+= 2 \times 7776 + 3 \times 1296 + 2 \times 216 + 0 \times 36 + 0 \times 6 + 5 \times 1 
+\]
+
+\[
+= 15552 + 3888 + 432 + 0 + 0 + 5 
+\]
+
+\[
+= 19877 
+\]
+
+### Subtract the two base-10 numbers:
+\[
+26537 - 19877 = 6650
+\]
+
+### Convert the result (6650 in base-10) back to base-6:
+To find this, we repeatedly divide by 6 and record the remainders.
+
+\[
+6650 \div 6 = 1108 \text{ remainder } 2 
+\]
+\[
+1108 \div 6 = 184 \text{ remainder } 4
+\]
+\[
+184 \div 6 = 30 \text{ remainder } 4
+\]
+\[
+30 \div 6 = 5 \text{ remainder } 0
+\]
+\[
+5 \div 6 = 0 \text{ remainder } 5
+\]
+
+So, \( 6650_{10} = 50442_{6} \).
+
+Therefore, 
+\(
+322505_{6} - 232005_{6} = 50442_{6}
+\).
+
+Summary:
+\( 322505_{6} \rightarrow 26537_{10}, 232005_{6} \rightarrow 19877_{10}, \rightarrow (26537_{10} - 19877_{10} = 6650_{10}), \rightarrow 6650_{10} = 50442_{6} \)

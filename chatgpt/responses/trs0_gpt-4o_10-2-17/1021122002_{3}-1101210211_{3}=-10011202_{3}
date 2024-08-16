@@ -1,0 +1,139 @@
+To solve \( 1021122002_3 - 1101210211_3 \), we first need to convert each number from base 3 to base 10, perform the subtraction in base 10, and then convert the result back to base 3.
+
+### Conversion from Base 3 to Base 10
+
+#### Convert \( 1021122002_3 \) to base 10:
+\[
+1021122002_3 = 1 \cdot 3^9 + 0 \cdot 3^8 + 2 \cdot 3^7 + 1 \cdot 3^6 + 1 \cdot 3^5 + 2 \cdot 3^4 + 2 \cdot 3^3 + 0 \cdot 3^2 + 0 \cdot 3^1 + 2 \cdot 3^0
+\]
+
+Calculating each term:
+\[
+1 \cdot 3^9 = 1 \cdot 19683 = 19683
+\]
+\[
+0 \cdot 3^8 = 0
+\]
+\[
+2 \cdot 3^7 = 2 \cdot 2187 = 4374
+\]
+\[
+1 \cdot 3^6 = 1 \cdot 729 = 729
+\]
+\[
+1 \cdot 3^5 = 1 \cdot 243 = 243
+\]
+\[
+2 \cdot 3^4 = 2 \cdot 81 = 162
+\]
+\[
+2 \cdot 3^3 = 2 \cdot 27 = 54
+\]
+\[
+0 \cdot 3^2 = 0
+\]
+\[
+0 \cdot 3^1 = 0
+\]
+\[
+2 \cdot 3^0 = 2
+\]
+
+Adding these values together:
+\[
+19683 + 4374 + 729 + 243 + 162 + 54 + 2 = 25147
+\]
+
+So, \( 1021122002_3 \) in base 10 is \( 25147 \).
+
+#### Convert \( 1101210211_3 \) to base 10:
+
+\[
+1101210211_3 = 1 \cdot 3^9 + 1 \cdot 3^8 + 0 \cdot 3^7 + 1 \cdot 3^6 + 2 \cdot 3^5 + 1 \cdot 3^4 + 0 \cdot 3^3 + 2 \cdot 3^2 + 1 \cdot 3^1 + 1 \cdot 3^0
+\]
+
+Calculating each term:
+\[
+1 \cdot 3^9 = 1 \cdot 19683 = 19683
+\]
+\[
+1 \cdot 3^8 = 1 \cdot 6561 = 6561
+\]
+\[
+0 \cdot 3^7 = 0
+\]
+\[
+1 \cdot 3^6 = 1 \cdot 729 = 729
+\]
+\[
+2 \cdot 3^5 = 2 \cdot 243 = 486
+\]
+\[
+1 \cdot 3^4 = 1 \cdot 81 = 81
+\]
+\[
+0 \cdot 3^3 = 0
+\]
+\[
+2 \cdot 3^2 = 2 \cdot 9 = 18
+\]
+\[
+1 \cdot 3^1 = 1 \cdot 3 = 3
+\]
+\[
+1 \cdot 3^0 = 1
+\]
+
+Adding these values together:
+\[
+19683 + 6561 + 729 + 486 + 81 + 18 + 3 + 1 = 27562
+\]
+
+So, \( 1101210211_3 \) in base 10 is \( 27562 \).
+
+### Subtraction in Base 10:
+
+\[
+25147_{10} - 27562_{10} = -2415_{10}
+\]
+
+### Convert \(-2415_{10}\) back to Base 3:
+
+To convert a negative number to base 3, convert the positive magnitude first, then affix the negative sign.
+
+Convert \( 2415_{10} \) to base 3:
+\[
+2415 \div 3 = 805 \text{ R } 0
+\]
+\[
+805 \div 3 = 268 \text{ R } 1
+\]
+\[
+268 \div 3 = 89 \text{ R } 1
+\]
+\[
+89 \div 3 = 29 \text{ R } 2
+\]
+\[
+29 \div 3 = 9 \text{ R } 2
+\]
+\[
+9 \div 3 = 3 \text{ R } 0
+\]
+\[
+3 \div 3 = 1 \text{ R } 0
+\]
+\[
+1 \div 3 = 0 \text{ R } 1
+\]
+
+Reading the remainders from bottom to top, we get \( 2415_{10} = 10221010_3 \).
+
+Therefore, \(-2415_{10} = -10221010_3\).
+
+### Final Answer:
+\[
+1021122002_{3} - 1101210211_{3} = -10221010_{3}
+\]
+
+\(\boxed{1021122002_3 - 1101210211_3 = 1021122002_3 (25147_{10}) - 1101210211_3 (27562_{10}) = -10221010_3\)}

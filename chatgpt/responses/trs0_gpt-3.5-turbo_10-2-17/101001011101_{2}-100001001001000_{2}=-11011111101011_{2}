@@ -1,0 +1,21 @@
+First, we need to convert the numbers to decimal, perform the subtraction, and then convert the result back to binary.
+
+Converting \(101001011101_{2}\) to decimal:  
+\( = 1 \times 2^{11} + 0 \times 2^{10} + 1 \times 2^{9} + 0 \times 2^{8} + 0 \times 2^{7} + 1 \times 2^{6} + 0 \times 2^{5} + 1 \times 2^{4} + 1 \times 2^{3} + 1 \times 2^{2} + 1 \times 2^{1} + 0 \times 2^{0} \)  
+\( = 2048 + 512 + 256 + 64 + 32 + 16 + 4 + 2 + 1 \)  
+\( = 2935 \)
+
+Converting \(100001001001000_{2}\) to decimal:  
+\( = 1 \times 2^{14} + 1 \times 2^{13} + 1 \times 2^{10} + 1 \times 2^{7} + 1 \times 2^{5} + 1 \times 2^{4} \)  
+\( = 16384 + 8192 + 1024 + 128 + 32 + 16 \)  
+\( = 24976 \)
+
+Performing the subtraction:  
+\( 2935 - 24976 = -22041 \)
+
+Converting -22041 to binary:  
+\( = -2^{15} + 2^{14} + 2^{13} + 2^{12} + 2^{11} + 2^{10} + 2^{9} + 2^{8} + 2^{5} + 2^{1} \)  
+\( = 1 \times 2^{14} + 1 \times 2^{13} + 1 \times 2^{12} + 1 \times 2^{11} + 1 \times 2^{10} + 1 \times 2^{9} + 1 \times 2^{8} + 1 \times 2^{5} + 1 \times 2^{1} \)  
+\( = 111111000110111_{2} \)
+
+Therefore, \(101001011101_{2} - 100001001001000_{2} = 111111000110111_{2}\).

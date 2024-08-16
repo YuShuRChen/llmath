@@ -1,0 +1,87 @@
+To solve the multiplication \(75002_{8} \times 55651_{8}\), we should first convert these octal (base-8) numbers to decimal (base-10).
+
+For \(75002_{8}\):
+
+\[
+7 \times 8^4 + 5 \times 8^3 + 0 \times 8^2 + 0 \times 8^1 + 2 \times 8^0
+\]
+
+Breaking it down:
+
+\[
+7 \times 4096 = 28672
+\]
+\[
+5 \times 512 = 2560
+\]
+\[
+0 \times 64 = 0
+\]
+\[
+0 \times 8 = 0
+\]
+\[
+2 \times 1 = 2
+\]
+
+Adding these together:
+
+\[
+28672 + 2560 + 0 + 0 + 2 = 31234
+\]
+
+So, \(75002_{8} = 31234_{10}\).
+
+For \(55651_{8}\):
+
+\[
+5 \times 8^4 + 5 \times 8^3 + 6 \times 8^2 + 5 \times 8^1 + 1 \times 8^0
+\]
+
+Breaking it down:
+
+\[
+5 \times 4096 = 20480
+\]
+\[
+5 \times 512 = 2560
+\]
+\[
+6 \times 64 = 384
+\]
+\[
+5 \times 8 = 40
+\]
+\[
+1 \times 1 = 1
+\]
+
+Adding these together:
+
+\[
+20480 + 2560 + 384 + 40 + 1 = 23465
+\]
+
+So, \(55651_{8} = 23465_{10}\).
+
+Now, multiply the decimal equivalents:
+
+\[
+31234_{10} \times 23465_{10}
+\]
+
+Performing the multiplication:
+
+\[
+31234 \times 23465 = 732292610
+\]
+
+Finally, convert this decimal result back to octal:
+
+\[
+732292610_{10} \to 5260035632_{8}
+\]
+
+Thus, the complete solution can be summarized as:
+
+\(75002_{8} \times 55651_{8} = 75002_{8}\equiv31234_{10}, 55651_{8}\equiv23465_{10}, 31234_{10} \times 23465_{10} = 732292610_{10} \equiv 5260035632_{8}\).

@@ -1,0 +1,86 @@
+To solve \(853A_{13} \times 4226_{13}\), we need to perform multiplication by first converting the numbers from base 13 to base 10, multiply them, and then convert the result back to base 13.
+
+### Step-by-Step Solution:
+
+1. **Convert \(853A_{13}\) to base 10:**
+   - Place value coefficients in base 13: \(853A_{13} = 8 \times 13^3 + 5 \times 13^2 + 3 \times 13^1 + 10 \times 13^0\)
+   - Calculate each term:
+     \[
+     8 \times 13^3 = 8 \times 2197 = 17576
+     \]
+     \[
+     5 \times 13^2 = 5 \times 169 = 845
+     \]
+     \[
+     3 \times 13^1 = 3 \times 13 = 39
+     \]
+     \[
+     10 \times 13^0 = 10 \times 1 = 10
+     \]
+   - Sum the calculated terms:
+     \[
+     17576 + 845 + 39 + 10 = 18470
+     \]
+   - Thus, \(853A_{13} = 18470_{10}\).
+
+2. **Convert \(4226_{13}\) to base 10:**
+   - Place value coefficients in base 13: \(4226_{13} = 4 \times 13^3 + 2 \times 13^2 + 2 \times 13^1 + 6 \times 13^0\)
+   - Calculate each term:
+     \[
+     4 \times 13^3 = 4 \times 2197 = 8788
+     \]
+     \[
+     2 \times 13^2 = 2 \times 169 = 338
+     \]
+     \[
+     2 \times 13^1 = 2 \times 13 = 26
+     \]
+     \[
+     6 \times 13^0 = 6 \times 1 = 6
+     \]
+   - Sum the calculated terms:
+     \[
+     8788 + 338 + 26 + 6 = 9158
+     \]
+   - Thus, \(4226_{13} = 9158_{10}\).
+
+3. **Multiply the two base 10 numbers:**
+   \[
+   18470_{10} \times 9158_{10} = 169098260
+   \]
+
+4. **Convert the result \(169098260_{10}\) back to base 13:**
+   - This step involves repeated division by 13 and recording the remainders:
+     \[
+     169098260 \div 13 = 13007558 \text{ remainder } 6
+     \]
+     \[
+     13007558 \div 13 = 1000581 \text{ remainder } 5
+     \]
+     \[
+     1000581 \div 13 = 76968 \text{ remainder } 5
+     \]
+     \[
+     76968 \div 13 = 5920 \text{ remainder } 8
+     \]
+     \[
+     5920 \div 13 = 455 \text{ remainder } 5
+     \]
+     \[
+     455 \div 13 = 35  \text{ remainder } 0
+     \]
+     \[
+     35 \div 13 = 2 \text{ remainder } 9
+     \]
+     \[
+     2 \div 13 = 0 \text{ remainder } 2
+     \]
+   - Collecting all the remainders from bottom to top gives the base 13 representation:
+     \[
+     169098260_{10} = 29505856_{13}
+     \]
+
+Finally:
+\[
+853A_{13} \times 4226_{13} = 29505856_{13}
+\]

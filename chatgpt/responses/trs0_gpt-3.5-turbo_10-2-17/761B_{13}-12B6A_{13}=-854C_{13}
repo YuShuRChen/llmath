@@ -1,0 +1,14 @@
+To compute this, we will first convert the numbers to base 10, perform the subtraction, and then convert the result back to base 13.
+
+Converting \( 761B_{13} \) to base 10:
+\( 7 \times 13^3 + 6 \times 13^2 + 1 \times 13^1 + 11 \times 13^0 = 7 \times 2197 + 6 \times 169 + 1 \times 13 + 11 \times 1 = 15379 + 1014 + 13 + 11 = 16317 \).
+
+Converting \( 12B6A_{13} \) to base 10:
+\( 1 \times 13^4 + 2 \times 13^3 + 11 \times 13^2 + 6 \times 13^1 + 10 \times 13^0 = 1 \times 28561 + 2 \times 2197 + 11 \times 169 + 6 \times 13 + 10 \times 1 = 28561 + 4394 + 1861 + 78 + 10 = 34904 \).
+
+Subtracting \( 34904 - 16317 = 18587 \).
+
+Converting 18587 to base 13:
+\( 18587 = 1 \times 13^4 + 4 \times 13^3 + 12 \times 13^2 + 7 \times 13^1 + 6 \times 13^0 = 1 \times 28561 + 4 \times 2197 + 12 \times 169 + 7 \times 13 + 6 \times 1 = 28561 + 8788 + 2028 + 91 + 6 = 39474 \).
+
+Therefore, \( 761B_{13} - 12B6A_{13} = 39474_{13} \).

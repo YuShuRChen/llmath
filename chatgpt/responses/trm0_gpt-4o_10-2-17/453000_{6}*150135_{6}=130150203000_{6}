@@ -1,0 +1,39 @@
+To compute the product of these two numbers, we will first convert them from base 6 to base 10, perform the multiplication in base 10, and then if you need, we can convert the result back to base 6.
+
+1. Convert \(453000_{6}\) to base 10:
+   \[
+   453000_{6} = 4 \cdot 6^5 + 5 \cdot 6^4 + 3 \cdot 6^3 + 0 \cdot 6^2 + 0 \cdot 6^1 + 0 \cdot 6^0
+   \]
+   \[
+   = 4 \cdot 7776 + 5 \cdot 1296 + 3 \cdot 216 + 0 \cdot 36 + 0 \cdot 6 + 0 \cdot 1
+   \]
+   \[
+   = 31104 + 6480 + 648
+   \]
+   \[
+   = 38232_{10}
+   \]
+
+2. Convert \(150135_{6}\) to base 10:
+   \[
+   150135_{6} = 1 \cdot 6^5 + 5 \cdot 6^4 + 0 \cdot 6^3 + 1 \cdot 6^2 + 3 \cdot 6^1 + 5 \cdot 6^0
+   \]
+   \[
+   = 1 \cdot 7776 + 5 \cdot 1296 + 0 \cdot 216 + 1 \cdot 36 + 3 \cdot 6 + 5 \cdot 1
+   \]
+   \[
+   = 7776 + 6480 + 0 + 36 + 18 + 5
+   \]
+   \[
+   = 14315_{10}
+   \]
+
+3. Perform the multiplication in base 10:
+   \[
+   38232_{10} \cdot 14315_{10} = 547438680_{10}
+   \]
+
+Summary:
+\[
+453000_{6} \cdot 150135_{6} = 38232_{10} \cdot 14315_{10} = 547438680_{10}
+\]

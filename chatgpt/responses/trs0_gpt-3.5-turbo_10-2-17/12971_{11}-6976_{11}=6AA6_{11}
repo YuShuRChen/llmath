@@ -1,0 +1,32 @@
+To subtract two numbers in base 11:
+
+Carry out borrowing whenever necessary and then subtract each digit column by column.
+
+Converting 6976_{11} to base 11: 
+
+6976_{11} =  6*11^3 +  9*11^2 + 7*11^1 + 6*11^0 =  6*1331 + 9*121 + 7*11 + 6 = 7986_{10}
+
+12971_{11} - 7986_{10} =  12971_{11} - 7986_{11}
+
+Adding leading zero to 7986_{11} to align the columns:
+
+12971_{11}
+-07986_{11}
+
+Starting with the rightmost column:
+
+1 - 6 = -5 
+Carry over 1 from the next column.
+11 + 2 - 8 = 5
+4 - 9 = -5
+Carry over 1 from the next column.
+11 + 9 - 7 = 13
+1 - 0 = 1
+Carry over 1 from the next column.
+1 - 0 = 1
+Carry over 1 from the next column.
+1 - 0 = 1
+
+Combining these results, we obtain  5991_{11} as the final result.
+
+Therefore, 12971_{11} - 6976_{11} = 5991_{11}.

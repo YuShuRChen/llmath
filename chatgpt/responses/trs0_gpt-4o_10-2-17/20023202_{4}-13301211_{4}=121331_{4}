@@ -1,0 +1,125 @@
+To solve the equation \(20023202_4 - 13301211_4\), we first need to convert both numbers from base 4 to base 10, perform the subtraction in base 10, and convert the result back to base 4.
+
+**Step 1: Convert \(20023202_4\) to base 10.**
+
+The number \(20023202_4\) can be expressed as:
+\[
+2 \times 4^7 + 0 \times 4^6 + 0 \times 4^5 + 2 \times 4^4 + 3 \times 4^3 + 2 \times 4^2 + 0 \times 4^1 + 2 \times 4^0
+\]
+
+Calculate each term:
+\[
+2 \times 4^7 = 2 \times 16384 = 32768
+\]
+\[
+0 \times 4^6 = 0 \times 4096 = 0
+\]
+\[
+0 \times 4^5 = 0 \times 1024 = 0
+\]
+\[
+2 \times 4^4 = 2 \times 256 = 512
+\]
+\[
+3 \times 4^3 = 3 \times 64 = 192
+\]
+\[
+2 \times 4^2 = 2 \times 16 = 32
+\]
+\[
+0 \times 4^1 = 0 \times 4 = 0
+\]
+\[
+2 \times 4^0 = 2 \times 1 = 2
+\]
+
+Add all the terms together:
+\[
+32768 + 0 + 0 + 512 + 192 + 32 + 0 + 2 = 33506
+\]
+
+So, \(20023202_4 = 33506_{10}\).
+
+**Step 2: Convert \(13301211_4\) to base 10.**
+
+The number \(13301211_4\) can be expressed as:
+\[
+1 \times 4^7 + 3 \times 4^6 + 3 \times 4^5 + 0 \times 4^4 + 1 \times 4^3 + 2 \times 4^2 + 1 \times 4^1 + 1 \times 4^0
+\]
+
+Calculate each term:
+\[
+1 \times 4^7 = 1 \times 16384 = 16384
+\]
+\[
+3 \times 4^6 = 3 \times 4096 = 12288
+\]
+\[
+3 \times 4^5 = 3 \times 1024 = 3072
+\]
+\[
+0 \times 4^4 = 0 \times 256 = 0
+\]
+\[
+1 \times 4^3 = 1 \times 64 = 64
+\]
+\[
+2 \times 4^2 = 2 \times 16 = 32
+\]
+\[
+1 \times 4^1 = 1 \times 4 = 4
+\]
+\[
+1 \times 4^0 = 1 \times 1 = 1
+\]
+
+Add all the terms together:
+\[
+16384 + 12288 + 3072 + 0 + 64 + 32 + 4 + 1 = 31845
+\]
+
+So, \(13301211_4 = 31845_{10}\).
+
+**Step 3: Perform the subtraction in base 10.**
+
+\[
+33506_{10} - 31845_{10} = 1661_{10}
+\]
+
+**Step 4: Convert \(1661_{10}\) back to base 4.**
+
+To convert a decimal number to base 4, we divide it by 4 and keep track of the remainders:
+
+\[
+1661 \div 4 = 415\ \text{remainder}\ 1
+\]
+\[
+415 \div 4 = 103\ \text{remainder}\ 3
+\]
+\[
+103 \div 4 = 25\ \text{remainder}\ 3
+\]
+\[
+25 \div 4 = 6\ \text{remainder}\ 1
+\]
+\[
+6 \div 4 = 1\ \text{remainder}\ 2
+\]
+\[
+1 \div 4 = 0\ \text{remainder}\ 1
+\]
+
+Reading the remainders from bottom to top, the base 4 representation is:
+\[
+1661_{10} = 121331_4
+\]
+
+**Summary of steps:**
+\[
+20023202_4 \to 33506_{10}, 13301211_4 \to 31845_{10}, 33506_{10} - 31845_{10} = 1661_{10}, 1661_{10} = 121331_4
+\]
+
+So, the final result is:
+\[
+20023202_4 - 13301211_4 = 121331_4
+\]

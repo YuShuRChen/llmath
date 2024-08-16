@@ -1,0 +1,59 @@
+To compute the product of two numbers in base 7 (133415_7 and 143233_7), we first need to convert these numbers to base 10, perform the multiplication in base 10, and then convert the result back to base 7.
+
+### Step 1: Convert 133415_7 to Base 10
+We start with the number 133415 in base 7. The conversion to base 10 is done by evaluating the polynomial representation of the number:
+\[ 133415_7 = 1 \cdot 7^5 + 3 \cdot 7^4 + 3 \cdot 7^3 + 4 \cdot 7^2 + 1 \cdot 7^1 + 5 \cdot 7^0 \]
+
+Calculating each term separately:
+\[ 1 \cdot 7^5 = 1 \cdot 16807 = 16807 \]
+\[ 3 \cdot 7^4 = 3 \cdot 2401 = 7203 \]
+\[ 3 \cdot 7^3 = 3 \cdot 343 = 1029 \]
+\[ 4 \cdot 7^2 = 4 \cdot 49 = 196 \]
+\[ 1 \cdot 7^1 = 1 \cdot 7 = 7 \]
+\[ 5 \cdot 7^0 = 5 \cdot 1 = 5 \]
+
+Summing these values:
+\[ 16807 + 7203 + 1029 + 196 + 7 + 5 = 25247_{10} \]
+
+### Step 2: Convert 143233_7 to Base 10
+Next, we convert 143233 in base 7:
+\[ 143233_7 = 1 \cdot 7^5 + 4 \cdot 7^4 + 3 \cdot 7^3 + 2 \cdot 7^2 + 3 \cdot 7^1 + 3 \cdot 7^0 \]
+
+Calculating each term separately:
+\[ 1 \cdot 7^5 = 1 \cdot 16807 = 16807 \]
+\[ 4 \cdot 7^4 = 4 \cdot 2401 = 9604 \]
+\[ 3 \cdot 7^3 = 3 \cdot 343 = 1029 \]
+\[ 2 \cdot 7^2 = 2 \cdot 49 = 98 \]
+\[ 3 \cdot 7^1 = 3 \cdot 7 = 21 \]
+\[ 3 \cdot 7^0 = 3 \cdot 1 = 3 \]
+
+Summing these values:
+\[ 16807 + 9604 + 1029 + 98 + 21 + 3 = 27562_{10} \]
+
+### Step 3: Multiply the Base 10 Equivalents
+Now, we multiply the two base 10 numbers:
+\[ 25247_{10} \times 27562_{10} =  695475514_{10} \]
+
+### Step 4: Convert the Product Back to Base 7
+We need to convert the result (695475514) back to base 7. 
+
+Divisions by 7 repeatedly yield the coefficients from least significant to most significant:
+\[ 695475514 \div 7 = 99353644 \quad \text{remainder } 6 \]
+\[ 99353644 \div 7 = 14193492 \quad \text{remainder } 0 \]
+\[ 14193492 \div 7 = 2027641 \quad \text{remainder } 5 \]
+\[ 2027641 \div 7 = 289805 \quad \text{remainder } 6 \]
+\[ 289805 \div 7 = 41399 \quad \text{remainder } 2 \]
+\[ 41399 \div 7 = 5914 \quad \text{remainder } 1 \]
+\[ 5914 \div 7 = 845 \quad \text{remainder } 9  (13 in base-7 equivalent to 13-7*x signs correct remainder=6 carry=1 add next quotient) 1  (5914-4137=777 factor carry= here multiply half drop 0 \]
+\[ 845 \div 7 = 120 remainder 6 \]
+\[ 120 \div 7 = 17 remainder 1 \]
+\[ 17 \div 7 = 2 remainder 3 \]
+\[ 2 \div 7 = 0 remainder 2 \]
+
+So, our final base 7 number reads from bottom to top returning top by replacing :
+\[ 230166356206_{7} \]
+
+Thus:
+\[ 133415_7 * 143233_7 = 230166356206_{7}. \]
+
+\[ 133415_{7} * 143233_{7} = 25247_{10} * 27562_{10} = 695475514_{10} = 230166356206_{7} \]

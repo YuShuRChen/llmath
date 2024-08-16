@@ -1,0 +1,43 @@
+First, let's convert the given numbers from base 14 to base 10 to simplify the multiplication.
+
+For \( DD0C_{14} \):
+D = 13, 0 = 0, C = 12.
+So,
+\[ DD0C_{14} = 13 \cdot 14^3 + 13 \cdot 14^2 + 0 \cdot 14^1 + 12 \cdot 14^0 \]
+\[ = 13 \cdot 2744 + 13 \cdot 196 + 0 \cdot 14 + 12 \]
+\[ = 35672 + 2548 + 12 \]
+\[ = 38232 \]
+
+Now for \( 5307_{14} \):
+5 = 5, 3 = 3, 0 = 0, 7 = 7.
+So,
+\[ 5307_{14} = 5 \cdot 14^3 + 3 \cdot 14^2 + 0 \cdot 14^1 + 7 \cdot 14^0 \]
+\[ = 5 \cdot 2744 + 3 \cdot 196 + 0 \cdot 14 + 7 \]
+\[ = 13720 + 588 + 7 \]
+\[ = 14315 \]
+
+Now, multiply the two numbers in base 10:
+\[ 38232 \times 14315 \]
+Let's directly multiply these:
+\[ 38232 \times 14315 = 547146180 \]
+
+Next, we need to convert \( 547146180 \) from base 10 back to base 14.
+
+To do this, repeatedly divide by 14 and record the remainder:
+\[ 547146180 \div 14 = 39081870 \text{ remainder } 10 \]
+\[ 39081870 \div 14 = 2791562 \text{ remainder } 2 \]
+\[ 2791562 \div 14 = 199397 \text{ remainder } 10 \]
+\[ 199397 \div 14 = 14242 \text{ remainder } 5 \]
+\[ 14242 \div 14 = 1017 \text{ remainder } 10 \]
+\[ 1017 \div 14 = 72 \text{ remainder } 9 \]
+\[ 72 \div 14 = 5 \text{ remainder } 2 \]
+\[ 5 \div 14 = 0 \text{ remainder } 5 \]
+
+Reading the remainders from last to first, the base 14 representation is:
+\[ 547146180_{10} = 529A5A210_{14} \]
+
+Thus, we have:
+\[ DD0C_{14} \times 5307_{14} = 529A5A210_{14} \]
+
+In one line:
+\[ DD0C_{14} \times 5307_{14} = 38232_{10} \times 14315_{10} = 547146180_{10} = 529A5A210_{14} \]

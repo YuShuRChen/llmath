@@ -1,0 +1,79 @@
+To solve \( 761B_{13} - 12B6A_{13} \), we first need to convert both numbers from base 13 to base 10, perform the subtraction, and then convert the result back to base 13.
+
+1. Convert \( 761B_{13} \) to base 10:
+   \[
+   761B_{13} = 7 \times 13^4 + 6 \times 13^3 + 1 \times 13^2 + 11 \times 13^1
+   \]
+   Calculate each term:
+   \[
+   13^4 = 28561
+   \]
+   \[
+   7 \times 28561 = 199927
+   \]
+   \[
+   13^3 = 2197
+   \]
+   \[
+   6 \times 2197 = 13182
+   \]
+   \[
+   13^2 = 169
+   \]
+   \[
+   1 \times 169 = 169
+   \]
+   \[
+   11 \times 13 = 143
+   \]
+   Now, sum these results:
+   \[
+   199927 + 13182 + 169 + 143 = 213421
+   \]
+   So, 
+   \[
+   761B_{13} = 213421_{10}
+   \]
+
+2. Convert \( 12B6A_{13} \) to base 10:
+   \[
+   12B6A_{13} = 1 \times 13^5 + 2 \times 13^4 + 11 \times 13^3 + 6 \times 13^2 + 10 \times 13^1
+   \]
+   Calculate each term:
+   \[
+   13^5 = 371293
+   \]
+   \[
+   1 \times 371293 = 371293
+   \]
+   \[
+   2 \times 28561 = 57122
+   \]
+   \[
+   11 \times 2197 = 24167
+   \]
+   \[
+   6 \times 169 = 1014
+   \]
+   \[
+   10 \times 13 = 130
+   \]
+   Now, sum these results:
+   \[
+   371293 + 57122 + 24167 + 1014 + 130 = 453726
+   \]
+   So,
+   \[
+   12B6A_{13} = 453726_{10}
+   \]
+
+3. Perform the subtraction in base 10:
+   \[
+   213421 - 453726 = -240305
+   \]
+   Since the result is negative, it means \( 12B6A_{13} \) is greater than \( 761B_{13} \).
+
+So, \( 761B_{13} - 12B6A_{13} = -240305_{10} \).
+
+In combined steps and summary:
+\[ 761B_{13} - 12B6A_{13} = (213421_{10} - 453726_{10}) = -240305_{10} \]

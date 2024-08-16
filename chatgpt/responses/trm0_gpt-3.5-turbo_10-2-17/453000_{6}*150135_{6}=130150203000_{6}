@@ -1,0 +1,16 @@
+To multiply these two numbers in base 6, we can use the standard multiplication method.
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c@{}c}
+& & & 4 & 5 & 3 & 0 & 0 & 0_{6} \\
+\times & & & 1 & 5 & 0 & 1 & 3 & 5_{6} \\
+\hline
+& & & & & & 3 & 2 & 5_{6} \\
+& & & & 4 & 5 & 3 & 0 & 0_{6} \\
+& & 2 & 2 & 6 & 3 & 3 & 2 & 0_{6} \\
+\hline
+& 2 & 4 & 2 & 3 & 1 & 0 & 5 & 0 & 0_{6} \\
+\end{array}
+\]
+
+The result of \(453000_6 \times 150135_6\) is \(242310500_{6}\).

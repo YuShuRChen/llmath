@@ -1,0 +1,11 @@
+To compute the product $1AA2_{11} \times 11826_{11}$, we convert the numbers to base 10, multiply them, and convert the result back to base 11.
+
+$1AA2_{11} = 1 \times 11^3 + 10 \times 11^2 + 10 \times 11^1 + 2 \times 11^0 = 14641$
+
+$11826_{11} = 1 \times 11^4 + 1 \times 11^3 + 8 \times 11^2 + 2 \times 11^1 + 6 \times 11^0 = 183173$
+
+$14641 \times 183173 = 2684316533$
+
+Converting $2684316533$ to base 11 gives $1A6334998_{11}$.
+
+Therefore, $1AA2_{11} \times 11826_{11} = 1A6334998_{11}$.

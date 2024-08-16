@@ -1,0 +1,30 @@
+To solve the equation \(7732_{15} - 8277_{15}\), we first need to convert the numbers from base 15 to base 10, perform the subtraction in base 10, and then convert the result back to base 15. Let's start with conversions.
+
+1. **Convert \(7732_{15}\) to base 10:**
+   - \(7 \cdot 15^3 + 7 \cdot 15^2 + 3 \cdot 15^1 + 2 \cdot 15^0\)
+   - \(7 \cdot 3375 + 7 \cdot 225 + 3 \cdot 15 + 2\)
+   - \(23625 + 1575 + 45 + 2 = 25247_{10}\)
+
+2. **Convert \(8277_{15}\) to base 10:**
+   - \(8 \cdot 15^3 + 2 \cdot 15^2 + 7 \cdot 15^1 + 7 \cdot 15^0\)
+   - \(8 \cdot 3375 + 2 \cdot 225 + 7 \cdot 15 + 7\)
+   - \(27000 + 450 + 105 + 7 = 27562_{10}\)
+
+3. **Subtract the base 10 numbers:**
+   - \(25247_{10} - 27562_{10} = -2315_{10}\)
+
+4. **Convert \(-2315_{10}\) to base 15:**
+
+   Since \(-2315_{10}\) is negative, we'll find the positive equivalent first and then indicate it's negative.
+   1. Divide 2315 by 15 until we get all remainders:
+      - \(2315 ÷ 15 = 154 \quad \text{remainder} \ 5\)
+      - \(154 ÷ 15 = 10 \quad \text{remainder} \ 4\)
+      - \(10 ÷ 15 = 0 \quad \text{remainder} \ 10\)
+   
+      So, \(2315_{10} = 10A5_{15}\)
+
+Putting it together, we have:
+\(7732_{15} - 8277_{15} = -10A5_{15}\)
+
+Summarized in the desired format:
+7732_{15} - 8277_{15} = 25247_{10} - 27562_{10} = -2315_{10} = -10A5_{15}

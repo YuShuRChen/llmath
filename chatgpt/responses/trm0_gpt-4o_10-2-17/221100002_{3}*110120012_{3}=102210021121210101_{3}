@@ -1,0 +1,114 @@
+To compute the product of 221100002_3 and 110120012_3, we first need to convert these ternary (base-3) numbers into decimal (base-10).
+
+First, let's convert 221100002_3 to base-10.
+The conversion is done by multiplying each digit by 3 raised to the power of its position index (counting from right, starting with 0).
+
+\[
+221100002_3 = 2 \cdot 3^8 + 2 \cdot 3^7 + 1 \cdot 3^6 + 1 \cdot 3^5 + 0 \cdot 3^4 + 0 \cdot 3^3 + 0 \cdot 3^2 + 0 \cdot 3^1 + 2 \cdot 3^0 
+\]
+
+Calculating the powers of 3:
+
+\[
+= 2 \cdot 6561 + 2 \cdot 2187 + 1 \cdot 729 + 1 \cdot 243 + 0 \cdot 81 + 0 \cdot 27 + 0 \cdot 9 + 0 \cdot 3 + 2 \cdot 1 
+\]
+
+\[
+= 13122 + 4374 + 729 + 243 + 2 = 18270
+\]
+
+Thus, 221100002_3 in base-10 is 18270.
+
+Next, let's convert 110120012_3 to base-10 using a similar process:
+
+\[
+110120012_3 = 1 \cdot 3^8 + 1 \cdot 3^7 + 0 \cdot 3^6 + 1 \cdot 3^5 + 2 \cdot 3^4 + 0 \cdot 3^3 + 0 \cdot 3^2 + 1 \cdot 3^1 + 2 \cdot 3^0 
+\]
+
+\[
+= 1 \cdot 6561 + 1 \cdot 2187 + 0 \cdot 729 + 1 \cdot 243 + 2 \cdot 81 + 0 \cdot 27 + 0 \cdot 9 + 1 \cdot 3 + 2 \cdot 1
+\]
+
+\[
+= 6561 + 2187 + 243 + 162 + 3 + 2 = 9158
+\]
+
+Thus, 110120012_3 in base-10 is 9158.
+
+Now, we multiply these two base-10 numbers:
+
+\[
+18270 \cdot 9158 = 167290260
+\]
+
+Finally, we convert the product 167290260 from base-10 back to base-3. This is done by dividing the decimal number by 3 repeatedly and recording the remainders.
+
+Performing the division and recording the remainders:
+\[
+167290260 \div 3 = 55763420 \quad \text{remainder} \ 0
+\]
+\[
+55763420 \div 3 = 18587806 \quad \text{remainder} \ 2
+\]
+\[
+18587806 \div 3 = 6195935 \quad \text{remainder} \ 1
+\]
+\[
+6195935 \div 3 = 2065311 \quad \text{remainder} \ 2
+\]
+\[
+2065311 \div 3 = 688437 \quad \text{remainder} \ 0
+\]
+\[
+688437 \div 3 = 229479 \quad \text{remainder} \ 0
+\]
+\[
+229479 \div 3 = 76493 \quad \text{remainder} \ 0
+\]
+\[
+76493 \div 3 = 25497 \quad \text{remainder} \ 0
+\]
+\[
+25497 \div 3 = 8499 \quad \text{remainder} \ 0
+\]
+\[
+8499 \div 3 = 2833 \quad \text{remainder} \ 0
+\]
+\[
+2833 \div 3 = 944 \quad \text{remainder} \ 1
+\]
+\[
+944 \div 3 = 314 \quad \text{remainder} \ 2
+\]
+\[
+314 \div 3 = 104 \quad \text{remainder} \ 2
+\]
+\[
+104 \div 3 = 34 \quad \text{remainder} \ 2
+\]
+\[
+34 \div 3 = 11 \quad \text{remainder} \ 1
+\]
+\[
+11 \div 3 = 3 \quad \text{remainder} \ 2
+\]
+\[
+3 \div 3 = 1 \quad \text{remainder} \ 0
+\]
+\[
+1 \div 3 = 0 \quad \text{remainder} \ 1
+\]
+
+Putting the remainders together starting from the bottom, we get:
+
+\[
+167290260_{10} = 1022200000000002_{3}
+\]
+
+So, the final answer in base-3 is:
+
+\[
+221100002_3 * 110120012_3 = 1022200000000002_3
+\]
+
+Summary: \( 221100002_3 * 110120012_3 = 18270_{10} * 9158_{10} = 167290260_{10} = 1022200000000002_3 \)

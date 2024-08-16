@@ -1,0 +1,33 @@
+To solve the equation \(2AA0_{13} - 155A4_{13}\), we'll first convert these numbers from base 13 to decimal (base 10), perform the subtraction, and then, if necessary, convert back to base 13.
+
+1. Convert \(2AA0_{13}\) to decimal:
+   - The digits represent \(2A\) (digit 2 and A is 10 in decimal) followed by \(A0\) (10 and 0).
+   - For base 13: \(2AA0_{13} = 2 \cdot 13^3 + 10 \cdot 13^2 + 10 \cdot 13^1 + 0 \cdot 13^0\).
+   - Calculate each term:
+     \(2 \cdot 13^3 = 2 \cdot 2197 = 4394\),
+     \(10 \cdot 13^2 = 10 \cdot 169 = 1690\),
+     \(10 \cdot 13^1 = 10 \cdot 13 = 130\),
+     \(0 \cdot 13^0 = 0\).
+   - Summing these, we get: \(4394 + 1690 + 130 + 0 = 6214\).
+
+2. Convert \(155A4_{13}\) to decimal:
+   - The digits represent \(1, 5, 5, A\) (A is 10) and 4.
+   - For base 13: \(155A4_{13} = 1 \cdot 13^4 + 5 \cdot 13^3 + 5 \cdot 13^2 + 10 \cdot 13^1 + 4 \cdot 13^0\).
+   - Calculate each term:
+     \(1 \cdot 13^4 = 1 \cdot 28561 = 28561\),
+     \(5 \cdot 13^3 = 5 \cdot 2197 = 10985\),
+     \(5 \cdot 13^2 = 5 \cdot 169 = 845\),
+     \(10 \cdot 13^1 = 10 \cdot 13 = 130\),
+     \(4 \cdot 13^0 = 4\).
+   - Summing these, we get: \(28561 + 10985 + 845 + 130 + 4 = 40525\).
+
+3. Perform the subtraction in decimal:
+   - \(6214 - 40525 = -34311\).
+
+4. Since the result is negative, we'll keep it in decimal as it requires further conversion processes only if we need non-decimal representations.
+
+Summarizing the response:
+   \(2AA0_{13}\rightarrow6214_{10}, 155A4_{13}\rightarrow40525_{10}\)
+   → \(2AA0_{13} - 155A4_{13} = 6214_{10} - 40525_{10} = -34311_{10}\)
+   
+Thus, \(2AA0_{13} - 155A4_{13} = -34311_{10}\).

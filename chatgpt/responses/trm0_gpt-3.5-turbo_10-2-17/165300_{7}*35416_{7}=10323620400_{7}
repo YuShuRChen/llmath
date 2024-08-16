@@ -1,0 +1,6 @@
+To compute the product of \(165300_7\) and \(35416_7\), we proceed as follows:
+
+\(165300_7 \times 35416_7 = (6\times7^0 + 0\times7^1 + 3\times7^2 + 5\times7^3 + 6\times7^4 + 1\times7^5) \times \newline (6\times7^0 + 1\times7^1 + 4\times7^2 + 5\times7^3 + 3\times7^4)\)
+\(= 313010 \ \text{(in base 7)}\)
+
+Therefore, \(165300_{7} \times 35416_{7} = 313010_{7}\).

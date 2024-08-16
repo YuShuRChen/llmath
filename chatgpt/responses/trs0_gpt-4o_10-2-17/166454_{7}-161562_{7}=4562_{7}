@@ -1,0 +1,57 @@
+First, convert each base-7 number to base-10 (decimal).
+
+1. Convert \(166454_7\) to base-10:
+\[
+166454_7 = 1 \cdot 7^5 + 6 \cdot 7^4 + 6 \cdot 7^3 + 4 \cdot 7^2 + 5 \cdot 7^1 + 4 \cdot 7^0
+\]
+\[
+= 1 \cdot 16807 + 6 \cdot 2401 + 6 \cdot 343 + 4 \cdot 49 + 5 \cdot 7 + 4 \cdot 1
+\]
+\[
+= 16807 + 14406 + 2058 + 196 + 35 + 4
+\]
+\[
+= 33506
+\]
+
+2. Convert \(161562_7\) to base-10:
+\[
+161562_7 = 1 \cdot 7^5 + 6 \cdot 7^4 + 1 \cdot 7^3 + 5 \cdot 7^2 + 6 \cdot 7^1 + 2 \cdot 7^0
+\]
+\[
+= 1 \cdot 16807 + 6 \cdot 2401 + 1 \cdot 343 + 5 \cdot 49 + 6 \cdot 7 + 2 \cdot 1
+\]
+\[
+= 16807 + 14406 + 343 + 245 + 42 + 2
+\]
+\[
+= 31845
+\]
+
+Next, perform the subtraction in base-10:
+\[
+33506 - 31845 = 1661
+\]
+
+Finally, convert the base-10 result back to base-7:
+\[
+1661_{10} \text{ to base-7}
+\]
+\[
+1661 \div 7 = 237 \text{ remainder } 2
+\]
+\[
+237 \div 7 = 33 \text{ remainder } 6
+\]
+\[
+33 \div 7 = 4 \text{ remainder } 5
+\]
+\[
+4 \div 7 = 0 \text{ remainder } 4
+\]
+Reading the remainders from bottom to top, \(1661_{10} = 4562_7\).
+
+Thus:
+\[
+166454_7 - 161562_7 = 4562_7 = 166454_7 - 161562_7 = 4562_7
+\]

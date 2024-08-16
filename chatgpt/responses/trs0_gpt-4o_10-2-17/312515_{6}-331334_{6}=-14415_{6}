@@ -1,0 +1,36 @@
+To solve the problem, we need to perform the subtraction of two numbers in base 6: 312515_{6} and 331334_{6}.
+
+### Step 1: Convert both numbers from base 6 to base 10.
+First, convert 312515_{6} to base 10:
+\[ 3 \times 6^5 + 1 \times 6^4 + 2 \times 6^3 + 5 \times 6^2 + 1 \times 6^1 + 5 \times 6^0 \]
+\[ = 3 \times 7776 + 1 \times 1296 + 2 \times 216 + 5 \times 36 + 1 \times 6 + 5 \times 1 \]
+\[ = 23328 + 1296 + 432 + 180 + 6 + 5 \]
+\[ = 25247_{10} \]
+
+Next, convert 331334_{6} to base 10:
+\[ 3 \times 6^5 + 3 \times 6^4 + 1 \times 6^3 + 3 \times 6^2 + 3 \times 6^1 + 4 \times 6^0 \]
+\[ = 3 \times 7776 + 3 \times 1296 + 1 \times 216 + 3 \times 36 + 3 \times 6 + 4 \times 1 \]
+\[ = 23328 + 3888 + 216 + 108 + 18 + 4 \]
+\[ = 27562_{10} \]
+
+### Step 2: Subtract the base 10 equivalents.
+\[ 25247 - 27562 = -2315_{10} \]
+
+### Step 3: Convert the result back to base 6.
+Convert -2315_{10} to base 6.
+
+-2315 is negative, so first, let's convert the absolute value of 2315 from base 10 to base 6:
+
+1. \( 2315 \div 6 = 385 \) remainder \( 5 \)
+2. \( 385 \div 6 = 64 \) remainder \( 1 \)
+3. \( 64 \div 6 = 10 \) remainder \( 4 \)
+4. \( 10 \div 6 = 1 \) remainder \( 4 \)
+5. \( 1 \div 6 = 0 \) remainder \( 1 \)
+
+So, \( 2315_{10} = 11415_{6} \).
+
+Therefore, \( -2315_{10} = -11415_{6} \).
+
+### Final Result:
+\[ 312515_{6} - 331334_{6} = -11415_{6} \]
+\[ 312515_{6} - 331334_{6} = 25247_{10} - 27562_{10} = -2315_{10} = -11415_{6} \]

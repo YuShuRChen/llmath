@@ -1,0 +1,38 @@
+Let's start by converting the base 14 numbers to base 10.
+
+First convert 6A34_{14} to base 10:
+
+6A34_{14} = 6 * 14^3 + 10 * 14^2 + 3 * 14^1 + 4 * 14^0
+           = 6 * 2744 + 10 * 196 + 3 * 14 + 4
+           = 16464 + 1960 + 42 + 4
+           = 18470_{10}
+
+Next, convert 34A2_{14} to base 10:
+
+34A2_{14} = 3 * 14^3 + 4 * 14^2 + 10 * 14^1 + 2 * 14^0
+           = 3 * 2744 + 4 * 196 + 10 * 14 + 2
+           = 8232 + 784 + 140 + 2
+           = 9158_{10}
+
+Now subtract the two base 10 numbers:
+
+18470_{10} - 9158_{10} = 9312_{10}
+
+Finally, convert 9312_{10} back to base 14.
+
+To do this, we repeatedly divide the number by 14 and track the remainders:
+
+9312 ÷ 14 = 665, remainder 12 (C in base 14)
+665 ÷ 14 = 47, remainder 7
+47 ÷ 14 = 3, remainder 5
+3 ÷ 14 = 0, remainder 3
+
+Reading the remainders from bottom to top, we get:
+
+9312_{10} = 357C_{14}
+
+Thus:
+
+6A34_{14} - 34A2_{14} = 357C_{14}
+
+In summary: \(6A34_{14} - 34A2_{14} = 18470_{10} - 9158_{10} = 9312_{10} = 357C_{14}\)

@@ -1,0 +1,62 @@
+To solve the multiplication of the numbers 4CE7_{15} and A51C_{15}, we need to follow these steps:
+
+1. Convert these numbers from base-15 to base-10.
+2. Perform the multiplication in base-10.
+3. If needed or desired, convert the result back to base-15.
+
+### Step 1: Convert from base-15 to base-10
+
+First, convert 4CE7_{15} to base-10.
+\[ 
+4CE7_{15} = 4 \times 15^3 + C \times 15^2 + E \times 15^1 + 7 \times 15^0 
+\]
+Here, C=12 and E=14 (since C and E are the respective digits in base-15).
+\[
+= 4 \times 3375 + 12 \times 225 + 14 \times 15 + 7 \times 1
+\]
+\[
+= 13500 + 2700 + 210 + 7
+\]
+\[
+= 16417_{10}
+\]
+
+Next, convert A51C_{15} to base-10.
+\[ 
+A51C_{15} = A \times 15^3 + 5 \times 15^2 + 1 \times 15^1 + C \times 15^0 
+\]
+Here, A=10 and C=12 (since A and C are the respective digits in base-15).
+\[
+= 10 \times 3375 + 5 \times 225 + 1 \times 15 + 12 \times 1
+\]
+\[
+= 33750 + 1125 + 15 + 12
+\]
+\[
+= 34902_{10}
+\]
+
+### Step 2: Multiply the two base-10 numbers:
+\[
+16417_{10} \times 34902_{10}
+\]
+\[ 
+= 572826834
+\]
+
+### Step 3: (Optional) Convert the result back to base-15
+Since only base-10 multiplication is requested, it is not necessarily required to convert it back to base-15 unless specified.
+
+\[
+4CE7_{15} * A51C_{15} = 572826834_{10}
+\]
+
+In a summarized version:
+\[ 
+4CE7_{15} = 16417_{10}, A51C_{15} = 34902_{10} \Rightarrow 16417_{10} \times 34902_{10} = 572826834_{10}
+\]
+
+Thus,
+\[ 
+4CE7_{15} * A51C_{15} = 572826834_{10}
+\]

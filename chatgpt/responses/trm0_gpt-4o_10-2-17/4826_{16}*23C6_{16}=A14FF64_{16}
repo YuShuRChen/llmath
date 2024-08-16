@@ -1,0 +1,91 @@
+To compute the product of the two hexadecimal numbers \(4826_{16}\) and \(23C6_{16}\), we will first convert the hexadecimal numbers to decimal (base 10), perform the multiplication in decimal, and then convert the result back to hexadecimal.
+
+**Step 1: Convert \(4826_{16}\) to decimal**
+
+The hexadecimal number \(4826_{16}\) can be converted to decimal as follows:
+\[
+4826_{16} = 4 \cdot 16^3 + 8 \cdot 16^2 + 2 \cdot 16^1 + 6 \cdot 16^0
+\]
+Calculate the values of each term:
+\[
+4 \cdot 16^3 = 4 \cdot 4096 = 16384
+\]
+\[
+8 \cdot 16^2 = 8 \cdot 256 = 2048
+\]
+\[
+2 \cdot 16^1 = 2 \cdot 16 = 32
+\]
+\[
+6 \cdot 16^0 = 6 \cdot 1 = 6
+\]
+
+Sum these values to get the decimal (base 10) equivalent:
+\[
+16384 + 2048 + 32 + 6 = 18470
+\]
+So,
+\[
+4826_{16} = 18470_{10}
+\]
+
+**Step 2: Convert \(23C6_{16}\) to decimal**
+
+The hexadecimal number \(23C6_{16}\) can be converted to decimal as follows:
+\[
+23C6_{16} = 2 \cdot 16^3 + 3 \cdot 16^2 + C \cdot 16^1 + 6 \cdot 16^0
+\]
+where \(C_{16} = 12_{10}\).
+
+Calculate the values of each term:
+\[
+2 \cdot 16^3 = 2 \cdot 4096 = 8192
+\]
+\[
+3 \cdot 16^2 = 3 \cdot 256 = 768
+\]
+\[
+12 \cdot 16^1 = 12 \cdot 16 = 192
+\]
+\[
+6 \cdot 16^0 = 6 \cdot 1 = 6
+\]
+
+Sum these values to get the decimal (base 10) equivalent:
+\[
+8192 + 768 + 192 + 6 = 9158
+\]
+So,
+\[
+23C6_{16} = 9158_{10}
+\]
+
+**Step 3: Multiply the decimal equivalents**
+
+We multiply the two decimal numbers obtained:
+\[
+18470 \cdot 9158 = 169073860
+\]
+
+**Step 4: Convert the result back to hexadecimal**
+
+Now we convert \(169073860_{10}\) to hexadecimal (base 16). 
+
+Performing the conversion:
+1. \(169073860 \div 16 = 10565866 \text{ R } 4\)
+2. \(10565866 \div 16 = 660366 \text{ R } 10\)
+3. \(660366 \div 16 = 41272 \text{ R } 14 (E)\)
+4. \(41272 \div 16 = 2579 \text{ R } 8\)
+5. \(2579 \div 16 = 161 \text{ R } 3\)
+6. \(161 \div 16 = 10 \text{ R } 1\)
+7. \(10 \div 16 = 0 \text{ R } A\)
+
+Reading the remainders from bottom to top, we get:
+\[
+169073860_{10} = A138EA4_{16}
+\]
+
+**Summary:**
+\[
+4826_{16} * 23C6_{16} = 18470_{10} * 9158_{10} = 169073860_{10} = A138EA4_{16}
+\]

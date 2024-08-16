@@ -1,0 +1,40 @@
+To solve the binary subtraction problem \(1000001011100010_{2} - 111110001100101_{2}\), follow these steps:
+
+1. **Convert each binary number to its decimal (base 10) equivalent**:
+   - For \(1000001011100010_{2}\):
+     \(1 \times 2^{15} + 0 \times 2^{14} + 0 \times 2^{13} + 0 \times 2^{12} + 0 \times 2^{11} + 1 \times 2^{10} + 0 \times 2^{9} + 1 \times 2^{8} + 1 \times 2^{7} + 1 \times 2^{6} + 0 \times 2^{5} + 0 \times 2^{4} + 0 \times 2^{3} + 1 \times 2^{2} + 0 \times 2^{1} + 0 \times 2^{0}\)
+     \(= 2^{15} + 2^{10} + 2^{8} + 2^{7} + 2^{6} + 2^{2}\)
+     \(= 32768 + 1024 + 256 + 128 + 64 + 4\)
+     \(= 34244_{10}\)
+
+   - For \(111110001100101_{2}\):
+     \(1 \times 2^{14} + 1 \times 2^{13} + 1 \times 2^{12} + 1 \times 2^{11} + 1 \times 2^{10} + 0 \times 2^{9} + 0 \times 2^{8} + 1 \times 2^{7} + 1 \times 2^{6} + 0 \times 2^{5} + 0 \times 2^{4} + 1 \times 2^{3} + 0 \times 2^{2} + 1 \times 2^{1} + 1 \times 2^{0}\)
+     \(= 2^{14} + 2^{13} + 2^{12} + 2^{11} + 2^{10} + 2^{7} + 2^{6} + 2^{3} + 2^{1} + 2^{0}\)
+     \(= 16384 + 8192 + 4096 + 2048 + 1024 + 128 + 64 + 8 + 2 + 1\)
+     \(= 31847_{10}\)
+
+2. **Perform the subtraction using the decimal equivalents**:
+   \(34244 - 31847 = 2397_{10}\)
+
+3. **Convert the result back to a binary number**:
+   - Convert \(2397_{10}\) to binary:
+     \[
+     2397 \div 2 = 1198 \quad \text{remainder } 1 \\
+     1198 \div 2 = 599 \quad \text{remainder } 0 \\
+     599 \div 2 = 299 \quad \text{remainder } 1 \\
+     299 \div 2 = 149 \quad \text{remainder } 1 \\
+     149 \div 2 = 74 \quad \text{remainder } 1 \\
+     74 \div 2 = 37 \quad \text{remainder } 0 \\
+     37 \div 2 = 18 \quad \text{remainder } 1 \\
+     18 \div 2 = 9 \quad \text{remainder } 0 \\
+     9 \div 2 = 4 \quad \text{remainder } 1 \\
+     4 \div 2 = 2 \quad \text{remainder } 0 \\
+     2 \div 2 = 1 \quad \text{remainder } 0 \\
+     1 \div 2 = 0 \quad \text{remainder } 1 \\
+     \]
+     Reading the remainders from bottom to top, \(2397_{10}\) converts to \(100101011101_{2}\).
+
+Summary:
+\[
+1000001011100010_{2} - 111110001100101_{2} = 34244_{10} - 31847_{10} = 2397_{10} = 100101011101_{2}
+\]

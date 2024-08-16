@@ -1,0 +1,110 @@
+To compute \(1846_{16} * 9E4D_{16}\), we need to convert these hexadecimal (base-16) numbers to decimal (base-10) first, perform the multiplication in decimal, and then convert the result back to hexadecimal.
+
+### Step 1: Convert \(1846_{16}\) to \(1846_{10}\)
+Each digit in hexadecimal must be converted and then multiplied by the corresponding power of 16:
+
+\[
+1846_{16} = 1 \cdot 16^3 + 8 \cdot 16^2 + 4 \cdot 16^1 + 6 \cdot 16^0
+\]
+
+Calculating each term:
+
+\[
+1 \cdot 16^3 = 1 \cdot 4096 = 4096
+\]
+\[
+8 \cdot 16^2 = 8 \cdot 256 = 2048
+\]
+\[
+4 \cdot 16^1 = 4 \cdot 16 = 64
+\]
+\[
+6 \cdot 16^0 = 6 \cdot 1 = 6
+\]
+
+Summing these values together:
+
+\[
+1846_{16} = 4096 + 2048 + 64 + 6 = 6214_{10}
+\]
+
+### Step 2: Convert \(9E4D_{16}\) to \(9E4D_{10}\)
+Similarly, convert the digits and multiply by the corresponding power of 16:
+
+\[
+9E4D_{16} = 9 \cdot 16^3 + E \cdot 16^2 + 4 \cdot 16^1 + D \cdot 16^0
+\]
+
+Note: \(E = 14\) and \(D = 13\)
+
+Calculating each term:
+
+\[
+9 \cdot 16^3 = 9 \cdot 4096 = 36864
+\]
+\[
+E \cdot 16^2 = 14 \cdot 256 = 3584
+\]
+\[
+4 \cdot 16^1 = 4 \cdot 16 = 64
+\]
+\[
+D \cdot 16^0 = 13 \cdot 1 = 13
+\]
+
+Summing these values together:
+
+\[
+9E4D_{16} = 36864 + 3584 + 64 + 13 = 40525_{10}
+\]
+
+### Step 3: Multiply the decimal equivalents
+\(
+6214_{10} \times 40525_{10} = 
+\)
+
+Perform the multiplication:
+
+\[
+6214 \times 40525 = 251792350
+\]
+
+### Step 4: Convert the result back to hexadecimal
+Convert \(251792350_{10}\) to hexadecimal:
+
+- Divide the number by 16 and keep track of remainders:
+  \[
+  251792350 \div 16 = 15737021 \quad \text{remainder} \: 14 \: (E)
+  \]
+  \[
+  15737021 \div 16 = 983563 \quad \text{remainder} \: 13 \: (D)
+  \]
+  \[
+  983563 \div 16 = 61472 \quad \text{remainder} \: 11 \: (B)
+  \]
+  \[
+  61472 \div 16 = 3842 \quad \text{remainder} \: 0
+  \]
+  \[
+  3842 \div 16 = 240 \quad \text{remainder} \: 2
+  \]
+  \[
+  240 \div 16 = 15 \quad \text{remainder} \: 0 \: (F)
+  \]
+  \[
+  15 \div 16 = 0 \quad \text{remainder} = 15 \: (F)
+  \]
+
+Assembling the remainders in reverse order:
+
+\[
+251792350_{10} = EDB020F_{16}
+\]
+
+Thus, the original equation \(1846_{16} * 9E4D_{16} = 251792350_{10}\) results in \(EBD020F_{16}\).
+
+Summarized:
+\(
+1846_{16} = 6214_{10}, \; 9E4D_{16} = 40525_{10}, \; 6214_{10} * 40525_{10} = 251792350_{10}, \; 251792350_{10} = EDB020F_{16} \\
+1846_{16} * 9E4D_{16} = EDB020F_{16}
+\)

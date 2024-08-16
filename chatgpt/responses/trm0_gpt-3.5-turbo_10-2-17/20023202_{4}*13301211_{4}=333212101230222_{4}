@@ -1,0 +1,15 @@
+To multiply these two numbers together, we convert them to base 10, perform the multiplication, and then convert the result back to base 4. 
+
+Converting the first number to base 10:
+20023202_{4} = 2*4^7 + 0*4^6 + 0*4^5 + 2*4^4 + 3*4^3 + 2*4^2 + 0*4^1 + 2*4^0 = 16384 + 0 + 0 + 512 + 192 + 32 + 0 + 2 = 16922
+
+Converting the second number to base 10:
+13301211_{4} = 1*4^7 + 3*4^6 + 3*4^5 + 0*4^4 + 1*4^3 + 2*4^2 + 1*4^1 + 1*4^0 = 16384 + 3072 + 192 + 0 + 64 + 32 + 4 + 1 = 19749
+
+Multiplying in base 10:
+16922 * 19749 = 334727678
+
+Converting the result back to base 4:
+334727678 = 2*4^8 + 3*4^7 + 3*4^6 + 0*4^5 + 1*4^4 + 3*4^3 + 0*4^2 + 3*4^1 + 1*4^0 = 786432 + 12288 + 3072 + 0 + 256 + 48 + 0 + 12 + 1 = 799109
+
+Therefore, 20023202_{4} * 13301211_{4} = 799109_{4}.

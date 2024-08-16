@@ -1,0 +1,55 @@
+To multiply these two numbers, we'll start by converting them from base 12 to base 10.
+
+First, let's convert \( A832_{12} \):
+
+- \(A_{12} = 10_{10}\)
+- \(A832_{12}\) translates to \(10 \cdot 12^3 + 8 \cdot 12^2 + 3 \cdot 12^1 + 2 \cdot 12^0\)
+
+Calculating each term:
+- \(10 \cdot 12^3 = 10 \cdot 1728 = 17280\)
+- \(8 \cdot 12^2 = 8 \cdot 144 = 1152\)
+- \(3 \cdot 12^1 = 3 \cdot 12 = 36\)
+- \(2 \cdot 12^0 = 2 \cdot 1 = 2\)
+
+Summing these together:
+- \(17280 + 1152 + 36 + 2 = 18470\)
+
+So, \( A832_{12} = 18470_{10} \).
+
+Next, let's convert \( 5372_{12} \):
+
+- \(5 \cdot 12^3 + 3 \cdot 12^2 + 7 \cdot 12^1 + 2 \cdot 12^0\)
+
+Calculating each term:
+- \(5 \cdot 12^3 = 5 \cdot 1728 = 8640\)
+- \(3 \cdot 12^2 = 3 \cdot 144 = 432\)
+- \(7 \cdot 12^1 = 7 \cdot 12 = 84\)
+- \(2 \cdot 12^0 = 2 \cdot 1 = 2\)
+
+Summing these together:
+- \(8640 + 432 + 84 + 2 = 9158\)
+
+So, \( 5372_{12} = 9158_{10} \).
+
+Now let's multiply the two numbers in base 10:
+\[ 18470 \times 9158 = 169000260 \]
+
+Finally, we'll convert \( 169000260_{10} \) back to base 12. Let's do that by repeatedly dividing the number by 12 and noting the remainders.
+
+Performing the division:
+1. \(169000260 \div 12 = 14083355\) remainder \(0\)
+2. \(14083355 \div 12 = 1173612\) remainder \(3\)
+3. \(1173612 \div 12 = 97800\) remainder \(12\) (remainder reinterpreted as \(A_{12}\))
+4. \(97800 \div 12 = 8150\) remainder \(0\)
+5. \(8150 \div 12 = 679\) remainder \(2\)
+6. \(679 \div 12 = 56\) remainder \(7\)
+7. \(56 \div 12 = 4\) remainder \(8\)
+8. \(4 \div 12 = 0\) remainder \(4\)
+
+Reading the remainders backwards, we get \(4872A30_{12}\).
+
+Therefore, 
+\( A832_{12} \times 5372_{12} = 4872A30_{12} \)
+
+Summarized line:
+\[ A832_{12} * 5372_{12} = 18470_{10} * 9158_{10} = 169000260_{10} = 4872A30_{12} \]

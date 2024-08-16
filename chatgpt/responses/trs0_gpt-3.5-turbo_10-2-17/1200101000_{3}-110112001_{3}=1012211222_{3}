@@ -1,0 +1,9 @@
+To subtract the numbers, we can first convert them to the same base (base 3) and then perform the subtraction:
+
+$1200101000_{3}-110112001_{3} = 1200101000_{3}-110112001_{3}$
+
+$= 392733_{10} - 61370_{10}$
+
+$= 331363_{10}$
+
+Therefore, $1200101000_{3}-110112001_{3}=331363_{10}$.

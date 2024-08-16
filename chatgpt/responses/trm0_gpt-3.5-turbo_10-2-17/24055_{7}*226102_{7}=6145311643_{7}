@@ -1,0 +1,16 @@
+To multiply these two numbers in base 7, we can simply perform the standard multiplication method:
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c@{}c}
+& & & & 2 & 4 & 0 & 5_{7} \\
+\times & & & & 2 & 2 & 6 & 1 0 2_{7} \\
+\hline
+& & & & & & & 2 & 4 & 0 & 5_{7} \\
+& & & & & 1 & 4 & 3 & 1 5 1 5_{7} \\
+& & 1 & 4 & 2 & 2 & 4 0 2_{7} \\
+\hline
+& & 1 & 4 & 2 & 3 & 1 & 2 0 2 2 0 5_{7} \\
+\end{array}
+\]
+
+Therefore, \(24055_{7} \times 226102_{7} = 14231220205_{7}\).

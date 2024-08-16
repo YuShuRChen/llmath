@@ -1,0 +1,60 @@
+To solve the multiplication \( 50330_9 \times 13461_9 \), we need to first convert both numbers from base 9 to base 10, carry out the multiplication in base 10, and then convert the result back to base 9.
+
+### Step 1: Convert \( 50330_9 \) to Base 10
+
+\[ 50330_9 = 5 \cdot 9^4 + 0 \cdot 9^3 + 3 \cdot 9^2 + 3 \cdot 9^1 + 0 \cdot 9^0 \]
+
+Calculating each term:
+\[ 5 \cdot 9^4 = 5 \cdot 6561 = 32805 \]
+\[ 0 \cdot 9^3 = 0 \cdot 729 = 0 \]
+\[ 3 \cdot 9^2 = 3 \cdot 81 = 243 \]
+\[ 3 \cdot 9^1 = 3 \cdot 9 = 27 \]
+\[ 0 \cdot 9^0 = 0 \cdot 1 = 0 \]
+
+Summing these terms:
+\[ 50330_9 = 32805 + 0 + 243 + 27 + 0 = 33075_{10} \]
+
+### Step 2: Convert \( 13461_9 \) to Base 10
+
+\[ 13461_9 = 1 \cdot 9^4 + 3 \cdot 9^3 + 4 \cdot 9^2 + 6 \cdot 9^1 + 1 \cdot 9^0 \]
+
+Calculating each term:
+\[ 1 \cdot 9^4 = 1 \cdot 6561 = 6561 \]
+\[ 3 \cdot 9^3 = 3 \cdot 729 = 2187 \]
+\[ 4 \cdot 9^2 = 4 \cdot 81 = 324 \]
+\[ 6 \cdot 9^1 = 6 \cdot 9 = 54 \]
+\[ 1 \cdot 9^0 = 1 \cdot 1 = 1 \]
+
+Summing these terms:
+\[ 13461_9 = 6561 + 2187 + 324 + 54 + 1 = 9127_{10} \]
+
+### Step 3: Multiply \( 33075_{10} \) and \( 9127_{10} \)
+
+Use multiplication:
+\[ 33075 \times 9127 = 301821525 \]
+
+### Step 4: Convert \( 301821525_{10} \) Back to Base 9
+
+We divide \( 301821525 \) by 9 and keep track of the remainders:
+
+1. \( 301821525 \div 9 = 33535725 \) remainder 0
+2. \( 33535725 \div 9 = 3726191 \) remainder 6
+3. \( 3726191 \div 9 = 413021 \) remainder 2
+4. \( 413021 \div 9 = 45891 \) remainder 2
+5. \( 45891 \div 9 = 5099 \) remainder 0
+6. \( 5099 \div 9 = 566 \) remainder 5
+7. \( 566 \div 9 = 62 \) remainder 8
+8. \( 62 \div 9 = 6 \) remainder 8
+9. \( 6 \div 9 = 0 \) remainder 6
+
+Reading the remainders in reverse order, we get:
+\[ 301821525_{10} = 688520260_{9} \]
+
+So, the result of \( 50330_9 \times 13461_9 \) is \( 688520260_9 \).
+
+**Summarized Calculation:**
+
+\[ 50330_9 \times 13461_9 = (50330_9 \to 33075_{10}) \times (13461_9 \to 9127_{10}) = 33075_{10} \times 9127_{10} = 301821525_{10} \to 688520260_9 \]
+
+Therefore, the final result is:
+\[ 50330_9 \times 13461_9 = 688520260_9 \]

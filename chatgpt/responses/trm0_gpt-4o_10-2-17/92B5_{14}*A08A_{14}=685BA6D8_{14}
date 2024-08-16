@@ -1,0 +1,42 @@
+To solve the multiplication of two numbers in base 14, we should first convert each number from base 14 to base 10.
+
+### Step 1: Converting 92B5_{14} to base 10
+Each digit in the base 14 number represents a power of 14. Starting from the rightmost digit:
+\[ 92B5_{14} = 9 \cdot 14^3 + 2 \cdot 14^2 + B \cdot 14^1 + 5 \cdot 14^0 \]
+Recall that B in base 14 is 11 in base 10.
+\[ 92B5_{14} = 9 \cdot (14^3) + 2 \cdot (14^2) + 11 \cdot (14^1) + 5 \cdot (14^0) \]
+\[ 14^3 = 14 \cdot 14 \cdot 14 = 2744 \]
+\[ 14^2 = 14 \cdot 14 = 196 \]
+\[ 14^1 = 14 \]
+\[ 14^0 = 1 \]
+Plugging these values into the expression:
+\[ 92B5_{14} = 9 \cdot 2744 + 2 \cdot 196 + 11 \cdot 14 + 5 \cdot 1 \]
+\[ 92B5_{14} = 24696 + 392 + 154 + 5 \]
+\[ 92B5_{14} = 25247_{10} \]
+
+### Step 2: Converting A08A_{14} to base 10
+Likewise, for the number A08A_{14}:
+\[ A08A_{14} = A \cdot 14^3 + 0 \cdot 14^2 + 8 \cdot 14^1 + A \cdot 14^0 \]
+Recall that A in base 14 is 10 in base 10.
+\[ A08A_{14} = 10 \cdot 14^3 + 0 \cdot 14^2 + 8 \cdot 14^1 + 10 \cdot 14^0 \]
+\[ 14^3 = 2744 \]
+\[ 14^2 = 196 \]
+\[ 14^1 = 14 \]
+\[ 14^0 = 1 \]
+Plugging these values into the expression:
+\[ A08A_{14} = 10 \cdot 2744 + 0 \cdot 196 + 8 \cdot 14 + 10 \cdot 1 \]
+\[ A08A_{14} = 27440 + 0 + 112 + 10 \]
+\[ A08A_{14} = 27562_{10} \]
+
+### Step 3: Multiplying the base 10 equivalents
+Now, perform the multiplication in base 10.
+\[ 25247_{10} \times 27562_{10} \]
+
+Using a calculator:
+\[ 25247 \times 27562 = 695696614 \]
+
+### Summary:
+\[ 92B5_{14} \times A08A_{14} = 25247_{10} \times 27562_{10} = 695696614_{10} \]
+
+So the final result is:
+\[ 92B5_{14}*A08A_{14} = 92B5_{14} = 25247_{10}, A08A_{14} = 27562_{10}, 25247_{10}*27562_{10} = 695696614_{10} \]

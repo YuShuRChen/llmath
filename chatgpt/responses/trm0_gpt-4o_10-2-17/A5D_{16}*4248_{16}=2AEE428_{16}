@@ -1,0 +1,64 @@
+To solve the problem A5D_{16} * 4248_{16}, we will convert the hexadecimal numbers to decimal (base 10), perform the multiplication in base 10, and then convert the result back to hexadecimal (base 16).
+
+1. **Convert A5D_{16} to decimal:**
+
+   - \(A\) in hexadecimal is \(10\) in decimal.
+   - \(5\) in hexadecimal is \(5\) in decimal.
+   - \(D\) in hexadecimal is \(13\) in decimal.
+   
+   The value of A5D_{16} can be calculated as follows:
+   \[
+   A5D_{16} = 10 \times 16^2 + 5 \times 16^1 + 13 \times 16^0
+   \]
+   \[
+   A5D_{16} = 10 \times 256 + 5 \times 16 + 13 \times 1
+   \]
+   \[
+   A5D_{16} = 2560 + 80 + 13
+   \]
+   \[
+   A5D_{16} = 2653_{10}
+   \]
+
+2. **Convert 4248_{16} to decimal:**
+
+   - \(4\) in hexadecimal is \(4\) in decimal.
+   - \(2\) in hexadecimal is \(2\) in decimal.
+   - \(4\) in hexadecimal is \(4\) in decimal.
+   - \(8\) in hexadecimal is \(8\) in decimal.
+   
+   The value of 4248_{16} can be calculated as follows:
+   \[
+   4248_{16} = 4 \times 16^3 + 2 \times 16^2 + 4 \times 16^1 + 8 \times 16^0
+   \]
+   \[
+   4248_{16} = 4 \times 4096 + 2 \times 256 + 4 \times 16 + 8 \times 1
+   \]
+   \[
+   4248_{16} = 16384 + 512 + 64 + 8
+   \]
+   \[
+   4248_{16} = 16968_{10}
+   \]
+
+3. **Multiply the decimal values:**
+
+   \[
+   2653_{10} \times 16968_{10} = 45029304_{10}
+   \]
+
+4. **Convert 45029304_{10} to hexadecimal:**
+
+   To convert 45029304 from decimal to hexadecimal:
+   \[
+   45029304_{10} = 0x2AEC3F8_{16}
+   \]
+
+So the final answer in hexadecimal is:
+
+\[
+A5D_{16} \times 4248_{16} = 2AEC3F8_{16}
+\]
+
+**Summary**:
+A5D_{16} = 2653_{10}; 4248_{16} = 16968_{10}; 2653_{10} * 16968_{10} = 45029304_{10}; 45029304_{10} = 2AEC3F8_{16}.

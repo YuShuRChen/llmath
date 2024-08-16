@@ -1,0 +1,71 @@
+First, let's convert the binary numbers to decimal numbers for easier subtraction:
+
+110011110101001₂ to decimal:
+- Start from the rightmost bit (2^0 = 1): 
+  1 * 2^0  = 1
+- 0 * 2^1  = 0
+- 0 * 2^2  = 0
+- 1 * 2^3  = 8
+- 0 * 2^4  = 0
+- 1 * 2^5  = 32
+- 0 * 2^6  = 0
+- 1 * 2^7  = 128
+- 1 * 2^8  = 256
+- 1 * 2^9  = 512
+- 1 * 2^10 = 1024
+- 1 * 2^11 = 2048
+- 0 * 2^12 = 0
+- 0 * 2^13 = 0
+- 1 * 2^14 = 16384
+
+Adding these together:
+1 + 0 + 0 + 8 + 0 + 32 + 0 + 128 + 256 + 512 + 1024 + 2048 + 0 + 0 + 16384 = 20393₁₀
+
+Next, convert 100110110100101₂ to decimal:
+- Start from the rightmost bit (2^0 = 1):
+  1 * 2^0  = 1
+- 0 * 2^1  = 0
+- 1 * 2^2  = 4
+- 0 * 2^3  = 0
+- 0 * 2^4  = 0
+- 1 * 2^5  = 32
+- 0 * 2^6  = 0
+- 1 * 2^7  = 128
+- 1 * 2^8  = 256
+- 0 * 2^9  = 0
+- 1 * 2^10 = 1024
+- 1 * 2^11 = 2048
+- 0 * 2^12 = 0
+- 0 * 2^13 = 0
+- 1 * 2^14 = 16384
+
+Adding these together:
+1 + 0 + 4 + 0 + 0 + 32 + 0 + 128 + 256 + 0 + 0 + 1024 + 2048 + 0 + 0 + 16384 = 99989₁₀
+
+Subtract the decimal equivalents:
+20393 - 99989 = 92396
+
+Now, convert the result back to binary:
+92396₁₀ to binary:
+92396 / 2 = 46198 remainder 0  
+46198 / 2 = 23099 remainder 0  
+23099 / 2 = 11549 remainder 1  
+11549 / 2 = 5774 remainder 1  
+5774 / 2 = 2887 remainder 0  
+2887 / 2 = 1443 remainder 1  
+1443 / 2 = 721 remainder 1  
+721 / 2 = 360 remainder 1  
+360 / 2 = 180 remainder 0  
+180 / 2 = 90 remainder 0  
+90 / 2 = 45 remainder 0  
+45 / 2 = 22 remainder 1  
+22 / 2 = 11 remainder 0  
+11 / 2 = 5 remainder 1  
+5 / 2 = 2 remainder 1  
+2 / 2 = 1 remainder 0  
+1 remainder 1
+
+Reading the remainders in reverse:
+10110100100101100₂
+
+So 110011110101001₂ - 100110110100101₂ = 101101011110110₂

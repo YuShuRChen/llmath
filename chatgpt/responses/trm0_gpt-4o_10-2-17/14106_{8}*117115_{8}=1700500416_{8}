@@ -1,0 +1,60 @@
+To solve the multiplication of two numbers in octal (base 8), we need to first convert them to decimal (base 10), perform the multiplication in decimal, and then convert the result back to octal. Let's start with the conversions.
+
+### Step 1: Converting 14106_8 to decimal
+Each digit in an octal number represents a power of 8. So,
+\[ 14106_8 = 1 \cdot 8^4 + 4 \cdot 8^3 + 1 \cdot 8^2 + 0 \cdot 8^1 + 6 \cdot 8^0 \]
+
+Let's calculate each term:
+\[ 1 \cdot 8^4 = 1 \cdot 4096 = 4096 \]
+\[ 4 \cdot 8^3 = 4 \cdot 512 = 2048 \]
+\[ 1 \cdot 8^2 = 1 \cdot 64 = 64 \]
+\[ 0 \cdot 8^1 = 0 \]
+\[ 6 \cdot 8^0 = 6 \]
+
+Now, sum these values:
+\[ 4096 + 2048 + 64 + 0 + 6 = 6214 \]
+
+So, \( 14106_8 = 6214_{10} \).
+
+### Step 2: Converting 117115_8 to decimal
+\[ 117115_8 = 1 \cdot 8^5 + 1 \cdot 8^4 + 7 \cdot 8^3 + 1 \cdot 8^2 + 1 \cdot 8^1 + 5 \cdot 8^0 \]
+
+Calculate each term:
+\[ 1 \cdot 8^5 = 1 \cdot 32768 = 32768 \]
+\[ 1 \cdot 8^4 = 1 \cdot 4096 = 4096 \]
+\[ 7 \cdot 8^3 = 7 \cdot 512 = 3584 \]
+\[ 1 \cdot 8^2 = 1 \cdot 64 = 64 \]
+\[ 1 \cdot 8^1 = 1 \]
+\[ 5 \cdot 8^0 = 5 \]
+
+Sum these values:
+\[ 32768 + 4096 + 3584 + 64 + 8 + 5 = 40525 \]
+
+So, \( 117115_8 = 40525_{10} \).
+
+### Step 3: Multiplying the decimal values
+\[ 6214 \times 40525 \]
+
+Perform the multiplication:
+\[ 6214 \times 40525 = 251711350 \]
+
+### Step 4: Converting the result back to octal
+To convert 251711350 from decimal to octal, we divide by 8 and keep track of the remainders:
+
+\[ 251711350 \div 8 = 31463918 \text{ remainder } 6 \]
+\[ 31463918 \div 8 = 3932989 \text{ remainder } 6 \]
+\[ 3932989 \div 8 = 491623 \text{ remainder } 5 \]
+\[ 491623 \div 8 = 61452 \text{ remainder } 7 \]
+\[ 61452 \div 8 = 7681 \text{ remainder } 4 \]
+\[ 7681 \div 8 = 960 \text{ remainder } 1 \]
+\[ 960 \div 8 = 120 \text{ remainder } 0 \]
+\[ 120 \div 8 = 15 \text{ remainder } 0 \]
+\[ 15 \div 8 = 1 \text{ remainder } 7 \]
+\[ 1 \div 8 = 0 \text{ remainder } 1 \]
+
+Reading the remainders backwards gives us:
+\( 251711350_{10} = 1700415466_8 \)
+
+### Final Answer:
+\[ 14106_8 \times 117115_8 = 1700415466_8 \]
+\[ 14106_8 = 6214_{10}, 117115_8 = 40525_{10}, 6214_{10} \times 40525_{10} = 251711350_{10}, 251711350_{10} = 1700415466_{8} \]

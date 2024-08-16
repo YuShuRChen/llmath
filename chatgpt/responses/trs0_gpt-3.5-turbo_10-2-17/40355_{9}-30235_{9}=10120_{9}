@@ -1,0 +1,11 @@
+To subtract these two numbers, we have to align their digits and subtract each column starting from the rightmost place.
+
+9_{9} - 5_{9} = 4_{9}
+
+5_{9} - 3_{9} = 2_{9}
+
+3_{9} - 2_{9} = 1_{9}
+
+4_{9} - 2_{9} = 2_{9}
+
+Therefore, 40355_{9} - 30235_{9} = 10120_{9}.

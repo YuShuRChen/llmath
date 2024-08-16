@@ -1,0 +1,70 @@
+To solve the problem 1273B_{12} - 13B4A_{12}, let's first convert each number from base 12 to base 10.
+
+1. Convert 1273B_{12} to base 10:
+\[
+1 \times 12^4 + 2 \times 12^3 + 7 \times 12^2 + 3 \times 12^1 + B \times 12^0
+\]
+where B in base 12 is equal to 11 in base 10, so:
+\[
+1 \times 20736 + 2 \times 1728 + 7 \times 144 + 3 \times 12 + 11 \times 1
+\]
+Now calculate each term:
+\[
+1 \times 20736 = 20736
+\]
+\[
+2 \times 1728 = 3456
+\]
+\[
+7 \times 144 = 1008
+\]
+\[
+3 \times 12 = 36
+\]
+\[
+11 \times 1 = 11
+\]
+Summing these values together gives:
+\[
+20736 + 3456 + 1008 + 36 + 11 = 25247
+\]
+
+2. Convert 13B4A_{12} to base 10:
+\[
+1 \times 12^4 + 3 \times 12^3 + B \times 12^2 + 4 \times 12^1 + A \times 12^0
+\]
+where B in base 12 is equal to 11, and A in base 12 is equal to 10 in base 10, so:
+\[
+1 \times 20736 + 3 \times 1728 + 11 \times 144 + 4 \times 12 + 10 \times 1
+\]
+Now calculate each term:
+\[
+1 \times 20736 = 20736
+\]
+\[
+3 \times 1728 = 5184
+\]
+\[
+11 \times 144 = 1584
+\]
+\[
+4 \times 12 = 48
+\]
+\[
+10 \times 1 = 10
+\]
+Summing these values together gives:
+\[
+20736 + 5184 + 1584 + 48 + 10 = 27562
+\]
+
+Now perform the subtraction in base 10:
+\[
+25247 - 27562 = -2315
+\]
+
+The answer is:
+\( 1273B_{12} - 13B4A_{12} = -2315_{10} \)
+
+Summarizing in one line:
+\[ 1273B_{12} - 13B4A_{12} = 25247_{10} - 27562_{10} = -2315_{10} \]

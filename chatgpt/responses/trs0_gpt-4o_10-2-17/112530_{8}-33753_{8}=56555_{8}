@@ -1,0 +1,51 @@
+To solve \(112530_8 - 33753_8\), we need to convert each of these octal (base 8) numbers to decimal (base 10), perform the subtraction, and then optionally convert the result back to octal.
+
+First, convert \(112530_8\) to decimal:
+\[ 
+112530_8 = 1 \cdot 8^5 + 1 \cdot 8^4 + 2 \cdot 8^3 + 5 \cdot 8^2 + 3 \cdot 8^1 + 0 \cdot 8^0 \]
+\[ 
+= 1 \cdot 32768 + 1 \cdot 4096 + 2 \cdot 512 + 5 \cdot 64 + 3 \cdot 8 + 0 \cdot 1 \]
+\[ 
+= 32768 + 4096 + 1024 + 320 + 24 + 0 \]
+\[ 
+= 38192_{10} 
+\]
+
+Next, convert \(33753_8\) to decimal:
+\[ 
+33753_8 = 3 \cdot 8^4 + 3 \cdot 8^3 + 7 \cdot 8^2 + 5 \cdot 8^1 + 3 \cdot 8^0 \]
+\[ 
+= 3 \cdot 4096 + 3 \cdot 512 + 7 \cdot 64 + 5 \cdot 8 + 3 \cdot 1 \]
+\[ 
+= 12288 + 1536 + 448 + 40 + 3 \]
+\[ 
+= 14215_{10} 
+\]
+
+Now, subtract the decimal numbers:
+\[ 
+38192_{10} - 14215_{10} = 23977_{10} 
+\]
+
+Finally, convert \(23977_{10}\) back to octal:
+\[ 
+23977_{10} \div 8 = 2997 \text{ remainder } 1 \]
+\[ 
+2997 \div 8 = 374 \text{ remainder } 5 \]
+\[ 
+374 \div 8 = 46 \text{ remainder } 6 \]
+\[ 
+46 \div 8 = 5 \text{ remainder } 6 \]
+\[ 
+5 \div 8 = 0 \text{ remainder } 5 \]
+
+Reading the remainders from bottom to top:
+\[ 
+23977_{10} = 56651_{8} 
+\]
+
+So the result is:
+\[ 112530_{8} - 33753_{8} = 56651_{8} \]
+
+Summary: 
+112530_{8} (38192_{10}) - 33753_{8} (14215_{10}) = 23977_{10} = 56651_{8}

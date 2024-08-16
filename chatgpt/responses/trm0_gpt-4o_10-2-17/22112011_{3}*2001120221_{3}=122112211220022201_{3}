@@ -1,0 +1,70 @@
+To solve the problem \( 22112011_{3} \times 2001120221_{3} \), we first need to convert each number from base 3 to base 10, then perform the multiplication in base 10, and finally convert the result back to base 3.
+
+### Step 1: Convert 22112011 from base 3 to base 10
+\[ 22112011_{3} = 2 \cdot 3^7 + 2 \cdot 3^6 + 1 \cdot 3^5 + 1 \cdot 3^4 + 2 \cdot 3^3 + 0 \cdot 3^2 + 1 \cdot 3^1 + 1 \cdot 3^0 \]
+
+Calculating each term:
+\[ 2 \cdot 3^7 = 2 \cdot 2187 = 4374 \]
+\[ 2 \cdot 3^6 = 2 \cdot 729 = 1458 \]
+\[ 1 \cdot 3^5 = 1 \cdot 243 = 243 \]
+\[ 1 \cdot 3^4 = 1 \cdot 81 = 81 \]
+\[ 2 \cdot 3^3 = 2 \cdot 27 = 54 \]
+\[ 0 \cdot 3^2 = 0 \]
+\[ 1 \cdot 3^1 = 1 \cdot 3 = 3 \]
+\[ 1 \cdot 3^0 = 1 \]
+
+Adding these values together:
+\[ 4374 + 1458 + 243 + 81 + 54 + 0 + 3 + 1 = 6214 \]
+
+So, \( 22112011_{3} = 6214_{10} \).
+
+### Step 2: Convert 2001120221 from base 3 to base 10
+\[ 2001120221_{3} = 2 \cdot 3^9 + 0 \cdot 3^8 + 0 \cdot 3^7 + 1 \cdot 3^6 + 1 \cdot 3^5 + 2 \cdot 3^4 + 0 \cdot 3^3 + 2 \cdot 3^2 + 2 \cdot 3^1 + 1 \cdot 3^0 \]
+
+Calculating each term:
+\[ 2 \cdot 3^9 = 2 \cdot 19683 = 39366 \]
+\[ 0 \cdot 3^8 = 0 \]
+\[ 0 \cdot 3^7 = 0 \]
+\[ 1 \cdot 3^6 = 1 \cdot 729 = 729 \]
+\[ 1 \cdot 3^5 = 1 \cdot 243 = 243 \]
+\[ 2 \cdot 3^4 = 2 \cdot 81 = 162 \]
+\[ 0 \cdot 3^3 = 0 \]
+\[ 2 \cdot 3^2 = 2 \cdot 9 = 18 \]
+\[ 2 \cdot 3^1 = 2 \cdot 3 = 6 \]
+\[ 1 \cdot 3^0 = 1 \]
+
+Adding these values together:
+\[ 39366 + 0 + 0 + 729 + 243 + 162 + 0 + 18 + 6 + 1 = 40425 \]
+
+So, \( 2001120221_{3} = 40425_{10} \).
+
+### Step 3: Multiply the base 10 numbers
+\[ 6214_{10} \times 40425_{10} = 251162850 \]
+
+### Step 4: Convert the result back to base 3
+We repeatedly divide 251162850 by 3 and record remainders:
+\[ 251162850 \div 3 = 83720950 \quad \text{remainder } 0 \]
+\[ 83720950 \div 3 = 27906983 \quad \text{remainder } 1 \]
+\[ 27906983 \div 3 = 9302327 \quad \text{remainder } 2 \]
+\[ 9302327 \div 3 = 3100775 \quad \text{remainder } 2 \]
+\[ 3100775 \div 3 = 1033591 \quad \text{remainder } 2 \]
+\[ 1033591 \div 3 = 344530 \quad \text{remainder } 1 \]
+\[ 344530 \div 3 = 114843 \quad \text{remainder } 1 \]
+\[ 114843 \div 3 = 38281 \quad \text{remainder } 0 \]
+\[ 38281 \div 3 = 12760 \quad \text{remainder } 1 \]
+\[ 12760 \div 3 = 4253 \quad \text{remainder } 1 \]
+\[ 4253 \div 3 = 1417 \quad \text{remainder } 2 \]
+\[ 1417 \div 3 = 472 \quad \text{remainder } 1 \]
+\[ 472 \div 3 = 157 \quad \text{remainder } 1 \]
+\[ 157 \div 3 = 52 \quad \text{remainder } 1 \]
+\[ 52 \div 3 = 17 \quad \text{remainder } 1 \]
+\[ 17 \div 3 = 5 \quad \text{remainder } 2 \]
+\[ 5 \div 3 = 1 \quad \text{remainder } 2 \]
+\[ 1 \div 3 = 0 \quad \text{remainder } 1 \]
+
+Reading the remainders from bottom to top, we have:
+\[ 112111211201120210_{3} \]
+
+Thus, the final result is:
+
+\[ 22112011_{3} \times 2001120221_{3} = 112111211201120210_{3} \]

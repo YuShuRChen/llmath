@@ -1,0 +1,12 @@
+To subtract the numbers 3567_{9} and 25243_{9}, we first need to borrow 1 from the next higher place value in order to subtract. Thus, 3_{9} is increased to 13_{9}.
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c}
+& & \cancel{3} & 5 & 6 & 7_{9} \\
+& - & 2 & 5 & 2 & 4_{9} \\
+\cline{2-6}
+& & 1_{9} & 0_{9} & 4_{9}& 3_{9} \\
+\end{array}
+\]
+
+So, \( 3567_{9} - 25243_{9} = 1043_{9} \).

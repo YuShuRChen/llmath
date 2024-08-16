@@ -1,0 +1,46 @@
+To compute the product of the two binary numbers, we'll first convert each binary number to its decimal (base 10) equivalent, perform the multiplication in decimal, then convert the result back to binary.
+
+First, let's convert \(100000000100001_{2}\) to decimal:
+
+- Place values (from right to left): \(2^0, 2^1, 2^2, \ldots, 2^{14}, 2^{15}\)
+- Write the number and compute each place value:
+\[ 
+100000000100001_{2} = 1\cdot2^{16} + 0\cdot2^{15} + 0\cdot2^{14} + 0\cdot2^{13} + 0\cdot2^{12} + 0\cdot2^{11} + 0\cdot2^{10} + 1\cdot2^9 + 0\cdot2^8 + 0\cdot2^7 + 0\cdot2^6 + 0\cdot2^5 + 0\cdot2^4 + 0\cdot2^3 + 1\cdot2^2 + 0\cdot2^1 + 1\cdot2^0 \]
+
+\[
+= 1\cdot65536 + 1\cdot512 + 1\cdot4 + 1\cdot1 
+\]
+\[
+= 65536 + 512 + 4 + 1 = 66053_{10}
+\]
+
+Next, let's convert \(1000100001010110_{2}\) to decimal:
+
+- Place values (from right to left): \(2^0, 2^1, 2^2, \ldots, 2^{14}, 2^{15}\)
+- Write the number and compute each place value:
+\[ 
+1000100001010110_{2} = 1\cdot2^{15} + 0\cdot2^{14} + 0\cdot2^{13} + 0\cdot2^{12} + 1\cdot2^{11} + 0\cdot2^{10} + 0\cdot2^9 + 0\cdot2^8 + 1\cdot2^7 + 0\cdot2^6 + 1\cdot2^5 + 0\cdot2^4 + 1\cdot2^3 + 1\cdot2^2 + 1\cdot2^1 + 0\cdot2^0 \]
+
+\[
+= 1\cdot32768 + 1\cdot2048 + 1\cdot128 + 1\cdot16 + 1\cdot2 
+\]
+\[
+= 32768 + 2048 + 128 + 16 + 2 = 34962_{10}
+\]
+
+Now, multiply the decimal equivalents:
+
+\[
+66053_{10} \times 34962_{10} = 2309919786_{10}
+\]
+
+Finally, convert the product back to binary:
+
+\[
+2309919786_{10} = 100010011100001100001110101010{\_2}
+\]
+
+Summary:
+\[
+100000000100001_{2}*1000100001010110_{2} = 66053_{10}*34962_{10} = 2309919786_{10} = 100010011100001100001110101010_2
+\]

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45ddb868-5241-44bd-a164-c6de21da216f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Analysis Study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LogiBench.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/data_generation-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt/responses/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt/responses/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt/responses/tra0_gpt-3.5-turbo_10-2-17.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/tra0_gpt-3.5-turbo_10-2-17/tra0_gpt-3.5-turbo_10-2-17.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt/responses/tra0_gpt-4o_10-2-17.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/tra0_gpt-4o_10-2-17/tra0_gpt-4o_10-2-17.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt/responses/trm0_gpt-3.5-turbo_10-2-17.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/trm0_gpt-3.5-turbo_10-2-17/trm0_gpt-3.5-turbo_10-2-17.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt/responses/trm0_gpt-4o_10-2-17.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/trm0_gpt-4o_10-2-17/trm0_gpt-4o_10-2-17.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt/responses/trs0_gpt-3.5-turbo_10-2-17.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/trs0_gpt-3.5-turbo_10-2-17/trs0_gpt-3.5-turbo_10-2-17.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt/responses/trs0_gpt-4o_10-2-17.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/trs0_gpt-4o_10-2-17/trs0_gpt-4o_10-2-17.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/data_generation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/data_generation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2hVvpzrs9Ss3L6RRR8Aw98omh0I" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Untitled.executor": "Run",
+    "Python.chatgpt.executor": "Run",
+    "Python.data_generation.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.metric.executor": "Run",
+    "Python.utils.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/tree/Programming/PycharmProjects/LogiBench",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chatgpt/responses/trs0_gpt-4o_10-2-17" />
+      <recent name="$PROJECT_DIR$/chatgpt/responses/trs0_gpt-3.5-turbo_10-2-17" />
+      <recent name="$PROJECT_DIR$/chatgpt/responses/trm0_gpt-4o_10-2-17" />
+      <recent name="$PROJECT_DIR$/chatgpt/responses/trm0_gpt-3.5-turbo_10-2-17" />
+      <recent name="$PROJECT_DIR$/chatgpt/responses/tra0_gpt-4o_10-2-17" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45ddb868-5241-44bd-a164-c6de21da216f" name="Changes" comment="" />
+      <created>1717692245495</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717692245495</updated>
+      <workItem from="1717692246663" duration="5583000" />
+      <workItem from="1717805097230" duration="37785000" />
+      <workItem from="1719030044636" duration="14734000" />
+      <workItem from="1719729132746" duration="1718000" />
+      <workItem from="1719982226011" duration="7361000" />
+      <workItem from="1720331734144" duration="10000" />
+      <workItem from="1720755670442" duration="9000" />
+      <workItem from="1720755841463" duration="10822000" />
+      <workItem from="1720818136838" duration="20292000" />
+      <workItem from="1720972814799" duration="27565000" />
+      <workItem from="1721061395022" duration="51977000" />
+      <workItem from="1721286450570" duration="6400000" />
+      <workItem from="1721293106934" duration="6097000" />
+      <workItem from="1721321996542" duration="30282000" />
+      <workItem from="1721464846861" duration="168000" />
+      <workItem from="1721604913238" duration="2280000" />
+      <workItem from="1721868748945" duration="75575000" />
+      <workItem from="1722191259998" duration="24897000" />
+      <workItem from="1722294823772" duration="23475000" />
+      <workItem from="1722448775315" duration="12248000" />
+      <workItem from="1722470572820" duration="145000" />
+      <workItem from="1722470721478" duration="53000" />
+      <workItem from="1722470877697" duration="513000" />
+      <workItem from="1722471420050" duration="10000" />
+      <workItem from="1722471435437" duration="7835000" />
+      <workItem from="1723352459707" duration="63162000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/nlp_logic$utils.coverage" NAME="utils Coverage Results" MODIFIED="1722200839865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Analysis_Study$chatgpt.coverage" NAME="chatgpt Coverage Results" MODIFIED="1717816807246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Analysis_Study$data_generation.coverage" NAME="data_generation Coverage Results" MODIFIED="1717811743127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Analysis_Study$utils.coverage" NAME="utils Coverage Results" MODIFIED="1717808473444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Analysis_Study$main.coverage" NAME="main Coverage Results" MODIFIED="1718064098084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatgpt" />
+    <SUITE FILE_PATH="coverage/nlp_logic$main.coverage" NAME="main Coverage Results" MODIFIED="1722030942562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatgpt" />
+    <SUITE FILE_PATH="coverage/LogiBench$Untitled.coverage" NAME="Untitled Coverage Results" MODIFIED="1723703332821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatgpt/responses" />
+    <SUITE FILE_PATH="coverage/nlp_logic$metric.coverage" NAME="metric Coverage Results" MODIFIED="1721418778527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

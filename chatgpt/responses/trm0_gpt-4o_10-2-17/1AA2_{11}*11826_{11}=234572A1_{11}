@@ -1,0 +1,89 @@
+To solve the multiplication of two numbers in base 11, let's walk through the conversion to base 10, perform the multiplication, and then convert the result back to base 11. 
+
+### Step 1: Convert base 11 numbers to base 10
+
+1. **Convert \(1AA2_{11}\) to base 10:**
+   \[
+   1AA2_{11} = 1 \cdot 11^3 + A \cdot 11^2 + A \cdot 11^1 + 2 \cdot 11^0
+   \]
+   where \(A = 10\) in base 10.
+
+   \[
+   1 \cdot 11^3 = 1 \cdot 1331 = 1331
+   \]
+   \[
+   10 \cdot 11^2 = 10 \cdot 121 = 1210
+   \]
+   \[
+   10 \cdot 11^1 = 10 \cdot 11 = 110
+   \]
+   \[
+   2 \cdot 11^0 = 2 \cdot 1 = 2
+   \]
+   Summing these up:
+   \[
+   1331 + 1210 + 110 + 2 = 2653
+   \]
+   Therefore, \(1AA2_{11} = 2653_{10}\).
+
+2. **Convert \(11826_{11}\) to base 10:**
+   \[
+   11826_{11} = 1 \cdot 11^4 + 1 \cdot 11^3 + 8 \cdot 11^2 + 2 \cdot 11^1 + 6 \cdot 11^0
+   \]
+
+   \[
+   1 \cdot 11^4 = 1 \cdot 14641 = 14641
+   \]
+   \[
+   1 \cdot 11^3 = 1 \cdot 1331 = 1331
+   \]
+   \[
+   8 \cdot 11^2 = 8 \cdot 121 = 968
+   \]
+   \[
+   2 \cdot 11^1 = 2 \cdot 11 = 22
+   \]
+   \[
+   6 \cdot 11^0 = 6 \cdot 1 = 6
+   \]
+   Summing these up:
+   \[
+   14641 + 1331 + 968 + 22 + 6 = 16968
+   \]
+   Therefore, \(11826_{11} = 16968_{10}\).
+
+### Step 2: Perform the multiplication in base 10
+   \[
+   2653_{10} \times 16968_{10} = 2653 \times 16968 = 45012744
+   \]
+
+### Step 3: Convert the result back to base 11
+
+To convert \(45012744_{10}\) to base 11, we perform successive divisions by 11, keeping track of the remainders:
+
+1. \(45012744 \div 11 = 4092067\) remainder \(7\)
+2. \(4092067 \div 11 = 371097\) remainder \(10 \rightarrow A_{11}\)
+3. \(371097 \div 11 = 33736\) remainder \(1\)
+4. \(33736 \div 11 = 3066\) remainder \(10 \rightarrow A_{11}\)
+5. \(3066 \div 11 = 278\) remainder \(8\)
+6. \(278 \div 11 = 25\) remainder \(3\)
+7. \(25 \div 11 = 2\) remainder \(3\)
+8. \(2 \div 11 = 0\) remainder \(2\)
+
+Reading the remainders from bottom to top, we get:
+\[
+45012744_{10} = 233A18A7_{11}
+\]
+
+\(\boxed{1AA2_{11} * 11826_{11} = 233A18A7_{11}}\)
+
+### Final summary:
+\[1AA2_{11} = 2653_{10}\]
+\[11826_{11} = 16968_{10}\]
+\[2653_{10} \times 16968_{10} = 45012744_{10}\]
+\[45012744_{10} = 233A18A7_{11}\]
+
+Therefore:
+\[1AA2_{11} \times 11826_{11} = 45012744_{10} = 233A18A7_{11}\]
+
+\[1AA2_{11} * 11826_{11} = 1AA2_{11} (Conversion: 2653_{10}) * 11826_{11} (Conversion: 16968_{10}) = 45012744_{10} (Converted to~11) = 233A18A7_{11}\]

@@ -1,0 +1,71 @@
+To solve the given equation \(24461_{9} - 52780_{9}\), we first convert both numbers from base 9 to base 10.
+
+### Step 1: Convert 24461 from base 9 to base 10
+
+\[24461_9 = 2 \cdot 9^4 + 4 \cdot 9^3 + 4 \cdot 9^2 + 6 \cdot 9^1 + 1 \cdot 9^0\]
+
+Calculating each term:
+
+\[
+2 \cdot 9^4 = 2 \cdot 6561 = 13122
+\]
+\[
+4 \cdot 9^3 = 4 \cdot 729 = 2916
+\]
+\[
+4 \cdot 9^2 = 4 \cdot 81 = 324
+\]
+\[
+6 \cdot 9^1 = 6 \cdot 9 = 54
+\]
+\[
+1 \cdot 9^0 = 1 \cdot 1 = 1
+\]
+
+Adding them together:
+
+\[
+13122 + 2916 + 324 + 54 + 1 = 16417
+\]
+
+### Step 2: Convert 52780 from base 9 to base 10
+
+\[52780_9 = 5 \cdot 9^4 + 2 \cdot 9^3 + 7 \cdot 9^2 + 8 \cdot 9^1 + 0 \cdot 9^0\]
+
+Calculating each term:
+
+\[
+5 \cdot 9^4 = 5 \cdot 6561 = 32805
+\]
+\[
+2 \cdot 9^3 = 2 \cdot 729 = 1458
+\]
+\[
+7 \cdot 9^2 = 7 \cdot 81 = 567
+\]
+\[
+8 \cdot 9^1 = 8 \cdot 9 = 72
+\]
+\[
+0 \cdot 9^0 = 0 \cdot 1 = 0
+\]
+
+Adding them together:
+
+\[
+32805 + 1458 + 567 + 72 + 0 = 34902
+\]
+
+### Step 3: Subtract the base 10 results
+
+\[
+16417 - 34902 = -18485
+\]
+
+### Summary in one line:
+
+\(24461_{9} - 52780_{9} = 24461_{9} \to 16417_{10} - 52780_{9} \to 34902_{10} = -18485_{10}\)
+
+Therefore, the final answer in base 10 is:
+
+\(-18485_{10}\)

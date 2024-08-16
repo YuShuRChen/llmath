@@ -1,0 +1,31 @@
+To compute the product of 26537 and 19877 in base 10:
+
+1. Multiply \( 26537 \times 19877 \).
+
+To do this step-by-step:
+
+\[ 26537 \times 19877 \]
+\[ = 26537 \times (20000 - 123) \]
+\[ = 26537 \times 20000 - 26537 \times 123 \]
+
+First, calculate \( 26537 \times 20000 \):
+
+\[ 26537 \times 20000 = 530740000 \]
+
+Next, calculate \( 26537 \times 123 \):
+
+\[ 26537 \times 123 \]
+\[ = 26537 \times (100 + 20 + 3) \]
+\[ = 26537 \times 100 + 26537 \times 20 + 26537 \times 3 \]
+\[ = 2653700 + 530740 + 79611 \]
+\[ = 2653700 + 530740 + 79611 = 3268051 \]
+
+Now subtract the result from the first part from the second part:
+
+\[ 530740000 - 3268051 = 527471949 \]
+
+So,
+
+\[ 26537_{10} \times 19877_{10} = 527471949_{10} \]
+
+Final summarized result: \( 26537_{10} \times 19877_{10} = 527471949_{10} \).

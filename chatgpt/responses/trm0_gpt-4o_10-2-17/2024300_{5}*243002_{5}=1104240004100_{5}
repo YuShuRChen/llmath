@@ -1,0 +1,68 @@
+To solve the multiplication of two numbers in base 5, we can start by converting them to base 10, perform the multiplication, and then convert the result back to base 5.
+
+First, we convert \( 2024300_5 \) to base 10:
+
+\[ 2024300_5 = 2 \cdot 5^6 + 0 \cdot 5^5 + 2 \cdot 5^4 + 4 \cdot 5^3 + 3 \cdot 5^2 + 0 \cdot 5^1 + 0 \cdot 5^0 \]
+
+Calculating each term:
+
+\[ 2 \cdot 5^6 = 2 \cdot 15625 = 31250 \]
+\[ 0 \cdot 5^5 = 0 \]
+\[ 2 \cdot 5^4 = 2 \cdot 625 = 1250 \]
+\[ 4 \cdot 5^3 = 4 \cdot 125 = 500 \]
+\[ 3 \cdot 5^2 = 3 \cdot 25 = 75 \]
+\[ 0 \cdot 5^1 = 0 \]
+\[ 0 \cdot 5^0 = 0 \]
+
+Summing these values:
+
+\[ 31250 + 1250 + 500 + 75 = 33075 \]
+
+Thus, \( 2024300_5 = 33075_{10} \).
+
+Next, we convert \( 243002_5 \) to base 10:
+
+\[ 243002_5 = 2 \cdot 5^5 + 4 \cdot 5^4 + 3 \cdot 5^3 + 0 \cdot 5^2 + 0 \cdot 5^1 + 2 \cdot 5^0 \]
+
+Calculating each term:
+
+\[ 2 \cdot 5^5 = 2 \cdot 3125 = 6250 \]
+\[ 4 \cdot 5^4 = 4 \cdot 625 = 2500 \]
+\[ 3 \cdot 5^3 = 3 \cdot 125 = 375 \]
+\[ 0 \cdot 5^2 = 0 \]
+\[ 0 \cdot 5^1 = 0 \]
+\[ 2 \cdot 5^0 = 2 \]
+
+Summing these values:
+
+\[ 6250 + 2500 + 375 + 2 = 9127 \]
+
+Thus, \( 243002_5 = 9127_{10} \).
+
+Now we multiply these two base 10 numbers:
+
+\[ 33075_{10} \times 9127_{10} = 301726725 \]
+
+Lastly, we need to convert \( 301726725 \) from base 10 to base 5. This is done by repeatedly dividing and finding the remainders:
+
+\[ 301726725 \div 5 = 60345345 \text{ remainder } 0 \]
+\[ 60345345 \div 5 = 12069069 \text{ remainder } 0 \]
+\[ 12069069 \div 5 = 2413813 \text{ remainder } 4 \]
+\[ 2413813 \div 5 = 482762 \text{ remainder } 3 \]
+\[ 482762 \div 5 = 96552 \text{ remainder } 2 \]
+\[ 96552 \div 5 = 19310 \text{ remainder } 2 \]
+\[ 19310 \div 5 = 3862 \text{ remainder } 0 \]
+\[ 3862 \div 5 = 772 \text{ remainder } 2 \]
+\[ 772 \div 5 = 154 \text{ remainder } 2 \]
+\[ 154 \div 5 = 30 \text{ remainder } 4 \]
+\[ 30 \div 5 = 6 \text{ remainder } 0 \]
+\[ 6 \div 5 = 1 \text{ remainder } 1 \]
+\[ 1 \div 5 = 0 \text{ remainder } 1 \]
+
+Reading the remainders from bottom to top, \( 301726725_{10} = 110422324300_{5} \).
+
+So, 
+
+\[ 2024300_{5} \times 243002_{5} = 110422324300_{5} \]
+
+Original equation: 2024300_{5} * 243002_{5} = 110422324300_{5}

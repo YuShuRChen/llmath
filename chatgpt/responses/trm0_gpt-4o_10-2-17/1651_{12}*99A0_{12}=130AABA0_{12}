@@ -1,0 +1,127 @@
+To compute \(1651_{12} * 99A0_{12}\), we will first convert each number from base 12 to base 10, perform the multiplication in base 10, and then convert the result back to base 12.
+
+Step 1: Convert \(1651_{12}\) to base 10.
+\[
+1651_{12} = 1 \cdot 12^3 + 6 \cdot 12^2 + 5 \cdot 12^1 + 1 \cdot 12^0
+\]
+\[
+= 1 \cdot 1728 + 6 \cdot 144 + 5 \cdot 12 + 1 \cdot 1
+\]
+\[
+= 1728 + 864 + 60 + 1
+\]
+\[
+= 2653_{10}
+\]
+
+Step 2: Convert \(99A0_{12}\) to base 10.
+\[
+99A0_{12} = 9 \cdot 12^3 + 9 \cdot 12^2 + 10 \cdot 12^1 + 0 \cdot 12^0
+\]
+\[
+= 9 \cdot 1728 + 9 \cdot 144 + 10 \cdot 12 + 0 \cdot 1
+\]
+\[
+= 15552 + 1296 + 120 + 0
+\]
+\[
+= 16968_{10}
+\]
+
+Step 3: Multiply the base 10 equivalents.
+\[
+2653_{10} \times 16968_{10} = 45032784_{10}
+\]
+
+Step 4: Convert \(45032784_{10}\) to base 12.
+Firstly, find the highest power of 12 that fits into 45032784:
+
+\[
+12^8 = 429981696 \quad (too high)
+\]
+\[
+12^7 = 35831808 \quad (use this)
+\]
+Then divide and find the coefficient:
+\[
+45032784 \div 35831808 \approx 1
+\]
+So,
+\[
+(45032784 - 1 \cdot 35831808) = 9200976
+\]
+
+Next,
+\[
+12^6 = 2985984
+\]
+\[
+9200976 \div 2985984 \approx 3
+\]
+\[
+(9200976 - 3 \cdot 2985984) = 244512
+\]
+
+Then,
+\[
+12^5 = 248832
+\quad(too high, hence coefficient = 0)
+\]
+
+Next,
+\[
+12^4 = 20736
+\]
+\[
+244512 \div 20736 \approx 11
+\]
+\[
+(244512 - 11 \cdot 20736) = 9584
+\]
+
+Then,
+\[
+12^3 = 1728
+\]
+\[
+9584 \div 1728 \approx 5
+\]
+\]
+(9584 - 5 \cdot 1728) = 944
+\]
+
+Next, 
+\[
+12^2 = 144
+\]
+\[
+944 \div 144 \approx 6
+\]
+\]
+(944 - 6 \cdot 144) =80
+\]
+
+Next,
+\[
+12^1 = 12
+\]
+80 \div 12 \approx 6
+\]
+80. 6 \cdot 12 =72
+\]
+80 - 72= 8
+\]
+
+Finally,
+\[
+45032784_{10} = 1 \cdot 12^7 + 3 \cdot 12^6 + 0 \cdot 12^5 + 11 \cdot 12^4 + 5 \cdot 12^3 + 6 \cdot 12^2 + 6 \cdot 12^1 + 8 \]
+Thus
+\]
+\(
+45032784_{10} = 130B568_{12}
+)
+
+Hence
+
+\(1651_{12}  * 99A0_{12} = )130B568_{12}
+

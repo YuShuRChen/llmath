@@ -1,0 +1,16 @@
+To subtract 5347 from 17183 in base 12, we can line up the numbers and perform column subtraction, carrying over when necessary.
+
+\[
+\begin{array}{r}
+ 1_{12} \, 7_{12} \, 1_{12} \, 8_{12} \, 3_{12} \\
+- \, \; \; \; 5_{12} \, 3_{12} \, 4_{12} \, 7_{12} \\
+\end{array}
+\]
+
+Starting from the rightmost column:
+- Subtracting 7 from 3 in the ones place requires borrowing. Borrowing 1 from the next column, we have 13 - 7 = 6 in base 12.
+- Subtracting 4 from 8 gives 4 in the twelves place.
+- In the hundreds place, we directly subtract 5 from 1, which is not possible in base 12. Borrowing 1 from the 7 in the thousands place, we get 11 (11th in base 12) - 5 = 6.
+- Finally, subtracting 5 from the leftmost number, we have 1 - 5, which is not possible in base 12. Therefore, the final answer is 5066 in base 12.
+
+Therefore, 17183_{12} - 5347_{12} = 5066_{12}.

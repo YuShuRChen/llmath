@@ -1,0 +1,48 @@
+To solve the given equation \( 57400_9 - 21565_9 \), we first need to convert these numbers from base 9 to base 10.
+
+**Step 1: Convert \( 57400_9 \) to base 10**
+
+The base 9 number \( 57400_9 \) is converted to base 10 as follows:
+\[ 57400_9 = 5*9^4 + 7*9^3 + 4*9^2 + 0*9^1 + 0*9^0 \]
+
+Calculate each term:
+\[ 5*9^4 = 5 * 6561 = 32805 \]
+\[ 7*9^3 = 7 * 729 = 5103 \]
+\[ 4*9^2 = 4 * 81 = 324 \]
+\[ 0*9^1 = 0 * 9 = 0 \]
+\[ 0*9^0 = 0 * 1 = 0 \]
+
+Adding them up:
+\[ 32805 + 5103 + 324 + 0 + 0 = 38232 \]
+
+Therefore:
+\[ 57400_9 = 38232_{10} \]
+
+**Step 2: Convert \( 21565_9 \) to base 10**
+
+The base 9 number \( 21565_9 \) is converted to base 10 as follows:
+\[ 21565_9 = 2*9^4 + 1*9^3 + 5*9^2 + 6*9^1 + 5*9^0 \]
+
+Calculate each term:
+\[ 2*9^4 = 2 * 6561 = 13122 \]
+\[ 1*9^3 = 1 * 729 = 729 \]
+\[ 5*9^2 = 5 * 81 = 405 \]
+\[ 6*9^1 = 6 * 9 = 54 \]
+\[ 5*9^0 = 5 * 1 = 5 \]
+
+Adding them up:
+\[ 13122 + 729 + 405 + 54 + 5 = 14315 \]
+
+Therefore:
+\[ 21565_9 = 14315_{10} \]
+
+**Step 3: Subtract the base 10 equivalents**
+
+Now, perform the subtraction:
+\[ 38232_{10} - 14315_{10} = 23917_{10} \]
+
+Finally, verify the result.
+\[ 57400_9 - 21565_9 = 23917_{10} \]
+
+So, the one-line summary is:
+\[ 57400_9 - 21565_9 = 57400_{9} - 21565_{9} = 38232_{10} - 14315_{10} = 23917_{10} \]

@@ -1,0 +1,10 @@
+To subtract the two numbers, we first need to align them properly:
+
+```
+   133415
+-  143233
+```
+
+Performing the subtraction:
+
+   133415_{7}-143233_{7}= 101102_{7}

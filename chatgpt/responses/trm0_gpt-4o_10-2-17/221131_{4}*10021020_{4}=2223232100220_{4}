@@ -1,0 +1,102 @@
+Let's convert the given numbers from base 4 to base 10. 
+
+**Converting \( 221131_4 \) to decimal (base 10):**
+
+\[ 221131_4 = 2 \cdot 4^5 + 2 \cdot 4^4 + 1 \cdot 4^3 + 1 \cdot 4^2 + 3 \cdot 4^1 + 1 \cdot 4^0 \]
+
+Calculating each term:
+\[ 2 \cdot 4^5 = 2 \cdot 1024 = 2048 \]
+\[ 2 \cdot 4^4 = 2 \cdot 256 = 512 \]
+\[ 1 \cdot 4^3 = 1 \cdot 64 = 64 \]
+\[ 1 \cdot 4^2 = 1 \cdot 16 = 16 \]
+\[ 3 \cdot 4^1 = 3 \cdot 4 = 12 \]
+\[ 1 \cdot 4^0 = 1 \cdot 1 = 1 \]
+
+Adding them up:
+\[ 2048 + 512 + 64 + 16 + 12 + 1 = 2653 \]
+
+So,
+\[ 221131_4 = 2653_{10} \]
+
+**Converting \( 10021020_4 \) to decimal (base 10):**
+
+\[ 10021020_4 = 1 \cdot 4^7 + 0 \cdot 4^6 + 0 \cdot 4^5 + 2 \cdot 4^4 + 1 \cdot 4^3 + 0 \cdot 4^2 + 2 \cdot 4^1 + 0 \cdot 4^0 \]
+
+Calculating each term:
+\[ 1 \cdot 4^7 = 1 \cdot 16384 = 16384 \]
+\[ 0 \cdot 4^6 = 0 \cdot 4096 = 0 \]
+\[ 0 \cdot 4^5 = 0 \cdot 1024 = 0 \]
+\[ 2 \cdot 4^4 = 2 \cdot 256 = 512 \]
+\[ 1 \cdot 4^3 = 1 \cdot 64 = 64 \]
+\[ 0 \cdot 4^2 = 0 \cdot 16 = 0 \]
+\[ 2 \cdot 4^1 = 2 \cdot 4 = 8 \]
+\[ 0 \cdot 4^0 = 0 \cdot 1 = 0 \]
+
+Adding them up:
+\[ 16384 + 0 + 0 + 512 + 64 + 0 + 8 + 0 = 16968 \]
+
+So,
+\[ 10021020_4 = 16968_{10} \]
+
+**Multiplying the decimal numbers:**
+
+\[ 2653 \times 16968 = 45023544 \]
+
+Now, let's convert \( 45023544_{10} \) back to base 4.
+
+Start by finding the highest power of 4 less than 45023544:
+
+\[ 4^{12} = 16777216 \]
+\[ 4^{11} = 4194304 \]
+\[ 4^{10} = 1048576 \]
+
+Now, let's find coefficients for the powers of 4 starting from the highest (12):
+
+\[
+45023544 \div 16777216 = 2 \quad \text{remainder} \: 11469112
+\]
+\[
+11469112 \div 4194304 = 2 \quad \text{remainder} \: 3070496
+\]
+\[
+3070496 \div 1048576 = 2 \quad \text{remainder} \: 973344
+\]
+\[
+973344 \div 262144 = 3 \quad \text{remainder} \: 186912
+\]
+\[
+186912 \div 65536 = 2 \quad \text{remainder} \: 55776
+\]
+\[
+55776 \div 16384 = 3 \quad \text{remainder} \: 6576
+\]
+\[
+6576 \div 4096 = 1 \quad \text{remainder} \: 2480
+\]
+\[
+2480 \div 1024 = 2 \quad \text{remainder} \: 432
+\]
+\[
+432 \div 256 = 1 \quad \text{remainder} \: 176
+\]
+\[
+176 \div 64 = 2 \quad \text{remainder} \: 48
+\]
+\[
+48 \div 16 = 3 \quad \text{remainder} \: 0
+\]
+\[
+0 \div 1 = 0
+\]
+
+So, the coefficients are: 2 2 2 3 2 3 1 2 1 2 3 0 0, hence:
+
+\[45023544_{10} = 22323121230300_{4} \]
+
+Result: \(221131_4 * 10021020_4 = 22323121230300_4\)
+
+Final summary output:
+\[ 221131_4 \rightarrow 2653_{10}, 10021020_4 \rightarrow 16968_{10}, 2653_{10} * 16968_{10} = 45023544_{10}, 45023544_{10} \rightarrow 22323121230300_{4} \]
+
+Therefore, 
+\[ 221131_{4} * 10021020_{4} = 22323121230300_{4}\]

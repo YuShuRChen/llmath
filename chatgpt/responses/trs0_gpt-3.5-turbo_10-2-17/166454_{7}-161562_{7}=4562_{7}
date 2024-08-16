@@ -1,0 +1,29 @@
+To subtract these two numbers, we first align them by place value:
+
+\[
+\begin{array}{c@{}c@{}c@{}c@{}c@{}c}
+ & & 1 & 6 & 6 & 4 & 5_{7} \\
+- & & 1 & 6 & 1 & 5 & 6_{7} \\
+\hline
+\end{array}
+\]
+
+Now, we can perform the subtraction:
+
+$4_{7}$ (borrow 1)
+
+$15_{7} - 6_{7} = 3_{7}$
+
+$4_{7} - 5_{7}$ (borrow 1)
+
+$14_{7} - 5_{7} = 6_{7}$
+
+$1_{7} - 1_{7} = 0_{7}$
+
+$1_{7} - 1_{7} = 0_{7}$
+
+The final result is $503_{7}$.
+
+\[
+166454_{7}-161562_{7}=503_{7}
+\]

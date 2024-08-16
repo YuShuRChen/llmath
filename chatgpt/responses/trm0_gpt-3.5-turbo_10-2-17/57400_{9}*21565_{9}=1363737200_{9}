@@ -1,0 +1,11 @@
+First, we need to convert the numbers to base 10 to perform the multiplication before converting it back to base 9:
+
+57400_{9} = 5*9^4 + 7*9^3 + 4*9^2 = 65655_{10}
+
+21565_{9} = 2*9^4 + 1*9^3 + 5*9^2 + 6*9 + 5 = 23614_{10}
+
+So, 65655_{10} * 23614_{10} = 1550705970_{10} 
+
+Converting the result back to base 9:
+
+1550705970_{10} = 6*9^8 + 6*9^6 + 3*9^5 + 5*9^4 + 3*9^3 + 6*9^2 + 4*9 + 4 = \boxed{664353634_{9}}

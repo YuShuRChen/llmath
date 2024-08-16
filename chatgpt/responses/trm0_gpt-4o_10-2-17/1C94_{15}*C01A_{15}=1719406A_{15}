@@ -1,0 +1,61 @@
+To solve the multiplication of two base-15 numbers \( 1C94_{15} \) and \( C01A_{15} \), we'll follow these steps:
+
+1. Convert \( 1C94_{15} \) and \( C01A_{15} \) to decimal (base 10).
+2. Multiply the resulting base 10 numbers.
+3. Convert the product back to base 15.
+
+### Step 1: Convert \( 1C94_{15} \) to decimal
+
+\[ 1C94_{15} = 1 \cdot 15^3 + C \cdot 15^2 + 9 \cdot 15^1 + 4 \cdot 15^0 \]
+
+Where 
+\[ C_{15} = 12_{10} \]
+
+So,
+
+\[ 1 \cdot 15^3 + 12 \cdot 15^2 + 9 \cdot 15^1 + 4 \cdot 15^0 \]
+\[ = 1 \cdot 3375 + 12 \cdot 225 + 9 \cdot 15 + 4 \]
+\[ = 3375 + 2700 + 135 + 4 \]
+\[ = 6214_{10} \]
+
+### Step 2: Convert \( C01A_{15} \) to decimal
+
+\[ C01A_{15} = C \cdot 15^3 + 0 \cdot 15^2 + 1 \cdot 15^1 + A \cdot 15^0 \]
+
+Where 
+\[ C_{15} = 12_{10} \]
+\[ A_{15} = 10_{10} \]
+
+So,
+
+\[ 12 \cdot 15^3 + 0 \cdot 15^2 + 1 \cdot 15^1 + 10 \cdot 15^0 \]
+\[ = 12 \cdot 3375 + 0 \cdot 225 + 1 \cdot 15 + 10 \]
+\[ = 40500 + 0 + 15 + 10 \]
+\[ = 40525_{10} \]
+
+### Step 3: Multiply the two decimal numbers
+
+\[ 6214_{10} \cdot 40525_{10} = 251672350_{10} \]
+
+### Step 4: Convert the product \( 251672350_{10} \) back to base 15
+
+To convert \( 251672350_{10} \) to base 15, we repeatedly divide by 15 and record the remainders:
+
+\[ 251672350 \div 15 = 16778156 \text{ remainder } 10 \]
+\[ 16778156 \div 15 = 1118543 \text{ remainder } 11 \]
+\[ 1118543 \div 15 = 74569 \text{ remainder } 8 \]
+\[ 74569 \div 15 = 4971 \text{ remainder } 14 \]
+\[ 4971 \div 15 = 331 \text{ remainder } 6 \]
+\[ 331 \div 15 = 22 \text{ remainder } 1 \]
+\[ 22 \div 15 = 1 \text{ remainder } 7 \]
+\[ 1 \div 15 = 0 \text{ remainder } 1 \]
+
+Reading the remainders from bottom to top gives us the base-15 number \( 17146 \Delta 8BA_{15} \).
+
+Summarizing all the steps:
+
+\[ 1C94_{15} \times C01A_{15} = 1C94_{15} \rightarrow 6214_{10}, C01A_{15} \rightarrow 40525_{10},  6214_{10} \times 40525_{10} = 251672350_{10} \Rightarrow 17146B8BA_{15} \]
+
+So, the final result is:
+
+\[ 1C94_{15} \times C01A_{15} = 17146B8BA_{15} \]

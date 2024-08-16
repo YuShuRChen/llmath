@@ -1,0 +1,18 @@
+To compute the product of 204001_{6}*425330_{6}, we follow the standard procedure for multiplying numbers in base 6:
+
+\[
+\begin{array}{c@{}c@{\;}c@{}c@{}c@{}c}
+& & & 2 & 0 & 4 & 0 & 0\\
+& & \times & & 4 & 2 & 5 & 3 & 3 & 0\\
+\cline{1-9}
+& & & & & 2 \\
+& & & & 0 & 4 \\
+& & 6 & 1 & 0 & 4 \\
+& 0 & 2 & 4 & 0 & 0 \\
++ & & & & 1 2 \\
+\cline{1-9}
+& 0 & 2 & 3 & 3 & 2 0 1 4 0_{6} \\
+\end{array}
+\]
+
+Therefore, \(204001_{6}*425330_{6}=23320140_{6}\).

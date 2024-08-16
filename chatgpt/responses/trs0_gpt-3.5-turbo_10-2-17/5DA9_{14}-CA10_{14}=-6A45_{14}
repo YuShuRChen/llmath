@@ -1,0 +1,11 @@
+To subtract these two numbers, we need to borrow from the left. 
+
+\[
+\begin{array}{r}
+\underline{5DA9_{14}} \\
+-CA10_{14} \\ \hline
+20F9_{14}
+\end{array}
+\]
+
+Therefore, \(5DA9_{14}-CA10_{14}=20F9_{14}\).

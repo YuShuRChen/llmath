@@ -1,0 +1,115 @@
+To solve the equation \(1322122_5 - 1114002_5\), we will first convert both numbers from base 5 to base 10, perform the subtraction in base 10, and then convert the result back to base 5.
+
+### Convert \(1322122_5\) to base 10:
+Each digit is multiplied by 5 raised to the power of its positional index (from right, starting at 0).
+
+\[
+1*(5^6) + 3*(5^5) + 2*(5^4) + 2*(5^3) + 1*(5^2) + 2*(5^1) + 2*(5^0)
+\]
+
+Calculating each term:
+\[
+1*(15625) + 3*(3125) + 2*(625) + 2*(125) + 1*(25) + 2*(5) + 2*(1)
+\]
+
+\[
+1*(15625) = 15625
+\]
+\[
+3*(3125) = 9375
+\]
+\[
+2*(625) = 1250
+\]
+\[
+2*(125) = 250
+\]
+\[
+1*(25) = 25
+\]
+\[
+2*(5) = 10
+\]
+\[
+2*(1) = 2
+\]
+
+Adding them together:
+\[
+15625 + 9375 + 1250 + 250 + 25 + 10 + 2 = 26537
+\]
+
+So, \(1322122_5 = 26537_{10}\).
+
+### Convert \(1114002_5\) to base 10:
+\[
+1*(5^6) + 1*(5^5) + 1*(5^4) + 4*(5^3) + 0*(5^2) + 0*(5^1) + 2*(5^0)
+\]
+
+Calculating each term:
+\[
+1*(15625) + 1*(3125) + 1*(625) + 4*(125) + 0*(25) + 0*(5) + 2*(1)
+\]
+
+\[
+1*(15625) = 15625
+\]
+\[
+1*(3125) = 3125
+\]
+\[
+1*(625) = 625
+\]
+\[
+4*(125) = 500
+\]
+\[
+0*(25) = 0
+\]
+\[
+0*(5) = 0
+\]
+\[
+2*(1) = 2
+\]
+
+Adding them together:
+\[
+15625 + 3125 + 625 + 500 + 0 + 0 + 2 = 19877
+\]
+
+So, \(1114002_5 = 19877_{10}\).
+
+### Perform the subtraction in base 10:
+\[
+26537_{10} - 19877_{10} = 6650_{10}
+\]
+
+### Convert the result \(6650_{10}\) back to base 5:
+We need to divide 6650 by 5 and record the remainders.
+
+\[
+6650 \div 5 = 1330 \quad \text{remainder}\, 0
+\]
+\[
+1330 \div 5 = 266 \quad \text{remainder}\, 0
+\]
+\[
+266 \div 5 = 53 \quad \text{remainder}\, 1
+\]
+\[
+53 \div 5 = 10 \quad \text{remainder}\, 3
+\]
+\[
+10 \div 5 = 2 \quad \text{remainder}\, 0
+\]
+\[
+2 \div 5 = 0 \quad \text{remainder}\, 2
+\]
+
+Reading the remainders from bottom to top, we get \(203100_5\).
+
+#### Summary:
+\[
+1322122_{5} - 1114002_{5} = 26537_{10} - 19877_{10} = 6650_{10} = 203100_{5}
+\]

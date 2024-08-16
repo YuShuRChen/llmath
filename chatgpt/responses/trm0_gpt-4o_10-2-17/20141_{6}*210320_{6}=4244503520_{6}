@@ -1,0 +1,47 @@
+To convert the given numbers from base 6 to base 10, we should expand each number using its positional values in base 6.
+
+First, let's convert 20141_{6} to base 10:
+
+20141_{6} = 2*(6^4) + 0*(6^3) + 1*(6^2) + 4*(6^1) + 1*(6^0)
+
+Calculating the individual terms:
+2*(6^4) = 2*1296 = 2592
+0*(6^3) = 0*216 = 0
+1*(6^2) = 1*36 = 36
+4*(6^1) = 4*6 = 24
+1*(6^0) = 1*1 = 1
+
+Adding these values together:
+2592 + 0 + 36 + 24 + 1 = 2653
+
+So, 20141_{6} converts to 2653_{10}.
+
+Next, let's convert 210320_{6} to base 10:
+
+210320_{6} = 2*(6^5) + 1*(6^4) + 0*(6^3) + 3*(6^2) + 2*(6^1) + 0*(6^0)
+
+Calculating the individual terms:
+2*(6^5) = 2*7776 = 15552
+1*(6^4) = 1*1296 = 1296
+0*(6^3) = 0*216 = 0
+3*(6^2) = 3*36 = 108
+2*(6^1) = 2*6 = 12
+0*(6^0) = 0*1 = 0
+
+Adding these values together:
+15552 + 1296 + 0 + 108 + 12 + 0 = 16968
+
+So, 210320_{6} converts to 16968_{10}.
+
+Now, we multiply the two base 10 numbers:
+
+2653 * 16968
+
+Performing the multiplication:
+2653 * 16968 = 45035184
+
+So, 20141_{6} * 210320_{6} = 45035184_{10}.
+
+Summarizing the steps:
+
+20141_{6} = 2653_{10}, 210320_{6} = 16968_{10}, 2653_{10} * 16968_{10} = 45035184_{10}
