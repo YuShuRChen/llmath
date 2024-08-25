@@ -4,24 +4,33 @@ import pandas as pd
 import utils
 
 
-def _check_pr_score_targets(y_pred):
+# def _check_pr_score_targets(x, y_pred):
+#     if not isinstance(x, list):
+#         raise TypeError('x must be a list')
+#     if not isinstance(y_pred, list) or not all(isinstance(i, list) for i in y_pred):
+#         raise TypeError("y_pred must be a list of lists")
+#     return x, y_pred
+
+
+def pr_score(x, y_pred, calculate=utils.calculate, grade_process=utils.grade_process, pr_ratio=0.4):
+    # x, y_pred = _check_pr_score_targets(x, y_pred)
+    if not isinstance(x, list):
+        raise TypeError('x must be a list')
     if not isinstance(y_pred, list) or not all(isinstance(i, list) for i in y_pred):
-        raise ValueError("y_pred should be a list of lists")
-
-    for i in range(len(y_pred)):
-        y = [(y_pred[i][j], y_pred[i][j+1]) for j in range(len(y_pred[i])-1)]
-        y_pred[i] = pd.DataFrame(y, columns=['equation', 'result'], dtype=str)
-
-    return y_pred
-
-
-def pr_score(y_pred, scoring=utils.score_add, pr_ratio=0.4):
-    y_pred = _check_pr_score_targets(y_pred)
+        raise TypeError("y_pred must be a list of lists")
 
     score = 0
-    for i in range(len(y_pred)):
-        y_pred[i]['score'] = y_pred[i].apply(lambda y: scoring(y['equation'], y['result']), axis=1)
-        process_score = y_pred[i]['score'].sum() / len(y_pred[i])
-        score = process_score * pr_ratio
+    graded = {}
+    for xi, yi in zip(x, y_pred):
+        if len(yi) == 0:
+            graded[xi] = {'y_process': {}, 'x_correctness': 0, 'y_correctness': 0, 'process_score': 0, f'pr_score({pr_ratio})': 0}
+            continue
+        y_graded = grade_process(yi)
+        y_graded['x_correctness'] = int(yi[0] == xi)
+        y_graded['y_correctness'] = int(yi[-1] == calculate(xi))
+        y_graded['process_score'] = y_graded['y_process']['correctness'].sum() / len(y_graded['y_process'])
+        y_graded[f'pr_score({pr_ratio})'] = y_graded['process_score'] * pr_ratio + y_graded['y_correctness'] * (1 - pr_ratio)
+        score += y_graded[f'pr_score({pr_ratio})']
+        graded[xi] = y_graded
 
-    return score
+    return score / len(x), graded

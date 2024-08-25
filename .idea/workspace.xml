@@ -5,22 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ddb868-5241-44bd-a164-c6de21da216f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Analysis Study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LogiBench.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/data_generation-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatgpt/responses/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatgpt/responses/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/Untitled.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatgpt/responses/tra0_gpt-3.5-turbo_10-2-17.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/tra0_gpt-3.5-turbo_10-2-17/tra0_gpt-3.5-turbo_10-2-17.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatgpt/responses/tra0_gpt-4o_10-2-17.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/tra0_gpt-4o_10-2-17/tra0_gpt-4o_10-2-17.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatgpt/responses/trm0_gpt-3.5-turbo_10-2-17.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/trm0_gpt-3.5-turbo_10-2-17/trm0_gpt-3.5-turbo_10-2-17.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatgpt/responses/trm0_gpt-4o_10-2-17.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/trm0_gpt-4o_10-2-17/trm0_gpt-4o_10-2-17.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatgpt/responses/trs0_gpt-3.5-turbo_10-2-17.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/trs0_gpt-3.5-turbo_10-2-17/trs0_gpt-3.5-turbo_10-2-17.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatgpt/responses/trs0_gpt-4o_10-2-17.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/trs0_gpt-4o_10-2-17/trs0_gpt-4o_10-2-17.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/data_generation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/data_generation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluate.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluate_test_random_add.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt/.ipynb_checkpoints/evaluate-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/.ipynb_checkpoints/evaluate-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt/evaluate.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/chatgpt_get_response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt/responses/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/parse_responses.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt/responses/Untitled.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/manual_label_responses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt/responses/test_random_add_response.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/test_random_add_response_20-2-37.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt/responses/trm0_gpt-4o_10-2-17/trm0_gpt-4o_10-2-17_summary_formatted.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/trm0_gpt-4o_10-2-17/trm0_gpt-4o_10-2-17_summary_formatted.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt/responses/trs0_gpt-3.5-turbo_10-2-17/trs0_gpt-3.5-turbo_10-2-17_summary_formatted.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt/responses/trs0_gpt-3.5-turbo_10-2-17/trs0_gpt-3.5-turbo_10-2-17_summary_formatted.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/metric.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,34 +46,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Untitled.executor": "Run",
-    "Python.chatgpt.executor": "Run",
-    "Python.data_generation.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.metric.executor": "Run",
-    "Python.utils.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/tree/Programming/PycharmProjects/LogiBench",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Untitled.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chatgpt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_generation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.metric.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tree/Programming/PycharmProjects/LogiBench/chatgpt&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chatgpt" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/chatgpt/responses/trs0_gpt-4o_10-2-17" />
       <recent name="$PROJECT_DIR$/chatgpt/responses/trs0_gpt-3.5-turbo_10-2-17" />
       <recent name="$PROJECT_DIR$/chatgpt/responses/trm0_gpt-4o_10-2-17" />
       <recent name="$PROJECT_DIR$/chatgpt/responses/trm0_gpt-3.5-turbo_10-2-17" />
-      <recent name="$PROJECT_DIR$/chatgpt/responses/tra0_gpt-4o_10-2-17" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -122,11 +121,26 @@
       <workItem from="1722471420050" duration="10000" />
       <workItem from="1722471435437" duration="7835000" />
       <workItem from="1723352459707" duration="63162000" />
+      <workItem from="1723738256678" duration="18682000" />
+      <workItem from="1723777842135" duration="83761000" />
+      <workItem from="1724084723177" duration="159678000" />
+      <workItem from="1724563410084" duration="5983000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/tree/Programming/PycharmProjects/LogiBench/chatgpt/evaluate.ipynb</url>
+          <line>41</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/nlp_logic$utils.coverage" NAME="utils Coverage Results" MODIFIED="1722200839865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -135,7 +149,8 @@
     <SUITE FILE_PATH="coverage/Analysis_Study$utils.coverage" NAME="utils Coverage Results" MODIFIED="1717808473444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Analysis_Study$main.coverage" NAME="main Coverage Results" MODIFIED="1718064098084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatgpt" />
     <SUITE FILE_PATH="coverage/nlp_logic$main.coverage" NAME="main Coverage Results" MODIFIED="1722030942562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatgpt" />
-    <SUITE FILE_PATH="coverage/LogiBench$Untitled.coverage" NAME="Untitled Coverage Results" MODIFIED="1723703332821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatgpt/responses" />
+    <SUITE FILE_PATH="coverage/LogiBench$Untitled.coverage" NAME="Untitled Coverage Results" MODIFIED="1723769709545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatgpt/responses" />
     <SUITE FILE_PATH="coverage/nlp_logic$metric.coverage" NAME="metric Coverage Results" MODIFIED="1721418778527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LogiBench$utils.coverage" NAME="utils Coverage Results" MODIFIED="1724288140345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

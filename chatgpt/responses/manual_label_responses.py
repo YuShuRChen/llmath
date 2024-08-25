@@ -17,4 +17,4 @@ for base in range(2, 17):
             "response: \n" + df_response[f"answer_{{{base}}}"][i] + "\n")
         print(df_formatted_response[f"answer_{{{base}}}"][i])
 #%%
-df_formatted_response.to_csv(file + '/' + file + "_summary_formatted.csv", index=False)
+df_formatted_response.to_csv(file + '/' + file + "_process_formatted.csv", index=False)

@@ -1,10 +1,11 @@
+import pandas as pd
 import re
 
 DIGITS = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-OPERATORS = ["+", "-", "*", "/"]
+OPERATORS = ("+", "-", "*", "/")
 
 
-def _check_number_format(number):
+def _check_number_format(number, digits=DIGITS):  # need change to check if digits
     pattern = r"^(-?[0-9A-Z]+(?:\.[0-9A-Z]+)?)_{([0-9]+)}$"
     match = re.fullmatch(pattern, number)
     if match is None:
@@ -13,22 +14,33 @@ def _check_number_format(number):
     return number, int(base)
 
 
-def _check_formula_format(formula):
-    for operator in OPERATORS:
-        if operator in formula:
-            number1, number2 = formula.split(operator)
-            _check_number_format(number1)
-            _check_number_format(number2)
+def _check_equation_format(equation, digits=DIGITS, operators=OPERATORS):  # single operator
+    for operator in operators:
+        if operator in equation:
+            number1, number2 = (equation[:-1] if equation[-1] == '=' else equation).split(operator)
+            _check_number_format(number1, digits=digits)
+            _check_number_format(number2, digits=digits)
             return number1, operator, number2
-    raise ValueError(f"Formula {formula} does not contain a valid operator")
+    raise ValueError(f"Formula {equation} does not contain a valid operator")
 
 
-def convert_base(number, to_base=10):  # , base_digits=BASE_DIGITS):
-    base_digits = DIGITS
+def check_format(string, digits=DIGITS, operators=OPERATORS):
+    try:
+        return _check_equation_format(string, digits=digits, operators=operators)
+    except:
+        try:
+            return _check_number_format(string, digits=DIGITS)
+        except:
+            return ()
 
+
+def convert_base(number, to_base=10, base_digits=DIGITS):  # cannot not deal with decimals yet
     number, from_base = _check_number_format(number)
+
     if from_base < 2 or len(base_digits) < from_base:
-        raise ValueError(f"Base must be between 2 and length of base_digits ({len(base_digits)})")
+        raise ValueError(f"Number must be from base between 2 and the length of base_digits ({len(base_digits)})")
+    if to_base < 2 or len(base_digits) < to_base:
+        raise ValueError(f"to_base must be between 2 and the length of base_digits ({len(base_digits)})")
 
     negative = False
     if number[0] == '-':
@@ -60,13 +72,15 @@ def convert_base(number, to_base=10):  # , base_digits=BASE_DIGITS):
 
 
 def calculate(equation):
-    number1, operator, number2 = _check_formula_format(equation[:-1])
+    number1, operator, number2 = _check_equation_format(equation)
     _, base1 = _check_number_format(number1)
     _, base2 = _check_number_format(number2)
 
+    # convert number 1 & 2 to base 10
     number1 = convert_base(number1)
     number2 = convert_base(number2)
 
+    # if same base, convert to original base; if different, keep base 10
     to_base = 10
     if base1 == base2:
         to_base = base1
@@ -77,13 +91,46 @@ def calculate(equation):
         return convert_base(str(int(number1.split("_")[0]) - int(number2.split("_")[0])) + "_{10}", to_base=to_base)
     elif operator == "*":
         return convert_base(str(int(number1.split("_")[0]) * int(number2.split("_")[0])) + "_{10}", to_base=to_base)
-    else:
+    elif operator == "/":
         return convert_base(str(int(number1.split("_")[0]) / int(number2.split("_")[0])) + "_{10}", to_base=to_base)
+    else:
+        raise ValueError(f"Operator '{operator}' is not valid")
 
 
-def score_add(equation, result):
-    return 0
+def grade_process(y):
+    y_graded = {}
 
+    y = pd.DataFrame([[y[i], y[i+1]] for i in range(len(y) - 1)], columns=['equation', 'result'], dtype=str)
+    for index, row in y.iterrows():
+        correct_result = ''
+        equation_format = check_format(row['equation'])
+        result_format = check_format(row['result'])
+        if len(result_format) == 3:
+            n1, b1 = _check_number_format(result_format[0])
+            n2, b2 = _check_number_format(result_format[2])
+            if len(equation_format) == 3:
+                correct_result = convert_base(equation_format[0], to_base=b1) + result_format[1] + convert_base(equation_format[2], to_base=b2)
+            # elif len(equation_format) == 2:
+            #     correct_result = calculate(row['equation'])
+        elif len(result_format) == 2:
+            if len(equation_format) == 3:
+                correct_result = calculate(row['equation'])
+            elif len(equation_format) == 2:
+                correct_result = convert_base(row['equation'], to_base=result_format[1])
+        else:
+            if len(equation_format) == 3:
+                correct_result = calculate(row['equation'])
+            elif len(equation_format) == 2:
+                correct_result = convert_base(row['equation'], to_base=result_format[1])
+
+        y.at[index, 'correct_result = '] = correct_result
+        y.at[index, 'correctness'] = int(row['result'] == correct_result)
+        # row['']  # other metrics
+
+    y_graded['y_process'] = y
+
+    # y_graded['grade'] = y['correctness'].sum() / len(y)
+    return y_graded
 
 # def check_correctness_in_base(a, b, base):
 #     a = a[::-1]
